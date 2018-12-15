@@ -1,0 +1,771 @@
+<!doctype html>
+<html xml:lang="en" lang="en" dir="ltr">
+
+<head>
+<title>Department of Mechanical and Industrial Engineering &lt; University of Illinois at Chicago</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="search" type="application/opensearchdescription+xml"
+			href="/search/opensearch.xml" title="Catalog" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<link href="/favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" type="text/css" href="/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/fonts/font-awesome/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="/css/screen.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/css/handheld.css" media="only screen and (max-width: 767px)" />
+<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/lfjs.js"></script>
+<script type="text/javascript" src="/js/lfjs_any.js"></script>
+<link rel="stylesheet" type="text/css" href="/js/lfjs.css" />
+<script type="text/javascript" src="/js/courseleaf.js"></script>
+<script type="text/javascript" src="/js/custom.js"></script>
+
+</head>
+
+
+
+<body>
+
+
+
+
+<!--htdig_noindex-->
+<div class="accessible noscript">
+    <div class="accessible-menu" role="navigation" aria-label="Accessible Navigation">
+		<ul>
+			<li><a href="#content" rel="section">Skip to Content</a></li>
+			<li><a href="/azindex/">AZ Index</a></li>
+			<li><a href="/">Catalog Home</a></li>
+			<li><a href="http://www.uic.edu">Institution Home</a></li>
+		</ul>
+	</div>
+</div>
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="header" role="header">
+    <div class="wrap clearfix">
+        <li><a href="/"><h1>Academic Catalog</h1></a></li>
+        <div id="head-right">
+            <div id="search" role="search">
+			<form id="cl-search" action="/search/" class="clearfix">
+				<label for="name">Search Catalog</label>
+				<input type="text" name="search" size="25" placeholder="Search catalog..." class="searchbox" id="name" title="Search Catalog" />
+				<input type="submit" value="Search" class="submit" />
+<input type="hidden" name="fscaturl" value="/ucat" /><input type="hidden" name="gscaturl" value="/ucat" />			</form>
+            </div><!-- end #search -->
+        </div><!--end #head-right -->
+    </div><!--end .wrap -->
+</div><!-- end #header -->
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="navigation" class="clearfix" role="navigation" aria-label="Main Navigation">
+    <div class="wrap">
+        <ul>
+            <li><a href="/ucat/">Undergraduate Catalog</a></li>
+            <li><a href="/gcat">Graduate Catalog</a></li>
+            <li><a href="#" onclick="showPrintDialog(); return false;">Print / Download Options</a></li>
+            <li><a href="http://www.uic.edu">UIC Home</a></li>                        
+        </ul>  
+    </div><!--end .wrap -->
+</div><!--end #navigation -->
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="banner" role="banner">
+    <div class="wrap">
+        <div class="logo"><a href="http://www.uic.edu">The University of Illinois at Chicago</a></div>
+    </div><!--end .wrap -->
+</div><!--end #navigation -->
+<!--/htdig_noindex-->
+
+<div id="wrapper">
+
+    <div id="container" class="clearfix">
+        <div id="nav-col" role="complementary">
+            <div id="cl-menu-control" class="togglenav clearfix">
+                <a class="cl-menu-text" href="#">Catalog Navigation</a>
+                <a class="cl-menu-btn" href="#">Catalog Navigation</a>
+            </div><!--end #cl-menu-control-->
+            
+            <!-- Begin Regular Nav -->
+            <div id="cl-menu" role="navigation" aria-label="Secondary Navigation">
+<ul class="nav levelzero" id="/">
+	<li class="active isparent"><a href="/ucat/">Undergraduate Catalog</a>
+	<ul class="nav levelone" id="/ucat/">
+		<li><a href="/ucat/academic-calendar/">Academic Calendar</a></li>
+		<li class="isparent"><a href="/ucat/the-university/">The University</a></li>
+		<li class="isparent"><a href="/ucat/admissions-registration-finances/">Admissions, Registration &amp;&#8203; Finances</a></li>
+		<li class="isparent"><a href="/ucat/degree-programs/">Degree Programs and Requirements</a></li>
+		<li class="active isparent"><a href="/ucat/colleges-depts/">Colleges &amp;&#8203; Departments</a>
+		<ul class="nav leveltwo" id="/ucat/colleges-depts/">
+			<li class="isparent"><a href="/ucat/colleges-depts/applied-health-sciences/">College of Applied Health Sciences</a></li>
+			<li class="isparent"><a href="/ucat/colleges-depts/architecture-design-arts/">College of Architecture, Design, and the Arts</a></li>
+			<li class="isparent"><a href="/ucat/colleges-depts/business-administration/">College of Business Administration</a></li>
+			<li class="isparent"><a href="/ucat/colleges-depts/education/">College of Education</a></li>
+			<li class="active isparent"><a href="/ucat/colleges-depts/engineering/">College of Engineering</a>
+			<ul class="nav levelthree" id="/ucat/colleges-depts/engineering/">
+				<li class="isparent"><a href="/ucat/colleges-depts/engineering/bioe/">Bioengineering</a></li>
+				<li class="isparent"><a href="/ucat/colleges-depts/engineering/che/">Chemical Engineering</a></li>
+				<li class="isparent"><a href="/ucat/colleges-depts/engineering/cme/">Civil and Materials Engineering</a></li>
+				<li class="isparent"><a href="/ucat/colleges-depts/engineering/cs/">Computer Science</a></li>
+				<li class="isparent"><a href="/ucat/colleges-depts/engineering/ece/">Electrical and Computer Engineering</a></li>
+				<li class="active isparent self"><a href="#" onclick="return false;">Mechanical and Industrial Engineering</a>
+				<ul class="nav levelfour" id="/ucat/colleges-depts/engineering/mie/">
+					<li><a href="/ucat/colleges-depts/engineering/mie/bs-me/">BS in Mechanical Engineering</a></li>
+					<li><a href="/ucat/colleges-depts/engineering/mie/bs-ie/">BS in Industrial Engineering</a></li>
+					<li><a href="/ucat/colleges-depts/engineering/mie/bs-ie-mgmt/">BS in Engineering Management</a></li>
+					<li><a href="/ucat/colleges-depts/engineering/mie/minor-ie/">Minor in Industrial Engineering</a></li>
+					<li><a href="/ucat/colleges-depts/engineering/mie/minor-me/">Minor in Mechanical Engineering</a></li>
+				</ul>
+				</li>
+				<li class="isparent"><a href="/ucat/colleges-depts/engineering/addl-interdisciplinary-opps/">Additional Interdisciplinary Opportunities</a></li>
+			</ul>
+			</li>
+			<li><a href="/ucat/colleges-depts/honors-college/">Honors College</a></li>
+			<li class="isparent"><a href="/ucat/colleges-depts/liberal-arts-sciences/">College of Liberal Arts and Sciences</a></li>
+			<li class="isparent"><a href="/ucat/colleges-depts/nursing/">College of Nursing</a></li>
+			<li class="isparent"><a href="/ucat/colleges-depts/pharmacy/">College of Pharmacy</a></li>
+			<li class="isparent"><a href="/ucat/colleges-depts/public-health/">School of Public Health</a></li>
+			<li class="isparent"><a href="/ucat/colleges-depts/urban-planning-public-affairs/">College of Urban Planning and Public Affairs</a></li>
+			<li><a href="/ucat/colleges-depts/council-teacher-education/">Council on Teacher Education</a></li>
+		</ul>
+		</li>
+		<li class="isparent"><a href="/ucat/course-descriptions/">Undergraduate Course Descriptions</a></li>
+		<li><a href="/ucat/archive-links/">Archive &amp;&#8203; Links</a></li>
+	</ul>
+	</li>
+	<li class="isparent"><a href="/gcat/">Graduate Catalog</a></li>
+	<li class="isparent"><a href="/all-course-descriptions/">All Course Descriptions</a></li>
+</ul>
+			   </div><!--end #cl-menu-->
+            <!-- End Nav -->
+        </div><!-- end #nav-col -->		    
+    		    
+        <div id="content-col">
+            <div id="content" role="main">
+
+<div id="breadcrumb" class="clearfix" role="navigation" aria-label="Breadcrumb Navigation">
+<ul><li><a href="/">Home</a><span class="crumbsep">/</span></li><li><a href="/ucat/">Undergraduate&nbsp;Catalog</a><span class="crumbsep">/</span></li><li><a href="/ucat/colleges-depts/">Colleges&nbsp;&amp;&nbsp;Departments</a><span class="crumbsep">/</span></li><li><a href="/ucat/colleges-depts/engineering/">College&nbsp;of&nbsp;Engineering</a><span class="crumbsep">/</span></li><li><span class="active">Mechanical and Industrial Engineering</span></li></ul>
+</div><!-- end #breadcrumb -->
+
+			<h1 class="page-title">Department of Mechanical and Industrial Engineering</h1>
+
+
+<script type="text/javascript">
+//<![CDATA[
+	var defshow = "text";
+	var bodycontainer = "#body";
+	var validhashes = ",text,undergraduateprogramstext,";
+
+if(window.location.hash.length) {
+	var hash = cleanHash(window.location.hash);
+	if(validhashes.indexOf("," + hash + ",") != -1)
+		defshow = hash;	
+}
+var ss = document.styleSheets;
+var workss = null;
+for(var i=0; i < ss.length; i++) {
+	var currmedia = "";
+	if (typeof ss[i].media == "string") 
+		currmedia = ss[i].media
+	else if (typeof ss[i].media == "object" && ss[i].media.mediaText) 
+		currmedia = ss[i].media.mediaText;
+	
+	if((currmedia == "screen" || currmedia == "all") && (ss[i].href.indexOf("/") == 0 || ss[i].href.indexOf(document.location.host) >= 0)) {
+		workss = ss[i];
+		break;	
+	}
+}
+if(workss && workss.insertRule) {
+	workss.insertRule(".tab_content { display: none; }", workss.cssRules.length)
+	workss.insertRule(".sectionheader { display: none; }", workss.cssRules.length)
+	workss.insertRule("#" + defshow + "container { display: block; }", workss.cssRules.length)
+} else if(workss && workss.addRule) {
+	workss.addRule(".tab_content", "display: none");
+	workss.addRule(".sectionheader", "display: none");
+	workss.addRule("#" + defshow + "container", "display: block");
+}
+else {
+	if (window.console)
+		window.console.log('screen.css <link> needs attribute media="screen"');
+}
+//]]>
+</script>
+	<div id="tabs">
+		<ul class="clearfix" role="tablist">
+			<li id="texttab" role="presentation">
+<a href="#textcontainer" role="tab" aria-controls="textcontainer" onclick="return showSection('text');">Overview</a></li>
+			<li id="undergraduateprogramstexttab" role="presentation">
+<a href="#undergraduateprogramstextcontainer" role="tab" aria-controls="undergraduateprogramstextcontainer" onclick="return showSection('undergraduateprogramstext');" >Programs and Requirements</a></li>
+			<li id="courseinventorytab" role="presentation"><a href="#courseinventory" role="tab" aria-controls="courseinventorycontainer" onclick="return showSection('courseinventory');">Courses</a></li>
+		</ul>
+	</div>
+
+<div id="textcontainer" class="tab_content" role="tabpanel">
+
+<div class="sidebar">
+	<div id="sidebar-contact">
+
+<p class="campus_location"><span class="label"><strong>Contact Information: </strong></span>
+<br /><span class="campus_location">Campus Location: 2039 Engineering Research Facility (ERF), Student Services: Undergraduate Engineering Office, 123 Science and Engineering Offices (SEO)
+<br /><span class="phone">(312) 996–5317, Student Services (312) 996-3463</span>
+
+
+</p>
+<p class="administration"><span class="label"><strong>Administration: </strong></span><br />Department Head, Farzad Mashayek, <a href="mailto:mashayek@uic.edu">mashayek@uic.edu</a>, (312) 996-1154<br />Director of Undergraduate Studies, Houshang Darabi, <a href="mailto:hdarabi@uic.edu">hdarabi@uic.edu</a>, (312) 996-6593<br />Undergraduate Coordinator: Stacie Scott, <a href="mailto:stacies@uic.edu">stacies@uic.edu</a>, (312) 996-5317<br /></p>
+	</div>
+</div>
+
+<p>The Department of Mechanical and Industrial Engineering offers both fundamental and advanced courses that prepare students for careers in the engineering profession or for advanced study at the graduate level. The department offers Bachelor of Science degrees in Mechanical Engineering, Industrial Engineering, and Engineering Management. All programs are offered in an economically thriving, industrialized, and world-class city. The campus is located in the heart of Chicago, and has a diverse student body in a leading-edge research environment.</p>
+<h2>Accreditation</h2>
+<p>The Department of Mechanical and Industrial Engineering offers two programs accredited by the Engineering Accreditation Commission of the Accreditation Board for Engineering and Technology. These degrees are the Bachelor of Science in Mechanical Engineering and Bachelor of Science in Industrial Engineering.</p>
+<p>Engineering Accreditation Commission of the Accreditation Board for Engineering and Technology<br/>
+415 North Charles Street<br/>
+Baltimore, Maryland 21201<br/>
+(410) 347-7700</p>
+<h2>BS in Mechanical Engineering</h2>
+<p>Mechanical engineering is essential to a wide range of activities that include the design, development, manufacture, management, and control of engineering systems, subsystems, and their components. Typically mechanical engineers are employed in a wide range of industries, such as manufacturing, power, aerospace, automotive, materials, and processing industries. As a result of the recent rapid expansion of technology, mechanical engineers also have become increasingly involved in computer-aided design and visualization; robotics; bioengineering; environmental engineering; solar, wind, and ocean energy sources; and space exploration. The breadth of the field provides the graduate with many possibilities for a satisfying career.</p>
+<p>The program has been developed to provide students with a broad base on which to build a successful mechanical engineering career. Courses are offered in the mechanical design and thermal fluid science fields. Topics covered in mechanical design include kinematics, mechanisms, stress analysis, dynamic systems, material properties, CAD/CAM, dynamics, vibrations, mechatronics, microelectrical mechanical systems (MEMS), and control theory. Courses offered in the thermal fluid sciences include thermodynamics, heat transfer, and combustion. These courses provide a basis for all types of power applications, including internal combustion engines, nuclear reactors, heating systems, refrigeration systems, and solar power. The program also emphasizes computer applications, professional ethics, communication skills, ability to work in a multidisciplinary team, awareness of broad education, lifelong learning, and contemporary issues.</p>
+<p>The objectives of the Bachelor of Science in Mechanical Engineering can be found online</p>
+<p><a href="https://mie.uic.edu/educationalobjectivesandoutcomes">https://mie.uic.edu/educationalobjectivesandoutcomes</a></p>
+<h2>BS in Industrial Engineering</h2>
+<p>Industrial engineering is concerned with the design, improvement, and installation of integrated systems of people, material, and equipment. The Industrial Engineering program gives knowledge of principles and methods in engineering design, physical sciences, and social sciences. This knowledge then is used to specify, predict, and evaluate systems. By collecting, analyzing, and arranging such knowledge, industrial engineers enable management to utilize resources effectively and efficiently.</p>
+<p>In order to design and operate complex systems, the industrial engineer must acquire comprehensive knowledge in the following areas: manufacturing engineering; production engineering; systems engineering; and human factors, maintenance, and safety engineering.</p>
+<p>Manufacturing engineering is involved with planning and selecting manufacturing methods, with designing and developing manufacturing equipment, and with increasing the efficiency and productivity of current manufacturing technologies as well as creating new ones. Manufacturing engineers use materials science, metal cutting and forming theories, stochastic-dynamic models, principles of numerical and adaptive control, engineering statistics, and other physical sciences to solve manufacturing problems. A new area in manufacturing is virtual manufacturing, which combines virtual reality techniques, factory design, equipment design, training, and contamination control in industrial applications.</p>
+<p>Production engineering deals with the analysis, design, installation, and maintenance of operational and management systems involved in the production and distribution of goods and services. Such topics as quality control, production scheduling, production planning, inventory control, and maintenance policy are included in this area.</p>
+<p>Systems engineering involves the theory and practice of modeling a general system design. The systems engineer develops mathematical, statistical, and computer models of complex systems to predict how a design or policy change will affect the real world. Human factors, maintenance, and safety engineering deal with the problems caused by the interaction of complex man-machine systems. The engineers in this area apply knowledge about sensory, perceptual, and mental characteristics in the engineering design of equipment and facilities to ensure worker comfort and safety.</p>
+<p>Because the training of industrial engineers is so broad, they are in demand not only in all types of industry but also in service organizations, such as hospitals, banks, insurance companies, and research laboratories.</p>
+<p>The program also emphasizes computer applications, professional ethics, communication skills, ability to work in a multidisciplinary team and awareness of broad education, lifelong learning, and contemporary issues.</p>
+<p>The objectives of the Bachelor of Science in Industrial Engineering can be found online</p>
+<p><a href="https://mie.uic.edu/educationalobjectivesandoutcomes/">https://mie.uic.edu/educationalobjectivesandoutcomes</a></p>
+<h2>BS in Engineering Management</h2>
+<p>The College of Engineering and the College of Business Administration offer a joint program in engineering management that allows students latitude to study in both the business administration and engineering disciplines. This program prepares students to begin careers that may lead to administrative, staff, or management positions in small technological engineering or manufacturing operations or positions as production supervisors, administration staff, or managers of departments in large technological organizations. The program also prepares students for careers in large nontechnological organizations such as banks, which may require a combination of engineering and management experiences.</p>
+<p>The Bachelor of Science in Engineering Management is awarded by the College of Engineering. Entrance requirements are the same as for the College of Engineering.</p>
+<p>To complete the required 128 semester hours of university credit, students take required courses in engineering as well as courses in business administration, including accounting, finance, marketing, economics, and management. Additionally, there are required courses in English composition, mathematics, chemistry, and physics. Engineering courses are chosen from courses acceptable for other students in the College of Engineering. No more than 32 hours may be taken in courses offered by the College of Business Administration.</p></div><!--end #textcontainer -->
+
+			<div id="undergraduateprogramstextcontainer" class="tab_content" role="tabpanel">
+				<a name="undergraduateprogramstext"></a><h2>Degree Programs</h2>
+<ul>
+	<li><a href="/ucat/colleges-depts/engineering/mie/bs-me/">BS in Mechanical Engineering</a></li>
+	<li><a href="/ucat/colleges-depts/engineering/mie/bs-ie/">BS in Industrial Engineering</a></li>
+	<li><a href="/ucat/colleges-depts/engineering/mie/bs-ie-mgmt/">BS in Engineering Management</a></li>
+</ul>
+<h2>Minors</h2>
+<ul>
+	<li><a href="/ucat/colleges-depts/engineering/mie/minor-me/">Minor in Mechanical Engineering</a></li>
+	<li><a href="/ucat/colleges-depts/engineering/mie/minor-ie/">Minor in Industrial Engineering</a></li>
+</ul>
+			</div>
+<div id="courseinventorycontainer" class="tab_content" role="tabpanel">
+<a name="courseinventory"> </a>
+<div class="courses">
+<a name="iecourses"></a>
+<h2>Industrial Engineering Courses</h2>
+
+<div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;198.  Special Topics in Engineering Graphics.  1-4 hours.</strong></p>
+<p class="courseblockdesc">
+Specific topics are announced each term. Course Information: May be repeated. Students may register in more than one section per term. Prerequisite(s): Prerequisite may vary by section according to topic.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;201.  Financial Engineering.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Principles and techniques of economic analysis in engineering; Financial decision making; Single and multi project selection techniques. Course Information: Prerequisite(s): <a href="/search/?P=MATH%20181" title="MATH&#160;181" class="bubblelink code" onclick="return showCourse(this, 'MATH 181');">MATH&#160;181</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;312.  Dynamic Systems and Control.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Dynamics of linear systems. Modeling of mechanical, electrical, fluid, and thermal systems. Analysis and design of feedback control systems. Analytical, computer and experimental solution methods. Time and frequency domain techniques. Course Information: Same as <a href="/search/?P=ME%20312" title="ME&#160;312" class="bubblelink code" onclick="return showCourse(this, 'ME 312');">ME&#160;312</a>. Prerequisite(s): <a href="/search/?P=CS%20109" title="CS&#160;109" class="bubblelink code" onclick="return showCourse(this, 'CS 109');">CS&#160;109</a> and <a href="/search/?P=ECE%20210" title="ECE&#160;210" class="bubblelink code" onclick="return showCourse(this, 'ECE 210');">ECE&#160;210</a> and <a href="/search/?P=MATH%20220" title="MATH&#160;220" class="bubblelink code" onclick="return showCourse(this, 'MATH 220');">MATH&#160;220</a>; and sophomore standing or above; or approval of the department.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;342.  Probability and Statistics for Engineers.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Probability, random variables, mathematical expectation, discrete and continuous distributions, sampling distributions, estimation theory, and test of hypothesis. Course Information: Prerequisite(s): <a href="/search/?P=MATH%20181" title="MATH&#160;181" class="bubblelink code" onclick="return showCourse(this, 'MATH 181');">MATH&#160;181</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;345.  Regression Applications and Forecasting in Engineering.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Single and multiple regression analysis of variance, examination of residuals, introduction to time series analysis, and analytical forecasting techniques; application to engineering system. Course Information: Prerequisite(s): <a href="/search/?P=IE%20342" title="IE&#160;342" class="bubblelink code" onclick="return showCourse(this, 'IE 342');">IE&#160;342</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;365.  Work Productivity Analysis.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Operations analysis; man-machine relationship; motion study; micromotion study, time study; predetermined time systems; performance rating; standard data techniques; work sampling; wage payment plans. Course Information: Prerequisite(s): <a href="/search/?P=IE%20342" title="IE&#160;342" class="bubblelink code" onclick="return showCourse(this, 'IE 342');">IE&#160;342</a>. Class Schedule Information:  To be properly registered, students must enroll in one Laboratory-Discussion and one Lecture-Discussion.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;380.  Manufacturing Process Principles.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Introduction to basic manufacturing processes such as casting, bulk deformation, sheet metal forming, metal cutting. Interaction between materials, design and manufacturing method. Economics of manufacturing. Course Information: Same as <a href="/search/?P=ME%20380" title="ME&#160;380" class="bubblelink code" onclick="return showCourse(this, 'ME 380');">ME&#160;380</a>. Prerequisite(s): <a href="/search/?P=CME%20203" title="CME&#160;203" class="bubblelink code" onclick="return showCourse(this, 'CME 203');">CME&#160;203</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;392.  Undergraduate Research.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Research under close supervision of a faculty member. Course Information: May be repeated to a maximum of 6 hours. Prerequisite(s): Consent of the head of the department.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;394.  Senior Capstone Design.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Systematic approach to the design process. Creative problem solving. Design methodology and engineering principles applied to open-ended design problems with inherent breadth and innovation. Course Information: Same as <a href="/search/?P=ME%20394" title="ME&#160;394" class="bubblelink code" onclick="return showCourse(this, 'ME 394');">ME&#160;394</a>. Credit is not given for <a href="/search/?P=IE%20394" title="IE&#160;394" class="bubblelink code" onclick="return showCourse(this, 'IE 394');">IE&#160;394</a> if the student has credit for <a href="/search/?P=ME%20396" title="ME&#160;396" class="bubblelink code" onclick="return showCourse(this, 'ME 396');">ME&#160;396</a> or <a href="/search/?P=IE%20396" title="IE&#160;396" class="bubblelink code" onclick="return showCourse(this, 'IE 396');">IE&#160;396</a>. Prerequisite(s): Senior standing or above; or approval of the department.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;396.  Senior Design I.  0-3 hours.</strong></p>
+<p class="courseblockdesc">
+Systematic approach to the design process. Creative problem solving. Design methodology and engineering principles applied to open-ended design problems with inherent breadth and innovation. Course Information: Same as <a href="/search/?P=ME%20396" title="ME&#160;396" class="bubblelink code" onclick="return showCourse(this, 'ME 396');">ME&#160;396</a>. Credit is not given for <a href="/search/?P=IE%20396" title="IE&#160;396" class="bubblelink code" onclick="return showCourse(this, 'IE 396');">IE&#160;396</a> if the student has credit in <a href="/search/?P=IE%20444" title="IE&#160;444" class="bubblelink code" onclick="return showCourse(this, 'IE 444');">IE&#160;444</a> or <a href="/search/?P=ME%20444" title="ME&#160;444" class="bubblelink code" onclick="return showCourse(this, 'ME 444');">ME&#160;444</a> or <a href="/search/?P=IE%20445" title="IE&#160;445" class="bubblelink code" onclick="return showCourse(this, 'IE 445');">IE&#160;445</a> or <a href="/search/?P=ME%20445" title="ME&#160;445" class="bubblelink code" onclick="return showCourse(this, 'ME 445');">ME&#160;445</a>. Prerequisite(s): <a href="/search/?P=ME%20347" title="ME&#160;347" class="bubblelink code" onclick="return showCourse(this, 'ME 347');">ME&#160;347</a>; or <a href="/search/?P=IE%20345" title="IE&#160;345" class="bubblelink code" onclick="return showCourse(this, 'IE 345');">IE&#160;345</a>. Open only to seniors. Class Schedule Information: To be properly registered, students must enroll in one Laboratory and one Lecture-Discussion.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;397.  Senior Design Il.  2 hours.</strong></p>
+<p class="courseblockdesc">
+The systematic approach to the design process; creative problem solving; design methodology and engineering principles learned in <a href="/search/?P=ME%20396" title="ME&#160;396" class="bubblelink code" onclick="return showCourse(this, 'ME 396');">ME&#160;396</a> are applied to complete the Senior Design project. Course Information: Same as <a href="/search/?P=ME%20397" title="ME&#160;397" class="bubblelink code" onclick="return showCourse(this, 'ME 397');">ME&#160;397</a>. Credit is not given for <a href="/search/?P=IE%20397" title="IE&#160;397" class="bubblelink code" onclick="return showCourse(this, 'IE 397');">IE&#160;397</a> if the student has credit for <a href="/search/?P=IE%20444" title="IE&#160;444" class="bubblelink code" onclick="return showCourse(this, 'IE 444');">IE&#160;444</a> or <a href="/search/?P=ME%20444" title="ME&#160;444" class="bubblelink code" onclick="return showCourse(this, 'ME 444');">ME&#160;444</a> or <a href="/search/?P=IE%20445" title="IE&#160;445" class="bubblelink code" onclick="return showCourse(this, 'IE 445');">IE&#160;445</a> or <a href="/search/?P=ME%20445" title="ME&#160;445" class="bubblelink code" onclick="return showCourse(this, 'ME 445');">ME&#160;445</a>. Prerequisite(s): <a href="/search/?P=ME%20396" title="ME&#160;396" class="bubblelink code" onclick="return showCourse(this, 'ME 396');">ME&#160;396</a>; or <a href="/search/?P=IE%20396" title="IE&#160;396" class="bubblelink code" onclick="return showCourse(this, 'IE 396');">IE&#160;396</a>; and senior standing or above; or consent of the instructor. Requires concurrent registration in <a href="/search/?P=ME%20499" title="ME&#160;499" class="bubblelink code" onclick="return showCourse(this, 'ME 499');">ME&#160;499</a> or <a href="/search/?P=IE%20499" title="IE&#160;499" class="bubblelink code" onclick="return showCourse(this, 'IE 499');">IE&#160;499</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;411.  Mechatronics I.  0-4 hours.</strong></p>
+<p class="courseblockdesc">
+Elements of mechatronic systems, sensors, actuators, microcontrollers, modeling, hardware in the loop simulations, real time software, Electromechanical systems laboratory experiments.  Course Information:  Same as <a href="/search/?P=ME%20411" title="ME&#160;411" class="bubblelink code" onclick="return showCourse(this, 'ME 411');">ME&#160;411</a>.  3 undergraduate hours.  4 graduate hours.  Extensive computer use required.  Prerequisite(s):  Senior standing or above or approval of the department.  Class Schedule Information:  To be properly registered, students must enroll in one Laboratory and one Lecture.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;412.  Dynamic Systems Analysis I.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Classical control theory, concept of feedback, laplace transform, transfer functions, control system characteristics, root locus, frequency response, compensator design. Course Information: Same as <a href="/search/?P=ME%20412" title="ME&#160;412" class="bubblelink code" onclick="return showCourse(this, 'ME 412');">ME&#160;412</a>. 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=ME%20308" title="ME&#160;308" class="bubblelink code" onclick="return showCourse(this, 'ME 308');">ME&#160;308</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;441.  Ergonomics and Human Factors.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+The study of principles and techniques associated with ergonomic problems. Topics include human information input and processing, human output and control, and ergonomic considerations in safety. Course Information: Same as <a href="/search/?P=EOHS%20441" title="EOHS&#160;441" class="bubblelink code" onclick="return showCourse(this, 'EOHS 441');">EOHS&#160;441</a>. Previously listed as IE 341. 3 undergraduate hours; 4 graduate hours. Prerequisite(s): Credit or concurrent registration in <a href="/search/?P=IE%20342" title="IE&#160;342" class="bubblelink code" onclick="return showCourse(this, 'IE 342');">IE&#160;342</a> or consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;442.  Design and Analysis of Experiments in Engineering.  0-4 hours.</strong></p>
+<p class="courseblockdesc">
+Covers different methods for statistical design of engineering experiments, executing them and analyzing their results. Course Information: Prerequisite(s): <a href="/search/?P=IE%20342" title="IE&#160;342" class="bubblelink code" onclick="return showCourse(this, 'IE 342');">IE&#160;342</a>. Class Schedule Information: To be properly registered, student must enroll in one Lecture-Discussion and one Laboratory-Discussion.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;444.  Interdisciplinary Product Development I.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Cross-functional teams (w/students from AD 420/423 and <a href="/search/?P=MKTG%20594" title="MKTG&#160;594" class="bubblelink code" onclick="return showCourse(this, 'MKTG 594');">MKTG&#160;594</a>) research and develop new product concepts.  Focus on the identification of technologically appropriate product design problems.  Course Information:  Same as <a href="/search/?P=ME%20444" title="ME&#160;444" class="bubblelink code" onclick="return showCourse(this, 'ME 444');">ME&#160;444</a>. 3 undergraduate hours. 4 graduate hours. Year-long (with IE/<a href="/search/?P=ME%20445" title="ME&#160;445" class="bubblelink code" onclick="return showCourse(this, 'ME 445');">ME&#160;445</a>) project course.  Prerequisite(s):  Senior standing or above; and consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;445.  Interdisciplinary Product Development 2.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Cross-functional teams (w/students from AD 420 and <a href="/search/?P=MKTG%20594" title="MKTG&#160;594" class="bubblelink code" onclick="return showCourse(this, 'MKTG 594');">MKTG&#160;594</a>) research and develop new product concepts.  Focus on solutions to the opportunities identified in IE/<a href="/search/?P=ME%20444" title="ME&#160;444" class="bubblelink code" onclick="return showCourse(this, 'ME 444');">ME&#160;444</a> to functional prototypes.  Serves as a replacement for IE/<a href="/search/?P=ME%20396" title="ME&#160;396" class="bubblelink code" onclick="return showCourse(this, 'ME 396');">ME&#160;396</a>. Course Information:  Same as <a href="/search/?P=ME%20445" title="ME&#160;445" class="bubblelink code" onclick="return showCourse(this, 'ME 445');">ME&#160;445</a>. Year-long (with IE/<a href="/search/?P=ME%20444" title="ME&#160;444" class="bubblelink code" onclick="return showCourse(this, 'ME 444');">ME&#160;444</a>) project course.  Prerequisite(s):  <a href="/search/?P=IE%20444" title="IE&#160;444" class="bubblelink code" onclick="return showCourse(this, 'IE 444');">IE&#160;444</a> or <a href="/search/?P=ME%20444" title="ME&#160;444" class="bubblelink code" onclick="return showCourse(this, 'ME 444');">ME&#160;444</a>; and senior standing or above; and consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;446.  Quality Control and Reliability.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Principles of statistical quality control including control by variable and by attribute, construction and use of control charts for variables, fraction defectives and number of defects and use of standard plans, reliability and life cycle testing. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=IE%20342" title="IE&#160;342" class="bubblelink code" onclick="return showCourse(this, 'IE 342');">IE&#160;342</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;461.  Safety Engineering.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Human protection systems; accident and emergency handling; manufacturing and service hazard systems. Course Information: Same as <a href="/search/?P=EOHS%20460" title="EOHS&#160;460" class="bubblelink code" onclick="return showCourse(this, 'EOHS 460');">EOHS&#160;460</a>. 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=IE%20342" title="IE&#160;342" class="bubblelink code" onclick="return showCourse(this, 'IE 342');">IE&#160;342</a> or consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;463.  Plant Layout and Materials Handling.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Facilities design functions, computer-aided plant layout, facility location, warehouse layout Minimax location, deterministic and probabilistic conveyor models. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s):Credit or concurrent registration in <a href="/search/?P=IE%20345" title="IE&#160;345" class="bubblelink code" onclick="return showCourse(this, 'IE 345');">IE&#160;345</a> and Credit or concurrent registration in <a href="/search/?P=IE%20472" title="IE&#160;472" class="bubblelink code" onclick="return showCourse(this, 'IE 472');">IE&#160;472</a> and <a href="/search/?P=IE%20473" title="IE&#160;473" class="bubblelink code" onclick="return showCourse(this, 'IE 473');">IE&#160;473</a> and <a href="/search/?P=IE%20365" title="IE&#160;365" class="bubblelink code" onclick="return showCourse(this, 'IE 365');">IE&#160;365</a> and <a href="/search/?P=IE%20201" title="IE&#160;201" class="bubblelink code" onclick="return showCourse(this, 'IE 201');">IE&#160;201</a> and <a href="/search/?P=IE%20467" title="IE&#160;467" class="bubblelink code" onclick="return showCourse(this, 'IE 467');">IE&#160;467</a> .<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;464.  Virtual Automation.  0-4 hours.</strong></p>
+<p class="courseblockdesc">
+Fundamentals of manufacturing and automation modeling using CAD/CAM and computer-integrated manufacturing methods; concepts of virtual manufacturing; industrial robots and automated factory models within virtual environments. Course Information: Same as <a href="/search/?P=ME%20464" title="ME&#160;464" class="bubblelink code" onclick="return showCourse(this, 'ME 464');">ME&#160;464</a>. 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CS%20107" title="CS&#160;107" class="bubblelink code" onclick="return showCourse(this, 'CS 107');">CS&#160;107</a> or CS 108. Class Schedule Information: To be properly registered, students must enroll in one Lecture-Discussion, and one Laboratory.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;465.  Manufacturing Information Systems.  0-4 hours.</strong></p>
+<p class="courseblockdesc">
+Design and implementation of supervisory control and data acquisition systems; manufacturing systems controller and communication networks. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): Senior or graduate standing, or consent of the instructor; and familiarity with computer programming. Class Schedule Information:  To be properly registered, students must enroll in one Laboratory-Discussion and one Lecture-Discussion.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;466.  Production Planning and Inventory Control.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Principles of production planning, master scheduling, job sequencing, design and control of deterministic and stochastic inventory systems, material  requirement planning. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): Credit or concurrent registration in <a href="/search/?P=IE%20345" title="IE&#160;345" class="bubblelink code" onclick="return showCourse(this, 'IE 345');">IE&#160;345</a> and Credit or concurrent registration in <a href="/search/?P=IE%20472" title="IE&#160;472" class="bubblelink code" onclick="return showCourse(this, 'IE 472');">IE&#160;472</a> and <a href="/search/?P=IE%20473" title="IE&#160;473" class="bubblelink code" onclick="return showCourse(this, 'IE 473');">IE&#160;473</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;467.  Discrete Event Computer Simulation Application.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+The solution of industrial application problems by means of discrete event computer simulation. Simulation model building. Input analysis. Output analysis. In depth study of some specific simulation programming languages, with projects. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=IE%20342" title="IE&#160;342" class="bubblelink code" onclick="return showCourse(this, 'IE 342');">IE&#160;342</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;468.  Virtual Manufacturing.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Virtual reality applications in manufacturing systems design, manufacturing applications of networked virtual reality, virtual reality modeling of occupational safety engineering. Course Information: Same as <a href="/search/?P=ME%20468" title="ME&#160;468" class="bubblelink code" onclick="return showCourse(this, 'ME 468');">ME&#160;468</a>. 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CS%20107" title="CS&#160;107" class="bubblelink code" onclick="return showCourse(this, 'CS 107');">CS&#160;107</a> or CS 108.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;471.  Operations Research I.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Introduction to operations research, formulation of linear programming problems, simplex methods, duality theory, sensitivity analysis, network models, and integer linear programming. Course Information: 3 undergraduate hours. 4 graduate hours. No graduate credit for industrial engineering majors. Prerequisite(s): <a href="/search/?P=MATH%20310" title="MATH&#160;310" class="bubblelink code" onclick="return showCourse(this, 'MATH 310');">MATH&#160;310</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;472.  Operations Research II.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Nonlinear programming problems, unconstrained optimization search  techniques. Kuhn-Tucker theorems, quadratic programming, separable programming, meta heuristics, goal programming, and dynamic programming. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CS%20107" title="CS&#160;107" class="bubblelink code" onclick="return showCourse(this, 'CS 107');">CS&#160;107</a> or <a href="/search/?P=CS%20109" title="CS&#160;109" class="bubblelink code" onclick="return showCourse(this, 'CS 109');">CS&#160;109</a>, and <a href="/search/?P=IE%20471" title="IE&#160;471" class="bubblelink code" onclick="return showCourse(this, 'IE 471');">IE&#160;471</a> or graduate standing.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;473.  Stochastic Processes and Queuing Models.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Stochastic dynamic systems, queuing networks, probabilistic state transition models and nondeterministic decision making models. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=IE%20342" title="IE&#160;342" class="bubblelink code" onclick="return showCourse(this, 'IE 342');">IE&#160;342</a> and Credit or concurrent registration in <a href="/search/?P=IE%20471" title="IE&#160;471" class="bubblelink code" onclick="return showCourse(this, 'IE 471');">IE&#160;471</a> and <a href="/search/?P=MATH%20210" title="MATH&#160;210" class="bubblelink code" onclick="return showCourse(this, 'MATH 210');">MATH&#160;210</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;494.  Special Topics in Industrial Engineering.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Particular topics vary from term to term depending on the interests of the students and the specialties of the instructor. Course Information: 3 undergraduate hours. 4 graduate hours. May be repeated. Prerequisite(s): Consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;496.  Undergraduate Senior Design Thesis I.  0-8 hours.</strong></p>
+<p class="courseblockdesc">
+Introduction to the principles and practice of product design: specifications, evaluation of design alternatives, technical reports, and oral presentations, through independent  design projects. Course Information: Same as <a href="/search/?P=ME%20496" title="ME&#160;496" class="bubblelink code" onclick="return showCourse(this, 'ME 496');">ME&#160;496</a>. Credit only given to nondegree students. No graduation credit given to students enrolled in Engineering. Extensive computer use required. Field trips required at a nominal fee. Prerequisite(s): Consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;497.  Undergraduate Senior Design Thesis II.  0-8 hours.</strong></p>
+<p class="courseblockdesc">
+ntroduction to engineering design and research methods: design tools, product conception and development, simulation, prototyping, technical reports and presentations, literature survey and undergraduate thesis. Course Information: Same as <a href="/search/?P=ME%20497" title="ME&#160;497" class="bubblelink code" onclick="return showCourse(this, 'ME 497');">ME&#160;497</a>. Credit only given to nondegree students. No graduation credit given to students enrolled in Engineering. Extensive computer use required. Field trips required at a nominal fee. Prerequisite(s): Consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>IE&#160;499.  Professional Development Seminar.  0 hours.</strong></p>
+<p class="courseblockdesc">
+Students are provided general information about their role as UIC alumni in society and the role of the University in their future careers.  Students provide evaluations of their educational experience in the MIE department. Course Information: Satisfactory/Unsatisfactory grading only. Prerequisite(s): Open only to seniors; and approval of the department. Must be taken in the student's last semester of study.<br />
+</p>
+</div>
+</div>
+<div class="courses">
+<a name="mecourses"></a>
+<h2>Mechanical Engineering Courses</h2>
+
+<div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;205.  Introduction to Thermodynamics.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Principles of energy transport and work; properties of substances and equations of state; first and second laws of thermodynamics; applications to mechanical cycles and systems. Course Information: Prerequisite(s): <a href="/search/?P=PHYS%20141" title="PHYS&#160;141" class="bubblelink code" onclick="return showCourse(this, 'PHYS 141');">PHYS&#160;141</a> and <a href="/search/?P=MATH%20181" title="MATH&#160;181" class="bubblelink code" onclick="return showCourse(this, 'MATH 181');">MATH&#160;181</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;210.  Engineering Dynamics.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Dynamics of particles and rigid bodies. Introduction to Linear Algebra. Kinematics in different coordinate systems, coordinate transformations. Kinetics: Newton's second law, work energy relations, impulse-momentum relations, impact problems. Course Information: Prerequisite(s): <a href="/search/?P=CME%20201" title="CME&#160;201" class="bubblelink code" onclick="return showCourse(this, 'CME 201');">CME&#160;201</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;211.  Fluid Mechanics I.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Fluid properties. Dimensional analysis. Statics and kinematics. Conservation equations. Inviscid and incompressible flows. Bernoulli's equation. Integral momentum theorems. Viscous flows. Boundary layer theories. Compressible Flows.  Course Information: Prerequisite(s): <a href="/search/?P=PHYS%20141" title="PHYS&#160;141" class="bubblelink code" onclick="return showCourse(this, 'PHYS 141');">PHYS&#160;141</a> and <a href="/search/?P=MATH%20220" title="MATH&#160;220" class="bubblelink code" onclick="return showCourse(this, 'MATH 220');">MATH&#160;220</a>. Class Schedule Information:  To be properly registered, students must enroll in one Laboratory and one Lecture-Discussion.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;212.  Fundamentals of Fluid Mechanics.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Fluid properties. Dimensional analysis. Statics and kinematics. Conservation equations. Inviscid and incompressible flows, Bernoulli's equation. Integral momentum theorems. Viscous flows. Turbulent flows. Boundary layer theory.  Course Information:  Credit is not given for <a href="/search/?P=ME%20212" title="ME&#160;212" class="bubblelink code" onclick="return showCourse(this, 'ME 212');">ME&#160;212</a> if the student has credit for <a href="/search/?P=ME%20211" title="ME&#160;211" class="bubblelink code" onclick="return showCourse(this, 'ME 211');">ME&#160;211</a>.  Prerequisite(s):  <a href="/search/?P=PHYS%20141" title="PHYS&#160;141" class="bubblelink code" onclick="return showCourse(this, 'PHYS 141');">PHYS&#160;141</a>; and <a href="/search/?P=MATH%20220" title="MATH&#160;220" class="bubblelink code" onclick="return showCourse(this, 'MATH 220');">MATH&#160;220</a>.  Class Schedule Information:  To be properly registered, students must enroll in one Laboratory and one Lecture-Discussion.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;250.  Introduction to Engineering Design and Graphics.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Engineering design process, modeling, analysis. Product dissection, prototyping. Technical communication, AutoCAD, engineering graphics software, 3-D views, multiview projection, dimensioning and tolerancing, standards. Team design project. Course Information: Prerequisite(s): Eligibility to register for <a href="/search/?P=ENGL%20160" title="ENGL&#160;160" class="bubblelink code" onclick="return showCourse(this, 'ENGL 160');">ENGL&#160;160</a>. Class Schedule Information: To be properly registered, students must enroll in one Laboratory and one Lecture.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;261.  Materials for Manufacturing.  2 hours.</strong></p>
+<p class="courseblockdesc">
+Introductory-level course in materials engineering to familiarize students with relationships between processing, structure and properties of materials used to manufacture devices. Course Information: Same as <a href="/search/?P=CME%20261" title="CME&#160;261" class="bubblelink code" onclick="return showCourse(this, 'CME 261');">CME&#160;261</a>. Credit is not given for <a href="/search/?P=CME%20261" title="CME&#160;261" class="bubblelink code" onclick="return showCourse(this, 'CME 261');">CME&#160;261</a>/<a href="/search/?P=ME%20261" title="ME&#160;261" class="bubblelink code" onclick="return showCourse(this, 'ME 261');">ME&#160;261</a> if the student has credit for <a href="/search/?P=CME%20260" title="CME&#160;260" class="bubblelink code" onclick="return showCourse(this, 'CME 260');">CME&#160;260</a>. Prerequisite(s): CHEM 112 and <a href="/search/?P=MATH%20181" title="MATH&#160;181" class="bubblelink code" onclick="return showCourse(this, 'MATH 181');">MATH&#160;181</a> and <a href="/search/?P=PHYS%20141" title="PHYS&#160;141" class="bubblelink code" onclick="return showCourse(this, 'PHYS 141');">PHYS&#160;141</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;293.  Special Problems.  1-4 hours.</strong></p>
+<p class="courseblockdesc">
+Special problems, readings or research under close supervision of a faculty member in the area of engineering graphics. Course Information: May be repeated. Prerequisite(s): Consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;308.  Mechanical Vibrations.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Free and forced vibrations of damped linear single and multiple degree of freedom systems. Approximate methods, instrumentation, and applications. Course Information: Same as <a href="/search/?P=CME%20359" title="CME&#160;359" class="bubblelink code" onclick="return showCourse(this, 'CME 359');">CME&#160;359</a>. Prerequisite(s): <a href="/search/?P=CS%20109" title="CS&#160;109" class="bubblelink code" onclick="return showCourse(this, 'CS 109');">CS&#160;109</a>; and <a href="/search/?P=ME%20210" title="ME&#160;210" class="bubblelink code" onclick="return showCourse(this, 'ME 210');">ME&#160;210</a>; and <a href="/search/?P=MATH%20220" title="MATH&#160;220" class="bubblelink code" onclick="return showCourse(this, 'MATH 220');">MATH&#160;220</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;312.  Dynamic Systems and Control.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Dynamics of linear systems. Modeling of mechanical, electrical, fluid, and thermal systems. Analysis and design of feedback control systems. Analytical, computer and experimental solution methods. Time and frequency domain techniques. Course Information: Same as <a href="/search/?P=IE%20312" title="IE&#160;312" class="bubblelink code" onclick="return showCourse(this, 'IE 312');">IE&#160;312</a>. Prerequisite(s): <a href="/search/?P=CS%20109" title="CS&#160;109" class="bubblelink code" onclick="return showCourse(this, 'CS 109');">CS&#160;109</a> and <a href="/search/?P=ECE%20210" title="ECE&#160;210" class="bubblelink code" onclick="return showCourse(this, 'ECE 210');">ECE&#160;210</a> and <a href="/search/?P=MATH%20220" title="MATH&#160;220" class="bubblelink code" onclick="return showCourse(this, 'MATH 220');">MATH&#160;220</a>; and sophomore standing or above; or approval of the department.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;318.  Fluid Mechanics II.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Conservation equations for fluid mechanics, inviscid ideal flows, viscous flow solutions of Navier-Stokes equations, pipe flows and boundary flows, compressible flow, computer solutions and applications. Course Information: Prerequisite(s): <a href="/search/?P=ME%20211" title="ME&#160;211" class="bubblelink code" onclick="return showCourse(this, 'ME 211');">ME&#160;211</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;320.  Mechanisms and Dynamics of Machinery.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Kinematic analysis and synthesis of mechanisms; linkages, cams, spur gears, gear trains. Dynamic forces in machines; bearing reactions, balancing, flywheel design, friction, efficiency. Course Information: Prerequisite(s): <a href="/search/?P=ME%20210" title="ME&#160;210" class="bubblelink code" onclick="return showCourse(this, 'ME 210');">ME&#160;210</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;321.  Heat Transfer.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Modes of heat transfer, material properties, one- and two-dimensional conduction. Extended surfaces. Forced and free convection. Heat exchangers. Radiation. Shape factors. Laboratories in conduction, convection, and radiation. Course Information: Prerequisite(s): <a href="/search/?P=ME%20205" title="ME&#160;205" class="bubblelink code" onclick="return showCourse(this, 'ME 205');">ME&#160;205</a> and credit or concurrent enrollment in <a href="/search/?P=ME%20211" title="ME&#160;211" class="bubblelink code" onclick="return showCourse(this, 'ME 211');">ME&#160;211</a>. Class Schedule Information:  To be properly registered, students must enroll in one Laboratory and one Lecture-Discussion.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;325.  Intermediate Thermodynamics.  3 hours.</strong></p>
+<p class="courseblockdesc">
+In-depth study of thermodynamic principles, thermodynamics of state, vapor and gas power cycles, refrigeration cycles, thermodynamics of nonreacting and reacting mixtures, internal combustion engines, and thermodynamics of equilibrium. Course Information: Prerequisite(s): <a href="/search/?P=ME%20205" title="ME&#160;205" class="bubblelink code" onclick="return showCourse(this, 'ME 205');">ME&#160;205</a> and credit or concurrent registration in <a href="/search/?P=ME%20211" title="ME&#160;211" class="bubblelink code" onclick="return showCourse(this, 'ME 211');">ME&#160;211</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;341.  Experimental Methods in Mechanical Engineering.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Introduction to the theory and practice of experimental methods, measurement techniques, instrumentation, data acquisition and data analysis in mechanical and thermal-fluid systems. Experiments and reports. Course Information: Prerequisite(s): <a href="/search/?P=CME%20203" title="CME&#160;203" class="bubblelink code" onclick="return showCourse(this, 'CME 203');">CME&#160;203</a> and <a href="/search/?P=ME%20211" title="ME&#160;211" class="bubblelink code" onclick="return showCourse(this, 'ME 211');">ME&#160;211</a>; and credit or concurrent registration in <a href="/search/?P=ME%20308" title="ME&#160;308" class="bubblelink code" onclick="return showCourse(this, 'ME 308');">ME&#160;308</a>. Class Schedule Information:  To be properly registered, students must enroll in one Laboratory and one Lecture.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;347.  Introduction to Computer-Aided Design.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Conventional and computer-assisted methods in design. Geometric manipulation. Computer-aided modeling with curves, surfaces, and solids. Design with finite-element analysis. Course Information: Previously listed as <a href="/search/?P=ME%20447" title="ME&#160;447" class="bubblelink code" onclick="return showCourse(this, 'ME 447');">ME&#160;447</a>. Extensive computer use required. Prerequisite(s): <a href="/search/?P=MATH%20220" title="MATH&#160;220" class="bubblelink code" onclick="return showCourse(this, 'MATH 220');">MATH&#160;220</a> and <a href="/search/?P=CME%20203" title="CME&#160;203" class="bubblelink code" onclick="return showCourse(this, 'CME 203');">CME&#160;203</a> and <a href="/search/?P=ME%20250" title="ME&#160;250" class="bubblelink code" onclick="return showCourse(this, 'ME 250');">ME&#160;250</a>. Recommended background: Credit in <a href="/search/?P=MATH%20310" title="MATH&#160;310" class="bubblelink code" onclick="return showCourse(this, 'MATH 310');">MATH&#160;310</a>. Class Schedule Information: To be properly registered, students must enroll in one Laboratory-Discussion and one Lecture.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;370.  Mechanical Engineering Design.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Mechanical design concepts, failure prevention under static and variable loading, application of engineering mechanics and materials to analysis, selection and design of mechanical elements such as shafts, fasteners, springs, bearings, and gears. Course Information: Prerequisite(s): <a href="/search/?P=CME%20203" title="CME&#160;203" class="bubblelink code" onclick="return showCourse(this, 'CME 203');">CME&#160;203</a>, CME/<a href="/search/?P=ME%20261" title="ME&#160;261" class="bubblelink code" onclick="return showCourse(this, 'ME 261');">ME&#160;261</a> or <a href="/search/?P=CME%20260" title="CME&#160;260" class="bubblelink code" onclick="return showCourse(this, 'CME 260');">CME&#160;260</a>, and <a href="/search/?P=ME%20250" title="ME&#160;250" class="bubblelink code" onclick="return showCourse(this, 'ME 250');">ME&#160;250</a>. Recommended Background: ME 230.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;380.  Manufacturing Process Principles.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Introduction to basic manufacturing processes such as casting, bulk deformation, sheet metal forming, metal cutting. Interaction between materials, design and manufacturing method. Economics of manufacturing. Course Information: Same as <a href="/search/?P=IE%20380" title="IE&#160;380" class="bubblelink code" onclick="return showCourse(this, 'IE 380');">IE&#160;380</a>. Prerequisite(s): <a href="/search/?P=CME%20203" title="CME&#160;203" class="bubblelink code" onclick="return showCourse(this, 'CME 203');">CME&#160;203</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;392.  Undergraduate Research.  1-3 hours.</strong></p>
+<p class="courseblockdesc">
+Research under close supervision of a faculty member. Course Information: May be repeated to a maximum of 6 hours. Prerequisite(s): Consent of the head of the department.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;394.  Senior Capstone Design.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Systematic approach to the design process. Creative problem solving. Design methodology and engineering principles applied to open-ended design problems with inherent breadth and innovation. Course Information: Same as <a href="/search/?P=IE%20394" title="IE&#160;394" class="bubblelink code" onclick="return showCourse(this, 'IE 394');">IE&#160;394</a>. Credit is not given for <a href="/search/?P=ME%20394" title="ME&#160;394" class="bubblelink code" onclick="return showCourse(this, 'ME 394');">ME&#160;394</a> if the student has credit for <a href="/search/?P=ME%20396" title="ME&#160;396" class="bubblelink code" onclick="return showCourse(this, 'ME 396');">ME&#160;396</a> or <a href="/search/?P=IE%20396" title="IE&#160;396" class="bubblelink code" onclick="return showCourse(this, 'IE 396');">IE&#160;396</a>. Prerequisite(s): Senior standing or above; or approval of the department.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;396.  Senior Design I.  0-3 hours.</strong></p>
+<p class="courseblockdesc">
+Systematic approach to the design process. Creative problem solving. Design methodology and engineering principles applied to open-ended design problems with inherent breadth and innovation. Course Information: Same as <a href="/search/?P=IE%20396" title="IE&#160;396" class="bubblelink code" onclick="return showCourse(this, 'IE 396');">IE&#160;396</a>. Credit is not given for <a href="/search/?P=ME%20396" title="ME&#160;396" class="bubblelink code" onclick="return showCourse(this, 'ME 396');">ME&#160;396</a> if the student has credit in <a href="/search/?P=IE%20444" title="IE&#160;444" class="bubblelink code" onclick="return showCourse(this, 'IE 444');">IE&#160;444</a> or <a href="/search/?P=ME%20444" title="ME&#160;444" class="bubblelink code" onclick="return showCourse(this, 'ME 444');">ME&#160;444</a> or <a href="/search/?P=IE%20445" title="IE&#160;445" class="bubblelink code" onclick="return showCourse(this, 'IE 445');">IE&#160;445</a> or <a href="/search/?P=ME%20445" title="ME&#160;445" class="bubblelink code" onclick="return showCourse(this, 'ME 445');">ME&#160;445</a>. Prerequisite(s): <a href="/search/?P=ME%20347" title="ME&#160;347" class="bubblelink code" onclick="return showCourse(this, 'ME 347');">ME&#160;347</a>; or <a href="/search/?P=IE%20345" title="IE&#160;345" class="bubblelink code" onclick="return showCourse(this, 'IE 345');">IE&#160;345</a>. Open only to seniors. Class Schedule Information: To be properly registered, students must enroll in one Laboratory and one Lecture-Discussion.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;397.  Senior Design Il.  2 hours.</strong></p>
+<p class="courseblockdesc">
+The systematic approach to the design process; creative problem solving; design methodology and engineering principles learned in <a href="/search/?P=ME%20396" title="ME&#160;396" class="bubblelink code" onclick="return showCourse(this, 'ME 396');">ME&#160;396</a> are applied to complete the Senior Design project. Course Information: Same as <a href="/search/?P=IE%20397" title="IE&#160;397" class="bubblelink code" onclick="return showCourse(this, 'IE 397');">IE&#160;397</a>. Credit is not given for <a href="/search/?P=ME%20397" title="ME&#160;397" class="bubblelink code" onclick="return showCourse(this, 'ME 397');">ME&#160;397</a> if the student has credit for <a href="/search/?P=IE%20444" title="IE&#160;444" class="bubblelink code" onclick="return showCourse(this, 'IE 444');">IE&#160;444</a> or <a href="/search/?P=ME%20444" title="ME&#160;444" class="bubblelink code" onclick="return showCourse(this, 'ME 444');">ME&#160;444</a> or <a href="/search/?P=IE%20445" title="IE&#160;445" class="bubblelink code" onclick="return showCourse(this, 'IE 445');">IE&#160;445</a> or <a href="/search/?P=ME%20445" title="ME&#160;445" class="bubblelink code" onclick="return showCourse(this, 'ME 445');">ME&#160;445</a>. Prerequisite(s): <a href="/search/?P=ME%20396" title="ME&#160;396" class="bubblelink code" onclick="return showCourse(this, 'ME 396');">ME&#160;396</a>; or <a href="/search/?P=IE%20396" title="IE&#160;396" class="bubblelink code" onclick="return showCourse(this, 'IE 396');">IE&#160;396</a>; and senior standing or above; or consent of the instructor. Requires concurrent registration in <a href="/search/?P=ME%20499" title="ME&#160;499" class="bubblelink code" onclick="return showCourse(this, 'ME 499');">ME&#160;499</a> or <a href="/search/?P=IE%20499" title="IE&#160;499" class="bubblelink code" onclick="return showCourse(this, 'IE 499');">IE&#160;499</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;401.  Applied Stress Analysis I.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Complex bending and torsion, curved flexural members, energy methods in design, theories of failure. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CME%20203" title="CME&#160;203" class="bubblelink code" onclick="return showCourse(this, 'CME 203');">CME&#160;203</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;408.  Intermediate Vibration Theory.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Free and forced vibrations of multi-degree of freedom linear systems. Lagrangian dynamics, matrix, approximate and numerical methods. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=ME%20308" title="ME&#160;308" class="bubblelink code" onclick="return showCourse(this, 'ME 308');">ME&#160;308</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;409.  Advanced Kinematics I.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Kinematic synthesis of planar linkages. Higher-order, precision point and approximate synthesis. Unified treatment of position, function, and path-angle problems. Consideration of branching and rotatability. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=ME%20320" title="ME&#160;320" class="bubblelink code" onclick="return showCourse(this, 'ME 320');">ME&#160;320</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;410.  Automation and Robotics Applications.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Basic pneumatic and hydraulic systems. Design of sequential control circuits and ladder diagrams. Robot kinematics and dynamics. Robot design. Trajectory planning. Applications and demonstrations. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=ME%20210" title="ME&#160;210" class="bubblelink code" onclick="return showCourse(this, 'ME 210');">ME&#160;210</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;411.  Mechatronics I.  0-4 hours.</strong></p>
+<p class="courseblockdesc">
+Elements of mechatronic systems, sensors, actuators, microcontrollers, modeling, hardware in the loop simulations, real time software, Electromechanical systems laboratory experiments.  Course Information:  Same as <a href="/search/?P=IE%20411" title="IE&#160;411" class="bubblelink code" onclick="return showCourse(this, 'IE 411');">IE&#160;411</a>.  3 undergraduate hours.  4 graduate hours.  Extensive computer use required.  Prerequisite(s):  Senior standing or above; or approval of the department.  Class Schedule Information:  To be properly registered, students must enroll in one Laboratory and one Lecture.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;412.  Dynamic Systems Analysis I.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Classical control theory, concept of feedback, laplace transform, transfer functions, control system characteristics, root locus, frequency response, compensator design. Course Information: Same as <a href="/search/?P=IE%20412" title="IE&#160;412" class="bubblelink code" onclick="return showCourse(this, 'IE 412');">IE&#160;412</a>. 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=ME%20308" title="ME&#160;308" class="bubblelink code" onclick="return showCourse(this, 'ME 308');">ME&#160;308</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;413.  Dynamics of Mechanical Systems.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Degrees of freedom, generalized coordinates, principle of virtual work. D'Alembert's Principle, Lagrange's Equation, Hamilton's Principle. Equations of motion and Newton-Euler equations for rigid bodies. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=ME%20320" title="ME&#160;320" class="bubblelink code" onclick="return showCourse(this, 'ME 320');">ME&#160;320</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;414.  Theory of Gearing and Applications.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Classification of gear drives. Geometry of plane and spatial gears. Analysis and synthesis of gears with approximate meshing. Applications to spur, helical, worm and bevel gear drives. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=ME%20320" title="ME&#160;320" class="bubblelink code" onclick="return showCourse(this, 'ME 320');">ME&#160;320</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;415.  Propulsion Theory.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Thermodynamics and fluid mechanics of air-breathing engines, performance of rockets; chemical and nuclear rockets. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=ME%20419" title="ME&#160;419" class="bubblelink code" onclick="return showCourse(this, 'ME 419');">ME&#160;419</a> or the equivalent.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;416.  Railroad Vehicle Dynamics.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Introduces analytical and computational methods used for the computer aided dynamic and stability analysis of railroad vehicle systems. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=ME%20413" title="ME&#160;413" class="bubblelink code" onclick="return showCourse(this, 'ME 413');">ME&#160;413</a>; or consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;417.  Intermediate Fluid Mechanics.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Development of conservation equations for Newtonian-fluids; continuity, Navier-Stokes and energy equations. Some exact and approximate solutions of highly viscous, viscous and inviscid flows. Boundary layer flows, jets and wakes. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=ME%20321" title="ME&#160;321" class="bubblelink code" onclick="return showCourse(this, 'ME 321');">ME&#160;321</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;418.  Transport Phenomena in Nanotechnology.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Free surface flows, rheologically complex liquids, colloidal suspensions, emulsions, Brownian motion, flows in micro- and nanochannels, and multiple applications. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=ME%20325" title="ME&#160;325" class="bubblelink code" onclick="return showCourse(this, 'ME 325');">ME&#160;325</a> and <a href="/search/?P=ME%20211" title="ME&#160;211" class="bubblelink code" onclick="return showCourse(this, 'ME 211');">ME&#160;211</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;419.  Compressible Flow Theory.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Conservation laws, one-dimensional flows. Normal and oblique shock waves, Prandtl-Meyer expansion, flow over airfoils. Applications to nozzles, shock-tubes, wind-tunnels. Flow with friction and heat addition or loss. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=ME%20321" title="ME&#160;321" class="bubblelink code" onclick="return showCourse(this, 'ME 321');">ME&#160;321</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;421.  Intermediate Heat Transfer.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Topics in conduction, convection and radiation with emphasis on exact solutions: extended surfaces, internal and external flows, surface radiation, combined modes of heat transfer and selected topics. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=ME%20321" title="ME&#160;321" class="bubblelink code" onclick="return showCourse(this, 'ME 321');">ME&#160;321</a> or consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;422.  Heating, Ventilation and Air Conditioning.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Refrigeration systems and heat-pump, mass transfer in humidification, solar heat transfer in buildings, heating and cooling loads, air-conditioning computer project. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=ME%20321" title="ME&#160;321" class="bubblelink code" onclick="return showCourse(this, 'ME 321');">ME&#160;321</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;423.  Heat Exchangers.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Classification; heat transfer and pressure drop analysis, flow distribution, transient performance, surface selection and geometrical properties, codes and standards. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=ME%20211" title="ME&#160;211" class="bubblelink code" onclick="return showCourse(this, 'ME 211');">ME&#160;211</a> and <a href="/search/?P=ME%20321" title="ME&#160;321" class="bubblelink code" onclick="return showCourse(this, 'ME 321');">ME&#160;321</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;424.  Energy Management Solutions for Industry: Theory and Practice.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Emphasis on real world applications including: understanding utility billing and identifying costs; identifying and quantifying energy savings opportunities at industrial facilities; determining investment payback scenarios and considerations.  Course Information:  3 undergraduate hours.  4 graduate hours.  Extensive computer use required.  Field work required.  Extensive use of Microsoft Excel.  Prerequisite(s):  Junior standing or above.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;425.  Second Law Analysis in Energy Engineering.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Fundamentals: lost available work. Entropy generation minimization, optimal thermal design of: heat transfer augmentation devices, thermal energy storage, cryogenics, heat exchangers, thermal insulations, solar collectors. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=ME%20321" title="ME&#160;321" class="bubblelink code" onclick="return showCourse(this, 'ME 321');">ME&#160;321</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;426.  Applied Combustion.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Topics in combustion, providing both a theoretical and applied understanding of combustion processes as they relate to furnaces. Internal and external combustion engines; pollutant formation. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=ME%20325" title="ME&#160;325" class="bubblelink code" onclick="return showCourse(this, 'ME 325');">ME&#160;325</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;427.  Solar Engineering.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Applications; solar geometry and intensities; applied heat transfer topics; flat plate and concentrating collectors; energy storage; analysis of heating and cooling systems. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=ME%20321" title="ME&#160;321" class="bubblelink code" onclick="return showCourse(this, 'ME 321');">ME&#160;321</a> or consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;428.  Numerical Methods in Mechanical Engineering.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Introduction to numerical solution methods for problems in mechanical engineering. Example problems include heat transfer, fluid mechanics, thermodynamics, mechanical vibrations, dynamics, stress analysis, and other related problems. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CS%20109" title="CS&#160;109" class="bubblelink code" onclick="return showCourse(this, 'CS 109');">CS&#160;109</a>. Open only to juniors and seniors.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;429.  Internal Combustion Engines.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Introduction to engine types, characteristics and performance. Combustion processes in spark and compression ignition engines; combustion abnormalities. Analysis of intake, exhaust and fuel system. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=ME%20325" title="ME&#160;325" class="bubblelink code" onclick="return showCourse(this, 'ME 325');">ME&#160;325</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;433.  Non-Equilibrium Thermal Processes.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Molecular engineering. Non-equilibrium statistical mechanics. Distribution functions. Molecular excitation and de-excitation. Ionization and dissociation. Laser engineering. Non-equilibrium chemical kinetics. Surface processes. Chemisorption and physosorption. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=ME%20325" title="ME&#160;325" class="bubblelink code" onclick="return showCourse(this, 'ME 325');">ME&#160;325</a> or consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;441.  Optical Methods in Mechanical Engineering.  0-4 hours.</strong></p>
+<p class="courseblockdesc">
+Optical measurement techniques in solid mechanics and thermal-fluid engineering. Fundamentals of optics. Use of holography, interferometry, LDV, lasers, light scattering, diffraction, and other relevant techniques. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): Senior standing or consent of the instructor. Class Schedule Information:  To be properly registered, students must enroll in one Laboratory and one Lecture-Discussion.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;444.  Interdisciplinary Product Development I.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Cross-functional teams (w/students from AD 420/423 and <a href="/search/?P=MKTG%20594" title="MKTG&#160;594" class="bubblelink code" onclick="return showCourse(this, 'MKTG 594');">MKTG&#160;594</a>) research and develop new product concepts.  Focus on the identification of technologically appropriate product design problems.  Course Information:  Same as <a href="/search/?P=IE%20444" title="IE&#160;444" class="bubblelink code" onclick="return showCourse(this, 'IE 444');">IE&#160;444</a>. 3 undergraduate hours. 4 graduate hours. Year-long (with IE/<a href="/search/?P=ME%20445" title="ME&#160;445" class="bubblelink code" onclick="return showCourse(this, 'ME 445');">ME&#160;445</a>) project course.  Prerequisite(s):  Senior standing or above; and consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;445.  Interdisciplinary Product Development 2.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Cross-functional teams (w/students from AD 420 and <a href="/search/?P=MKTG%20594" title="MKTG&#160;594" class="bubblelink code" onclick="return showCourse(this, 'MKTG 594');">MKTG&#160;594</a>) research and develop new product concepts.  Focus on solutions to the opportunities identified in IE/<a href="/search/?P=ME%20444" title="ME&#160;444" class="bubblelink code" onclick="return showCourse(this, 'ME 444');">ME&#160;444</a> to functional prototypes.  Serves as a replacement for IE/<a href="/search/?P=ME%20396" title="ME&#160;396" class="bubblelink code" onclick="return showCourse(this, 'ME 396');">ME&#160;396</a>. Course Information:  Same as <a href="/search/?P=IE%20445" title="IE&#160;445" class="bubblelink code" onclick="return showCourse(this, 'IE 445');">IE&#160;445</a>. Year-long (with IE/<a href="/search/?P=ME%20444" title="ME&#160;444" class="bubblelink code" onclick="return showCourse(this, 'ME 444');">ME&#160;444</a>) project course.  Prerequisite(s):  <a href="/search/?P=IE%20444" title="IE&#160;444" class="bubblelink code" onclick="return showCourse(this, 'IE 444');">IE&#160;444</a> or <a href="/search/?P=ME%20444" title="ME&#160;444" class="bubblelink code" onclick="return showCourse(this, 'ME 444');">ME&#160;444</a>; and senior standing or above; and consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;447.  Computer-Aided Design.  0-4 hours.</strong></p>
+<p class="courseblockdesc">
+Conventional and computer-assisted methods in design. Geometry manipulation. Computer-aided modeling with curves, surfaces, and solids. Design with finite-element analysis. PRO/Engineer, PRO/Mechanica, ABAQUS, ANSYS. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=MATH%20220" title="MATH&#160;220" class="bubblelink code" onclick="return showCourse(this, 'MATH 220');">MATH&#160;220</a> and <a href="/search/?P=CME%20203" title="CME&#160;203" class="bubblelink code" onclick="return showCourse(this, 'CME 203');">CME&#160;203</a> and <a href="/search/?P=ME%20250" title="ME&#160;250" class="bubblelink code" onclick="return showCourse(this, 'ME 250');">ME&#160;250</a>; or consent of the instructor. Class Schedule Information: To be properly registered, students must enroll in one Laboratory-Discussion and one Lecture.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;449.  Microdevices and Micromachining Technology.  0-5 hours.</strong></p>
+<p class="courseblockdesc">
+Microfabrication techniques for microsensors, microstructures, and microdevices. Selected examples of physical/chemical sensors and actuators. Simulation experiments. Course Information: Same as <a href="/search/?P=ECE%20449" title="ECE&#160;449" class="bubblelink code" onclick="return showCourse(this, 'ECE 449');">ECE&#160;449</a>. 4 undergraduate hours. 5 graduate hours.  Laboratory. Prerequisite(s): <a href="/search/?P=ECE%20347" title="ECE&#160;347" class="bubblelink code" onclick="return showCourse(this, 'ECE 347');">ECE&#160;347</a>; or consent of the instructor. Class Schedule Information: To be properly registered, students must enroll in one Laboratory and one Lecture-Discussion.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;450.  Air Pollution Engineering.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Environmental aspects of combustion processes, pollutant formation. Control of pollutants and particulates. Air quality control. Fundamentals of combustion. Course Information: Same as <a href="/search/?P=CHE%20450" title="CHE&#160;450" class="bubblelink code" onclick="return showCourse(this, 'CHE 450');">CHE&#160;450</a>. 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=ME%20321" title="ME&#160;321" class="bubblelink code" onclick="return showCourse(this, 'ME 321');">ME&#160;321</a> or consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;464.  Virtual Automation.  0-4 hours.</strong></p>
+<p class="courseblockdesc">
+Fundamentals of manufacturing and automation modeling using CAD/CAM and computer-integrated manufacturing methods; concepts of virtual manufacturing; industrial robots and automated factory models within virtual environments. Course Information: Same as <a href="/search/?P=IE%20464" title="IE&#160;464" class="bubblelink code" onclick="return showCourse(this, 'IE 464');">IE&#160;464</a>. 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CS%20107" title="CS&#160;107" class="bubblelink code" onclick="return showCourse(this, 'CS 107');">CS&#160;107</a> or CS 108. Class Schedule Information: To be properly registered, students must enroll in one Lecture-Discussion, and one Laboratory.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;468.  Virtual Manufacturing.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Virtual reality applications in manufacturing systems design, manufacturing applications of networked virtual reality, virtual reality modeling of occupational safety engineering. Course Information: Same as <a href="/search/?P=IE%20468" title="IE&#160;468" class="bubblelink code" onclick="return showCourse(this, 'IE 468');">IE&#160;468</a>. 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CS%20107" title="CS&#160;107" class="bubblelink code" onclick="return showCourse(this, 'CS 107');">CS&#160;107</a> or CS 108.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;494.  Special Topics in Mechanical Engineering.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Particular topics vary from term to term depending on the interests of the students and the specialties of the instructor. Course Information: 3 undergraduate hours. 4 graduate hours. May be repeated. Prerequisite(s): Consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;496.  Undergraduate Senior Design Thesis I.  0-8 hours.</strong></p>
+<p class="courseblockdesc">
+Introduction to the principles and practice of product design: specifications, evaluation of design alternatives, technical reports, and oral presentations, through independent  design projects. Course Information: Same as <a href="/search/?P=IE%20496" title="IE&#160;496" class="bubblelink code" onclick="return showCourse(this, 'IE 496');">IE&#160;496</a>. Credit only given to nondegree students. No graduation credit given to students enrolled in Engineering. Extensive computer use required. Field trips required at a nominal fee. Prerequisite(s): Consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;497.  Undergraduate Senior Design Thesis II.  0-8 hours.</strong></p>
+<p class="courseblockdesc">
+ntroduction to engineering design and research methods: design tools, product conception and development, simulation, prototyping, technical reports and presentations, literature survey and undergraduate thesis. Course Information: Same as <a href="/search/?P=IE%20497" title="IE&#160;497" class="bubblelink code" onclick="return showCourse(this, 'IE 497');">IE&#160;497</a>. Credit only given to nondegree students. No graduation credit given to students enrolled in Engineering. Extensive computer use required. Field trips required at a nominal fee. Prerequisite(s): Consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>ME&#160;499.  Professional Development Seminar.  0 hours.</strong></p>
+<p class="courseblockdesc">
+Students are provided general information about their role as UIC Mechanical Engineering alumni in society and the role of the University in their future careers.  Students provide evaluations of their educational experience in the MIE department. Course Information: Satisfactory/Unsatisfactory grading only. Prerequisite(s): Open only to seniors; and approval of the department .Must be taken in the student's last semester of study.<br />
+</p>
+</div>
+</div>
+</div>
+
+            </div> <!-- end #content -->
+        </div><!--end #content-col -->
+    </div><!-- end #container -->
+</div><!-- end #wrapper --> 
+
+<div id="footer" class="clearfix" role="contentinfo">
+    <div class="wrap">
+        <div id="foot-logo">
+            <a href="/">University of Illinois at Chicago</a>
+        </div><!-- end #foot-logo -->
+        
+        <p><a href="http://admissions.uic.edu/apply-now">Apply Online</a> | <a href="http://admissions.uic.edu/contact-admissions">Contact Admissions</a> | <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Statement</a><br />
+        Having problems accessing this site? <a href="mailto:ccmelby@uic.edu">Contact the Webmaster</a>.<br />
+        &copy; 2017-2018 The Board of Trustees of the University of Illinois</p>
+    </div>
+</div><!-- end #footer -->
+
+<a href="#header" id="totop">Back to Top</a>
+
+<div id="print-dialog" class="screen noscript">
+	<div class="print-header">
+		Print Options
+	</div>
+	<div class="print-body">
+		<div class="print-option">
+			<div class="option-head">
+				<a href="#" onclick="hidePrintDialog();window.print();return false;">Send Page to Printer</a>
+			</div>
+			<p>
+				<em>Print this page.</em>
+			</p>
+		</div>
+
+
+<div class="print-option"><div class="option-head"><a href="mie.pdf" target="_blank">Download PDF of this page</a></div><p><em>The PDF will include all information unique to this page.</em></p></div>
+<div class="print-option">
+			<div class="option-head">
+				<a href="/pdf/2017-2019_undergraduate.pdf">Download PDF of the entire Undergraduate Catalog</a>
+			</div>
+			<p>
+				<em>All pages in the campus catalog.</em>
+			</p>
+		</div>
+
+	</div>
+	
+	<div class="buttons clearfix">
+		<div class="cancel">
+			<a href="#" onclick="hidePrintDialog(); return false;">Cancel</a>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

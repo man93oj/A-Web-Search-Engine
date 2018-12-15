@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <meta name="Generator" content="iWeb 3.0.4" />
+    <meta name="iWeb-Build" content="local-build-20140925" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta name="viewport" content="width=700" />
+    <title>Welcome</title>
+    <link rel="stylesheet" type="text/css" media="screen,print" href="Welcome_files/Welcome.css" />
+    <!--[if lt IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='Welcome_files/WelcomeIE.css'/><![endif]-->
+    <!--[if gte IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='Media/IE8.css'/><![endif]-->
+    <script type="text/javascript" src="Scripts/iWebSite.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/SharedResources/WidgetCommon.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/Navbar/navbar.js"></script>
+    <script type="text/javascript" src="Scripts/iWebImage.js"></script>
+    <script type="text/javascript" src="Welcome_files/Welcome.js"></script>
+  </head>
+  <body style="background: rgb(247, 246, 246); margin: 0pt; " onload="onPageLoad();" onunload="onPageUnload();">
+    <div style="text-align: center; ">
+      <div style="margin-bottom: 0px; margin-left: auto; margin-right: auto; margin-top: 0px; overflow: hidden; position: relative; word-wrap: break-word;  background: rgb(247, 246, 246); text-align: left; width: 700px; " id="body_content">
+        <div style="float: left; height: 0px; line-height: 0px; margin-left: 0px; position: relative; width: 700px; z-index: 10; " id="header_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+        </div>
+        <div style="margin-left: 0px; position: relative; width: 700px; z-index: 0; " id="nav_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div style="height: 1px; line-height: 1px; " class="tinyText"> </div>
+          <div class="com-apple-iweb-widget-navbar flowDefining" id="widget0" style="margin-left: 0px; margin-top: 24px; opacity: 1.00; position: relative; width: 700px; z-index: 1; ">
+    
+            <div id="widget0-navbar" class="navbar">
+
+      
+              <div id="widget0-bg" class="navbar-bg">
+
+        
+                <ul id="widget0-navbar-list" class="navbar-list">
+ <li></li> 
+</ul>
+                
+      
+</div>
+              
+    
+</div>
+          </div>
+          <script type="text/javascript"><!--//--><![CDATA[//><!--
+new NavBar('widget0', 'Scripts/Widgets/Navbar', 'Scripts/Widgets/SharedResources', '.', {"path-to-root": "", "navbar-css": ".navbar {\n\tfont-family: 'Helvetica Neue', Arial, sans-serif;\n\tfont-size: .85em;\n\tcolor: #999;\n\tmargin: 0px;\n\tline-height: 20px;\n\tfont-weight: bold;\n}\n\n.navbar-bg {\n\ttext-align: left;\n\tpadding: 0px;\n}\n\n.navbar-bg ul {\n\tlist-style: none;\n\tmargin: 0px;\n\tpadding: 0px;\n}\n\n\nli {\n\tlist-style-type: none;\n\tdisplay: inline;\n\tpadding: 0px 15px 0px 10px;\n}\n\n\nli a {\n\ttext-decoration: none;\n\tcolor: #999;\n}\n\nli a:visited {\n\ttext-decoration: none;\n\tcolor: #999;\n}\n\nli a:hover\n{\n \tcolor: #F00;\n\ttext-decoration: none;\n}\n\n\nli.current-page a\n{\n\t color: #666;\n\ttext-decoration: none;\n\n}", "current-page-GUID": "2BB0CD49-C82A-454C-9ED8-C0662454FFBF", "isCollectionPage": "NO"});
+//--><!]]></script>
+          <div style="clear: both; height: 0px; line-height: 0px; " class="spacer"> </div>
+        </div>
+        <div style="margin-left: 0px; position: relative; width: 700px; z-index: 5; " id="body_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div id="id1" style="height: 342px; left: 9px; position: absolute; top: 11px; width: 682px; z-index: 1; " class="style_SkipStroke shape-with-text stroke_0">
+            <div class="text-content graphic_shape_layout_style_default_External_674_334" style="padding: 4px; ">
+              <div class="graphic_shape_layout_style_default"></div>
+            </div>
+          </div>
+          <div style="height: 1px; line-height: 1px; " class="tinyText"> </div>
+          <div style="margin-left: 40px; margin-top: 416px; position: relative; width: 620px; z-index: 1; " class="style_SkipStroke_1 shape-with-text flowDefining">
+            <div class="text-content style_External_620_219" style="padding: 0px; ">
+              <div class="style">
+                <p style="padding-top: 0pt; " class="paragraph_style"><span class="style_1">David T. Eddington, Ph.D.<br /></span><br />Associate Professor of Bioengineering<br /><br /><span style="line-height: 17px; " class="style_2">Department of Bioengineering<br />University of Illinois at Chicago<br />851 S Morgan St 218 SEO<br />Chicago, IL 60607-7052<br />p312-355-3278 f312-996-5921</span><br /></p>
+              </div>
+              <div style="height: 21px; line-height: 21px; " class="tinyText"> </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 107px; width: 143px;  height: 107px; left: 97px; position: absolute; top: 41px; width: 143px; z-index: 1; " class="tinyText stroke_1 shadow_0">
+            <div style="position: relative; width: 143px; ">
+              <img src="Welcome_files/shapeimage_1.png" alt="" style="height: 107px; left: 0px; position: absolute; top: 0px; width: 143px; " />
+            </div>
+          </div>
+          
+
+
+          <div style="height: 108px; width: 144px;  height: 108px; left: 473px; position: absolute; top: 175px; width: 144px; z-index: 1; " class="tinyText style_SkipStroke_2 stroke_1 shadow_1">
+            <img src="Welcome_files/device4.jpg" alt="" style="border: none; height: 108px; width: 144px; " />
+          </div>
+          
+
+
+          <div style="height: 109px; width: 174px;  height: 109px; left: 272px; position: absolute; top: 175px; width: 174px; z-index: 1; " class="tinyText style_SkipStroke_2 stroke_1 shadow_2">
+            <img src="Welcome_files/device9.jpg" alt="" style="border: none; height: 109px; width: 175px; " />
+          </div>
+          
+
+
+          <div style="height: 108px; width: 145px;  height: 108px; left: 474px; position: absolute; top: 41px; width: 145px; z-index: 1; " class="tinyText style_SkipStroke_2 stroke_1 shadow_3">
+            <img src="Welcome_files/pattern1.jpg" alt="" style="border: none; height: 108px; width: 145px; " />
+          </div>
+          
+
+
+          <div style="height: 110px; width: 171px;  height: 110px; left: 273px; position: absolute; top: 40px; width: 171px; z-index: 1; " class="tinyText style_SkipStroke_2 stroke_1 shadow_4">
+            <img src="Welcome_files/uiccells.jpg" alt="" style="border: none; height: 110px; width: 172px; " />
+          </div>
+          
+
+
+          <div style="height: 107px; width: 143px;  height: 107px; left: 97px; position: absolute; top: 177px; width: 143px; z-index: 1; " class="tinyText style_SkipStroke_2 stroke_1 shadow_5">
+            <img src="Welcome_files/device10.jpg" alt="" style="border: none; height: 108px; width: 143px; " />
+          </div>
+          
+
+
+          <div id="id2" style="height: 59px; left: 129px; position: absolute; top: 304px; width: 459px; z-index: 1; " class="style_SkipStroke_3 shape-with-text">
+            <div class="text-content graphic_textbox_layout_style_default_External_459_59" style="padding: 0px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_1">BIOLOGICAL MICROSYSTEMS LABORATORY</p>
+              </div>
+            </div>
+          </div>
+          <div style="height: 0px; line-height: 0px; " class="spacer"> </div>
+        </div>
+        <div style="height: 100px; margin-left: 0px; position: relative; width: 700px; z-index: 15; " id="footer_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+

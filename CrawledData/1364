@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Software Technologies Research Center (STRC)</title>
+
+
+<style type="text/css">
+#contents { padding: 0; }
+#pmmcrumb { display: none; }
+</style>
+</head>
+
+<body>
+
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" background="maxine_bg.gif">
+  <tr>
+    <td bgcolor="#336699">&nbsp;</td>
+    <td colspan="2" bgcolor="#336699"><table width="760" height="30" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="760" align="center" valign="middle" bgcolor="#336699"><table width="760"  border="0" align="center" cellpadding="0" cellspacing="0">
+             
+            </table></td>
+        </tr>
+      </table></td>
+    <td bgcolor="#336699">&nbsp;</td>
+  </tr>
+  <tr bgcolor="#336699">
+    
+  </tr>
+  <tr >
+    <td background="maxine_bg.gif">&nbsp;</td>
+    <td colspan="2" align="center" valign="top" background="maxine_bg.gif" bgcolor="#8DD1C4"><table width="760" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr align="center" valign="middle">
+          <td width="760" align="left" valign="top" bgcolor="#FFFFFF"><div align="left" valign="top" bgcolor="#ffffff" id="contents">
+            
+            
+            
+            
+            
+            
+            <table width="100%" border="0" cellspacing="0" cellpadding="10">
+            
+              
+              
+              <tr>
+              <td> 
+              
+              <table width="760" border="0">
+              <tr >
+              <td>
+              <table height="280" border="0">
+              <tr height="10"><td></td></tr>
+              <tr >
+              <td "align="right" width="540" height="50"><font face="Verdana, Geneva, sans-serif" color="#333333" size="+1">       </font><br /><br />
+
+<font face="Verdana, Geneva, sans-serif" color="#333333" size="-1">
+<br />
+<br />
+</td>
+                </tr>
+              <tr height="230"><td></td></tr>
+              </table>
+                
+                
+                
+                
+                
+                <td width="200" height="280" align="left" >
+                  
+                  
+                  <img src="DeFanti.jpg" width="500" height="380" border="0" align="right">
+                </td>
+                </tr>
+              </table>
+              </td>
+              </tr>
+              
+              
+              
+              
+              
+              
+              <tr>
+                <td width="760"  bgcolor="#FFFFFF">
+                 <font face="Verdana, Geneva, sans-serif" size="-1" color="#333333"><b>Tom DeFanti </b><br />  
+                 OSU CSE* MS 1970, PhD 1973<br /><br/>
+
+
+<font color="#0066CC"><b>Profile</b></font><br/><br/>
+
+At age 24, with his OSU/CSE* doctoral degree in hand, thanks to an OSU fellowship and a research assistantship in Prof. Charles Csuriâs Computer Graphics Research Lab, Tom DeFanti moved to the University of Illinois at Chicago (UIC) in 1973 as an assistant professor of computer science and set up, with Dan Sandin, the Electronic Visualization Laboratory (EVL)*--which 37 years later is still quite well and thriving.  In 1976, Tom helped computer animation pioneer Larry Cuba create the computer graphics for the 1977 movie Star Wars (using the same graphics language he developed for his PhD). In 1977, Tom became secretary of the ACM/SIGGRAPH organization, as well as becoming active in working on and growing its annual conference from hundreds to thousands of attendees.  He was tenured in 1978 and promoted to associate professor.  In 1978, he began doing R&D for Bally/Midway, the maker of PacMan and Space Invaders in the US and created the operating system and programming language of one of the first âpersonal computersâ (the Bally Home Library Computer), which later got produced as the Datamax UV-1, a system popular with digital video artists for many years.   Tom became chair of the SIGGRAPH organization from 1981-1985 and proactively led its expansion with its fast-growing annual conference, SIGGRAPH Video Review publication, and many international alliances.<br/><br/>
+
+In 1986, Tom married Kathy Tanaka and later had sons Ian (1987) and Connor (1992).  Also in 1986, Tom started his long association with Dr. Larry Smarr of the National Center for Supercomputing Applications at the University of Illinois at Urbana-Champaign.  Tom shortly thereafter hired Maxine Brown to be EVL associate director, who, with Larryâs guidance, propelled EVL from a very modest lab to the best-funded lab at UIC for many years.  The affiliation with Larry led Tom, along with Maxine and Bruce McCormick of TAMU, to edit the acclaimed 1987 report for the National Science Foundation entitled âVisualization in Scientific Computing.â Another high point was SIGGRAPHâ92, which Maxine chaired, a 35,000-person conference in Chicago that brought for the first time, under Tomâs leadership, 45Mb/s networking to a SIGGRAPH conference.  Also debuting at that conference was the CAVEâ¢ virtual reality system, conceived by Tom and Dan.  Trying to extend the idea of videoconferencing, then just in its infancy, to 3D (that is, CAVE-to-CAVE) communications, led Tom and Maxine to get involved with high-speed networking. <br/><br/>
+
+At SCâ95 in San Diego, Tom, assisted by Maxine, organized the I-WAY event, which showcased over 60 US collaborations (and 1 Canadian) that required advanced networking to do scientific computing. Based on the success of SCâ95, Tom and Maxine submitted an unsolicited proposal to NSF to build STAR TAP, an international advanced networking exchange âhubâ in Chicago for research and education networks. Started in 1997, it continues its growth as StarLight, managed by close colleague Joe Mambretti at Northwestern University, and has become the largest such exchange in the world, and is a model for building such exchanges in many countries that form the Global Lambda Integrated Facility (GLIF).<br/><br/>
+
+For almost 20 years, Tom, Dan, Greg Dawe, and current EVL director Jason Leigh built and networked CAVEs and then started creating huge tiled LCD panels, building a 100-megapixel tiled display in 2004. Larry had since moved to University of California, San Diego (UCSD) in 2000 and became founding director of the California Institute for Telecommunications and Information Technology (Calit2). Together, Larry and others from UCSD, as well as Tom, Maxine and Jason at UIC, successfully got $13.5M of NSF funding in 2002 for the 7-year OptIPuter project to build a global network-based computer.  In 2004, Tom, as a UIC distinguished professor, achieved emeritus status and moved to Del Mar, California, to become a research scientist at Calit2, bringing Kathy, Ian, and Connor. Greg also moved to San Diego and works at Calit2, and Dan is a frequent visitor and consultant.<br/><br/>
+
+At Calit2, between 2005 and 2007, Tom and Greg built the StarCAVE, a 34-projector CAVE, and an 80-megapixel version of Dan Sandinâs Varrier Autostereo virtual reality display.  Tomâs latest projects include GreenLight (a NSF-funded instrument to measure power usage for GPU, FPGA, and conventional computing architectures), KAUSTâs advanced visualization research facilities, and CineGrid (providing means to transmit and archive digital motion pictures).  Tom, Dan, Maxine, Greg, Larry, Jason, and Joe, along with new faculty, researchers and students at UIC and UCSD, work together every day, using and extending the transformative capabilities of cyberinfrastructure. <br/><br/>
+
+*some of these names evolved over the years. <br/><br/>
+
+<font color="#0066CC"><b>Bio</b></font><br/><br/>
+
+Thomas A. DeFanti, Ph.D., (born 1948) is an internationally recognized pioneer in <a href="http://en.wikipedia.org/wiki/Visualization_%28computer_graphics%29" style="text-decoration:none"><font face="Verdana, Geneva, sans-serif" color="#336699" size="-1">visualization</font></a> and virtual reality technologies. As a leader in the development of next-generation networks to advance science, DeFanti has also overseen a multitude of innovations in the area of computer networks.<br/><br/>
+
+DeFanti is currently a research scientist at the <a href="http://en.wikipedia.org/wiki/Calit2" style="text-decoration:none"><font face="Verdana, Geneva, sans-serif" color="#336699" size="-1">California Institute for Telecommunications and Information Technology (Calit2)</font></a> at the <a href="http://en.wikipedia.org/wiki/Ucsd" style="text-decoration:none"><font face="Verdana, Geneva, sans-serif" color="#336699" size="-1">University of California, San Diego</font></a> â a position he has held since March of 2005. DeFantiâs involvement at Calit2 began during his last sabbatical from the <a href="http://en.wikipedia.org/wiki/University_of_Illinois_at_Chicago" style="text-decoration:none"><font face="Verdana, Geneva, sans-serif" color="#336699" size="-1">University of Illinois at Chicago (UIC)</font></a>, where he is a distinguished professor emeritus in the department of Computer Science, and, until 2010, a director of the Electronic Visualization Laboratory (EVL), and the director of the Software Technologies Research Center.<br/><br/>
+
+In July 2008, DeFanti and a team of computer scientists and other colleagues at UCSD received a $2 million grant to support the GreenLight Instrument, which will enable five communities of application scientists â drawn from <a href="http://en.wikipedia.org/wiki/Metagenomics" style="text-decoration:none"><font face="Verdana, Geneva, sans-serif" color="#336699" size="-1">metagenomics</font></a>, ocean observing, <a href="http://en.wikipedia.org/wiki/Microscopy" style="text-decoration:none"><font face="Verdana, Geneva, sans-serif" color="#336699" size="-1">microscopy</font></a>, <a href="http://en.wikipedia.org/wiki/Bioinformatics" style="text-decoration:none"><font face="Verdana, Geneva, sans-serif" color="#336699" size="-1">bioinformatics</font></a>, and the <a href="http://en.wikipedia.org/wiki/Digital_media" style="text-decoration:none"><font face="Verdana, Geneva, sans-serif" color="#336699" size="-1">digital media</font></a> â to gain a better understanding of how to measure and then minimize energy consumption using a variety of computing architectures, software innovations, and UCSDâs alternative energy and cooling sources.<br/><br/>
+
+DeFanti also leads Calit2's collaboration with <a href="http://en.wikipedia.org/wiki/KAUST" style="text-decoration:none"><font face="Verdana, Geneva, sans-serif" color="#336699" size="-1">King Abdullah University of Science and Technology (KAUST)</font></a> which has announced an ambitious program to create a world-class scientific visualization and virtual reality facility.  DeFanti and his team at Calit2 will assist KAUST in developing a number of 3-D, high-resolution displays, as well as related matters: teleconferencing, networking, computation, and storage.<br/><br/>
+
+While at Calit2, DeFanti has collaborated with a variety of researchers on LambdaGrid technology, which operates single or multiple lambdas in a fiber-based network. <br/><br/> 
+
+DeFanti was also integral in forging a partnership between the National Lambda Rail (NLR) and the Illinois-based company Darkstrand, which later led to a doubling of the NLR's wavelengths using Darkstrand capital, a significant technology offering to academia and industry that is unparalleled worldwide. The CAVEwave, another of DeFantiâs NLR efforts, is the first example of a 10G lightpath deployed for a single principal investigator to connect his national research nodes. <br/><br/> 
+
+Together with his colleagues Greg Dawe and Dan Sandin, whom he worked with for 3 decades previously, DeFanti designed and built the Calit2 StarCAVE, one of the worldâs most advanced virtual-reality system, taking the original CAVE conception by DeFanti and Sandin to much higher resolution and contrast. <br/><br/>
+
+In 2005, DeFanti, Calit2 Director <a href="http://en.wikipedia.org/wiki/Larry_Smarr" style="text-decoration:none"><font face="Verdana, Geneva, sans-serif" color="#336699" size="-1">Larry Smarr</font></a> and colleagues Laurin Herr and Natalie Van Osdol created the CineGrid initiative to fully exploit and leverage Calit2's the state-of-the-art digital cinema installation. CineGrid has now attracted a worldwide membership of dozens of universities, companies, networks and non-profits (like the <a href="http://en.wikipedia.org/wiki/Academy_of_Motion_Picture_Arts_and_Sciences" style="text-decoration:none"><font face="Verdana, Geneva, sans-serif" color="#336699" size="-1">Academy of Motion Pictures Arts and Sciences</font></a>), and networks, and has held major conference and demonstration events at Calit2. The CineGrid Exchange, a hundreds-of-terabytes globally distributed digital cinema archiving system, is currently in development at Calit2 and is being propagated to Chicago, Toronto, Amsterdam, Prague and Tokyo. <br/><br/>
+
+Also in 2005, DeFanti co-chaired iGrid2005 assisting longtime colleague Maxine Brown, iGrid2005 chair, which brought 100 Gigabits of networking and several dozen major international e-science and electronic art experiments into Calit2. The event established Calit2 as one of a handful of world-class Global Lambda Integrated Facility Optical Lambda Exchanges (GLIF GOLEs). <br/><br/>
+
+DeFantiâs prior efforts have also included a role directing significant parts of the OptiPuter (<a href="http://www.optiputer.net/" style="text-decoration:none"><font face="Verdana, Geneva, sans-serif" color="#336699" size="-1">www.optiputer.net</font></a>) project â a $13.5 million virtual <a href="http://en.wikipedia.org/wiki/Parallel_computer" style="text-decoration:none"><font face="Verdana, Geneva, sans-serif" color="#336699" size="-1">parallel computer</font></a> that incorporates widely distributed processor clusters connected over one or more dedicated circuits, and mass storage systems that serve as large distributed scientific data repositories.  The OptIPuter is an embodiment of the vision of the âhollowing out of the computerâ prophesized by Erich Schmidt in the mid-1990s. Its fundamental inventions include software and middleware to deliver unique capabilities in a world in which bandwidth is greater than individual computers can saturate. <br/><br/> 
+
+The OptIPuter has become a cornerstone upon which to build Calit2âs large cyberinfrastructure activities, including the Moore Foundation-sponsored <a href="http://en.wikipedia.org/wiki/Community_Cyberinfrastructure_for_Advanced_Marine_Microbial_Ecology_Research_and_Analysis" style="text-decoration:none"><font face="Verdana, Geneva, sans-serif" color="#336699" size="-1">CAMERA</font></a> project, NSFâs LOOKING ocean observatory prototype, NSFâs <a href="http://en.wikipedia.org/wiki/Ocean_Observatories_Initiative" style="text-decoration:none"><font face="Verdana, Geneva, sans-serif" color="#336699" size="-1">Ocean Sciences Division Ocean Observatories Initiative</font></a>(OOI) Cyberinfrastructure grant, the CineGrid initiative, and several major outreach activities in progress and proposal form. <br/><br/>
+
+In addition to his role on the OptiPuter team, DeFanti also designed and implemented the local infrastructure for very high-end visualization and virtual reality experiments in Calit2's New Media Arts Wing, equipping its auditorium with the worldâs most advanced digital cinema projector and hardware, software, and the 10 gigabit Ethernet networking to drive it. DeFanti procured and deployed the worldâs highest resolution (40 megapixels/eye) autostereo system, dubbed the Varrier, designed by Dan Sandin of EVL, which allows people to see 3D visuals without special glasses.  <br/><br/>
+
+<font color="#0066CC"><b>Academic Background</b></font><br/><br/>
+
+DeFanti received his B.A. in Mathematics from Queens College (1969), and his M.S. (1970) and Ph.D. (1973) degrees in Computer and Information Science from The Ohio State University.
+<br/><br/>
+<font color="#0066CC"><b>Recognition</b></font><br/><br/>
+
+DeFanti has received numerous honors and awards, including:<br/><br/>
+
+    : : ACM Outstanding Contribution Award, 1988.<br/>
+    : : University Scholar, University of Illinois, 1989-1992<br/>
+    : : ACM Fellow, elected 1994.<br/>
+    : : Pioneer Award, Center for New TV, Chicago, IL, 1998<br/>
+    : : Recipient, UIC College of Engineering Faculty Research Award, April 1999.<br/>
+    : : UIC Inventor of the Year Award, (for conceiving and developing the CAVE virtual reality theater), May 2000.<br/>
+    : : Outstanding Service Award, ACM SIGGRAPH, July 2000.<br/>
+    : : Fellow, International Engineering Consortium, Chicago, IL, October 2000,<a href="http://www.iec.org/" style="text-decoration:none"><font face="Verdana, Geneva, sans-serif" color="#336699" size="-1"> www.iec.org</font></a><br/>
+    : : UIC Distinguished Professor, awarded March 2001.<br/>
+    : : The Corporation for Education Network Initiatives in California<br/>
+    : : (CENIC) 2006 Innovation in Networking Award, March 2006 (NEW)<br/>
+    : : <a href="http://www.evl.uic.edu/core.php?mod=4&type=4&indi=457" style="text-decoration:none"><font face="Verdana, Geneva, sans-serif" color="#336699" size="-1">Outstanding Research Achievement</font></a>, UIC's College of Engineering November, 2006<br/>
+    : : <a href="http://www.calit2.net/newsroom/release.php?id=1071" style="text-decoration:none"><font face="Verdana, Geneva, sans-serif" color="#336699" size="-1">IEEE Virtual Reality Technical Achievement Award</font></a>, March 2007<br/>
+
+</font>
+
+               
+                  
+                </td>
+                </tr>
+
+
+</table></div></td>
+
+</tr>
+    </table></td>
+    
+  </tr>
+</table>
+
+
+
+
+
+
+<table width="100%" height="30"  border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td bgcolor="#336699"> </td>
+  </tr>
+  
+  
+</table>
+
+</body>
+</html>

@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://mmnl.engr.uic.edu/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="http://mmnl.engr.uic.edu/wp-content/themes/twentyfifteen/js/html5.js"></script>
+	<![endif]-->
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>Multiscale Mechanics and Nanotechnology Laboratory</title>
+<link rel="alternate" type="application/rss+xml" title="Multiscale Mechanics and Nanotechnology Laboratory &raquo; Feed" href="http://mmnl.engr.uic.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Multiscale Mechanics and Nanotechnology Laboratory &raquo; Comments Feed" href="http://mmnl.engr.uic.edu/comments/feed/" />
+<link rel="alternate" type="text/calendar" title="Multiscale Mechanics and Nanotechnology Laboratory &raquo; iCal Feed" href="http://mmnl.engr.uic.edu/events/?ical=1" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/mmnl.engr.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.3"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='dashicons-css'  href='http://mmnl.engr.uic.edu/wp-includes/css/dashicons.min.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-jquery-ui-dialog-css'  href='http://mmnl.engr.uic.edu/wp-includes/css/jquery-ui-dialog.min.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='http://mmnl.engr.uic.edu/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.1.6' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='simple-staff-list-css'  href='http://mmnl.engr.uic.edu/wp-content/plugins/simple-staff-list/public/css/simple-staff-list-public.css?ver=1.17' type='text/css' media='all' />
+<link rel='stylesheet' id='staff-list-custom-css-css'  href='http://mmnl.engr.uic.edu/wp-content/themes/twentyfifteen/simple-staff-list-custom.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='swl-style-css'  href='http://mmnl.engr.uic.edu/wp-content/plugins/social-web-links/social-web-links.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-css-css'  href='//ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.min.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='cdm-style-css'  href='http://mmnl.engr.uic.edu/wp-content/plugins/sp-client-document-manager/style.css?ver=2.6.2.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wordpress-file-upload-style-css'  href='http://mmnl.engr.uic.edu/wp-content/plugins/wp-file-upload/css/wordpress_file_upload_style.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wordpress-file-upload-style-safe-css'  href='http://mmnl.engr.uic.edu/wp-content/plugins/wp-file-upload/css/wordpress_file_upload_style_safe.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-timepicker-addon-css-css'  href='http://mmnl.engr.uic.edu/wp-content/plugins/wp-file-upload/vendor/datetimepicker/jquery-ui-timepicker-addon.min.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='uaf_client_css-css'  href='http://mmnl.engr.uic.edu/wp-content/uploads/sites/36/useanyfont/uaf.css?ver=1467753652' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfifteen-fonts-css'  href='https://fonts.googleapis.com/css?family=Noto+Sans%3A400italic%2C700italic%2C400%2C700%7CNoto+Serif%3A400italic%2C700italic%2C400%2C700%7CInconsolata%3A400%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='http://mmnl.engr.uic.edu/wp-content/plugins/jetpack/_inc/genericons/genericons/genericons.css?ver=3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfifteen-style-css'  href='http://mmnl.engr.uic.edu/wp-content/themes/twentyfifteen/style.css?ver=4.5.3' type='text/css' media='all' />
+<style id='twentyfifteen-style-inline-css' type='text/css'>
+
+		/* Custom Sidebar Text Color */
+		.site-title a,
+		.site-description,
+		.secondary-toggle:before {
+			color: #ffffff;
+		}
+
+		.site-title a:hover,
+		.site-title a:focus {
+			color: #ffffff; /* Fallback for IE7 and IE8 */
+			color: rgba( 255, 255, 255, 0.7);
+		}
+
+		.secondary-toggle {
+			border-color: #ffffff; /* Fallback for IE7 and IE8 */
+			border-color: rgba( 255, 255, 255, 0.1);
+		}
+
+		.secondary-toggle:hover,
+		.secondary-toggle:focus {
+			border-color: #ffffff; /* Fallback for IE7 and IE8 */
+			border-color: rgba( 255, 255, 255, 0.3);
+		}
+
+		.site-title a {
+			outline-color: #ffffff; /* Fallback for IE7 and IE8 */
+			outline-color: rgba( 255, 255, 255, 0.3);
+		}
+
+		@media screen and (min-width: 59.6875em) {
+			.secondary a,
+			.dropdown-toggle:after,
+			.widget-title,
+			.widget blockquote cite,
+			.widget blockquote small {
+				color: #ffffff;
+			}
+
+			.widget button,
+			.widget input[type="button"],
+			.widget input[type="reset"],
+			.widget input[type="submit"],
+			.widget_calendar tbody a {
+				background-color: #ffffff;
+			}
+
+			.textwidget a {
+				border-color: #ffffff;
+			}
+
+			.secondary a:hover,
+			.secondary a:focus,
+			.main-navigation .menu-item-description,
+			.widget,
+			.widget blockquote,
+			.widget .wp-caption-text,
+			.widget .gallery-caption {
+				color: rgba( 255, 255, 255, 0.7);
+			}
+
+			.widget button:hover,
+			.widget button:focus,
+			.widget input[type="button"]:hover,
+			.widget input[type="button"]:focus,
+			.widget input[type="reset"]:hover,
+			.widget input[type="reset"]:focus,
+			.widget input[type="submit"]:hover,
+			.widget input[type="submit"]:focus,
+			.widget_calendar tbody a:hover,
+			.widget_calendar tbody a:focus {
+				background-color: rgba( 255, 255, 255, 0.7);
+			}
+
+			.widget blockquote {
+				border-color: rgba( 255, 255, 255, 0.7);
+			}
+
+			.main-navigation ul,
+			.main-navigation li,
+			.secondary-toggle,
+			.widget input,
+			.widget textarea,
+			.widget table,
+			.widget th,
+			.widget td,
+			.widget pre,
+			.widget li,
+			.widget_categories .children,
+			.widget_nav_menu .sub-menu,
+			.widget_pages .children,
+			.widget abbr[title] {
+				border-color: rgba( 255, 255, 255, 0.1);
+			}
+
+			.dropdown-toggle:hover,
+			.dropdown-toggle:focus,
+			.widget hr {
+				background-color: rgba( 255, 255, 255, 0.1);
+			}
+
+			.widget input:focus,
+			.widget textarea:focus {
+				border-color: rgba( 255, 255, 255, 0.3);
+			}
+
+			.sidebar a:focus,
+			.dropdown-toggle:focus {
+				outline-color: rgba( 255, 255, 255, 0.3);
+			}
+		}
+	
+</style>
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfifteen-ie-css'  href='http://mmnl.engr.uic.edu/wp-content/themes/twentyfifteen/css/ie.css?ver=20141010' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='twentyfifteen-ie7-css'  href='http://mmnl.engr.uic.edu/wp-content/themes/twentyfifteen/css/ie7.css?ver=20141010' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='simcal-qtip-css'  href='http://mmnl.engr.uic.edu/wp-content/plugins/google-calendar-events/assets/css/vendor/jquery.qtip.min.css?ver=2.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='simcal-default-calendar-grid-css'  href='http://mmnl.engr.uic.edu/wp-content/plugins/google-calendar-events/assets/css/default-calendar-grid.min.css?ver=3.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='simcal-default-calendar-list-css'  href='http://mmnl.engr.uic.edu/wp-content/plugins/google-calendar-events/assets/css/default-calendar-list.min.css?ver=3.1.1' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tribe_events_linked_posts = {"post_types":{"tribe_venue":"venue","tribe_organizer":"organizer"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script><script>jQueryWP = jQuery;</script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-content/plugins/sp-client-document-manager/js/jquery.remodal.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-content/plugins/sp-client-document-manager/js/jquery.responsive.tabs.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.1.6'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.1.6'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-content/plugins/simple-staff-list/public/js/simple-staff-list-public.js?ver=1.17'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-content/plugins/sp-client-document-manager/js/jquery.cookie.js?ver=4.5.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sp_vars = {"ajax_url":"https:\/\/mmnl.engr.uic.edu\/wp-admin\/admin-ajax.php","plugin_url":"http:\/\/mmnl.engr.uic.edu\/wp-content\/plugins\/sp-client-document-manager\/","uid":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-content/plugins/sp-client-document-manager/upload.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-content/plugins/sp-client-document-manager/js/jquery.validate.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-includes/js/swfupload/swfupload.js?ver=2201-20110113'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-includes/js/swfupload/plugins/swfupload.queue.js?ver=2201'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-includes/js/swfobject.js?ver=2.2-20120417'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-includes/js/swfupload/plugins/swfupload.swfobject.js?ver=2201a'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var swfuploadL10n = {"queue_limit_exceeded":"You have attempted to queue too many files.","file_exceeds_size_limit":"%s exceeds the maximum upload size for this site.","zero_byte_file":"This file is empty. Please try another.","invalid_filetype":"This file type is not allowed. Please try another.","not_an_image":"This file is not an image. Please try another.","image_memory_exceeded":"Memory exceeded. Please try another smaller file.","image_dimensions_exceeded":"This is larger than the maximum size. Please try another.","default_error":"An error occurred in the upload. Please try again later.","missing_upload_url":"There was a configuration error. Please contact the server administrator.","upload_limit_exceeded":"You may only upload 1 file.","http_error":"HTTP error.","upload_failed":"Upload failed.","big_upload_failed":"Please try uploading this file with the %1$sbrowser uploader%2$s.","big_upload_queued":"%s exceeds the maximum upload size for the multi-file uploader when used in your browser.","io_error":"IO error.","security_error":"Security error.","file_cancelled":"File canceled.","upload_stopped":"Upload stopped.","dismiss":"Dismiss","crunching":"Crunching\u2026","deleted":"moved to the trash.","error_uploading":"\u201c%s\u201d has failed to upload."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-includes/js/swfupload/handlers.min.js?ver=2201-20110524'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-content/plugins/sp-client-document-manager/js/jquery.modal.responsive.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-content/plugins/wp-file-upload/js/json2.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-content/plugins/wp-file-upload/js/wordpress_file_upload_functions.js?ver=4.5.3'></script>
+<link rel='https://api.w.org/' href='http://mmnl.engr.uic.edu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://mmnl.engr.uic.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://mmnl.engr.uic.edu/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.5.3" />
+<link rel="canonical" href="http://mmnl.engr.uic.edu/" />
+<link rel='shortlink' href='http://mmnl.engr.uic.edu/' />
+<link rel="alternate" type="application/json+oembed" href="http://mmnl.engr.uic.edu/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fmmnl.engr.uic.edu%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://mmnl.engr.uic.edu/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fmmnl.engr.uic.edu%2F&#038;format=xml" />
+<!-- <meta name="NextGEN" version="2.1.46" /> -->
+<link rel='stylesheet' id='thickbox-css'  href='http://mmnl.engr.uic.edu/wp-includes/js/thickbox/thickbox.css?ver=4.5.3' type='text/css' media='all' />
+
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://mmnl.engr.uic.edu/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://mmnl.engr.uic.edu/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]-->	<style type="text/css" id="twentyfifteen-header-css">
+			.site-header {
+
+			/*
+			 * No shorthand so the Customizer can override individual properties.
+			 * @see https://core.trac.wordpress.org/ticket/31460
+			 */
+			background-image: url(http://mmnl.engr.uic.edu/wp-content/uploads/sites/36/2016/01/cropped-HeaderFiberImageCrop.png);
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+			-webkit-background-size: cover;
+			-moz-background-size:    cover;
+			-o-background-size:      cover;
+			background-size:         cover;
+		}
+
+		@media screen and (min-width: 59.6875em) {
+			body:before {
+
+				/*
+				 * No shorthand so the Customizer can override individual properties.
+				 * @see https://core.trac.wordpress.org/ticket/31460
+				 */
+				background-image: url(http://mmnl.engr.uic.edu/wp-content/uploads/sites/36/2016/01/cropped-HeaderFiberImageCrop.png);
+				background-repeat: no-repeat;
+				background-position: 100% 50%;
+				-webkit-background-size: cover;
+				-moz-background-size:    cover;
+				-o-background-size:      cover;
+				background-size:         cover;
+				border-right: 0;
+			}
+
+			.site-header {
+				background: transparent;
+			}
+		}
+		</style>
+	<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+<meta name="generator" content="Powered by Slider Revolution 5.1.6 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href="http://mmnl.engr.uic.edu/wp-content/uploads/sites/36/2016/01/cropped-SiteIcon2-32x32.png" sizes="32x32" />
+<link rel="icon" href="http://mmnl.engr.uic.edu/wp-content/uploads/sites/36/2016/01/cropped-SiteIcon2-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="http://mmnl.engr.uic.edu/wp-content/uploads/sites/36/2016/01/cropped-SiteIcon2-180x180.png" />
+<meta name="msapplication-TileImage" content="http://mmnl.engr.uic.edu/wp-content/uploads/sites/36/2016/01/cropped-SiteIcon2-270x270.png" />
+<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+<!-- My Custom CSS -->
+<link rel='stylesheet' id='mccss_stylesheet' href='http://mmnl.engr.uic.edu/wp-content/uploads/sites/36/my_custom_css/my_style_id-36.css?1533400663' type='text/css' media='all' />
+<!-- My Custom CSS -->
+<link rel='stylesheet' id='jquery-remodal-css'  href='http://mmnl.engr.uic.edu/wp-content/plugins/sp-client-document-manager/css/jquery.remodal.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-responsive-tabs-css'  href='http://mmnl.engr.uic.edu/wp-content/plugins/sp-client-document-manager/css/jquery.responsive.tabs.css?ver=4.5.3' type='text/css' media='all' />
+</head>
+
+<body class="home page page-id-96 page-template-default custom-background tribe-theme-twentyfifteen wpb-js-composer js-comp-ver-4.12 vc_responsive">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<div id="sidebar" class="sidebar">
+		<header id="masthead" class="site-header" role="banner">
+			<div class="site-branding">
+										<p class="site-title"><a href="http://mmnl.engr.uic.edu/" rel="home">Multiscale Mechanics and Nanotechnology Laboratory</a></p>
+									<button class="secondary-toggle">Menu and widgets</button>
+			</div><!-- .site-branding -->
+		</header><!-- .site-header -->
+
+			<div id="secondary" class="secondary">
+
+					<nav id="site-navigation" class="main-navigation" role="navigation">
+				<div class="menu-main-menu-container"><ul id="menu-main-menu" class="nav-menu"><li id="menu-item-132" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-96 current_page_item menu-item-132"><a href="http://mmnl.engr.uic.edu/">Home</a></li>
+<li id="menu-item-200" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-200"><a href="http://mmnl.engr.uic.edu/research/projects-2/">Research<div class="menu-item-description">Projects and Publications</div></a>
+<ul class="sub-menu">
+	<li id="menu-item-135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-135"><a href="http://mmnl.engr.uic.edu/research/projects-2/">Projects</a></li>
+	<li id="menu-item-233" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-233"><a target="_blank" href="http://mmnl.engr.uic.edu/wp-content/uploads/sites/36/2018/05/ListOfPublications2018.pdf">Publications</a></li>
+</ul>
+</li>
+<li id="menu-item-201" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-201"><a href="http://mmnl.engr.uic.edu/people-2/faculty/">People<div class="menu-item-description">Faculty, Students, and Available Positions</div></a>
+<ul class="sub-menu">
+	<li id="menu-item-131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131"><a href="http://mmnl.engr.uic.edu/people-2/faculty/">Faculty</a></li>
+	<li id="menu-item-130" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-130"><a href="http://mmnl.engr.uic.edu/people-2/students/">Students</a></li>
+	<li id="menu-item-129" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-129"><a href="http://mmnl.engr.uic.edu/people-2/available-positions/">Available Positions</a></li>
+</ul>
+</li>
+<li id="menu-item-133" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-133"><a href="http://mmnl.engr.uic.edu/facilities/">Facilities</a></li>
+<li id="menu-item-202" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-202"><a href="http://mmnl.engr.uic.edu/media/news-2/">Media<div class="menu-item-description">News and Press Coverage</div></a>
+<ul class="sub-menu">
+	<li id="menu-item-126" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-126"><a href="http://mmnl.engr.uic.edu/media/news-2/">News</a></li>
+	<li id="menu-item-127" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-127"><a href="http://mmnl.engr.uic.edu/media/press-coverage/">Press Coverage</a></li>
+</ul>
+</li>
+</ul></div>			</nav><!-- .main-navigation -->
+		
+		
+					<div id="widget-area" class="widget-area" role="complementary">
+				<aside id="search-3" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://mmnl.engr.uic.edu/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit screen-reader-text" value="Search" />
+			</form></aside><aside id="text-3" class="widget widget_text"><h2 class="widget-title">Contact Information</h2>			<div class="textwidget"><p>Engineering Research Facility<br />
+Room 1054, 842 W Taylor St<br />
+Chicago, IL 60607-7022</p>
+<p>Lab Phone: 312-996-3439</p>
+</div>
+		</aside><aside id="nav_menu-3" class="widget widget_nav_menu"><div class="menu-privacy-policy-menu-container"><ul id="menu-privacy-policy-menu" class="menu"><li id="menu-item-698" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-698"><a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Policy</a></li>
+</ul></div></aside>			</div><!-- .widget-area -->
+		
+	</div><!-- .secondary -->
+
+	</div><!-- .sidebar -->
+
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+<article id="post-96" class="post-96 page type-page status-publish has-post-thumbnail hentry">
+	
+	<div class="post-thumbnail">
+		<img width="756" height="510" src="http://mmnl.engr.uic.edu/wp-content/uploads/sites/36/2016/01/LabPhotographOct2015-min.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="LabPhotographOct2015-min" srcset="http://mmnl.engr.uic.edu/wp-content/uploads/sites/36/2016/01/LabPhotographOct2015-min.jpg 5176w, http://mmnl.engr.uic.edu/wp-content/uploads/sites/36/2016/01/LabPhotographOct2015-min-300x202.jpg 300w, http://mmnl.engr.uic.edu/wp-content/uploads/sites/36/2016/01/LabPhotographOct2015-min-1024x691.jpg 1024w, http://mmnl.engr.uic.edu/wp-content/uploads/sites/36/2016/01/LabPhotographOct2015-min-150x101.jpg 150w, http://mmnl.engr.uic.edu/wp-content/uploads/sites/36/2016/01/LabPhotographOct2015-min-250x169.jpg 250w, http://mmnl.engr.uic.edu/wp-content/uploads/sites/36/2016/01/LabPhotographOct2015-min-100x67.jpg 100w, http://mmnl.engr.uic.edu/wp-content/uploads/sites/36/2016/01/LabPhotographOct2015-min-200x135.jpg 200w, http://mmnl.engr.uic.edu/wp-content/uploads/sites/36/2016/01/LabPhotographOct2015-min-450x304.jpg 450w, http://mmnl.engr.uic.edu/wp-content/uploads/sites/36/2016/01/LabPhotographOct2015-min-600x405.jpg 600w, http://mmnl.engr.uic.edu/wp-content/uploads/sites/36/2016/01/LabPhotographOct2015-min-900x607.jpg 900w" sizes="(max-width: 756px) 100vw, 756px" />	</div><!-- .post-thumbnail -->
+
+	
+	<header class="entry-header">
+		<h1 class="entry-title">Home</h1>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p style="text-align: justify">The Multiscale Mechanics and Nanotechnology Laboratory is housed in the Department of Mechanical and Industrial Engineering of the University of Illinois at Chicago. Research activities focus on fundamental and practical aspects of fluid and solid mechanics, especially at length scales ranging from a few millimeters down to the nanometer level. Both experimental and theoretical aspects of fluid and solid mechanics phenomena are investigated. The laboratory, which occupies 2200 sq. ft. of floor space, is directed by <a href="https://mie.uic.edu/k-teacher/alexander-l-yarin-phd/" target="_blank">Prof. A. L. Yarin</a>, who supervises graduate students and postdoctoral researchers. A broad overview of the principal research areas pursued within the laboratory is summarized below:</p>
+<ul>
+<li style="text-align: left"><a href="http://mmnl.engr.uic.edu/nonwovens-electrospinning-of-nanofibers/">Nonwovens: Electrospinning of nanofibers</a></li>
+<li style="text-align: left"><a href="http://mmnl.engr.uic.edu/nonwovens-melt-and-solution-blowing-of-nanofibers/">Nonwovens: Melt- and solution blowing of nanofibers</a></li>
+<li style="text-align: left"><a href="http://mmnl.engr.uic.edu/co-electrospinning-of-core-shell-nanofibers-hollow-polymer-carbon-and-metal-nanofibers/">Co-electrospinning of core-shell nanofibers. Hollow polymer, carbon and metal nanofibers</a></li>
+<li style="text-align: left"><a href="http://mmnl.engr.uic.edu/stimuli-responsive-nanofibers-and-nanoparticles-drug-carriers/">Stimuli-responsive nanofibers and nanoparticles; drug carriers</a></li>
+<li style="text-align: left"><a href="http://mmnl.engr.uic.edu/drug-release/">Drug release</a></li>
+<li style="text-align: left"><a href="http://mmnl.engr.uic.edu/micro-and-nanofluidics/">Micro- and nanofluidics</a></li>
+<li style="text-align: left"><a href="http://mmnl.engr.uic.edu/thermal-management-in-microelectronics-using-nanotextured-nonwoven-coatings-and-spray-cooling/">Thermal management in microelectronics using nanotextured nonwoven coatings and spray cooling</a></li>
+<li style="text-align: left"><a href="http://mmnl.engr.uic.edu/elongational-and-shear-rheology/">Elongational and shear rheology</a></li>
+<li style="text-align: left"><a href="http://mmnl.engr.uic.edu/foam-drainage/">Foam drainage</a></li>
+<li style="text-align: left"><a href="http://mmnl.engr.uic.edu/electrodes-electrochemistry/">Electrodes &amp; Electrochemistry</a></li>
+<li style="text-align: left"><a href="http://mmnl.engr.uic.edu/filling-nanotubes-with-polymers-surfactants-and-nanoparticles-sealing-nanotubes/">Filling nanotubes with polymers, surfactants and nanoparticles; sealing nanotubes</a></li>
+<li style="text-align: left"><a href="http://mmnl.engr.uic.edu/multiphase-heat-and-mass-transfer/">Multiphase heat and mass transfer</a></li>
+<li style="text-align: left"><a href="http://mmnl.engr.uic.edu/dropletspray-phenomena/">Droplet/spray phenomena</a></li>
+<li style="text-align: left"><a href="http://mmnl.engr.uic.edu/filtration/">Filtration</a></li>
+<li style="text-align: left"><a href="http://mmnl.engr.uic.edu/self-healing/">Self-Healing</a></li>
+<li style="text-align: left"><a href="http://mmnl.engr.uic.edu/bloodstain-pattern-analysis/">Bloodstain Pattern Analysis</a></li>
+</ul>
+			</div><!-- .entry-content -->
+
+	
+</article><!-- #post-## -->
+
+		</main><!-- .site-main -->
+	</div><!-- .content-area -->
+
+
+	</div><!-- .site-content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
+						<a href="https://wordpress.org/">Proudly powered by WordPress</a>
+		</div><!-- .site-info -->
+	</footer><!-- .site-footer -->
+
+</div><!-- .site -->
+
+<!-- ngg_resource_manager_marker --><script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-includes/js/wpdialog.min.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-includes/js/jquery/jquery.form.min.js?ver=3.37.0'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-includes/js/jquery/ui/slider.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-content/plugins/wp-file-upload/vendor/datetimepicker/jquery-ui-timepicker-addon.min.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-content/themes/twentyfifteen/js/skip-link-focus-fix.js?ver=20141010'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var screenReaderText = {"expand":"<span class=\"screen-reader-text\">expand child menu<\/span>","collapse":"<span class=\"screen-reader-text\">collapse child menu<\/span>"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-content/themes/twentyfifteen/js/functions.js?ver=20150330'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-content/plugins/wp-gallery-custom-links/wp-gallery-custom-links.js?ver=1.1'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-content/plugins/google-calendar-events/assets/js/vendor/jquery.qtip.min.js?ver=2.2.1'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-content/plugins/google-calendar-events/assets/js/vendor/moment.min.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-content/plugins/google-calendar-events/assets/js/vendor/moment-timezone-with-data.min.js?ver=4.5.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var simcal_default_calendar = {"ajax_url":"https:\/\/mmnl.engr.uic.edu\/wp-admin\/admin-ajax.php","nonce":"275a782795","locale":"en_US","text_dir":"ltr","months":{"full":["January","February","March","April","May","June","July","August","September","October","November","December"],"short":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]},"days":{"full":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"short":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]},"meridiem":{"AM":"AM","am":"am","PM":"PM","pm":"pm"}};
+var simcal_default_calendar = {"ajax_url":"https:\/\/mmnl.engr.uic.edu\/wp-admin\/admin-ajax.php","nonce":"275a782795","locale":"en_US","text_dir":"ltr","months":{"full":["January","February","March","April","May","June","July","August","September","October","November","December"],"short":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]},"days":{"full":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"short":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]},"meridiem":{"AM":"AM","am":"am","PM":"PM","pm":"pm"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-content/plugins/google-calendar-events/assets/js/default-calendar.min.js?ver=3.1.1'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-content/plugins/google-calendar-events/assets/js/vendor/imagesloaded.pkgd.min.js?ver=3.1.8'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-includes/js/wp-embed.min.js?ver=4.5.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"http:\/\/mmnl.engr.uic.edu\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-includes/js/shortcode.min.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-admin/js/media-upload.min.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-includes/js/jquery/ui/effect.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-includes/js/jquery/ui/effect-pulsate.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-includes/js/jquery/ui/effect-highlight.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var userSettings = {"url":"\/","uid":"0","time":"1544626710","secure":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-includes/js/utils.min.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://mmnl.engr.uic.edu/wp-admin/js/editor.min.js?ver=4.5.3'></script>
+<div style="display:none"><div class="cdm-modal" data-remodal-options="{ 'hashTracking': false }" data-remodal-id="file"> <a data-remodal-action="close" class="remodal-close"></a>
+			<div class="view-file-content">
+			
+			</div>
+		</div></div>
+				<div style="display:none">
+<div class="remodal" data-remodal-id="cdm-utility">
+	<a data-remodal-action="close" class="remodal-close"></a>
+	
+	<div class="cdm-utility-modal">
+	</div>
+</div>
+</div>
+</body>
+</html>

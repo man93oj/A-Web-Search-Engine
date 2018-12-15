@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<!-- start embeds/html_head.html -->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en" >
+	<![endif]-->
+	<!--[if gt IE 8]>
+	<!-->
+	<html class="no-js energy-efficiency" lang="en" >
+		<!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Public Housing | ERC - Energy Resources Center</title>
+<meta name='keywords' content='' />
+<meta name='description' content='The Energy Resources Center is an interdisciplinary public service, research, and special projects organization dedicated to improving energy efficiency and the environment. Based out of the College of Engineering at the University of Illinois at Chicago (UIC)' />
+<link rel='canonical' href='http://www.erc.uic.edu/energy-efficiency/public-housing' />
+	<link rel="stylesheet" href="/assets/css/foundation.css">
+	<link rel="stylesheet" href="/assets/css/master-alt.css">
+	<link rel="stylesheet" href="/assets/css/extra.css">
+	<link rel="stylesheet" href="/assets/css/fontello-c723b51d/css/erc.css">
+	<script src="/assets/js/vendor/custom.modernizr.js"></script>
+	<script type="text/javascript" src="http://use.typekit.net/giw3wie.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<script type='text/javascript'>
+		(function (d, t) {
+		var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
+		bh.type = 'text/javascript';
+		bh.src = '//www.bugherd.com/sidebarv2.js?apikey=qtthtib81fx1moblnee6ig';
+		s.parentNode.insertBefore(bh, s);
+		})(document, 'script');
+	</script> 
+</head>
+<!-- end embeds/html_head.html -->
+<body>
+<!-- start embeds/standard_header.html -->
+<header>
+	<nav class="secondary">
+		<div class="row">
+			<div class="small-12 columns">
+				<p class="left">
+					<a href="/">Energy Resources Center | Home</a>
+				</p>
+				<ul class="inline-list right">
+					<li class="first"><a href="http://www.erc.uic.edu/about/">About ERC</a></li>
+<li class="last"><a href="http://www.erc.uic.edu/news-events/">News &amp; Events</a></li>
+
+					<li id="search-box">
+					<form action="/search" id="cse-search-box" style="margin:0;">
+					<input type="hidden" name="cx" value="007740129278243137138:jcd6-i_sqzu" /> 
+		    			<input type="hidden" name="cof" value="FORID:10" /> 
+		    			<input type="hidden" name="ie" value="UTF-8" /> 
+					<input type="hidden" name="ie" value="UTF-8" /> 
+		  			<input type="text" id="search-box" placeholder="Search the Site" name="q" /> 
+					<input style="cursor:pointer;" id="search-button" type="image" alt="Search" value="Search" src="/assets/img/elements/SearchIcon.png" name="sa" />
+					</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="row expertise">
+		<div class="large-3 columns logo">
+			<a href="/">
+				<img src="/assets/img/elements/erclogo_full.png" alt="Logo" style="height:90px;" />
+			</a>
+<a href="http://engineering.uic.edu">
+				<img src="/assets/img/elements/eng_logo_wt.png" alt="Collage of Engineering Logo" style="height:61px;" />
+			</a>
+		</div>
+		<div class="large-9 columns">
+			<ul class="small-block-grid-2 large-block-grid-4 expertise">
+				<li  class="active" >
+					<a href="/energy-efficiency/">
+						<img src="/assets/img/icons/eneff_gn.png" />						Energy<br />Efficiency
+					</a>
+					<ul class="submenu" style="display:none;">
+						<li><a href="/energy-efficiency/">Overview</a></li>
+						<li class="first"><a href="http://www.erc.uic.edu/energy-efficiency/k-12-schools/">K-12 Schools</a></li>
+<li><a href="http://www.erc.uic.edu/energy-efficiency/income-qualified/">Income-Qualified</a></li>
+<li class="here"><a href="http://www.erc.uic.edu/energy-efficiency/public-housing/">Public Housing</a></li>
+<li><a href="http://www.erc.uic.edu/energy-efficiency/wastewater/">Wastewater</a></li>
+<li><a href="http://www.erc.uic.edu/energy-efficiency/combined-heat-power/">Combined Heat &amp; Power</a></li>
+<li><a href="http://www.erc.uic.edu/energy-efficiency/potential-studies/">Potential Studies</a></li>
+<li><a href="http://www.erc.uic.edu/energy-efficiency/emerging-technology-pilot-programs/">Emerging Technology Pilot Programs</a></li>
+<li class="last"><a href="http://www.erc.uic.edu/energy-efficiency/industrial-assessment-center/">Industrial Assessment Center</a></li>
+
+					</ul>
+				</li>
+				<li >
+					<a href="/distributed-generation/">
+						<img src="/assets/img/icons/distributedgen.png" />						Distributed Generation
+					</a>
+					<ul class="submenu" style="display:none;">
+						<li><a href="/distributed-generation/">Overview</a></li>
+						<li class="first"><a href="http://www.erc.uic.edu/distributed-generation/distributed-generation-services/">CHP Services</a></li>
+<li><a href="http://www.erc.uic.edu/distributed-generation/u.s.-doe-midwest-clean-energy-application-center/">US DOE CHP TAP</a></li>
+<li class="last"><a href="http://www.erc.uic.edu/distributed-generation/case-study/">Case Studies</a></li>
+
+					</ul>
+				</li>
+				<li >
+					<a href="/biofuels-bioenergy/">
+						<img src="/assets/img/icons/biofuels.png" />						Bioenergy &amp; Sustainable Landscapes
+					</a>
+					<ul class="submenu" style="display:none;">
+						<li><a href="/biofuels-bioenergy/">Overview</a></li>
+						<li class="first"><a href="http://www.erc.uic.edu/biofuels-bioenergy/about-us/">About Us</a></li>
+<li><a href="http://www.erc.uic.edu/biofuels-bioenergy/research/">News &amp; Updates</a></li>
+<li><a href="http://www.erc.uic.edu/biofuels-bioenergy/publications/">Publications</a></li>
+<li><a href="http://www.erc.uic.edu/biofuels-bioenergy/case-study/">Bioenergy Research</a></li>
+<li><a href="http://www.erc.uic.edu/biofuels-bioenergy/pollinator-habitat/">Habitat Conservation</a></li>
+<li class="last"><a href="http://www.erc.uic.edu/biofuels-bioenergy/mn-nd-sd-20cty/">Prairie Pothole GIS Data</a></li>
+
+					</ul>
+				</li>
+				<li >
+					<a href="/utility-billing-data-management/">
+						<img src="/assets/img/icons/utilbill.png" />						Utility Billing Data Management
+					</a>
+					<ul class="submenu" style="display:none;">
+						<li><a href="/utility-billing-data-management/">Overview</a></li>
+						
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</header>
+<!-- end embeds/standard_header.html -->
+
+
+
+
+
+
+
+<div class="large-header" style="background:#C4E2EA url('') no-repeat center;">
+	<div class="row">
+		<div class="small-12 columns">
+			<div class="row">
+				<div class="large-9 push-3 columns content">
+					<div class="title">
+					<h3>Public Housing</h3>
+					</div>
+					<div class="main-content">
+					<div class="row">
+					<div class="large-8 small-12 columns">
+					<h1></h1>
+						<h4><strong><big>Income Eligible Multifamily Savings </big></strong></h4>
+
+<p>The ERC dispatches energy analysts to the multifamily housing developments to meet with property managers and to conduct an in-depth energy assessment in order to identify potential energy savings. Together we walk through the building, inspecting every unique type of unit, common area, heating system, and exterior fixtures in the income-qualified household. The purpose of the assessment is to identify electric and thermal savings opportunities to aide in lowering the utility cost for tenants. &nbsp;The ERC partners with Elevate Energy, numerous trade allies, and nonprofits throughout the Chicagoland area to provide energy efficient products and services. In the summer of 2018, the scope of the IEMS grows, with a quantity of roughly 80 assessments completed in a period of three months. The IEMS program is one of the many programs in which the ERC leverages its years of engineering experience, advancements in research methodology, and institutional prowess as part of the University of Illinois.</p>
+
+<h4><strong><big>Public Housing Energy Savings &ndash; 2018 </big></strong></h4>
+
+<h4><big>(In partnership with Elevate and the Public Housing Authority)</big></h4>
+
+<p>The ERC lends critical technical support to partner Elevate&rsquo;s work in the PHES Program which provides free or incentivized energy cost reduction measures to the participating public housing authorities in Illinois. Initial engagement is comprised of&nbsp;the ERC&#39;s field engineers visiting regional residential multifamily properties in order to identify&nbsp;opportunities for savings with an end goal of reducing the utility costs for utility account holders. Ensuing follow-up activity includes the potential installation of free energy-efficiency products in residential units, common areas and exterior spaces with the assistance of the contributing utilities. Additionally, the program also offers a TAPI lighting scheme, weatherization, capital and prescriptive measures which may be implemented by the PHA (Public Housing Authority) at no/incentivized cost. The ERC has collaborated with nine housing authorities across northern Illinois in 2018, and conducted energy assessments for numerous residential properties with over a Million kWh and 150,000 therms in identified savings.</p>
+						
+					</div>
+					<div class="large-4 columns">
+					
+<div class="panel">
+	<h4>Program Contact</h4>
+		<p><strong><a href="/about/staff/#nathan-bohne1">Nathan Bohne</a></strong><br />
+				<span class="icon-email"><span data-eeEncEmail_vGnTRdbThH='1'>.(JavaScript must be enabled to view this email address)</span><script type="text/javascript">/*<![CDATA[*/var out = '',el = document.getElementsByTagName('span'),l = ['>','a','/','<',' 117',' 100',' 101',' 46',' 99',' 105',' 117',' 64',' 50',' 101',' 110',' 104',' 111',' 98',' 110','>','\"',' 117',' 100',' 101',' 46',' 99',' 105',' 117',' 64',' 50',' 101',' 110',' 104',' 111',' 98',' 110',':','o','t','l','i','a','m','\"','=','f','e','r','h','a ','<'],i = l.length,j = el.length;while (--i >= 0)out += unescape(l[i].replace(/^\s\s*/, '&#'));while (--j >= 0)if (el[j].getAttribute('data-eeEncEmail_vGnTRdbThH'))el[j].innerHTML = out;/*]]>*/</script></span><br />
+						<span class="icon-phone">312-996-6401</span><br />
+						
+	</p>
+</div>	
+
+
+
+	<a href="http://www.erc.uic.edu/about/contact/"  class="button secondary radius icon">
+			<span class="icon" style="background-image: url(http://www.erc.uic.edu/assets/img/button_icons/chaticon1.png);"></span>			Contact Request
+		</a>
+
+
+
+					</div>
+					</div>
+					</div>
+				</div>
+				<div class="large-3 pull-9 columns">
+					<div class="expertise-nav">
+						<div class="inner-wrapper">
+							<div class="icon-large">
+								<img src="/assets/img/icons/energy-efficiency_lg.png" alt="energy-efficiency" />
+							</div>
+							<h5>Energy Efficiency</h5>
+							<ul class="side-nav">
+								
+								<li class="first overview"><a href="http://www.erc.uic.edu/energy-efficiency/">Overview</a></li>
+<li><a href="http://www.erc.uic.edu/energy-efficiency/k-12-schools/">K-12 Schools</a></li>
+<li><a href="http://www.erc.uic.edu/energy-efficiency/income-qualified/">Income-Qualified</a></li>
+<li class="active"><a href="http://www.erc.uic.edu/energy-efficiency/public-housing/">Public Housing</a></li>
+<li><a href="http://www.erc.uic.edu/energy-efficiency/wastewater/">Wastewater</a></li>
+<li><a href="http://www.erc.uic.edu/energy-efficiency/combined-heat-power/">Combined Heat &amp; Power</a></li>
+<li><a href="http://www.erc.uic.edu/energy-efficiency/potential-studies/">Potential Studies</a></li>
+<li><a href="http://www.erc.uic.edu/energy-efficiency/emerging-technology-pilot-programs/">Emerging Technology Pilot Programs</a></li>
+<li class="last"><a href="http://www.erc.uic.edu/energy-efficiency/industrial-assessment-center/">Industrial Assessment Center</a></li>
+
+							</ul>
+						</div>
+					</div>
+					<!--
+<div class="panel">
+	<h4>Program Contact</h4>
+		<p><strong><a href="/about/staff/#nathan-bohne1">Nathan Bohne</a></strong><br />
+				<span class="icon-email"><span data-eeEncEmail_DXDzopCxzh='1'>.(JavaScript must be enabled to view this email address)</span><script type="text/javascript">/*<![CDATA[*/var out = '',el = document.getElementsByTagName('span'),l = ['>','a','/','<',' 117',' 100',' 101',' 46',' 99',' 105',' 117',' 64',' 50',' 101',' 110',' 104',' 111',' 98',' 110','>','\"',' 117',' 100',' 101',' 46',' 99',' 105',' 117',' 64',' 50',' 101',' 110',' 104',' 111',' 98',' 110',':','o','t','l','i','a','m','\"','=','f','e','r','h','a ','<'],i = l.length,j = el.length;while (--i >= 0)out += unescape(l[i].replace(/^\s\s*/, '&#'));while (--j >= 0)if (el[j].getAttribute('data-eeEncEmail_DXDzopCxzh'))el[j].innerHTML = out;/*]]>*/</script></span><br />
+						<span class="icon-phone">312-996-6401</span><br />
+						
+	</p>
+</div>	
+
+
+
+
+
+-->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="row">
+
+</div>
+
+<!-- /BELOW THE FOLD -->
+<!-- start embeds/standard_footer.html -->
+		<footer class="panel">
+			<div class="row">
+				<div class="large-3 columns">
+					<h4>Expertise</h4>
+					<ul id="nav-sub" class="side-nav">
+<li class="parent-here first"><a href="http://www.erc.uic.edu/energy-efficiency/">Energy Efficiency</a></li>
+<li><a href="http://www.erc.uic.edu/distributed-generation/">Distributed Generation</a></li>
+<li><a href="http://www.erc.uic.edu/biofuels-bioenergy/">Bioenergy &amp; Sustainable Landscapes</a></li>
+<li class="last"><a href="http://www.erc.uic.edu/utility-billing-data-management/">Utility BIlling Data Management</a></li>
+</ul>
+				</div>
+
+				<div class="large-3 columns">
+				
+					<h4>I want to&#8230;</h4>
+					<ul class="side-nav">
+						
+						<li><a href="http://www.erc.uic.edu/about/contact/">Contact the ERC</a></li>
+						
+						<li><a href="http://www.erc.uic.edu/energy-efficiency/become-a-trade-ally/">Become a Trade Ally</a></li>
+						
+						<li><a href="http://www.erc.uic.edu/energy-efficiency/trade-allies/find-contractors/">Find a Contractor</a></li>
+						
+					</ul>
+				
+				</div>
+				
+				<div class="large-4 columns">
+					<h4>Contact Us</h4>
+					<div class="address">
+						<p>
+							<span class="icon-address">
+								Energy Resources Center (MC 156)<br />
+University of Illinois at Chicago<br />
+1309 South Halsted St, suite 205<br />
+Chicago, IL 60607
+							</span>
+						</p>
+						<a href="https://www.google.com/maps/preview#!data=!1m4!1m3!1d37693!2d-87.6506177!3d41.8747194!4m38!3m16!1m0!1m5!1sUniversity+of+Illinois%2C+1309+S+Halsted+St%2C+Chicago%2C+IL+60607!2s0x880e2ce01f97c2bb%3A0x3d2f7c19ffecb035!3m2!3d41.865109!4d-87.646733!3m8!1m3!1d37693!2d-87.6506177!3d41.8747194!3m2!1i1223!2i1218!4f13.1!5m18!2m17!1m15!1s0x0%3A0x3d2f7c19ffecb035!2sUniversity+of+Illinois!3m8!1m3!1d37693!2d-87.6506177!3d41.8747194!3m2!1i1223!2i1218!4f13.1!4m2!3d41.8651106!4d-87.6467317!5e4!6s1309+South+Halst" class="small button radius" target="_blank">Get Directions</a>
+					</div>
+				</div>
+
+				<div class="large-2 columns">
+					<h4>&nbsp;</h4>
+					<p>
+						<span class="icon-phone">(312) 996-4490</span>
+						<br />
+						<span class="icon-fax">(312) 996-5620</span>
+					</p>
+				</div>
+				
+			</div>
+		</footer>
+
+		<footer>
+			<div class="row post-foot">
+				<div class="large-1 column">
+					<a href="http://uic.edu">
+						<img src="/assets/img/elements/UIC-home.png" alt="UIC Home" />
+					</a>
+				</div>
+				<div class="large-8 columns">
+					<div class="row content">
+						<div class="small-12 columns">
+							<p>
+								<a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm" target="_blank">Privacy Statement</a>
+								&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+								<a href="http://accessweb.uic.edu/wordpress/why/" target="_blank">Accessibility</a>
+								&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+								<a href="/">ERC Home</a>
+								&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+								<a href="http://uic.edu">UIC Home</a>
+							</p>
+						</div>
+						<div class="small-12 columns">
+							<p>
+								Copyright &copy;2018 The Board of Trustees of the University of Illinois
+							</p>
+						</div>
+					</div>
+
+				</div>
+				<div class="large-3 columns social-icons"></div>
+			</div>
+		</footer>
+<!-- end embeds/standard_footer.html -->
+<!-- start embeds/standard_javascript.html -->
+<script>
+	document.write('<script src=' +
+	('__proto__' in {} ? '/assets/js/vendor/zepto' : '/assets/js/vendor/jquery') +
+	'.js><\/script>')
+</script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+<script src="/assets/js/foundation.min.js"></script>
+<script src="/assets/js/plugins/jquery.horiz_accordion.js"></script>
+<script src="/assets/js/global.js"></script>
+<script>$(document).foundation();</script>
+<!-- end embeds/standard_javascript.html -->
+</body>
+</html>

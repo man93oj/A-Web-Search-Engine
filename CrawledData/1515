@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Andrew Electromagnetics Laboratory | University of Illinois at Chicago - College of Engineering</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://andrewlab.engr.uic.edu/xmlrpc.php" />
+
+
+<link rel="alternate" type="application/rss+xml" title="Andrew Electromagnetics Laboratory &raquo; Feed" href="http://andrewlab.engr.uic.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Andrew Electromagnetics Laboratory &raquo; Comments Feed" href="http://andrewlab.engr.uic.edu/comments/feed/" />
+<link rel="alternate" type="text/calendar" title="Andrew Electromagnetics Laboratory &raquo; iCal Feed" href="http://andrewlab.engr.uic.edu/events/?ical=1" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/andrewlab.engr.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.3"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='dashicons-css'  href='http://andrewlab.engr.uic.edu/wp-includes/css/dashicons.min.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-jquery-ui-dialog-css'  href='http://andrewlab.engr.uic.edu/wp-includes/css/jquery-ui-dialog.min.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='http://andrewlab.engr.uic.edu/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.1.6' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='simple-staff-list-css'  href='http://andrewlab.engr.uic.edu/wp-content/plugins/simple-staff-list/public/css/simple-staff-list-public.css?ver=1.17' type='text/css' media='all' />
+<link rel='stylesheet' id='staff-list-custom-css-css'  href='http://andrewlab.engr.uic.edu/wp-content/themes/magazino/simple-staff-list-custom.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='swl-style-css'  href='http://andrewlab.engr.uic.edu/wp-content/plugins/social-web-links/social-web-links.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-css-css'  href='//ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.min.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='cdm-style-css'  href='http://andrewlab.engr.uic.edu/wp-content/plugins/sp-client-document-manager/style.css?ver=2.6.2.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wordpress-file-upload-style-css'  href='http://andrewlab.engr.uic.edu/wp-content/plugins/wp-file-upload/css/wordpress_file_upload_style.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wordpress-file-upload-style-safe-css'  href='http://andrewlab.engr.uic.edu/wp-content/plugins/wp-file-upload/css/wordpress_file_upload_style_safe.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-timepicker-addon-css-css'  href='http://andrewlab.engr.uic.edu/wp-content/plugins/wp-file-upload/vendor/datetimepicker/jquery-ui-timepicker-addon.min.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='magazino_style-css'  href='http://andrewlab.engr.uic.edu/wp-content/themes/magazino/style.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='simcal-qtip-css'  href='http://andrewlab.engr.uic.edu/wp-content/plugins/google-calendar-events/assets/css/vendor/jquery.qtip.min.css?ver=2.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='simcal-default-calendar-grid-css'  href='http://andrewlab.engr.uic.edu/wp-content/plugins/google-calendar-events/assets/css/default-calendar-grid.min.css?ver=3.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='simcal-default-calendar-list-css'  href='http://andrewlab.engr.uic.edu/wp-content/plugins/google-calendar-events/assets/css/default-calendar-list.min.css?ver=3.1.1' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tribe_events_linked_posts = {"post_types":{"tribe_venue":"venue","tribe_organizer":"organizer"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script><script>jQueryWP = jQuery;</script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-content/plugins/sp-client-document-manager/js/jquery.remodal.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-content/plugins/sp-client-document-manager/js/jquery.responsive.tabs.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.1.6'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.1.6'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-content/plugins/simple-staff-list/public/js/simple-staff-list-public.js?ver=1.17'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-content/plugins/sp-client-document-manager/js/jquery.cookie.js?ver=4.5.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sp_vars = {"ajax_url":"https:\/\/andrewlab.engr.uic.edu\/wp-admin\/admin-ajax.php","plugin_url":"http:\/\/andrewlab.engr.uic.edu\/wp-content\/plugins\/sp-client-document-manager\/","uid":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-content/plugins/sp-client-document-manager/upload.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-content/plugins/sp-client-document-manager/js/jquery.validate.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-includes/js/swfupload/swfupload.js?ver=2201-20110113'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-includes/js/swfupload/plugins/swfupload.queue.js?ver=2201'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-includes/js/swfobject.js?ver=2.2-20120417'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-includes/js/swfupload/plugins/swfupload.swfobject.js?ver=2201a'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var swfuploadL10n = {"queue_limit_exceeded":"You have attempted to queue too many files.","file_exceeds_size_limit":"%s exceeds the maximum upload size for this site.","zero_byte_file":"This file is empty. Please try another.","invalid_filetype":"This file type is not allowed. Please try another.","not_an_image":"This file is not an image. Please try another.","image_memory_exceeded":"Memory exceeded. Please try another smaller file.","image_dimensions_exceeded":"This is larger than the maximum size. Please try another.","default_error":"An error occurred in the upload. Please try again later.","missing_upload_url":"There was a configuration error. Please contact the server administrator.","upload_limit_exceeded":"You may only upload 1 file.","http_error":"HTTP error.","upload_failed":"Upload failed.","big_upload_failed":"Please try uploading this file with the %1$sbrowser uploader%2$s.","big_upload_queued":"%s exceeds the maximum upload size for the multi-file uploader when used in your browser.","io_error":"IO error.","security_error":"Security error.","file_cancelled":"File canceled.","upload_stopped":"Upload stopped.","dismiss":"Dismiss","crunching":"Crunching\u2026","deleted":"moved to the trash.","error_uploading":"\u201c%s\u201d has failed to upload."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-includes/js/swfupload/handlers.min.js?ver=2201-20110524'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-content/plugins/sp-client-document-manager/js/jquery.modal.responsive.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-content/plugins/wp-file-upload/js/json2.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-content/plugins/wp-file-upload/js/wordpress_file_upload_functions.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-content/themes/magazino/library/js/modernizr-2.6.2.min.js?ver=2.6.2'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-content/themes/magazino/library/js/jquery.cycle2.min.js?ver=20130202'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-content/themes/magazino/library/js/jquery.cycle2.tile.min.js?ver=20121120'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-content/themes/magazino/library/js/jquery.cycle2.scrollVert.min.js?ver=20121120'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-content/themes/magazino/library/js/scripts.js?ver=1.0.0'></script>
+<link rel='https://api.w.org/' href='http://andrewlab.engr.uic.edu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://andrewlab.engr.uic.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://andrewlab.engr.uic.edu/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.5.3" />
+<!-- <meta name="NextGEN" version="2.1.46" /> -->
+<link rel='stylesheet' id='thickbox-css'  href='http://andrewlab.engr.uic.edu/wp-includes/js/thickbox/thickbox.css?ver=4.5.3' type='text/css' media='all' />
+
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+		<style>
+			a, a:visited,
+			#site-title a,
+			nav[role=navigation] .menu ul li a:hover,
+			nav[role=navigation] .menu ul li.current-menu-item a, 
+			.nav ul li.current_page_item a, 
+			nav[role=navigation] .menu ul li.current_page_item a,
+			#sidebar .widget-title,
+			.slides .slide-title,
+			.commentlist .vcard cite.fn a,
+			.commentlist .comment-meta a:hover,
+			.post_content ul li:before,
+			.post_content ol li:before,
+			.colortxt,
+			.commentlist .bypostauthor > article > footer > .vcard cite.fn,
+			.cycle-pager span.cycle-pager-active { 
+				color: #1aaf00;
+			}
+			
+			#container,
+			#sidebar {
+				border-top: 2px solid #1aaf00;
+			}
+			
+			#search-box-wrap,
+			#social-media a,
+			#search-icon,
+			.go-button a,
+			.go-button a:visited,
+			.grnbar,
+			.pagination a:hover,
+			.pagination .current,
+			#respond #submit {
+				background-color: #1aaf00;
+			}
+			
+			.post_content pre { 
+				border-left-color: #1aaf00;
+			}
+		</style>
+	<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://andrewlab.engr.uic.edu/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://andrewlab.engr.uic.edu/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 5.1.6 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><!--25aa3fe335a77384e2dab7809d278592--><!--25aa3fe335a77384e2dab7809d278592--><link rel='stylesheet' id='jquery-remodal-css'  href='http://andrewlab.engr.uic.edu/wp-content/plugins/sp-client-document-manager/css/jquery.remodal.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-responsive-tabs-css'  href='http://andrewlab.engr.uic.edu/wp-content/plugins/sp-client-document-manager/css/jquery.responsive.tabs.css?ver=4.5.3' type='text/css' media='all' />
+</head>
+
+<body class="home blog wpb-js-composer js-comp-ver-4.12 vc_responsive">
+
+<div id="container">
+	
+    <div id="search-box-wrap">
+        <div id="search-box">
+           <div id="close-x">x</div>
+           <form role="search" method="get" id="searchform" class="searchform" action="http://andrewlab.engr.uic.edu/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form>        </div>
+    </div>
+
+	<header id="branding" role="banner">
+      <div id="inner-header" class="clearfix">
+		<div id="site-heading">
+        	            <div id="site-logo"><a href="http://andrewlab.engr.uic.edu/" title="Andrew Electromagnetics Laboratory" rel="home"><img src="http://andrewlab.engr.uic.edu/wp-content/uploads/sites/8/2014/01/UIC_ECE_logo.png" alt="Andrew Electromagnetics Laboratory" /></a></div>
+            		</div>
+        
+        <div id="social-media" class="clearfix">
+        
+        	            
+            			
+                        
+                        
+                        
+			            
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+            <div id="search-icon"></div>
+            
+        </div>
+        
+      </div>
+
+		<nav id="access" class="clearfix" role="navigation">
+			<h1 class="assistive-text section-heading">Main menu</h1>
+			<div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+			<div class="menu"><ul><li class="current_page_item"><a href="http://andrewlab.engr.uic.edu/">Home</a></li><li class="page_item page-item-44"><a href="http://andrewlab.engr.uic.edu/research/">Research</a></li><li class="page_item page-item-35"><a href="http://andrewlab.engr.uic.edu/students/">Students</a></li><li class="page_item page-item-47"><a href="http://andrewlab.engr.uic.edu/facilities/">Facilities</a></li><li class="page_item page-item-135"><a href="http://andrewlab.engr.uic.edu/news/">News</a></li><li class="page_item page-item-49"><a href="http://andrewlab.engr.uic.edu/contact-us/">Contact us</a></li><li class="page_item page-item-2"><a href="http://andrewlab.engr.uic.edu/about-us/">About us</a></li></ul></div>
+					</nav><!-- #access -->
+
+	</header><!-- #branding -->
+
+    <div id="content" class="clearfix">
+        
+        <div id="main" class="clearfix" role="main">
+        	
+            <div id="slide-wrap">
+            
+			      
+                                  
+                                    <div id="load-cycle"></div>
+                  <div class="cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-tile-count="10" data-cycle-slides="> div.slides" data-cycle-timeout="0" data-cycle-prev="#sliderprev" data-cycle-next="#slidernext">
+                  	                                                            
+                    <div class="slides">
+                      <div id="post-144" class="post-theme post-144 post type-post status-publish format-link hentry category-uncategorized post_format-post-format-link">
+                                                  
+							                            <div class="slide-thumb"><img width="636" height="398" src="http://andrewlab.engr.uic.edu/wp-content/uploads/sites/8/2015/06/1992pjg48anwajpg.jpg" class="attachment-1000x640 size-1000x640" alt="1992pjg48anwajpg" srcset="http://andrewlab.engr.uic.edu/wp-content/uploads/sites/8/2015/06/1992pjg48anwajpg.jpg 636w, http://andrewlab.engr.uic.edu/wp-content/uploads/sites/8/2015/06/1992pjg48anwajpg-300x187.jpg 300w" sizes="(max-width: 636px) 100vw, 636px" /></div>
+                            
+                                                       
+                                                  <div class="slide-content">
+                            <h2 class="slide-title"><a href="http://andrewlab.engr.uic.edu/2015/06/114/" title="Permalink to What the world would look like if you could see cell phone signals?" rel="bookmark">What the world would look like if you could see cell phone signals?</a></h2>
+                         	Danilo Erricolo, Professor of Electrical and Computer Engineering, University of Illinois at Chicago and Fran Harackiewicz, Professor of Electrical and Computer Engineering, Southern Illinois...	
+                         </div>						
+                      </div>
+                    </div>
+                    
+                                        
+                    <div class="slides">
+                      <div id="post-129" class="post-theme post-129 post type-post status-publish format-standard hentry category-uncategorized">
+                                                  
+							                            <div class="slide-thumb"><img width="150" height="150" src="http://andrewlab.engr.uic.edu/wp-content/uploads/sites/8/2015/06/nsf-logo150x150.jpg" class="attachment-1000x640 size-1000x640" alt="nsf-logo150x150" /></div>
+                            
+                                                       
+                                                  <div class="slide-content">
+                            <h2 class="slide-title"><a href="http://andrewlab.engr.uic.edu/2015/06/129/" title="Permalink to NSF Grant" rel="bookmark">NSF Grant</a></h2>
+                         	Congratulations to Associate Professor Daniela Tuninetti (PI), Assistant Professor Natasha Devroye (Co-PI) and Professor Danilo Erricolo (Co-PI) of the ECE Department for receiving a...	
+                         </div>						
+                      </div>
+                    </div>
+                    
+                                        
+                    <div class="slides">
+                      <div id="post-1" class="post-theme post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+                                                     <div class="slide-thumb"><img width="1000" height="625" src="http://andrewlab.engr.uic.edu/wp-content/uploads/sites/8/2013/12/spectrum-1024x640.jpg" class="attachment-1000x640 size-1000x640 wp-post-image" alt="spectrum" srcset="http://andrewlab.engr.uic.edu/wp-content/uploads/sites/8/2013/12/spectrum-1024x640.jpg 1024w, http://andrewlab.engr.uic.edu/wp-content/uploads/sites/8/2013/12/spectrum-300x187.jpg 300w, http://andrewlab.engr.uic.edu/wp-content/uploads/sites/8/2013/12/spectrum.jpg 1131w" sizes="(max-width: 1000px) 100vw, 1000px" /></div>
+                                                  <div class="slide-content">
+                            <h2 class="slide-title"><a href="http://andrewlab.engr.uic.edu/2013/12/index/" title="Permalink to Andrew Electromagnetics Laboratory" rel="bookmark">Andrew Electromagnetics Laboratory</a></h2>
+                         	Welcome! This is the official website of the Andrew Electromagnetics Laboratory at the University of Illinois at Chicago. Here is something more about us....	
+                         </div>						
+                      </div>
+                    </div>
+                    
+                    
+                    
+                  </div>
+                  
+                  <div class="slidernav">
+                        <a id="sliderprev" href="#" title="Previous">&#9664;</a>
+                        <a id="slidernext" href="#" title="Next">&#9654;</a>
+                    </div>
+                    
+                    <div class="clearfix"></div>
+                  
+                                    
+                                    
+              </div>
+              
+              <div class="grnbar"></div>
+
+										<div id="post-boxes-wrap" class="clearfix">
+													
+					
+<article id="post-144" class="post-box post-144 post type-post status-publish format-link hentry category-uncategorized post_format-post-format-link">
+
+    <header class="entry-header">
+                <div class="entry-meta">
+                        <a href="http://andrewlab.engr.uic.edu/2015/06/114/" rel="bookmark">June 08, 2015</a>
+        </div><!-- .entry-meta -->
+                <h2 class="entry-title"><a href="http://andrewlab.engr.uic.edu/2015/06/114/" title="Permalink to What the world would look like if you could see cell phone signals?" rel="bookmark">What the world would look like if you could see cell phone signals?</a></h2>		
+    </header><!-- .entry-header -->
+    
+    <div class="entry-content post_content">
+        Danilo Erricolo, Professor of Electrical and Computer Engineering, University of Illinois...    </div><!-- .entry-content -->
+    
+    <div class="go-button"><a href="http://andrewlab.engr.uic.edu/2015/06/114/" title="Permalink to What the world would look like if you could see cell phone signals?" rel="bookmark">&#9654;</a></div>
+    
+	    
+              <div class="post-box-img"><img width="500" height="313" src="http://andrewlab.engr.uic.edu/wp-content/uploads/sites/8/2015/06/1992pjg48anwajpg.jpg" class="attachment-500x500 size-500x500" alt="1992pjg48anwajpg" srcset="http://andrewlab.engr.uic.edu/wp-content/uploads/sites/8/2015/06/1992pjg48anwajpg.jpg 636w, http://andrewlab.engr.uic.edu/wp-content/uploads/sites/8/2015/06/1992pjg48anwajpg-300x187.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" /></div>
+        
+    		
+</article><!-- #post-144 -->
+    
+
+                    
+									
+					
+<article id="post-129" class="post-box post-129 post type-post status-publish format-standard hentry category-uncategorized">
+
+    <header class="entry-header">
+                <div class="entry-meta">
+                        <a href="http://andrewlab.engr.uic.edu/2015/06/129/" rel="bookmark">June 08, 2015</a>
+        </div><!-- .entry-meta -->
+                <h2 class="entry-title"><a href="http://andrewlab.engr.uic.edu/2015/06/129/" title="Permalink to NSF Grant" rel="bookmark">NSF Grant</a></h2>		
+    </header><!-- .entry-header -->
+    
+    <div class="entry-content post_content">
+        Congratulations to Associate Professor Daniela Tuninetti (PI), Assistant Professor Natasha Devroye...    </div><!-- .entry-content -->
+    
+    <div class="go-button"><a href="http://andrewlab.engr.uic.edu/2015/06/129/" title="Permalink to NSF Grant" rel="bookmark">&#9654;</a></div>
+    
+	    
+              <div class="post-box-img"><img width="150" height="150" src="http://andrewlab.engr.uic.edu/wp-content/uploads/sites/8/2015/06/nsf-logo150x150.jpg" class="attachment-500x500 size-500x500" alt="nsf-logo150x150" /></div>
+        
+    		
+</article><!-- #post-129 -->
+    
+
+                    
+									
+					
+<article id="post-1" class="post-box post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+
+    <header class="entry-header">
+                <div class="entry-meta">
+                        <a href="http://andrewlab.engr.uic.edu/2013/12/index/" rel="bookmark">December 11, 2013</a>
+        </div><!-- .entry-meta -->
+                <h2 class="entry-title"><a href="http://andrewlab.engr.uic.edu/2013/12/index/" title="Permalink to Andrew Electromagnetics Laboratory" rel="bookmark">Andrew Electromagnetics Laboratory</a></h2>		
+    </header><!-- .entry-header -->
+    
+    <div class="entry-content post_content">
+        Welcome! This is the official website of the Andrew Electromagnetics Laboratory...    </div><!-- .entry-content -->
+    
+    <div class="go-button"><a href="http://andrewlab.engr.uic.edu/2013/12/index/" title="Permalink to Andrew Electromagnetics Laboratory" rel="bookmark">&#9654;</a></div>
+    
+	    
+          
+    		
+</article><!-- #post-1 -->
+    
+
+                    
+				                
+				                
+                                
+			</div>
+            
+			
+        </div> <!-- end #main -->
+
+        		<div class="clearfix"></div>
+		<div id="sidebar" class="widget-area clearfix" role="complementary">
+
+			<aside id="search-2" class="widget widget_search"><form role="search" method="get" id="searchform" class="searchform" action="http://andrewlab.engr.uic.edu/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form></aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<div class="widget-title">Recent Posts</div>		<ul>
+					<li>
+				<a href="http://andrewlab.engr.uic.edu/2015/06/114/">What the world would look like if you could see cell phone signals?</a>
+						</li>
+					<li>
+				<a href="http://andrewlab.engr.uic.edu/2015/06/129/">NSF Grant</a>
+						</li>
+					<li>
+				<a href="http://andrewlab.engr.uic.edu/2013/12/index/">Andrew Electromagnetics Laboratory</a>
+						</li>
+				</ul>
+		</aside>		<aside id="archives-2" class="widget widget_archive"><div class="widget-title">Archives</div>		<ul>
+			<li><a href='http://andrewlab.engr.uic.edu/2015/06/'>June 2015</a></li>
+	<li><a href='http://andrewlab.engr.uic.edu/2013/12/'>December 2013</a></li>
+		</ul>
+		</aside>		</div><!-- #sidebar .widget-area -->
+
+    </div> <!-- end #content -->
+        
+
+	<footer id="colophon" role="contentinfo">
+		<div id="site-generator">
+
+			&copy; Andrew Electromagnetics Laboratory                        - Powered by <a href="http://wordpress.org/" title="Semantic Personal Publishing Platform">WordPress</a>
+			 and <a href="http://wpthemes.co.nz/">WPThemes.co.nz</a>
+                        
+		</div>
+	</footer><!-- #colophon -->
+</div><!-- #container -->
+
+<!-- ngg_resource_manager_marker --><script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-includes/js/wpdialog.min.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-includes/js/jquery/jquery.form.min.js?ver=3.37.0'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-includes/js/jquery/ui/slider.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-content/plugins/wp-file-upload/vendor/datetimepicker/jquery-ui-timepicker-addon.min.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-content/plugins/wp-gallery-custom-links/wp-gallery-custom-links.js?ver=1.1'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-content/plugins/google-calendar-events/assets/js/vendor/jquery.qtip.min.js?ver=2.2.1'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-content/plugins/google-calendar-events/assets/js/vendor/moment.min.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-content/plugins/google-calendar-events/assets/js/vendor/moment-timezone-with-data.min.js?ver=4.5.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var simcal_default_calendar = {"ajax_url":"https:\/\/andrewlab.engr.uic.edu\/wp-admin\/admin-ajax.php","nonce":"275a782795","locale":"en_US","text_dir":"ltr","months":{"full":["January","February","March","April","May","June","July","August","September","October","November","December"],"short":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]},"days":{"full":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"short":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]},"meridiem":{"AM":"AM","am":"am","PM":"PM","pm":"pm"}};
+var simcal_default_calendar = {"ajax_url":"https:\/\/andrewlab.engr.uic.edu\/wp-admin\/admin-ajax.php","nonce":"275a782795","locale":"en_US","text_dir":"ltr","months":{"full":["January","February","March","April","May","June","July","August","September","October","November","December"],"short":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]},"days":{"full":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"short":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]},"meridiem":{"AM":"AM","am":"am","PM":"PM","pm":"pm"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-content/plugins/google-calendar-events/assets/js/default-calendar.min.js?ver=3.1.1'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-content/plugins/google-calendar-events/assets/js/vendor/imagesloaded.pkgd.min.js?ver=3.1.8'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-includes/js/wp-embed.min.js?ver=4.5.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"http:\/\/andrewlab.engr.uic.edu\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-includes/js/shortcode.min.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-admin/js/media-upload.min.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-includes/js/jquery/ui/effect.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-includes/js/jquery/ui/effect-pulsate.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-includes/js/jquery/ui/effect-highlight.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var userSettings = {"url":"\/","uid":"0","time":"1544618811","secure":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-includes/js/utils.min.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://andrewlab.engr.uic.edu/wp-admin/js/editor.min.js?ver=4.5.3'></script>
+<div style="display:none"><div class="cdm-modal" data-remodal-options="{ 'hashTracking': false }" data-remodal-id="file"> <a data-remodal-action="close" class="remodal-close"></a>
+			<div class="view-file-content">
+			
+			</div>
+		</div></div>
+				<div style="display:none">
+<div class="remodal" data-remodal-id="cdm-utility">
+	<a data-remodal-action="close" class="remodal-close"></a>
+	
+	<div class="cdm-utility-modal">
+	</div>
+</div>
+</div>
+
+<!--25aa3fe335a77384e2dab7809d278592--><!--25aa3fe335a77384e2dab7809d278592--></body>
+</html>

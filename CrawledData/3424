@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Login</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- The X-UA-Compatible <meta> tag above must be very early in <head> -->
+
+
+<script>
+window.RT = {};
+RT.CurrentUser = {};
+RT.Config      = {"WebPath":"","MessageBoxRichTextHeight":200,"rtname":"rt-accc"};
+
+RT.I18N = {};
+RT.I18N.Catalog = {"shortcut_help_error":"Unable to open shortcut help. Reason:","attachment_warning_regex":"\\battach","quote_in_filename":"Filenames with double quotes can not be uploaded."};
+</script>
+
+
+<link rel="stylesheet" href="/NoAuth/css/aileron/squished-8e1c7b7e172a6bbf8d6303072d6dc5e2.css" type="text/css" media="all" />
+
+<link rel="shortcut icon" href="/static/images/favicon.png" type="image/png" />
+
+
+<!--[if lt IE 8]>
+<link rel="stylesheet" href="/static/css/aileron/msie.css" type="text/css" media="all" />
+<![endif]-->
+<!--[if lt IE 7]>
+<link rel="stylesheet" href="/static/css/aileron/msie6.css" type="text/css" media="all" />
+<![endif]-->
+
+
+<!-- Site CSS from theme editor -->
+<style type="text/css" media="all" id="sitecss">
+</style>
+
+
+<script type="text/javascript" src="/NoAuth/js/squished-b03ea5040c8ed072de08a09de74eaf8d.js"></script>
+
+<script type="text/javascript"><!--
+jQuery( loadTitleBoxStates );
+    jQuery(function () { jQuery('\x23user').focus() });
+--></script>
+
+
+<script>
+if (window.top !== window.self) {
+    document.write = "";
+
+    window.top.location = window.self.location;
+
+    setTimeout(function(){
+        document.body.innerHTML = "";
+    }, 1);
+
+    window.self.onload = function(){
+        document.body.innerHTML = "";
+    };
+}
+</script>
+
+
+</head>
+  <body class="aileron sidebyside" id="comp-index">
+
+<div id="logo">
+<a href="http://bestpractical.com"><img
+    src="/static/images/bpslogo.png"
+    alt="Best Practical Solutions, LLC corporate logo" /></a>
+    <span class="rtname">RT for rt-accc</span>
+</div>
+
+
+<div id="quickbar">
+  <div id="quick-personal">
+    <span class="hide"><a href="#skipnav">Skip Menu</a> | </span>
+    <span id="not-logged-in">Not logged in.</span>
+</div>
+
+</div>
+<div id="header"><h1>Login</h1></div>
+
+
+
+<div id="body" class="login-body">
+
+
+
+
+<div id="login-box">
+<div class="">
+  <div class="titlebox" id="">
+  <div class="titlebox-title">
+    <span class="left">Login</span>
+    <span class="right">                4.4.0    </span>
+  </div>
+  <div class="titlebox-content " id="TitleBox--_index_html------TG9naW4_---0">
+
+
+
+
+
+<form id="login" name="login" method="post" action="/NoAuth/Login.html">
+
+<div class="input-row">
+    <span class="label">Username:</span>
+    <span class="input"><input name="user" value="" id="user" /></span>
+</div>
+
+<div class="input-row">
+    <span class="label">Password:</span>
+    <span class="input"><input type="password" name="pass" /></span>
+</div>
+
+<input type="hidden" name="next" value="28d54e89684c4015837d7520e4cd717e" />
+
+<script type="text/javascript">
+jQuery(function(){
+    if (window.location.hash) {
+        var form = jQuery("form[name=login]");
+        form.attr('action', form.attr('action') + '#' + window.location.hash.replace(/^#/, ''));
+    }
+});
+</script>
+
+<div class="button-row">
+    <span class="input"><input type="submit" class="button" value="Login" /></span>
+</div>
+
+
+</form>
+    <hr class="clear" />
+  </div>
+</div>
+
+
+
+
+</div>
+
+
+</div><!-- #login-box -->
+</div><!-- #login-body -->
+  <hr class="clear" />
+</div>
+<div id="footer">
+  <p id="time"><span>Time to display: 0.066488</span></p>
+  <p id="bpscredits"><span>&#187;&#124;&#171; RT 4.4.0 Copyright 1996-2015 <a href="http://www.bestpractical.com?rt=4.4.0">Best Practical Solutions, LLC</a>.
+</span></p>
+  <p id="legal">Distributed under <a href="http://www.gnu.org/licenses/gpl-2.0.html">version 2 of the GNU GPL</a>.<br />To inquire about support, training, custom development or licensing, please contact <a href="mailto:sales@bestpractical.com">sales@bestpractical.com</a>.<br /></p>
+</div>
+  </body>
+</html>
+
+

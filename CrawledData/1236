@@ -1,0 +1,480 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+<link rel="stylesheet" href="/css/CTSstyles.css" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Computational Transportation Science</title>
+<script language="JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+ var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+   var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+   if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+//-->
+</script>
+</head>
+
+<body style=" margin-top:0px; background-image:url(../images/backimages/midback.jpg); background-repeat:repeat; background-position:center; background-color:#ACA899;  " onLoad="MM_preloadImages('Untitled-3_r8_c3_f2.gif','Untitled-3_r8_c6_f2.gif','Untitled-3_r8_c8_f2.gif','Untitled-3_r8_c11_f2.gif','Untitled-3_r8_c13_f2.gif','Untitled-3_r8_c16_f2.gif');">
+<center><table align="center" border="0" cellpadding="0" cellspacing="0" width="794" style="margin:0px 0px 0px 0px;">
+<!-- fwtable fwsrc="/newheader/new header.png" fwbase="Untitled-3.gif" fwstyle="Dreamweaver" fwdocid = "1593667076" fwnested="0" -->
+  <tr>
+   <td><img src="/newheader/spacer.gif" width="143" height="1" border="0" alt=""></td>
+   <td><img src="/newheader/spacer.gif" width="4" height="1" border="0" alt=""></td>
+
+   <td><img src="/newheader/spacer.gif" width="46" height="1" border="0" alt=""></td>
+   <td><img src="/newheader/spacer.gif" width="1" height="1" border="0" alt=""></td>
+   <td><img src="/newheader/spacer.gif" width="5" height="1" border="0" alt=""></td>
+   <td><img src="/newheader/spacer.gif" width="55" height="1" border="0" alt=""></td>
+   <td><img src="/newheader/spacer.gif" width="7" height="1" border="0" alt=""></td>
+   <td><img src="/newheader/spacer.gif" width="37" height="1" border="0" alt=""></td>
+   <td><img src="/newheader/spacer.gif" width="18" height="1" border="0" alt=""></td>
+   <td><img src="/newheader/spacer.gif" width="9" height="1" border="0" alt=""></td>
+   <td><img src="/newheader/spacer.gif" width="82" height="1" border="0" alt=""></td>
+
+   <td><img src="/newheader/spacer.gif" width="7" height="1" border="0" alt=""></td>
+   <td><img src="/newheader/spacer.gif" width="13" height="1" border="0" alt=""></td>
+   <td><img src="/newheader/spacer.gif" width="44" height="1" border="0" alt=""></td>
+   <td><img src="/newheader/spacer.gif" width="10" height="1" border="0" alt=""></td>
+   <td><img src="/newheader/spacer.gif" width="45" height="1" border="0" alt=""></td>
+   <td><img src="/newheader/spacer.gif" width="263" height="1" border="0" alt=""></td>
+   <td><img src="/newheader/spacer.gif" width="5" height="1" border="0" alt=""></td>
+   <td><img src="/newheader/spacer.gif" width="1" height="1" border="0" alt=""></td>
+  </tr>
+
+  <tr>
+   <td colspan="18"><img name="Untitled3_r1_c1" src="/newheader/Untitled-3_r1_c1.gif" width="794" height="4" border="0" alt=""></td>
+   <td><img src="/newheader/spacer.gif" width="1" height="4" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td rowspan="2" colspan="13"><img name="Untitled3_r2_c1" src="/newheader/Untitled-3_r2_c1.gif" width="427" height="21" border="0" alt=""></td>
+   <td colspan="4"><a href="http://www.igert.org" target="_blank"><img name="Untitled3_r2_c14" src="/newheader/Untitled-3_r2_c14.gif" width="362" height="13" border="0" alt=""></a></td>
+   <td rowspan="7"><img name="Untitled3_r2_c18" src="/newheader/Untitled-3_r2_c18.gif" width="5" height="146" border="0" alt=""></td>
+
+   <td><img src="/newheader/spacer.gif" width="1" height="13" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td rowspan="5" colspan="4"><img name="Untitled3_r3_c14" src="/newheader/Untitled-3_r3_c14.gif" width="362" height="114" border="0" alt=""></td>
+   <td><img src="/newheader/spacer.gif" width="1" height="8" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td rowspan="5"><img name="Untitled3_r4_c1" src="/newheader/Untitled-3_r4_c1.gif" width="143" height="125" border="0" alt=""></td>
+   <td colspan="3"><a href="http://www.uic.edu" target="_blank"><img name="Untitled3_r4_c2" src="/newheader/Untitled-3_r4_c2.gif" width="51" height="25" border="0" alt=""></a></td>
+
+   <td rowspan="2" colspan="9"><img name="Untitled3_r4_c5" src="/newheader/Untitled-3_r4_c5.gif" width="233" height="37" border="0" alt=""></td>
+   <td><img src="/newheader/spacer.gif" width="1" height="25" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="3"><img name="Untitled3_r5_c2" src="/newheader/Untitled-3_r5_c2.gif" width="51" height="12" border="0" alt=""></td>
+   <td><img src="/newheader/spacer.gif" width="1" height="12" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="7"><a href="index.php"><img name="Untitled3_r6_c2" src="/newheader/Untitled-3_r6_c2.gif" width="155" height="53" border="0" alt=""></a></td>
+
+   <td rowspan="2" colspan="5"><img name="Untitled3_r6_c9" src="/newheader/Untitled-3_r6_c9.gif" width="129" height="69" border="0" alt=""></td>
+   <td><img src="/newheader/spacer.gif" width="1" height="53" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td colspan="7"><img name="Untitled3_r7_c2" src="/newheader/Untitled-3_r7_c2.gif" width="155" height="16" border="0" alt=""></td>
+   <td><img src="/newheader/spacer.gif" width="1" height="16" border="0" alt=""></td>
+  </tr>
+  <tr>
+   <td><img name="Untitled3_r8_c2" src="/newheader/Untitled-3_r8_c2.gif" width="4" height="19" border="0" alt=""></td>
+
+   <td><a href="index.php" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('Untitled3_r8_c3','','/newheader/Untitled-3_r8_c3_f2.gif',1);"><img name="Untitled3_r8_c3" src="/newheader/Untitled-3_r8_c3.gif" width="46" height="19" border="0" alt=""></a></td>
+   <td colspan="2"><img name="Untitled3_r8_c4" src="/newheader/Untitled-3_r8_c4.gif" width="6" height="19" border="0" alt=""></td>
+   <td><a href="about.php?m=2" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('Untitled3_r8_c6','','/newheader/Untitled-3_r8_c6_f2.gif',1);"><img name="Untitled3_r8_c6" src="/newheader/Untitled-3_r8_c6.gif" width="55" height="19" border="0" alt=""></a></td>
+   <td><img name="Untitled3_r8_c7" src="/newheader/Untitled-3_r8_c7.gif" width="7" height="19" border="0" alt=""></td>
+   <td colspan="2"><a href="people.php?m=3" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('Untitled3_r8_c8','','/newheader/Untitled-3_r8_c8_f2.gif',1);"><img name="Untitled3_r8_c8" src="/newheader/Untitled-3_r8_c8.gif" width="55" height="19" border="0" alt=""></a></td>
+   <td><img name="Untitled3_r8_c10" src="/newheader/Untitled-3_r8_c10.gif" width="9" height="19" border="0" alt=""></td>
+   <td><a href="resources.php?m=4" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('Untitled3_r8_c11','','/newheader/Untitled-3_r8_c11_f2.gif',1);"><img name="Untitled3_r8_c11" src="/newheader/Untitled-3_r8_c11.gif" width="82" height="19" border="0" alt=""></a></td>
+   <td><img name="Untitled3_r8_c12" src="/newheader/Untitled-3_r8_c12.gif" width="7" height="19" border="0" alt=""></td>
+   <td colspan="2"><a href="eventspage.php?m=5" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('Untitled3_r8_c13','','/newheader/Untitled-3_r8_c13_f2.gif',1);"><img name="Untitled3_r8_c13" src="/newheader/Untitled-3_r8_c13.gif" width="57" height="19" border="0" alt=""></a></td>
+
+   <td><img name="Untitled3_r8_c15" src="/newheader/Untitled-3_r8_c15.gif" width="10" height="19" border="0" alt=""></td>
+   <td><a href="links.php" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage('Untitled3_r8_c16','','/newheader/Untitled-3_r8_c16_f2.gif',1);"><img name="Untitled3_r8_c16" src="/newheader/Untitled-3_r8_c16.gif" width="45" height="19" border="0" alt=""></a></td>
+   <td><img name="Untitled3_r8_c17" src="/newheader/Untitled-3_r8_c17.gif" width="263" height="19" border="0" alt=""></td>
+   <td><img src="/newheader/spacer.gif" width="1" height="19" border="0" alt=""></td>
+  </tr>
+</table></center>
+<table id="bodyTable" width="793" border="0" cellpadding="0" cellspacing="0" align="center">
+<tr><td>
+
+<!-- MENU STYLES -->
+<style type="text/css">
+ #navcontainer ul
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#navcontainer li 
+{ 
+	margin: 0 0 0 0;
+	border-top:1px dashed #FFF;
+}
+
+#navcontainer a
+{
+	display: block;
+	color: #FFF;
+	background-image:url(../images/backimages/nav_back.gif);
+	background-repeat:repeat;
+	width: 138px;
+	padding:2px 2px 2px 5px;
+	text-decoration: none;
+}
+
+#navcontainer a:hover
+{
+	background-image:url(../images/backimages/nav_hover_back.gif);
+	background-repeat:repeat;
+	color:#000000;
+}
+</style>
+
+<!-- START LEFT CONTAINER -->
+<div id="leftContainer" > 	
+	<div id="navcontainer">
+		<ul>
+			<li><a href="research.php?m=2">Research</a></li>
+			<li><a href="resources.php?m=4">Resources</a></li>
+			<li><a href="people.php?m=3">People</a></li>
+			<li><a href="eventspage.php?m=5">Events</a></li>
+			<li><a href="links.php">Links</a></li>
+			<li><a href="apply.php">How to Apply</a></li>
+			<li><a href="contact.php">Contact Us</a></li>
+
+		</ul>
+	</div>
+	
+	
+	<div id="eventContainer">
+		<div id="eventHeader" align="center">
+		CTS Events
+		</div>
+		
+			
+
+		<div id="eventItem"> 
+			<b>SEMINAR</b>
+			<br>
+			November 14, 2012
+			<p>Dr. Nebiyou Tilahun, UPP, presents a seminar entitled "An agent based model of origin destination estimation (ADOBE)" Wednesday, November 14th at 4:00 pm in Rm 1127 SEO</p>
+			<p align="right"><a href="event.php?ind=226">read more...</a></p>
+		</div>
+		<div id="eventItem"> 
+			<b>SEMINAR</b>
+			<br>
+			November 7, 2012
+			<p>Mr. Thomas Murtha, CMAP, will address the CTS-IGERT community at 4:00 p.m. in Room 1127 SEO.
+
+</p>
+			<p align="right"><a href="event.php?ind=227">read more...</a></p>
+		</div>
+		<div id="eventItem"> 
+			<b>SEMINAR</b>
+			<br>
+			October 24, 2012
+			<p>Please join us in welcoming Dr. Bo Zou, CME, on Wednesday, October 24th, Room 1127 SEO, 4:00 p.m.</p>
+			<p align="right"><a href="event.php?ind=225">read more...</a></p>
+		</div>
+	<div id="eventItem"> <br><br>
+			<center><a href="http://cts.cs.uic.edu/newspage.php?m=21"><b>MORE EVENTS</b></a></center>
+			<br><br>
+			</div>
+	</div>
+</div>
+<!-- END LEFT CONTAINER -->
+
+
+<!-- RIGHT CONTAINER -->
+<div id="rightContainer">
+	
+	<div id="newsHeader" align="center">
+	CTS Happenings
+	</div>
+	
+
+		<div id="newsItem"> 
+			September 25, 2012
+			<p>Award Received by Joshua Auld, CTS-IGERT alumnus.</p>
+<p align="right"><a href="newsItem.php?ind=60">read more...</a></p>
+		</div>
+		<div id="newsItem"> 
+			April 20, 2012
+			<p>Congratulations to James Biagioni, CTS Fellow and CS PhD candidate, winner of the Dean's Scholar award.   </p>
+<p align="right"><a href="newsItem.php?ind=59">read more...</a></p>
+		</div>
+		<div id="newsItem"> 
+			January 2, 2012
+			<p>James Biagioni, CTS Fellow, receives "Best Presentation Award" at SenSys2011</p>
+<p align="right"><a href="newsItem.php?ind=58">read more...</a></p>
+		</div>
+		<div id="newsItem"> 
+			July 30, 2010
+			<p>Dr. Ouri Wolfson, Dr. Phillip Yu, and Leon Stenneth, CS student and CTS Associate,  recently had a paper accepted to the 6th IEEE International Conference on Wireless and Mobile Computing, Networking and Communications (WiMob 2010). </p>
+<p align="right"><a href="newsItem.php?ind=56">read more...</a></p>
+		</div>
+	<div id="newsItem"> <br><br>
+			<center><a href="http://cts.cs.uic.edu/newspage.php?m=21"><b>MORE NEWS</b></a></center>
+			<br><br>
+			</div>
+	
+</div>
+<!-- END RIGHT CONTAINER -->
+
+<!-- CENTER CONTAINER -->
+<div id="centerContainer">
+	<!-- CONTENT HEADER -->
+<div id="contentContainer">
+	<!-- START CONTENT -->
+
+
+<font size="+1" color="#330000"><b>News Archive</b></font><br><br>
+		<table border="0" width="98%" cellpadding="0" cellspacing="2px" style="text-decoration:none;font-size:9px; color:#333333;"><tr><td id="newsListEven"><font color="#330000"><b>September 25, 2012</b></font><br><font color="#330000"><a href="newsItem.php?m=2&ind=60"><b>Award Received by Joshua Auld, CTS-IGERT alumnus.</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>April 20, 2012</b></font><br><font color="#330000"><a href="newsItem.php?m=2&ind=59"><b>Congratulations to James Biagioni, CTS Fellow and CS PhD candidate, winner of the Dean's Scholar award.   </b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>January 2, 2012</b></font><br><font color="#330000"><a href="newsItem.php?m=2&ind=58"><b>James Biagioni, CTS Fellow, receives "Best Presentation Award" at SenSys2011</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>July 30, 2010</b></font><br><font color="#330000"><a href="newsItem.php?m=2&ind=56"><b>Dr. Ouri Wolfson, Dr. Phillip Yu, and Leon Stenneth, CS student and CTS Associate,  recently had a paper accepted to the 6th IEEE International Conference on Wireless and Mobile Computing, Networking and Communications (WiMob 2010). </b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>June 30, 2010</b></font><br><font color="#330000"><a href="newsItem.php?m=2&ind=57"><b>Emily Mugler, BioE PhD student and CTS-IGERT fellow, recently won an award "Most Original Poster" at the International Brain-Computer-Interface 2010 meeting in Asilomar, CA.
+<br>
+Congratulations Emily!</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>January 7, 2010</b></font><br><font color="#330000"><a href="newsItem.php?m=2&ind=55"><b>Congratulations to Dr. Ouri Wolfson, Director - CTS-IGERT, who was selected as an AAAS Fellow!</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>November 3, 2009</b></font><br><font color="#330000"><a href="newsItem.php?m=2&ind=54"><b>Second International Workshop on
+Computational Transportation Science 
+<br><br>
+To be held in conjunction with The 17th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL GIS 2009)
+<br><br>
+</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>July 2, 2009</b></font><br><font color="#330000"><a href="newsItem.php?m=2&ind=50"><b>CTS IGERT Fellow Stephen Vaughn won a 
+Research Grant for the 4th International Conference on Women's Issues in Transportation (2009)
+
+
+</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>May 18, 2009</b></font><br><font color="#330000"><a href="newsItem.php?m=2&ind=49"><b>CTS IGERT Fellow Josh Auld presented
+"Evaluating Transportation Impacts of Forecast Demographic Scenarios Using Population Synthesis and Data Transferability"  at the 12th TRB National Transportation Planning Applications Conference 
+Houston, TX in May </b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>April 22, 2009</b></font><br><font color="#330000"><a href="newsItem.php?m=2&ind=46"><b>CTS-IGERT Trainee Chad A. William's collaborative work accepted for publication!
+
+"Attribute Constrained Rules For Partially Labeled Sequence Completion" 
+
+Authors: Chad A. Williams, Peter C. Nelson, and Abolfazl Mohammadian.</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>April 17, 2009</b></font><br><font color="#330000"><a href="newsItem.php?m=2&ind=47"><b>CTS-IGERT Trainee Caitlin Cottril presented her research "An Overview of Approaches to Privacy Preservation in ITS" at the Urban Transportation Center 
+on April 17, 2009.
+
+</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>September 10, 2008</b></font><br><font color="#330000"><a href="newsItem.php?m=2&ind=15"><b>2008 CTS IGERT Retreat Photos</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>August 29, 2008</b></font><br><font color="#330000"><a href="newsItem.php?m=2&ind=14"><b>Intelligent Traveler Assistant project mentioned in Chicago Magazine</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>July 21, 2008</b></font><br><font color="#330000"><a href="newsItem.php?m=2&ind=12"><b>First International Workshop on Computational Transportation Science<br>
+<b>Registration info now available</b></b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>July 8, 2008</b></font><br><font color="#330000"><a href="newsItem.php?m=2&ind=13"><b>Additional paid part time position available for UIC student</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>June 12, 2008</b></font><br><font color="#330000"><a href="newsItem.php?m=2&ind=45"><b>Paid part-time position available for UIC student</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>January 16, 2008</b></font><br><font color="#330000"><a href="newsItem.php?m=2&ind=11"><b>Information for current students</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>November 26, 2007</b></font><br><font color="#330000"><a href="newsItem.php?m=2&ind=44"><b>Dr. Der-Horng Lee to visit CTS IGERT in January 2008</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>November 13, 2007</b></font><br><font color="#330000"><a href="newsItem.php?m=2&ind=10"><b>Apply now for 2008 fellowships</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>October 24, 2007</b></font><br><font color="#330000"><a href="newsItem.php?m=2&ind=9"><b>Student profiles added to website</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>September 18, 2007</b></font><br><font color="#330000"><a href="newsItem.php?m=2&ind=8"><b>Second Annual IGERT Retreat Photos</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>August 27, 2007</b></font><br><font color="#330000"><a href="newsItem.php?m=2&ind=7"><b>Welcome new and continuing IGERT students</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>July 20, 2007</b></font><br><font color="#330000"><a href="newsItem.php?m=2&ind=6"><b>Upcoming paid research opportunities for undergraduates</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>January 11, 2007</b></font><br><font color="#330000"><a href="newsItem.php?m=2&ind=5"><b>Apply now for Fall 2007</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>August 30, 2006</b></font><br><font color="#330000"><a href="newsItem.php?m=2&ind=4"><b>IGERT Retreat Pictures</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>May 31, 2006</b></font><br><font color="#330000"><a href="newsItem.php?m=2&ind=1"><b>CS receives $3.1 NSF IGERT grant in Computational Transportation Science</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b> 0, 0000</b></font><br><font color="#330000"><a href="newsItem.php?m=2&ind=51"><b>CTS IGERT Fellow Stephen Vaughn won the 
+Research Grant for the 4th International Conference on Women�s Issues in Transportation (2009)
+
+The topic of his paper
+
+<br><br>
+"Women�s Safety and Security Issues with Bicycling and Walking:  An Examination</b></a></font></td></tr></table><br><br>
+<font size="+1" color="#330000"><b>Events Archive</b></font><br><br>
+		<table border="0" width="98%" cellpadding="0" cellspacing="2px" style="text-decoration:none;font-size:9px; color:#333333;"><tr><td id="newsListEven"><font color="#330000"><b>November 14, 2012</b></font><br><font color="#330000"><a href="event.php?m=5&ind=226"><b>Dr. Nebiyou Tilahun, UPP, presents a seminar entitled "An agent based model of origin destination estimation (ADOBE)" Wednesday, November 14th at 4:00 pm in Rm 1127 SEO</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>November 7, 2012</b></font><br><font color="#330000"><a href="event.php?m=5&ind=227"><b>Mr. Thomas Murtha, CMAP, will address the CTS-IGERT community at 4:00 p.m. in Room 1127 SEO.
+
+</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>October 24, 2012</b></font><br><font color="#330000"><a href="event.php?m=5&ind=225"><b>Please join us in welcoming Dr. Bo Zou, CME, on Wednesday, October 24th, Room 1127 SEO, 4:00 p.m.</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>October 10, 2012</b></font><br><font color="#330000"><a href="event.php?m=5&ind=224"><b>Dr. Sybil Derrible, Assistant Professor, CME, will present a seminar at Wednesday, October 10th, 4:00p.m. in Room 1127 SEO.</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>September 12, 2012</b></font><br><font color="#330000"><a href="event.php?m=5&ind=223"><b>CTS Fellows will present their research in quad chart formats.  </b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>September 5, 2012</b></font><br><font color="#330000"><a href="event.php?m=5&ind=222"><b>Dr. Stephen Chen - Part 2 - seminar presentation entitled "iCar Reflections - A Reality Check", Wednesday, September 5th at 4:00 p.m. in Room 1127 SEO.</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>August 29, 2012</b></font><br><font color="#330000"><a href="event.php?m=5&ind=221"><b>Mark Krivchenia, Office of Technology Management, will discuss The Role of the Office of Technology Management at UIC,  Wednesday, August 29th at 4:00 p.m. in Room 1127 SEO.
+</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>August 22, 2012</b></font><br><font color="#330000"><a href="event.php?m=5&ind=220"><b>Dr. Stephen Chen presents a seminar Wednesday, August 22, 2012<BR>
+2:00 p.m.  (PLEASE NOTE TIME)<BR>
+Room 1127 SEO<BR><br>
+Title:  "iCar Reflections - A Reality Check"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>July 11, 2012</b></font><br><font color="#330000"><a href="event.php?m=5&ind=219"><b>Dr. Derek Caveney, Toyota Technical Center of Ann Arbor, MI, will present a seminar on Wednesday, July 11th at 4:00 p.m. in Room 1127 SEO.</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>June 13, 2012</b></font><br><font color="#330000"><a href="event.php?m=5&ind=218"><b>Please welcome Dr. Ethan Ying-en Ge, Associate Professor, Dalian University of Technology, China<br>
+Wednesday, June 13th at 4:00 p.m. in Room 1127 SEO</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>May 16, 2012</b></font><br><font color="#330000"><a href="event.php?m=5&ind=215"><b>Speaker - Mahmoud Javanmardi, CTS Fellow 
+Room 1127 SEO 4:00 p.m. </b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>May 9, 2012</b></font><br><font color="#330000"><a href="event.php?m=5&ind=216"><b>Speaker - Alex Blei, CTS Fellow Room 1127 SEO 4:00 p.m.</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>May 2, 2012</b></font><br><font color="#330000"><a href="event.php?m=5&ind=217"><b>Speaker - Karl Sturm, CTS Fellow Room 1127 SEO 4:00 p.m.
+
+</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>April 25, 2012</b></font><br><font color="#330000"><a href="event.php?m=5&ind=214"><b>Dr. Eyal Amir <br>
+Co-Founding Executive Officer of FasPark <br>
+Professor of Computer Science, UIUC<br>
+4:00 p.m., Room 1127 SEO <br>
+"FasPark: Dynamic Street-Parking Availability" </b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>April 18, 2012</b></font><br><font color="#330000"><a href="event.php?m=5&ind=213"><b>Sol Ma, CTS Associate, will present a seminar on his research in Room 1127 SEO at 4:00 p.m.</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>April 11, 2012</b></font><br><font color="#330000"><a href="event.php?m=5&ind=212"><b>Michael Haynes
+Chicago Transit Authority
+Technology Management
+4:00 p.m., Wednesday, April 11, 
+Room 1127 SEO </b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>April 4, 2012</b></font><br><font color="#330000"><a href="event.php?m=5&ind=211"><b>Speaker - Emily Mugler, CTS Fellow <br>
+Room 1127 SEO 4:00 p.m.
+
+</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>March 28, 2012</b></font><br><font color="#330000"><a href="event.php?m=5&ind=210"><b>Stephen E. Schlickman, JD <br>
+Executive Director of the University of Illinois Chicago <br>
+Urban Transportation Center <br> <br>
+
+"The Urban Transportation Center Current & New Direction"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>March 21, 2012</b></font><br><font color="#330000"><a href="event.php?m=5&ind=209"><b>SPRING BREAK!!</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>March 14, 2012</b></font><br><font color="#330000"><a href="event.php?m=5&ind=208"><b>Speaker - Daniel Ayala, CTS Fellow <br>
+Room 1325 SEO 4:00 p.m.
+
+
+
+</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>March 7, 2012</b></font><br><font color="#330000"><a href="event.php?m=5&ind=207"><b>Please join us in welcoming... <br>
+Dr. Hemanshu Kaul <br>
+Department of Applied Mathematics<br>
+Illinois Institute of Technology<br>
+4:00 p.m., Room 1127 SEO
+
+PLEASE NOTE ROOM</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>February 29, 2012</b></font><br><font color="#330000"><a href="event.php?m=5&ind=205"><b>Joseph L. Schofer <br>
+Professor of Civil Engineering & Transportation <br>
+Northwestern University<br><br>
+
+"Data for Decisions:  What Do Transportation Decision Makers Want, Need and Use?"
+
+Room 1000 SEO, 4:00 p.m.</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>February 22, 2012</b></font><br><font color="#330000"><a href="event.php?m=5&ind=206"><b>Speaker - Piotr Szczurek, CTS Fellow 
+Room 1325 SEO
+4:00 p.m.</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>February 15, 2012</b></font><br><font color="#330000"><a href="event.php?m=5&ind=204"><b>Speaker - Troy Hernandez, CTS Fellow
+<br>
+</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>February 8, 2012</b></font><br><font color="#330000"><a href="event.php?m=5&ind=203"><b>CTS Fellow James Biagioni presents a seminar entitled "Inferring Road Maps from GPS Traces: Survey and Comparative Evaluation"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>November 30, 2011</b></font><br><font color="#330000"><a href="event.php?m=5&ind=202"><b>Dr. Yanfeng Ouyang, UIUC, Associate Professor, presents a seminar entitled "Characterization, Prediction and Field Validation of Traffic Oscillation Propagation under Nonlinear Car-Following Laws", Wednesday, November 30, 4:00 p.m. in Room 1000 SEO.</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>November 16, 2011</b></font><br><font color="#330000"><a href="event.php?m=5&ind=201"><b>Dr. Bhaskar DasGupta, Associate Professor, Department of Computer Science and Engineering, UIC, presents a seminar entitled "On Communication Protocols that Compute Almost Privately" on Wednesday, November 16, 4:00 p.m. in Room 1000 SEO.
+</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>November 9, 2011</b></font><br><font color="#330000"><a href="event.php?m=5&ind=200"><b>Please join us for a presentation by Alejandro Blei, CTS Fellow and PhD Candidate Department of Urban Planning, on Wednesday, November 9th at 4:00 p.m. in Room 1325 SEO.  </b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>October 31, 2011</b></font><br><font color="#330000"><a href="event.php?m=5&ind=199"><b>Dr. Christian S. Jensen, Professor, Computer Science, Aarhus University, Denmark, will present a seminar entitled "On the Integration of Location into Web Querying". Please join us on Monday, October 31, 2011 at 
+11:00 a.m. in Room 1000 SEO.
+</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>October 26, 2011</b></font><br><font color="#330000"><a href="event.php?m=5&ind=198"><b>Dr. Glenn Geers, Technology Director of the Infrastructure, Transport & Logistics Business Team, NICTA, will present a seminar entitled 
+"Introduction to Cooperative ITS" on 
+Wednesday, October 26, at 4:00 p.m. in
+Room 1000 SEO
+</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>October 12, 2011</b></font><br><font color="#330000"><a href="event.php?m=5&ind=197"><b>Dr. Marco Nie, Assistant Professor,
+Civil and Environmental Engineering, Northwestern University will present a seminar entitled "Markets for Tradable Mobility Rights" at 4:00 p.m. in Rm 1047 ERF.  </b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>July 15, 2011</b></font><br><font color="#330000"><a href="event.php?m=5&ind=195"><b>Karl Sturm, CTS-IGERT Fellow, PhD Candidate CME, will present a seminar entitled "An Evaluation of Driver Reactions to New Vehicle Parking
+Assist Technologies Developed to Reduce Driver Stress" at 2:30 in Rm 1000SEO.</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>July 8, 2011</b></font><br><font color="#330000"><a href="event.php?m=5&ind=194"><b>Troy Hernandez, CTS Fellow, will present a seminar entitled "An Efficient Explanation of Individual Classifications using Game Theory" at 2:30 p.m. in Room 1000 SEO.</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>July 1, 2011</b></font><br><font color="#330000"><a href="event.php?m=5&ind=193"><b>Piotr Szczurek, CTS Fellow and CS PhD candidate, will present a seminar entitled "Forwards: A Map-Free Intersection Collision-Warning System for All Road Patterns" at 2:30 p.m. in Room 1000 SEO.</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>June 24, 2011</b></font><br><font color="#330000"><a href="event.php?m=5&ind=192"><b>Emily Mugler, CTS Fellow and BioE PhD candidate, will present a seminar entitled "Driver inattention monitoring system for intelligent vehicles: A
+review" at 2:30 p.m. in Room 1000 SEO.</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>June 17, 2011</b></font><br><font color="#330000"><a href="event.php?m=5&ind=191"><b>Josh Auld, CTS Fellow and CME PhD candidate, will present a seminar to update us on his research.  2:30 p.m. in Room 1000 SEO</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>June 10, 2011</b></font><br><font color="#330000"><a href="event.php?m=5&ind=190"><b>Tomas Gerlich, CTS-IGERT Associate, PhD Candidate, Department of Computer Science and Engineering, will discuss the publication entitled "Geolocalization using Skylines from Omni-Images"
+</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>June 3, 2011</b></font><br><font color="#330000"><a href="event.php?m=5&ind=189"><b>Leon Stenneth, CTS-IGERT Associate, PhD Candidate, Department of Computer Science and Engineering, will discuss the publication entitled "Using Mobile Phones to Determine Transportation Modes".</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>May 13, 2011</b></font><br><font color="#330000"><a href="event.php?m=5&ind=188"><b>Daniel Ayala, CTS Fellow and PhD candidate, Department of Computer Science and Engineering, will present a seminar entitled "The Parking Slot Assignment Game" in Room 1000 SEO at 2:30 p.m., Friday, May 13th
+
+</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>April 15, 2011</b></font><br><font color="#330000"><a href="event.php?m=5&ind=186"><b>Dr. Satish Ukkusari, Purdue University, College of Civil Engineering, will present a seminar Friday, April 15th at 2:30 p.m. in Room 1000 SEO. <br><br>
+"Recent Advances in Dynamic Network Equilibrium Modeling for Intelligent Transportation Systems"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>April 8, 2011</b></font><br><font color="#330000"><a href="event.php?m=5&ind=187"><b>Dr. David Boyce will present a seminar entitled "Unique User-equilibrium Road Traffic Flows for Two User Classes" on Friday, April 8, 2011 at 2:30 p.m. in Room 1000 SEO.
+</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>April 1, 2011</b></font><br><font color="#330000"><a href="event.php?m=5&ind=185"><b>CTS welcomes Dr. Nitin Vaidya,
+University of Illinois Urbana-Champaign
+Department of Electrical and Computer Engineering, Friday, April 1st at 2:30 p.m. <br><br>
+
+"Multi-Valued Byzantine Consensus"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>March 18, 2011</b></font><br><font color="#330000"><a href="event.php?m=5&ind=184"><b>Dr. Mosheh Wolf, University of Illinois at Chicago, Department of BioEngineering, will present a seminar, Friday, March 18 at 2:30 p.m. in Room 1000 SEO, entitled "Highways and Ecology: Impacts of Highways on Native Species"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>March 11, 2011</b></font><br><font color="#330000"><a href="event.php?m=5&ind=183"><b>No Seminar Scheduled for Friday, March 11, 2011</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>March 4, 2011</b></font><br><font color="#330000"><a href="event.php?m=5&ind=182"><b>Piotr Szczurek, LEAP Fellow and CS Phd candidate, will present a seminar entitled "Emergency Electronic Brake Light: When are Warnings Relevant to Drivers?" at 2:30 p.m. in Room 1000 SEO.</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>February 25, 2011</b></font><br><font color="#330000"><a href="event.php?m=5&ind=181"><b>Bo Xu, CTS Fellow and PhD candidate, will present a seminar on Friday, Feb. 25th at 2:30 p.m. in Room 1000 SEO</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>February 18, 2011</b></font><br><font color="#330000"><a href="event.php?m=5&ind=180"><b>Please join us at 2:30 pm in Rm 1000 SEO. Leon Stenneth, CS PhD candidate and IGERT Associate, will present a seminar entitled "Privacy-Aware Location Based Systems".</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>February 11, 2011</b></font><br><font color="#330000"><a href="event.php?m=5&ind=179"><b>Dr. Amitabh Chaudhary, Assistant Professor,Computer Science and Engineering, University of Notre Dame, will present a seminar entitled 
+"Online Algorithms for the Newsvendor Problem", February 11th, 2:30 p.m., Room 1000 SEO <br>
+</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>February 4, 2011</b></font><br><font color="#330000"><a href="event.php?m=5&ind=178"><b>CTS-IGERT is pleased to co-host a seminar with Dr. Kouros Mohammadian, CME, on Friday, February 4, 2011 at 2:30 p.m. <br> <br>
+Location: Room 1047 ERF - Please note change of location!
+
+</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>January 21, 2011</b></font><br><font color="#330000"><a href="event.php?m=5&ind=177"><b>CTS-IGERT is pleased to co-host a seminar with Dr. Kouros Mohammadian, CME, on Friday, January 21st at 2:30 p.m.  
+
+Location:  Room 1000 SEO</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>January 14, 2011</b></font><br><font color="#330000"><a href="event.php?m=5&ind=176"><b>CTS-IGERT welcomes Dr. Cem Saraydar, General Motors, Global Research and Development, who will present a seminar entitled "Reinventing the Automobile" on Friday, January 14th at 2:30 p.m. in Room 1000 SEO.</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>December 3, 2010</b></font><br><font color="#330000"><a href="event.php?m=5&ind=175"><b>Please join CTS in welcoming Alwar Narayanan, Director of Research and Emerging Technologies, NAVTEQ, on Friday, December 3rd at 2:30 p.m. in Room 1000 SEO.  The seminar is entitled "Automatic Creation of 3D Maps".
+</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>November 19, 2010</b></font><br><font color="#330000"><a href="event.php?m=5&ind=174"><b>CTS-IGERT welcomes Dr. Dr. Piyushimita (Vonu) Thakuriah, Department of Urban Planning and Policy, UIC, who will present a seminar entitled "Information Technology in the Context of Transportation and Society" on Friday, Nov 19th at 2:30 in Room 1000 SEO.</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>October 22, 2010</b></font><br><font color="#330000"><a href="event.php?m=5&ind=173"><b>Mohamed Mokbel, Assistant Professor,
+Department of Computer Science and Engineering, University of Minnesota will present a seminar entitled "Privacy and Personalization in Location-based Database Servers".</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>October 8, 2010</b></font><br><font color="#330000"><a href="event.php?m=5&ind=172"><b>Breton Johnson, Northwestern University, will present a seminar entitled "Opportunities and Tools to Enhance the Technology Transfer and Commercialization of Transportation Innovations" <br><br>
+
+</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>September 17, 2010</b></font><br><font color="#330000"><a href="event.php?m=5&ind=170"><b>Sol Ma, PhD candidate, Department of Computer Science, will present a seminar this Friday, September 17th at 2:30 p.m. in Room 1000 SEO, entitled "Publish/Subscribe implementation in MANETs". 
+</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>August 30, 2010</b></font><br><font color="#330000"><a href="event.php?m=5&ind=169"><b>Mahmoud Javanmardi, CTS Fellow and CME PhD candidate, will present a seminar on Monday, August 30th at 4:00 p.m. in Room 1000 SEO entitled "Congestion Pricing".</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>August 23, 2010</b></font><br><font color="#330000"><a href="event.php?m=5&ind=168"><b>Douglas Lundquist, CTS Fellow, will present a seminar entitled, "Mobility Modeling Issues in Routing Performance", on Monday, August 23rd at 4:00 p.m. in Room 1000 SEO.</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>August 16, 2010</b></font><br><font color="#330000"><a href="event.php?m=5&ind=167"><b>Tomas Gerlich, CTS IGERT Fellow, will present a seminar entitled "Localization Methods in Challenging Environments" at 4:00 p.m. in Room 1000 SEO</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>August 9, 2010</b></font><br><font color="#330000"><a href="event.php?m=5&ind=166"><b>James Biagioni, CTS Fellow, will present a seminar entitled "Building a Transit Navigator: The TransitGenie Story" at 4:00 p.m. in Room 1000 SEO</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>August 2, 2010</b></font><br><font color="#330000"><a href="event.php?m=5&ind=165"><b>Emily Mugler, CTS Fellow, will present a seminar entitled, "Developing a better human communication network in transportation: increasing efficiency, safety and health" on Monday, August 2, 2010 at 4:00 p.m. in Room 1000 SEO.</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>July 26, 2010</b></font><br><font color="#330000"><a href="event.php?m=5&ind=164"><b>Stephen Vaughn, CTS Fellow, will present a seminar entitled, "Healthy City Planning: The Role of Social Identity" on Monday, July 26, 2010 at 4:00 p.m. in Room 1000 SEO.  </b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>July 19, 2010</b></font><br><font color="#330000"><a href="event.php?m=5&ind=163"><b>Troy Hernandez, CTS Fellow, will present a seminar entitled "Prediction of Travel Times for CTA Buses" on Monday, July 19th at 4:00 p.m. in Room 1000 SEO.</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>July 12, 2010</b></font><br><font color="#330000"><a href="event.php?m=5&ind=162"><b>Joel Booth, CTS Fellow, will present a seminar entitled "Transportation Databases: A Brief Survey" on Monday, July 12,2010 at 4:00 p.m. in Room 1000 SEO.</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>July 9, 2010</b></font><br><font color="#330000"><a href="event.php?m=5&ind=160"><b>Daniel Ayala, CTS Fellow, presents "Survey of the Dynamic User Equilibrium in Traffic Networks" on Friday, July 9, 2010 at 3:00 p.m.</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>June 7, 2010</b></font><br><font color="#330000"><a href="event.php?m=5&ind=159"><b>Bo Xu, CTS Fellow, will present a seminar entitled "Disseminating and Querying Multimedia Traffic Information via Vehicular Ad Hoc Networks" on Monday, June 7th at 4:00 p.m.</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>May 14, 2010</b></font><br><font color="#330000"><a href="event.php?m=5&ind=158"><b>CTS welcomes Dr. Chad Williams, Assistant Professor, Bemidji State University, who will present a seminar entitled "Beyond Travel Patterns" <br><br>
+Monday, May 17th at 1:00 p.m. in Room 1000 SEO.  <br><br>
+<br><br>
+Please note time - 1:00 p.m.</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>April 26, 2010</b></font><br><font color="#330000"><a href="event.php?m=5&ind=157"><b>CTS welcomes Dr. David Boyce, Northwestern University, who will present a seminar entitled "Predicting Road Traffic Flows for Urban Transportation Planning Practice and Implications for Commercial Software Developers"
+</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>April 19, 2010</b></font><br><font color="#330000"><a href="event.php?m=5&ind=156"><b>CTS welcomes Dr. Andrew Johnson, Associate Professor, Department of Computer Science and Electronic Visualization Laboratory, who will present a seminar entitled "Building a Better War Room"
+<br><br>
+Monday, April 19, 2010<br>
+4:00 p.m.<br>
+Room 1000 </b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>April 5, 2010</b></font><br><font color="#330000"><a href="event.php?m=5&ind=155"><b>CTS welcomes Dr. Aurelius Bernet, Metropolitan Space Laboratory, Scientific Association for Urban Simulation and Optimization, Zurich, Switzerland.</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>March 15, 2010</b></font><br><font color="#330000"><a href="event.php?m=5&ind=154"><b>CTS welcomes Dr. Jiawei Han, Database and Information Systems Research Laboratory,
+Department of Computer Science, 
+University of Illinois at Urbana-Champaign
+who will present a seminar entitled, "Mining Moving Object and Traffic Data".<br><br>
+
+</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>March 8, 2010</b></font><br><font color="#330000"><a href="event.php?m=5&ind=153"><b>CTS IGERT welcomes Dr. Jason Leigh, Associate Professor, Department of Computer Science and Director, Electronic Visualization Laboratory, who will present a seminar entitled, "The OptIPuter Project".
+
+</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>February 22, 2010</b></font><br><font color="#330000"><a href="event.php?m=5&ind=152"><b>CTS-IGERT welcomes Dr. Milos Zefran, Associate Professor, Electrical and Computer Engineering, UIC.  Dr. Zefran presents a seminar entitled "Feedback Control and Autonomous Driving" on Monday, February 22nd at 4:00 pm, Room 1000 SEO.</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>February 15, 2010</b></font><br><font color="#330000"><a href="event.php?m=5&ind=151"><b>CTS is pleased to present a seminar entitled "Recent Innovations in Travel Modeling" by Dr. Abolfazl Mohammadian, Associate Professor, Department of Civil and Materials Engineering, University of Illinois at Chicago, at 4:00 p.m. in Room 1000 SEO. <br><br</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>February 8, 2010</b></font><br><font color="#330000"><a href="event.php?m=5&ind=150"><b>CTS Fellow Daniel Ayala will present a seminar entitled "Randomized Route Guidance for Car Navigation Systems" on Monday, February 8th at 4:00 p.m. in Room 1000 SEO </b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>January 29, 2010</b></font><br><font color="#330000"><a href="event.php?m=5&ind=148"><b>CTS welcomes Dr. Xin Chen, NAVTEQ Corporation, Research and Emerging Technologies, who will present a seminar entitled "Next Generation Map Making" on Friday, January 29, 2010 at 2:00 p.m. in Room 1000 SEO.</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>January 25, 2010</b></font><br><font color="#330000"><a href="event.php?m=5&ind=149"><b>Caitlin Cottrill, CTS Fellow, will present a seminar entitled "Surveying Privacy" on Monday, January 25, at 4:00 p.m. in Room 1000 SEO.</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>December 1, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=147"><b>Dr. Ramasamy Uthurusamy, former General Director of Emerging Technologies, Information Systems and Services Division of General Motors Corporation, will present a seminar entitled "Role of Strategy in Computational Transportation Science", </b></a></font><br><font color="#000000"><b>Download: <a href="">Role of Strategy in Computational Transportation Science</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>November 24, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=146"><b>CTS welcomes Mr. Kevin Moran, NAVTEQ, who will present a seminar entitled "Digital Roadmaps, Driver Safety and Vehicle Efficiency - Smart Roads, Aware Drivers and Intelligent Vehicles - Closing the Loop with Digital Map-Enhanced Advanced Driver Assistance</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>November 17, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=145"><b>Josh Auld, CTS Fellow, will present a seminar entitled "Activity Planning Processes in the ADAPTS Activity-Based Modeling Framework", Tuesday, November 17th</b></a></font><br><font color="#000000"><b>Download: <a href="">"Activity Planning Processes in the ADAPTS Activity-Based Modeling Framework"</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>October 30, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=144"><b>CTS welcomes Dr. Darcy Bullock, School of Civil Engineering, Purdue University, who will present a seminar entitled </b></a></font><br><font color="#000000"><b>Download: <a href="">"Visualization and Assessment of Arterial Progression Quality Using High Resolution Signal Event Data and Measured Travel Time"</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>October 27, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=143"><b>Please join CTS-IGERT in welcoming Dr. Rahim F. Benekohal who will present a seminar entitled, "Computational Intelligence in Optimizing oversaturated Traffic Signal Networks"</b></a></font><br><font color="#000000"><b>Download: <a href="Benekohal.ppt
+">"Computational Intelligence in Optimizing oversaturated Traffic Signal Networks"</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>October 20, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=142"><b>CTS-IGERT welcomes John Otto, Northwestern University, Department of Electrical Engineering and Computer Science who will present a seminar entitled</b></a></font><br><font color="#000000"><b>Download: <a href="Otto.pptx">"Down the Block and Around the Corner: The Impact of Radio Propagation
+On Inter-vehicle Wireless Communication"</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>October 13, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=141"><b>CTS welcomes Dr. Budhendra Bhaduri, Oak Ridge National Laboratory, on Tuesday, October 13th, 11:00 a.m. in Room 219 SEO (Please Note:  New Location)</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>October 6, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=140"><b>CTS-IGERT is pleased to host a seminar by Joel Booth, CTS-IGERT Fellow. Tuesday, October 6, 2009, 11:00 a.m., Room 1000 SEO.<br><br></b></a></font><br><font color="#000000"><b>Download: <a href="Booth.pdf">"Natural Language Queries as Semantic (Sub) Networks"<</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>September 29, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=139"><b>Please join us in welcoming Dr. Jie Lin, Department of Civil and Materials Engineering, UIC, on Tuesday, September 29, 2009, 11:00 - 12:00 noon, Room 1000 SEO.</b></a></font><br><font color="#000000"><b>Download: <a href="Lin.ppt
+">"Probe based Arterial Travel Time Estimation and Prediction - A Case Study of Using Chicago Transit Authority Bus Fleet as Probes" </a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>September 22, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=137"><b>CTS-IGERT is pleased to host a seminar by Piotr Szczurek, entitled "Machine Learning Approach to Report Prioritization with an Application to Travel Time Dissemination", on Tuesday, September 22nd at 11:00 a.m. in Room 1000 SEO.</b></a></font><br><font color="#000000"><b>Download: <a href="Piotr.ppt
+">"Machine Learning Approach to Report Prioritization with an Application to Travel Time Dissemination"</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>September 15, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=136"><b>Discussion/presentation lead by Daniel Ayala, CTS-IGERT Fellow, Tuesday, September 15th at 11:00 a.m. in Room 1000SEO</b></a></font><br><font color="#000000"><b>Download: <a href="Invention2Venture.pptx">Invention2Venture.pptx
+</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>September 8, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=134"><b>Please join CTS IGERT in welcoming Dr. Goce Trajcevski, Northwestern University, who will present a seminar entitled "On Meta-Management of Spatio-Temporal Data",
+Tuesday, September 8, SEO 1000, 11:00 to noon.</b></a></font><br><font color="#000000"><b>Download: <a href="Trajcevski.ppt">On Meta-Management of Spatio-Temporal Data</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>August 19, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=130"><b>CTS IGERT Orientation and Retreat for Faculty, New and Continuing Students
+</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>August 10, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=129"><b>CTS IGERT is honored Dr. Patricia L. Mokhtarian will present, "If Telecommunication is Such a Good Substitute for Travel, Why Does Congestion Continue to Get Worse?"
+August 10th 2pm, SEO 1000.  Please join us!
+</b></a></font><br><font color="#000000"><b>Download: <a href="AGORA art - if TC is such a good subst - abridged version.ppt">If Telecommunication is Such a Good Substitute for Travel, Why Does Congestion Continue to Get Worse? </a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>July 30, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=128"><b>CTS IGERT is honored Dr. Hubert Ley, the Traffic Simulation Team Leader in
+Transportation, Research and Analysis of the Computing Center at Argonne
+National Laboratory will present at the CTS-IGERT seminar Thursday, July 30th, 2-3 pm, SEO 1325.   </b></a></font><br><font color="#000000"><b>Download: <a href="Chicago  July 30 2009 - Ley.ppt">
+
+Transportation Modeling Activities at the Transportation Research and Analysis Computing Center at Argonne National Laboratory</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>July 24, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=125"><b>CTS-IGERT is honored Dr. Prasad Sistla, Professor, Department of Computer Science will present at the IGERT seminar on Friday, July 24, 2009 SEO 1000, 2 pm to 3pm.  
+
+</b></a></font><br><font color="#000000"><b>Download: <a href="Sistla 072409.ppt">Uncertainty in Trip Planning in Transportation Systems</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>July 16, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=120"><b>CTS IGERT is honored Chad Williams a CTS IGERT fellow will present "Attribute Constrained Rules: A new approach to filling in missing traveler data."
+
+SEO 1325, 2 pm to 3 pm.  PLEASE NOTE: This is a change from the usual location of SEO 1000.</b></a></font><br><font color="#000000"><b>Download: <a href="20090715-IGERT-Attribute Constrained Rules - A new approach to filling in missing traveler data .pptx">Attribute Constrained Rules-A new approach to filling in missing traveler data.</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>July 9, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=4"><b>IGERT Retreat Agenda</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>July 9, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=124"><b>CTS-IGERT is honored Dr. Kawamura Associate Professor in the College of Urban Planning and Public Affairs will present at the CTS-IGERT Weekly seminar, 2 to 3 pm, SEO 1325.  PLEASE NOTE THE LOCATION CHANGE.  Please join us!</b></a></font><br><font color="#000000"><b>Download: <a href="Kawamura_IGERT_09_Delivery.pdf">Economy of scale and the role of 
+publicly available congestion
+information for local delivery industry:
+Agent-based simulation approach
+</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>July 2, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=123"><b>No CTS IGERT Seminar this week on July 2nd.  Please join us on July 9th when Dr. Kawamura will present his research.  Have a Safe Holiday! </b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>June 25, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=119"><b>CTS-IGERT is honored fellow Josh Auld will present "Evaluating Transportation Impacts of Forecast Demographic Scenarios Using Population Synthesis and Data Transferability" at the weekly seminar, SEO 1000, 2 pm.  Please check back for further details.
+
+</b></a></font><br><font color="#000000"><b>Download: <a href="AULD Presentation 6-25-09.ppt">Evaluating Forecast Demographic Scenarios Using Population Synthesis and Data Simulation</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>June 18, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=118"><b>CTS-IGERT is honored Bo Xu, PhD will present at the weekly seminar, SEO 1000, 2 pm.  "Query Processing in Mobile Peer-to-peer Databases"
+
+Please join us.</b></a></font><br><font color="#000000"><b>Download: <a href="IGERT-seminar-June18.ppt">Query Processing in Mobile Peer-to-peer Databases (power point)</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>June 11, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=117"><b>CTS-IGERT is honored Dr. Barbara Di Eugenio will present Natural Language Processing: Challenges and Opportunities in Intelligent Transportation, at the weekly seminar.  SEO 1000, 2 pm. 
+
+</b></a></font><br><font color="#000000"><b>Download: <a href="DiEugenio.pdf">Natural Language Processing:
+Challenges and Opportunities
+in Intelligent Transportation</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>June 5, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=116"><b>No CTS-IGERT Seminar This Week.  Everyone is welcome to attend the seminar hosted by Professor Wolfson at 2:00 pm on June 5th, SEO 1000.
+<br><br><br><br>
+Sheikh Iqbal Ahamed, PhD
+Associate Professor, Dpt of Mathematics, Statistics and Computer Science</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>May 28, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=114"><b>The CTS-IGERT weekly seminar will take place on Thursday, May 28th at 2:00 pm in SEO 1000.  We are honored to have Stephen Chen Founder and Partner, Global Software Group, LLC 
+present Vehicular Visions Challenges and Initiatives.
+
+</b></a></font><br><font color="#000000"><b>Download: <a href="Stephen Chen 052809.ppt">Vehicular Visions Challenges and Initiatives</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>May 21, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=112"><b>The CTS-IGERT weekly seminar will take place on Thursday, May 21st at 2:00 pm in SEO 1000.  We are honored to have David Zavattero the Deputy Director
+of the Office of Emergency Management and Communications for the City of Chicago present his research.</b></a></font><br><font color="#000000"><b>Download: <a href="zavaterro.pdf">The Nexus and Use of Planning and Operations Data</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>May 20, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=113"><b>May 20th Round Table Discussion led by Caitlin Cottrill.  Please join us for lunch and lively discussion!  SEO 1000, 12:00 pm.
+</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>May 14, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=111"><b>The CTS-IGERT weekly seminar will take place on Thursday, May 14th at 2:00 pm in SEO 1000.  We are honored to have Paul Metaxatos from the Urban Transportation Center present his research. </b></a></font><br><font color="#000000"><b>Download: <a href="IGERT Presentation 051409.ppt">Some Issues in Transportation Demand
+Modeling and ITS Deployment Planning
+</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>May 7, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=110"><b></b></a></font><br><font color="#000000"><b>Download: <a href="">Finals Week. Good luck on finals!
+No seminar.</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>April 30, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=108"><b>The CTS-IGERT weekly seminar will take place on Thursday, April 30th at 2:00 pm in SEO 1325.  This is a slight change from SEO 1000, where the seminar is usually held. We are honored to have Stephen Vaughn present his research.  </b></a></font><br><font color="#000000"><b>Download: <a href="VAUGHN IGERT Presentation 4-30-2009.ppt">Safety and Security issues with Non-motorized Transportation:  An Examination of Potential Planning, Design and Technology Solutions</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>April 23, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=107"><b>The CTS-IGERT weekly seminar will take place on Thursday, April 23th at 2:00 pm in SEO 1000.  We are honored to have Joseph DiJohn present "The Burnham Transportation Plan of Chicago:  100 Years Later." All Welcome. </b></a></font><br><font color="#000000"><b>Download: <a href="Burnham Presentation to IGERT-1.ppt">The Burnham Transportation Plan of Chicago:  100 Years Later</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>April 16, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=106"><b>The CTS-IGERT weekly seminar will take place on Thursday, April 16th at 2:00 pm in SEO 1000.  We are honored to have Kermit Wies of the Chicago Metropolitan Agency For Planning present his research "Highlights of CMAP's Research and Analysis Work Program"</b></a></font><br><font color="#000000"><b>Download: <a href="20090416 UIC.ppt">Highlights of CMAP's Research and Analysis
+Work Program</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>April 9, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=105"><b>The CTS-IGERT weekly seminar will take place on Thursday, April 9th at 2:00 pm in SEO 1000.  We are honored to have Katya Kisyova present, "Applied Access Control For Vehicular Networks".
+All Welcome. </b></a></font><br><font color="#000000"><b>Download: <a href="
+download.pdf">Applied Access Control For Vehicular Networks</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>April 2, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=104"><b>The CTS-IGERT weekly seminar will take place on Thursday, April 2nd at 2:00 pm in SEO 1000.  We are honored to have Jerry Wilson from Motorola present 
+
+        "Location is Everything!"
+ 
+
+All Welcome.</b></a></font><br><font color="#000000"><b>Download: <a href="Location is Everything.ppt">Location is Everything talk by Jerry Wilson</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>March 19, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=103"><b>The CTS-IGERT weekly seminar will take place on Thursday, March 19th at
+2:00 pm in SEO 1000.
+
+This week, IGERT is honored to have Dr. Eriksson present on the TransitGenie.
+
+
+</b></a></font><br><font color="#000000"><b>Download: <a href="Eriksson.pdf">TransitGenie
+Building a context-aware,
+real-time transit navigator</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>March 12, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=102"><b>Caitlin Cottrill presents "An Overview of Approaches to Privacy Preservation in
+Intelligent Transportation Systems".
+
+
+Time:  2:00 pm
+Date:  March 12, 2009
+Location:  SEO 1000</b></a></font><br><font color="#000000"><b>Download: <a href="">An Overview of Approaches to Privacy Preservation in Intelligent Transportation Systems</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>March 5, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=101"><b>Daniel Ayala will present his work on Game Theoretic Randomization for Traffic 
+Information Sharing Systems 
+
+Time: 2:00 pm 
+Location: SEO 1000
+</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>February 26, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=92"><b>Joshua Auld will present his research on ADAPTS: Agent-Based Planning and Travel Scheduling-Update on Model Development and Data Collection. 
+
+Thursday, February 26, 2:00 pm
+Room 1000 SEO
+</b></a></font><br><font color="#000000"><b>Download: <a href="Joshua Auld Presentation 22609.ppt
+
+">ADAPTS: Agent-Based Planning and Travel Scheduling-Update on Model Development and Data Collection. 
+</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>February 19, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=91"><b>James Biagioni and Piotr Szczurek will present their research on "Tour-Based Mode Choice Modeling: Using an Ensemble of Conditional and Unconditional Data Mining Classifiers". 
+
+Thursday, February 19, 2:00 pm
+Room 1325 SEO
+</b></a></font><br><font color="#000000"><b>Download: <a href="Piotr Baglioni Presentation.pdf">Tour-Based Mode Choice Modeling: Using an Ensemble of Conditional and Unconditional Data Mining Classifiers</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>February 12, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=90"><b>Presentation by Joel Booth</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>February 5, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=89"><b>Presentation by Doug Lundquist</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>January 29, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=88"><b>Presentation by Chad Williams</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>January 22, 2009</b></font><br><font color="#330000"><a href="event.php?m=5&ind=87"><b>Presentation by Caitlin Cottrill</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>December 12, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=86"><b>Ian White,CEO, "Urban Mapping Inc."</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>December 8, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=85"><b>Intelligent Traveler Assistant brainstorming/discussion continues</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>December 1, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=84"><b>Intelligent Traveler Assistant brainstorming/discussion continues</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>November 24, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=83"><b>Intelligent Traveler Assistant brainstorming/discussion continues</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>November 17, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=82"><b>Intelligent Traveler Assistant brainstorming/discussion continues</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>November 10, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=81"><b>Dr. Matthias Renz, "Managing and Mining Traffic in Road Networks"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>November 3, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=80"><b>Intelligent Traveler Assistant brainstorming/discussion continues, presentation by Jen Zhu</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>October 27, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=79"><b>Intelligent Traveler Assistant brainstorming/discussion continues</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>October 20, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=78"><b>Intelligent Traveler Assistant brainstorming/discussion continues</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>October 13, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=77"><b>Intelligent Traveler Assistant brainstorming/discussion continues</b></a></font><br><font color="#000000"><b>Download: <a href="NRC-TR-2007-003.pdf">Empty Seats Traveling: Next-generation ridesharing and its potential to mitigate traffic- and emission problems in the 21st century (Nokia paper on bluetooth authentication)</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>October 10, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=75"><b>Dr. Marco Nie, "Arriving on time: routing in a stochastic network"</b></a></font><br><font color="#000000"><b>Download: <a href="SPOTAR.pdf">"Arriving on Time: Routing in a Stochastic Network"</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>October 6, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=76"><b>Intelligent Traveler Assistant brainstorming/discussion continues</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>September 29, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=74"><b>Intelligent Traveler Assistant brainstorming session</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>September 22, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=73"><b>International research experience presentation: Josh Auld</b></a></font><br><font color="#000000"><b>Download: <a href="Toronto International Research Experience.ppt">Josh Auld, "Toronto International Research Experience"</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>September 15, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=72"><b>International research experience presentations: Doug Lundquist and Piotr Szczurek</b></a></font><br><font color="#000000"><b>Download: <a href="IGERT_dlundq1_091508.ppt">Doug Lundquist, "My Internship at EPFL in Lausanne, Switzerland"</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>September 8, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=71"><b>International research experience presentations: Chad Williams and Caitlin Cottrill</b></a></font><br><font color="#000000"><b>Download: <a href="CWilliams-International experience update.pdf">Chad Williams, "International research experience update"</a></b></font><br><font color="#000000"><b>Download: <a href="NICTAIgert08.ppt">Caitlin Cottrill, "International Internship Summer 2008"</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>August 27, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=69"><b>2008 CTS IGERT Orientation & Retreat</b></a></font><br><font color="#000000"><b>Download: <a href="bo-personalized-travel.ppt">Bo Xu, "Commercial Activities in Personalized Traveler Information"</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>August 20, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=68"><b>Welcome back lunch for IGERT students</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>June 23, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=70"><b>End-of-year lunch and seminar by Ting (Cathy) Zhong</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>June 16, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=67"><b>Presentation by James Biagioni</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>June 2, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=65"><b>Wenjing Pu, "Travel time prediction on signalized urban streets using AVL buses as probes"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>May 19, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=64"><b>Roger Chen, "Travel Time Perception and Learning in Traffic Networks"</b></a></font><br><font color="#000000"><b>Download: <a href="UIC_Seminar.ppt">Travel Time Perception and Learning in Traffic Networks</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>May 14, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=59"><b>Dr. Pravin Varaiya, "TOPL: Tools for Operations Planning"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>May 5, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=61"><b>Presentation by Katya Kisyova</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>April 28, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=63"><b>Presentation by Joel Booth</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>April 21, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=62"><b>Dr. Kate Beard, "Exploring Events from Sensor Networks"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>April 7, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=60"><b>Presentation by Josh Auld</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>March 31, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=55"><b>Presentation by Piotr Szczurek</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>March 17, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=57"><b>City Logistics Seminar</b></a></font><br><font color="#000000"><b>Download: <a href="Seminar Chicago 2008-2.ppt">Vehicle routing and scheduling with soft time windows and the uncertainty of travel times</a></b></font><br><font color="#000000"><b>Download: <a href="University of Illinois Presentation.ppt">Urban Freight Transport, Logistics and ITS</a></b></font><br><font color="#000000"><b>Download: <a href="Transport & Health (Melbourne).ppt
+">Transport & Health</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>March 10, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=56"><b>Presentation by Caitlin Cottrill</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>March 3, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=58"><b>Dr. Thanasis Ziliaskopoulos, "Traffic Operations Modeling"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>February 25, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=54"><b>Presentation by Chad Williams</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>February 18, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=53"><b>Presentation by Doug Lundquist</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>February 11, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=51"><b>Yan Luo, "A Generic Platform for ITA Related Applications"</b></a></font><br><font color="#000000"><b>Download: <a href="IGERT_021108.ppt">A Generic Platform for ITA Related Applications</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>February 7, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=48"><b>Dr. Hani S. Mahmassani, "Integrating User Responses to Pricing in Dynamic Network Micro-Assignment Models"</b></a></font><br><font color="#000000"><b>Download: <a href="UIC_IGERT_MAHMASSANI_2.08.pdf">Integrating User Responses to Pricing in Dynamic Network Micro-Assignment Models</a></b></font><br><font color="#000000"><b>Download: <a href="Toll_Pricing_and_Heterogeneous_Users.pdf">Toll Pricing and Heterogeneous Users</a></b></font><br><font color="#000000"><b>Download: <a href="modeling_user_responses_to_pricing.pdf">Modeling User Responses to Pricing: Simultaneous Route and Departure Time Network Equilibrium with Heterogeneous Users</a></b></font><br><font color="#000000"><b>Download: <a href="corrected_proof_article.pdf">A bi-criterion dynamic user equilibrium traffic assignment model and solution algorithm for evaluating dynamic road pricing strategies</a></b></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>February 4, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=40"><b>Dr. David P. Weber, "The Transportation Research and Analysis Computing Center (TRACC): Modeling, Simulation and High Performance Computing Resources for the US Department of Transportation at Argonne National Laboratory"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>January 29, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=52"><b>Executive Committee meeting</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>January 28, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=50"><b>Bo Xu, "Progress and Plans for Intelligent Traveler Assistant Development"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>January 18, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=49"><b>Dr. Der-Horng Lee, "Transportation Research and Available Resources in Singapore"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>January 18, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=47"><b>Interviews with CTS IGERT Fellows</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>January 17, 2008</b></font><br><font color="#330000"><a href="event.php?m=5&ind=46"><b>Interviews with CTS IGERT Fellows</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>December 14, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=44"><b>CTS IGERT Holiday Dinner</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>December 6, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=43"><b>1st Year IGERT Fellows' Research Presentations</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>November 29, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=42"><b>1st Year IGERT Fellows' Research Presentations</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>November 28, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=41"><b>Dr. Yoram Shiftan, "The Use of Activity-Based Modeling to Analyze the Effect of Land-Use Policies on Travel Behavior"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>November 1, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=39"><b>Gerwin J. Tumbali, "Developing an Integrated, Multi-Modal Traveler Information System: The Chicagoland Experience"</b></a></font><br><font color="#000000"><b>Download: <a href="UIC_Presentation_110107.ppt">Developing an Integrated, Multi-Modal Traveler Information System: The Chicagoland Experience</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>October 25, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=34"><b>Dr. Fabi&aacute;n Bustamante, "Distributed Systems on Vehicular Networks - Challenges and Opportunities"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>October 18, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=38"><b>Dr. Horst F. Wedde, "A Novel Class of Multi-Agent Algorithms for Avoiding Traffic Congestions 
+Inspired by Honey Bee Behavior"
+</b></a></font><br><font color="#000000"><b>Download: <a href="ETFA2007-Versenden.doc">A Novel Class of Multi-Agent Algorithms for Highly Dynamic Transport Planning Inspired by Honey Bee Behavior</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>October 11, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=37"><b>Kermit Wies, "CMAP's Research and Analysis Work Program"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>October 5, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=33"><b>Dr. Gleen Geers, "STaR: Smart Transport and Roads"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>October 4, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=36"><b>Dr. Michael Shiffer, "Emerging Technologies and Transit Planning: Moving Bits to Move People"</b></a></font><br><font color="#000000"><b>Download: <a href="ShifferIGERTpdf.pdf">Emerging Technologies and Transit Planning: Moving Bits to Move People</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>September 28, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=35"><b>Josh Auld, "Activity and Route Choice Survey using GPS"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>September 21, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=32"><b>Richard (Rick) Weiland, "Intelligent Transportation Systems Standards- Why Do They Matter?"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>September 20, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=31"><b>Yosef Lifshits, Follow-up to Preliminary ITA Demo System Proposal</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>September 13, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=30"><b>Bo Xu, "A Preliminary Proposal of an ITA Demo System"</b></a></font><br><font color="#000000"><b>Download: <a href="ITA-proposal-0913.ppt">A Preliminary Proposal of an ITA Demo System</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>September 6, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=29"><b>John DeLaurentiis, "Technology Programs"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>August 27, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=28"><b>David Boyce, "What Can the World Learn From Singapore About Urban Transportation Systems?"</b></a></font><br><font color="#000000"><b>Download: <a href="Singapore_UIC.ppt">What Can the World Learn From Singapore About Urban Transportation Systems?</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>August 23, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=27"><b>2007 IGERT Retreat Agenda</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>June 13, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=26"><b>Richard Fan, "A detailed description and theoretical analysis on clustering algorithms in VANETs"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>May 31, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=22"><b>Executive Committee meeting</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>May 30, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=25"><b>Richard Fan, "Design and analysis on clustering algorithms in VANETs"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>May 18, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=21"><b>IGERT Fellows: Year 1 Progress Report Presentations</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>May 18, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=23"><b>Curriculum Committee meeting</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>May 18, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=24"><b>CTS IGERT End of Year 1 Lunch</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>April 25, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=20"><b>David Boyce, "Urban Travel Forecasting: What Was Learned in the Past 50 Years? How Should We Proceed in the Future?"</b></a></font><br><font color="#000000"><b>Download: <a href="boyce.ppt">Urban Travel Forecasting: What Was Learned in the Past 50 Years? How Should We Proceed in the Future?</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>April 18, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=19"><b>Intelligent Traveler Assistant discussion forum</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>April 11, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=18"><b>Doug Lundquist, "Extending SBSD for High-Density Environments"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>April 4, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=17"><b>Piotr Szczurek, "Extracing Semantic Locations within a Mobility Context Retrieval Framework"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>March 21, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=16"><b>Caitlin Cottrill, "Privacy Issues in ITS"</b></a></font><br><font color="#000000"><b>Download: <a href="Privacy.pdf">Approaching Privacy in ITS</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>March 14, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=15"><b>Masaaki Tanizaki, "A technique for traffic information sharing systems based on information cost model"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>March 7, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=14"><b>Ashfaq Khohkar, "Design of Energy Efficient Computations and Protocols for Wireless Sensor Networks"</b></a></font><br><font color="#000000"><b>Download: <a href="IGERT-Khokhar-Talk.ppt">Design of Energy Efficient Computations and Protocols for Wireless Sensor Networks</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>February 28, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=10"><b>David Zavattero, "ITS initiatives nationally and locally and the building of the Chicago TMC"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>February 21, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=11"><b>Milos Zefran, "Application of hybrid optimal control to vehicle control and modeling"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>February 14, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=9"><b>Chad Williams, "Spatial temporal mining of travel diaries"</b></a></font><br><font color="#000000"><b>Download: <a href="20070214-Spatial temporal mining of travel diaries.ppt">Spatiotemporal Pattern Mining For Travel Behavior Prediction</a></b></font><br><tr><td id="newsListEven"><font color="#330000"><b>February 7, 2007</b></font><br><font color="#330000"><a href="event.php?m=5&ind=13"><b>Yosef Lifshits, "Memory management in wireless peer-to-peer devices"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>November 2, 2006</b></font><br><font color="#330000"><a href="event.php?m=5&ind=8"><b>Barbara Di Eugenio, "Generating driving directions for intelligent vehicles interfaces"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>October 26, 2006</b></font><br><font color="#330000"><a href="event.php?m=5&ind=7"><b>Yan Luo, "Data Dissemination in Mobile Peer-to-peer Networks"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>October 19, 2006</b></font><br><font color="#330000"><a href="event.php?m=5&ind=6"><b>Doug Lundquist, "Demand-Driven Publish/Subscribe in Mobile Environments"</b></a></font></td></tr><tr><td id="newsListEven"><font color="#330000"><b>October 5, 2006</b></font><br><font color="#330000"><a href="event.php?m=5&ind=5"><b>Peng Fan,"A novel clustering framework in VANETs"</b></a></font></td></tr></table><br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<!-- END CONTENT -->
+	<br>
+	</div>
+</div>
+
+<!-- END CENTER CONTAINER -->
+
+</td></tr>
+<tr>
+	<td>
+		<center><img width="792px" src="../newheader/footer.gif"></center>
+	</td>
+</tr>
+</table>
+
+</body>
+</html>

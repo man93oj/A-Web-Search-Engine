@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://nanomaterialsenergysystems.engr.uic.edu/xmlrpc.php">
+<title>Nanomaterials Energy Systems</title>
+<link rel="alternate" type="application/rss+xml" title="Nanomaterials Energy Systems &raquo; Feed" href="http://nanomaterialsenergysystems.engr.uic.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Nanomaterials Energy Systems &raquo; Comments Feed" href="http://nanomaterialsenergysystems.engr.uic.edu/comments/feed/" />
+<link rel="alternate" type="text/calendar" title="Nanomaterials Energy Systems &raquo; iCal Feed" href="http://nanomaterialsenergysystems.engr.uic.edu/events/?ical=1" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/nanomaterialsenergysystems.engr.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.3"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='dashicons-css'  href='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/css/dashicons.min.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-jquery-ui-dialog-css'  href='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/css/jquery-ui-dialog.min.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.1.6' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='simple-staff-list-css'  href='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/simple-staff-list/public/css/simple-staff-list-public.css?ver=1.17' type='text/css' media='all' />
+<link rel='stylesheet' id='staff-list-custom-css-css'  href='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/themes/sela/simple-staff-list-custom.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='swl-style-css'  href='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/social-web-links/social-web-links.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-css-css'  href='//ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.min.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='cdm-style-css'  href='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/sp-client-document-manager/style.css?ver=2.6.2.5' type='text/css' media='all' />
+<link rel='stylesheet' id='wordpress-file-upload-style-css'  href='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/wp-file-upload/css/wordpress_file_upload_style.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wordpress-file-upload-style-safe-css'  href='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/wp-file-upload/css/wordpress_file_upload_style_safe.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-timepicker-addon-css-css'  href='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/wp-file-upload/vendor/datetimepicker/jquery-ui-timepicker-addon.min.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='k2t-animate-css'  href='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/k-shortcodes/assets/css/animate.min.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='magnific-popup-css'  href='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/k-shortcodes/assets/css/magnific-popup.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='k2t-plugin-shortcodes-css'  href='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/k-shortcodes/assets/css/shortcodes.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='countdown-css'  href='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/k-shortcodes/assets/css/flip-countdown.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='k2t-plugin-shortcodes-responsive-css'  href='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/k-shortcodes/assets/css/responsive.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='jplayer-css'  href='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/tmq-ventus-shortcodes//css/jplayer.css?ver=4.5.3' type='text/css' media='screen' />
+<link rel='stylesheet' id='tmq-icomoon-css'  href='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/tmq-ventus-shortcodes//css/font/icomoon.css?ver=4.5.3' type='text/css' media='screen' />
+<link rel='stylesheet' id='sela-fonts-css'  href='https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C300italic%2C400%2C400italic%2C600%7CDroid+Serif%3A400%2C400italic%7COswald%3A300%2C400&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/jetpack/_inc/genericons/genericons/genericons.css?ver=3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='sela-style-css'  href='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/themes/sela/style.css?ver=4.5.3' type='text/css' media='all' />
+<style id='sela-style-inline-css' type='text/css'>
+.site-branding { background-image: url(http://nmes.engr.uic.edu/wp-content/uploads/sites/33/2015/10/cropped-Header.png); }
+</style>
+<link rel='stylesheet' id='simcal-qtip-css'  href='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/google-calendar-events/assets/css/vendor/jquery.qtip.min.css?ver=2.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='simcal-default-calendar-grid-css'  href='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/google-calendar-events/assets/css/default-calendar-grid.min.css?ver=3.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='simcal-default-calendar-list-css'  href='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/google-calendar-events/assets/css/default-calendar-list.min.css?ver=3.1.1' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tribe_events_linked_posts = {"post_types":{"tribe_venue":"venue","tribe_organizer":"organizer"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script><script>jQueryWP = jQuery;</script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/sp-client-document-manager/js/jquery.remodal.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/sp-client-document-manager/js/jquery.responsive.tabs.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.1.6'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.1.6'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/simple-staff-list/public/js/simple-staff-list-public.js?ver=1.17'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/sp-client-document-manager/js/jquery.cookie.js?ver=4.5.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sp_vars = {"ajax_url":"https:\/\/nanomaterialsenergysystems.engr.uic.edu\/wp-admin\/admin-ajax.php","plugin_url":"http:\/\/nanomaterialsenergysystems.engr.uic.edu\/wp-content\/plugins\/sp-client-document-manager\/","uid":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/sp-client-document-manager/upload.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/sp-client-document-manager/js/jquery.validate.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/js/swfupload/swfupload.js?ver=2201-20110113'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/js/swfupload/plugins/swfupload.queue.js?ver=2201'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/js/swfobject.js?ver=2.2-20120417'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/js/swfupload/plugins/swfupload.swfobject.js?ver=2201a'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var swfuploadL10n = {"queue_limit_exceeded":"You have attempted to queue too many files.","file_exceeds_size_limit":"%s exceeds the maximum upload size for this site.","zero_byte_file":"This file is empty. Please try another.","invalid_filetype":"This file type is not allowed. Please try another.","not_an_image":"This file is not an image. Please try another.","image_memory_exceeded":"Memory exceeded. Please try another smaller file.","image_dimensions_exceeded":"This is larger than the maximum size. Please try another.","default_error":"An error occurred in the upload. Please try again later.","missing_upload_url":"There was a configuration error. Please contact the server administrator.","upload_limit_exceeded":"You may only upload 1 file.","http_error":"HTTP error.","upload_failed":"Upload failed.","big_upload_failed":"Please try uploading this file with the %1$sbrowser uploader%2$s.","big_upload_queued":"%s exceeds the maximum upload size for the multi-file uploader when used in your browser.","io_error":"IO error.","security_error":"Security error.","file_cancelled":"File canceled.","upload_stopped":"Upload stopped.","dismiss":"Dismiss","crunching":"Crunching\u2026","deleted":"moved to the trash.","error_uploading":"\u201c%s\u201d has failed to upload."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/js/swfupload/handlers.min.js?ver=2201-20110524'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/sp-client-document-manager/js/jquery.modal.responsive.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/wp-file-upload/js/json2.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/wp-file-upload/js/wordpress_file_upload_functions.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/tmq-ventus-shortcodes//js/jplayer/jquery.jplayer.min.js?ver=4.5.3'></script>
+<link rel='https://api.w.org/' href='http://nanomaterialsenergysystems.engr.uic.edu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://nanomaterialsenergysystems.engr.uic.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.5.3" />
+<link rel="canonical" href="http://nanomaterialsenergysystems.engr.uic.edu/" />
+<link rel='shortlink' href='http://nanomaterialsenergysystems.engr.uic.edu/' />
+<link rel="alternate" type="application/json+oembed" href="http://nanomaterialsenergysystems.engr.uic.edu/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fnanomaterialsenergysystems.engr.uic.edu%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://nanomaterialsenergysystems.engr.uic.edu/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fnanomaterialsenergysystems.engr.uic.edu%2F&#038;format=xml" />
+<!-- <meta name="NextGEN" version="2.1.46" /> -->
+<link rel='stylesheet' id='thickbox-css'  href='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/js/thickbox/thickbox.css?ver=4.5.3' type='text/css' media='all' />
+
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]-->	<style type="text/css" id="sela-header-css">
+					.site-title,
+			.site-description {
+				clip: rect(1px, 1px, 1px, 1px);
+				position: absolute;
+			}
+			</style>
+	<meta name="generator" content="Powered by Slider Revolution 5.1.6 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+<!-- My Custom CSS -->
+<link rel='stylesheet' id='mccss_stylesheet' href='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/uploads/sites/33/my_custom_css/my_style_id-33.css?1503499487' type='text/css' media='all' />
+<!-- My Custom CSS -->
+<link rel='stylesheet' id='jquery-remodal-css'  href='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/sp-client-document-manager/css/jquery.remodal.css?ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-responsive-tabs-css'  href='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/sp-client-document-manager/css/jquery.responsive.tabs.css?ver=4.5.3' type='text/css' media='all' />
+</head>
+
+<body class="home page page-id-21 page-template-default not-multi-author no-sidebar comments-closed wpb-js-composer js-comp-ver-4.12 vc_responsive">
+<div id="page" class="hfeed site">
+	<header id="masthead" class="site-header" role="banner">
+		<a class="skip-link screen-reader-text" href="#content" title="Skip to content">Skip to content</a>
+
+		<div class="site-branding">
+						<h1 class="site-title"><a href="http://nanomaterialsenergysystems.engr.uic.edu/" title="Nanomaterials Energy Systems" rel="home">Nanomaterials Energy Systems</a></h1>
+					</div><!-- .site-branding -->
+
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<button class="menu-toggle" aria-controls="menu" aria-expanded="false">Menu</button>
+			<div class="menu-top-menu-container"><ul id="menu-top-menu" class="menu"><li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-21 current_page_item menu-item-24"><a href="http://nanomaterialsenergysystems.engr.uic.edu/">Home</a></li>
+<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="http://nanomaterialsenergysystems.engr.uic.edu/27-2/">People</a></li>
+<li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="http://nanomaterialsenergysystems.engr.uic.edu/publications/">Publications</a></li>
+<li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="http://nanomaterialsenergysystems.engr.uic.edu/news/">News</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="http://nanomaterialsenergysystems.engr.uic.edu/contact-us/">Contact Us</a></li>
+</ul></div>		</nav><!-- #site-navigation -->
+	</header><!-- #masthead -->
+
+	<div id="content" class="site-content">
+
+		
+			
+
+		
+		
+		<div class="content-wrapper without-featured-image">
+			<div id="primary" class="content-area">
+				<main id="main" class="site-main" role="main">
+
+					
+						
+<article id="post-21" class="post-21 page type-page status-publish hentry without-featured-image">
+
+	<header class="entry-header">
+		<h1 class="entry-title"></h1>
+	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<div id="containerhome" style="width: 1000px;padding-bottom 30px;margin-bottom: 50px;font: 14px arial,sans-serif">
+<div id="hometext" style="width: 600px;float: left;margin-top: 20px;text-align: justify;padding: 10px">
+<h1 style="text-align: center"><strong>Welcome to Prof. Salehi&#8217;s Research Group!</strong></h1>
+
+<hr />
+
+<h2 style="text-align: center;padding-left: 30px"><span style="color: #ff0000"><strong> <a href="https://gt.foreignpolicy.com/2016/profile/amin-salehi-khojin?733c928264=">Prof. Amin Salehi-Khojin named among Foreign Policy 100 leading global thinkers</a></strong></span></h2>
+<h2 style="text-align: center;padding-left: 30px"><span style="color: #ff0000"><strong><a href="https://gt.foreignpolicy.com/2016/profile/amin-salehi-khojin">
+</a><img class="alignnone wp-image-303" src="http://nanomaterialsenergysystems.engr.uic.edu/wp-content/uploads/sites/33/2015/10/85-300x134.png" alt="85" width="581" height="259" srcset="http://nanomaterialsenergysystems.engr.uic.edu/wp-content/uploads/sites/33/2015/10/85-300x134.png 300w, http://nanomaterialsenergysystems.engr.uic.edu/wp-content/uploads/sites/33/2015/10/85-768x342.png 768w, http://nanomaterialsenergysystems.engr.uic.edu/wp-content/uploads/sites/33/2015/10/85-1024x456.png 1024w, http://nanomaterialsenergysystems.engr.uic.edu/wp-content/uploads/sites/33/2015/10/85-853x380.png 853w, http://nanomaterialsenergysystems.engr.uic.edu/wp-content/uploads/sites/33/2015/10/85.png 1221w" sizes="(max-width: 581px) 100vw, 581px" /></strong></span></h2>
+<ul>
+ 	<li><em>Coverage adapted from<a href="https://gt.foreignpolicy.com/2016/category/the-innovatorshttps://gt.foreignpolicy.com"> FP.</a> </em>
+
+<hr />
+
+</li>
+</ul>
+<iframe width="778" height="438" src="https://www.youtube.com/embed/htHYTtJyhkw?feature=oembed" frameborder="0" allowfullscreen></iframe>
+<ul>
+ 	<li><em><em><strong>Introductory video by <a href="http://www.cctv-america.com/2016/12/02/new-artificial-leaf-technology-turns-sunlight-and-co2-into-fuel"><span style="color: #ff0000">CCTV</span></a> covering </strong><a href="http://science.sciencemag.org/content/353/6298/467"><strong> <span style="color: #ff0000">‘Artificial leaf’ solar cell project.</span></strong></a></em></em><em><em><a href="http://science.sciencemag.org/content/353/6298/467"><strong>
+</strong></a></em></em><em><em><em>
+Our “artificial leaf” solar cell which converts carbon dioxide to burnable fuel using only sunlight for energy has been covered by hundreds of U.S. and international news organizations, including <span style="color: #000000">Times, the Guardian, the New York Post, Huffington Post, the Daily Mail, Forbes, Christian Science Monitor, Midwest Energy News, </span><span style="color: #000000">Chicago Tribune, The Electrochemical Society, and American Society of Civil Engineers</span><span style="color: #000000">.  The story has been liked and shared on social media more than 200,000 times.</span></em></em></em>
+
+<hr />
+
+<em><strong><span style="color: #0000ff">We now have several openings for Ph.D. Students with different backgrounds in Mechanical Engineering, Electrical Engineering, Material Science and Chemical Engineering. For more information please contact to Prof. Salehi</span> <span style="color: #0000ff">(</span><a href="mailto:salehikh@uic.edu">salehikh@uic.edu</a><span style="color: #0000ff">).</span></strong></em></li>
+</ul>
+We are an interdisciplinary research group with the mission to advance the state of the knowledge at the boundary of science and engineering where there are lots of wonderful opportunities. We pursue fundamental research in the field of advanced materials synthesis, energy recovery and transport at micro/nano-sacle. Our special interests are to:
+<ul>
+ 	<li>synthesize new materials for thermoelectric applications</li>
+ 	<li>study thermal and electrical transports in 2D nanomaterials</li>
+ 	<li>discover new sensing modalities for chemical and biological applications</li>
+ 	<li>develop novel catalysts for carbon dioxide reduction and battery applications</li>
+ 	<li>design artificial leaves for energy applications</li>
+</ul>
+Specifically, we are interested in electrical and thermal properties of graphene, molybdenum disulfide and their hybrid structures. We are also focused to gain a deeper understanding in the atomic characteristics of grain boundaries and their use in the advanced micro/nano thermo-electronic applications. The key challenges include atomic-scale structural analysis of individual grain boundaries and fabrication of nano-scale devices.
+
+We are also developing novel catalyst for the energy recovery system via electrochemical conversion of carbon dioxide into energy rich chemicals like syngas. Syngas can be used either directly as fuel in for example gas turbine, or as an intermediate for synthesis of higher-energy density fuels (e.g. diesel and gasoline). Conversion of carbon dioxide into fuels is of particular interest as it provides energy while shrinking the carbon dioxide concentration in the atmosphere. Excess amount of energy fed in this process, due to high stability of carbon dioxide molecules is a key problem to be solved. Our group is carrying out research to develop novel, highly efficient and inexpensive catalysts to make carbon dioxide conversion process more energy and cost efficient. We are also working on the chemistry of advanced metal air batteries. More updates will be posted soon.
+
+Currently, our group consists of one postdoctoral fellow, six graduate students and four undergraduates. We are always looking for highly self-motivated and interested master, PhD and postdoctoral candidates. Interested visiting research scholars are also welcome to join our group. For more information please contact to Prof. Salehi (<a href="mailto:salehikh@uic.edu">salehikh@uic.edu</a>).
+<h4></h4>
+<h4><strong>SELECTED PUBLICATIONS:</strong></h4>
+<ul>
+ 	<li><em>Nanostructured transition metal dichalcogenide electrocatalysts for CO2 reduction in ionic liquid </em><strong>Science</strong>. 353 (6298), 467-470.2016.2016. Mohammad Asadi, Kibum Kim,Cong Liu, Aditya Venkata Addepalli, Pedram Abbasi, Poya Yasaei, Patrick Phillips, Amirhossein Behranginia, José M. Cerrato, Richard Haasch, Peter Zapol, Bijandra Kumar, Robert F. Klie, Jeremiah Abiade, Larry A. Curtiss, Amin Salehi-Khojin</li>
+ 	<li><em>A lithium–oxygen battery based on lithium superoxide. </em><strong>Nature</strong>. 529, 377–382, 2016. Jun Lu, Yun Jung Lee, Xiangyi Luo, Kah Chun Lau, Mohammad Asadi, Hsien-Hau Wang, Scott Brombosz, Jianguo Wen, Dengyun Zhai, Zonghai Chen, Dean J. Miller, Yo Sub Jeong, Jin-Bum Park, Zhigang Zak Fang, Bijandra Kumar, Amin Salehi-Khojin, Yang-Kook Sun, Larry A. Curtiss &amp; Khalil Amine.</li>
+ 	<li><em>A Cathode based on Molybdenum Disulfide Nanoflakes for Lithium–Oxygen Batteries.</em><strong>
+ACS Nano</strong> 10 (2), pp 2167–2175. 2016 Mohammad Asadi, Bijandra Kumar, Cong Liu, Patrick Phillips, Poya Yasaei, Amirhossein Behranginia, Peter Zapol, Robert F. Klie , Larry A. Curtiss, Amin Salehi-Khojin</li>
+ 	<li><em>Bimodal Phonon Scattering in Graphene Grain Boundaries. </em><strong>Nano </strong><strong>Letters</strong>. 15 (7), 4532 4540, 2015. P. Yasaei, A. Fathizadeh, R. Hantehzadeh, A. K. Majee, A. El-Ghandour,
+D. Estrada, C. Foster, Z. Aksamija, F. Khalili-Araghi, and A. Salehi-Khojin.</li>
+ 	<li><em>High Quality Black Phosphorus Atomic Layers by Liquid Phase Exfoliation. </em><strong>Advanced </strong><strong>Materials</strong>. 27 (11), 1887 1892, 2015. P. Yasaei, B. Kumar, T. Foroozan, C. Wang, M. Asadi, D. Tuschel, J. Ernesto. Indacochea, R. Klie, A. Salehi-Khojin.</li>
+ 	<li><em>Robust Carbon Dioxide Reduction on Molybdenum Disulfide Edges. </em><strong>Nature </strong><strong>Communications</strong>, 5, 10.1038/ncomms5470. M. Asadi, B. Kumar, A. Behranginia, B. Rosen, D. Pisasale, A. Baskin, N. Repnin, P. Phillips, W. Zhu, R. Haasch, R. Klie, P. Kral, J. Abiade, A. Salehi-Khojin.</li>
+ 	<li><em>Chemical sensing with switchable transport channels in graphene grain boundaries. </em><strong>Nature </strong><strong>Communications</strong>, 5, 10.1038/ncomms5911. P. Yasaei, B. Kumar, R. Hantehzadeh, M. Kayyalha, A. Baskin, N. Repnin, C. Wang, R. F. Klie, Y. P. Chen, P. Kral, A. Salehi-Khojin.</li>
+ 	<li><em>Renewable, Metal-Free and Non-precious Carbon Nanofiber Catalysts For CO<sub>2</sub> Conversion</em>. <strong>Nature Communications</strong>, 4, 10.1038/ncomms3819, 2013. B. Kumar, M. Asadi, D. Pisasale, S. Sinha-Ray, B. Rosen, R. Haasch, J. Abiade, A. L. Yarin, A. Salehi-Khojin.</li>
+ 	<li><em>The Role of External Defects in Chemical Sensing of Graphene Field-Effect Transistors.</em><strong>NanoLetters</strong>, 13 (5), 1962 1968, 2013. B. Kumar, K. Min, M. Bashirzadeh, A. Barati-Farimani, M.-H. Bae, D. Estrada, , Y. D. Kim, P. Yasaei, Y. D. Park, E. Pop, N. R. Aluru, A. Salehi-Khojin.</li>
+ 	<li>C<em>arbon Nanotubes Throw Their Heat Around</em>. <strong>Nature Nanotechnology</strong>, 7, 280-281, 2012.A. Salehi-Khojin, W. Zhu, and R. I. Masel.</li>
+ 	<li><em>Ionic Liquid Mediated Selective Convertion of CO<sub>2</sub> to CO at Low Overpotentials</em>. <strong>Science</strong>, 334 (6056), 643-644, 2011. B. A. Rosen, A. Salehi-Khojin, M. R. Thorson, W. Zhu, D. T. Whipple, P. J.A. Kenis, R. I. Masel.</li>
+ 	<li><em>Non-Thermal Current Stimulated Desorption of Gases from Carbon Nanotubes</em>. <strong>Science</strong>, 329 (5997), 1327-1330, 2010.A. Salehi-Khojin, K. Y. Lin, C. R. Field, R. I. Masel.</li>
+</ul>
+</div>
+&nbsp;
+<div style="font-family: arial, sans-serif;font-size: 14px;font-style: normal;font-variant: normal;font-weight: normal;line-height: normal">
+<div id="news" style="width: 300px;float: left;background-color: #c9c8c3;margin-top: 20px;text-align: justify;padding: 20px 15px 15px 15px">
+<h2>News</h2>
+<ol>
+ 	<li>Prof. Amin Salehi-Khojin as the principal investigator, in collaboration with Prof. Klie (UIC) and Prof. Mishra (UW, Saint Louis), has received $1.44 M award from NSF-DMREF to study 2D materials for electrochemical systems.</li>
+ 	<li>A story based on our artificial leaf paper has been viewed and liked for more than <span style="color: #ff0000">300,000</span> times on social medias.</li>
+ 	<li>Congratulation to <span style="color: #ff0000">Mohammad </span>for his new position as an assistant professor at IIT (Chicago).</li>
+ 	<li>Congratulation to <span style="color: #ff0000">Poya</span> for his successful Ph.D. defense.</li>
+ 	<li>Prof. Salehi’s research on carbon dioxide conversion to fuel using artificial leaves has received extensive media coverage including <span style="color: #ff0000"><a style="color: #ff0000" href="http://www.thetimes.co.uk/article/super-fuel-from-artificial-leaves-is-ready-to-replace-oil-pxrwvrbrl" target="_blank">Times</a><span style="color: #000000">,</span> <a style="color: #ff0000" href="http://guardian.ng/features/super-fuel-from-artificial-leaves-could-replace-oil/" target="_blank">Guardian</a></span>,<span style="color: #ff0000"> <a style="color: #ff0000" href="http://www.forbes.com/sites/ericmack/2016/07/30/how-we-use-the-sun-to-reduce-climate-change-and-make-fuel-and-other-stuff-at-the-same-time/#6884ab261534" target="_blank">Forbes</a><span style="color: #000000">,</span> <a style="color: #ff0000" href="http://nypost.com/2016/08/04/this-leaf-might-save-us-all-from-global-warming/" target="_blank">New York Post</a><span style="color: #000000">,</span> <a style="color: #ff0000" href="http://www.dailymail.co.uk/sciencetech/article-3714780/Super-fuel-artificial-leaves-replace-oil-Scientists-say-innovative-someday-power-world.html?ITO=1490&amp;ns_mchannel=rss&amp;ns_campaign=1490" target="_blank">Daily Mail</a></span>,<span style="color: #ff0000"> <a style="color: #ff0000" href="http://www.huffingtonpost.co.uk/entry/this-new-solar-leaf-turns-sunlight-and-co2-into-fuel_uk_579b767ce4b0459aae5d6b46" target="_blank">Huffington Post</a></span> and etc.</li>
+ 	<li>Congratulations to Mohammad and Kibum for their recent paper on CO2 reduction published in <a href="http://science.sciencemag.org/content/353/6298/467"><span style="color: #ff0000">Science Magazine.</span></a></li>
+ 	<li>Prof. Amin Salehi Khojin, Received <span style="color: #ff0000">UIC College of Engineering Faculty Research Award, 2015.</span></li>
+ 	<li>Congratulation to <span style="color: #ff0000"><a style="color: #ff0000" href="http://nanomaterialsenergysystems.engr.uic.edu/team/mohammad-asadi/" target="_blank">Mohammad</a> </span>for his successful Doctoral defense and  his recent paper accepted for publication in <span style="color: #ff0000"><a style="color: #ff0000" href="http://www.nature.com/">Nature</a>!</span></li>
+ 	<li>Congratulation to <span style="color: #ff0000"><a style="color: #ff0000" href="http://nanomaterialsenergysystems.engr.uic.edu/team/venkata-aditya-addepalli">Aditya</a></span> for his successful Master&#8217;s defense and Job in Intel.</li>
+ 	<li>Congratulation to <span style="color: #ff0000"><a style="color: #ff0000" href="http://nanomaterialsenergysystems.engr.uic.edu/team/poya-yasaie-phd-student/" target="_blank">Poya</a> </span>for being named as the finalist for prestigious <span style="color: #ff0000"><span style="color: #ff0000"><a style="color: #ff0000" href="http://www.mrs.org/awards/">Materials Research Society Award.</a></span></span></li>
+ 	<li>Prof. Amin Salehi as the principal investigator (PI), in collaboration with 4 co-PIs from MIT, UMass Amherst and UIC received a prestigious $2M EFRI award from National Science Foundation to study Thermal Transport in 2D Materials for Next Generation Nanoelectronics.</li>
+ 	<li>Prof. Amin Salehi has received chancellor&#8217;s award for research on Li-Air battery. He has received two of these very competitive awards in less than three years after joining UIC.</li>
+ 	<li>Prof. Salehi&#8217;s groundbreaking research on CO2 reduction was awarded by National Science Foundation.</li>
+ 	<li>Congratulation to <span style="color: #ff0000"><a style="color: #ff0000" href="http://nanomaterialsenergysystems.engr.uic.edu/team/poya-yasaie-phd-student/" target="_blank">Poya</a> </span>and <span style="color: #ff0000"><a style="color: #ff0000" href="http://nanomaterialsenergysystems.engr.uic.edu/team/reza-hantehzadeh/" target="_blank">Reza</a> </span>for their paper published in Nanoletters on direct thermal transport measurement across an individual graphene grain boundary. This work has received widespread media coverage e.g., <span style="color: #ff0000"><span style="color: #ff0000"><a style="color: #ff0000" href="http://www.sciencedaily.com/releases/2015/06/150616190726.htm" target="_blank">Science daily</a>, <a style="color: #ff0000" href="http://www.nanotechnologyworld.org/#!Graphene-heattransfer-riddle-unravelled/c89r/5581744a0cf27a6b74534c99" target="_blank">Nanotechnology World Association</a>, <a style="color: #ff0000" href="http://www.chemeurope.com/en/news/153336/graphene-heat-transfer-riddle-unraveled.html" target="_blank">Chem Europe</a>, <a style="color: #ff0000" href="http://www.nanowerk.com/nanotechnology-news/newsid=40449.php" target="_blank">Nano Werk</a>, <a style="color: #ff0000" href="http://www.ncsa.illinois.edu/news" target="_blank">NCSA/Illinois</a>.</span></span></li>
+ 	<li><span style="color: #ff0000">Our research</span> on chemical sensing through graphene grain boundaries has been featured in more than 100 news including<span style="color: #ff0000"> <a style="color: #ff0000" href="http://science.energy.gov/universities/university-research/?fiscalYear=undefined&amp;program=undefined&amp;searchTerm=Graphene%20Flaws%20Key%20to%20Creating%20Hypersensitive%20%E2%80%98Electronic%20Nose%E2%80%99&amp;page=&amp;sort=&amp;order=" target="_blank">DOE</a> </span>front page and<span style="color: #ff0000"><span style="color: #ff0000"> <a style="color: #ff0000" href="http://www.nsf.gov/mobile/news/news_summ.jsp?cntn_id=132814&amp;org=NSF&amp;from=news" target="_blank">NSF</a>. </span></span></li>
+ 	<li>Our recent paper about reducing carbon dioxide using Molybdenum Disulfide catalyst has received significant publicity. This work was highlighted in <span style="color: #ff0000"><a style="color: #ff0000" href="http://www.sciencemag.org/content/345/6201/1132.7.full" target="_blank">Science Magazine</a>, <a style="color: #ff0000" href="https://www.nersc.gov/news-publications/news/science-news/2014/new-catalyst-converts-co-to-fuel/" target="_blank">NERSC/Berkeley Lab</a>, <a style="color: #ff0000" href="https://in.news.yahoo.com/future-cats-may-powered-waste-co2-063424503.html" target="_blank">Yahoo News</a>, <a style="color: #ff0000" href="http://www.sciencedaily.com/releases/2014/07/140730094039.htm" target="_blank">Science Daily</a>, <a style="color: #ff0000" href="http://www.nsf.gov/news/news_summ.jsp?cntn_id=132259&amp;org=DMR&amp;from=home" target="_blank">NSF</a></span> and many other prominent websites.</li>
+ 	<li>Congratulation to <span style="color: #ff0000"><a style="color: #ff0000" href="http://nanomaterialsenergysystems.engr.uic.edu/team/mohammad-asadi/" target="_blank">Mohammad</a></span> and <span style="color: #ff0000"><a style="color: #ff0000" href="http://nanomaterialsenergysystems.engr.uic.edu/team/bijandra-kumar-post-doctoral-research-associate/" target="_blank">Bijandra</a> </span>for their article published in Nature Communications on &#8220;CO<sub>2</sub> reduction&#8221;.</li>
+ 	<li>Congratulation to <span style="color: #ff0000"><a style="color: #ff0000" href="http://nanomaterialsenergysystems.engr.uic.edu/team/poya-yasaie-phd-student/" target="_blank">Poya</a></span> for his recent &#8220;chemical sensing at graphene grain boundaries&#8221; paper published in Nature Communications journal.</li>
+ 	<li>Our research in carbon dioxide reduction has been featured in Dean&#8217;s Update.</li>
+ 	<li>Congratulation to <span style="color: #ff0000"><a style="color: #ff0000" href="http://nanomaterialsenergysystems.engr.uic.edu/team/reza-hantehzadeh/" target="_blank">Reza</a> </span>for his successful master&#8217;s defense and job in Intel.</li>
+ 	<li>Our recent work on carbon dioxide reduction published in <span style="color: #ff0000"><em><a style="color: #ff0000" href="http://www.nature.com/ncomms/2013/131202/ncomms3819/pdf/ncomms3819.pdf" target="_blank">Nature Communications</a></em> has been highlighted in more than 100 news outlets including <a style="color: #ff0000" href="http://www.sciencedaily.com/releases/2013/12/131202134822.htm" target="_blank">Science Daily</a></span>, <span style="color: #ff0000"><a style="color: #ff0000" href="http://news.yahoo.com/production-synthetic-gasoline-comes-one-step-closer-reality-043138062.html" target="_blank">Yahoo News</a>, <a style="color: #ff0000" href="http://www.technologyreview.com/news/522246/a-faster-and-more-efficient-way-to-convert-carbon-dioxide-into-fuel/" target="_blank">MIT Technology Review</a></span> and <span style="color: #ff0000"><span style="color: #ff0000"><a style="color: #ff0000" href="http://www.natureworldnews.com/articles/5174/20131203/synthetic-gasoline-one-step-closer-to-becoming-commercially-viable.htm" target="_blank">Nature World News</a>.
+</span></span></li>
+ 	<li>Prof. Amin Salehi has received prestigious <span style="color: #ff0000"><a style="color: #ff0000" href="http://cif.uic.edu/projects.html" target="_blank">UIC Chancellor&#8217;s Innovation Fund</a></span> spring-2013.</li>
+ 	<li>Our work on Chemical Sensing published in <span style="color: #ff0000"><a style="color: #ff0000" href="http://pubs.acs.org/doi/pdf/10.1021/nl304734g" target="_blank"><em>Nano Letters</em></a></span> has been highlighted in <span style="color: #ff0000"><a style="color: #ff0000" href="http://www.sciencedaily.com/releases/2013/05/130508122839.htm" target="_blank">Science Daily</a>, <a style="color: #ff0000" href="http://phys.org/news/2013-12-production-synthetic-gasoline.html" target="_blank">Phys.Org</a>, <a style="color: #ff0000" href="http://spectrum.ieee.org/nanoclast/semiconductors/nanotechnology/defects-have-just-the-right-effects-for-graphene-sensors" target="_blank">IEEE Spectrum</a>, </span><span style="color: #ff0000"><a style="color: #ff0000" href="http://www.nanowerk.com/news2/newsid=30412.php" target="_blank">Nanowerk</a>,</span> etc.</li>
+</ol>
+</div>
+</div>
+</div>
+<span id="more-21"></span>
+
+&nbsp;
+
+&nbsp;		
+	</div><!-- .entry-content -->
+	
+</article><!-- #post-## -->
+
+						
+					
+				</main><!-- #main -->
+			</div><!-- #primary -->
+
+					</div><!-- .content-wrapper -->
+
+
+	</div><!-- #content -->
+
+	
+	<footer id="colophon" class="site-footer">
+		
+		<div class="site-info"  role="contentinfo">
+			<a href="http://wordpress.org/" title="A Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress</a>
+			<span class="sep"> | </span>
+			Theme: sela by <a href="http://wordpress.com/themes/sela/" rel="designer">WordPress.com</a>.		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<!-- ngg_resource_manager_marker --><script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/js/wpdialog.min.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/js/jquery/jquery.form.min.js?ver=3.37.0'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/js/jquery/ui/slider.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/wp-file-upload/vendor/datetimepicker/jquery-ui-timepicker-addon.min.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/themes/sela/js/navigation.js?ver=20140813'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/themes/sela/js/skip-link-focus-fix.js?ver=20140813'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/themes/sela/js/sela.js?ver=20140813'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/wp-gallery-custom-links/wp-gallery-custom-links.js?ver=1.1'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/google-calendar-events/assets/js/vendor/jquery.qtip.min.js?ver=2.2.1'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/google-calendar-events/assets/js/vendor/moment.min.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/google-calendar-events/assets/js/vendor/moment-timezone-with-data.min.js?ver=4.5.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var simcal_default_calendar = {"ajax_url":"https:\/\/nanomaterialsenergysystems.engr.uic.edu\/wp-admin\/admin-ajax.php","nonce":"275a782795","locale":"en_US","text_dir":"ltr","months":{"full":["January","February","March","April","May","June","July","August","September","October","November","December"],"short":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]},"days":{"full":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"short":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]},"meridiem":{"AM":"AM","am":"am","PM":"PM","pm":"pm"}};
+var simcal_default_calendar = {"ajax_url":"https:\/\/nanomaterialsenergysystems.engr.uic.edu\/wp-admin\/admin-ajax.php","nonce":"275a782795","locale":"en_US","text_dir":"ltr","months":{"full":["January","February","March","April","May","June","July","August","September","October","November","December"],"short":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]},"days":{"full":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"short":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]},"meridiem":{"AM":"AM","am":"am","PM":"PM","pm":"pm"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/google-calendar-events/assets/js/default-calendar.min.js?ver=3.1.1'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-content/plugins/google-calendar-events/assets/js/vendor/imagesloaded.pkgd.min.js?ver=3.1.8'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/js/wp-embed.min.js?ver=4.5.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"http:\/\/nanomaterialsenergysystems.engr.uic.edu\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/js/shortcode.min.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-admin/js/media-upload.min.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/js/jquery/ui/effect.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/js/jquery/ui/effect-pulsate.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/js/jquery/ui/effect-highlight.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var userSettings = {"url":"\/","uid":"0","time":"1544626709","secure":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-includes/js/utils.min.js?ver=4.5.3'></script>
+<script type='text/javascript' src='http://nanomaterialsenergysystems.engr.uic.edu/wp-admin/js/editor.min.js?ver=4.5.3'></script>
+<div style="display:none"><div class="cdm-modal" data-remodal-options="{ 'hashTracking': false }" data-remodal-id="file"> <a data-remodal-action="close" class="remodal-close"></a>
+			<div class="view-file-content">
+			
+			</div>
+		</div></div>
+				<div style="display:none">
+<div class="remodal" data-remodal-id="cdm-utility">
+	<a data-remodal-action="close" class="remodal-close"></a>
+	
+	<div class="cdm-utility-modal">
+	</div>
+</div>
+</div>
+</body>
+</html>

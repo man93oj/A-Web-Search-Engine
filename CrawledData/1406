@@ -1,0 +1,221 @@
+<html>
+<title>Ajay Kshemkalyani, University of Illinois at Chicago</title>
+
+<body bgcolor="FFFFFF"
+	link="0000FF"
+        vlink="115577">
+
+<!--<center>
+<h2><font size="5">Ajay Kshemkalyani,</font>
+<font size="2"><em>Professor</em></font></h2>
+</center>-->
+
+<table border="0" width="100%" bgcolor="80FFFF">
+    <tr>
+        <td valign="center">
+<center>
+<b>
+<font size="5">Ajay Kshemkalyani, </strong></font> 
+<font size="3"><em>Professor</em></font></b><br>
+</center></td>
+    </tr>
+</table>
+
+
+<!--<h2 style="margin-top: 0; margin-bottom: 6"><font size="4">Ajay Kshemkalyani ('a-jai' 'shem-kull-yaani')</font></h2>-->
+<hr>
+
+<table cellpadding=0 cellspacing=0>
+<tr>
+
+
+<td valign="top">
+<dd><b>Contact:</b>
+<dd><b>Email:</b> <em>first_name</em> (AT) uic.edu
+<dd><b>voice:</b> (312) 355-1309
+<dd><b>fax:</b> (312) 413-0024
+<dd><b>office:</b> Room SEO 915
+</td>
+
+<td valign="top">
+<dd><b>Postal/courier address:</b>
+<dd>Department of Computer Science
+<dd>University of Illinois at Chicago
+<dd>851 S. Morgan Street
+<dd>Chicago, IL 60607-7053
+</td>
+  
+</tr>
+</table>
+
+<br>
+
+<!--<img src="gif/tbluebar.jpg">
+<h4> <a name="researcharea">Areas of Research Interest</h4>-->
+
+<table border="0" width="100%" bgcolor="80FFFF">
+    <tr>
+        <td valign="top"><font size="4"><strong><a name="researcharea">Research</a></strong></font></td>
+    </tr>
+</table>
+<ul>
+<li> <b>Areas:</b> Distributed computing, Distributed algorithms, concurrent systems, software systems<br>
+<li> <a href="http://www.cs.uic.edu/~ajayk/ext/info.html">Publications list and brief bio</a>; 
+Publications as per 
+<a href="http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/k/Kshemkalyani:Ajay_D=.html">DBLP</a>;
+<a href="http://scholar.google.com/scholar?q=Kshemkalyani">Google Scholar</a>;
+<a href="http://scholar.google.com/citations?hl=en&user=2jRpisYAAAAJ">Profile in Google Scholar</a>
+<br>
+I am looking to work with motivated PhD students.
+Check out this <a href=int/students.html> students </a> page
+and contact me if interested.
+</ul>
+
+<table border="0" width="100%" bgcolor="80FFFF">
+    <tr>
+        <td valign="top"><font size="4"><strong><a name="educ">Education and Experience</a></strong></font></td>
+    </tr>
+</table>
+<ul>
+<li> Professor,
+<a href="http://www.cs.uic.edu/"> Computer Science Department,</a>
+   <a href="http://www.uic.edu/">
+   University of Illinois at Chicago</a> <br>
+and Adjunct Professor, 
+<a href="http://www.ece.uic.edu/">Electrical and Computer Engineering Department</a> 
+<li> Spent several years at IBM Research Triangle Park
+<li> M.S., Ph.D., <a href="http://www.cse.ohio-state.edu/">
+   Computer Science & Engg., The Ohio State University
+   </a>
+<li> B. Tech., <a href="http://www.cse.iitb.ac.in">
+   Computer Science and Engg., Indian Institute
+   of Technology, Bombay</a> 
+</ul>
+
+<table border="0" width="100%" bgcolor="80FFFF">
+    <tr>
+        <td valign="top"><font size="4"><strong><a name="misc">Other Activity</a></strong></font></td>
+    </tr>
+</table>
+
+<ul>
+<li>
+Editor, <a href="http://www.elsevier.com/wps/find/journaldescription.cws_home/505606/description#description">Computer Networks (Elsevier),</a> (2004 - 2010)
+<li>
+Associate Editor, <a href="http://www.computer.org/portal/web/tpds/about">IEEE Transactions on Parallel and Distributed Systems,</a> (2010 - 2014)
+</ul>
+
+
+<table align=middle> 
+<tr>
+<td valign=top>
+<img src="https://www.cs.uic.edu/~ajayk/BOOK.jpg" width="200"></td>
+<td valign=top>
+<h3>
+<!--
+<img border="0" src="new.gif" width="60" height="15">
+-->
+<font color=#ff0000>textbook</font> (2011 edition)</h3>
+
+<ul><h4>
+<li> 
+<font size="3">A.D. Kshemkalyani, M. Singhal,
+<a href="http://www.cambridge.org/us/academic/subjects/engineering/communications-and-signal-processing/distributed-computing-principles-algorithms-and-systems?format=PB"> Distributed Computing: Principles, Algorithms, and Systems, </a>
+ISBN: 9780521189842, paperback edition,
+Cambridge University Press, March 2011. 756 pages.
+</ul>
+<ul>
+<li>
+<a href="http://www.cambridgeindia.org/books/searchedbook/Distributed%20Computing/9781107648906">South Asian reprint edition, 2010.
+ISBN-10: 1107648904, ISBN-13: 978-1107648906</a>
+</ul>
+
+
+<ul><li><h4>
+<a href="http://www.cs.uic.edu/~ajayk/DCS-Book">Book web site,</a> with chapter slides
+</h4>
+</ul>
+
+
+
+</td>
+</tr></table>
+
+
+
+<table border="0" width="100%" bgcolor="80FFFF">
+    <tr>
+        <td valign="top"><font size="4"><strong><a name="teaching">Teaching</a></strong></font></td>
+    </tr>
+</table>
+
+
+
+<ul>
+<li> <b>Spring  2019</b>
+<ul>
+<li> <a href=c301/c301sp19.html>CS 301 (Languages and Automata)</a>, 
+Call no 40574 (MWF 12 noon-12:50pm in LC C3) and 17422 (MWF 2-2:50pm in LC F3)
+</ul>
+
+
+<!--
+<li> <b>Spring  2018</b>
+<ul>
+<li> <a href=c401sp18.html> CS 401 Computer Algorithms</a>, Call No. 41266/ 41267<br>
+MWF 12:00 - 12:50pm in BH 208
+
+<li> <a href=c553sp18.html> CS 553 Distributed Computing Systems</a>,  Call no 31243 <br>
+MWF 11:00 - 11:50pm in BH B10
+</ul>
+
+
+<li> <b>Fall  2018</b>
+<ul>
+<li> <a href=c566/c566fa18.html>CS/ECE 566 Parallel Processing</a>, Call No. 33741, 33742 <br>
+TR 5:00 - 6:15pm 
+
+<li> <a href=c553fa18.html>CS 553 Distributed Computing Systems</a>, Call No. 39828.
+<br>
+TR 2:00 - 3:15pm
+</ul>
+-->
+
+</ul>
+
+
+
+
+
+
+<table border="0" width="100%" bgcolor="80FFFF">
+    <tr>
+        <td valign="top"><font size="4"><strong><a name="misc">Miscellaneous</a></strong></font></td>
+    </tr>
+</table>
+
+
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=260178; 
+var sc_invisible=0; 
+var sc_security=""; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="shopify site
+analytics" href="http://statcounter.com/shopify/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/260178/0//0/" alt="shopify
+site analytics"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
+</body>
+</html>
+
+
+

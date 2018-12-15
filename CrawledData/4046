@@ -1,0 +1,433 @@
+<!doctype html>
+<html >
+<head>
+<meta charset="utf-8">
+<title> Esmailbeigi Lab</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="shortcut icon" type="image/x-icon" href="http://esmailbeigi.lab.uic.edu/wp-content/uploads/2017/04/WTSElogo-ForWebfavi2.jpg" />
+<link rel="icon" type="image/x-icon" href="http://esmailbeigi.lab.uic.edu/wp-content/uploads/2017/04/WTSElogo-ForWebfavi2.jpg" />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Esmailbeigi Lab &raquo; Feed" href="https://esmailbeigi.lab.uic.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Esmailbeigi Lab &raquo; Comments Feed" href="https://esmailbeigi.lab.uic.edu/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/esmailbeigi.lab.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.3"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='mainstylesheet-css'  href='https://esmailbeigi.lab.uic.edu/wp-content/themes/CircleLaw/style.css?ver=4.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='mCustomScrollbar-css'  href='https://esmailbeigi.lab.uic.edu/wp-content/themes/CircleLaw/css/jquery.mCustomScrollbar.css?ver=4.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='bjqs-css'  href='https://esmailbeigi.lab.uic.edu/wp-content/themes/CircleLaw/css/bjqs.css?ver=4.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyPhoto-css'  href='https://esmailbeigi.lab.uic.edu/wp-content/themes/CircleLaw/css/prettyPhoto.css?ver=4.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css'  href='https://esmailbeigi.lab.uic.edu/wp-content/themes/CircleLaw/css/responsive.css?ver=4.9.3' type='text/css' media='all' />
+<script type='text/javascript' src='https://esmailbeigi.lab.uic.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://esmailbeigi.lab.uic.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://esmailbeigi.lab.uic.edu/wp-content/themes/CircleLaw/js/jquery.mCustomScrollbar.concat.min.js?ver=4.9.3'></script>
+<script type='text/javascript' src='https://esmailbeigi.lab.uic.edu/wp-content/themes/CircleLaw/js/jquery.carouFredSel-6.2.0-packed.js?ver=4.9.3'></script>
+<link rel='https://api.w.org/' href='https://esmailbeigi.lab.uic.edu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://esmailbeigi.lab.uic.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://esmailbeigi.lab.uic.edu/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.3" />
+<style type="text/css" media="screen">
+body {
+	background-color: #FFFFFF;
+	color: #999999;
+}
+a:link, a:visited, h2, blockquote, .dropcap {
+	color: #253573;
+}
+a:hover, a:active, a:focus {
+    color: #000ead;
+}
+.date, #gallery .single-gallery .number {
+    color: #ffbb03 !important;
+}
+.date a {
+    color: #ffbb03 !important;
+}
+.date a:hover {
+    color: #c97900 !important;
+}
+#team .single-team:hover .e-mail, #team .single-team:hover .e-mail, #portfolio .single-portfolio:hover, #gallery .single-gallery:hover {
+    background-color: #ffbb03;
+}
+#page, #blog, #contact, #portfolio .single-portfolio, #gallery .single-gallery {
+	background-color: #FFFFFF;
+}
+#blob {
+    background-color: #ffbb03 !important;
+}
+#nav > div > ul > li.notcurrent > a {
+    transition: all 0.4s ease 0s;
+    height: 22px;
+}
+#nav > div > ul > li.notcurrent:hover > a {
+    background-color: #ffbb03;
+    border-radius: 3px 3px 3px 3px;
+}
+#nav > div > ul > li > a {
+    color: #140803;
+}
+#nav > div > ul > li:hover > a, #nav > div > ul > li.current-menu-item > a, #nav > div > ul > li.current-menu-parent > a {
+    color: #253573;
+}
+#nav > div > ul > li.afterslide > a {
+    color: #140803;
+}
+#nav ul li ul .firstsub {
+    border-bottom: 6px solid #ffbb03;
+    display: block;
+    margin: -39px 0 8px;
+    padding-top: 22px;
+}
+#nav ul li ul .arrow-up {
+    border-color: transparent transparent #ffbb03;
+}
+#nav ul li ul li a {
+    color: #999999;
+}
+#nav ul li ul li a:hover {
+    color: #333333;
+}
+</style>
+<!--[if IE]>
+<style type="text/css">
+	#nav ul li ul {
+		margin-top: 6px;
+	}
+	#clients .single-clients:hover .main-c {
+		display: none;
+	}
+</style>
+<![endif]-->
+<!--[if IE 8]>
+<style type="text/css">
+	.logo {
+	    margin-bottom: 38px;
+	    margin-right: auto;
+	    margin-left: auto;
+	    margin-top: 78px;
+	    text-align: center;
+	}
+	#nav {
+	    margin-right: auto;
+	    margin-left: auto;
+	    text-align: center;
+	}
+</style>
+<![endif]-->
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+				<style type="text/css" id="wp-custom-css">
+			/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+		</style>
+	</head>
+<body >
+
+<div class="container">
+  <!--Start Header-->
+  <header>
+    <div class="logo">
+      <a href="https://esmailbeigi.lab.uic.edu"><img src="http://esmailbeigi.lab.uic.edu/wp-content/uploads/2017/04/WTSElogo-ForWeb741x183.png" alt="Esmailbeigi Lab" /></a>
+    </div><!--End Logo-->
+    <div id="nav">
+        <div class="menu-mainmenu-container"><ul id="menu-mainmenu" class="menu"><li id="menu-item-15" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15"><a href="https://esmailbeigi.lab.uic.edu/about-me/">About Me</a></li>
+<li id="menu-item-58" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58"><a href="https://esmailbeigi.lab.uic.edu/publications/">Publications</a></li>
+<li id="menu-item-419" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-419"><a href="https://esmailbeigi.lab.uic.edu/research/">Research</a>
+<ul class="sub-menu">
+	<li id="menu-item-596" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-596"><a href="http://esmailbeigi.lab.uic.edu/portfolio/tongueventures/">Tongue Ventures</a></li>
+	<li id="menu-item-324" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-324"><a href="https://esmailbeigi.lab.uic.edu/researcharchived/bci/">Brain Computer Interfaces</a></li>
+</ul>
+</li>
+<li id="menu-item-476" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-476"><a href="https://esmailbeigi.lab.uic.edu/news/">News</a></li>
+<li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-43"><a href="https://esmailbeigi.lab.uic.edu/courses/">Courses</a>
+<ul class="sub-menu">
+	<li id="menu-item-103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-103"><a href="https://esmailbeigi.lab.uic.edu/courses/graduate-courses/">Graduate Level Courses</a></li>
+	<li id="menu-item-204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-204"><a href="https://esmailbeigi.lab.uic.edu/courses/undergraduate-level-courses/">Undergraduate Level Courses</a></li>
+</ul>
+</li>
+<li id="menu-item-607" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-607"><a href="https://esmailbeigi.lab.uic.edu/team/">Team Members</a>
+<ul class="sub-menu">
+	<li id="menu-item-587" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-587"><a href="https://esmailbeigi.lab.uic.edu/team/">Current Team Members</a></li>
+	<li id="menu-item-582" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-582"><a href="https://esmailbeigi.lab.uic.edu/past-team-members/">Past Team Members</a></li>
+</ul>
+</li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="https://esmailbeigi.lab.uic.edu/about-bmes/">BMES</a></li>
+<li id="menu-item-206" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-206"><a href="https://esmailbeigi.lab.uic.edu/contact-us/">Contact Us</a></li>
+</ul></div>    </div><!--End Navigation-->
+  </header><!--End Header-->
+  <!--Start Main Content-->
+  <div class="contenttt">
+<!-- HomePage -->
+<div id="homepage">
+  
+  <ul id="circles">
+      
+  <!-- Cicles -->
+  <li class="circle">
+    <span class="shadow"></span>
+    <a href="https://esmailbeigi.lab.uic.edu/about-me/" class="c-img">
+      <span class="c-imgg"><img src="http://esmailbeigi.lab.uic.edu/wp-content/uploads/2018/12/bioe_esmailbeigi768white-500x500-305x305.jpg" alt="About Hananeh" title="About Hananeh"></span></a>
+    <div class="c-details">
+      <div class="c-content">
+        <h2>About Hananeh</h2>
+        <div class="det"></div>
+      </div>
+    <a href="https://esmailbeigi.lab.uic.edu/about-me/"></a>
+    </div>
+    <div class="clear"></div>
+  </li>
+  <!-- Cicles -->
+
+      
+  <!-- Cicles -->
+  <li class="circle">
+    <span class="shadow"></span>
+    <a href="http://esmailbeigi.lab.uic.edu/news/" class="c-img">
+      <span class="c-imgg"><img src="http://esmailbeigi.lab.uic.edu/wp-content/uploads/2018/12/unnamed-305x305.jpg" alt="News" title="News"></span></a>
+    <div class="c-details">
+      <div class="c-content">
+        <h2>News</h2>
+        <div class="det"></div>
+      </div>
+    <a href="http://esmailbeigi.lab.uic.edu/news/"></a>
+    </div>
+    <div class="clear"></div>
+  </li>
+  <!-- Cicles -->
+
+      
+  <!-- Cicles -->
+  <li class="circle">
+    <span class="shadow"></span>
+    <a href="http://esmailbeigi.lab.uic.edu/research/ " class="c-img">
+      <span class="c-imgg"><img src="http://esmailbeigi.lab.uic.edu/wp-content/uploads/2018/12/bioe_respic_esmailbeigi-1008x1008-305x305.jpg" alt="Research" title="Research"></span></a>
+    <div class="c-details">
+      <div class="c-content">
+        <h2>Research</h2>
+        <div class="det"></div>
+      </div>
+    <a href="http://esmailbeigi.lab.uic.edu/research/ "></a>
+    </div>
+    <div class="clear"></div>
+  </li>
+  <!-- Cicles -->
+
+      
+  <!-- Cicles -->
+  <li class="circle">
+    <span class="shadow"></span>
+    <a href="http://esmailbeigi.lab.uic.edu/courses/" class="c-img">
+      <span class="c-imgg"><img src="http://esmailbeigi.lab.uic.edu/wp-content/uploads/2018/12/screen-shot-2017-04-05-at-3-52-305x305.png" alt="Courses" title="Courses"></span></a>
+    <div class="c-details">
+      <div class="c-content">
+        <h2>Courses</h2>
+        <div class="det"></div>
+      </div>
+    <a href="http://esmailbeigi.lab.uic.edu/courses/"></a>
+    </div>
+    <div class="clear"></div>
+  </li>
+  <!-- Cicles -->
+
+      
+  <!-- Cicles -->
+  <li class="circle">
+    <span class="shadow"></span>
+    <a href="http://esmailbeigi.lab.uic.edu/publications/" class="c-img">
+      <span class="c-imgg"><img src="http://esmailbeigi.lab.uic.edu/wp-content/uploads/2018/12/Pub-305x305.jpg" alt="Publications" title="Publications"></span></a>
+    <div class="c-details">
+      <div class="c-content">
+        <h2>Publications</h2>
+        <div class="det"></div>
+      </div>
+    <a href="http://esmailbeigi.lab.uic.edu/publications/"></a>
+    </div>
+    <div class="clear"></div>
+  </li>
+  <!-- Cicles -->
+
+      
+  <!-- Cicles -->
+  <li class="circle">
+    <span class="shadow"></span>
+    <a href="https://embs-uic.weebly.com/" class="c-img">
+      <span class="c-imgg"><img src="http://esmailbeigi.lab.uic.edu/wp-content/uploads/2018/12/embsphoto-305x305.png" alt="EMBS UIC Chapter" title="EMBS UIC Chapter"></span></a>
+    <div class="c-details">
+      <div class="c-content">
+        <h2>EMBS UIC Chapter</h2>
+        <div class="det"></div>
+      </div>
+    <a href="https://embs-uic.weebly.com/"></a>
+    </div>
+    <div class="clear"></div>
+  </li>
+  <!-- Cicles -->
+
+      
+  <!-- Cicles -->
+  <li class="circle">
+    <span class="shadow"></span>
+    <a href="https://esmailbeigi.lab.uic.edu/about-bmes/" class="c-img">
+      <span class="c-imgg"><img src="http://esmailbeigi.lab.uic.edu/wp-content/uploads/2018/12/bmes-team-305x305.jpg" alt="About BMES" title="About BMES"></span></a>
+    <div class="c-details">
+      <div class="c-content">
+        <h2>About BMES</h2>
+        <div class="det"></div>
+      </div>
+    <a href="https://esmailbeigi.lab.uic.edu/about-bmes/"></a>
+    </div>
+    <div class="clear"></div>
+  </li>
+  <!-- Cicles -->
+
+        </ul>
+      </div>
+
+	<!-- Social Network -->
+	<div id="social">
+		<!-- Latest Twitts -->
+				<ul class="latest-twitts"></ul>
+				<!-- Social Icons -->
+		<div class="social">
+						<a href="https://twitter.com/" target="_blank" alt="Twitter" title="Twitter" class="tw"></a>
+									<a href="http://www.facebook.com/" target="_blank" alt="Facebook" title="Facebook" class="fc"></a>
+									<a href="http://www.linkedin.com/" target="_blank" alt="Linkedin" title="Linkedin" class="in"></a>
+									<a href="https://www.google.com/" target="_blank" alt="Google" title="Google" class="go"></a>
+					</div>
+		<!-- Social Icons -->
+	<div class="clear"></div>
+	</div>
+	<!-- Social Network -->
+
+  </div><!--End Main Content-->
+  <div class="clear"></div>
+<!-- end .container --></div>
+
+<!--BackGround Slider-->
+<div id="slideshow">
+            <img alt="Esmailbeigi Lab" src="http://esmailbeigi.lab.uic.edu/wp-content/uploads/2017/03/chicagogray1.jpg" class="active">
+    </div>
+<!--End BackGround Slider-->
+
+<script type="text/javascript">
+jQuery(document).ready(function() {
+
+	
+	var speedvar = 1174;
+	jQuery('.circle').hover(function(){
+		jQuery(this).find('.c-img').stop().animate({"top":"-30px"} , speedvar);
+		jQuery(this).find('div.c-details').stop().animate({
+			"background-color":"#ffbb03",
+			"bottom":"30px"
+		} , speedvar);
+		jQuery(this).find('div.c-details h2').stop().animate({"color":"#FFFFFF"} , speedvar);
+		jQuery(this).find('div.c-details .det').stop().animate({"color":"#FFFFFF"} , speedvar);
+		jQuery(this).find('img').stop().animate({
+			"margin-top":"-5%",
+			"margin-left":"-5%",
+			"width":"110%",
+			"height":"110%"
+		} , speedvar);
+	},function(){
+		jQuery(this).find('.c-img').stop().animate({"top":"0px"} , speedvar);
+		jQuery(this).find('div.c-details').stop().animate({
+			"background-color":"#ffffff",
+			"bottom":"0px"
+		} , speedvar);
+		jQuery(this).find('div.c-details h2').stop().animate({"color":"#414141"} , speedvar);
+		jQuery(this).find('div.c-details .det').stop().animate({"color":"#666666"} , speedvar);
+		jQuery(this).find('img').stop().animate({
+			"margin-top":"0",
+			"margin-left":"0",
+			"width":"100%",
+			"height":"100%"
+		} , speedvar);
+	});
+
+});
+</script>
+<script type="text/javascript">var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-xxxxxxxx-x']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })(); jQuery("#footer .most").last().css({'margin-right':'0px'});
+		(function($){
+        $(window).load(function(){
+            $('#scroll').mCustomScrollbar({
+                autoHideScrollbar:true,
+                theme:'light-thin'
+            });
+        });
+    })(jQuery);
+jQuery(document).ready(function() { jQuery(".toggle_container").hide(); jQuery("h2.trigger").click(function(){ jQuery(this).toggleClass("active").next().slideToggle("slow"); }); }); jQuery(document).ready(function(){ jQuery(function() { jQuery( ".accordion" ).accordion({ autoHeight: false, navigation: true }); }); jQuery(function() { jQuery( ".progressbar" ).progressbar(); }); }); jQuery(document).ready(function(){ jQuery(function() { jQuery(".tabs").tabs(".panes > div"); }); }); jQuery(function () {
+jQuery('#nav ul').tinyNav({ active: 'selected', label: 'Menu' }); });</script><script type="text/javascript">
+jQuery(document).ready(function() {
+    loadLatestTweet();
+}); 
+//Twitter Parsers
+String.prototype.parseURL = function() {
+    return this.replace(/[A-Za-z]+:\/\/[A-Za-z0-9-_]+\.[A-Za-z0-9-_:%&~\?\/.=]+/g, function(url) {
+        return url.link(url);
+    });
+};
+String.prototype.parseUsername = function() {
+    return this.replace(/[@]+[A-Za-z0-9-_]+/g, function(u) {
+        var username = u.replace("@","")
+        return u.link("http://twitter.com/"+username);
+    });
+};
+String.prototype.parseHashtag = function() {
+    return this.replace(/[#]+[A-Za-z0-9-_]+/g, function(t) {
+        var tag = t.replace("#","%23")
+        return t.link("http://search.twitter.com/search?q="+tag);
+    });
+};
+function loadLatestTweet(){
+	var data = {"errors":[{"code":89,"message":"Invalid or expired token."}]};
+	for(i=0; i<5; i++){
+		var tweet = data[i].text;
+		tweet = tweet.parseURL().parseUsername().parseHashtag();
+		jQuery(".latest-twitts").append('<li>' + tweet + '</li>');
+	}// end for
+	jQuery(".latest-twitts").append('<li>' + tweet + '</li>')
+	.innerfade({
+		animationtype: 'slide',
+		speed: 750,
+		timeout: 4000,
+		type: 'sequence',
+		containerheight: 'auto'
+	});
+}
+</script>
+<script type='text/javascript' src='https://esmailbeigi.lab.uic.edu/wp-content/themes/CircleLaw/js/jquery.easing.1.3.js?ver=4.9.3'></script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js?ver=4.9.3'></script>
+<script type='text/javascript' src='https://esmailbeigi.lab.uic.edu/wp-content/themes/CircleLaw/js/Navigation.js?ver=4.9.3'></script>
+<script type='text/javascript' src='https://esmailbeigi.lab.uic.edu/wp-content/themes/CircleLaw/js/help-tabs.min.js?ver=4.9.3'></script>
+<script type='text/javascript' src='https://esmailbeigi.lab.uic.edu/wp-content/themes/CircleLaw/js/jquery.tools.min.js?ver=4.9.3'></script>
+<script type='text/javascript' src='https://esmailbeigi.lab.uic.edu/wp-content/themes/CircleLaw/js/script.js.php?ver=4.9.3'></script>
+<script type='text/javascript' src='https://esmailbeigi.lab.uic.edu/wp-content/themes/CircleLaw/js/tinynav.js?ver=4.9.3'></script>
+<script type='text/javascript' src='https://esmailbeigi.lab.uic.edu/wp-content/themes/CircleLaw/js/jquery.innerfade.js?ver=4.9.3'></script>
+<script type='text/javascript' src='https://esmailbeigi.lab.uic.edu/wp-includes/js/wp-embed.min.js?ver=4.9.3'></script>
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!doctype html>
+<head>
+<meta charset="UTF-8">
+<title>MVD 2013</title>
+<link rel="icon" href="images/favicon.gif" type="image/x-icon"/>
+ <!--[if lt IE 9]>
+ <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+<link rel="shortcut icon" href="images/favicon.gif" type="image/x-icon"/>
+<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+<link type="text/css" href="css/css3.css" rel="stylesheet" />
+<script type="text/javascript" src=" https://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.js"></script>		
+
+
+    </head>
+    <body>
+	
+    <!--start container-->
+    <div id="container">
+
+    <!--start header-->
+
+    <header>
+
+    <!--start logo-->
+    <a href="index.html" id="logo">&nbsp;&nbsp;&nbsp;MVD'13</a>
+
+	<!--end logo-->
+	
+   <!--start menu-->
+
+	<nav>
+    <ul>
+    <li><a href="index.html" class="current">Home</a></li>
+    <li><a href="venue.html">Venue</a></li>
+    <li><a href="funding.html">Funding</a></li>
+    <li><a href="schedule.html">Program</a></li>
+    <li><a href="register.html">Registration</a></li>
+    <li><a href="submission.html">Submissions</a></li>
+    </ul>
+    </nav>
+	<!--end menu-->
+	
+
+    <!--end header-->
+	</header>
+
+
+   <!--start intro-->
+
+   <div id="intro">
+   <center><img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-ash3/577580_10151512784063305_1095270061_n.jpg"></center>
+   <!-- <div class="group_bannner_right">
+   <img src="images/picture.png" width="550" height="316"  alt="baner">
+   </div>
+
+   <header class="group_bannner_left">
+   <hgroup>
+   <h1>MVD 2013</h1>
+   <!-- <h2>Midwest Verification Day 2013
+   </h2>
+   </hgroup>
+   </header> -->
+   </div>
+   <!--end intro-->
+
+
+
+   <!--start holder-->
+
+   <div class="holder_content">
+    <section class="group0">
+      <h3>The Midwest Verification Day 2013 (MVD'13)</h3>
+    <p>The Midwest Verification Day 2013 (MVD'13) is the fifth workshop for the Midwest region on hardware and software verification, continuing the tradition of MVD'09-MVD'12.
+    This year, MVD will be held from September 20-21 at the University of Illinois at Chicago.</p>
+<p>Topics of interest include, but are not limited to, deductive verification, model checking, static analysis, abstract interpretation, runtime verification, and model-based testing.</p>
+<p>The workshop, which is loosely modeled after similar regional events such as the Midwest Theory Day and MidGraph, has the following purposes:</p>
+
+<ul>
+<li>To give graduate and undergraduate students a chance to present their research ideas to other students and faculty in an informal and supportive setting;</li>
+<li>To share and discuss ideas pertaining to early work;</li>
+<li>To improve the chance of presented work being accepted to high-quality publication venues;</li>
+<li>To build a formal methods community in the midwest;</li>
+<li>To make friends and enjoy the company of like-minded individuals.</li>
+</ul><br>
+
+<p> Participation is open to anyone and there are no registration fees. Thus, anyone willing to give talk is encouraged to do so. Registration is free and a number of student travel and accommodation grants will be available given final approval by the NSF.</p>
+
+<p>There is no program committee and there will be no proceedings.</p>
+
+<h3>Important Dates</h3>
+<p><b>Sept 16</b>: Abstract submissions for presentations are due. Note that due to time constraints, earlier submissions will be given higher scheduling priority. To present, please follow the instructions for submitting an abstract <a href="submission.html">here</a>.</p>
+<p><b>Sept 18 (or earlier)</b>: Announcement of the final program. The final program will posted <a href="schedule.html">here</a>.</p>
+<p><b>Sept 20-21</b>:  The workshop will be held at the University of Illinois at Chicago. Venue and accommodation information can be found <a href="venue.html">here</a>. All attendees are expected to register using the form found <a href="register.html">here</a>.</p>
+
+<h3>Invited Speakers</h3>
+<p>The MVD'13 organizers are proud to announce that Thomas Ball of Microsoft Research will be the keynote speaker and that Robert V. Binder of System Verification Associates will be giving an invited talk. More information on both talks can be found  in the <a href="schedule.html">program</a>.</p>
+
+<h3></h3>
+<p>Questions and other inquiries can be directed to  <a href="mailto:lenore@cs.uic.edu">Lenore D. Zuck</a>,
+<a href="mailto:drmark@uic.edu">Mark Grechanik</a>, or <a href="mailto:mbolton@uic.edu">Matthew L. Bolton</a>,  Department of Computer Science, University of Illinois at Chicago.</p>
+
+
+    </section>
+
+
+   <!-- <section class="group1">
+   <h3>About us</h3>
+   	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec molestie. Sed aliquam sem ut arcu. Phasellus sollicitudin.
+	Vestibulum condimentum  facilisis nulla. In hac habitasse platea dictumst. Nulla nonummy. Cras quis libero.</p>
+    <a href=""><span class="read_more">Read more...</span></a>
+
+	</section>
+	
+
+
+   <section class="group2">
+   <h3>Services</h3>
+   	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec molestie. Sed aliquam sem ut arcu. Phasellus sollicitudin.
+	Vestibulum condimentum  facilisis nulla. In hac habitasse platea dictumst. Nulla nonummy. Cras quis libero.</p>
+	<a href=""><span class="read_more">Read more ...</span></a>
+
+	</section>
+
+
+
+   <section class="group3">
+   <h3>News</h3>
+   	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec molestie. Sed aliquam sem ut arcu. Phasellus sollicitudin.
+	Vestibulum condimentum  facilisis nulla. In hac habitasse platea dictumst. Nulla nonummy. Cras quis libero.</p>
+	<a href=""><span class="read_more">Read more...</span></a>
+
+	</section>
+ -->
+
+   </div>
+   <!--end holder-->
+
+   <!--start holder-->
+
+   <!-- <div class="holder_content1">
+    <section class="group4">
+   <h3>Gallery</h3>
+   	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec molestie. Sed aliquam sem ut arcu. Phasellus sollicitudin.
+	Vestibulum condimentum  facilisis nulla. In hac habitasse platea dictumst. Nulla nonummy. Cras quis libero.</p>
+    <div class="pikachoose">
+	<ul id="pikame" >
+		<li><a href="#"><img src="images/picture3.jpg" width="500" height="250"  alt="picture"/></a><span>“Simplicity is the nature of great souls.”</span></li>
+		<li><a href="#"><img src="images/picture2.jpg" width="500" height="250" alt="picture"/></a><span>“The little things are infinitely the most important. “ </span></li>
+		<li><a href="#"><img src="images/picture1.jpg" width="500" height="250" alt="picture"/></a><span>“Simplicity is the essence of happiness.”</span></li>
+	   </ul>
+       </div>
+
+	</section>
+
+
+
+   <section class="group5">
+   <h3>Testimonials</h3>
+   	<p><span class="purple">1)</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec molestie. Sed aliquam sem ut arcu. Phasellus sollicitudin.
+	Vestibulum condimentum  facilisis nulla. In hac habitasse platea dictumst. Nulla nonummy. Cras quis libero.</p>
+      	<p><span class="purple">2)</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec molestie. Sed aliquam sem ut arcu. Phasellus sollicitudin.
+	Vestibulum condimentum  facilisis nulla. In hac habitasse platea dictumst. Nulla nonummy. Cras quis libero.</p>
+   	<p><span class="purple">3)</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec molestie. Sed aliquam sem ut arcu. Phasellus sollicitudin.
+	Vestibulum condimentum  facilisis nulla. In hac habitasse platea dictumst. Nulla nonummy. Cras quis libero.</p>
+
+
+	</section>
+
+
+    </div> -->
+    <!--end holder-->
+
+
+
+    </div>
+   <!--end container-->
+
+   <!--start footer-->
+   <!-- <footer>
+   <div class="container">
+   <div id="FooterTwo"> © 2011 Think simple </div>
+   <div id="FooterTree"> Valid html5, design and code by <a href="http://www.marijazaric.com">marija zaric - creative simplicity</a>   </div>
+   </div>
+   </footer> -->
+   <!--end footer-->
+<!-- Free template distributed by http://freehtml5templates.com -->
+   </body></html>

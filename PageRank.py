@@ -4,11 +4,11 @@ from copy import deepcopy
 class CalculatePageRank:
     def __init__(self):
         self.pagesCount = 6000
-        with open("./.CrawledData/crawledLinks_"+str(self.pagesCount),"rb") as data_file:
+        with open("./CrawledData/crawledLinks_"+str(self.pagesCount),"rb") as data_file:
             self.webLinks = pickle.load(data_file)
             self.reverseWebLinks = pickle.load(data_file)
 
-        with open("./.CrawledData/index_"+str(self.pagesCount),"rb") as data_file:
+        with open("./CrawledData/index_"+str(self.pagesCount),"rb") as data_file:
             self.nodes_inlink = pickle.load(data_file)
             self.nodes_outlink = pickle.load(data_file)
             self.inv_index = pickle.load(data_file)
@@ -65,7 +65,7 @@ def main():
     for page in page_order:
         page_rank[page[0]] = rank
         rank = rank + 1
-    with open("./.CrawledData/pagerank_"+str(PageRankInit.pagesCount),"wb") as outfile:
+    with open("./CrawledData/pagerank_"+str(PageRankInit.pagesCount),"wb") as outfile:
         pickle.dump(page_rank, outfile)
 
     print("Terminating PageRank program")

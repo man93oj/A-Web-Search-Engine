@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="Robots" content="index,follow" />
+	<meta name="author" content="Reggie Smith" />
+	<meta name="description" content="Description" />
+	<meta name="keywords" content="key, words" />
+	<link rel="stylesheet" type="text/css" href="index2_test.css" media="screen" />
+	<title>UIC Chancellor's Innovation Fund</title>
+</head>
+<body>
+	<div id="content">
+		<p id="top">&nbsp;</p>
+		<div id="logo">
+			<h1><a href="#"><img src="http://illinois.edu/2736/logo2.png"width="149" height="66"></a></h1>
+		</div>
+      <div id="logo2">
+			<h1><a href="#"><img src="http://illinois.edu/2736/logo3.png"width="249" height="66"></a></h1>
+	  </div>
+		<ul id="menu">
+			<li class="current"><a href="#">Home</a></li>
+			<li><a href="projects.html">Projects</a></li>
+			<li><a href="contacts.html">Contacts</a></li>
+		</ul>
+		<div class="line"></div>
+		<div id="pitch">
+			<h1>The UIC Chancellor’s Innovation Fund (CIF)<br />
+			Proof of Concept Awards program is a two-phased program that awards up to $200,000 per project to advance technology originating at UIC.</h1>
+			<h2>The CIF has been established at UIC by the Office of the Chancellor in partnership with IllinoisVENTURES and Office of Technology Management to support the commercialization of technology developed by faculty, staff and students at UIC.<br /><br /></h2>
+		</div>	
+		<div class="third">
+			<h3>Proof of Concept Awards Program</h3>
+			<p>The POC Awards Program will be conducted once yearly in the fall with $1,000,000 per round available for projects. In Phase I, innovators may receive up to $50,000 (Final award amounts will be determined by scope of work of milestones to be completed with the input of the review committees) and have 6 months to complete a single, key milestone. Once complete, the Phase I awardees must submit a final report in order to be considered for Phase II funding where awardees may receive up to $150,000 (Final award amounts will be determined by scope of work of milestones to be completed with the input of the review committees) and have 12 months to complete additional commercially significant milestones. Final awardees for each phase are selected by an external panel of venture capitalists, industry experts and business leaders.</p>
+		</div>
+		<div class="third">
+		  <h3>Process for Fall 2018 Phase I</h3>
+			<p>The process for the upcoming Fall 2018 Phase I CIF POC Awards Program will begin with Pre-Proposal submissions due by <Strong>5PM CST on August 17th, 2018. </Strong>  The Pre-Proposal Review Committee will then review and select finalists from the pool of applicants. Finalists will be brought in to meet with members of the IllinoisVENTURES and Office of Technology Management teams for a project planning meeting and mock pitches as they prepare for the full proposal submission in PowerPoint presentation format due November 9th, 2018.  Finally, the Phase I Program will culminate in a slide presentation to a panel of venture capitalists, business leaders and industry experts on the Final Pitch Day where the awardees will be selected for funding. Awardees will be notified no later than December 10th, 2018 of final decision.</p>
+		</div>
+		<div class="third last">
+		
+            <div class="right">
+            
+			
+			
+          </div>
+		</div>
+		<div class="line"></div>
+		<div class="third left">
+			<h4>2018 Fall POC Awards Program Documents: </h4>
+			
+            <p><a href="http://cif.uic.edu/OTM/2018Fall_UICCIFPOCPreProposalApplicationForm.docx"> UIC Chancellor's Innovation Fund Proof of Concept Awards Program Pre-Proposal Application Form </a></p>
+            <p><a href="http://cif.uic.edu/OTM/2018Fall_UICCIFPOCPreProposalApplicationInstructions.docx">Instructions for UIC Chancellor's Innovation Fund POC Awards Program Pre-Proposal </a></p>
+            
+		</div>
+         <div class="third">
+        <h4>2018 Fall POC Awards Program <br />
+          Important Dates:<br />
+        </h4>
+        <p><strong>August 17th, 2018 - </strong> Pre-Proposals Due<br />
+                          <strong>October 5th, 2018 - </strong>POC Finalists Announced<br />
+                          <strong>Week of December 3rd, 2018 -</strong> Final Pitch Day<br />
+                          <strong>Week of December 10th, 2018- </strong>POC Winners Announced<br />
+						</p>
+			 
+		
+		   
+      </div>
+	
+       <div class="third last">
+        <h4>UIC Chancellor's Innovation Fund in the News         </h4>
+        <ul>
+        <li>
+					<p>
+						<a href="http://www.gapfunding.org/university-of-illinois-chicago-announce-400k-in-grants-from-the-uic-chancellors-innovation-fund/"><em>University of Illinois-Chicago announces $400K in grants from the UIC Chancellor’s Innovation Fund</em> </a>
+				    </p>
+				</li>
+                <li>
+					<p>
+						<a href="https://news.uic.edu/awards-put-research-a-step-closer-to-commercialization"><em>Awards brings research closer to commercialization</em> </a>
+				    </p>
+				</li>
+				<li>
+					<p>
+						<a href="http://www.gapfunding.org/university-illinois-chicago-illinoisventures-launches-10m-pocseed-funds/"><em>University of Illinois At Chicago, IllinoisVentures Launches New $10M POC/Seed Funds</em> </a>
+				    </p>
+			    </li>
+				<li>
+					<p>
+						<a href="http://www.gaebler.com/News/Small-Business-Startup/University-of-Illinois-at-Chicago-(UIC)-Writes-Big-Check-for-Startup-Entrepreneurs-900000375.htm"><em>University Of Illinois At Chicago (UIC) Writes Big Check For Startup Entrepreneurs</em> </a>
+				    </p>
+			    </li>
+				<li><p><a href="http://www.chicagotribune.com/business/breaking/chi-uic-launches-10m-seed-fund-for-startups-20130426,0,1452958.story"> <em>UIC launches $10M seed fund to advance startups</em> </a></p>
+			  </li>
+		 </ul>
+      </div>
+		<div id="footer">
+			<p>&copy; Copyright 2018 UIC Chancellor's Innovation Fund
+            <a href="http://www.uic.edu/index.html/Chancellor/"><img src="http://illinois.edu/2736/footer_logos.png" width="115" height="30" style="padding-left:55px;padding-right: 25px"></a><a href="http://www.illinoisventures.com/"><img src="http://illinois.edu/2736/footer_logos1.png" width="127" height="45" style="padding-right: 25px"></a></a><a href="http://otm.uic.edu/"><img src="http://illinois.edu/2736/footer_logos2.png" width="160" height="25" style="padding-right: 25px"></a></p>
+		</div>	
+	</div>
+</body>
+</html>

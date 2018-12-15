@@ -1,0 +1,142 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>LAB OF OXIDE RESEARCH & EDUCATION</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/jquery.jslides.css" media="screen" />
+<script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.jslides.js"></script>
+<style type="text/css">
+<!--
+.STYLE1 {color: #333333}
+-->
+</style>
+</head>
+
+<body>
+
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center" valign="top" background="image/topbg.jpg"><table width="960" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="274" height="138" rowspan="2" valign="top"><img src="image/logo.jpg" width="274" height="136"></td>
+        <td width="686" align="right" valign="top"><img src="image/xiaoxiaologo.jpg" width="250" height="90"></td>
+      </tr>
+      <tr>
+        <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="6"></td>
+          </tr>
+        </table>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="18%">&nbsp;</td>
+              <td width="79%" height="25"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td><a href="index.html">Home</a></td>
+                    <td><img src="image/dgge.jpg" width="31" height="25"></td>
+                    <td><a href="research.html">Research</a></td>
+                    <td><img src="image/dgge.jpg" width="31" height="25"></td>
+                    <td><a href="people.html">People</a></td>
+                    <td><img src="image/dgge.jpg" width="31" height="25"></td>
+                    <td><a href="publications.html">Publications</a></td>
+                    <td><img src="image/dgge.jpg" width="31" height="25"></td>
+                    <td><a href="education.html">Education</a></td>
+                    <td><img src="image/dgge.jpg" width="31" height="25"></td>
+                    <td><a href="contact.html">Contact</a></td>
+                  </tr>
+              </table></td>
+              <td width="3%">&nbsp;</td>
+            </tr>
+          </table></td>
+      </tr>
+    </table>
+      <table width="960" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><div id="full-screen-slider">
+	<ul id="slides">
+		<li style="background:url('image/banner1.jpg') no-repeat center top"></li>
+		<li style="background:url('image/banner2.jpg') no-repeat center top"></li>
+		<li style="background:url('image/banner3.jpg') no-repeat center top"></li>
+		<li style="background:url('image/banner4.jpg') no-repeat center top"></li>
+	</ul>
+</div></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="289" align="center" valign="top"><table width="960" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><img src="image/picyinying.jpg" width="960" height="40"></td>
+      </tr>
+      
+    </table>
+      <table width="960" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="602" height="157" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td><img src="image/sy_about.jpg" width="602" height="34"></td>
+            </tr>
+          </table>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td><div style="line-height:20px;color:333333; font-family:Arial, Helvetica, sans-serif">The Laboratory for Oxide Research and Education (LORE) is led by Prof.Jeremiah T. Abiade. The researchers in LORE  are interested in various aspects of thin film growth, processing and characterization. We are particularly interested in the pulsed laser deposition (PLD) growth of oxide thin films and multilayers for hydrophobicity, thermoelectric devices and other energy related research. In LORE, we are also heavily involved in the mentoring of individuals from diverse backgrounds. We view these activities as a synergistic component of the LORE misson. </div></td>
+              </tr>
+            </table></td>
+          <td width="10" valign="top"><img src="image/xiange.jpg" width="54" height="153"></td>
+          <td width="348" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td><img src="image/sy_content.jpg" width="304" height="34"></td>
+            </tr>
+          </table>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="123" valign="top" background="image/lianxibg.jpg"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td height="25"><span class="STYLE1"><strong>Lab Address:</strong></span></td>
+                  </tr>
+                  <tr>
+                    <td height="25"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="25"><span class="STYLE1"><strong> </strong>842 W Taylor St, ERF 1020 </span></td>
+                        </tr>
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td height="25"><span class="STYLE1">Chicago IL 60607</span></td>
+                  </tr>
+                  <tr>
+                    <td height="25"><span class="STYLE1"><strong>Call: </strong>(312) 413-7408</span></td>
+                  </tr>
+                  <tr>
+                    <td height="25"><span class="STYLE1"><strong>Email:</strong>&nbsp;&nbsp;LORE.UIC.EDU@&nbsp;&nbsp;gmail.com</span></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table></td>
+        </tr>
+      </table>
+      <table width="960" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="31">&nbsp;</td>
+        </tr>
+      </table>
+      <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td height="60" align="center" bgcolor="cccccc"><table width="600" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td height="25" align="center"><span class="STYLE1"><a href="index.html" class="l1">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="research.html" class="l1">Research</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="people.html" class="l1">People</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="publications.html" class="l1">Publications</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="education.html" class="l1">Education</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="contact.html" class="l1">Contact</a></span></td>
+            </tr>
+            <tr>
+              <td height="25" align="center"><span class="STYLE1">Copyright &copy; 2014 Lab Of Oxide Research &amp; Education  All rights reserved.</span></td>
+            </tr>
+          </table></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+
+</body>
+</html>

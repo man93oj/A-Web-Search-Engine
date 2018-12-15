@@ -1,0 +1,193 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<script type="text/javascript" src="js/jquery.js"> </script>
+	<script type="text/javascript" src="js/s3Slider.js"> </script>
+	<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+
+    <link href="css/lightbox.css" rel="stylesheet" type="text/css"  media="screen" />
+	<link href="css/slider.css" rel="stylesheet" type="text/css" media="screen"/>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {$('#slider').s3Slider({timeOut: 3000});});
+	</script>	
+	
+	
+	<title>Acoustics and Vibrations Laboratory</title>
+
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<meta name="description" content="The Audible Human Project by Acoustics
+		&amp; Vibrations Laboratory, University of Illinois at Chicago" />
+	<meta name="keywords" content="The Audible Human Project, Acoustics &amp;
+		Vibrations Laboratory, uic, bioe, bioengineering, royston lab, university
+		of illinois at chicago, MRE, MR Elastography, DeVIANT, MRE DeVIANT" />
+	<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen"/>
+	
+	<!-- Google Analytic -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-35611801-1']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();	
+	</script>
+	
+</head>
+
+<body>
+<div id="wrapper">
+	<div id="top">
+		<div id="UIC_logo">
+		<a href="http://www.uic.edu">
+			<img src="images/logo/UIC_logo.png" alt="UIC Logo"/>
+		</a>
+		</div>
+		
+		<div id="UIC_BioE_logo">
+		<a href="http://www.bioe.uic.edu/BIOE/WebHome">
+			<img src="images/logo/BioE_logo.PNG" alt="UIC BioE Logo"/>
+		</a>
+		</div>		
+		
+		<div id="UIC_MIE_logo">
+			<a href="http://www.mie.uic.edu/MIE/WebHome">
+				<img src="images/logo/MIE_logo.PNG" alt="UIC MIE Logo"/>
+			</a>
+		</div>
+		
+		<div id="AHP_logo">
+			<a href="http://acoustics.mie.uic.edu/AHP/htdocs/default.php">
+				<img src="AHP/htdocs/archive/AHP_logo_kaya.png" alt="AHP Logo"/>
+			</a>
+		</div>			
+	</div>
+	
+	<div id="AVL_logo">
+			<img src="images/logo/AVL_logo.png" alt="AVL Logo" />
+	</div>	
+	
+	
+	<div id="slider">
+		<ul id="sliderContent">
+			<li class="sliderImage">
+				<a href="other%20docs\Thomas-Royston-print.pdf"><img src="images/new brian lungs V2.png"/></a>
+				<span class="bottom"><strong>Read our Scientia article!</strong>
+					<br/>Click here to read our Scientia article!
+				</span>
+			</li>
+			<li class="sliderImage">
+				<a href="http://acoustics.mie.uic.edu/projects.html#Audible"><img src="images/Lung.png"/></a>
+				<span class="bottom"><strong>New AHP Youtube Channel!</strong>
+					<br />We now have a youtube channel located at <a href="https://www.youtube.com/channel/UC5h0qxEv-GHJhPFIdDSJ4Xw"> this link, </a> check out the AHP videos!
+					<br/> Sponsor: NIH, 2007 - 2014
+				</span>
+			</li>
+			<li class="sliderImage">
+				<a href="http://acoustics.mie.uic.edu/team.html"><img src="images/new group photo 3-10-2015_edited.jpg"/></a>
+				<span class="bottom"><strong>Team</strong><br />December, 2015</span>
+			</li>
+			
+			<li class="sliderImage">
+				<a href="http://acoustics.mie.uic.edu/projects.html#Audible"><img src="images/Lung.png"/></a>
+				<span class="bottom"><strong>The Audible Human Project</strong>
+					<br />T. J. Royston, H. A. Mansy (Rush),
+					Zoujun Dai, Ying Peng, Marco Mazzucco,
+					R. H. Sandler (Rush), R. A. Balk (Rush)
+					<br/> Sponsor: NIH, 2007 - 2014
+				</span>
+			</li>
+			
+			<li class="sliderImage">
+				<a href="http://acoustics.mie.uic.edu/projects.html#Audible"><img src="images/Lung2.jpg"/></a>
+				<span class="bottom"><strong>The Audible Human Project</strong>
+					<br />T. J. Royston, H. A. Mansy (Rush),
+					Zoujun Dai, Ying Peng, Marco Mazzucco,
+					R. H. Sandler (Rush), R. A. Balk (Rush)
+					<br/> Sponsor: NIH, 2007 - 2014
+				</span>
+			</li>
+
+			
+			<li class="sliderImage">
+				<a href="http://acoustics.mie.uic.edu/projects.html#EngTissue"><img src="images/MRE.png"/></a>
+				<span class="bottom"><strong>MR Technologies for Monitoring Engineered Tissues</strong>
+					<br />R. L. Magin (Bioengineering), T. J. Royston, T. K. Yasar, F. C. Meral, Y. Liu
+					<br/>Sponsor: NIH, 2009 - 2013
+				</span>
+			</li>
+			
+			<li class="sliderImage">
+				<a href="http://acoustics.mie.uic.edu/projects.html"><img src="images/Cornea.jpg"/></a>
+				<span class="bottom"><strong></strong>
+					<br />T. J. Royston, A. Khan, T. K. Yasar
+					<br/>
+				</span>
+			</li>
+
+
+			
+			<div class="clear sliderImage"></div>
+		</ul>
+	</div>
+	
+	<div id="topnav">
+		<ul>
+			<li> <a href="index.php">Home</a> </li>
+			<li> <a href="publications.html"> Publications</a></li>
+			<li> <a href="/AHP/htdocs/default.php">AHP</a> </li>
+			<li> <a href="projects.html">Projects</a> </li>
+			<li> <a href="facilities.html">Facilities</a> </li>
+			<li> <a href="team.php">Team</a> </li>
+			<li> <a href="teaching.html">Teaching</a> </li>			
+			<li> <a href="royston/Royston_CV_1_page.pdf">Thomas J. Royston</a> </li>
+		</ul>
+	</div>	
+	
+
+<!-- End of Header -->
+</h1>	<div id="contents">
+		<h1>Welcome!</h1>
+		<p>This is the official webpage for the Acoustics and Vibrations laboratory.
+		We are a state of the art research and educational
+		facility involved in theoretical, computational and
+		experimental analysis and design. Our team members work on both basic and applied research projects for government, private and industrial sponsors in such diverse areas as active vibration control, 
+		medical instruments and diagnostics, and musical acoustics.
+		<br> <br>
+		For any questions regarding the laboratory, contact Dr. Royston at troston@uic.edu, for any website questions, email Brian Henry at bhenry4@uic.edu
+		</p>
+	</div>
+
+<!-- End of Content -->
+
+
+	<div id="footer">
+	<ul>
+		<li> <a href="index.php">Home</a> </li>		
+		<li> <a href="http://www.uic.edu">UIC</a> </li>
+		<li> <a href="http://www.bioe.uic.edu">BioEngineering Department</a> </li>
+		<li> <a href="http://www.mie.uic.edu">Mechanical and Industrial Engineering Department</a> </li>
+		<li> <a href="mailto:troyston@uic.edu">E-mail</a> </li>
+		<li><a href="register.php">Register</a></li>
+		<li><a href="login.php">Login</a></li>
+		<li><a href="forgot_password.php">Forgot Password</a></li>
+		 
+	</ul>
+	
+	
+			
+	</div>	
+	
+</div>	
+
+</body>
+
+</html>
+
+
+<!-- End of Footer -->

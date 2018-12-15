@@ -1,0 +1,1318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+<title>Professor Derong Liu</title>
+<link href="home.css" rel="stylesheet" type="text/css"  />
+<script src="js/jquery-1.4.2.js" type = "text/javascript"></script>
+<script type= "text/javascript">
+   function show(count){
+
+     $.each($("div[id^='div_']"),function(){
+        $(this).hide();
+       if($(this).attr("id")=="div_"+count){
+       $(this).attr("style","{display:block}");
+       }
+     });
+   }
+  $(document).ready(function(){
+     var loc = document.location.hash;
+       if(loc!=0&&loc!=null&&loc!='#'){
+       var id = "div_"+loc.substring(1);
+        $("div[id^='div_']").css("display","none");
+        $("div[id='"+id+"']").css("display","block");
+       }
+  });
+</script>
+</head>
+
+<body background="img/zmach.gif">
+<div id="home">
+ <div id="top"><font face="Arial, Helvetica, sans-serif">
+
+<table width="849" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+    <td><a href="img/liu-paris.jpg" target="_blank"><img src=img/liu-paris1.jpg height=130 border=0></a><a href="img/zldr.gif" target="_blank"><img src=img/liu-camel.jpg height=130 border=0></a></td>
+<td><IMG Height=28 Width=210 SRC="img/zwelc.gif" border=0><br>
+<IMG Height=49 Width=210 SRC="img/zliud.gif" border=0><br>
+<IMG Height=28 Width=210 SRC="img/zwelc.gif" border=0>
+        <br>
+        </td>
+        <td valign="center">
+        <font face="Verdana" size="4" color="#000000" class="highlight"><b>Derong
+    Liu, Ph.D.</b></font><br>
+        <font face="Verdana" size="1" color="#000000" class="highlight"><i>Professor of Electrical
+            and Computer Engineering</i></font><br>
+        <font face="Verdana" size="1" color="#000000" class="highlight"><i>Professor of Computer Science</i></font><br>
+    <font face="Verdana" size="1" color="#000000" class="highlight">Department of
+    Electrical and Computer Engineering<br>
+    University of Illinois at Chicago<br>
+    derong@uic.edu, (312) 355-4475, Fax: (312) 996-6465</font><br>
+    <a href=http://www.ece.uic.edu/~dliu/ target=_blank><font face="Verdana" size="1" color="#000000" class="highlight">http://www.ece.uic.edu/~dliu/</a></font><br>
+        </td>
+
+
+    </tr>
+</table>
+</div>
+ <div id="nav" class="clr_after">
+    <ul>
+        <li><a href="#" class="current" onclick="show(1)" style="cursor:pointer">Home</a></li>
+        <li><a href="#" onclick="show(2)" style="cursor:pointer">Myself</a></li>
+        <li><a href="#" onclick="show(3)" style="cursor:pointer">My wife</a></li>
+        <li><a href="#" onclick="show(4)" style="cursor:pointer">My daughter</a></li>
+        <li><a href="#" onclick="show(5)" style="cursor:pointer">My links</a></li>
+    </ul>
+ </div>
+ <!--div id="welcompic">
+ </div-->
+ <div class="clear-both">&nbsp;</div>
+ <div class="content">
+  <div class="left">
+    <div class="leftnav">
+      <h3>&nbsp;&nbsp;&nbsp;My profession</h3>
+      <ul>
+        <li><a href="#" onclick="show(10)" style="cursor:pointer">Employment history</a></li>
+        <li><a href="#" onclick="show(12)" style="cursor:pointer">Awards and honors</a></li>
+        <li><a href="#" onclick="show(11)" style="cursor:pointer">Research activities</a></li>
+        <li><a href="#" onclick="show(13)" style="cursor:pointer">Publications</a></li>
+        <li><a href="#" onclick="show(14)" style="cursor:pointer">Editorship</a></li>
+        <li><a href="#" onclick="show(15)" style="cursor:pointer">Conferences</a></li>
+        <!--li><a href="#" onclick="show(16)" style="cursor:pointer">Committee services</a></li>
+        <li><a href="#" onclick="show(17)" style="cursor:pointer">Biography</a></li-->
+      </ul>
+    </div>
+    <div class="clear-both">&nbsp;</div>
+    <div class="contact">
+      <h2>Contact me at: </h2>
+      <h3><a href="mailto:derongliu@foxmail.com">derongliu@foxmail.com</a></h3>
+    </div>
+    <div class="clear-both">&nbsp;</div>
+    <div class="zbfjg">
+      <h3>&nbsp;&nbsp;My books</h3>
+<ul>
+         <li><a href="http://www.springer.com/engineering/robotics/book/978-3-540-19888-8" target="_blank"><img src="img/book01a-phd.jpg" height="101" /></a><a href="http://www.amazon.com/Qualitative-Analysis-Synthesis-Recurrent-Mathematics/dp/0824707672" target="_blank"><img src="img/book02a-rnn.jpg" height="101" /></a><a href="http://product.china-pub.com/28983" target="_blank"><img src="img/book02a-ch.jpg" height="101" /></a></li>
+         <li><a href="http://www.springer.com/birkhauser/engineering/book/978-0-8176-3233-5" target="_blank"><img src="img/book03a-tony.jpg" height="101" /></a><a href="http://www.worldscibooks.com/engineering/6072.html" target="_blank"><img src="img/book04a-advci.jpg" height="101" /></a><a href="http://www.springer.com/birkhauser/engineering/book/978-0-8176-4491-8" target="_blank"><img src="img/book05a-fuzzy.jpg" height="101" /></a></li>
+         <li><a href="http://www.springer.com/cn/book/9783540723820" target="_blank"><img src="img/book06a-isnn.jpg" height="100" /></a><a href="http://www.springer.com/cn/book/9783319152745" target="_blank"><img src="img/book07b-staby.jpg" height="100" /></a><a href="http://www.springer.com/computer/communication+networks/book/978-1-84800-214-2" target="_blank"><img src="img/book08a-ncs.jpg" height="100" /></a></li>
+         <li><a href="http://www.springer.com/engineering/control/book/978-1-84882-522-2" target="_blank"><img src="img/book09a-chaos.jpg" height="99" /></a><a href="http://www.springer.com/generic/search/results?SGWID=0-40109-23-0-0&title=isnn+2011&queryText=derong&sortOrder=relevance&searchType=ADVANCED_CDA&searchScope=books" target="_blank"><img src="img/book10a-isnn.jpg" height="99" /></a><a href=http://www.springer.com/computer/ai/book/978-3-642-31560-2 target="_blank"><img src="img/book11a-bics.jpg" height="99"></a></li>
+<li><a href="http://www.springer.com/engineering/control/book/978-1-4471-4756-5" target="_blank"><img src="img/book12a-adp-zhang.jpg" height="99" /></a><a href="http://www.wiley.com/WileyCDA/WileyTitle/productCd-111810420X.html" target="_blank"><img src="img/book13a-adp-lewis.jpg" height="99" /></a><a href="http://www.springer.com/computer/ai/book/978-3-642-38785-2" target="_blank"><img src="img/book14a-bics.jpg" height="99" /></a>
+
+<li><a href="http://www.worldscientific.com/worldscibooks/10.1142/9243" target="_blank"><img src="img/book15a-frontiers.jpg" height="99" /></a>
+<a href="http://www.wiley.com/WileyCDA/WileyTitle/productCd-1119214343.html" target="_blank"><img src="img/book16a-keller.jpg" height="99" /></a>
+<a href="http://link.springer.com/book/10.1007/978-3-319-46687-3" target="_blank"><img src="img/book17a-ICONIP16.jpg" height="99" /></a>
+
+<li><a href="http://www.springer.com/in/book/9783319508139" target="_blank"><img src="img/book18a-adp.jpg" height="99" /></a>
+<a href="http://www.springer.com/" target="_blank"><img src="img/book-a.jpg" height="99" /></a>
+<a href="http://www.wiley-vch.de/" target="_blank"><img src="img/book-b.jpg" height="99" /></a>
+
+</ul>
+
+    </div>
+  </div>
+
+
+
+<div class="right">
+  <div id="div_1" style="display:block;">
+
+   <h4 class="rtit">Welcome</h4>
+   <p class="Etxt">
+Hello and welcome to my homepage!<br>
+<!--I am currently a Full Professor in
+    the <a href=http://www.ece.uic.edu/ target=_blank>Department of Electrical and Computer
+    Engineering</a>, with adjunct appointment in the
+    <a href=http://www.cs.uic.edu/ target=_blank>Department
+    of Computer Science</a>, at the
+    <a href=http://www.uic.edu/ target=_blank>University of Illinois at Chicago</a>.-->
+    I joined UIC in 1999, after
+    four years with <a href=http://www.stevens-tech.edu/ target=_blank>Stevens
+        Institute of Technology</a> (1995-1999) and two years
+    with <a href=http://www.gm.com/vision/design_technology/research_developmentlab.html target=_blank>General Motors
+        Research & Development Center</a> (1993-1995).
+    UIC is only a few blocks away  from the beautiful
+<a href=http://www.windycityart.com/chicago/around_chicago.htm target=_blank>downtown of Chicago</a>.
+
+
+<center><IMG SRC="img/starred.gif" border=0><i>Again, I welcome you, visitor no.
+<!-- hitwebcounter Code START -->
+<a href="http://www.hitwebcounter.com/" target="_blank">
+<img src="http://hitwebcounter.com/counter/counter.php?page=5093189&style=0002&nbdigits=9&type=page&initCount=121000" title="unique and track hits" Alt="unique and track hits"   border="0" >
+</a>
+<!-- hitwebcounter.com --><a href="http://www.hitwebcounter.com/countersiteservices.php" title="Website Counter"
+target="_blank" style="font-family: Arial, Helvetica, sans-serif;
+font-size: 9px; color: #736C65; text-decoration: none ;"><em>Website Counter</em>
+</a>
+
+<!--a href="http://xyz.freelogs.com/stats/d/dliu/" target="_top"><img border="0" alt="hit counter javascript" src="http://xyz.freelogs.com/counter/index.php?u=dliu&s=fdg" ALIGN="middle" HSPACE="4" VSPACE="2"></a><script src=http://xyz.freelogs.com/counter/script.php?u=dliu></script>
+<a style="font-size:12" href="http://freelogs.com/create.php" target="_top"><font style="font-size:12" color="#666666">hit counter javascript -
+get your free counter here</font></a--></i><IMG SRC="img/starred.gif" border=0><br></p>
+</center>
+
+<pre>
+
+</pre>
+   </p>
+
+<h4 class="rtit" style="margin-top:10px;">Some links to my work environment:</h4>
+<p class="Etxt">
+
+
+<a href="http://www.researcherid.com/rid/A-5304-2010" target=_blank><img src="img/rid.gif" height=69 border=0></a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://scholar.google.com/citations?user=hiB8lVkAAAAJ&hl=en&oi=ao"
+target=_blank><img src="img/googlescholar2.gif" height=69 border=0></a>
+&nbsp;&nbsp;&nbsp;
+
+<!--span id='badgeCont592914' style='width:126px'><script src='http://labs.researcherid.com/mashlets?el=badgeCont592914&mashlet=badge&showTitle=false&className=a&rid=A-5304-2010'></script></span>
+&nbsp;&nbsp;&nbsp; -->
+
+<a href="http://arnetminer.org/person/1-61801.html" target=_blank><img src="img/aminer1.gif" height=69 border=0></a>
+
+<br><br>
+
+
+&nbsp;&nbsp;&nbsp;<IMG width=14 SRC="img/zbut.gif" border=0>
+<A HREF=R/CIL/index.html target=_blank>Computational Intelligence
+    Laboratory</A><br>
+&nbsp;&nbsp;&nbsp;<IMG width=14 SRC="img/zbut.gif" border=0>
+<A HREF="http://www.ece.uic.edu/" target=_blank>Department of Electrical and Computer Engineering</A><br>
+&nbsp;&nbsp;&nbsp;<IMG width=14 SRC="img/zbut.gif" border=0>
+<A HREF="http://www.cs.uic.edu/" target=_blank>Department of Computer Science</A><br>
+&nbsp;&nbsp;&nbsp;<IMG width=14 SRC="img/zbut.gif" border=0>
+<A HREF=http://engineering.uic.edu target=_blank>College of Engineering</A> <br>
+&nbsp;&nbsp;&nbsp;<IMG width=14 SRC="img/zbut.gif" border=0>
+<A HREF=http://www.uic.edu/ target=_blank>University of Illinois at Chicago</A> <br>
+&nbsp;&nbsp;&nbsp;<IMG width=14 SRC="img/zbut.gif" border=0>
+<a href=http://www.princetonreview.com/college/research/profiles/generalinfo.asp?listing=1023434&LTID=1&intBucketID=0 target=_blank>Princeton Review of UIC</a><br>
+&nbsp;&nbsp;&nbsp;<IMG width=14 SRC="img/zbut.gif" border=0>
+<A HREF=http://www.time.gov/timezone.cgi?Central/d/-6  target=_blank>Official U.S. central time - Chicago</a><br>
+&nbsp;&nbsp;&nbsp;<IMG width=14 SRC="img/zbut.gif" border=0>
+<A HREF=http://www.timeanddate.com/worldclock/city.html?n=33  target=_blank>Beijing time</a><br>
+&nbsp;&nbsp;&nbsp;<IMG width=14 SRC="img/zbut.gif" border=0>
+<a href=http://www.ece.uvic.ca/~cai/tech_writing.html target=_blank>How to write papers and give presentations</a><br>
+&nbsp;&nbsp;&nbsp;<IMG width=14 SRC="img/zbut.gif" border=0>
+<a href=http://www.tnnls.org/adp/adp-cdrom/ target=_blank>ADP depository</a><br>
+
+&nbsp;&nbsp;&nbsp;<IMG width=14 SRC="img/zbut.gif" border=0>
+<A HREF=img/soft.gif target=_blank>A useful tool for software testing</a><br>
+
+&nbsp;&nbsp;&nbsp;<IMG width=14 SRC="img/zbut.gif" border=0>
+<A HREF=LIU/myhome.html target=_blank>My home</a><br>
+<pre>
+
+
+
+
+
+
+</pre>
+&nbsp;&nbsp;&nbsp;<IMG width=470 SRC="img/zbarr.gif" valign="center" border=0>
+</ul></p><p>
+&nbsp;&nbsp;&nbsp;<IMG SRC="img/zcrow.gif" width=467 border=0>
+<br>
+</p>
+ <font face="Arial, Helvetica, sans-serif">
+<h5><pre><hr>
+&nbsp;&nbsp;&nbsp;<EM>Author: </EM>Derong Liu                                                  <EM>Established:</EM> September 19, 1995
+&nbsp;&nbsp;&nbsp;<EM>E-Mail: </EM>derong@uic.edu                                              <EM>Last Update:</EM> July 12, 2008
+
+
+
+
+
+
+</pre>
+</h5>
+</div>
+
+
+
+
+
+<div id="div_2" style="display:none;">
+   <h4 class="rtit">Derong Liu's pictures</h4>
+ <p class="Etxt">
+&nbsp;&nbsp;&nbsp;<A HREF=https://get.google.com/albumarchive/117005718551160883646 target="_blank"><IMG width=14 SRC="img/arrow1.gif" border=0>
+    My pictures (google)</a><br>
+
+<!--&nbsp;&nbsp;&nbsp;<A HREF="LIU/LDR/index.html" target="_blank"><IMG width=14 SRC="img/arrow1.gif" border=0>
+    My pictures (derongliu.org)</a><br-->
+
+&nbsp;&nbsp;&nbsp;<A HREF=LIU/SMS/l-1.jpg target="_blank"><IMG width=14 SRC="img/arrow1.gif" border=0>
+    My photo when I was little</a> | <A HREF=LIU/SMS/s-1.jpg target="_blank">
+    My wife's photo when she was little</a><br>
+
+&nbsp;&nbsp;&nbsp;<A HREF="img/myhome.html" target="_blank"><IMG width=14 SRC="img/arrow1.gif" border=0>
+        Pictures of my home</A><BR>
+&nbsp;&nbsp;&nbsp;<A HREF="img/liuview.jpg" target="_blank"><IMG width=14 SRC="img/arrow1.gif" border=0>
+        A day time view from my office</A><BR>
+&nbsp;&nbsp;&nbsp;<A HREF="img/chicago1.jpg" target="_blank"><IMG width=14 SRC="img/arrow1.gif" border=0>
+        An evening vew from my office</A><BR>
+&nbsp;&nbsp;&nbsp;<A HREF="img/uicb2.jpg" target="_blank"><IMG width=14 SRC="img/arrow1.gif" border=0>
+        The two tallest buildings at UIC
+(my office is in the second tallest building on the left)</A><BR>
+
+
+
+&nbsp;&nbsp;&nbsp;<A HREF=http://www.conference123.org/workshop/pic.html target="_blank"><IMG width=14 SRC="img/arrow1.gif" border=0>
+    Pictures from Tony's Workshop</a><br>
+
+&nbsp;&nbsp;&nbsp;<A HREF="https://www.bing.com/images/search?q=university+of+notre+dame&qpvt=university+of+notre+dame&qpvt=university+of+notre+dame&FORM=IARRSM" target="_blank"><IMG width=14 SRC="img/arrow1.gif" border=0>
+        Pictures from Notre Dame</A><BR>
+
+&nbsp;&nbsp;&nbsp;<A HREF="https://www.bing.com/images/search?q=chicago&qpvt=chicago&qpvt=chicago&FORM=IARRSM" target="_blank"><IMG width=14 SRC="img/arrow1.gif" border=0>
+        Pictures from Chicago</A><BR>
+
+&nbsp;&nbsp;&nbsp;<A HREF="https://www.bing.com/images/search?q=beijing&qpvt=beijing&qpvt=beijing&FORM=IARRSM" target="_blank"><IMG width=14 SRC="img/arrow1.gif" border=0>
+        Pictures from Beijing</A><BR>
+</p>
+
+   <h4 class="rtit">On the Tonight Show with Jay Leno in 1993</h4>
+ <p class="Etxt">
+ <IMG width=404 SRC="img/leno.jpg">
+</p>
+
+
+   <h4 class="rtit">My cars</h4>
+ <p class="Etxt">
+<IMG SRC="img/niss.JPG"    height="116" border=0>
+<IMG SRC="img/temp.JPG"    height="116" border=0>
+<IMG SRC="img/storm.jpg"   height="116" border=0>
+<IMG SRC="img/lexus94.JPG" height="116" border=0><br>
+<IMG SRC="img/jimmy98.jpg" height="125" border=0>
+<IMG SRC="img/mazda.jpg"  height="125" border=0>
+<IMG SRC="img/taurus.jpg" height="125" border=0>
+<IMG SRC="img/bmw-x6.jpg" height="125" border=0>
+<IMG SRC="img/car2.jpeg"     height="122" border=0>
+<IMG SRC="img/konig.jpeg"    height="122" border=0>
+<IMG SRC="img/camero.jpg"    height="122" border=0>
+<IMG SRC="img/corvette.jpg"  height="122" border=0>
+<!--IMG SRC="img/jimmy98.jpg" height="124" border=0-->
+</p>
+
+</div>
+
+
+
+<div id="div_3" style="display:none;">
+   <h4 class="rtit">My wife's pictures</h4>
+<pre>
+
+
+</pre><center>
+<IMG SRC="img/grape.gif" width="688" border=0><br>
+<IMG SRC="img/forest.gif" width="344" border=0><IMG SRC="img/forest1.gif" width="344" border=0><br>
+<A HREF="LIU/sms.html" target="_blank">
+<IMG width=701 SRC="LIU/SMS/pic4.jpg" border=0><br>
+</a>
+<br>
+
+<IMG SRC="img/eyebar.gif" width="688" border=0><br>
+<pre>
+
+</pre>
+<IMG SRC="img/grape.gif" width="688" border=0><br>
+<pre>
+
+
+
+
+
+
+
+
+</pre>
+</center></div>
+
+
+
+<div id="div_4" style="display:none;">
+   <h4 class="rtit">My daughter's pictures</h4>
+
+
+<p class="Etxt">Hi, my name is Emilie Liu. This picture was taken in
+October 2004. </p>
+
+
+<table width="300" border="0" cellspacing="0" cellpadding="0" >
+    <tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;<img src=img/kitty.gif width=47 border=0><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<img src=img/kitty.gif width=47 border=0><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<img src=img/kitty.gif width=47 border=0><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<img src=img/kitty.gif width=47 border=0><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<img src=img/kitty.gif width=47 border=0><br></td>
+<td><img width=186 src="LIU/ELIU/lili-gr3s.jpg" border=0><br>
+        </td>
+    <td><img src=img/kitty1.gif width=47 border=0><br>
+        <img src=img/kitty1.gif width=47 border=0><br>
+        <img src=img/kitty1.gif width=47 border=0><br>
+        <img src=img/kitty1.gif width=47 border=0><br>
+        <img src=img/kitty1.gif width=47 border=0><br></td>
+        </tr>
+        </table>
+
+
+<!--img width=37 height=33 id="_x0000_i1043" src="img/flower_sm.gif" border=0><img
+width=37 height=33 id="_x0000_i1044" src="img/flower_sm.gif" border=0><img
+width=37 height=33 id="_x0000_i1044" src="img/flower_sm.gif" border=0><img
+width=37 height=33 id="_x0000_i1045" src="img/flower_sm.gif" border=0><img
+width=37 height=33 id="_x0000_i1046" src="img/flower_sm.gif" border=0><br>
+<img width=31 id="_x0000_i1053" src="img/kittyr.gif" border=0><img
+width=31 id="_x0000_i1054" src="img/kittyr.gif" border=0><img
+width=31 id="_x0000_i1054" src="img/kittyr.gif" border=0><img
+width=31 id="_x0000_i1054" src="img/kittyr1.gif" border=0><img
+width=31 id="_x0000_i1055" src="img/kittyr1.gif" border=0><img
+width=31 id="_x0000_i1056" src="img/kittyr1.gif" border=0><br>
+<img width=112 height=115 id="_x0000_i1064" src="img/hellokitty.gif" border=0><img
+width=112 height=115 id="_x0000_i1065" src="img/hellokitty.gif" border=0><img
+width=112 height=115 id="_x0000_i1066" src="img/hellokitty.gif" border=0--></p>
+
+<pre>
+
+</pre>
+
+   <h4 class="rtit">My Favorite Pictures</h4>
+<p class="Etxt">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+     href="LIU/ELIU/recent.html" target="_blank">My recent pictures</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+     href="LIU/ELIU/disney05.html" target="_blank">Disney World 2005</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+     href="LIU/ELIU/disney04.html" target="_blank">Disney World 2004</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+     href="LIU/ELIU/disney02.html" target="_blank">Disney World 2002</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+     href="LIU/ELIU/disney01.html" target="_blank">Disney World 2001</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+     href="LIU/ELIU/disney00.html" target="_blank">Disney World 2000</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+     href="LIU/ELIU/disney99.html" target="_blank">Disney World 1999</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+     href="LIU/ELIU/disney98.html" target="_blank">Disney World 1998</a><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+     href="LIU/ELIU/10th.html" target="_blank">Pictures of my 10th year</a><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+     href="LIU/ELIU/9th.html" target="_blank">Pictures of my 9th year</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+     href="LIU/ELIU/8th.html" target="_blank">Pictures of my 8th year</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+     href="LIU/ELIU/7th.html" target="_blank">Pictures of my 7th year</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+     href="LIU/ELIU/6th.html" target="_blank">Pictures of my 6th year</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+     href="LIU/ELIU/5th.html" target="_blank">Pictures of my 5th year</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+     href="LIU/ELIU/4th.html" target="_blank">Pictures of my 4th year</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+     href="LIU/ELIU/3rd.html" target="_blank">Pictures of my 3rd year</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+     href="LIU/ELIU/2nd.html" target="_blank">Pictures of my 2nd year</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+     href="LIU/ELIU/1st.html" target="_blank">Pictures of my 1st year</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+     href="LIU/ELIU/lili-kevin.jpg" target="_blank">A picture I took</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+     href="LIU/ELIU/cash.gif" target="_blank">Another picture I took</a> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+     href="LIU/ELIU/dog.gif" target="_blank">My dog</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>Two
+     articles I wrote</i><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+      href="LIU/ELIU/art-10am.pdf" target="_blank">10AM School, September 2007</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+      href="LIU/ELIU/art-newjersey.pdf" target="_blank">Don&#8217;t Go To New Jersey For Winter
+      Break, March 2008</a><br>
+
+
+<IMG SRC="img/idi_dog.gif" border=0><IMG SRC="img/catchase.gif" border=0>
+
+<IMG SRC="img/eggbar.gif" border=0>
+</p>
+
+</div>
+
+
+
+
+
+<div id="div_5" style="display:none;">
+   <h4 class="rtit">Search Engines You Can Use</h4>
+   <p class="Etxt">
+   &nbsp;&nbsp;&nbsp;<a href="http://www.google.com" target="_blank">Google</a><br>
+&nbsp;&nbsp;&nbsp;<A HREF="http://www.bing.com/" target="_blank">Bing</a><br>
+&nbsp;&nbsp;&nbsp;<A HREF="http://www.yahoo.com/" target="_blank">Yahoo</a><br>
+&nbsp;&nbsp;&nbsp;<A HREF="http://www.lycos.com" target="_blank">Lycos</a><br>
+&nbsp;&nbsp;&nbsp;<A HREF="http://www.infoseek.com" target="_blank">Infoseek</a><br>
+&nbsp;&nbsp;&nbsp;<A HREF="http://www.excite.com" target="_blank">Excite</a><br>
+&nbsp;&nbsp;&nbsp;<A HREF="http://www.hotbot.com" target="_blank">HotBot</a><br>
+&nbsp;&nbsp;&nbsp;<A HREF="http://www.snap.com" target="_blank">Snap</a><br>
+&nbsp;&nbsp;&nbsp;<A HREF="http://www.looksmart.com" target="_blank">LookSmart</a><br>
+&nbsp;&nbsp;&nbsp;<A HREF="http://www.altavista.com" target="_blank">AltaVista</a><br>
+</p>
+
+   <h4 class="rtit" >Interesting Chinese Articles</h4>
+<p class="Etxt" >
+&nbsp;&nbsp;&nbsp;<a href=LIU/CEO/index.html target="_blank">Future CEO course</a><br>
+&nbsp;&nbsp;&nbsp;<a href=LIU/y120.pdf target="_blank">Want to live longer?</a><br>
+&nbsp;&nbsp;&nbsp;<a href=LIU/kid.pdf target="_blank">How to train your kids</a><br>
+&nbsp;&nbsp;&nbsp;<a href=LIU/reality.pdf target="_blank">Dreams and reality</a><br>
+
+
+&nbsp;&nbsp;&nbsp;<a href=http://baike.baidu.com/view/1404696.htm target="_blank">Poems of Lihua</a><br>
+
+&nbsp;&nbsp;&nbsp;<a href=LIU/top10food.pdf target="_blank">Top ten garbage food</a><br>
+&nbsp;&nbsp;&nbsp;<a href=LIU/10-tfood.pdf target="_blank">WHO's top ten garbage food</a><br></p>
+
+
+   <h4 class="rtit">Other links</h4>
+   <p class="Etxt">
+
+&nbsp;&nbsp;&nbsp;<A HREF = "LIU/state.html" target="_blank">Derong Liu's travel info</a></br>
+&nbsp;&nbsp;&nbsp;<A HREF = "http://www.tnnls.org/adp/adp-cdrom/" target="_blank">ADP Depository</a></br>
+&nbsp;&nbsp;&nbsp;<A HREF = "http://www.tnnls.org/adp/" target="_blank">ADPRL Matlab programs</a></br>
+&nbsp;&nbsp;&nbsp;<A HREF = "http://www.marquiswhoswho.com/" target="_blank">Who's Who in America </A><br>
+&nbsp;&nbsp;&nbsp;<A HREF = "http://colleges.usnews.rankingsandreviews.com/best-colleges" target="_blank">US News College Rankings</A><br>
+
+&nbsp;&nbsp;&nbsp;<A HREF = "http://grad-schools.usnews.rankingsandreviews.com/best-graduate-schools" target="_blank">US News Graduate School Rankings</A><br>
+
+
+&nbsp;&nbsp;&nbsp;<A HREF = "http://www.chinadegrees.cn/xwyyjsjyxx/xxsbdxz/mtjj/index.shtml" target="_blank">Official University Rankings in China 2012 (in Chinese)</A><br>
+
+
+&nbsp;&nbsp;&nbsp;<A HREF = "LIU/univ/top40cse.html" target="_blank">Top 40 Schools in Control Science and Engineering</A><br>
+&nbsp;&nbsp;&nbsp;<A HREF = "LIU/univ/top40cst.html" target="_blank">Top 40 Schools in Computer Science and Technology</A><br>
+
+
+&nbsp;&nbsp;&nbsp;<A HREF = "LIU/univ/top100eng.html" target="_blank">Top 100 Engineering Schools in China 2010-2011</A><br>
+&nbsp;&nbsp;&nbsp;<A HREF = "LIU/univ/top70cs.html" target="_blank">Top 70 Computer Science and Engineering Schools in China 2011-2012</A><br>
+
+&nbsp;&nbsp;&nbsp;<A HREF = "LIU/univ/top100-2016.htm" target="_blank">Top 100 Universities in China 2016</a><br>
+&nbsp;&nbsp;&nbsp;<A HREF = "LIU/univ/top100.htm" target="_blank">Top 100 Universities in China 2003</a><br>
+&nbsp;&nbsp;&nbsp;<A HREF = "LIU/univ/top25eng.htm" target="_blank">Top 25 Engineering Schools in China 2003</A><br>
+
+&nbsp;&nbsp;&nbsp;<A HREF="http://www.irs.ustreas.gov/" target="_blank">Internal Revenue Service</A><br>
+&nbsp;&nbsp;&nbsp;<A HREF=http://www.immigrationdirect.com target="_blank">Naturalization Services</a><br>
+&nbsp;&nbsp;&nbsp;<A HREF=http://www.uscitizenship.org/index2.html target="_blank">U.S. Citizenship Study Page</a><br>
+
+&nbsp;&nbsp;&nbsp;<A HREF="http://www.chase.com/" target="_blank">JPMorgan Chase Bank</A><br>
+&nbsp;&nbsp;&nbsp;<A HREF="http://www.att.com/" target="_blank">AT&T</A><br>
+&nbsp;&nbsp;&nbsp;<A HREF="http://www.tmobile.com/" target="_blank">T-Mobile</A><br>
+&nbsp;&nbsp;&nbsp;<A HREF="http://www.allstate.com/" target="_blank">Allstate Insurance</A><br>
+&nbsp;&nbsp;&nbsp;<A HREF="http://www.colum.edu/" target="_blank">Columbia College Chicago</A><br>
+&nbsp;&nbsp;&nbsp;<A HREF="http://www.oprfhs.org/" target="_blank">OPRF High School</A><br>
+</p>
+</div>
+
+
+
+<div id="div_10" style="display:none;">
+   <h4 class="rtit">Employment history</h4>
+
+ <pre>
+ </pre>
+
+<table width="609" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG width=50 SRC="img/uic3.gif" border=0></td><td valign="center" >2006-present, Full Professor,
+    <A HREF="http://www.uic.edu" target=_blank>University of Illinois at Chicago</a></td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG width=50 SRC="img/uic3.gif" border=0></td><td valign="center" >2005-2012, <a href=http://www.ece.uic.edu/ECE/GraduateProgram target="_blank">Director of Graduate Studies, ECE Dept., UIC</a></td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG width=50 SRC="img/uic3.gif" border=0></td><td valign="center" >2002-2006, Associate Professor,
+    <A HREF="http://www.uic.edu" target=_blank>University of Illinois at Chicago</a></td>
+</tr>
+
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG width=50 SRC="img/uic3.gif" border=0></td><td valign="center">1999-2002, Assistant Professor,
+    <A HREF="http://www.uic.edu"  target=_blank>University of Illinois at Chicago</a></td>
+</tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG height="33" width=64 SRC="img/stevens2.gif" border=0></td><td valign="center">1995-1999, Assistant Professor,
+    <A HREF="http://www.stevens-tech.edu" target=_blank>
+    Stevens Institute of Technology</A></td>
+</tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG width=40 SRC="img/gm2.gif" border=0></td><td valign="center">1993-1995, Staff Fellow, <A HREF="http://www.gm.com/vision/design_technology/research_developmentlab.html" target=_blank>
+    General Motors Research
+        and Development Center</A></td>
+</tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG width=46 SRC="img/cas2.gif" border=0></td><td valign="center">1987-1990, Instructor,
+    <a href=http://www.gscas.ac.cn target=_blank>Graduate School</a> of
+    <a href=http://www.cas.cn target=_blank>Chinese Academy of Sciences</a></td><br>
+</tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG width=74 SRC="img/norinco2.gif" border=0></td><td valign="center">1982-1984, Product Design Engineer,
+    <a href=http://www.norinco.com.cn/ target=_blank>China North Industries Corporation</a></td>
+    </tr></table>
+
+
+ <pre>
+
+ </pre>
+
+<h4 class="rtit">Education background</h4>
+<p class="Etxt">
+<table width="809" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG width=44 SRC="img/nd2.gif" border=0></td><td valign="center" >1990-1993, <a href=http://www.nd.edu target="_blank">University of Notre Dame, Electrical Engineering, PhD</a></td>
+</tr><tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG width=44 SRC="img/casia2.gif" border=0></td><td valign="center" >1984-1987, <a href=http://www.ia.ac.cn target="_blank">Institute of Automation, Chinese Academy of Sciences, Automatic Control Theory and Applications, MS</a></td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG width=44 SRC="img/njust2.gif" border=0></td><td valign="center" >1978-1982, <a href=http://www.njust.edu.cn target="_blank">East China Institute of Technology, Mechanical Engineering, BS</a></td>
+</tr>
+</table>
+</p>
+
+&nbsp;&nbsp;&nbsp;&nbsp;<IMG width=344 SRC="img/xuehai.gif" border=0>
+&nbsp;&nbsp;&nbsp;&nbsp;<IMG width=178 SRC="img/dyk2.gif" border=0>
+<p><p class="Etxt">
+</P>
+<!--&nbsp;&nbsp;&nbsp;&nbsp;<IMG width=44 SRC="img/kick.gif" border=0><IMG width=44 SRC="img/kick.gif" border=0><IMG width=44 SRC="img/kick.gif" border=0><IMG width=44 SRC="img/kick.gif" border=0><IMG width=44 SRC="img/kick.gif" border=0><IMG width=44 SRC="img/kick.gif" border=0><IMG width=44 SRC="img/kick.gif" border=0><IMG width=44 SRC="img/kick.gif" border=0><IMG width=44 SRC="img/kick.gif" border=0><IMG width=44 SRC="img/kick.gif" border=0><IMG width=44 SRC="img/kick.gif" border=0><IMG width=44 SRC="img/kick.gif" border=0><IMG width=44 SRC="img/kick.gif" border=0>
+
+    </p-->
+</div>
+
+
+
+<div id="div_11" style="display:none;">
+   <h4 class="rtit">Current research interests</h4>
+   <p class="Etxt">
+&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="R/CIL/index.html" target=_blank>Adaptive Dynamic Programming and Reinforcement Learning</a><br>
+<!--&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="R/CIL/index.html"  target=_blank>Computational Neuroscience</a><br-->
+&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="R/CIL/index.html" target=_blank>Control and Management of Complex Systems</a><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="R/CIL/index.html" target=_blank>Intelligent Control and Information Processing</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="R/CIL/index.html" target=_blank>Knowledge Automation</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="R/CIL/index.html" target=_blank>Neural Networks</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="R/CIL/index.html" target=_blank>Smart Grid</a><br>
+        </p>
+
+
+   <h4 class="rtit">Prior research accomplishments</h4>
+   <p class="Etxt">
+&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="R/CIL/mcwn.html" target=_blank>Wireless
+        Communications and Wireless Networks</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="R/CIL/tmpa.html" target=_blank>Network Traffic Modeling</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="R/CIL/asrnn.html" target=_blank>Recurrent Neural Networks (Associative Memories)</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="R/CIL/sans.html" target=_blank>Nonlinear
+    Dynamical Systems (Stability Analysis)</a><br>
+</p>
+
+
+   <h4 class="rtit">My PhD students</h4>
+   <p class="Etxt">
+&nbsp;&nbsp;&nbsp;&nbsp;<a href ="LIU/alumni.html" target=_blank>Ying Cai</a>, Ph.D., Dec. 2005<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href ="LIU/alumni.html" target=_blank>Myron E. Hohil</a>
+        (co-supervised), Ph.D., May 1998<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;<a href ="LIU/alumni.html" target=_blank>Saqning Hu</a>, Ph.D., Feb. 2006<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;<a href ="LIU/alumni.html" target=_blank>Ting Huang</a>, Ph.D., Dec. 2011<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;<a href ="LIU/alumni.html" target=_blank>Yuzhu Huang</a>, Ph.D., July 2013<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href ="LIU/alumni.html" target=_blank>Ning Jin</a>, Ph.D., Dec. 2011<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href ="LIU/alumni.html" target=_blank>John C. Kiss</a>, Ph.D., May 1996<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href ="LIU/alumni.html" target=_blank>Sergio Ledesma</a>, Ph.D., Dec. 2000<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href ="LIU/alumni.html" target=_blank>Hongliang Li</a>, Ph.D., July 2015<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href ="LIU/alumni.html" target=_blank>Zanjun  Lu</a>,
+        Ph.D., Dec. 1999<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href ="LIU/alumni.html" target=_blank>Yingying Ma</a>,
+        Ph.D., May 2014<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;<a href ="LIU/alumni.html" target=_blank>Zhongyu Pang</a>, Ph.D., Dec. 2007<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href ="LIU/alumni.html" target=_blank>Endre I. Sara</a>, Ph.D., Dec. 1999<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;<a href ="LIU/alumni.html" target=_blank>Ding Wang</a>, Ph.D., July 2012<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href ="LIU/alumni.html" target=_blank>Shu Wang</a>, Ph.D., May 2016<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href ="LIU/alumni.html" target=_blank>Zhuo Wang</a>, Ph.D., May 2013<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href ="LIU/alumni.html" target=_blank>Xiaoxu Xiong</a>, Ph.D., May 2006<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href ="LIU/alumni.html" target=_blank>Pengfei Yan</a>, Ph.D., July 2016<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href ="LIU/alumni.html" target=_blank>Xiong Yang</a>, Ph.D., July 2014<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href ="LIU/alumni.html" target=_blank>Dehua Zhang</a>, Ph.D., July 2013<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href ="LIU/alumni.html" target=_blank>Yi Zhang</a>, Ph.D., May 2004<br>
+
+
+</p>
+
+   <h4 class="rtit">Research support</h4>
+   <p class="Etxt">
+&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="http://www.nsf.gov" target=_blank>National
+Science Foundation</a> (Principal Investigator),
+<i><A HREF="http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1027602" target=_blank>EAGER: Adaptive Dynamic Programming for Residential Energy<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System
+Control and Management</a></i>,
+2010-2011.<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="http://www.nsf.gov" target=_blank>National
+Science Foundation</a> (Principal Investigator),
+<i><A HREF="http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0621694" target=_blank>Finite
+Horizon Discrete-Time Adaptive Dynamic Programming</a></i>,
+2006-2009.<br>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="http://www.nsf.gov" target=_blank>National Science Foundation</a> (Co-Principal
+Investigator),
+<i><a href=http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0529292 target=_blank>SENSORS:
+Approximate Dynamic Programming for Dynamic<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scheduling and Control in Sensor Networks</a></i>, 2005-2008.<br>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="http://www.nsf.gov" target=_blank>National Science Foundation</a> (Principal
+Investigator),
+<i><a href=http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0355364 target=_blank>Neural
+Dynamic Programming for Automotive Engine Control</a></i>,
+2004-2007.<br>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="http://www.gm.com" target=_blank>General Motors</a>
+    (Principal Investigator),
+    <i>Adaptive Critic-Based Powertrain Control System Design</i>,
+    2003-2007.<br>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="http://www.nsf.gov" target=_blank>National Science Foundation</a> (Principal Investigator),
+    <i><a href=https://www.fastlane.nsf.gov/servlet/showaward?award=0203063 target=_blank>Power
+Control and Call Admission Policies for
+    Multiclass Traffic in SIR-Based<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Power-Controlled DS-CDMA Cellular Networks</a></i>,
+    2002-2005.<br>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;<a href=http://tigger.uic.edu/depts/ovcr/research/funding/crb.shtml target=_blank>Campus
+Research Board</a> (Principal Investigator),
+    <i><a href=http://tigger.uic.edu/depts/ovcr/research/funding/funded_f2001.shtml target=_blank>Call
+Admission Policies for SIR-Based Power-Controlled
+    CDMA Systems</a></i>, 2002.<br>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="http://www.nsf.gov" target=_blank>National Science Foundation</a> (Principal Investigator),
+    <i>
+    <a href=https://www.fastlane.nsf.gov/servlet/showaward?award=9996428 target=_blank>CAREER: Neural
+Network-Based Adaptive Critic Designs for
+        Broadband <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Network Traffic Control</a></i>,
+    1999-2003.<br>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="http://www.nsf.gov" target=_blank>National Science Foundation</a> (Principal Investigator),
+    <i><a href=https://www.fastlane.nsf.gov/servlet/showaward?award=9732785 target=_blank>A
+Qualitative Study of Time-Lagged Recurrent Networks</a></i>,
+     1998-2001.<br>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;Blonder Broadcasting Corporation (Principal Investigator),
+    <i>Digital Video Coding and Compression for HDTV and 3DTV</i>,
+    1997-1999.<br>
+
+</p>
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<IMG height="57" SRC="img/blonder2.gif" border=0>
+<IMG height="57" SRC="img/nsf2.gif" border=0>
+<IMG height="57" SRC="img/uic2.gif" border=0>
+<IMG height="57" SRC="img/gm2.gif" border=0>
+<IMG height="57" SRC="img/nsfctrans.gif" border=0>
+
+</div>
+
+
+
+
+
+<div id="div_12" style="display:none;">
+   <h4 class="rtit">Awards</h4>
+   <p class="Etxt">
+
+
+&nbsp;&nbsp;&nbsp;Fellow, <a href=http://www.ieee.org/membership_services/membership/fellows/alphabetical/lfellows.html#Li target=_blank>
+        Institute of Electrical and Electronics
+    Engineers (IEEE),  2005.</a><br>
+
+&nbsp;&nbsp;&nbsp;National Fellow,
+       Ministry of Human Resources and Social Security of
+        China, 2011.<br>
+
+&nbsp;&nbsp;&nbsp;Fellow,
+        <a href=http://www.iapr.org target=_blank>International Association for Pattern
+        Recognition (IAPR),  2016.</a><br>
+
+&nbsp;&nbsp;&nbsp;Fellow,
+        <a href=http://www.inns.org target=_blank>International Neural
+        Network Society (INNS),  2013.</a><br>
+
+&nbsp;&nbsp;&nbsp;Fellow,
+        <a href=http://www.caa.org.cn target=_blank>Chinese Association of Automation
+        (CAA),  2010.</a><br>
+
+&nbsp;&nbsp;&nbsp;Outstanding Achievement Award,
+        <a href=http://www.apnns.org target=_blank>Asia Pacific Neural
+        Network Assembly (APNNA),  2014.</a><br>
+
+&nbsp;&nbsp;&nbsp;Best Paper Award,
+20th International Conference on Neural Information Processing, Daegu, Korea, 2013.</a><br>
+
+
+&nbsp;&nbsp;&nbsp;Distinguished Lecturer,
+IEEE Computational Intelligence Society, 2016-2018 and 2012-2014.<br>
+
+&nbsp;&nbsp;&nbsp;Best Paper Award,
+Acta Automatica Sinica, 2011.</a><br>
+
+&nbsp;&nbsp;&nbsp;Overseas Outstanding Young Scholar Award,
+National Natural Science Foundation of China, 2008.<br>
+
+&nbsp;&nbsp;&nbsp;<a
+    href=LIU/uivscholar.htm  target=_blank>University Scholar</a>, University of Illinois, 2006-2009.<br>
+
+&nbsp;&nbsp;&nbsp;<a href=http://www.nsf.gov/home/crssprgm/career/start.htm target=_blank>Faculty
+    Early Career Development (CAREER) Award</a>,
+    <a href=http://www.nsf.gov>National Science Foundation</a>, 1999.<br>
+
+&nbsp;&nbsp;&nbsp;<a href=http://www.stevens.edu/housing/Halls/Davis/index.htm target=_blank>Harvey
+    N. Davis Distinguished Teaching Award</a>,
+    <a href=http://www.stevens-tech.edu target=_blank>Stevens Institute of
+    Technology</a>, 1997.<br>
+
+&nbsp;&nbsp;&nbsp;<a HREF="http://www.tellabs.com/about/bios/mjbirck.pdf" target=_blank>Michael J. Birck</a> Fellowship in <a href=http://www.ee.nd.edu target=_blank>Electrical Engineering</a>, <a href=http://www.nd.edu target=_blank>University of
+    Notre Dame</a>, 1990.<br>
+ </p>
+
+
+   <h4 class="rtit">Honors</h4>
+   <p class="Etxt">
+&nbsp;&nbsp;&nbsp;   Listed in Who's Who in America (58th Edition, 2004)<br>
+&nbsp;&nbsp;&nbsp; Listed in Who's Who in Science and Engineering (5th Edition, 2000-2001)<br>
+&nbsp;&nbsp;&nbsp; Listed in Who's Who in American Education (7th Edition, 2006-2007)<br>
+&nbsp;&nbsp;&nbsp; Member, Eta Kappa Nu, since 1992<br>
+ </p>
+
+
+<h4 class="rtit">Professional membership</h4>
+   <p class="Etxt">
+&nbsp;&nbsp;&nbsp;<a href=http://www.ieee.org target=_blank>Institute of Electrical and Electronics Engineers (IEEE)</a>,
+<i><a href=http://www.ieee.org/web/membership/fellows/Alphabetical/lfellows.html#Li>Fellow</a></I><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=http://www.ieee-cas.org target=_blank>IEEE Circuits and Systems Society</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=http://www.ieee-cis.org target=_blank>IEEE Computational Intelligence Society</a><br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=http://www.ieeecss.org target=_blank>IEEE Control Systems Society</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=http://www.ewh.ieee.org/tc/its/ target=_blank>IEEE  Intelligent Transportation Systems Society</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=http://www.isye.gatech.edu/ieee-smc/ target=_blank>IEEE Systems, Man, and Cybernetics Society</a><br>
+
+&nbsp;&nbsp;&nbsp;<a href=http://www.iapr.org target=_blank>International Association for Pattern Recognition (IAPR)</a>, <i>Fellow</i><br>
+&nbsp;&nbsp;&nbsp;<a href=http://www.inns.org target=_blank>International Neural Network Society (INNS)</a>, <i>Fellow</i><br>
+&nbsp;&nbsp;&nbsp;<a href=http://www.caa.org.cn target=_blank>Chinese Association of Automation (CAA)</a>, <i>Fellow</i><br>
+ </p>
+
+
+   <h4 class="rtit">Others</h4>
+   <p class="Etxt">
+
+&nbsp;&nbsp;&nbsp;Member of the Council, International Federation of Automatic Control,
+        2014�C2017. <br>
+
+&nbsp;&nbsp;&nbsp;Chair, Beijing Chapter of IEEE Computational Intelligence Society,
+       2012-2014.<br>
+
+&nbsp;&nbsp;&nbsp;Executive Director,
+        Chinese Association of Automation,
+     2011-present (elected).<br>
+
+&nbsp;&nbsp;&nbsp;Governing Board Member,
+        Asia Pacific Neural Network Assembly,
+     2010-present.<br>
+
+&nbsp;&nbsp;&nbsp;Board of Governors,
+        International Neural Network Society,
+     2010, 2011, 2012 (elected).<br>
+
+&nbsp;&nbsp;&nbsp;Council Member,
+        Society of Chinese American Professors and Scientists,
+     2006-2013 (elected).<br>
+
+
+&nbsp;&nbsp;&nbsp;AdCom Member,
+        IEEE Computational Intelligence Society,
+     2006-2008 (elected) and 2015-2017. (elected).<br>
+
+&nbsp;&nbsp;&nbsp;Chair, Chicago Chapter of IEEE Computational Intelligence Society,
+       2005-2008.<br>
+   </p>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG height="42" SRC="img/cis2.gif" border=0>
+<IMG height="35" SRC="img/ifac2.gif" border=0>
+<IMG height="34" SRC="img/inns2.gif" border=0>
+<IMG height="29" SRC="img/apnna2.gif" border=0>
+<IMG height="34" SRC="img/caa2.gif" border=0>
+<a href="LIU/socaps.pdf" target="_blank"><IMG height="28" SRC="img/socaps2.gif" border=0></a>
+<IMG height="37" SRC="img/nsfctrans.gif" border=0>
+<IMG height="29" SRC="img/acta.gif" border=0>
+
+
+</div>
+
+
+
+
+
+<div id="div_13" style="display:none;">
+   <h4 class="rtit">Publications</h4>
+
+
+ <pre>
+ </pre>
+
+<table width="349" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG width=50 SRC="img/book.png" border=0></td><td valign="left" ><A HREF=http://www.derongliu.org/book.html
+    target=_blank>Books</a></td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG width=50 SRC="img/editorial.jpeg" border=0></td><td valign="left" ><a href=http://www.derongliu.org/editorial.html
+    target="_blank">Editorials, book chapters, book reviews</a></td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG width=50 SRC="img/journal.jpg" border=0></td><td valign="left" ><A HREF=http://www.derongliu.org/journal.html
+    target=_blank>Journal papers</a></td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG width=50 SRC="img/conference.jpeg" border=0></td><td valign="left" ><a href=http://www.derongliu.org/conf.html
+    target="_blank">Conference papers</a></td>
+</tr>
+</table>
+<pre>
+
+</pre>
+
+
+</div>
+
+
+
+
+
+<div id="div_14" style="display:none;">
+
+ <h4 class="rtit">Artificial Intelligence Review</h4>
+   <p class="Etxt">
+&nbsp;&nbsp;&nbsp;<a href="http://www.springer.com/computer/ai/journal/10462" target="_blank">Derong Liu, Editor-in-Chief (2014-present)</a><br>
+&nbsp;&nbsp;&nbsp;<a href="http://www.springer.com/computer/ai/journal/10462?detailsPage=editorialBoard" target="_blank">Editorial board</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://www.springer.com/computer/ai/journal/10462" target="_blank">Information for authors</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="https://www.editorialmanager.com/aire/Default.aspx" target="_blank">Submit a paper</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://link.springer.com/journal/volumesAndIssues/10462" target="_blank">Springer Links</a>
+<br>
+</p>
+
+ <h4 class="rtit">   IEEE Transactions on Neural Networks and Learning Systems</h4>
+   <p class="Etxt">
+&nbsp;&nbsp;&nbsp;<a href="http://cis.ieee.org/tnnls" target="_blank">Derong Liu, Editor-in-Chief (2012-2015)</a><br>
+&nbsp;&nbsp;&nbsp;<a href="http://cis.ieee.org/ieee-transactions-on-neural-networks-and-learning-systems/135-ieee-transactions-on-neural-networks-and-learning-systems-editors-and-associate-editors.html" target="_blank">Editorial board</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://cis.ieee.org/ieee-transactions-on-neural-networks-and-learning-systems/136-ieee-transactions-on-neural-networks-and-learning-systems-information-for-authors-.html" target="_blank">Information for authors</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://mc.manuscriptcentral.com/tnnls" target="_blank">Submit a paper</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385" target="_blank">IEEE Xplore</a>
+<br>
+</p>
+
+
+ <h4 class="rtit">   IEEE Transactions on Neural Networks </h4>
+   <p class="Etxt">
+&nbsp;&nbsp;&nbsp;<a href="http://ieee-cis.org/pubs/tnnls/" target="_blank">Derong Liu, Editor-in-Chief (2010-2011)</a><br>
+&nbsp;&nbsp;&nbsp;<a href="LIU/tnn-editor.pdf" target="_blank">Editorial board</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=72" target="_blank">IEEE Xplore</a>
+<br>
+</p>
+
+
+ <h4 class="rtit">IEEE/CAA Journal of Automatica Sinica </h4>
+   <p class="Etxt">
+&nbsp;&nbsp;&nbsp;<a href="LIU/jas-editor.pdf" target="_blank">Derong Liu, Deputy Editor-in-Chief (2014-present)</a><br>
+&nbsp;&nbsp;&nbsp;<a href="LIU/jas-editor.pdf" target="_blank">Editorial board</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="https://mc03.manuscriptcentral.com/aas-en" target="_blank">Submit a paper</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6570654" target="_blank">IEEE Xplore</a>
+<br>
+</p>
+
+ <h4 class="rtit">   Acta Automatica Sinica (in Chinese) </h4>
+   <p class="Etxt">
+&nbsp;&nbsp;&nbsp;<a href="http://www.aas.net.cn/CN/column/column108.shtml" target="_blank">Derong Liu, Deputy Editor-in-Chief (2013-present)</a><br>
+&nbsp;&nbsp;&nbsp;<a href="http://www.aas.net.cn/CN/column/column108.shtml" target="_blank">Editorial board</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://mc.manuscriptcentral.com/tnnls" target="_blank">Submit a paper</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://www.aas.net.cn/CN/volumn/current.shtml" target="_blank">CAA Papers Online</a>
+<br>
+</p>
+
+ <h4 class="rtit">Associate editors</h4>
+   <p class="Etxt">
+&nbsp;&nbsp;&nbsp;<a href="http://www.ieeesmc.org/publications/AssociateEditors_A.htm" target="_blank">IEEE Transactions on Systems, Man, and Cybernetics: Systems</a>, 2014-present<br>
+&nbsp;&nbsp;&nbsp;<a href="http://sites.ieee.org/itss/introduction/transactions/board-of-editors/" target="_blank">IEEE Transactions on Intelligent Transportation Systems</a>, 2012-present<br>
+&nbsp;&nbsp;&nbsp;<a href="http://ieeecss.org/contacts/tcst-associate-editors" target="_blank">IEEE Transactions on Control Systems Technology</a>, 2010-present<br>
+&nbsp;&nbsp;&nbsp;<a href="http://www.springer.com/engineering/computational+intelligence+and+complexity/journal/500?detailsPage=editorialBoard" target="_blank">Soft Computing</a>, 2012-present<br>
+&nbsp;&nbsp;&nbsp;<a href="http://www.springer.com/computer/theoretical+computer+science/journal/521?detailsPage=editorialBoard" target="_blank">Neural Computing and Applications</a>, 2012-present<br>
+
+&nbsp;&nbsp;&nbsp;<a href="http://www.springer.com/computer/information+systems+and+applications/journal/11432?detailsPage=editorialBoard" target="_blank">Science in China Series F: Information Sciences</a>, 2010-present<br>
+&nbsp;&nbsp;&nbsp;<a href="http://www.kzyjc.net:8080/CN/column/column80.shtml" target="_blank">Control and Decision</a>, 2005-present<br>
+&nbsp;&nbsp;&nbsp;<a href="http://www.journals.elsevier.com/neurocomputing/editorial-board/" target="_blank">Neurocomputing</a>, 2010-2015<br>
+&nbsp;&nbsp;&nbsp;<a href="http://www.worldscinet.com/ijns/mkt/editorial.shtml" target="_blank">International Journal of Neural Systems</a>, 2010-2014<br>
+&nbsp;&nbsp;&nbsp;IEEE Circuits and Systems Magazine, 2008-2009<br>
+&nbsp;&nbsp;&nbsp;<a href="http://www.hindawi.com/journals/jcse/editors/" target="_blank">Journal of Control Science and Engineering</a>, 2006-2013<br>
+&nbsp;&nbsp;&nbsp;Automatica, 2006-2010<br>
+&nbsp;&nbsp;&nbsp;IEEE Computational Intelligence Magazine, 2006-2009<br>
+&nbsp;&nbsp;&nbsp;IEEE Transactions on Neural Networks, 2006-2009<br>
+&nbsp;&nbsp;&nbsp;IEEE Transactions on Signal Processing, 2001-2003<br>
+&nbsp;&nbsp;&nbsp;IEEE Transactions on Circuits and Systems-I, 1997-1999<br>
+
+
+ <!--h4 class="rtit">Guest editors</h4>
+   <p class="Etxt">
+&nbsp;&nbsp;&nbsp;Science in China Series F: Information Sciences, Special Issue on Guidance, Navigation and Control, June 2013<br>
+&nbsp;&nbsp;&nbsp;Acta Automatica Sinica, Special Issue on Data-Based Control, Decision, Scheduling,
+and Fault Diagnostics, June 2009<br>
+&nbsp;&nbsp;&nbsp;IEEE Transactions on Systems, Man, and Cybernetics - Part B: Cybernetics,
+Special Issue on Adaptive Dynamic<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Programming and Reinforcement Learning in Feedback
+Control, August 2008<br>
+&nbsp;&nbsp;&nbsp;Neurocomputing, special issue on Neural Networks, January 2008<br>
+&nbsp;&nbsp;&nbsp;IEEE Transactions on Systems, Man, and Cybernetics - Part C: Applications and
+Reviews, special issue on Networking,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sensing and Control, March 2007<br>
+
+
+</p-->
+
+ <h4 class="rtit">IEEE Computational Intelligence Society Electronic Letter</h4>
+   <p class="Etxt">
+&nbsp;&nbsp;&nbsp;<a href="R/Eletter/index.html" target="_blank">IEEE CIS E-Letter </a><br>
+<!--&nbsp;&nbsp;&nbsp;Manager: Zeng-Guang Hou (2011-present)<br>
+&nbsp;&nbsp;&nbsp;Manager: Haibo He (2009-2011)<br-->
+&nbsp;&nbsp;&nbsp;Founding Editor: Derong Liu (2004-2009)<br>
+</p>
+</div>
+
+
+
+ <div id="div_15" style="display:none;">
+
+
+ <h4 class="rtit">24th International Conference on Neural Information Processing (ICONIP 2017)</h4>
+   <p class="Etxt">
+&nbsp;&nbsp;&nbsp;<a href="http://www.conference123.org" target="_blank">ICONIP 2017 will be in Guangzhou, China, November 3-6, 2017</a>.
+
+ <h4 class="rtit">23rd International Conference on Neural Information Processing (ICONIP 2016)</h4>
+   <p class="Etxt">
+&nbsp;&nbsp;&nbsp;<a href="http://www.wcci2016.org" target="_blank">ICONIP 2016 will be in Kyoto, Japan, October 17-20, 2016</a>.
+
+ <h4 class="rtit">2016 IEEE World Congress on Computational Intelligence (WCCI 2016)</h4>
+   <p class="Etxt">
+&nbsp;&nbsp;&nbsp;<a href="http://www.wcci2016.org" target="_blank">WCICA 2016 will be in Vancouver, Canada, July 25-29, 2016</a>.
+
+ <h4 class="rtit">2016 World Congress on Intelligent Control and Automation (WCICA 2016)</h4>
+   <p class="Etxt">
+&nbsp;&nbsp;&nbsp;<a href="http://www.wcica2016.org" target="_blank">WCICA 2016 will be in Guilin, China, June 12-17, 2016</a>, right after China's annual college entrance exam.
+
+
+
+
+<h4 class="rtit">Past conferences</h4>
+<p class="Etxt">
+General Chair:&nbsp;&nbsp;&nbsp;
+<a href=http://www.conference123.org/wcica2016/ target=_blank>WCICA 2016</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href=http://conference123.org/wcci2014/ target=_blank>WCCI 2014</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href=http://www.conference123.org/bics2013/ target=_blank>BICS 2013</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href=http://www.conference123.org/bics2012/ target=_blank>BICS 2012</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href=http://www.conference123.org/soli2009/ target=_blank>SOLI 2009</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href=http://www.conference123.org/icnsc2008/ target=_blank>ICNSC 2008</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href=http://www.conference123.org/isnn2007/ target=_blank>ISNN 2007</a><br>
+
+Program Chair:&nbsp;&nbsp;&nbsp;
+<a href=C/INISTA-2014.pdf target="_blank">INISTA 2014</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href=C/ICONS-2013.pdf target="_blank">ICONS 2013</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href=C/CPCC2013.pdf target="_blank">CPCC 2013</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+
+<a href=C/adprl2009.html target="_blank">ADPRL 2009</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href=C/ijcnn-2008.html target="_blank">IJCNN 2008</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href=http://www.conference123.org/adprl2007/ target=_blank>ADPRL 2007</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href=C/isic-2006.html target="_blank">ISIC 2006</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href=http://www.conference123.org/icnsc2006/ target=_blank>ICNSC 2006</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+
+
+<a href=http://www.conference123.org/workshop/ target=_blank>Tony's Workshop 2003</a><br>
+
+
+Program Co-Chair:&nbsp;&nbsp;&nbsp;
+<a href="C/OrganizingCommittees-ijcnn-2012.pdf" target=_blank>IJCNN 2012</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="C/ICCDA-2010.pdf" target=_blank>ICCDA 2010</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="C/ical2009.pdf" target=_blank>ICAL 2009</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+
+<a href=C/icsca2006.pdf target=_blank>ICSCA 2006</a><br>
+
+Organizing Committee Chair:
+&nbsp;&nbsp;&nbsp;
+<a href="http://www.conference123.org/icist2015/" target=_blank>ICIST 2015 </a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="http://www.conference123.org/icicip2013/" target=_blank>ICICIP 2013 </a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="C/ISNN2012.pdf"  target=_blank>ISNN 2012 </a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="http://www.conference123.org/isnn2011/"  target=_blank>ISNN 2011 </a> <br>
+
+
+
+
+Steering Committee Chair:
+&nbsp;&nbsp;&nbsp;
+<a href=C/  target="_blank">ICICIP 2014</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href=C/CFP_ICACI2013.pdf  target="_blank">ICACI 2013</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href= target="_blank">ISNN 2013</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href=C/ICICIP2012.pdf target="_blank">ICICIP 2012</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href=C/CFP-ICIST2012-8.pdf target="_blank">ICIST 2012</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href=C/ICIST2011.pdf target="_blank">ICIST 2011</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<!--a href=C/ISNN2010.pdf target="_blank">ISNN 2010</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;-->
+<a href=C/ISNN2009.pdf target=_blank>ISNN 2009</a><br>
+
+Publicity Chair:&nbsp;&nbsp;&nbsp;
+<a href=C/WCICA2010.pdf target=_blank>WCICA 2010</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+
+<a href=C/icann-comm-2009.html target=_blank>ICANN 2009</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+
+<a href=C/ICONIP2006.pdf target=_blank>ICONIP 2006</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+
+<a href=http://www.conference123.org/isic2005/ target=_blank>ISIC 2005</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+
+<a href=http://www.conference123.org/isic2005/ target="_blank">MED 2005</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+
+<a href=C/ISNN2004.pdf target=_blank>ISNN 2004</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+
+<a href=C/ijcnn04pub.html target="_blank">IJCNN 2004</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+
+<a href=http://www.conference123.org/ijcnn2003/ target="_blank">IJCNN 2003</a><br>
+
+Other Chairs:&nbsp;&nbsp;&nbsp;
+<a href="C/WCICA2014.pdf"  target=_blank>WCICA 2014 (Panel Discussion Chair)</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="C/IJCAI-13.pdf"  target=_blank>IJCAI-13 (Local Arrangements Co-Chair)</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+
+
+<a href=C/WCICA2012.pdf target=_blank>WCICA 2012 (Invited Session Chair)</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href=http://www.conference123.org/icnsc2010/ target=_blank>ICNSC 2010 (Finance Chair)</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+
+<a href="C/icnsc2009.pdf" target="_blank">ICNSC 2009 (Advisory Co-Chair)</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href=C/ijcnn2009.pdf target="_blank">IJCNN 2009 (Publications Chair)</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+
+<a href=C/ISNN2008.pdf target=_blank>ISNN 2008 (Plenary Sessions Chair)</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href=C/wcci2006.pdf target=_blank>WCCI 2006 (Registration Chair)</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href=C/ISNN2005CFP.pdf target=_blank>ISNN 2005 (Special Sessions Chair)</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href=C/ieeeiv2005.pdf target="_blank">IV 2005 (Exhibits Chair)</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href=C/icnsc2005.pdf target="_blank">ICNSC 2005 (Exhibits Chair)</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+
+
+<a href=C/isic03.html target="_blank">ISIC 2003 (Publications Chair)</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+
+
+
+
+
+<a href="C/cca97.html" target="_blank">CCA 1997 (Local Arrangements Chair)</a>
+
+<br>
+
+
+
+</p></div>
+
+
+
+
+
+
+
+<!--div id="div_16" style="display:none;">
+<h4 class="rtit">Technical committees</h4>
+   <p class="Etxt">
+<a href=http://ieee-cis.org/technical/adprltc/ target="_blank">Technical Committee on Adaptive Dynamic Programming and Reinforcement Learning</a>, IEEE Computational Intelligence Society<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Founding Chair (2008-2009), Member (2008-present)<br>
+
+<a href=http://staff.aist.go.jp/m.kawamoto/BSP/ target="_blank">Technical Committee on Blind Signal Processing</a>,
+        IEEE Circuits and Systems Society<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Secretary (2003-2006), Member (2002-present)<br>
+
+Technical
+        Committee on Intelligent Control,
+        IEEE Control Systems Society<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Member (1999-present)<br>
+
+
+<a href=http://ieee-cis.org/technical/nntc/ target="_blank">Technical Committee on Neural Networks</a>, IEEE Computational Intelligence Society<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chair (2008), Member (2001-2008)<br>
+
+<a href="http://ewh.ieee.org/soc/icss/committees/nsatc/" target="_blank">Technical
+    Committee on Neural Systems and Applications</a>,
+        IEEE Circuits and Systems Society<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chair (2006-2007), Member (1996-present)<br>
+
+<a href=http://www.eecs.berkeley.edu/~ljilja/tcncas/ target="_blank">Technical
+    Committee on Nonlinear Circuits and Systems</a>,
+    IEEE Circuits  and Systems Society<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Member (1999-present)
+</p>
+
+<h4 class="rtit">University of Illinois at Chicago</h4>
+   <p class="Etxt">
+
+Departmental Advisory Committee (2001-2002, 2004-2005)<br>
+Departmental Computer Committee (2000-present)<br>
+Departmental Graduate Committee (1999-2000, 2004, 2012-present, Chair: 2005-2012)<br>
+Departmental Grievance Committee (2001-2003)<br>
+Departmental Promotion and Tenure Committee (2002-present)<br>
+Departmental Seminar Committee (2012--present)<br>
+Departmental Student Scholarship Committee (2000-2001)<br>
+Departmental Undergraduate Committee (1999-2000, 2001-2003)<br>
+Departmental Web Committee (2003-2004)<br></p>
+
+
+<h4 class="rtit">Stevens Institute of Technology</h4>
+   <p class="Etxt">
+
+Board of Trustees Enrollment Committee (1997-1999)<br>
+Committee on Committees (1998-1999)<br>
+Computer Knowledge and  Infrastructure Committee (1997-1998)<br>
+Departmental Graduate Admissions Committee (1995-1999)<br>
+Departmental Ph.D. Qualifying Exam Committee (1995-1999)<br>
+Departmental Undergraduate Computer Engineering Curriculum Committee (1997-1998)<br>
+Graduate Curriculums Committee (1996-1999)<br>
+Undergraduate Promotions Committee (1996-1998)<br></p>
+
+</div-->
+
+
+
+
+
+
+<!--div id="div_17" style="display:none;">
+<h4 class="rtit">Biosketch</h4>
+   <p class="Etxt">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Derong Liu</b> (S'91-M'94-SM'96-F'05) received
+the B.S. degree in mechanical engineering from the
+East China Institute of Technology (now Nanjing
+University of Science and Technology), Nanjing,
+China, in 1982, the M.S. degree in automatic
+control theory and applications from the Institute
+of Automation, Chinese Academy of Sciences,
+Beijing, China, in 1987, and the Ph.D. degree in
+electrical engineering from the University of Notre
+Dame, Notre Dame, IN, USA, in 1994.<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dr.
+Liu was a Product Design Engineer with China North Industries
+Corporation, Jilin, China, from 1982 to 1984. He was an Instructor
+with the Graduate School of the Chinese Academy of Sciences,
+Beijing, from 1987 to 1990. He was a Staff Fellow with General
+Motors Research and Development Center, Warren, MI, USA, from 1993
+to 1995. He was an Assistant Professor with the Department of
+Electrical and Computer Engineering, Stevens Institute of
+Technology, Hoboken, NJ, USA, from 1995 to 1999. He joined the
+University of Illinois at Chicago, Chicago, IL, USA, in 1999, and
+became a Full Professor of electrical and computer engineering and
+of computer science in 2006. He was selected for the "100 Talents
+Program" by the Chinese Academy of Sciences in 2008. He has
+published 14 books (six research monographs and eight edited
+volumes).<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dr.
+Liu was an Associate Editor of Automatica from 2006 to
+2009. He serves as an Associate Editor of Soft Computing, Neurocomputing,
+International Journal of Neural Systems,
+Neural Computing and Applications, Journal of Control
+Science and Engineering, and Science in China Series F:
+Information Sciences. He was an elected member of the Board of
+Governors of the International Neural Network Society from 2010 to
+2012. He is a Governing Board Member of Asia Pacific Neural Network
+Assembly. He was a member of the Conference Editorial Board of the
+IEEE Control Systems Society from 1995 to 2000, an Associate Editor
+of the IEEE Transactions on Circuits and Systems-I: Fundamental
+Theory and Applications from 1997 to 1999, the IEEE
+Transactions on Signal Processing from 2001 to 2003, the IEEE
+Transactions on Neural Networks from 2004 to 2009, the IEEE
+Computational Intelligence Magazine from 2006 to 2009, and the
+IEEE Circuits and Systems Magazine from 2008 to 2009, and the
+Letters Editor of the IEEE Transactions on Neural Networks
+from 2006 to 2008. He was the Founding Editor of the IEEE
+Computational Intelligence Society's Electronic Letter from 2004 to
+2009. Currently, he is the Editor-in-Chief of the IEEE
+Transactions on Neural Networks and Learning Systems and an
+Associate Editor of the IEEE Transactions on Control Systems
+Technology, the IEEE Transactions on Intelligent
+Transportation Systems, and IEEE Transactions on Systems, Man, and Cybernetics: Systems.
+He is the General Chair of the 2014 IEEE
+World Congress on Computational Intelligence, Beijing, China. He was
+an elected AdCom member of the IEEE Computational Intelligence
+Society from 2006 to 2008. He is the Chair of IEEE CIS Beijing
+Chapter. He received the Michael J. Birck Fellowship from the
+University of Notre Dame in 1990, the Harvey N. Davis Distinguished
+Teaching Award from Stevens Institute of Technology in 1997, the
+Faculty Early Career Development (CAREER) Award from the National
+Science Foundation in 1999, the University Scholar Award from the
+University of Illinois in 2006, and the Overseas Outstanding Young
+Scholar Award from the National Natural Science Foundation of China
+in 2008. He is a member of Eta Kappa Nu, a fellow of the IEEE and a
+fellow of the INNS.
+
+
+</p>
+
+
+
+<h4 class="rtit">Short biography</h4>
+   <p class="Etxt">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Derong
+Liu</b> (S'91-M'94-SM'96-F'05) received
+the Ph.D. degree in electrical engineering from the University of Notre Dame in 1994. He was a Staff Fellow with General Motors
+Research and Development Center, Warren, MI, USA, from 1993 to 1995. He was an Assistant Professor in the Department of
+Electrical and Computer Engineering, Stevens Institute of Technology, Hoboken, NJ, USA, from 1995 to 1999. He joined the
+University of Illinois at Chicago in 1999, and became a Full Professor of electrical and computer engineering and of computer science
+in 2006. He was selected for the "100 Talents Program" by the Chinese Academy of Sciences in 2008. He has published 14 books.
+Currently, he is a Distinguished Lecturer of the IEEE Computational Intelligence Society and he is the Editor-in-Chief of the
+IEEE Transactions on Neural Networks and Learning Systems. He is the General Chair of
+2014 IEEE World Congress on Computational Intelligence (Beijing, China) and the General Chair of
+2016 World Congress on Intelligent Control and Automation (Guilin, China). He received the Faculty Early Career Development (CAREER) award
+from the National Science Foundation (1999), the University Scholar Award from University of Illinois (2006-2009), and the
+Overseas Outstanding Young Scholar Award from the National Natural Science Foundation of China (2008).
+He is a Fellow of the IEEE and a Fellow of the INNS.
+
+</p>
+</div-->
+
+
+
+
+
+
+ <div class="clear-both">&nbsp;</div>
+ <div id="footer" ><div  bgcolor="#ffffaa"
+text="#0000ff" link="#0000ff" vlink="#0000ff"  align="left" >
+
+ <h4 class="rtit"></h4>
+<p class="Etxt">
+
+<IMG Height=50 SRC="img/njust2.gif" border=0>
+<IMG Height=47 SRC="img/norinco2.gif" border=0>
+<IMG Height=45 SRC="img/casia2.gif" border=0>
+<IMG Height=50 SRC="img/ucas2.gif" border=0>
+<IMG Height=40 SRC="img/nd2.gif" border=0>
+<IMG Height=44 SRC="img/gm2.gif" border=0>
+<IMG Height=44 SRC="img/stevens2.gif" border=0>
+<IMG Height=44 SRC="img/uic2.gif" border=0>
+<IMG Height=50 SRC="img/icmcs2.gif" border=0>
+<IMG Height=50 SRC="img/ustb2.gif" border=0>
+
+</p>
+
+<p class="Etxt">
+
+</p>
+</div>
+</div>
+</body>
+</html>

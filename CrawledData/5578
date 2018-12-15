@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"><!-- InstanceBegin template="/templates/ferpa_template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+    <!-- InstanceBeginEditable name="title" -->
+    <title>FERPA Tutorial | UIC Office of the Registrar</title>
+    <!-- InstanceEndEditable -->
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link href="../assets/css/ferpa_style.css" rel="stylesheet" type="text/css" />
+    <script src="/assets/js/cookielaw.js"></script>
+    <script src="../assets/js/analytics.js"></script>
+</head>
+<body>
+<div class="wrap">
+    <div class="screen">
+
+        <div class="ferpaContent">
+
+            <!-- InstanceBeginEditable name="body" -->
+            <h1><a href="index.html">FERPA Tutorial</a></h1>
+            <p><strong>Family Educational Rights and Privacy Act</strong><br />
+                The purpose of this tutorial is to provide basic FERPA training
+                for UIC staff. The University
+                is legally and ethically obligated to protect the confidentiality
+                of student records. To be granted access to student records, you
+                must review this tutorial and complete a brief quiz. <a href="aboutferpa.html">Additional
+                    FERPA information</a>. </p>
+            <p>
+                What should I expect to gain from this tutorial?
+                Knowledge
+                of laws and policies governing acceptable use and release
+                of student records.
+                An
+                understanding of your responsibilities in complying with these
+                laws and policies.
+                An
+                understanding of how to protect a student's right to privacy.</p>
+
+            <h2>Contents</h2>
+            <ol>
+                <li><a href="Ferpa_pg2.html">What is FERPA?</a></li>
+                <li><a href="Ferpa_pg2a.html">What is an Educational Record?</a></li>
+                <li><a href="Ferpa_pg2b.html">Directory Information</a></li>
+                <li><a href="Ferpa_pg2c.html">Suppressed Directory Information</a></li>
+                <li><a href="Ferpa_pg2d.html">Non-Directory Information</a></li>
+                <li><a href="Ferpa_pg4.html">Your Responsibilities</a></li>
+                <li><a href="Ferpa_pg5.html">Access to Student Records</a></li>
+                <li><a href="Ferpa_pg5b.html">Freedom of Information Act</a></li>
+                <li><a href="Ferpa_pg8.html">A Brief Review</a></li>
+                <li><a href="FerpaQuiz.html">Quiz</a></li>
+                <!--           <li><del>Quiz</del> (temporarily disabled - contact lrk@uic.edu for more info)</li> -->
+                <li>Certificate of Completion</li>
+            </ol>
+            <p><a href="Ferpa_pg2.html"><strong>Begin Tutorial </strong></a><strong>&gt;</strong></p>
+            <!-- InstanceEndEditable -->
+        </div>
+        <!--end content div -->
+
+        <div class="footer">
+            <p><a href="http://www.uic.edu">UIC Home</a>&nbsp; | &nbsp;<a href="../index.html">        Admissions &amp; Records Home</a>&nbsp; | &nbsp;<a href="../contact/index.html">Contact Us</a></p>
+            <p class="footerText"> &copy; 2016 The Board of Trustees of the University of Illinois.        </p>
+            <!-- end footerText div -->
+            <!--OneTrust Cookies Settings button start -->
+            <a class="optanon-show-settings">CookieSettings</a>
+            <!--OneTrust Cookies Settings button end -->
+        </div>
+        <!-- end footer div -->
+    </div>
+    <!-- end screen div -->
+</div>
+<!-- end wrap div -->
+<!-- Classic Analytics -->
+</body>
+<!-- InstanceEnd --></html>

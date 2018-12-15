@@ -1,0 +1,601 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="iso-8859-1">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="icons/apple-touch-icon-152x152-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="icons/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="icons/apple-touch-icon-120x120-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="icons/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="icons/apple-touch-icon-76x76-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="icons/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="icons/apple-touch-icon-precomposed.png">
+        <title>Sanction Submission Form</title>
+        <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+        <meta name="robots" content="noindex">
+
+        <link rel="stylesheet" href="publicside_assets/select2_3.4.5ch/select2.css">
+        <link rel="stylesheet" type="text/css" href="publicside_assets/jquery_filer/css/jquery.filer.css">
+        <link rel="stylesheet" type="text/css" href="publicside_assets/jquery_filer/css/themes/jquery.filer-dragdropbox-theme.css">
+        <script src="https://use.typekit.net/feb7wgs.js"></script>
+        <script>try{Typekit.load({ async: true });}catch(e){}</script>
+        <script>
+            var callback = function() {
+                grecaptcha.render('recaptcha_frame', {
+                    'sitekey': '6LcgpwkTAAAAAHilBoK4go06Y6T9zywDtFhMsJC6',
+                    'expired-callback': expCallback
+                });
+            };
+            var expCallback = function() {
+                grecaptcha.reset();
+            };
+        </script>
+        <script src="https://www.google.com/recaptcha/api.js?onload=callback&render=explicit" async defer></script>
+        <link rel="stylesheet" media="screen" href="publicside_assets/yadp/css/datepicker.min.css">
+        <link rel="stylesheet" type="text/css" href="publicside_assets/tipped/tipped.css">
+        <link rel="stylesheet" href="publicside_assets/bower_components/app.css">
+
+                <style type="text/css">
+            body {
+                background-color: #ef3340;
+            }
+            .sectionheader {
+                color: #FFF;
+                background: #00205b;
+            }
+
+            /* Do not group these rules */
+            input[id=date_of_incident]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+                color: #595959;
+            }
+            input[id=date_of_incident]:-moz-placeholder { /* Firefox 18- */
+                color: #595959;
+                opacity: 1;
+            }
+            input[id=date_of_incident]::-moz-placeholder { /* Firefox 19+ */
+                color: #595959;
+                opacity: 1;
+            }
+            input[id=date_of_incident]:-ms-input-placeholder { /* IE */
+                color: #595959;
+            }
+            input[id=date_of_incident]::-ms-input-placeholder { /* IE Edge */
+                color: #595959;
+            }
+            .select2-container .select2-choice > .select2-chosen {
+                color: #595959;
+            }
+            .jFiler-theme-default .jFiler-input {
+                color: #595959;
+            }
+            .jFiler-theme-default .jFiler-input-button {
+                color: #000;
+            }
+        </style>
+    </head>
+    <body>
+        <noscript>
+            <style type="text/css">
+                #wrapper {display:none;}
+                body {background-color: white;}
+            </style>
+            <div class="noscriptmsg">
+                <center>
+                    <h1>As of January 1, 2017, your browser must have javascript enabled to use this form.</h1>
+                    <br><br>
+                    <h4>Javascript is a standard of the modern web. More than 99% of all Internet users globally have it <i>enabled</i>.
+                        If you are unsure how to enable javascript in your browser, <a href="http://enable-javascript.com/">click here for step-by-step instructions</a>.
+                    </h4>
+                </center>
+            </div>
+        </noscript>
+
+        <div id="wrapper" class="row"> <!--big wrap-->
+        <div class="small-12 columns"> <!-- big wrap-->
+        <div class="row" id="reportheader">
+            <div id="reportheader-left">
+                <p><img src="https://maxfs-useast-01.s3.amazonaws.com/uic/logos/UnivofIllinoisChicago.gif?response-cache-control=must-revalidate%2C%20post-check%3D0%2C%20pre-check%3D0&response-content-disposition=inline%3B%20filename%3D%22UnivofIllinoisChicago.gif%22&AWSAccessKeyId=AKIAJYZPEI2GVPJCSHMQ&Expires=1544630865&Signature=66bgyF0COZ9zCBaeUDzd2DcNgjg%3D" alt="University of Illinois at Chicago Logo"></p>
+            </div>
+            <div id="reportheader-right">
+                <h1>Sanction Submission Form</h1><br>
+            </div>
+        </div>
+
+        <div id="main_instructions" class="row">
+            <div class="large-12 columns">
+                <p>This form is used by students or student organizations to submit sanctions imposed for violating the University of Illinois at Chicago Student Disciplinary Policy or other associated policies. Please refer to the sanction letter for specifics about the sanctions you were assigned. <b>Please write your name and UIN # on all documents being submitted. Also, be sure to sign and date all documents and forms when required.</b> <br />
+<br />
+Failure to properly complete forms will result in a delay in processing. After submission, please allow up to three (3) business days for your documentation to be updated in the Office of the Dean of Students Conduct Database as being received.</p>
+            </div>
+        </div>
+        <form name="IR" id="IR" enctype="multipart/form-data" accept-charset="iso-8859-1" method="post" action="" data-abide novalidate>
+            <input type="hidden" name="institution" id="institution" value="UnivofIllinoisChicago">
+            <input type="hidden" name="layout_id" value="7">
+            <input type="hidden" name="x_requestor_ip" value="131.193.32.197">
+            <input type="hidden" name="x_requestor_starttime" value="1544623665.4978">
+            <input type="hidden" name="x_requestor_token" value="c4bf6e701f7e16932315c425b02c651c">
+            <div data-abide-error class="alert callout" style="display: none;">
+                <p><i class="fi-alert"></i>There are some errors. Please review the highlighted fields.</p>
+            </div>
+            <div class="sections">
+                <div class="sectionheader">Submitter's Information</div>
+                <div id="section1">
+                    <div class="column row">
+                        <p class="sectioninstructions"></p>
+                    </div>
+                    <div class="row">
+                        <div class="generallabel">
+                            &nbsp;
+                        </div>
+                        <div class="generalinput">
+                            Enable additional features by <a href="https://cm.maxient.com/reportingform.php?UnivofIllinoisChicago&layout_id=7&promptforauth=true">logging in</a>.                        </div>
+                    </div>
+                    <div class="row" >
+                        <div class="generallabel">
+                            <label for="reporters_full_name">Your full name:</label>
+                        </div>
+                        <div class="generalinput">
+                            <input tabindex="0" type="text" name="reporters_full_name" id="reporters_full_name" class="tooltip" title="" maxlength="80" value="">
+                        </div>
+                    </div>
+                    <div class="row" >
+                        <div class="generallabel">
+                            <label for="reporters_title">Your DOS Case Number:</label>
+                        </div>
+                        <div class="generalinput">
+                            <input tabindex="0" type="text" name="reporters_title" id="reporters_title" class="tooltip" title="" maxlength="80" value="">
+                        </div>
+                    </div>
+                    <div class="row" >
+                        <div class="generallabel">
+                            <label for="reporters_phone_number">Your phone number:</label>
+                        </div>
+                        <div class="smallerinput">
+                            <input tabindex="0" type="text" name="reporters_phone_number" id="reporters_phone_number"
+                            class="tooltip" title="" maxlength="20" value="">
+                        </div>
+                    </div>
+                    <div class="row" >
+                        <div class="generallabel">
+                            <label for="reporters_email_address">Your UIC email address:</label>
+                        </div>
+                        <div class="generalinput">
+                            <input tabindex="0" type="email" name="reporters_email_address" id="reporters_email_address" class="tooltip" title="" maxlength="80" value="">
+                        </div>
+                    </div>
+                    <div class="row" >
+                        <div class="generallabel" >
+                            <label for="reporters_physical_address">UIN:</label>
+                        </div>
+                        <div class="generalinput">
+                            <input tabindex="0" type="text" name="reporters_physical_address" id="reporters_physical_address" class="tooltip" title="" maxlength="80" value="">
+                        </div>
+                    </div>
+                                            <div class="row">
+                            <div class="generallabel">
+                                <label for="nature">Nature of your violation?<span class="required">(Required)</span>:</label>
+                            </div>
+                            <div class="generalinput">
+                                <select tabindex="0" autocomplete="nope" name="nature" id="nature" class="tooltip" title="Was this matter academic related or non-academic/behavioral related" required>
+                                    <option value="" disabled selected hidden>Please Choose...</option>
+                                    <option value="Academic">Academic</option><option value="Non-Academic/Behavioral">Non-Academic/Behavioral</option>                                </select>
+                                <span class="form-error">This field is required.</span>
+                            </div>
+                        </div>
+                                                <input type="hidden" name="urgency" id="urgency" value="N/A">
+                                                <div class="row">
+                            <div class="generallabel">
+                                <label for="date_of_incident" class="errorMsgBindSite">Date of Submission<span class="required">(Required)</span>:</label>
+                            </div>
+                            <div class="small-6 medium-3 columns">
+                                <input tabindex="0" autocomplete="nope" type="text" name="date_of_incident" id="date_of_incident" class="tooltipDate" title="" required pattern="date" maxlength="10" placeholder="YYYY-MM-DD" value="">
+                                <span class="form-error">
+                                  This field is required.                                </span>
+                            </div>
+                            <div class="dateinput small-6 medium-3 columns end">
+                                <span id="calendar"></span>
+                            </div>
+                        </div>
+                                            
+                    <div class="row" style="display: none;">
+                        <div class="generallabel">
+                            <label for="time_of_incident">Time of incident:</label>
+                        </div>
+                        <div class="smallerinput">
+                            <input tabindex="0" autocomplete="nope" type="text" name="time_of_incident" id="time_of_incident" class="tooltip" title="" maxlength="10" value="">
+                        </div>
+                    </div>
+                                            <input type="hidden" name="location_of_incident" id="location_of_incident" value="N/A">
+                                            <div class="row" style="display: none;">
+                        <div class="generallabel">
+                            <label for="location_of_incident_specific">If Other, please elaborate.:</label>
+                        </div>
+                        <div class="generalinput">
+                            <input tabindex="0" autocomplete="nope" type="text" name="location_of_incident_specific" id="location_of_incident_specific" class="tooltip" title="" size="40" maxlength="100" value="" style="position:relative;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+                            <div class="sections">
+                    <div class="sectionheader">Sanction Submission Information</div>
+                    <div id="addquest">
+                                                    <div class="sectioninstructions"><p><b>All sanctions must be submitted below either via a Word or PDF Documents</p></div>
+                                                    <input type="hidden" name="numberOfAdditionalQuestions" value="4">
+
+                                                    <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <fieldset class="checkbox-group" data-validator-min="1">
+                                            <legend class="addquest_label">Type of Sanction(s)<span class="required">(Required)</span></legend>
+                                            <div class="row">
+                                                <div class="answers">
+                                                    <div class="large-4 columns ">
+                                                                                                                    <div class="allegations_indiv">
+                                                                <label><input tabindex="0" autocomplete="nope" type="checkbox" name="aq[1][answer][]" value="Academic Integrity Online Course Completion"  required data-validator="checkbox_limit">Academic Integrity Online Course Completion</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input tabindex="0" autocomplete="nope" type="checkbox" name="aq[1][answer][]" value="Apology Letter"  required data-validator="checkbox_limit">Apology Letter</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input tabindex="0" autocomplete="nope" type="checkbox" name="aq[1][answer][]" value="Academic Integrity Seminar"  required data-validator="checkbox_limit">Academic Integrity Seminar</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input tabindex="0" autocomplete="nope" type="checkbox" name="aq[1][answer][]" value="Alcohol Education: Under the Influence Certificate of Completion"  required data-validator="checkbox_limit">Alcohol Education: Under the Influence Certificate of Completion</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input tabindex="0" autocomplete="nope" type="checkbox" name="aq[1][answer][]" value="Article Review"  required data-validator="checkbox_limit">Article Review</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input tabindex="0" autocomplete="nope" type="checkbox" name="aq[1][answer][]" value="Book Review"  required data-validator="checkbox_limit">Book Review</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input tabindex="0" autocomplete="nope" type="checkbox" name="aq[1][answer][]" value="Conflict Wise Certificate of Completion"  required data-validator="checkbox_limit">Conflict Wise Certificate of Completion</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input tabindex="0" autocomplete="nope" type="checkbox" name="aq[1][answer][]" value="Community Service Verification Form w/ Reflection Paper"  required data-validator="checkbox_limit">Community Service Verification Form w/ Reflection Paper</label>
+                                                            </div>
+                                                                                                                                </div>
+                                                                    <div class="large-4 columns ">
+                                                                                                                                <div class="allegations_indiv">
+                                                                <label><input tabindex="0" autocomplete="nope" type="checkbox" name="aq[1][answer][]" value="Educational Seminar"  required data-validator="checkbox_limit">Educational Seminar</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input tabindex="0" autocomplete="nope" type="checkbox" name="aq[1][answer][]" value="Film Review"  required data-validator="checkbox_limit">Film Review</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input tabindex="0" autocomplete="nope" type="checkbox" name="aq[1][answer][]" value="Interview"  required data-validator="checkbox_limit">Interview</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input tabindex="0" autocomplete="nope" type="checkbox" name="aq[1][answer][]" value="Marijuana 101 Certificate of Completion"  required data-validator="checkbox_limit">Marijuana 101 Certificate of Completion</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input tabindex="0" autocomplete="nope" type="checkbox" name="aq[1][answer][]" value="Other"  required data-validator="checkbox_limit">Other</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input tabindex="0" autocomplete="nope" type="checkbox" name="aq[1][answer][]" value="Other Drugs Certificate of Completion"  required data-validator="checkbox_limit">Other Drugs Certificate of Completion</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input tabindex="0" autocomplete="nope" type="checkbox" name="aq[1][answer][]" value="Program Attendance w/ Reflection Paper"  required data-validator="checkbox_limit">Program Attendance w/ Reflection Paper</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input tabindex="0" autocomplete="nope" type="checkbox" name="aq[1][answer][]" value="Proof of Anger Management Completion"  required data-validator="checkbox_limit">Proof of Anger Management Completion</label>
+                                                            </div>
+                                                                                                                                </div>
+                                                                    <div class="large-4 columns ">
+                                                                                                                                <div class="allegations_indiv">
+                                                                <label><input tabindex="0" autocomplete="nope" type="checkbox" name="aq[1][answer][]" value="Proof of Fine Payment"  required data-validator="checkbox_limit">Proof of Fine Payment</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input tabindex="0" autocomplete="nope" type="checkbox" name="aq[1][answer][]" value="Proof of Restitution"  required data-validator="checkbox_limit">Proof of Restitution</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input tabindex="0" autocomplete="nope" type="checkbox" name="aq[1][answer][]" value="RAISE"  required data-validator="checkbox_limit">RAISE</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input tabindex="0" autocomplete="nope" type="checkbox" name="aq[1][answer][]" value="Referral Meeting Attendance Verification w/ Reflection Paper"  required data-validator="checkbox_limit">Referral Meeting Attendance Verification w/ Reflection Paper</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input tabindex="0" autocomplete="nope" type="checkbox" name="aq[1][answer][]" value="Reflection Paper"  required data-validator="checkbox_limit">Reflection Paper</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input tabindex="0" autocomplete="nope" type="checkbox" name="aq[1][answer][]" value="Research Assignment"  required data-validator="checkbox_limit">Research Assignment</label>
+                                                            </div>
+                                                                                                                        <div class="allegations_indiv">
+                                                                <label><input tabindex="0" autocomplete="nope" type="checkbox" name="aq[1][answer][]" value="Verification of Counseling Services"  required data-validator="checkbox_limit">Verification of Counseling Services</label>
+                                                            </div>
+                                                                                                                </div>
+                                                </div>
+                                            </div>
+                                            <span class="form-error addquest_error">You must make at least one selection.</span>
+                                        </fieldset>
+                                                                        </div>
+                            </div>
+                                                        <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <label class="addquest_label" for="aq[2][answer]">Sanction Due Date<span class="required">(Required)</span></label>
+                                        <input tabindex="0" autocomplete="nope" type="text" name="aq[2][answer]" id="aq[2][answer]" class="answers" value="" required maxlength="100">
+                                        <span class="form-error addquest_error">This field is required.</span>
+                                                                        </div>
+                            </div>
+                                                        <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <label class="addquest_label" for="aq[3][answer]">If you have any notes or comments, please use this space.</label>
+                                        <textarea tabindex="0" autocomplete="nope" spellcheck="true" name="aq[3][answer]" id="aq[3][answer]" class="answers"  rows="5"></textarea>
+                                        <span class="form-error addquest_error">This field is required.</span>
+                                                                        </div>
+                            </div>
+                                                        <div class="row">
+                                <div class="small-12 columns question">
+                                                                            <label class="addquest_label" for="aq[4][answer]">After the completing this sanction, what did you learn from this experience? What will you do different in the future?<span class="required">(Required)</span></label>
+                                        <textarea tabindex="0" autocomplete="nope" spellcheck="true" name="aq[4][answer]" id="aq[4][answer]" class="answers" required rows="5"></textarea>
+                                        <span class="form-error addquest_error">This field is required.</span>
+                                                                        </div>
+                            </div>
+                                                </div>
+                </div>
+                                <div class="sections">
+                    <div class="sectionheader">Sanction Submission</div>
+                    <div id="supportdocs">
+                        <div class="column row">
+                            <div class="sectioninstructions">
+                                <p>
+                                    Photos, video, email, and other supporting documents may be attached below.                                     1GB maximum total size.<br><strong>Attachments require time to upload, so please be patient after submitting this form.</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="column row">
+                            <input tabindex="-1" type="file" name="uploadedFiles[]" id="filer_input" multiple="multiple">
+                        </div>
+                    </div>
+                </div>
+                
+            <div class="sections">
+                            <div class="sectionheader">One last step ...</div>
+                <div id="recaptcha">
+                    <div class="row">
+                        <div id="recaptcha_text">
+                            <p><em><strong>Help us prevent spam reports</strong> by completing this captcha.<br>
+                                <strong>NOTE: </strong>If you do not see a gray box with a checkbox that says "I'm not a robot", please try a different web browser.</em></p>
+                            <span class="form-error">This field is required.</span>
+                        </div>
+                        <div class="g-recaptcha" id="recaptcha_frame"></div>
+                    </div>
+                                    <div class="row">
+                        <div class="small-12 columns text-center" id="submit_btn">
+                                                            <p><input tabindex="0" autocomplete="nope" type="checkbox" id="sendCopyToAuthor" name="sendCopyToAuthor" value="Yes"
+                                        ><label for="sendCopyToAuthor">Email me a copy of this report</label></p>
+                                                        <input tabindex="0" autocomplete="nope" class="large button" type="submit" name="submit" value="Submit report">
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+        <div class="row">
+            <div class="small-12 columns">
+                <div data-abide-error class="alert callout" style="display: none;">
+                    <p><i class="fi-alert"></i>There are some errors. Please review the highlighted fields.</p>
+                </div>
+            </div>
+        </div>
+
+            </form>
+
+</div><!-- big wrap column-->
+</div><!-- big wrap -->
+<script src="publicside_assets/bower_components/jquery/dist/jquery.js"></script>
+<script src="publicside_assets/bower_components/what-input/what-input.js"></script>
+<script src="publicside_assets/bower_components/foundation-sites/dist/foundation.min.js"></script>
+<script src="publicside_assets/bower_components/app.js"></script>
+<script type="text/javascript" src="publicside_assets/yadp/js/lang/en-US.js"></script>
+<script type="text/javascript" src="publicside_assets/yadp/js/datepicker.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.8.9/jquery.timepicker.min.js"></script>
+<script type="text/javascript" src="publicside_assets/tipped/tipped.js"></script>
+<script type="text/javascript" src="publicside_assets/cloneform/clone-form-td.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/3.4.1/select2.min.js"></script>
+<script src="publicside_assets/jquery_filer/js/jquery.filer.min.js"></script>
+<script src="https://use.fontawesome.com/b22e7499d6.js"></script>
+
+<script type="text/javascript">
+    function ShowHide(elementId)
+    {
+        var element = document.getElementById(elementId);
+        if(element.style.display != "block")
+            element.style.display = "block";
+        else
+            element.style.display = "none";
+    }
+    function ShowPersonRow(elementId)
+    {
+        var element = document.getElementById(elementId);
+        element.style.display = ""; // using table-row here breaks IE6/7
+    }
+    function ShowLinkRow(elementId)
+    {
+        var element = document.getElementById(elementId);
+        element.style.display = ""; // using table-row here breaks IE6/7
+    }
+    function HideLinkRow(elementId)
+    {
+        var element = document.getElementById(elementId);
+        element.style.display = "none";
+    }
+
+    Tipped.create(".tooltip", {
+        position: 'right',
+        showOn: 'focus',
+        hideOn: 'blur'
+    });
+
+    Tipped.create(".tooltipDate", {
+        position: 'right',
+        showOn: 'focus',
+        hideOn: 'blur',
+        offset: { x: 50 }
+    });
+
+    
+    /*Must follow select2 script because of id change */
+    Tipped.create('#s2id_location_of_incident', '', {
+         position: 'right'
+    });
+
+    // 8/17/16:  Only include date_of_incident -related JS when that field is visible
+            // Causes date field to be revalidated when using the calendar icon.
+        function dateChanged () {
+            $('#date_of_incident').trigger("change");
+        }
+        // Causes date field to be revalidated when manually typing an incorrectly formatted date.
+        $('#date_of_incident').blur(function(){
+            $(this).trigger("change");
+        });
+
+        // Attach a datepicker to the date_of_incident input element
+        datePickerController.createDatePicker({
+            formElements:{
+                "date_of_incident":"%Y-%m-%d"
+            },
+
+             // Position the activation button within the span
+            positioned:"calendar",
+            // Stipulate some callback functions
+            callbackFunctions:{
+                "datereturned":[dateChanged]
+            },
+            // Set a range low of 1/1/1960 using a YYYYMMDD format String
+            rangeLow:"19600101",
+            // Set a range high of today's date using a Date Object
+            rangeHigh:new Date()
+        });
+            
+    $('#time_of_incident').timepicker({
+        'scrollDefault': 'now',
+        'step': '15',
+        'timeFormat': 'g:i A'
+    });
+
+    // jquery_filer for file uploads
+    $('#filer_input').filer({
+        limit: 30,
+        maxSize: 1000,
+        changeInput: true,
+        showThumbs: true,
+        addMore: true,
+        captions: {
+            button: "Choose Files",
+            feedback: "Choose files to upload",
+            feedback2: "file(s) selected",
+            drop: "Drop file here to upload",
+            removeConfirmation: "Are you sure you want to remove this file?",
+            errors: {
+                filesLimit: "Only {{fi-limit}} files are allowed to be uploaded.",
+                filesType: "This type of file cannot be uploaded.",
+                filesSize: "{{fi-name}} is too large. Your total upload cannot exceed {{fi-maxSize}} MB.",
+                filesSizeAll: "The files you've chosen are too large. Your total upload cannot exceed {{fi-maxSize}} MB."
+            }
+        }
+    });
+
+    // 8/15/16:  Added to make the file upload part of the natural tabbing order
+    //  Because the native <input> element is hidden up and off the page by the script, we had to set tabindex="-1" on it.
+    //  Using jquery to fire the click event when enter is pressed on the <div> that serves as the button for selecting files
+    $(".jFiler-input").attr('tabindex', "-1");
+    $(".jFiler-input-caption").attr('tabindex', "-1");
+    $(".jFiler-input-button").attr('tabindex', "0");
+    $(".jFiler-input-button").attr('role', "button");
+    $(".jFiler-input-button").keypress(function(e){
+        if(e.which === 13){
+            $(".jFiler-input-button").click();
+        }
+    });
+
+    /* Makes Abide work on select2 - triggers after the native scripts work */
+    $("#location_of_incident").on("invalid.zf.abide", function(ev,el) {
+        if($("#location_of_incident").hasClass("is-invalid-input"));
+            $("#lbl_location_of_incident").addClass("is-invalid-label");
+    });
+    $("#location_of_incident").on("valid.zf.abide", function(ev,frm) {
+        if($("#location_of_incident").hasClass("is-invalid-input"));
+            $("#lbl_location_of_incident").removeClass("is-invalid-label");
+    });
+
+    /* Makes Abide work on radio buttons - triggers after the native scripts work */
+    $(".radio-group").on("invalid.zf.abide", function(ev,el) {
+        $(this).find("input").each(function (i) {
+            if($(this).hasClass("is-invalid-input")) {
+              //  alert("this is true");
+                $(this).closest("fieldset").find("legend").addClass("is-invalid-label");
+                $(this).closest("fieldset").find('span.form-error').addClass("is-visible");
+            }
+        });
+    });
+    $(".radio-group").on("valid.zf.abide", function(ev,frm) {
+        $(this).find("input").each(function (i) {
+            if(!$(this).hasClass("is-invalid-input")) {
+              //  alert("this is true");
+                $(this).closest("fieldset").find("legend").removeClass("is-invalid-label");
+                $(this).closest("fieldset").find('span.form-error').removeClass("is-visible");
+            }
+        });
+    });
+
+    $('input, textarea, select').on("change.zf.abide", function(ev,elem) {
+        var invalid_fields = $('form').find('[data-invalid]');
+        if (invalid_fields.length == 0)
+            $('.alert.callout').addClass('hide');
+        else
+            $('.alert.callout').removeClass('hide');
+    });
+
+    /* Tests to ensure they completed the captcha */
+    $('#IR').submit(function(e) {
+        var v = grecaptcha.getResponse();
+        if (v.length == 0) {
+            $("#recaptcha_text").find("span").addClass("is-visible");
+            e.preventDefault();
+        }
+        else 
+            $("#recaptcha_text").find("span").removeClass("is-visible");
+    });
+
+    /* Makes form scroll to first invalid entry */
+    $('form').on('forminvalid.zf.abide', function () {
+        var invalid_fields = $(this).find('[data-invalid]');
+
+        $('html, body').animate({
+            scrollTop: $(invalid_fields[0]).offset().top - 40
+        }, 1000, function() {
+            /*$(invalid_fields[0]).focus();*/  /*for putting focus on the first invalid field*/
+        });
+    });
+
+    //$("#IR").on("formvalid.zf.abide", function(ev,frm) {
+    //    alert("Form is valid, finally!");
+    //});
+
+    /* Prevents IR from submitting when hitting enter */
+    /*
+    $('#IR').on('keyup keypress', function(e) {
+      var keyCode = e.keyCode || e.which;
+      if (keyCode === 13) {
+        e.preventDefault();
+        return false;
+      }
+    });
+    */
+    $('#IR').on('keydown', function(e){
+        var focused = $('div:focus').attr('class');
+
+        if(e.keyCode == 13 && e.target.nodeName!='TEXTAREA' && focused!='jFiler-input-button')
+        {
+          e.preventDefault();
+          return false;
+        }
+    });
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,478 @@
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  <title>The Pulse</title>
+  <style type="text/css">
+
+/* Shrink Wrap Layout Pattern CSS */
+	@media only screen and (max-width: 599px) {
+        td[class="header"] img {width: 100%; height: auto !important;}
+        td[class="top-main-header"] td{width: 100%;} }
+
+/* Basic Fluid Image Pattern CSS */
+    @media only screen and (max-width: 599px) {
+        img.main {max-width: 100%;height: auto !important;}  }
+
+/* 2 Equal-Width Columns V2 Layout Pattern CSS */
+    @media only screen and (max-width: 599px) {
+        td[class="icymi"] table { width: 100%; }
+        td[class="icymi"] .icymi-pics img {width: 100%; height: auto !important;} }
+
+    @media only screen and (max-width: 450px) {
+        td[class="icymi"] .spacer { display: none;}
+        td[class="icymi"] .col {width: 100%; display: block;}
+        td[class="icymi"] .col:first-child { margin-bottom: 30px;}
+        td[class="icymi"] .icymi-pics img { width: 100%; } }
+
+/* List with Thumbnails V2 Pattern CSS */
+    @media only screen and (max-width: 599px) {
+        td[class="ntk"] table {width: 100%;}
+        td[class="ntk"] img {width: 100%; height: auto !important;}
+        td[class="ntk"] .col {width: 48%;}
+        td[class="ntk"] .col:first-child {margin-right: 4%;}
+        td[class="ntk"] .col td {width: 70%; padding-right: 0 !important;}
+        td[class="ntk"] .col td:first-child {width: 30%;} }
+
+    @media only screen and (max-width: 520px) {
+        td[class="ntk"] .col {width: 100%; display: block; padding-bottom: 0 !important; margin-bottom: 20px;}
+        td[class="ntk"] .col:first-child {margin-right: 0;}
+        td[class="ntk"] .row:last-child .col:last-child {margin-bottom: 0;} }
+
+/* 3 equal-width columns Layout Pattern CSS */
+    @media only screen and (max-width: 599px) {
+        td[class="pattern"] table { width: 100%;}
+        td[class="pattern"] .col{width: 33%;} }
+
+    @media only screen and (max-width: 500px) {
+        td[class="pattern"] .col{width: 100%;display: block;}
+        td[class="pattern"] .col-left,
+        td[class="pattern"] .col-mid {margin-bottom: 20px;} }
+
+
+
+    /* Stacked Top Links Navigation Pattern CSS */
+    @media only screen and (max-width: 400px) {
+        td[class="main_nav"] 
+            td {display: block; padding: 0 !important;}
+        td[class="main_nav"] 
+            a {display: block;padding: 20px 0;} }
+    
+
+/* Style */
+    h1{
+    font-size:26px;
+    color:#001E62;
+    margin: 10px;
+    text-align: center;
+    padding: 0;
+    line-height:26px;
+    font-family:Tahoma, Geneva, sans-serif; }
+    
+    h2{
+    font-size:20px;
+        color:#001E62;
+     padding: 0;
+    line-height:20px;
+    font-family:Tahoma, Geneva, sans-serif; }
+    
+    p{
+    font-size:16px;
+    margin: 10px;
+    text-align: left;
+    padding: 0;
+    line-height:24px;
+    font-family:Tahoma, Geneva, sans-serif; }
+
+    </style>
+</head>
+
+
+
+<body style="background-color:#001e62;">
+
+<p style="font-size:11px; color:#ffffff; padding-bottom:10px; text-align: center; margin: auto;">Having trouble viewing this email? <a href="http://samarketing.uic.edu/studentaffairs/pulse_november_2017.html" style="color:#ffffff;">View this email in your browser</a></p>
+
+ <!-- Table Body -->
+<table cellpadding="0" cellspacing="0" style="background-color:#ffffff; margin: auto;">
+    <tr>
+        <td class="top-main-header" width="600">
+            <table cellpadding="0" cellspacing="0">
+               
+                <!-- Header -->
+                <tr>
+                    <td class="header" style="background-color:#d50032;">
+                        <p style="float:left; color:#ffffff;">November 2017</p>
+                        <p style="float:right; color:#ffffff;">Issue 11</p>
+                        <img src="http://samarketing.uic.edu/studentaffairs/images/pulse_header.jpg" alt="The Pulse" width="600" height="200" style="display: block; border: 0;">
+                    </td>
+                </tr>
+
+                <!-- Main story -->
+                <tr>
+                    <td align="center">
+                        <h1>UIC Cookbook Recipe Contest Is Now Open!</h1>
+                        <img class="main" src="http://samarketing.uic.edu/studentaffairs/images/cookbook.jpg" alt="UIC Cookbook Recipe" width="600" style="display: block; border: 0;">
+                        <p>Put on your Chef's hat and get out your tasty, easy-to-make and nutritious recipes, the UIC Wellness Center wants to hear from you!<br><br>
+
+                        UIC students, staff, faculty and alum, your recipes loosely based on the most commonly donated items to the UIC Pop-Up Pantry <em>(bread, canned beans, canned vegetables, just to name a few)</em> are welcome for the UIC Cookbook. The goal of the cookbook is to provide student pantry users with healthy recipes from ingredients commonly found in the pantry. Cookbooks will also be available for purchase, with proceeds benefiting the UIC Pop-Up Pantry. <br><br>
+
+                        Launched in 2014 by the Wellness Center, the UIC Pop-Up Pantry was created to combat food insecurity among students at UIC. Since it's inception, the Pantry has distributed over 3,000 bags of food to students at UIC experiencing food insecurity. <br><br>
+
+                        "The UIC Pop-Up Pantry and this new cookbook are part of our continued effort to ensure that none of our students face food insecurity," says Dr. Ero Eggelopoulou-Amiridis, wife of Chancellor Michael Amiridis. <br><br>
+
+                        Please consider writing one nutritious, easy-to-make recipe. If selected, your recipe will be featured in the cookbook. All registered UIC students will also receive $5.00 in Dragon Dollar$ in their account.<br><br>
+
+                        For details and to submit a recipe, please visit <a href="http://go.uic.edu/recipe-contest">go.uic.edu/recipe-contest</a>. Contest ends November 17th.<br><br>
+
+                        <small><em>Contributing information by Carol Petersen, Associate Director of the Wellness Center.</em> </small>
+                        <hr size="5" noshade>
+                    </td>
+                </tr>
+
+            </table>
+        </td>
+    </tr>
+</table>
+
+
+
+
+<!-- ICYMI -->
+<table cellpadding="0" cellspacing="0" style="background-color:#ffffff; margin: auto;">
+    <tr>
+        <td class="icymi" width="600" align="center">
+            <h1>ICYMI - In Case You Missed It</h1>
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="col" width="290" valign="top">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td class="icymi-pics">
+                                    <img src="http://samarketing.uic.edu/studentaffairs/images/blues_fest.jpg" width="100%" height="150" alt="Maxwell Street Blues Fest" style="display: block; border: 0;" />
+                                    <p><b>Maxwell Street Blues Fest<br> September 9</b><br>
+                                    Bringing Chicago Blues back to its roots, featuring UIC's own Jacob Schulz! Click <a href="https://uiccds.photoshelter.com/galleries/C0000qHzADBS49XM/G0000X_jsE63w4xU/Blues-Fest">here</a> to view more photos!
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+
+                    <td class="spacer" width="20" style="font-size: 1px;">&nbsp;</td>
+
+                    <td class="col" width="290" valign="top">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td class="icymi-pics">
+                                    <iframe width="100%" height="150" src="https://www.youtube.com/embed/fQrDjrIqmzo" frameborder="0" allowfullscreen></iframe>
+                                    <p><b>REVELRY<br> September 29-October 1</b><br>
+                                    Weekend games, rides, food, and fun for the UIC community and the public.
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+
+
+
+<!-- Need to know -->
+<table cellpadding="0" cellspacing="0" style="background-color:#ffffff; margin: auto;">
+    <tr>
+        <td class="ntk" width="600">
+            <table cellpadding="0" cellspacing="0" align="center" >
+                
+                <hr size="5" noshade>
+                <h1>Need to Know</h1>
+               
+                <tr class="row">
+                    <td class="col" valign="top" width="300">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td>
+                                    <p><b>November<br />
+                                    Native American Heritage Month</b><br>
+                                    Celebrate Native American heritage throughout the month.
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+
+                    <td class="col" valign="top" width="300">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td>
+                                    <p><b>Through November 11<br />
+                                    UIC Veterans Week</b><br>
+                                    For a list of Veterans Week events, click <a href="http://today.uic.edu/uic-veterans-week-2017">here</a>.
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr class="row" valign="top">
+                    <td class="col" width="300" >
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td>
+                                    <p><b>November 9<br />
+                                    Reel Rock 2017</b><br>
+                                    Annual Rock Climbing Festival<br>
+                                    4:00-9:00PM<br>
+                                    Student Recreation Facility<br>
+                                    For details, click <a href="http://recreation.uic.edu/reel-rock-2017">here</a>.
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+
+                    <td class="col" width="300" >
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td>
+                                    <p><b>November 10<br />
+                                    Flames Friday Tailgate</b><br>
+                                    Celebrate the home openers for UIC Flames Basketball games.<br>
+                                    4:30-6:30PM<br>
+                                    UIC Pavilion Parking lot<br>
+                                    For details, click <a href="https://www.facebook.com/events/514248822260055">here</a>.
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr class="row" valign="top">
+                    <td class="col" width="300" >
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td>
+                                    <p><b>November 11-18<br />
+                                    Homecoming Week</b><br>
+                                    Homecoming tailgate and games on 11/16. For details, visit <a href="http://go.uic.edu/UICHOCO">go.uic.edu/UICHOCO</a>.
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+
+                    <td class="col" width="300" >
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td>
+                                    <p><b>November 20<br />
+                                    UIC Impact Day</b><br>
+                                    1:00-4:30PM<br>
+                                    Illinois Rooms, SCE<br>
+                                    UIC Impact Day will provide students with the opportunity to showcase their scholarly pursuits in and beyond the classroom. For details, click <a href="http://vcsa.uic.edu/impactmain/uic-impact-day">here</a>.
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+
+
+                <tr class="row" valign="top">
+                    <td class="col" width="300" >
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td>
+                                    <p><b>November 23<br />
+                                    Thanksgiving</b><br>
+                                    Universitiy holiday
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+
+            </table>
+        </td>
+    </tr>
+</table>
+
+
+
+<!-- Employee section -->
+<table cellpadding="0" cellspacing="0" style="background-color:#ffffff; margin: auto;">
+    <tr>
+        <td class="top-main-header" width="600">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>
+                        <hr size="5" noshade>
+                        <h1>Shout-out to the Crew</h1>
+                        <img class="main" src="http://samarketing.uic.edu/studentaffairs/images/all_in.jpg" alt="ALL IN Campus Democracy Challenge Champion Award" width="600" style="display: block; border: 0;">
+                        <p>UIC received an ALL IN Campus Democracy Challenge Champion Award for being the "most engaged campus" for increasing voting rates among college students. Spencer Long, Associate Director, Center for Leadership and Civic Engagement accepted the award at the national ceremony in Washington, D.C. on October 19th. To read more, click <a href="https://today.uic.edu/uic-wins-national-award-for-student-voter-engagement">here</a>.
+
+                        <hr size="2" color="#00b5e2" noshade>
+                    </td>
+                </tr>
+
+                <table cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="pattern" width="600" align="center">
+                            <table cellpadding="0" cellspacing="0">
+                                <tr>
+
+                                    <td class="col col-left" width="200" align="left" valign="top">
+                                        <table cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td align="left" style="padding: 10px;">
+                                                    <table cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td align="left">
+                                                                <h2>New Hires</h2>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <p style="font-size: 14px; margin: 0px;">
+                                                                <b>Suzan Akin,<br> Associate Director</b><br>
+                                                                Student Development Services<br><br>
+
+                                                                <b>Melissa (Missy) Frazin, <br>Program/Student Advisor (Career Development and Engagement)</b><br>
+                                                                Career Services<br><br>
+
+                                                                <b>Jameisha Hall,<br>Building Service Worker</b><br>
+                                                                Campus Housing<br><br>
+
+                                                                <b>Danny Michael, <br>Program/Student Advisor (Assistant Director for Employer Relations)</b><br>
+                                                                Career Services<br><br>
+
+                                                                <b>Phillip Ngetich,<br>Payroll Specialist II</b><br>
+                                                                Student Affairs Human Resources
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+
+                                    <td class="col col-mid" width="200" align="center" valign="top">
+                                        <table cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td align="left" style="padding: 10px;">
+                                                    <table cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td align="left">
+                                                                <h2>Promotions</h2>
+                                                            </td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <td>
+                                                                <p style="font-size: 14px; margin: 0px;">
+                                                                <b>Pall Arnason, <br>Assistant Superintendent of Building Services </b><br>
+                                                                Student Centers<br><br>
+
+                                                                <b>Carol Coston, <br>Program/Student Advisor (Career Development and Engagement)</b><br>
+                                                                Career Services<br><br>
+
+                                                                <b>James Fricke, <br>Deputy Director</b><br>
+                                                                Student Affairs Financial Services<br><br>
+
+                                                                <b>Samantha Gill, <br>Assistant Program Director</b><br>
+                                                                Campus Recreation<br><br>
+
+                                                                <b>Sabrina Liu,<br> Accounting Associate</b><br>
+                                                                UIC Bookstore<br><br>
+
+                                                                <b>Sandra Schwendeman, <br>Assistant Facilities Manager</b><br>
+                                                                UIC Pavilion<br><br>
+
+                                                                <b>Andre Williams, <br>Building Service Foreman</b><br>
+                                                                Campus Housing
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+
+                                    <td class="col" width="200" align="center" valign="top">
+                                        <table cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td align="left" style="padding: 10px;">
+                                                    <table cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td align="left">
+                                                                <h2>Retirements</h2>
+                                                            </td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <td>
+                                                                <p style="font-size: 14px; margin: 0px;">
+                                                                <b>Lillye Hart, <br>Assistant to the Vice Chancellor</b><br>
+                                                                Office of the Vice Chancellor for Student Affairs<br><br>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+
+                                    <!-- FOOTER -->
+                                    <table cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td class="main_nav" width="600" style="padding:12px 15px;background-color:#d50032;">
+                                                <table cellpadding="0" cellspacing="0" width="100%">
+                                                    <tr>
+                
+                                                        <td align="center" style="padding: 15px 10px; font-family: arial,sans-serif; font-size: 12px; font-weight: bold;">
+                                                           <img class="main" style="display: block; border: 0;" src="http://samarketing.uic.edu/studentaffairs/images/student_affairs_logoW.png" width="212.483" height="30" alt="UIC Student Affairs logo"/>
+                                                        </td>
+                    
+                                                        <td align="center" style="padding: 15px 10px; font-family: arial,sans-serif; font-size: 14px; font-weight: bold;">
+                                                            <a href="#" style="text-decoration: none; color: #ffffff;">Follow us @UIClife</a>
+                                                        </td>
+                    
+                                                        <td align="center" style="padding: 10px;">
+                                                            <a href="https://www.facebook.com/UIClife"><img src="http://samarketing.uic.edu/studentaffairs/images/facebookW_logo.png" alt="UIClife Facebook Page"/></a>
+                                                        </td>
+                    
+                                                        <td align="center" style="padding: 10px;">
+                                                            <a href="https://twitter.com/uiclife"><img src="http://samarketing.uic.edu/studentaffairs/images/twitterW_logo.png" alt="UIClife Twitter Page"/></a>
+                                                        </td>
+                    
+                                                        <td align="center" style="padding: 10px;">
+                                                            <a href="https://www.instagram.com/uiclife"><img src="http://samarketing.uic.edu/studentaffairs/images/IG2_logoW.png" width="30" height="30.01" alt="UIClife Instagram Page"/></a>
+                                                        </td>
+                    
+                                                        <td align="center" style="padding: 10px;">
+                                                            <a href="https://www.pinterest.com/uiclife7075/uiclife"><img src="http://samarketing.uic.edu/studentaffairs/images/pint_logoW.png" width="30" height="30" alt="UIClife Pinterest Page"/></a>
+                                                        </td>
+                    
+                                                        <td align="center" style="padding: 10px;">
+                                                            <a href="https://www.snapchat.com/add/uiclife"><img src="http://samarketing.uic.edu/studentaffairs/images/snapchatW.png" width="30" height="30" alt="UIClife Snapchat Page"/></a>
+                                                        </td>
+                    
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </table>
+        </td>
+    </tr>
+</table>
+
+
+
+
+

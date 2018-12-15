@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <link rel="shortcut icon" href="startup/flat-ui/images/favicon.ico">
+        
+        <link rel="stylesheet" href="startup/flat-ui/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="startup/flat-ui/css/flat-ui.min.css">
+        <!-- Using only with Flat-UI (free)-->
+        <link rel="stylesheet" href="startup/common-files/css/icon-font.min.css">
+        <!-- end -->
+        <link rel="stylesheet" href="startup/common-files/css/animations.min.css">
+        <link rel="stylesheet" href="static/css/style.css">
+        
+        <title>#CMTL - UIC Computational Multiphase Transport Laboratory</title>
+    </head>
+
+    <body>
+        <div class="page-wrapper">
+<header class="header-9">
+<div id="top"></div>
+    <div class="container">
+        <div class="row">
+            <div class="navbar col-sm-12" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle"></button>
+                    <a class="brand" href="index.html#" a>#CMTL</span></a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav">
+                        <li><a href="#people">PEOPLE</a></li>
+                        <li><a href="#research">RESEARCH</a></li>
+                        <li><a href="edu.html#">EDUCATION</a></li>
+                        <li><a href="facilities.html#">FACILITIES</a></li>
+                        <li><a href="publications.html#">PUBLICATIONS</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+           
+<section class="header-9-sub bg-black">
+    <div class="background" id="bgVideo">&nbsp;</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <div class="row">
+                    <div class="h1">COMPUTATIONAL MULTIPHASE TRANSPORT LABORATORY<div>
+                </div>
+                <div class="row"><br> </div>
+                <div class="row"><br> </div>
+                <div class="row"><br> </div>
+                <div class="row"><br> </div>
+                <div class="row"><br> </div>
+                <div class="row"><br> </div>
+                <div class="row"><br> </div>
+                <div class="row"><br> </div>
+                <div class="row">
+                    <p class="wide-text text-warning">COMPUTATIONAL FLUID DYNAMICS / HIGH PERFORMANCE COMPUTING</p>
+                </div>
+            </div>
+        </div>
+        <div class="nav-steps">
+            <a href="#" class="active">HOME PAGE</a>
+            <div class="steps-selectors">
+                <a href="#" class="active">/</a>
+                <a href="#people">/</a>
+                <a href="#sponsors">/</a>
+                <a href="#research">/</a>
+            </div>
+            <a href="#contact">CONTACT</a>
+        </div>
+    </div>
+</section>
+
+<a name="people"></a>
+<section class="crew-4">
+    <div class="container">
+        <h3 >CURRENT MEMBERS</h3>
+
+        <div class="members">
+            <div class="member-wrapper">
+                <div class="member">
+                    <div class="photo-wrapper">
+                        <div class="photo"><img src="img/mashayek.jpg" alt=""></div>
+                        <div class="overlay">
+                            <a href="mailto:mashayek@uic.edu">
+                                <div class="fui-mail"></div>
+                            </a>
+                            <a href="http://www.mie.uic.edu/bin/view/MIE/ProfileMashayek">
+                                <div class="fui-link"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">Farzad Mashayek</div>
+                        <b>Professor and Lab Director.</b><br><br><br>
+
+                        <!--div class="contacts">
+                        </div-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="member-wrapper">
+                <div class="member">
+                    <div class="photo-wrapper">
+                        <div class="photo"><img src="img/jon.jpg" alt=""></div>
+                        <div class="overlay">
+                            <a href="mailto:jkompe2@uic.edu">
+                                <div class="fui-mail"></div>
+                            </a>
+                            <a href="https://www.linkedin.com/in/jkomperda">
+                                <div class="fui-linkedin"></div>
+                            </a>
+                            <a href="https://scholar.google.com/citations?user=tvTc99cAAAAJ&hl=en">
+                                <div class="fui-googleplus"></div>
+                            </a>
+                            <a href="http://www.jonkomperda.com">
+                                <div class="fui-link"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">Jonathan (Jon) Komperda</div>
+                        <b>Lecturer / Ph.D. Student</b> who specializes in probability density function methods for turbulent chemically reacting flows in discontinuous spectral element methods.
+
+                        <!--div class="contacts">
+                        </div-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="member-wrapper">
+                <div class="member">
+                    <div class="photo-wrapper">
+                        <div class="photo"><img src="img/zia.jpg" alt=""></div>
+                        <div class="overlay">
+                            <a href="mailto:sghias2@uic.edu">
+                                <div class="fui-mail"></div>
+                            </a>
+                            <a href="https://www.linkedin.com/pub/zia-ghiasi/35/663/749">
+                                <div class="fui-linkedin"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">Zia Ghiasi</div>
+                        <b>Ph.D. Student</b> who focuses on employing shock capturing methods, such as entropy-viscosity method, in high-order discretization schemes.
+
+                        <!--div class="contacts">
+                        </div-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="members">
+            <div class="member-wrapper">
+                <div class="member">
+                    <div class="photo-wrapper">
+                        <div class="photo"><img src="img/dongru.jpg" alt=""></div>
+                        <div class="overlay">
+                            <a href="mailto:dli21@uic.edu">
+                                <div class="fui-mail"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">Dongru Li</div>
+                        <b>Ph.D. Student</b> who is working on turbulent boundary layers in subsonic flow and specializes in meshing complex geometries.
+
+                        <!--div class="contacts">
+                        </div-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="member-wrapper">
+                <div class="member">
+                    <div class="photo-wrapper">
+                        <div class="photo"><img src="img/ajay.jpg" alt=""></div>
+                        <div class="overlay">
+                            <a href="mailto:aramas9@uic.edu">
+                                <div class="fui-mail"></div>
+                            </a>
+                            <a href="https://www.linkedin.com/pub/ajaykrishna-ramasubramanian/52/6b1/146">
+                                <div class="fui-linkedin"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">Ajaykrishna Ramasubramanian</div>
+                        <b>Ph.D. Student</b> who is working on simulation of strain effects and fracture of electrodes used in Li-ion batteries.<br><br>
+                        <!--div class="contacts">
+                        </div-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="member-wrapper">
+                <div class="member">
+                    <div class="photo-wrapper">
+                        <div class="photo"><img src="img/paul.jpg" alt=""></div>
+                        <div class="overlay">
+                    
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">Paul Vesely</div>
+                        <b>Ph.D. Student</b> who specializes in electrostatic atomization.<br><br><br>
+
+                        <!--div class="contacts">
+                        </div-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="members">
+            <div class="member-wrapper">
+                <div class="member">
+                    <div class="photo-wrapper">									 
+                        <div class="photo"><img src="img/Yurkiv_Picture-My.jpg"  alt="" height="100" width="100"></div>
+                        <div class="overlay">
+                            <a href="mailto:vyurkiv@uic.edu">
+                                <div class="fui-mail"></div>
+                            </a>							<a href="http://cmtl.uic.edu/research4.html">                                <div class="fui-link"></div>                            </a>							<a href="https://www.linkedin.com/in/vitaliy-yurkiv-84a58b96?trk=nav_responsive_tab_profile">                                <div class="fui-linkedin"></div>                            </a>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name"><a href="http://cmtl.uic.edu/research4.html">Vitaliy Yurkiv</a> </div>
+                        <b>Senior Research Specialist</b> who specializes in the modeling and simulation of electrochemical energy storage (batteries) and conversion (fuel/electrolysis cells) technologies.<br><br><br>
+                        <!--div class="contacts">
+                        </div-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="member-wrapper">
+                <div class="member">
+                    <div class="photo-wrapper">
+                        <div class="photo"><img src="img/prior.jpg" alt=""></div>
+                        <div class="overlay">
+                            <a href="former.html">
+                                <div class="fui-link"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">Previous Members</div>
+                        <b>Here you can find a list of prior CMTL lab members.</b><br><br>
+
+                        <!--div class="contacts">
+                        </div-->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="member-wrapper">
+                <div class="member">
+                    <div class="photo-wrapper">
+                        <div class="photo"><img src="" alt=""></div>
+                        <div class="overlay">
+                            <a href="apply.html">
+                                <div class="fui-link"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="name">Open Positions</div>
+                        <b>Apply</b> to join CMTL <a href="apply.html">here</a>. <br><br>
+
+                        <!--div class="contacts">
+                        </div-->
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+</section>
+
+<!--sponsors-->
+<div id="sponsors"></div>
+<section class="content-38 bg-grey">
+    <div class="container">
+        <h3>SPONSORS</h3>
+        <div class="samples-holder">
+            <div class="row samples-grid">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <div class="row">
+                        <div class="sample-box col-xs-3">
+                            <img src="img/sponsors/argonne-212.png" id="sample1" alt="Argonne" width="212" height="400"/>
+                        </div>
+                        <div class="sample-box col-xs-6">
+                            <img src="img/sponsors/afrl-454.png" id="sample2" alt="AFRL" width="454" height="389">
+                        </div>
+                        <div class="sample-box col-xs-3">
+                            <img src="img/sponsors/nsf-212.png" id="sample3" alt="Sample 6" width="212" height="497">
+                        </div>
+                        <div class="sample-box col-xs-3">
+                            <img src="img/sponsors/ees-212.png" id="sample4" alt="EES" width="120" height="183">
+                        </div>
+                        <div class="sample-box col-xs-3">
+                            <img src="img/sponsors/nasa-212.png" id="sample5" alt="Sample 5" width="213" height="402">
+                        </div>
+                        <div class="sample-box col-xs-3">
+                            <img src="img/sponsors/ARL-212.png" id="sample6" alt="Sample 6" width="212" height="497">
+                        </div>
+                        <div class="sample-box col-xs-3">
+                            <img src="img/sponsors/onr-212.png" id="sample7" alt="Sample 6" width="212" height="497">
+                        </div>
+                        <div class="sample-box col-xs-3">
+                            <img src="img/sponsors/spray-212.png" id="sample8" alt="Sparying Systems" width="212" height="778"/>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--projects-->
+<section class="projects-1">
+    <div class="container">
+        <div class="title">
+            <a name='research'><h3>Current Research</h3></a>
+        </div>
+
+        <div class="head-box box1">
+            <div class="brand"><a href="research1.html">Turbulent Reacting Flow</a></div>
+            <p>A flow solver based on high-order spectral element method is used with a pdf-based combustion model for Large-Eddy Simulation (LES) of subsonic and supersonic flows. The code is also used for Direct Numerical Simulation (DNS). </p>
+
+            <div class="features">
+                <div>
+                    <span class="fui-arrow-right"></span> <a href="research1.html">read more...</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="head-box box2">
+            <div class="brand"><a href="research2.html">Plasma Flow</a></div>
+            <p>The main interest is in dusty plasma with particular application to nanoparticle coating. Various methods are used, including Particle-in-Cell (PIC) and fluid model, for simulation of charging, levitation and coating.</p>
+
+            <div class="features">
+                <div>
+                    <span class="fui-arrow-right"></span> <a href="research2.html">read more...</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="head-box box3">
+            <div class="brand"><a href="research3.html">Electrostatic Atomization</a></div>
+            <p>The mechanism of liquid atomization is significantly enhanced by injecting electric charge. Both experiments and simulations are used to develop a better understanding of the charging process and to apply this atomization method in practice.</p>
+
+            <div class="features">
+                <div>
+                    <span class="fui-arrow-right"></span> <a href="research3.html">read more...</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="head-box box4">
+            <div class="brand"><a href="research4.html">Energy Storage and Conversion</a></div>
+            <p>In our work we investigate chemistry, electro-chemistry and mechanics (elasto-plastic deformation) of secondary (rechargeable) batteries, together with the next-generation low temperature electrochemical energy conversion technologies. </p>			<p> </p>			<p> </p>
+            <div class="features">
+                <div>
+                    <span class="fui-arrow-right"></span> <a href="research4.html">read more...</a>
+                </div>
+            </div>
+        </div>
+        
+        
+</section>
+<section class="contacts-5">
+    <a name='contact'></a>
+    <div class="map">
+        <!--map-->
+        <div class="overlaymap" onClick="style.pointerEvents='none'"></div>
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47536.89654276188!2d-87.635582476089!3d41.87014086471884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2ce5f4e90559%3A0xc6df1db5b851bc1d!2s842+W+Taylor+St%2C+Chicago%2C+IL+60607!5e0!3m2!1sen!2sus!4v1423687351013=embed"></iframe>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="box box-first">
+                    <h6>University of Illinois at Chicago</h6>
+                    <p>Computational Multiphase Transport Laboratory<br>
+                        Department of Mechanical and Industrial Engineering<br>
+                        842 W. Taylor Street<br>
+                        Chicago, IL 60608</p>
+                </div>
+                <br class="hidden-xs">
+                <!--<div class="box">
+                    <h6></h6>
+                    <p></p>
+                </div>-->
+            </div>
+            <div class="col-sm-4 col-sm-offset-1 box">
+                <h6>Contact</h6>
+                <p>Lab Phone: (312) 413-9662<br>
+                   Office Phone: (312) 996-1154<br>
+                   E-Mail: <a href="mailto:mashayek@uic.edu">mashayek@uic.edu</p>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<footer class="footer-7 ">
+    <div class="container">
+        <a href="#"><span class="fui-home"> </span></a>
+        <nav>
+            <ul>
+                <li><a href="index.html#top">HOME</a></li>
+                <li><a href="index.html#people">PEOPLE</a></li>
+                <li><a href="#research">RESEARCH</a></li>
+                <li class="scroll-btn"><a href="#top" class="scroll-top fui-arrow-up"> </a></li>
+                <li><a href="index.html#contact">CONTACT</a></li>
+                <li><a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">PRIVACY STATEMENT</a></li>
+            </ul>
+        </nav>
+        <div class="social-btns">
+            <a href="mailto:mashayek@uic.edu">
+                <div class="fui-mail"></div>
+                <div class="fui-mail"></div>
+            </a>
+            
+        </div>
+    </div>
+    
+</footer>
+<p><center><font size="1" color="#dddddd">©2015 computational multiphase transport laboratory.<br>designed by Jon Komperda</font></center></p>
+            <!-- Placed at the end of the document so the pages load faster -->
+            <script src="startup/common-files/js/jquery-1.10.2.min.js"></script>
+            <!--script src="startup/common-files/js/jquery.bxslider.min.js"></script-->
+            <script src="startup/common-files/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+            <script src="startup/common-files/js/jquery.sharrre.min.js"></script>
+            <script src="startup/flat-ui/js/bootstrap.min.js"></script>
+            <script src="startup/common-files/js/masonry.pkgd.min.js"></script>
+            <script src="startup/common-files/js/modernizr.custom.js"></script>
+            <!--script src="startup/common-files/js/page-transitions.js"></script-->
+            <script src="startup/common-files/js/easing.min.js"></script>
+            <!--script src="startup/common-files/js/jquery.svg.js"></script-->
+            <!--script src="startup/common-files/js/jquery.svganim.js"></script-->
+            <script src="startup/common-files/js/jquery.backgroundvideo.min.js"></script>
+            <script src="startup/common-files/js/jquery.parallax.min.js"></script>
+            <!--script src="startup/common-files/js/froogaloop.min.js"--></script>
+            <script src="startup/common-files/js/startup-kit.min.js"></script>
+            <script src="js/script.min.js"></script>
+        </div>
+        <script>
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+                || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                   if (target.length) {
+                     $('html,body').animate({
+                         scrollTop: target.offset().top
+                    }, 800);
+                    return false;
+                }
+            }
+        });
+        </script>
+    </body>
+</html>

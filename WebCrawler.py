@@ -43,7 +43,7 @@ class Crawler:
                 r = requests.get("http://"+Url)
                 if(r.status_code == 200):
                     self.webLinks[self.pageNo] = Url
-                    filename = "./.CrawledData/"+str(self.pageNo)
+                    filename = "./CrawledData/"+str(self.pageNo)
                     os.makedirs(os.path.dirname(filename), exist_ok=True)
                     with open(filename, "w") as f:
                         f.write(r.text)
@@ -62,7 +62,7 @@ class Crawler:
 
                     self.reverseWebLinks = {v: k for k, v in self.webLinks.items()}
                     if(len(self.webLinks) > self.pagesCount):
-                        with open("./.CrawledData/crawledLinks_"+str(self.pagesCount),"wb") as outfile:
+                        with open("./CrawledData/crawledLinks_"+str(self.pagesCount),"wb") as outfile:
                             pickle.dump(self.webLinks,outfile)
                             pickle.dump(self.reverseWebLinks,outfile)
                         break

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Wenjing Rao - Home</title>
+
+
+
+<link rel="stylesheet" href="http://cdn2.editmysite.com/css/sites.css?buildTime=1234" type="text/css" /><link rel='stylesheet' type='text/css' href='http://cdn1.editmysite.com/editor/libraries/fancybox/fancybox.css?1234' />
+<link rel='stylesheet' type='text/css' href='files/main_style.css?1426614891' title='wsite-theme-css' />
+<style type='text/css'>
+.wsite-elements.wsite-not-footer div.paragraph, .wsite-elements.wsite-not-footer p, .wsite-elements.wsite-not-footer .product-block .product-title, .wsite-elements.wsite-not-footer .product-description, .wsite-elements.wsite-not-footer .wsite-form-field label, .wsite-elements.wsite-not-footer .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer h2, .wsite-elements.wsite-not-footer .product-long .product-title, .wsite-elements.wsite-not-footer .product-large .product-title, .wsite-elements.wsite-not-footer .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+#wsite-title {}
+.wsite-menu-default a {}
+.wsite-menu a {}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline {}
+.wsite-headline-paragraph {}
+.wsite-button-inner {}
+.wsite-not-footer blockquote, #wsite-com-product-tab blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+</style>
+
+<style type='text/css'>
+.wsite-header {
+	background-image: url(uploads/8/4/4/4/8444551/header_images/1313173907.jpg) !important;
+	background-position: 0 0 !important;
+}
+</style>
+<script><!--
+var STATIC_BASE = '//cdn1.editmysite.com/';
+var STYLE_PREFIX = 'wsite';
+//-->
+</script>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+<script src='http://cdn2.editmysite.com/js/site/main.js?buildTime=1234'></script>
+<script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script>_W.relinquish && _W.relinquish()</script>
+<script type='text/javascript'><!--
+var IS_ARCHIVE=1;
+(function(jQuery){
+function initFlyouts(){initPublishedFlyoutMenus([{"id":"448062252749328972","title":"Home","url":"index.html","target":""},{"id":"894195479716282205","title":"CV","url":"cv.html","target":""},{"id":"592285668453369751","title":"Research","url":"research.html","target":""},{"id":"256539616664955535","title":"Teaching","url":"teaching.html","target":""},{"id":"104075556389263487","title":"Fun","url":"fun.html","target":""}],"448062252749328972","<li><a href=\"#\" data-membership-required=\"\" >{{title}}<\/a><\/li>",'active',false)}
+if (jQuery) {
+jQuery(document).ready(function() { jQuery(initFlyouts); });
+}else{
+if (Prototype.Browser.IE) window.onload = initFlyouts;
+else document.observe('dom:loaded', initFlyouts);
+}
+})(window._W && _W.jQuery)
+//-->
+</script>
+</head>
+<body class='wsite-theme-light tall-header-page wsite-page-index'>
+<div class="header-wrap">
+	<div class="container">
+		<table id="header">
+			<tr>
+				<td id="logo"><span class='wsite-logo'><a href='index.html'><span id="wsite-title">Wenjing Rao</span></a></span></td>
+				<td id="header-right">
+					<table>
+						<tr>
+							<td class="phone-number"></td>
+							<td class="social"></td>
+							<td class="search"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</div>
+</div>
+<div class="main-wrap">
+	<div class="container">
+		<div id="main">
+			<div id="banner">
+				<div class="wsite-header"></div>
+			</div>
+			<div id="navigation">
+				<ul class='wsite-menu-default'><li id="active"><a href="index.html">Home</a></li><li id='pg894195479716282205'><a href="cv.html" data-membership-required="0" >CV</a></li><li id='pg592285668453369751'><a href="research.html" data-membership-required="0" >Research</a></li><li id='pg256539616664955535'><a href="teaching.html" data-membership-required="0" >Teaching</a></li><li id='pg104075556389263487'><a href="fun.html" data-membership-required="0" >Fun</a></li></ul>
+				<div class="clear"></div>
+			</div>
+			<div id="content">
+				<div id='wsite-content' class='wsite-elements wsite-not-footer'>
+<h2 style="text-align:left;">Welcome!</h2>
+<span class='imgPusher' style='float:left;height:0px'></span><span style='position:relative;float:left;z-index:10;;clear:left;margin-top:0px;*margin-top:0px'><a><img class="wsite-image galleryImageBorder" src="uploads/8/4/4/4/8444551/7838400.jpg" style="margin-top: 5px; margin-bottom: 10px; margin-left: 0px; margin-right: 10px; border-width:1px;padding:3px;" alt="Picture" /></a><div style="display: block; font-size: 90%; margin-top: -10px; margin-bottom: 10px; text-align: center;"></div></span>
+<div class="paragraph" style="text-align:left;display:block;"><br /><font size="3">Wejing Rao<br /><br />Associate Professor&nbsp;<br />Electrical and Computer Engineering&nbsp;Department&nbsp;<br />University of Illinois at Chicago</font></div>
+<hr style="clear:both;visibility:hidden;width:100%;"></hr>
+
+<div class="paragraph" style="text-align:left;">Last updated: Mar 2015</div>
+
+<div><div id="578108288629807303" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35553608-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></div>
+
+
+
+</div></div>
+
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div id="footer">
+			Create a <a target="_top" href="http://www.weebly.com/">free web site</a> with <a target="_top" href="http://www.weebly.com/" title="free web site">Weebly</a>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

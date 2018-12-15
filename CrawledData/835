@@ -1,0 +1,592 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head><meta http-equiv="Content-Type" content="text/html;charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>
+	
+        UIC Connection - 
+        
+    Form
+
+    
+</title><link rel="stylesheet" type="text/css" href="https://cdn1.campuslabs.com/assets/core.bootstrap3/v4.0/scss/core/core.v4.0.036.css" />
+    
+<link rel="stylesheet" type="text/css" href="https://cdn2.campuslabs.com/assets/core/v4.0/css/jqueryui/campuslabs.core.jquery.ui.v4.0.036.css" /><link rel="stylesheet" type="text/css" href="https://cdn1.campuslabs.com/assets/kendoui/v4.0/css/campuslabs.kendoui.v4.0.036.css" /><link rel="stylesheet" type="text/css" href="https://cdn1.campuslabs.com/assets/core.bootstrap3/v4.0/scss/core/core.v4.0.036.css" /><link rel="stylesheet" type="text/css" href="https://cdn1.campuslabs.com/assets/clink/v4.0/scss/site.v4.0.036.css" /><link rel="stylesheet" type="text/css" href="https://cdn2.campuslabs.com/assets/core/v4.0/css/campuslabs.core.icons.v4.0.036.css" /><link rel="stylesheet" type="text/css" href="https://cdn1.campuslabs.com/assets/kendoui/v4.0/css/campuslabs.kendoui.v4.0.036.css" /><script type="text/javascript" src="https://cdn1.campuslabs.com/assets/core/v4.0/js/libs/campuslabs.jquery.v4.0.036.js"></script><script type="text/javascript" src="https://cdn1.campuslabs.com/assets/core/v4.0/js/libs/campuslabs.core.head.v4.0.036.js"></script><script type="text/javascript" src="https://cdn2.campuslabs.com/assets/core/v4.0/js/libs/campuslabs.jquery.ui.v4.0.036.js"></script><script type="text/javascript" src="https://cdn1.campuslabs.com/assets/core/v4.0/js/libs/campuslabs.jquery.libs.v4.0.036.js"></script><script type="text/javascript" src="https://cdn1.campuslabs.com/assets/core/v4.0/js/campuslabs.core.v4.0.036.js"></script><script type="text/javascript">var cl_userLang = '';</script><script type="text/javascript" src="https://cdn1.campuslabs.com/assets/clink/v4.0/js/svg/cl.datepickerlocalizationoverride.v4.0.036.js"></script><script type="text/javascript" src="https://cdn2.campuslabs.com/assets/clink/v4.0/js/libs/cl.jquery.libs.v4.0.036.js"></script><script type="text/javascript" src="https://cdn1.campuslabs.com/assets/clink/v4.0/js/svg/cl.svg.main.v4.0.036.js"></script><script type="text/javascript" src="https://cdn2.campuslabs.com/assets/core4/v4.0/js/angular/campuslabs.core4.angular.v4.0.036.js"></script><script type="text/javascript" src="https://cdn1.campuslabs.com/assets/core4/v4.0/js/angular-bootstrap/campuslabs.core4.angular-bootstrap.v4.0.036.js"></script><script type="text/javascript" src="https://cdn1.campuslabs.com/assets/clink/v4.0/js/cl.ajaxupload.v4.0.036.js"></script><script type="text/javascript" src="https://cdn1.campuslabs.com/assets/kendoui/v4.0/js/campuslabs.kendoui.custom.v4.0.036.js"></script>
+	
+    
+    <script>
+         core.siteRoot = 'submitter';
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', '_ga');
+
+        _ga('create', 'UA-38298106-6', 'auto', 'collegiatelink');
+        _ga('collegiatelink.send', 'pageview');
+    </script>
+	
+	
+	
+    <script type="text/javascript" src="//tinymce.cachefly.net/4.2/tinymce.min.js"></script>
+	<script type="text/javascript" src="https://cdn2.campuslabs.com/assets/clink/v4.0/js/tinymce.init.v4.0.036.js"></script>
+
+
+    
+    <script type="text/javascript">
+        core.siteRoot = '/';
+        $('body').on('click', '.modal-info', function (e) {
+            e.preventDefault();
+            var options = {};
+            if ($(this).attr('title')) {
+                options.title = $(this).attr('title');
+            }
+            core.modal.init($($(this).attr('href')), options).open();
+        });
+    </script>
+    
+
+	<script type="text/javascript">
+	    $(function () {
+	        var URLS = SVG.URLS;
+	        URLS.TinyMCEUrl = '/assets/tinymce/js/tiny_mce.js';
+
+	        
+	        SVG.InitPlugins();
+	    });
+	</script>
+	
+	
+
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" /><link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-red.min.css" />
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    
+    <link rel="stylesheet" type="text/css" href="//static.collegiatelink.net/action-center/css/action-center.css">
+    <link rel="stylesheet" type="text/css" href="//static.collegiatelink.net/action-center/css/forms.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700,700i" />
+
+    <style type="text/css">
+         .col-md-8, .col-md-4 {
+			float: none;
+		}
+        .mdl-data-table {
+            width: 100%;
+        }
+        .bsmList-item-remove {
+            width: 15px !important;
+        }
+        #registerRosterPositions ul li.checked {
+            background-repeat: no-repeat;
+            background-position-x: 100%;
+        }
+        .button-bar {
+            margin-top: 40px;
+        }
+        .mdl-textfield--full-width {
+            width: 100% !important;
+        }
+        fieldset[disabled] .mdl-textfield .mdl-textfield__label, 
+        .mdl-textfield.is-disabled.is-disabled .mdl-textfield__label {
+            color: #494949 !important;
+        }
+        .mdl-textfield__label {
+            overflow: visible !important;
+        }
+
+        h1 {
+            margin: 24px 0;
+        }
+
+        .form-group {
+            padding: 10px;
+        }
+
+        .formItemError {
+            background: rgba(255, 0, 0, 0.05);
+            border-left: 6px solid #cd0a0a;
+        }
+
+        @media (min-width: 768px) {
+            #mainContent {
+                padding: 0 35px !important;
+            }
+        }
+            a:focus, form button:focus, textarea:focus, .form-control:focus, input[type='submit']:focus {
+        outline: 3px auto rgba(249, 99, 1, .5);
+        outline-offset: 1px;
+        transition: outline .2s ease;
+        box-shadow: none;
+        border: none !important;
+    }
+        .stepForm .single-checkbox {
+    float:left !important;
+    width:100% !important;
+}
+    </style>
+</head>
+<body>
+    
+            <div id="discovery-bar"></div>
+            <style>
+                #mainContent {
+                    min-height: calc(100vh - 231px) !important;
+                }
+            </style>
+    <noscript>
+    <div id="javascript-message">
+        <h1>JavaScript is disabled on your browser. Please enable JavaScript to use this site.</h1>
+    </div>
+</noscript>
+
+    <div role="main" id="mainContent" tabindex="-1">
+        
+
+        
+
+        
+    <form action="/engage/submitter/form/step/1" enctype="multipart/form-data" method="post"><input name="__RequestVerificationToken" type="hidden" value="eyh_lTJ7Y-raHl1YGIOjT8XTatsrGgn6jFlteYE-FDVNP33v6gYQSrZENcPtWUjyqVnZWTkaxOvYOt9KQKCRyagbNnaVTWlU5PXTqzTMGuA1" />
+        <div class="stepForm mdl-grid">
+           <div class="mdl-cell mdl-cell--12-col">
+                
+<style>
+.formItemError, .instructions, .stepForm .single-checkbox {
+    float:left !important;
+    width:100% !important;
+}
+
+
+</style>
+<fieldset style="border-top:0px !important; margin:0 !important; padding:0 !important;" class="fieldset__section">
+    <h2>MLK Day of Service 2019 Registration Form</h2>
+    
+
+<div class="instructions">
+    
+<p>The Dr. MLK Jr. Day of Service takes place on Dr. Martin Luther King Jr. Day every January. Since there is no class held on this day, we characterize it as “a day on, not a day off”.</p>
+<p>Each year, approximately 150 students, faculty, staff, and friends of the UIC community participate in honoring Dr. King's legacy by serving our local communities.</p>
+This year's Dr. MLK Jr. Day of Service will take place on January 21, 2019, and offers a number of different sites/projects in the Chicagoland area.&nbsp;<br>
+<br>
+Registrations received&nbsp;prior to January 16, 2019, will be given priority.&nbsp;
+</div>
+
+<div class="form-group text-entry 
+     
+     required ">
+    <div class="label-set" id="answerTextBox-34815590">Last Name</div>
+    <div class="group-set" role="group" aria-labelledby="answerTextBox-34815590">
+        <input id="pageResponse_Responses_Index" name="pageResponse.Responses.Index" type="hidden" value="fta34815590" />
+<input class="freeTextAnswerId form-control" id="pageResponse_Responses_fta34815590__FreeTextAnswerId" name="pageResponse.Responses[fta34815590].FreeTextAnswerId" type="hidden" value="34815590" />
+
+<label for="answerTextBox-34815590-free" class="sr-only">Write-In Answer</label>
+<input class="form-control free-text" id="answerTextBox-34815590-free" name="pageResponse.Responses[fta34815590].FreeText" type="text" value="" />
+    
+    </div>
+</div>
+
+<div class="form-group text-entry 
+     
+     required ">
+    <div class="label-set" id="answerTextBox-34815616">First Name</div>
+    <div class="group-set" role="group" aria-labelledby="answerTextBox-34815616">
+        <input id="pageResponse_Responses_Index" name="pageResponse.Responses.Index" type="hidden" value="fta34815616" />
+<input class="freeTextAnswerId form-control" id="pageResponse_Responses_fta34815616__FreeTextAnswerId" name="pageResponse.Responses[fta34815616].FreeTextAnswerId" type="hidden" value="34815616" />
+
+<label for="answerTextBox-34815616-free" class="sr-only">Write-In Answer</label>
+<input class="form-control free-text" id="answerTextBox-34815616-free" name="pageResponse.Responses[fta34815616].FreeText" type="text" value="" />
+    
+    </div>
+</div>
+
+<div class="form-group text-entry 
+     
+    ">
+    <div class="label-set" id="answerTextBox-34815619">UIN</div>
+    <div class="group-set" role="group" aria-labelledby="answerTextBox-34815619">
+        <input id="pageResponse_Responses_Index" name="pageResponse.Responses.Index" type="hidden" value="fta34815619" />
+<input class="freeTextAnswerId form-control" id="pageResponse_Responses_fta34815619__FreeTextAnswerId" name="pageResponse.Responses[fta34815619].FreeTextAnswerId" type="hidden" value="34815619" />
+
+<label for="answerTextBox-34815619-free" class="sr-only">Write-In Answer</label>
+<input class="form-control free-text" id="answerTextBox-34815619-free" name="pageResponse.Responses[fta34815619].FreeText" type="text" value="" />
+    
+    </div>
+</div>
+
+<div class="form-group text-entry 
+     
+     required ">
+    <div class="label-set" id="answerTextBox-34815621">Email Address&nbsp;</div>
+    <div class="group-set" role="group" aria-labelledby="answerTextBox-34815621">
+        <input id="pageResponse_Responses_Index" name="pageResponse.Responses.Index" type="hidden" value="fta34815621" />
+<input class="freeTextAnswerId form-control" id="pageResponse_Responses_fta34815621__FreeTextAnswerId" name="pageResponse.Responses[fta34815621].FreeTextAnswerId" type="hidden" value="34815621" />
+
+<label for="answerTextBox-34815621-free" class="sr-only">Write-In Answer</label>
+<input class="form-control free-text" id="answerTextBox-34815621-free" name="pageResponse.Responses[fta34815621].FreeText" type="text" value="" />
+    
+    </div>
+</div>
+
+<div class="instructions">
+    <strong>Please see below for all current service sites for MLK Day of Service 2019. You will use this information to rank your preferences.&nbsp;
+<br>
+<br>
+<span style="text-decoration:underline">Glenkirk</span>&nbsp;<br>
+</strong>Glenkirk empowers individuals with intellectual disabilities to participate fully in all areas of community life.<br>
+<strong>Location:</strong>&nbsp;623 Landwehr, Northbrook, IL<br>
+<strong>Time:&nbsp;</strong>9AM - 1PM<br>
+<strong>Project:&nbsp;</strong>Painting the Glenkirk Day Center<br>
+<br>
+<strong><span style="text-decoration:underline">Totally Positive Productions (TPP)</span><br>
+</strong>TPP provides positive outlets to engage youth and adults in positive &quot;Off the Street&quot; activities.<br>
+<strong>Location:&nbsp;</strong>7157 S. Princeton Ave., Chicago, IL<br>
+<strong>Time:&nbsp;</strong>9AM - 1PM<br>
+<strong>Project:&nbsp;</strong>Preparing youth and adult crime prevention materials to be distributed to all Chicago&nbsp;public schools.&nbsp;<br>
+<br>
+<span style="text-decoration:underline"><strong>North Branch Restoration</strong>
+<strong>Project - OUTDOORS</strong><br>
+</span>NBR is&nbsp;a volunteer organization that partners with the Cook County Forest Preserve to restore health to our region's natural areas.<br>
+<strong>Location:&nbsp;</strong>Harms Woods, Glenview, IL<br>
+<strong>Time:&nbsp;</strong>9AM - 12PM<br>
+<strong>Project: </strong>Cut invasive brush out of the woods and burn the brush in a small bonfire.<br>
+<br>
+<span style="text-decoration:underline"><strong>UCAN<br>
+</strong></span>UCAN supports youth through trauma and works to address the causes of trauma.&nbsp;<br>
+<strong>Location:</strong>&nbsp;1440 S. Christiana Ave., Chicago, IL<br>
+<strong>Time:&nbsp;</strong>8AM - 3PM<br>
+<strong>Project:&nbsp;</strong>Paint KIPP Ascend Primary School<br>
+<br>
+<span style="text-decoration:underline"><strong>Lakeview Pantry<br>
+</strong></span>Lakeview Pantry's mission is to eliminate hunger and poverty in the Lakeview community.&nbsp;<br>
+<strong>Location:&nbsp;</strong>3945 N. Sheridan, Chicago, IL<br>
+<strong>Time:&nbsp;</strong>10AM - 2PM<br>
+<strong>Project:&nbsp;</strong>Volunteers will distribute food to clients, stock shelves, unload deliveries, sort donations, and other various jobs.<br>
+<br>
+
+</div><input id="pageResponse_Responses_Index" name="pageResponse.Responses.Index" type="hidden" value="rb8066361" />
+
+<fieldset class="form-group   required ">
+    <legend class="label-set" style="color: #424242; font-size: 16px; line-height: 21px;" id="radioListLabel-8066361">Please rank your first choice of events/projects.<br>
+<br>
+<strong>*PLEASE NOTE: All participants are responsible for their own transportation to/from the site. Please make sure you select a site that you are able to get to. &nbsp;
+</strong></legend>
+    <div class="group-set" role="group" aria-labelledby="radioListLabel-8066361">
+        
+            <div class="radio">
+                <label for='34823041'>
+                    <input id="34823041" name="pageResponse.Responses[rb8066361].AnswerId" type="radio" value="34823041" />
+                    Glenkirk (623 Landwehr, Northbrook, IL)
+                </label>
+                    
+            </div> 
+            
+            <div class="radio">
+                <label for='34823042'>
+                    <input id="34823042" name="pageResponse.Responses[rb8066361].AnswerId" type="radio" value="34823042" />
+                    Totally Positive Productions (7157 S Princeton Ave., Chicago, IL)
+                </label>
+                    
+            </div> 
+            
+            <div class="radio">
+                <label for='34823316'>
+                    <input id="34823316" name="pageResponse.Responses[rb8066361].AnswerId" type="radio" value="34823316" />
+                    North Branch Restoration - OUTDOORS - (Harms Woods, Glenview, IL)
+                </label>
+                    
+            </div> 
+            
+            <div class="radio">
+                <label for='34823317'>
+                    <input id="34823317" name="pageResponse.Responses[rb8066361].AnswerId" type="radio" value="34823317" />
+                    UCAN (1440 S. Christiana Ave., Chicago, IL)
+                </label>
+                    
+            </div> 
+            
+            <div class="radio">
+                <label for='34823318'>
+                    <input id="34823318" name="pageResponse.Responses[rb8066361].AnswerId" type="radio" value="34823318" />
+                    Lakeview Pantry (3945 N Sheridan, Chicago, IL)
+                </label>
+                    
+            </div> 
+            
+    </div> 
+    
+</fieldset><input id="pageResponse_Responses_Index" name="pageResponse.Responses.Index" type="hidden" value="rb8066467" />
+
+<fieldset class="form-group   required ">
+    <legend class="label-set" style="color: #424242; font-size: 16px; line-height: 21px;" id="radioListLabel-8066467">Please rank your second choice of events/projects.</legend>
+    <div class="group-set" role="group" aria-labelledby="radioListLabel-8066467">
+        
+            <div class="radio">
+                <label for='34823571'>
+                    <input id="34823571" name="pageResponse.Responses[rb8066467].AnswerId" type="radio" value="34823571" />
+                    Glenkirk (623 Landwehr, Northbrook, IL)
+                </label>
+                    
+            </div> 
+            
+            <div class="radio">
+                <label for='34823572'>
+                    <input id="34823572" name="pageResponse.Responses[rb8066467].AnswerId" type="radio" value="34823572" />
+                    Totally Positive Productions (7157 S Princeton Ave., Chicago, IL)
+                </label>
+                    
+            </div> 
+            
+            <div class="radio">
+                <label for='34823573'>
+                    <input id="34823573" name="pageResponse.Responses[rb8066467].AnswerId" type="radio" value="34823573" />
+                    North Branch Restoration - OUTDOORS - (Harms Woods, Glenview, IL)
+                </label>
+                    
+            </div> 
+            
+            <div class="radio">
+                <label for='34823574'>
+                    <input id="34823574" name="pageResponse.Responses[rb8066467].AnswerId" type="radio" value="34823574" />
+                    UCAN (1440 S. Christiana Ave., Chicago, IL)
+                </label>
+                    
+            </div> 
+            
+            <div class="radio">
+                <label for='34823575'>
+                    <input id="34823575" name="pageResponse.Responses[rb8066467].AnswerId" type="radio" value="34823575" />
+                    Lakeview Pantry (3945 N Sheridan, Chicago, IL)
+                </label>
+                    
+            </div> 
+            
+    </div> 
+    
+</fieldset><input id="pageResponse_Responses_Index" name="pageResponse.Responses.Index" type="hidden" value="rb8066476" />
+
+<fieldset class="form-group   required ">
+    <legend class="label-set" style="color: #424242; font-size: 16px; line-height: 21px;" id="radioListLabel-8066476">Please rank your third choice of events/projects.</legend>
+    <div class="group-set" role="group" aria-labelledby="radioListLabel-8066476">
+        
+            <div class="radio">
+                <label for='34823584'>
+                    <input id="34823584" name="pageResponse.Responses[rb8066476].AnswerId" type="radio" value="34823584" />
+                    Glenkirk (623 Landwehr, Northbrook, IL)
+                </label>
+                    
+            </div> 
+            
+            <div class="radio">
+                <label for='34823585'>
+                    <input id="34823585" name="pageResponse.Responses[rb8066476].AnswerId" type="radio" value="34823585" />
+                    Totally Positive Productions (7157 S Princeton Ave., Chicago, IL)
+                </label>
+                    
+            </div> 
+            
+            <div class="radio">
+                <label for='34823586'>
+                    <input id="34823586" name="pageResponse.Responses[rb8066476].AnswerId" type="radio" value="34823586" />
+                    North Branch Restoration - OUTDOORS - (Harms Woods, Glenview, IL)
+                </label>
+                    
+            </div> 
+            
+            <div class="radio">
+                <label for='34823587'>
+                    <input id="34823587" name="pageResponse.Responses[rb8066476].AnswerId" type="radio" value="34823587" />
+                    UCAN (1440 S. Christiana Ave., Chicago, IL)
+                </label>
+                    
+            </div> 
+            
+            <div class="radio">
+                <label for='34823588'>
+                    <input id="34823588" name="pageResponse.Responses[rb8066476].AnswerId" type="radio" value="34823588" />
+                    Lakeview Pantry (3945 N Sheridan, Chicago, IL)
+                </label>
+                    
+            </div> 
+            
+    </div> 
+    
+</fieldset><input id="pageResponse_Responses_Index" name="pageResponse.Responses.Index" type="hidden" value="rb8067009" />
+
+<fieldset class="form-group   required ">
+    <legend class="label-set" style="color: #424242; font-size: 16px; line-height: 21px;" id="radioListLabel-8067009">Will you be volunteering with a group, such as a student organization or a fraternity/sorority?<br>
+<br>
+Note: If you are volunteering with a group, we will do our best to accommodate you at the same site. Each person needs to register individually. The sooner each person registers, the more likely it is that we can place you together.</legend>
+    <div class="group-set" role="group" aria-labelledby="radioListLabel-8067009">
+        
+            <div class="radio">
+                <label for='34824760'>
+                    <input id="34824760" name="pageResponse.Responses[rb8067009].AnswerId" type="radio" value="34824760" />
+                    Yes
+                </label>
+                    
+            </div> 
+            
+            <div class="radio">
+                <label for='34824761'>
+                    <input id="34824761" name="pageResponse.Responses[rb8067009].AnswerId" type="radio" value="34824761" />
+                    No
+                </label>
+                    
+            </div> 
+            
+    </div> 
+    
+</fieldset>
+
+<div class="form-group text-entry 
+     
+    ">
+    <div class="label-set" id="answerTextBox-34823589">If you responded &quot;yes&quot; above, approximately how many people are in your group?</div>
+    <div class="group-set" role="group" aria-labelledby="answerTextBox-34823589">
+        <input id="pageResponse_Responses_Index" name="pageResponse.Responses.Index" type="hidden" value="fta34823589" />
+<input class="freeTextAnswerId form-control" id="pageResponse_Responses_fta34823589__FreeTextAnswerId" name="pageResponse.Responses[fta34823589].FreeTextAnswerId" type="hidden" value="34823589" />
+
+<label for="answerTextBox-34823589-free" class="sr-only">Write-In Answer</label>
+<input class="form-control free-text" id="answerTextBox-34823589-free" name="pageResponse.Responses[fta34823589].FreeText" type="text" value="" />
+    
+    </div>
+</div>
+
+<div class="form-group text-entry 
+     
+    ">
+    <div class="label-set" id="answerTextBox-34823649">Please list the name of your group. <br>
+-If you are volunteering with friends or family, please list the names of the people that you prefer to be placed at the same site with.<br>
+-If you are signing up individually, leave this question blank.<br>
+<br>
+<br>
+</div>
+    <div class="group-set" role="group" aria-labelledby="answerTextBox-34823649">
+        <input id="pageResponse_Responses_Index" name="pageResponse.Responses.Index" type="hidden" value="fta34823649" />
+<input class="freeTextAnswerId form-control" id="pageResponse_Responses_fta34823649__FreeTextAnswerId" name="pageResponse.Responses[fta34823649].FreeTextAnswerId" type="hidden" value="34823649" />
+
+<label for="answerTextBox-34823649-free" class="sr-only">Write-In Answer</label>
+<input class="form-control free-text" id="answerTextBox-34823649-free" name="pageResponse.Responses[fta34823649].FreeText" type="text" value="" />
+    
+    </div>
+</div>
+
+<div class="form-group text-entry 
+     
+    ">
+    <div class="label-set" id="answerTextBox-34830798">If you have any requests regarding accessibility, please share them with us here.</div>
+    <div class="group-set" role="group" aria-labelledby="answerTextBox-34830798">
+        <input id="pageResponse_Responses_Index" name="pageResponse.Responses.Index" type="hidden" value="fta34830798" />
+<input class="freeTextAnswerId form-control" id="pageResponse_Responses_fta34830798__FreeTextAnswerId" name="pageResponse.Responses[fta34830798].FreeTextAnswerId" type="hidden" value="34830798" />
+
+<label for="answerTextBox-34830798-free" class="sr-only">Write-In Answer</label>
+<input class="form-control free-text" id="answerTextBox-34830798-free" name="pageResponse.Responses[fta34830798].FreeText" type="text" value="" />
+    
+    </div>
+</div>
+
+<div class="instructions">
+    Thank you for registering to volunteer for UIC's Martin Luther King Jr. Day of Service! We are happy that you will join us, and will send a confirmation with your site assignment closer to the event date.
+<br>
+<br>
+If you have any questions in the meantime, please contact us at slce@uic.edu.
+</div>
+
+<input type="hidden" name="pageResponse.ProjectId" value="404745" />
+<input type="hidden" name="pageResponse.RespondentPageId" value="0" />
+<input type="hidden" name="pageResponse.PageId" value="1221639" />
+
+</fieldset><input data-val="true" data-val-number="The field Index must be a number." data-val-required="The Index field is required." id="Index" name="Index" type="hidden" value="1" />
+    <input data-val="true" data-val-number="The field SubmissionId must be a number." data-val-required="The SubmissionId field is required." id="SubmissionId" name="SubmissionId" type="hidden" value="18326348" />
+    <input data-val="true" data-val-required="The Guid field is required." id="Guid" name="Guid" type="hidden" value="c35f5509-545d-4b16-b975-b2a475f55d9c" />
+    <div class="projectNav clearfix">
+        <hr />
+        
+            <button id="material-icons" name="navDirection" type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored pull-right" value="Next">Next<span class="material-icons" aria-hidden="true">keyboard_arrow_right</span></button>
+        
+    </div>
+
+    
+            </div>
+        </div>
+    </form>
+    </div>
+
+    <div id="engage-footer"></div>
+	
+	
+
+    
+    <script type="text/javascript" src="//assets.zendesk.com/external/zenbox/v2.6/zenbox.js"></script>
+    <style type="text/css" media="screen, projection">
+      @import url(//assets.zendesk.com/external/zenbox/v2.6/zenbox.css);
+    </style>
+    
+    
+	
+
+	
+
+
+    <script src="https://uic.campuslabs.com/engage/topbar/js?path=%2Fform%2Fstep%2F1"> </script>
+    <script>
+        var headerScript = document.createElement('script');
+        headerScript.src = window.engageStorage.getItem('topbarFile');
+        document.body.appendChild(headerScript);
+    </script>
+
+    <script>
+        $('body').on('click', '.modal-info', function (e) {
+            e.preventDefault();
+            var options = {};
+            if ($(this).attr('title')) {
+                options.title = $(this).attr('title');
+            }
+            core.modal.init($($(this).attr('href')), options).open();
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.modal-info').click(function () {
+                setTimeout(function () {
+                    var content = document.querySelector(
+                        '.k-window:not([style*="display: none"]');
+                    var tabbable = content.getElementsByTagName('a');
+                    var first = tabbable[0];
+                    var last = tabbable[tabbable.length - 1];
+                    first.focus();
+                    content.addEventListener('keydown', function (event) {
+                        if (event.shiftKey && event.keyCode === 9 && first == event.target) {
+                            event.stopPropagation();
+                            event.preventDefault();
+                            return false;
+                        }
+                        if (!event.shiftKey && event.keyCode === 9 && last == event.target) {
+                            event.stopPropagation();
+                            event.preventDefault();
+                            return false;
+                        }
+                    })
+                }, 600);
+            });
+
+            $('body').on('click', '.member-modal', function (e) {
+                e.preventDefault();
+                var card = core.modal.init($('<div />'), {
+                    content: $(this).attr('href'),
+                    refresh: function () {
+                        card.center();
+                    }
+                }).open();
+            });
+        });
+    </script>
+</body>
+</html>

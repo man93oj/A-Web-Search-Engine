@@ -1,0 +1,332 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery.js"></script>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-migrate.js"></script>
+<link rel="stylesheet" href="/pub/TWiki/JQueryPlugin/jquery-all.css" type="text/css" media="all" />
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-all.js"></script>
+<title> OntologyMatchingVisualAnalytics &lt; Cruz &lt; TWiki</title>
+
+<link rel="icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<link rel="alternate" href="https://www.cs.uic.edu/bin/edit/Cruz/OntologyMatchingVisualAnalytics?_T=2018-12-12" type="application/x-wiki" title="edit OntologyMatchingVisualAnalytics" />
+<link rel="shortcut icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<meta name="SCRIPTURLPATH" content="/bin" />
+<meta name="SCRIPTSUFFIX" content="" />
+<meta name="TEXT_JUMP" content="Jump" />
+<meta name="TEXT_SEARCH" content="Search" />
+<meta name="TEXT_NUM_TOPICS" content="Number of topics:" />
+<meta name="TEXT_MODIFY_SEARCH" content="Modify search" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/bin/view/Cruz/WebRss" />
+<base href="https://www.cs.uic.edu/bin/view/Cruz/OntologyMatchingVisualAnalytics"></base>
+<!--BEHAVIOURCONTRIB--><script type="text/javascript" src="/pub/TWiki/BehaviourContrib/behaviour.compressed.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikilib.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiWindow.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiEvent.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiHTML.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiCSS.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiForm.js"></script>
+<script type="text/javascript" src="/pub/TWiki/PatternSkin/pattern.js"></script>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/TWikiTemplates/base.css');
+</style>
+<style type="text/css" media="all">
+#patternTopBar,
+#patternClearHeaderCenter,
+#patternClearHeaderLeft,
+#patternClearHeaderRight,
+#patternTopBarContentsOuter,
+#patternTopBarContents {
+/*	height:64px; */ /* top bar height; make room for header columns */
+	overflow:hidden;
+}
+#patternOuter {
+	margin-left:14em;
+}
+#patternLeftBar {
+	width:14em;
+	margin-left:-14em;
+}
+</style>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/PatternSkin/layout.css');
+@import url('/pub/TWiki/PatternSkin/style.css');
+@import url('/pub/TWiki/PatternSkin/colors.css');
+</style>
+<style type="text/css" media="all">
+	/* Styles that are set using variables */
+	.patternBookView .twikiTopRow,
+	.patternWebIndicator a img,
+	.patternWebIndicator a:hover img {
+		background-color:#D0D0D0;
+	}
+	#patternTopBarContents { background-image:url(none); background-repeat:no-repeat;}
+	
+	.patternBookView {
+		border-color:#D0D0D0;
+	}
+	.patternPreviewPage #patternMain {
+		/* uncomment to set the preview image */
+		/*background-image:url("/pub/TWiki/PreviewBackground/preview2bg.gif");*/
+	}
+	
+</style><style type="text/css" media="all">
+
+@import url('/pub/Main/WebPreferences/mainweb.css');
+
+</style>
+<style type="text/css" media="all">
+	@import url("/pub/TWiki/PatternSkin/print.css");
+</style>
+<!--[if IE]><style type="text/css" media="screen">
+pre {
+	overflow-x:auto;
+	padding-bottom:expression(this.scrollWidth > this.offsetWidth ? 16 : 0);
+}
+</style>
+<![endif]-->
+<!--[if lte IE 6]> 
+<style type="text/css">
+#patternLeftBar {
+	position:relative; /* IE 5.5 needs this or the contents won't show outside the parent container on print. IE 6.0 needs it only during printable copy! */
+}
+</style><![endif]-->
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiStyles.js"></script>
+
+<!-- Google Analytics Snippet -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17081517-1']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+	 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + 
+'.google-analytics.com/ga.js';
+	 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- /Google Analytics Snippet -->
+</head>
+<body class="patternViewPage">
+<a name="PageTop"></a>
+<div id="patternScreen">
+<div id="patternPageShadow">
+<div id="patternPage">
+<div id="patternWrapper"><div id="patternOuter">
+<div id="patternFloatWrap">
+<div id="patternMain"><div id="patternClearHeaderCenter"></div>
+<div id="patternMainContents"><div class="patternTop"><span class="patternHomePath twikiLeft"><a href="/bin/view/Main/WebHome" class="twikiLink">TWiki</a><span class='twikiSeparator'>&gt;</span><img src="/pub/TWiki/TWikiDocGraphics/web-bg-small.gif" border="0" alt="" width="13" height="13" style="background-color:#D0D0D0" />&nbsp;<a href="/bin/view/Cruz/WebHome">Cruz Web</a><span class='twikiSeparator'>&gt;</span><a href="https://www.cs.uic.edu/bin/view/Cruz/OntologyMatchingVisualAnalytics" title='Topic revision: 7 (2018-07-29 - 23:32:41)'>OntologyMatchingVisualAnalytics</a> <span class='patternRevInfo'>(2018-07-29, Main.ifcruz)</span></span><!-- /patternHomePath--><span class="patternToolBar twikiRight"><span><a href='https://www.cs.uic.edu/bin/edit/Cruz/OntologyMatchingVisualAnalytics?t=1544636171' rel='nofollow' title='Edit this topic text' accesskey='e'><span class='twikiAccessKey'>E</span>dit</a></span><span><a href='/bin/attach/Cruz/OntologyMatchingVisualAnalytics' rel='nofollow' title='Attach an image or document to this topic' accesskey='a'><span class='twikiAccessKey'>A</span>ttach</a></span></span><!-- /patternToolBar--><br class="twikiClear" /></div><!--/patternTop--><div class="twikiContentHeader"></div><div class="patternContent"><div class="patternTopic"> <h1><a name="NSF_Award_III_Small_Enhancing_On"></a> NSF<a href="/bin/view/Cruz/OntologyMatchingVisualAnalytics#Disclaimer" class="twikiCurrentTopicLink twikiAnchorLink">*</a> Award: III: Small: Enhancing Ontology Matching with Visual Analytics </h1>
+<h2><a name="PI_Maria_Isabel_Cruz"></a> PI: <a href="https://www.cs.uic.edu/Cruz/" target="_top">Maria Isabel Cruz</a> </h2>
+<h3><a name="Award_Number_1618126"></a> <a href="https://nsf.gov/awardsearch/showAward?AWD_ID=1618126" target="_top">Award Number: 1618126</a> </h3>
+<h5><a name="Abstract"></a> Abstract </h5>
+<p />
+An ontology is a representation of a domain, be it biomedical, business, environmental, or others. In a world where data are predominantly heterogeneous, ontology matching establishes correspondences between the concepts of two ontologies, thus effectively bridging across two distinct domains or two different representations of the same domain. Ontology matching is therefore a fundamental tool for data integration, that is, for the creation of a homogeneous gateway to disparate data. Ontology matching systems are made up of several matching algorithms, called matchers. Different matching tasks require different matchers, thus there are various configuration and parameter choices to be made, resulting in a multi-dimensional problem whose tuning requires considerable effort and expertise. However, most ontology matching systems operate as a black box offering no insight as to how the output---a set of mappings among ontology concepts, called alignment---is generated. These systems do not usually offer the opportunity to the domain experts to validate automatically generated mappings, so as to gain control over the matching process. In this project, we use visual analytics, a combination of visualization and analytics to facilitate ontology matching. Users interact with a visual representation of the matching process and validate mappings that are ranked by underlying analytical methods. This award investigates visual analytics methods and studies their potential benefits. Our collaboration with partners in the biological domain will ensure the practical relevance of our research. From an educational viewpoint, the PI is spearheading a new Data Science curriculum in Computer Science, which can incorporate the main aspects of the proposed research and will train a graduate student and postdoc in this multidisciplinary field.<br /><br />Driven by data integration needs in a wide range of domains, the field of ontology matching has been prospering. However, the use of visual analytics remains largely unexplored. The proposed research will combine the power of visual analytics with ontology matching to: (1) open up the ontology matching process so as to facilitate its configuration by domain experts; (2) reduce the number of mappings to be validated by the experts so as to achieve high quality results with minimum effort; and (3) investigate a methodology to evaluate the benefits of combining ontology matching with visual analytics. For the visualization design, a principled approach will be followed that provides prescriptive guidance for determining appropriate evaluation approaches, while for the manipulation of visualized data a taxonomy of interactive operations will be used. Further, the design and analysis of the workflow that describes the interactive nature of the overall process will facilitate the study of the complex interdependencies between the data manipulation and the visualization components. The web site of this project is available at <a href="https://www.cs.uic.edu/Cruz/OntologyMatchingVisualAnalytics" target="_top">https://www.cs.uic.edu/Cruz/OntologyMatchingVisualAnalytics</a>.
+<h5><a name="First_Year_Report_2016_2017"></a> First Year Report (2016-2017) </h5>
+<h6><a name="Major_goals"></a> Major goals </h6>
+<p />
+The proposed research will combine the power of visual analytics with ontology matching to: (1) open up the ontology matching process so as to facilitate its configuration by domain experts; (2) reduce the number of mappings to be validated by the experts so as to achieve high quality results with minimum effort; and (3) investigate a methodology to evaluate the benefits of combining ontology matching with visual analytics.
+<h6><a name="Accomplishments"></a> Accomplishments </h6>
+<p />
+Ontology matching often uses external knowledge bases to establish the connection among concepts in different ontologies. We have investigated a distantly supervised approach to derive spatio-temporal relationships from text documents, which enrich knowledge bases with dynamic facts. Specifically, we have analyzed corpora of noun phrases, appositions, and adjectives to build templates characterizing geospatial and temporal data. We have successfully evaluated the effectiveness of our approach using both automated and manual methods on the YAGO knowledge base.
+<p />
+We have extended the ontology matching system AgreementMakerLight (in collaboration with researchers at the U. of Lisbon and IGC) to incorporate more scalable matching methods. The quality of our matching results have been recognized by our placement at the top of the more than 20 systems that competed in the 2016 Ontology Alignment Evaluation Initiative (OAEI), receiving the Pistoia Alliance first prize for the Disease and Phenotype track of the OAEI. We have disseminated our work by contributing open source code to GitHub. AgreementMakerLight has been used by experts to match ontologies describing biological information networks. They have been using a visual interface for the AgreementMakerLight system to explore in detail a subset of the mappings to determine their correctness. The experts have identified some of the visual operations they perform and their correspondence to their verification methods.
+<p />
+We have used Association Rule Mining and ontologies to extract patterns from repositories of crime data. Our technique has been incorporated into a system that displays query results and supports their analysis via a geospatial user interface. To analyze a Chicago crime dataset, we have built a crime ontology by matching crime classification schemes from the FBI and the Chicago Police Department. Our experiments show that we can significantly reduce the number of rules without sacrificing query precision.
+<p />
+We have investigated two formal frameworks to describe the requirements of a system that performs ontology matching extended with visual interaction, namely the Nested Model and the NOVIS model.
+<h6><a name="Products"></a> Products </h6> <ul>
+<li> <p>Balasubramani, Booma Sowkarthiga ; Shivaprabhu, Vivek R. ; Krishnamurthy, Smitha ; Cruz, Isabel F. ; Malik, Tanu (2016). Ontology-based urban data exploration. <em>4th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems</em>. . Status = PUBLISHED; Acknowledgment of Federal Support = Yes ; Peer Reviewed = Yes ; DOI: 10.1145/3007540.3007550</p>
+</li> <li> <p>Cheatham, Michelle; Cruz, I. F. ; Euzenat, J&eacute;r&ocirc;me ; Pesquita, C&aacute;tia (2017). Special issue on ontology and linked data matching.. <em>Semantic Web</em>. 8 (2), . Status = PUBLISHED; Acknowledgment of Federal Support = No ; DOI: 10.3233/SW-160251</p>
+</li> <li> <p>Mirrezaei, Seyed Iman ; Martins, Bruno ; Cruz, Isabel F. (2016). A distantly supervised method for extracting spatio-temporal information from text. <em>4th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems</em>. . Status = PUBLISHED; Acknowledgment of Federal Support = Yes ; Peer Reviewed = Yes ; DOI: 10.1145/2996913.2996967<br /><br /></p>
+</li> <li> Faria, Daniel ; Pesquita, Catia ; Balasubramani, Booma S. ; Martins, Catarina ; Cardoso, Jo&atilde;o ; Curado, Hugo ; Couto, Francisco M. ; Cruz, Isabel F. (2016). <em>Ontology-based urban data exploration</em>. 11th International Workshop on Ontology Matching co-located with the 15th International Semantic Web Conference. . Status = PUBLISHED; Acknowledgement of Federal Support = Yes
+</li></ul> 
+<h6><a name="Students"></a> Students </h6>
+<p />
+Vivek Shivaprabhu
+<h6><a name="Plans_for_the_following_year"></a> Plans for the following year </h6>
+<p />
+We plan to continue the identification of the matching and visual operations using the Nested Model.
+<p />
+We also plan to continue extending the AgreementMakerLight system to incorporate our research findings.
+<p />
+Regarding broader impacts, we plan to give assignments in an introductory Data Science course that address data integration and visual methods for data analysis.
+<p />
+<h5><a name="Second_Year_Report_2017_2018"></a> Second Year Report (2017-2018) </h5>
+<h6><a name="Major_activities"></a> Major activities </h6>
+<p />
+(1) Ontology Matching Process:
+<p />
+Develop efficient and scalable algorithms for ontology and instance matching.
+<p />
+(2) Mapping Validation:
+<p />
+Investigate applications that are semi-automatic, that is, that require the intervention of domain experts, focusing on mechanisms that reduce the number of mappings to be presented to the users for validation.
+<p />
+(3) Evaluation of Combining Ontology Matching with Visual Analytics:
+<p />
+Create a framework that allows for the visual exploration and comparison of the outcomes of different matchers or combination of matchers.
+<h6><a name="Specific_objectives"></a> Specific objectives </h6>
+<p />
+In the three major research directions we aimed at:
+<p />
+(1) Ontology Matching Process:
+<p />
+Successfully test our matching algorithms as developed in AgreementMakerLight (AML) with other state of the art approaches in the Ontology Matching Evaluation Initiative (OAEI). Enter for the first time with AML the Instance Matching OAEI track.
+<p />
+(2) Mapping Validation:
+<p />
+Develop algorithms that rank the mappings so as to facilitate the user�s choice of the mappings to validate. The idea being that users will validate first the highest ranked mappings, thus in practice reducing the number of mappings to validate.
+<p />
+(3) Evaluation of Combining Ontology Matching with Visual Analytics:
+<p />
+(a) Characterize ontology matching tasks from atomic to composite as the evaluation must be based on these tasks.
+<p />
+(b) Compare different visualizations in terms of number of steps required to perform those tasks.
+<p />
+c) Develop analytics for reorganizing the visualizations to facilitate the interpretation of the images.
+<h6><a name="Significant_results"></a> Significant results </h6>
+<p />
+(1) Ontology Matching Process: At the OAEI, AML was the only system (among 21) to participate in all the tracks and the best system overall, obtaining first place in the Anatomy track, Conference track, Multifarm track, Interactive Matching track, Anatomy track, Large Biomedical Ontologies track, and in the three Instance Matching Tracks.
+<p />
+(2) Mapping Validation: We developed and evaluated a mechanism for matching an unnamed property with a ranked list of knowledge base predicates, by looking at a set of homogeneous property values. Our ranking algorithm is able to effectively quantify semantic similarity.
+<p />
+(3) Evaluation of Combining Ontology Matching with Visual Analytics:
+<p />
+We expect to have made good progress on the three components of this topic by end of the summer.
+<h6><a name="Key_outcomes_or_other_achievemen"></a> Key outcomes or other achievements </h6>
+<p />
+(1) Ontology Matching Process: AgreementMakerLight won the 2017 IBM Research prize winner for Instance Matching. In a paper published in the J. of Biomedical Semantics, we dissect the strategies employed by matching systems that tackle the most difficult challenges such as those for biomedical ontologies using the AgreementMakerLight system as the platform for this study.
+<p />
+(2) Mapping Validation:: The paper on ranking knowledge base predicates that match an unnamed property was published at the 2018 WWW conference, which had an acceptance rate of less than 15%.
+<h6><a name="Products_AN1"></a> Products </h6> <ul>
+<li> <p>Faria, D., Pesquita, C., Mott, I., Martins, C., Couto, F.M. and Cruz, I.F. (2018). Tackling the challenges of matching biomedical ontologies. <em>J. Biomedical Semantics</em>. 9 (1), 4:1. Status = PUBLISHED; Acknowledgment of Federal Support = Yes ; Peer Reviewed = Yes ; DOI: 10.1186/s13326-017-0170-9</p>
+</li> <li> <p>Porrini, Riccardo and Palmonari, Matteo and Cruz, Isabel F. 2018 World Wide Web Conference. 1215 to 1224. Status = Deposited in NSF-PAR doi:10.1145/3178876.3186020 (2018). Facet Annotation Using Reference Knowledge Bases.. <em>World Wide Web Conference</em>. 1215. Status = PUBLISHED; Acknowledgment of Federal Support = Yes ; Peer Reviewed = Yes ; DOI: 10.1145/3178876.3186020<br /><br /></p>
+</li> <li> Faria, D., Balasubramani, B. S., Shivaprabhu, V. R., Mott, I., Pesquita, C., Couto, F. M., Cruz, I. F. (2017). (2017). <em>Results of AML in OAEI 2017.</em>. 12th International Workshop on Ontology Matching co-located with the 16th International Semantic Web Conference. . Status = PUBLISHED; Acknowledgement of Federal Support = Yes
+</li></ul> 
+<h6><a name="Students_AN1"></a> Students </h6>
+<p />
+Vivek Shivaprabhu <br />Zhu (Ellen) Wang<br />Jenny Vuong (undergrad)
+<p />
+<h6><a name="Plans_for_the_following_year_AN1"></a> Plans for the following year </h6>
+<p />
+Our work will continue focusing on the three main goals of this project. For example, we would like to advance on the characterization of ontology matching tasks, the comparison of visualizations, and analytics that operate directly on the visualization.
+<p />
+We plan on releasing our software on GitHub.
+<p />
+We will apply for an REU to fund one or two undergraduate students.
+<p />
+We will try to participate again on &ldquo;Girls Who Code&rdquo; especially if offered at UIC. This program aims to introduce K-12 girls and young women to Computer Science.
+<p />
+<h6><a name="Disclaimer"></a> *Disclaimer </h6>
+<p />
+Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation. </div><!-- /patternTopic-->
+<div class="twikiContentFooter"></div></div><!-- /patternContent-->
+<a name="topic-actions"></a><div class="patternTopicActions"><div class="patternTopicAction"><span class="patternActionButtons"><span><a href='https://www.cs.uic.edu/bin/edit/Cruz/OntologyMatchingVisualAnalytics?t=1544636171' rel='nofollow' title='Edit this topic text' accesskey='e'><span class='twikiAccessKey'>E</span>dit</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/attach/Cruz/OntologyMatchingVisualAnalytics' rel='nofollow' title='Attach an image or document to this topic' accesskey='a'><span class='twikiAccessKey'>A</span>ttach</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/view/Cruz/OntologyMatchingVisualAnalytics?cover=print' rel='nofollow' title='Printable version of this topic' accesskey='p'><span class='twikiAccessKey'>P</span>rint version</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><span><a href='/bin/rdiff/Cruz/OntologyMatchingVisualAnalytics?type=history' rel='nofollow' title='View total topic history' accesskey='h'><span class='twikiAccessKey'>H</span>istory</a></span>: r7&nbsp;<a rel="nofollow" href="/bin/rdiff/Cruz/OntologyMatchingVisualAnalytics?rev1=7;rev2=6">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/Cruz/OntologyMatchingVisualAnalytics?rev=6">r6</a>&nbsp;<a rel="nofollow" href="/bin/rdiff/Cruz/OntologyMatchingVisualAnalytics?rev1=6;rev2=5">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/Cruz/OntologyMatchingVisualAnalytics?rev=5">r5</a>&nbsp;<a rel="nofollow" href="/bin/rdiff/Cruz/OntologyMatchingVisualAnalytics?rev1=5;rev2=4">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/Cruz/OntologyMatchingVisualAnalytics?rev=4">r4</a>&nbsp;<a rel="nofollow" href="/bin/rdiff/Cruz/OntologyMatchingVisualAnalytics?rev1=4;rev2=3">&lt;</a>&nbsp;<a rel="nofollow" href="/bin/view/Cruz/OntologyMatchingVisualAnalytics?rev=3">r3</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/oops/Cruz/OntologyMatchingVisualAnalytics?template=backlinksweb' rel='nofollow' title='Search the Cruz Web for topics that link to here' accesskey='b'><span class='twikiAccessKey'>B</span>acklinks</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/view/Cruz/OntologyMatchingVisualAnalytics?raw=on' rel='nofollow' title='View raw text without formatting' accesskey='r'><span class='twikiAccessKey'>R</span>aw View</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='https://www.cs.uic.edu/bin/edit/Cruz/OntologyMatchingVisualAnalytics?t=1544636171;nowysiwyg=1' rel='nofollow' title='Raw Edit this topic text' accesskey='w'>Ra<span class='twikiAccessKey'>w</span> edit</a></span><span class='twikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/bin/oops/Cruz/OntologyMatchingVisualAnalytics?template=oopsmore&amp;param1=7&amp;param2=7' rel='nofollow' title='Delete or rename this topic; set parent topic; view and compare revisions' accesskey='m'><span class='twikiAccessKey'>M</span>ore topic actions</a></span></span></div><!--/patternTopicAction--></div><!--/patternTopicActions--><div class="patternInfo twikiGrayText"><div class="patternRevInfo">Topic revision: r7 - 2018-07-29 - 23:32:41 - Main.ifcruz</div><!-- /patternRevInfo--><div class="patternMoved"></div><!-- /patternMoved--></div><!-- /patternInfo-->
+</div><!-- /patternMainContents-->
+</div><!-- /patternMain--><div id="patternLeftBar"><div id="patternClearHeaderLeft"></div>
+<div id="patternLeftBarContents"><div class="patternWebIndicator"> <ul>
+<li> <a href="/bin/view/Cruz/WebHome" class="twikiCurrentWebHomeLink twikiLink"><img src="/pub/TWiki/TWikiDocGraphics/web-bg-small.gif" width="13" height="13" alt="Web background" title="Web background" border="0" /> Cruz</a>
+</li></ul> 
+</div> <ul>
+<li> <a href="/bin/view/Cruz/Biosketch" class="twikiLink">Biosketch</a>
+</li> <li> <a href="/bin/view/Cruz/News" class="twikiLink">News</a>
+</li> <li> <a href="/bin/view/Cruz/Teaching" class="twikiLink">Teaching</a>
+</li> <li> <a href="/bin/view/Cruz/Research" class="twikiLink">Research</a>
+</li> <li> <a href="/bin/view/Cruz/Publications" class="twikiLink">Publications</a>
+</li> <li> <a href="/bin/view/Cruz/NewFormatConferences" class="twikiLink">Conferences</a>
+</li> <li> <a href="/bin/view/Cruz/Committees" class="twikiLink">Committees</a>
+</li> <li> <a href="/bin/view/Cruz/Links" class="twikiLink">Links</a>
+</li> <li> <a href="/bin/view/Cruz/Contact" class="twikiLink">Contact</a>
+</li></ul> 
+<a href="/bin/edit/Cruz.WebLeftBar" target="_top">[edit this</a>]
+<p />
+<div class="patternLeftBarPersonal">
+<ul><li class="patternLogIn"><a href="/bin/logon/Cruz/OntologyMatchingVisualAnalytics">Log In</a> </li></ul>
+</div><!--/patternLeftBarPersonal--> <ul>
+<li> <strong><a href="/bin/view/Cruz/WebHome" class="twikiCurrentWebHomeLink twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/home.gif" width="16" height="16" alt="Home" title="Home" border="0" /> Cruz Web</a></strong>
+</li> <li> <a href="/bin/view/Cruz/WebCreateNewTopic?topicparent=OntologyMatchingVisualAnalytics" target="_top"> <img src="/pub/TWiki/TWikiDocGraphics/newtopic.gif" width="16" height="16" alt="New topic" title="New topic" border="0" /> Create New Topic</a>
+</li> <li> <a href="/bin/view/Cruz/WebTopicList" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/index.gif" width="16" height="16" alt="Index" title="Index" border="0" /> Index</a>
+</li> <li> <a href="/bin/view/Cruz/WebSearch" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/searchtopic.gif" width="16" height="16" alt="Search topic" title="Search topic" border="0" /> Search</a>
+</li> <li> <a href="/bin/view/Cruz/WebChanges" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/changes.gif" width="16" height="16" alt="Changes" title="Changes" border="0" /> Changes</a>
+</li> <li> <a href="/bin/view/Cruz/WebNotify" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/notify.gif" width="16" height="16" alt="Notify" title="Notify" border="0" /> Notifications</a>
+</li> <li> <a href="/bin/view/Cruz/WebRss" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/feed.gif" width="16" height="16" alt="RSS feed, rounded corners" title="RSS feed, rounded corners" border="0" /> RSS Feed</a>
+</li> <li> <a href="/bin/view/Cruz/WebStatistics" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/statistics.gif" width="16" height="16" alt="Statistics" title="Statistics" border="0" /> Statistics</a>
+</li> <li> <a href="/bin/view/Cruz/WebPreferences" class="twikiLink"> <img src="/pub/TWiki/TWikiDocGraphics/wrench.gif" width="16" height="16" alt="Wrench, tools" title="Wrench, tools" border="0" /> Preferences</a>
+</li></ul> 
+<hr />
+</div><!-- /patternLeftBarContents--></div><!-- /patternLeftBar-->
+</div><!-- /patternFloatWrap-->
+<div class="clear">&nbsp;</div>
+</div><!-- /patternOuter--></div><!-- /patternWrapper--><div id="patternTopBar"><div id="patternTopBarContents"><div id="twikiLogo" class="twikiImage">
+<map id="logomap" name="logomap">
+	<area shape="rect" alt="" title="" coords="144,20,317,74" href="https://www.cs.uic.edu" target=""/>
+	<area shape="rect" alt="College of Engineering" title="" coords="125,76,300,91" href="http://www.engineering.uic.edu/" target=""/>
+	<area shape="rect" alt="University of Illinois at Chicago" title="" coords="10,20,120,71" href="http://www.uic.edu" target=""/>
+</map>
+<img src="https://www.cs.uic.edu/pub/cslogo_ds.png" alt="Home - this site is powered by TWiki(R)" border="0" style="border:none;" usemap="#logomap"/>
+</div>
+<p />
+<div style="margin-left:650px; position:relative;">
+	<form name="quickSearchForm" method="get" action="https://www.google.com/search">
+		<input id=quickSearchBox type="text" class="twikiInputField" name="q" size="18" maxlength="255" value=""/>
+		<input type="hidden" name="sitesearch" value="cs.uic.edu"/>
+	</form>
+</div>
+<p />
+<div id="menuContainer" style="overflow:visible; position:absolute; z-index:2; width:640px; left:342px; top:58px;">
+<div id="navMenu">
+<ul>
+<li> <a href="#">ABOUT US</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/Main/AboutCS">Our Department</a></li>
+	<li><a href="https://www.cs.uic.edu/bin/view/Main/NewsArchive">Recent News</a></li>
+	<li><a href="https://www.cs.uic.edu/bin/view/Main/Contact">Contact Us</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">ACADEMICS</a>
+	<ul>
+	<li><a href="/Main/ProspectiveStudents">Prospective Students</a></li>
+	<li><a href="/Main/UndergraduatePrograms">Undergraduate</a></li>
+	<li><a href="/Main/ComputerScienceMinor">CS Minor</a></li>       
+	<li><a href="/Main/GraduatePrograms">Graduate</a></li>
+	<li><a href="/Main/Courses">Courses</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">RESEARCH</a>
+	<ul>
+	<li><a href="/Main/Research">Overview</a></li>
+	<li><a href="/Main/Faculty-Area">By Faculty</a></li>
+	<li><a href="/Main/Research#Labs">Labs</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">PEOPLE</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/faculty/">Faculty</a></li>
+	<li><a href="https://www.cs.uic.edu/adjuncts/">Adjuncts</a></li>
+	<li><a href="https://www.cs.uic.edu/staff">Staff</a></li>
+	<li><a href="/Main/Students">Students</a></li>
+	<li><a href="/Main/Alumni?y=2015">Alumni</a></li>
+	</ul>
+</li>
+</ul>
+<br class="clearFloat"/>
+</div>
+</div></div></div><!-- /patternTopBar--><div id="patternBottomBar"><div id="patternBottomBarContents"><div id="patternWebBottomBar"><table width="100%"><tr>
+<td>Copyright 2016 The Board of Trustees<br/> of the University of Illinois.<a href="webmaster@cs.uic.edu">webmaster@cs.uic.edu</a></td>
+<td><a href="https://wisest.uic.edu" target=_blank>WISEST<br />Helping Women Faculty Advance<br />Funded by NSF</a> </td><td>  <a href="http://engineering.uic.edu/bin/view/COE/CollegeGift" target="_top"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/gift.jpg" /></a> <a href="http://www1.cs.uic.edu/www/donate.php?audience=public" target="_top"> </a> </td><td> <a target="_blank" href="http://www.cs.uic.edu/CSOpenHouse"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/openHouseButton.gif" border="0" /></a> </td></tr></table></div><!--/patternWebBottomBar--></div><!-- /patternBottomBarContents--></div><!-- /patternBottomBar-->
+</div><!-- /patternPage-->
+</div><!-- /patternPageShadow-->
+</div><!-- /patternScreen-->
+</body></html>
+<p />

@@ -1,0 +1,1768 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Welcome to Liu Lab</title>
+  <meta name="generator" content="Google Web Designer 1.9.0.0619">
+  <meta name="template" content="Expandable 2.3.2">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/css" id="gwd-center-page-style">
+    #page1 {
+      left: 50%;
+      top: 50%;
+      margin-left: -600px;
+      margin-top: -1150px;
+    }
+    #page1_5 {
+      left: 50%;
+      top: 50%;
+      margin-left: -600px;
+      margin-top: -1300px;
+    }
+    #page1_3 {
+      left: 50%;
+      top: 50%;
+      margin-left: -600px;
+      margin-top: -1300px;
+    }
+    #page1_1 {
+      left: 50%;
+      top: 50%;
+      margin-left: -600px;
+      margin-top: -3100px;
+    }
+    #page1_2 {
+      left: 50%;
+      top: 50%;
+      margin-left: -600px;
+      margin-top: -2000px;
+    }
+  </style>
+  <style type="text/css" id="gwd-lightbox-style">
+    .gwd-lightbox {
+      overflow: hidden;
+    }
+  </style>
+  <style type="text/css" id="gwd-text-style">
+    p {
+      margin: 0px;
+    }
+    h1 {
+      margin: 0px;
+    }
+    h2 {
+      margin: 0px;
+    }
+    h3 {
+      margin: 0px;
+    }
+  </style>
+  <style type="text/css">
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+    }
+    .gwd-page-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+    .gwd-page-content {
+      transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      transform-style: preserve-3d;
+      position: absolute;
+      background-color: transparent;
+    }
+    .gwd-page-wrapper {
+      position: absolute;
+      transform: translateZ(0px);
+      background-color: rgb(255, 255, 255);
+    }
+    .page1-content {
+      width: 550px;
+      height: 400px;
+    }
+    .gwd-div-1w3x {
+      width: 1200px;
+      height: 2300px;
+    }
+    .gwd-div-vh40 {
+      width: 1200px;
+      height: 2300px;
+      background-image: none;
+      background-color: rgb(243, 236, 164);
+    }
+    .gwd-carouselgallery-g3bs {
+      transform-style: preserve-3d;
+      width: 1000px;
+      height: 603px;
+      transform-origin: 500px 301.5px 0px;
+      left: 99px;
+      position: absolute;
+      top: 1170px;
+    }
+    .gwd-div-xl9u {
+      width: 1200px;
+      background-image: none;
+      background-color: rgb(243, 236, 164);
+      height: 6200px;
+    }
+    .gwd-div-1cwt {
+      width: 1200px;
+      height: 6200px;
+    }
+    .gwd-img-1c7k {
+      position: absolute;
+      transform-style: preserve-3d;
+      width: 388px;
+      height: 430px;
+      transform-origin: 194px 215px 0px;
+      left: 671px;
+      top: 3187px;
+    }
+    .gwd-img-vn3y {
+      position: absolute;
+      transform-style: preserve-3d;
+      transform-origin: 111.5px 140.5px 0px;
+      left: 823px;
+      height: 266px;
+      width: 236px;
+      top: 4402px;
+    }
+    .gwd-img-1t7m {
+      position: absolute;
+      transform-style: preserve-3d;
+      transform-origin: 111.5px 166px 0px;
+      left: 161px;
+      width: 232px;
+      height: 313px;
+      top: 4806px;
+    }
+    .gwd-img-15gp {
+      position: absolute;
+      transform-style: preserve-3d;
+      width: 223px;
+      transform-origin: 111.5px 142px 0px;
+      left: 181px;
+      height: 254px;
+      top: 4008px;
+    }
+    .gwd-img-1hic {
+      position: absolute;
+      transform-style: preserve-3d;
+      transform-origin: 111.5px 139px 0px;
+      height: 268px;
+      width: 236px;
+      left: 199px;
+      top: 4400px;
+    }
+    .gwd-p-trfp {
+      position: absolute;
+      font-family: "Times New Roman";
+      text-align: left;
+      color: rgb(0, 0, 0);
+      transform-style: preserve-3d;
+      width: 569px;
+      height: 100px;
+      transform-origin: 284.5px 50px 0px;
+      left: 0px;
+      top: 0px;
+      background-image: none;
+    }
+    .gwd-p-fu90 {
+      position: absolute;
+      font-family: "Times New Roman";
+      text-align: left;
+      color: rgb(0, 0, 0);
+      transform-style: preserve-3d;
+      width: 541px;
+      height: 99px;
+      transform-origin: 270.5px 49.5px 0px;
+      left: 675px;
+      top: 4262px;
+    }
+    .gwd-p-1biv {
+      position: absolute;
+      font-family: "Times New Roman";
+      color: rgb(0, 0, 0);
+      height: 95px;
+      width: 564px;
+      transform-origin: 282px 47.5px 0px;
+      left: 36px;
+      top: 4668px;
+    }
+    .gwd-p-1jjo {
+      position: absolute;
+      font-family: "Times New Roman";
+      color: rgb(0, 0, 0);
+      transform-style: preserve-3d;
+      width: 569px;
+      height: 100px;
+      transform-origin: 284.5px 50px 0px;
+      left: 644px;
+      top: 4668px;
+    }
+    .gwd-p-1vqm {
+      position: absolute;
+      font-family: "Times New Roman";
+      color: rgb(0, 0, 0);
+      transform-style: preserve-3d;
+      width: 639px;
+      height: 94px;
+      transform-origin: 319.5px 47px 0px;
+      left: 36px;
+      top: 5133px;
+    }
+    .gwd-p-i2cm {
+      position: absolute;
+      width: 423px;
+      height: 69px;
+      font-family: "Times New Roman";
+      text-align: left;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      font-size: 43px;
+      left: 478px;
+      top: 3939px;
+    }
+    .gwd-div-f1h9 {
+      left: 0px;
+      top: 0px;
+    }
+    .gwd-div-1fux {
+      left: 0px;
+      top: 0px;
+    }
+    .gwd-div-12c0 {
+      position: absolute;
+      transform-style: preserve-3d;
+      width: 554px;
+      height: 513px;
+      transform-origin: 277px 256.5px 0px;
+      left: 181px;
+      top: 3170px;
+    }
+    .gwd-strong-1vhj {
+      font-size: 20px;
+      font-family: Arial;
+    }
+    .gwd-span-z4ld {
+      font-weight: bold;
+      font-size: 24px;
+      font-family: Georgia;
+    }
+    .gwd-div-1mu9 {
+      width: 1200px;
+      height: 4000px;
+      background-image: none;
+      background-color: rgb(243, 236, 164);
+    }
+    .gwd-div-1s6f {
+      width: 1200px;
+      height: 4000px;
+    }
+    .gwd-div-zji9 {
+      position: absolute;
+      transform-style: preserve-3d;
+      left: 88px;
+      width: 1014px;
+      height: 1542px;
+      transform-origin: 507px 1920px 0px;
+      top: 2128px;
+    }
+    .gwd-div-vhlp {
+      width: 1200px;
+      height: 2600px;
+      background-image: none;
+      background-color: rgb(243, 236, 164);
+    }
+    .gwd-div-16ew {
+      width: 1200px;
+      height: 2600px;
+    }
+    .gwd-img-1azq {
+      position: absolute;
+      transform-style: preserve-3d;
+      width: 496px;
+      height: 267px;
+      transform-origin: 248px 133.5px 0px;
+      left: 576px;
+      top: 2255px;
+    }
+    .gwd-img-1tdg {
+      position: absolute;
+      transform-style: preserve-3d;
+      width: 483px;
+      height: 255px;
+      transform-origin: 241.5px 127.5px 0px;
+      left: 570px;
+      top: 1924px;
+    }
+    .gwd-a-nbnd {
+      position: absolute;
+      font-family: "Times New Roman";
+      text-align: left;
+      color: rgb(0, 0, 0);
+      transform-origin: 151px 262px 0px;
+      transform-style: preserve-3d;
+      width: 446px;
+      height: 139px;
+      left: 103px;
+      top: 1980px;
+    }
+    .gwd-a-1n9s {
+      position: absolute;
+      font-family: "Times New Roman";
+      text-align: left;
+      color: rgb(0, 0, 0);
+      transform-origin: 176px 115px 0px;
+      transform-style: preserve-3d;
+      width: 449px;
+      height: 147px;
+      left: 100px;
+      top: 2299px;
+    }
+    .gwd-img-l793 {
+      position: absolute;
+      transform-style: preserve-3d;
+      width: 502px;
+      height: 432px;
+      transform-origin: 251px 216px 0px;
+      left: 570px;
+      top: 1389px;
+    }
+    .gwd-youtube-8if0 {
+      position: absolute;
+      transform-style: preserve-3d;
+      width: 364px;
+      height: 228px;
+      transform-origin: 182.355px 114px 0px;
+      left: 137px;
+      top: 1215px;
+    }
+    .gwd-a-5zd6 {
+      position: absolute;
+      text-align: left;
+      color: rgb(0, 0, 0);
+      font-size: 50px;
+      font-family: Lobster;
+      width: 987px;
+      height: 127px;
+      transform-style: preserve-3d;
+      transform-origin: 493.5px 63.5px 0px;
+      left: 213px;
+      top: 233px;
+      background-image: none;
+    }
+    .gwd-img-1ll3 {
+      position: absolute;
+      width: 730px;
+      height: 135px;
+      left: 263px;
+      top: 2023px;
+    }
+    .gwd-span-1lcp {
+      color: rgb(255, 255, 255);
+    }
+    .gwd-a-m5mc {
+      position: absolute;
+      font-family: "Times New Roman";
+      text-align: left;
+      color: rgb(0, 0, 0);
+      transform-style: preserve-3d;
+      left: 0px;
+      top: 500px;
+      width: 1200px;
+      height: 50px;
+      transform-origin: 600px 34px 0px;
+      background-image: none;
+      background-color: rgb(85, 70, 70);
+    }
+    .gwd-a-reua {
+      position: absolute;
+      font-family: "Times New Roman";
+      color: rgb(0, 0, 0);
+      text-align: center;
+      font-size: 24px;
+      transform-style: preserve-3d;
+      width: 100px;
+      height: 25px;
+      transform-origin: 50px 12.5px 0px;
+      left: 100px;
+      top: 510px;
+    }
+    .gwd-a-1i0f {
+      pointer-events: auto;
+      left: 273px;
+      top: 500px;
+    }
+    .gwd-a-ih8o {
+      left: 450px;
+      top: 510px;
+    }
+    .gwd-a-1brj {
+      left: 625px;
+      top: 510px;
+    }
+    .gwd-a-1eur {
+      left: 800px;
+      top: 510px;
+    }
+    .gwd-a-1w2l {
+      transform-style: preserve-3d;
+      left: 975px;
+      top: 510px;
+      width: 144px;
+      height: 25px;
+      transform-origin: -650px 12.5px 0px;
+    }
+    .gwd-a-26c8 {
+      left: 275px;
+      top: 510px;
+    }
+    .gwd-a-atj0 {
+      left: 275px;
+      top: 510px;
+    }
+    .gwd-a-x9no {
+      transform-style: preserve-3d;
+      left: 100px;
+      top: 510px;
+      width: 100px;
+      height: 25px;
+      transform-origin: 50px 15px 0px;
+    }
+    .gwd-a-mkzp {
+      pointer-events: auto;
+      left: 0px;
+      top: 1087px;
+    }
+    .gwd-br-17up {
+      font-weight: bold;
+    }
+    .gwd-span-z5w5 {
+      font-weight: bold;
+    }
+    .gwd-a-xcjo {
+      pointer-events: auto;
+      top: 1097px;
+    }
+    .gwd-a-r81n {
+      pointer-events: auto;
+      left: 0px;
+      background-color: rgb(202, 105, 43);
+      top: 1219px;
+    }
+    .gwd-br-aqeh {
+      font-weight: bold;
+    }
+    .gwd-span-3n9q {
+      font-weight: bold;
+    }
+    .gwd-a-cu3z {
+      pointer-events: auto;
+      top: 1229px;
+    }
+    .gwd-a-125r {
+      pointer-events: auto;
+      background-color: rgb(202, 105, 43);
+      top: 3019px;
+    }
+    .gwd-br-4fn5 {
+      font-weight: bold;
+    }
+    .gwd-span-cbdx {
+      font-weight: bold;
+    }
+    .gwd-a-1vm1 {
+      pointer-events: auto;
+      top: 3029px;
+    }
+    .gwd-a-1wyw {
+      pointer-events: auto;
+      background-color: rgb(202, 105, 43);
+      top: 1917px;
+    }
+    .gwd-br-fw5e {
+      font-weight: bold;
+    }
+    .gwd-span-1ah6 {
+      font-weight: bold;
+    }
+    .gwd-a-1cyn {
+      pointer-events: auto;
+      top: 1927px;
+    }
+    .gwd-a-bx95 {
+      position: absolute;
+      text-align: left;
+      color: rgb(0, 0, 0);
+      transform-style: preserve-3d;
+      width: 300px;
+      transform-origin: 150px 24.5px 0px;
+      font-size: 24px;
+      font-family: Arial;
+      font-weight: bold;
+      height: 28px;
+      left: 492px;
+      top: 5643px;
+    }
+    .gwd-img-1llb {
+      position: absolute;
+      transform-style: preserve-3d;
+      left: 0px;
+      top: 193px;
+      width: 1200px;
+      height: 307px;
+      transform-origin: 600px 153.5px 0px;
+    }
+    .gwd-taparea-y230 {
+      position: absolute;
+      transform-style: preserve-3d;
+      width: 108px;
+      height: 50px;
+      transform-origin: 54px 25px 0px;
+      left: 95px;
+      top: 500px;
+    }
+    .gwd-taparea-qu8y {
+      left: 271px;
+      top: 500px;
+    }
+    .gwd-taparea-yvwp {
+      left: 447px;
+      top: 1087px;
+    }
+    .gwd-taparea-h8zy {
+      left: 624px;
+      top: 500px;
+    }
+    .gwd-taparea-1fqn {
+      left: 799px;
+      top: 500px;
+    }
+    .gwd-taparea-a93t {
+      transform-style: preserve-3d;
+      left: 973px;
+      width: 146px;
+      height: 50px;
+      transform-origin: 73px 25px 0px;
+      top: 1087px;
+    }
+    .gwd-a-1d4o {
+      transform-style: preserve-3d;
+      height: 25px;
+      transform-origin: 54px 12.5px 0px;
+      left: 800px;
+      width: 113px;
+      top: 1097px;
+    }
+    .gwd-taparea-19vl {
+      left: 802px;
+      top: 1087px;
+    }
+    .gwd-taparea-oie8 {
+      position: absolute;
+      transform-style: preserve-3d;
+      left: 100px;
+      top: 500px;
+      width: 100px;
+      height: 50px;
+      transform-origin: 50px 25px 0px;
+    }
+    .gwd-taparea-t889 {
+      left: 274px;
+      top: 500px;
+    }
+    .gwd-taparea-1hl9 {
+      left: 449px;
+      top: 500px;
+    }
+    .gwd-taparea-dqcc {
+      left: 627px;
+      top: 500px;
+    }
+    .gwd-taparea-18n4 {
+      left: 803px;
+      top: 500px;
+    }
+    .gwd-taparea-2h1r {
+      transform-style: preserve-3d;
+      left: 980px;
+      width: 139px;
+      height: 50px;
+      transform-origin: 69.5px 25px 0px;
+      top: 1219px;
+    }
+    .gwd-taparea-3fa4 {
+      position: absolute;
+      transform-style: preserve-3d;
+      width: 107px;
+      height: 50px;
+      transform-origin: 53.5px 25px 0px;
+      left: 99px;
+      top: 500px;
+    }
+    .gwd-taparea-z6bp {
+      left: 271px;
+      top: 500px;
+    }
+    .gwd-taparea-4tkv {
+      left: 444px;
+      top: 500px;
+    }
+    .gwd-taparea-1pwt {
+      left: 621px;
+      top: 500px;
+    }
+    .gwd-taparea-1io6 {
+      transform-style: preserve-3d;
+      left: 798px;
+      top: 500px;
+    }
+    .gwd-taparea-750h {
+      transform-style: preserve-3d;
+      left: 973px;
+      width: 146px;
+      height: 50px;
+      transform-origin: 73px 25px 0px;
+      top: 3019px;
+    }
+    .gwd-taparea-rtf8 {
+      position: absolute;
+      transform-style: preserve-3d;
+      width: 111px;
+      height: 49px;
+      transform-origin: 55.5px 24.5px 0px;
+      left: 97px;
+      top: 500px;
+    }
+    .gwd-taparea-g568 {
+      left: 267px;
+      top: 501px;
+    }
+    .gwd-taparea-t2ov {
+      left: 444px;
+      top: 501px;
+    }
+    .gwd-taparea-1esg {
+      left: 622px;
+      top: 501px;
+    }
+    .gwd-taparea-awae {
+      left: 798px;
+      top: 501px;
+    }
+    .gwd-taparea-2b5t {
+      transform-style: preserve-3d;
+      left: 971px;
+      width: 148px;
+      height: 49px;
+      transform-origin: 74px 24.5px 0px;
+      top: 1918px;
+    }
+    .gwd-taparea-14ox {
+      position: absolute;
+      transform-style: preserve-3d;
+      width: 124px;
+      height: 49px;
+      transform-origin: 62px 24.5px 0px;
+      left: 90px;
+      top: 500px;
+    }
+    .gwd-taparea-jd8k {
+      left: 263px;
+      top: 501px;
+    }
+    .gwd-taparea-1cu7 {
+      left: 437px;
+      top: 501px;
+    }
+    .gwd-a-dhou {
+      left: 0px;
+      background-color: rgb(202, 105, 43);
+      top: 1067px;
+    }
+    .gwd-taparea-qrqb {
+      left: 615px;
+      top: 501px;
+    }
+    .gwd-taparea-sf2g {
+      left: 790px;
+      top: 501px;
+    }
+    .gwd-taparea-10a0 {
+      transform-style: preserve-3d;
+      left: 971px;
+      width: 148px;
+      height: 49px;
+      transform-origin: 74px 24.5px 0px;
+      top: 1068px;
+    }
+    .gwd-taparea-9kqp {
+      left: 263px;
+      top: 1068px;
+    }
+    .gwd-h1-1al3 {
+      transform-style: preserve-3d;
+      left: 213px;
+      width: 987px;
+      height: 141px;
+      transform-origin: 493.5px 70.5px 0px;
+      top: 953px;
+    }
+    .gwd-youtube-1yll {
+      position: absolute;
+      transform-style: preserve-3d;
+      width: 353px;
+      height: 228px;
+      transform-origin: 176.5px 114px 0px;
+      left: 732px;
+      top: 1215px;
+    }
+    .gwd-youtube-txgg {
+      position: absolute;
+      transform-style: preserve-3d;
+      left: 137px;
+      width: 364px;
+      height: 237px;
+      transform-origin: 182px 118.5px 0px;
+      top: 1510px;
+    }
+    .gwd-youtube-1asa {
+      position: absolute;
+      transform-style: preserve-3d;
+      left: 732px;
+      width: 353px;
+      height: 237px;
+      transform-origin: 176.5px 118.5px 0px;
+      top: 1510px;
+    }
+    .gwd-youtube-1fpg {
+      position: absolute;
+      transform-style: preserve-3d;
+      left: 139px;
+      width: 362px;
+      height: 239px;
+      transform-origin: 181px 119.5px 0px;
+      top: 1819px;
+    }
+    .gwd-youtube-lana {
+      position: absolute;
+      transform-style: preserve-3d;
+      left: 732px;
+      width: 353px;
+      height: 239px;
+      transform-origin: 176.5px 119.5px 0px;
+      top: 1819px;
+    }
+    .gwd-youtube-89cx {
+      position: absolute;
+      transform-style: preserve-3d;
+      left: 139px;
+      width: 362px;
+      height: 234px;
+      transform-origin: 181px 117px 0px;
+      top: 2129px;
+    }
+    .gwd-youtube-1iut {
+      position: absolute;
+      transform-style: preserve-3d;
+      left: 732px;
+      width: 353px;
+      height: 234px;
+      transform-origin: 176.5px 117px 0px;
+      top: 2129px;
+    }
+    .gwd-p-12oy {
+      position: absolute;
+      width: 1200px;
+      height: 74px;
+      left: 0px;
+      font-family: "Times New Roman";
+      color: rgb(0, 0, 0);
+      top: 2513px;
+    }
+    .gwd-span-1mo1 {
+      font-size: 24px;
+      font-family: Arial;
+    }
+    .gwd-p-blp8 {
+      height: auto;
+      position: absolute;
+      width: auto;
+      left: 387px;
+      top: 2177px;
+    }
+    .gwd-div-1e7o {
+      position: absolute;
+      width: 569px;
+      height: 100px;
+      left: 31px;
+      top: 4262px;
+    }
+    .gwd-img-jzh8 {
+      position: absolute;
+      width: 233px;
+      left: 813px;
+      height: 312px;
+      top: 4810px;
+    }
+    .gwd-span-e2c4 {
+      position: absolute;
+      height: 75px;
+      text-align: left;
+      width: 538px;
+      transform-origin: -534.5px -162px 0px;
+      left: 675px;
+      top: 5133px;
+    }
+    .gwd-a-1o03 {
+      position: absolute;
+      font-family: Arial;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: left;
+      width: 1144px;
+      transform-origin: 417px -144.5px 0px;
+      height: 33px;
+      left: 478px;
+      top: 5687px;
+    }
+    .gwd-span-1ujj {
+      font-weight: normal;
+      font-size: 16px;
+    }
+    .gwd-p-yvre {
+      position: absolute;
+      width: 313px;
+      height: 28px;
+      font-weight: bold;
+      font-size: 26px;
+      left: 572px;
+      top: 5740px;
+    }
+    .gwd-p-1u68 {
+      position: absolute;
+      height: 324px;
+      font-size: 18px;
+      width: 414px;
+      transform-origin: 157.5px 194px 0px;
+      left: 300px;
+      top: 5768px;
+    }
+    .gwd-span-ltts {
+      font-weight: bold;
+    }
+    .gwd-span-1wyh {
+      font-weight: bold;
+    }
+    .gwd-p-q5jx {
+      position: absolute;
+      width: 270px;
+      height: 365px;
+      transform-origin: 256px 18px 0px;
+      font-size: 18px;
+      left: 775px;
+      top: 5768px;
+    }
+    .gwd-span-10b3 {
+      font-weight: bold;
+    }
+    .gwd-p-1dni {
+      position: absolute;
+      font-weight: bold;
+      text-align: left;
+      width: 509px;
+      transform-origin: 252.5px 317.5px 0px;
+      font-size: 29px;
+      height: 31px;
+      left: 435px;
+      top: 3644px;
+    }
+    .gwd-img-1u7n {
+      position: absolute;
+      height: 240px;
+      width: 218px;
+      left: 260px;
+      top: 3699px;
+    }
+    .gwd-p-dow0 {
+      position: absolute;
+      width: 535px;
+      height: 236px;
+      left: 524px;
+      top: 3715px;
+    }
+    .gwd-taparea-f8sp {
+      left: 629px;
+      top: 1087px;
+    }
+    .gwd-a-ehhv {
+      width: 113px;
+      top: 1097px;
+    }
+    .gwd-span-1rcz {
+      font-size: 24px;
+    }
+    .gwd-span-ot8n {
+      font-size: 23px;
+    }
+    .gwd-span-1351 {
+      font-size: xx-large;
+    }
+    .gwd-a-179r {
+      top: 1077px;
+    }
+    .gwd-a-1we1 {
+      top: 1077px;
+    }
+    .gwd-a-1p12 {
+      top: 1077px;
+    }
+    .gwd-a-yvzz {
+      top: 1077px;
+    }
+    .gwd-a-umxw {
+      top: 1077px;
+    }
+    .gwd-a-114v {
+      top: 1077px;
+    }
+    .gwd-img-ep6s {
+      height: 310px;
+      top: 760px;
+    }
+    .gwd-taparea-1gu0 {
+      top: 1067px;
+    }
+    .gwd-taparea-ror6 {
+      top: 1068px;
+    }
+    .gwd-taparea-1y6x {
+      top: 1068px;
+    }
+    .gwd-taparea-8eap {
+      top: 1068px;
+    }
+    .gwd-h1-lch2 {
+      top: 820px;
+    }
+    .gwd-taparea-svke {
+      top: 1087px;
+    }
+    .gwd-a-qou6 {
+      top: 1097px;
+    }
+    .gwd-a-xofq {
+      top: 1097px;
+    }
+    .gwd-taparea-y0mv {
+      top: 1087px;
+    }
+    .gwd-a-32fi {
+      top: 1097px;
+    }
+    .gwd-img-tccs {
+      top: 780px;
+    }
+    .gwd-a-13gx {
+      top: 1229px;
+    }
+    .gwd-a-4i0i {
+      top: 1229px;
+    }
+    .gwd-a-1s9v {
+      top: 1229px;
+    }
+    .gwd-a-3rot {
+      top: 1229px;
+    }
+    .gwd-a-jxtp {
+      top: 1229px;
+    }
+    .gwd-taparea-geb8 {
+      top: 1219px;
+    }
+    .gwd-taparea-16iw {
+      top: 1219px;
+    }
+    .gwd-taparea-1b4u {
+      top: 1219px;
+    }
+    .gwd-taparea-2te0 {
+      top: 1219px;
+    }
+    .gwd-taparea-y7b3 {
+      top: 1219px;
+    }
+    .gwd-img-1j7g {
+      top: 912px;
+    }
+    .gwd-h1-t38p {
+      top: 2693px;
+    }
+    .gwd-a-1gzc {
+      top: 3029px;
+    }
+    .gwd-a-4w03 {
+      top: 3029px;
+    }
+    .gwd-a-hh6j {
+      top: 3029px;
+    }
+    .gwd-a-1c7k {
+      top: 3029px;
+    }
+    .gwd-a-144n {
+      top: 3029px;
+    }
+    .gwd-taparea-njng {
+      top: 3019px;
+    }
+    .gwd-taparea-lyht {
+      top: 3019px;
+    }
+    .gwd-taparea-1312 {
+      top: 3019px;
+    }
+    .gwd-taparea-yjfs {
+      top: 3019px;
+    }
+    .gwd-taparea-1kqp {
+      top: 3019px;
+    }
+    .gwd-img-eh8e {
+      top: 2712px;
+    }
+    .gwd-h1-1ujj {
+      top: 1650px;
+    }
+    .gwd-a-1gjv {
+      top: 1927px;
+    }
+    .gwd-a-a7ix {
+      top: 1927px;
+    }
+    .gwd-a-1e68 {
+      top: 1927px;
+    }
+    .gwd-a-b8hu {
+      top: 1927px;
+    }
+    .gwd-a-16gx {
+      top: 1927px;
+    }
+    .gwd-taparea-r6c8 {
+      top: 1917px;
+    }
+    .gwd-taparea-er2l {
+      top: 1918px;
+    }
+    .gwd-taparea-1y0s {
+      top: 1918px;
+    }
+    .gwd-taparea-sh8o {
+      top: 1918px;
+    }
+    .gwd-taparea-1re4 {
+      top: 1918px;
+    }
+    .gwd-img-omov {
+      top: 1610px;
+    }
+    .gwd-div-1b5s {
+      width: 1200px;
+      height: 2600px;
+      background-image: none;
+      background-color: rgb(243, 236, 164);
+    }
+    .gwd-div-aqyv {
+      width: 1200px;
+      height: 2600px;
+    }
+    .gwd-youtube-1jyw {
+      top: 1360px;
+    }
+    .gwd-a-ohfe {
+      background-color: rgb(202, 105, 43);
+      top: 1219px;
+    }
+    .gwd-h1-wqv3 {
+      top: 952px;
+    }
+    .gwd-a-1f7z {
+      top: 1229px;
+    }
+    .gwd-taparea-19nx {
+      top: 1219px;
+    }
+    .gwd-a-mp8r {
+      top: 1229px;
+    }
+    .gwd-a-1o79 {
+      top: 1229px;
+    }
+    .gwd-a-uv4c {
+      top: 1229px;
+    }
+    .gwd-a-f6hw {
+      top: 1229px;
+    }
+    .gwd-taparea-1497 {
+      top: 1219px;
+    }
+    .gwd-a-12wm {
+      top: 1229px;
+    }
+    .gwd-taparea-huot {
+      top: 1219px;
+    }
+    .gwd-taparea-8gzk {
+      top: 1219px;
+    }
+    .gwd-taparea-dug6 {
+      top: 1219px;
+    }
+    .gwd-taparea-diqz {
+      top: 1219px;
+    }
+    .gwd-img-toz5 {
+      top: 912px;
+    }
+    .gwd-youtube-zvj2 {
+      top: 1360px;
+    }
+    .gwd-youtube-ugd6 {
+      top: 1655px;
+    }
+    .gwd-youtube-1d12 {
+      top: 1655px;
+    }
+    .gwd-youtube-1jto {
+      top: 1964px;
+    }
+    .gwd-youtube-2uzi {
+      top: 1964px;
+    }
+    .gwd-youtube-1f50 {
+      top: 2274px;
+    }
+    .gwd-youtube-1iab {
+      top: 2274px;
+    }
+    .gwd-p-m8av {
+      top: 2658px;
+    }
+    .gwd-p-rvw2 {
+      position: absolute;
+      left: 100px;
+      top: 1457px;
+      width: 436px;
+      height: 249px;
+      transform-origin: 202px 118.5px 0px;
+    }
+    .gwd-p-nl36 {
+      height: auto;
+      left: 0px;
+      position: absolute;
+      top: 0px;
+      width: auto;
+    }
+    .gwd-p-eh0l {
+      height: auto;
+      left: 0px;
+      position: absolute;
+      top: 0px;
+      width: auto;
+    }
+    .gwd-img-11jg {
+      position: absolute;
+      width: 250px;
+      left: 154px;
+      height: 290px;
+      top: 5247px;
+    }
+    .gwd-p-hexc {
+      position: absolute;
+      width: 503px;
+      height: 91px;
+      left: 48px;
+      top: 5537px;
+    }
+    .gwd-img-13ae {
+      position: absolute;
+      height: 260px;
+      left: 795px;
+      width: 235px;
+      top: 4002px;
+    }
+  </style>
+  <link href="gwdpage_style.css" data-version="8" data-exports-type="gwd-page" rel="stylesheet">
+  <link href="gwdtaparea_style.css" data-version="4" data-exports-type="gwd-taparea" rel="stylesheet">
+  <link href="gwdyoutube_style.css" data-version="19" data-exports-type="gwd-youtube" rel="stylesheet">
+  <link href="gwdcarouselgallery_style.css" data-version="17" data-exports-type="gwd-carouselgallery" rel="stylesheet">
+  <link href="gwdgallerynavigation_style.css" data-version="5" data-exports-type="gwd-gallerynavigation" rel="stylesheet">
+  <link href="gwdimage_style.css" data-version="9" data-exports-type="gwd-image" rel="stylesheet">
+  <link href="gwdgesture_style.css" data-version="4" data-exports-type="gwd-gesture" rel="stylesheet">
+  <link href="gwdpagedeck_style.css" data-version="9" data-exports-type="gwd-pagedeck" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+  <script data-source="googbase_min.js" data-version="4" data-exports-type="googbase" type="text/javascript" src="googbase_min.js"></script>
+  <script data-source="gwd_webcomponents_min.js" data-version="5" data-exports-type="gwd_webcomponents" type="text/javascript" src="gwd_webcomponents_min.js"></script>
+  <script data-source="gwdpage_min.js" data-version="8" data-exports-type="gwd-page" type="text/javascript" src="gwdpage_min.js"></script>
+  <script data-source="gwdpagedeck_min.js" data-version="9" data-exports-type="gwd-pagedeck" type="text/javascript" src="gwdpagedeck_min.js"></script>
+  <script data-source="gwdgesture_min.js" data-version="4" data-exports-type="gwd-gesture" type="text/javascript" src="gwdgesture_min.js"></script>
+  <script data-source="gwdimage_min.js" data-version="9" data-exports-type="gwd-image" type="text/javascript" src="gwdimage_min.js"></script>
+  <script data-source="gwdgallerynavigation_min.js" data-version="5" data-exports-type="gwd-gallerynavigation" type="text/javascript" src="gwdgallerynavigation_min.js"></script>
+  <script data-source="gwdcarouselgallery_min.js" data-version="17" data-exports-type="gwd-carouselgallery" type="text/javascript" src="gwdcarouselgallery_min.js"></script>
+  <script type="text/javascript" gwd-events="support" src="gwd-events-support.1.0.js"></script>
+  <script type="text/javascript" gwd-events="handlers">
+    gwd.auto_Go_page_peopleClick = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_1', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Go_page_researchClick = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_3', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Go_page_publicationClick = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_2', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Go_page_multimediaClick = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_4', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Gwd_taparea_7Click = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Gwd_taparea_8Click = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_1', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Gwd_taparea_9Click = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_3', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Gwd_taparea_10Click = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_2', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Gwd_taparea_11Click = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_5', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Gwd_taparea_13Click = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Gwd_taparea_14Click = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_1', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Gwd_taparea_15Click = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_3', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Gwd_taparea_16Click = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_2', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Gwd_taparea_17Click = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_5', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Gwd_taparea_19Click = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Gwd_taparea_20Click = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_1', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Gwd_taparea_21Click = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_3', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Gwd_taparea_22Click = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_2', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Gwd_taparea_23Click = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_5', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Gwd_taparea_25Click = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Gwd_taparea_26Click = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_1', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Gwd_taparea_27Click = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_3', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Gwd_taparea_28Click = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_2', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Gwd_taparea_29Click = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_5', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Gwd_taparea_31Click = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Gwd_taparea_32Click = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_1', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Gwd_taparea_34Click = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_3', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Gwd_taparea_33Click = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_2', 'none', 1000, 'linear', 'top');
+    };
+    gwd.auto_Gwd_taparea_35Click = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_5', 'none', 1000, 'linear', 'top');
+    };
+  </script>
+  <script type="text/javascript" gwd-events="registration">
+    // Support code for event handling in Google Web Designer
+     // This script block is auto-generated. Please do not edit!
+    gwd.actions.events.registerEventHandlers = function(event) {
+      gwd.actions.events.addHandler('go_page_people', 'click', gwd.auto_Go_page_peopleClick, false);
+      gwd.actions.events.addHandler('go_page_research', 'click', gwd.auto_Go_page_researchClick, false);
+      gwd.actions.events.addHandler('go_page_publication', 'click', gwd.auto_Go_page_publicationClick, false);
+      gwd.actions.events.addHandler('go_page_multimedia', 'click', gwd.auto_Go_page_multimediaClick, false);
+      gwd.actions.events.addHandler('gwd-taparea_7', 'click', gwd.auto_Gwd_taparea_7Click, false);
+      gwd.actions.events.addHandler('gwd-taparea_8', 'click', gwd.auto_Gwd_taparea_8Click, false);
+      gwd.actions.events.addHandler('gwd-taparea_9', 'click', gwd.auto_Gwd_taparea_9Click, false);
+      gwd.actions.events.addHandler('gwd-taparea_10', 'click', gwd.auto_Gwd_taparea_10Click, false);
+      gwd.actions.events.addHandler('gwd-taparea_11', 'click', gwd.auto_Gwd_taparea_11Click, false);
+      gwd.actions.events.addHandler('gwd-taparea_13', 'click', gwd.auto_Gwd_taparea_13Click, false);
+      gwd.actions.events.addHandler('gwd-taparea_14', 'click', gwd.auto_Gwd_taparea_14Click, false);
+      gwd.actions.events.addHandler('gwd-taparea_15', 'click', gwd.auto_Gwd_taparea_15Click, false);
+      gwd.actions.events.addHandler('gwd-taparea_16', 'click', gwd.auto_Gwd_taparea_16Click, false);
+      gwd.actions.events.addHandler('gwd-taparea_17', 'click', gwd.auto_Gwd_taparea_17Click, false);
+      gwd.actions.events.addHandler('gwd-taparea_19', 'click', gwd.auto_Gwd_taparea_19Click, false);
+      gwd.actions.events.addHandler('gwd-taparea_20', 'click', gwd.auto_Gwd_taparea_20Click, false);
+      gwd.actions.events.addHandler('gwd-taparea_21', 'click', gwd.auto_Gwd_taparea_21Click, false);
+      gwd.actions.events.addHandler('gwd-taparea_22', 'click', gwd.auto_Gwd_taparea_22Click, false);
+      gwd.actions.events.addHandler('gwd-taparea_23', 'click', gwd.auto_Gwd_taparea_23Click, false);
+      gwd.actions.events.addHandler('gwd-taparea_25', 'click', gwd.auto_Gwd_taparea_25Click, false);
+      gwd.actions.events.addHandler('gwd-taparea_26', 'click', gwd.auto_Gwd_taparea_26Click, false);
+      gwd.actions.events.addHandler('gwd-taparea_27', 'click', gwd.auto_Gwd_taparea_27Click, false);
+      gwd.actions.events.addHandler('gwd-taparea_28', 'click', gwd.auto_Gwd_taparea_28Click, false);
+      gwd.actions.events.addHandler('gwd-taparea_29', 'click', gwd.auto_Gwd_taparea_29Click, false);
+      gwd.actions.events.addHandler('gwd-taparea_31', 'click', gwd.auto_Gwd_taparea_31Click, false);
+      gwd.actions.events.addHandler('gwd-taparea_32', 'click', gwd.auto_Gwd_taparea_32Click, false);
+      gwd.actions.events.addHandler('gwd-taparea_34', 'click', gwd.auto_Gwd_taparea_34Click, false);
+      gwd.actions.events.addHandler('gwd-taparea_33', 'click', gwd.auto_Gwd_taparea_33Click, false);
+      gwd.actions.events.addHandler('gwd-taparea_35', 'click', gwd.auto_Gwd_taparea_35Click, false);
+    };
+    gwd.actions.events.deregisterEventHandlers = function(event) {
+      gwd.actions.events.removeHandler('go_page_people', 'click', gwd.auto_Go_page_peopleClick, false);
+      gwd.actions.events.removeHandler('go_page_research', 'click', gwd.auto_Go_page_researchClick, false);
+      gwd.actions.events.removeHandler('go_page_publication', 'click', gwd.auto_Go_page_publicationClick, false);
+      gwd.actions.events.removeHandler('go_page_multimedia', 'click', gwd.auto_Go_page_multimediaClick, false);
+      gwd.actions.events.removeHandler('gwd-taparea_7', 'click', gwd.auto_Gwd_taparea_7Click, false);
+      gwd.actions.events.removeHandler('gwd-taparea_8', 'click', gwd.auto_Gwd_taparea_8Click, false);
+      gwd.actions.events.removeHandler('gwd-taparea_9', 'click', gwd.auto_Gwd_taparea_9Click, false);
+      gwd.actions.events.removeHandler('gwd-taparea_10', 'click', gwd.auto_Gwd_taparea_10Click, false);
+      gwd.actions.events.removeHandler('gwd-taparea_11', 'click', gwd.auto_Gwd_taparea_11Click, false);
+      gwd.actions.events.removeHandler('gwd-taparea_13', 'click', gwd.auto_Gwd_taparea_13Click, false);
+      gwd.actions.events.removeHandler('gwd-taparea_14', 'click', gwd.auto_Gwd_taparea_14Click, false);
+      gwd.actions.events.removeHandler('gwd-taparea_15', 'click', gwd.auto_Gwd_taparea_15Click, false);
+      gwd.actions.events.removeHandler('gwd-taparea_16', 'click', gwd.auto_Gwd_taparea_16Click, false);
+      gwd.actions.events.removeHandler('gwd-taparea_17', 'click', gwd.auto_Gwd_taparea_17Click, false);
+      gwd.actions.events.removeHandler('gwd-taparea_19', 'click', gwd.auto_Gwd_taparea_19Click, false);
+      gwd.actions.events.removeHandler('gwd-taparea_20', 'click', gwd.auto_Gwd_taparea_20Click, false);
+      gwd.actions.events.removeHandler('gwd-taparea_21', 'click', gwd.auto_Gwd_taparea_21Click, false);
+      gwd.actions.events.removeHandler('gwd-taparea_22', 'click', gwd.auto_Gwd_taparea_22Click, false);
+      gwd.actions.events.removeHandler('gwd-taparea_23', 'click', gwd.auto_Gwd_taparea_23Click, false);
+      gwd.actions.events.removeHandler('gwd-taparea_25', 'click', gwd.auto_Gwd_taparea_25Click, false);
+      gwd.actions.events.removeHandler('gwd-taparea_26', 'click', gwd.auto_Gwd_taparea_26Click, false);
+      gwd.actions.events.removeHandler('gwd-taparea_27', 'click', gwd.auto_Gwd_taparea_27Click, false);
+      gwd.actions.events.removeHandler('gwd-taparea_28', 'click', gwd.auto_Gwd_taparea_28Click, false);
+      gwd.actions.events.removeHandler('gwd-taparea_29', 'click', gwd.auto_Gwd_taparea_29Click, false);
+      gwd.actions.events.removeHandler('gwd-taparea_31', 'click', gwd.auto_Gwd_taparea_31Click, false);
+      gwd.actions.events.removeHandler('gwd-taparea_32', 'click', gwd.auto_Gwd_taparea_32Click, false);
+      gwd.actions.events.removeHandler('gwd-taparea_34', 'click', gwd.auto_Gwd_taparea_34Click, false);
+      gwd.actions.events.removeHandler('gwd-taparea_33', 'click', gwd.auto_Gwd_taparea_33Click, false);
+      gwd.actions.events.removeHandler('gwd-taparea_35', 'click', gwd.auto_Gwd_taparea_35Click, false);
+    };
+    document.addEventListener("DOMContentLoaded", gwd.actions.events.registerEventHandlers);
+    document.addEventListener("unload", gwd.actions.events.deregisterEventHandlers);
+  </script>
+  <script data-source="gwdyoutube_min.js" data-version="19" data-exports-type="gwd-youtube" type="text/javascript" src="gwdyoutube_min.js"></script>
+  <script data-source="gwdtaparea_min.js" data-version="4" data-exports-type="gwd-taparea" type="text/javascript" src="gwdtaparea_min.js"></script>
+</head>
+
+<body class="document-body">
+  <div is="gwd-pagedeck" class="gwd-page-container" id="pagedeck" data-gwd-offset-top="0px" data-gwd-offset-left="0px">
+    <div is="gwd-page" id="page1" class="gwd-page-wrapper page1-content gwd-lightbox gwd-div-vh40" data-gwd-width="1200px" data-gwd-height="2300px" data-gwd-name="" centered="" expanded="">
+      <div class="gwd-page-content page1-content gwd-div-1w3x">
+        <a class="gwd-a-m5mc gwd-a-dhou"><br>
+          
+        </a>
+        <gwd-carouselgallery id="gwd-carouselgallery_1" scaling="stretch" class="gwd-carouselgallery-g3bs" images="assets/Research_clip_image002_0000.jpg,assets/Research_clip_image002_0001.jpg,assets/Research_clip_image004.jpg,assets/TS formation_exp n sim.jpg,assets/Pin_research1 (2).png"
+        transition-duration="2000" autoplay="" has-navigation="" navigation-thumbnails="" neighbor-rotation-y="38" show-reflection="" start-frame="1"></gwd-carouselgallery>
+        <img is="gwd-image" source="assets/banner.jpg" id="gwd-image_12" class="gwd-img-1ll3"><a class="gwd-a-reua gwd-a-179r">home</a><a class="gwd-a-reua gwd-a-1i0f gwd-a-atj0 gwd-a-1we1" id="go_page_people">people</a><a class="gwd-a-reua gwd-a-1i0f gwd-a-ih8o gwd-a-1p12" id="go_page_research">research</a>
+        <a class="gwd-a-reua gwd-a-1i0f gwd-a-1brj gwd-a-yvzz" id="go_page_publication">publication</a>
+        <a class="gwd-a-reua gwd-a-1i0f gwd-a-1eur gwd-a-umxw" id="go_page_multimedia">multimedia</a><a class="gwd-a-reua gwd-a-1i0f gwd-a-1w2l gwd-a-114v">members only</a>
+        <img is="gwd-image" source="assets/headline.jpg" id="gwd-image_13" class="gwd-img-1llb gwd-img-ep6s">
+        <gwd-taparea id="gwd-taparea_25" class="gwd-taparea-14ox gwd-taparea-1gu0"></gwd-taparea>
+        <gwd-taparea id="gwd-taparea_26" class="gwd-taparea-14ox gwd-taparea-jd8k gwd-taparea-9kqp"></gwd-taparea>
+        <gwd-taparea id="gwd-taparea_27" class="gwd-taparea-14ox gwd-taparea-jd8k gwd-taparea-1cu7 gwd-taparea-ror6"></gwd-taparea>
+        <gwd-taparea id="gwd-taparea_28" class="gwd-taparea-14ox gwd-taparea-jd8k gwd-taparea-1cu7 gwd-taparea-qrqb gwd-taparea-1y6x"></gwd-taparea>
+        <gwd-taparea id="gwd-taparea_29" class="gwd-taparea-14ox gwd-taparea-jd8k gwd-taparea-1cu7 gwd-taparea-qrqb gwd-taparea-sf2g gwd-taparea-8eap"></gwd-taparea>
+        <gwd-taparea id="gwd-taparea_30" class="gwd-taparea-14ox gwd-taparea-jd8k gwd-taparea-1cu7 gwd-taparea-qrqb gwd-taparea-sf2g gwd-taparea-10a0"></gwd-taparea>
+        <p class="gwd-p-blp8">© 2017 Dr. Ying Liu. Website developed and maintained by Chang Liu.</p>
+        <p class="gwd-p-eh0l">webhost.uic.edu</p>
+      </div>
+    </div>
+    <div id="page1_5" is="gwd-page" class="gwd-page-wrapper gwd-lightbox gwd-div-1b5s" data-gwd-width="1200px" data-gwd-height="2600px" centered="" data-gwd-name="page1_5_multimedia">
+      <div class="gwd-page-content gwd-div-aqyv">
+        <gwd-youtube id="gwd-youtube_9" video-url="https://youtu.be/GGCEhTZnq24" annotations="" related="" title="" class="gwd-youtube-8if0 gwd-youtube-1jyw" pause-on-end="" data-gwd-name="5 droplet interaction_1"></gwd-youtube>
+        <a class="gwd-a-m5mc gwd-a-mkzp gwd-a-ohfe"><br>
+          
+        </a>
+        <h1 class="gwd-a-5zd6 gwd-h1-lch2 gwd-h1-wqv3"><br class="gwd-br-17up"><span class="gwd-span-1lcp gwd-span-z5w5">Microfluidics and Nanotechnology</span></h1><a class="gwd-a-reua gwd-a-xcjo gwd-a-1f7z">home</a>
+        <gwd-taparea id="gwd-taparea_31" class="gwd-taparea-y230 gwd-taparea-svke gwd-taparea-19nx"></gwd-taparea><a class="gwd-a-reua gwd-a-1i0f gwd-a-atj0 gwd-a-qou6 gwd-a-mp8r" id="go_page_people_5">people</a><a class="gwd-a-reua gwd-a-1i0f gwd-a-ih8o gwd-a-xofq gwd-a-1o79" id="go_page_research_5">research</a><a class="gwd-a-reua gwd-a-1i0f gwd-a-1brj gwd-a-ehhv gwd-a-uv4c"
+        id="go_page_publication_5">publication</a><a class="gwd-a-reua gwd-a-1i0f gwd-a-1eur gwd-a-1d4o gwd-a-f6hw" id="go_page_multimedia_5">multimedia</a>
+        <gwd-taparea id="gwd-taparea_32" class="gwd-taparea-y230 gwd-taparea-qu8y gwd-taparea-y0mv gwd-taparea-1497"></gwd-taparea><a class="gwd-a-reua gwd-a-1i0f gwd-a-1w2l gwd-a-32fi gwd-a-12wm">members only</a>
+        <gwd-taparea id="gwd-taparea_33" class="gwd-taparea-y230 gwd-taparea-qu8y gwd-taparea-h8zy gwd-taparea-f8sp gwd-taparea-huot"></gwd-taparea>
+        <gwd-taparea id="gwd-taparea_34" class="gwd-taparea-y230 gwd-taparea-qu8y gwd-taparea-yvwp gwd-taparea-8gzk"></gwd-taparea>
+        <gwd-taparea id="gwd-taparea_35" class="gwd-taparea-y230 gwd-taparea-qu8y gwd-taparea-h8zy gwd-taparea-1fqn gwd-taparea-19vl gwd-taparea-dug6"></gwd-taparea>
+        <gwd-taparea id="gwd-taparea_36" class="gwd-taparea-y230 gwd-taparea-qu8y gwd-taparea-h8zy gwd-taparea-1fqn gwd-taparea-a93t gwd-taparea-diqz"></gwd-taparea>
+        <img is="gwd-image" source="assets/headline.jpg" id="gwd-image_20" class="gwd-img-1llb gwd-img-tccs gwd-img-toz5">
+        <gwd-youtube id="gwd-youtube_10" video-url="https://youtu.be/feUSwkT8o_s" annotations="" related="" title="" class="gwd-youtube-1yll gwd-youtube-zvj2" data-gwd-name="sequential interaction_1" pause-on-end=""></gwd-youtube>
+        <gwd-youtube id="gwd-youtube_11" annotations="" related="" title="" class="gwd-youtube-txgg gwd-youtube-ugd6" video-url="https://youtu.be/ySzF-s7Gfnc" data-gwd-name="3 droplet interaction_1" pause-on-end=""></gwd-youtube>
+        <gwd-youtube id="gwd-youtube_12" annotations="" related="" title="" class="gwd-youtube-1asa gwd-youtube-1d12" video-url="https://youtu.be/rwoMufImrbE" data-gwd-name="2 droplet interaction_1" pause-on-end=""></gwd-youtube>
+        <gwd-youtube id="gwd-youtube_13" video-url="https://youtu.be/MuklUz_0vno" annotations="" related="" title="" class="gwd-youtube-1fpg gwd-youtube-1jto" data-gwd-name="beforeclotting_1" pause-on-end=""></gwd-youtube>
+        <gwd-youtube id="gwd-youtube_14" annotations="" related="" title="" class="gwd-youtube-lana gwd-youtube-2uzi" video-url="https://youtu.be/U1PJLjP7Azs" data-gwd-name="afterclotting_1" pause-on-end=""></gwd-youtube>
+        <gwd-youtube id="gwd-youtube_15" annotations="" related="" title="" class="gwd-youtube-89cx gwd-youtube-1f50" video-url="https://youtu.be/vhd1Z-0TX3Q" data-gwd-name="14cm 1 frames1_1" pause-on-end=""></gwd-youtube>
+        <gwd-youtube id="gwd-youtube_16" annotations="" related="" title="" class="gwd-youtube-1iut gwd-youtube-1iab" video-url="https://youtu.be/3HfTa6yX5Mw" data-gwd-name="4 droplet interaction_1" pause-on-end=""></gwd-youtube>
+        <p class="gwd-p-12oy gwd-p-m8av"><br>
+          
+        </p>
+      </div>
+    </div>
+    <div id="page1_3" is="gwd-page" class="gwd-page-wrapper gwd-lightbox gwd-div-vhlp" data-gwd-width="1200px" data-gwd-height="2600px" data-gwd-name="page1_research" centered="">
+      <div class="gwd-page-content gwd-div-16ew">
+        <img is="gwd-image" source="assets/Research_clip_image002_0000_1.jpg" id="gwd-image_8" class="gwd-img-1azq">
+        <img is="gwd-image" source="assets/Research_clip_image002_1.jpg" id="gwd-image_10" class="gwd-img-1tdg">
+        <a class="gwd-a-nbnd">
+          Toroidal Spiral Micro-Particles (TSMPs) self-assemble and self-load by the competitive kinetics of viscous flow, diffusion and a cross-linking reaction. The resultant spiral structure is expected to be particularly conducive to both high drug loadings and prolonged release profiles.Thus, this work represents promising new biomedical applications enabled byfundamental fluid mechanics and transport phenomena.<br class="">
+        </a>
+        <a class="gwd-a-1n9s">For extremely complex heterogeneous diseases, such as cancer and immunoinflammatory disorders, deliver of a single therapeutic agent or a simple combination of multiple therapeutic agents is not an efficient method of treatment. We aim&nbsp;to develop synergistic drug delivery system (SDDS) based on dynamic self-assembling nanotechnology to achieve precise control of pharmacokinetics and pharmacodynamics of multiple-drug delivery.<br class=""></a>
+        <img is="gwd-image" source="assets/Pin_research1.png" id="gwd-image_11" class="gwd-img-l793">
+        <a class="gwd-a-m5mc gwd-a-r81n"><br>
+          
+        </a>
+        <h1 class="gwd-a-5zd6 gwd-h1-1al3"><br class="gwd-br-aqeh"><span class="gwd-span-1lcp gwd-span-3n9q">Microfluidics and Nanotechnology</span></h1><a class="gwd-a-reua gwd-a-cu3z">home</a><a class="gwd-a-reua gwd-a-1i0f gwd-a-atj0 gwd-a-13gx" id="go_page_people_2">people</a><a class="gwd-a-reua gwd-a-1i0f gwd-a-ih8o gwd-a-4i0i" id="go_page_research_2">research</a><a class="gwd-a-reua gwd-a-1i0f gwd-a-1brj gwd-a-1s9v"
+        id="go_page_publication_2">publication</a>
+        <a class="gwd-a-reua gwd-a-1i0f gwd-a-1eur gwd-a-3rot" id="go_page_multimedia_2">multimedia</a><a class="gwd-a-reua gwd-a-1i0f gwd-a-1w2l gwd-a-jxtp">members only</a>
+        <gwd-taparea id="gwd-taparea_7" class="gwd-taparea-oie8 gwd-taparea-geb8"></gwd-taparea>
+        <gwd-taparea id="gwd-taparea_8" class="gwd-taparea-oie8 gwd-taparea-t889 gwd-taparea-16iw"></gwd-taparea>
+        <gwd-taparea id="gwd-taparea_9" class="gwd-taparea-oie8 gwd-taparea-t889 gwd-taparea-1hl9 gwd-taparea-1b4u"></gwd-taparea>
+        <gwd-taparea id="gwd-taparea_10" class="gwd-taparea-oie8 gwd-taparea-t889 gwd-taparea-1hl9 gwd-taparea-dqcc gwd-taparea-2te0"></gwd-taparea>
+        <gwd-taparea id="gwd-taparea_11" class="gwd-taparea-oie8 gwd-taparea-t889 gwd-taparea-1hl9 gwd-taparea-dqcc gwd-taparea-18n4 gwd-taparea-y7b3"></gwd-taparea>
+        <gwd-taparea id="gwd-taparea_12" class="gwd-taparea-oie8 gwd-taparea-t889 gwd-taparea-1hl9 gwd-taparea-dqcc gwd-taparea-18n4 gwd-taparea-2h1r"></gwd-taparea>
+        <img is="gwd-image" source="assets/headline.jpg" id="gwd-image_15" class="gwd-img-1llb gwd-img-1j7g">
+        <p class="gwd-p-rvw2">As for the liposomal drugs, liposome structures and physicochemical characteristics could be altered by a wide range of choices of phospholipids, polymer conjugation, and addition of membrane proteins. This flexibility permits the modification
+          of liposome design and behavior-in-vivo according to specific therapeutic needs. However, the number of possibilities is enormous and optimization of the structure is not feasible by empirical trials. Therefore, it is necessary to investigate
+          the mechanisms of the effects of lipids interfacial structures on the enzyme-induced hydrolysis and the strategies of controlling the hydrolysis process to design the “smart” liposomal drugs, which were exclusively released in regions where
+          intrinsic enzymes are over-expressed due to disease or injury.</p>
+        <p class="gwd-p-nl36">As for the liposomal drugs, liposome structures and physicochemical characteristics could be altered by a wide range of choices of phospholipids, polymer conjugation, and addition of membrane proteins. This flexibility permits the modification
+          of liposome design and behavior-in-vivo according to specific therapeutic needs. However, the number of possibilities is enormous and optimization of the structure is not feasible by empirical trials. Therefore, it is necessary to investigate
+          the mechanisms of the effects of lipids interfacial structures on the enzyme-induced hydrolysis and the strategies of controlling the hydrolysis process to design the “smart” liposomal drugs, which were exclusively released in regions where
+          intrinsic enzymes are over-expressed due to disease or injury.</p>
+      </div>
+    </div>
+    <div id="page1_1" is="gwd-page" class="gwd-page-wrapper gwd-lightbox gwd-div-xl9u" data-gwd-width="1200px" data-gwd-height="6200px" data-gwd-name="page1_people" centered="">
+      <div class="gwd-page-content gwd-div-1cwt">
+        <img is="gwd-image" source="assets/lab photo.jpg" id="gwd-image_1" class="gwd-img-1c7k">
+        <img is="gwd-image" source="assets/Chang2.png" id="gwd-image_2" class="gwd-img-vn3y">
+        <img is="gwd-image" source="assets/Joe.JPG" id="gwd-image_3" class="gwd-img-1t7m">
+        <img is="gwd-image" source="assets/Paola.jpg" id="gwd-image_5" class="gwd-img-15gp">
+        <img is="gwd-image" source="assets/pin_zhang2.jpg" id="gwd-image_7" class="gwd-img-1hic">
+        <p class="gwd-p-fu90"><strong>Maryam Zaroudi</strong><br>
+          mzarou2@uic.edu<br>
+          2014: <strong class="">M.S.</strong>, Chemical Engineering, Amirkabir University of Technology,<br>
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Tehran, Iran<br>
+          2012: <strong class="">B.S.</strong>, Chemical Engineering, Sharif University of Technology,<br>
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Tehran, Iran<br>
+          
+          <strong>Research Project:</strong> Toroidal-Spiral Particles for Cell Encapsulation<br>
+          
+        </p>
+        <p class="gwd-p-1biv"><strong class="">Pin Zhang</strong><br>
+          pzhang30@uic.edu<br>
+          2013: <strong class="">M.S.</strong>, Safety Engineering, Nanjing University of Science &amp; Technology,<br>
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Nanjing, China<br>
+          2010: <strong class="">B.S.</strong>, Safety Engineering, Nanjing University of Science &amp; Technology,<br>
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Nanjing, China<br>
+          
+          <strong class="">Research Project:</strong> Optimization of Encapsulation of Polymeric Nanoparticles in Lipid &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Vesicles<br>
+          
+        </p>
+        <p class="gwd-p-1jjo"><strong>Chang Liu</strong><br>
+          cliu209@uic.edu<br>
+          2014: <strong>M.S.</strong>, Chemical Engineering, Carnegie Mellon University, Pittsburgh, PA<br>
+          2013: <strong>B.S.</strong>, Chemical Engineering, East China University of Science and Technology, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Shanghai, China<br>
+          
+        </p>
+        <p class="gwd-p-1vqm"><strong class="">Joseph Kalkowski</strong><br>
+          kalkwsk2@uic.edu<br>
+          2015: <strong class="">B.S.</strong>, Chemical Engineering, University of Illinois Chicago, IL<br>
+          2012: <strong class="">A.A.</strong>, Liberal Arts, Oakton Community College, Des Plaines, IL<br>
+          
+          <strong class="">Research Project:</strong> Small Angle X Ray Scattering Studies on Polymeric<br>
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Nanostructure Formation<br>
+          
+        </p>
+        <p class="gwd-p-i2cm"><span class="gwd-span-1mo1 gwd-span-ot8n gwd-span-1351" style="font-size: xx-large;">Graduate Students</span><br>
+          &nbsp;
+        </p>
+        <div class="gwd-div-12c0"><strong class="gwd-strong-1vhj">Principal Investigator&nbsp;</strong><br>
+          <br>
+          
+          <span class="gwd-span-z4ld">Ying Liu </span><br>
+          Associate Professor<br>
+          Department of Chemical Engineering<br>
+          Department of Biopharmaceutical Sciences<br>
+          University of Illinois at Chicago<br>
+          <br>
+          1997 – 2001 Tsinghua University, B.E.<br>
+          2002 – 2007 Princeton University, Ph D.<br>
+          2007 – 2008 University of Chicago, Postdoc<br>
+          <br>
+          <br>
+          Office: CEB211 &amp; CEB128 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>
+          Lab: CEB128&nbsp;<br>
+          Email: yingliu@uic.edu<br>
+          Phone: (312) 996-8249<br>
+          Fax: (312) 996-0808<br>
+          <br>
+          Address:<br>
+          Department of Chemical Engineering<br>
+          Uiversity of Illinois at Chicago<br>
+          810 S. Clinton St Chicago, IL, 60607</div>
+        <a class="gwd-a-m5mc gwd-a-125r"><br>
+          
+        </a>
+        <h1 class="gwd-a-5zd6 gwd-h1-t38p"><br class="gwd-br-4fn5"><span class="gwd-span-1lcp gwd-span-cbdx">Microfluidics and Nanotechnology</span></h1><a class="gwd-a-reua gwd-a-1vm1">home</a><a class="gwd-a-reua gwd-a-1i0f gwd-a-atj0 gwd-a-1gzc" id="go_page_people_3">people</a><a class="gwd-a-reua gwd-a-1i0f gwd-a-ih8o gwd-a-4w03" id="go_page_research_3">research</a>
+        <a class="gwd-a-reua gwd-a-1i0f gwd-a-1brj gwd-a-hh6j" id="go_page_publication_3">publication</a>
+        <a class="gwd-a-reua gwd-a-1i0f gwd-a-1eur gwd-a-1c7k" id="go_page_multimedia_3">multimedia</a><a class="gwd-a-reua gwd-a-1i0f gwd-a-1w2l gwd-a-144n">members only</a><a class="gwd-a-bx95">Undergraduate Students</a>
+        <gwd-taparea id="gwd-taparea_13" class="gwd-taparea-3fa4 gwd-taparea-njng"></gwd-taparea>
+        <gwd-taparea id="gwd-taparea_14" class="gwd-taparea-3fa4 gwd-taparea-z6bp gwd-taparea-lyht"></gwd-taparea>
+        <gwd-taparea id="gwd-taparea_15" class="gwd-taparea-3fa4 gwd-taparea-z6bp gwd-taparea-4tkv gwd-taparea-1312"></gwd-taparea>
+        <gwd-taparea id="gwd-taparea_16" class="gwd-taparea-3fa4 gwd-taparea-z6bp gwd-taparea-4tkv gwd-taparea-1pwt gwd-taparea-yjfs"></gwd-taparea>
+        <gwd-taparea id="gwd-taparea_17" class="gwd-taparea-3fa4 gwd-taparea-z6bp gwd-taparea-4tkv gwd-taparea-1pwt gwd-taparea-1io6 gwd-taparea-1kqp"></gwd-taparea>
+        <gwd-taparea id="gwd-taparea_18" class="gwd-taparea-3fa4 gwd-taparea-z6bp gwd-taparea-4tkv gwd-taparea-1pwt gwd-taparea-1io6 gwd-taparea-750h"></gwd-taparea>
+        <img is="gwd-image" source="assets/headline.jpg" id="gwd-image_16" class="gwd-img-1llb gwd-img-eh8e">
+        <div class="gwd-div-1e7o">
+          <p class="gwd-p-trfp"><strong>Paola Leon Plata</strong><br>
+            pleonp2@uic.edu<br>
+            2008: <strong>B.S.</strong>, Chemical Engineering, Universidad Industrial de Santander, Bucaramanga, Santander, Colombia<br>
+            
+            <strong>Research Project</strong>:<strong> </strong>Toroidal-Spiral Particles for Drug Delivery and Cell Encapsulation<br>
+            
+          </p>
+        </div>
+        <img is="gwd-image" source="assets/Tiep Pham.jpg" id="gwd-image_18" class="gwd-img-jzh8"><span class="gwd-span-e2c4"><strong class="">Tiep Pham</strong><br class="">tpham37@uic.edu<br class="">2013: <strong class="">B.S.</strong>, Chemical Engineering, University of Washington, Seatle.<br class=""><strong class="">Research Project:</strong> Threshold-Swichable Paticles to treat Internal Hemorrhage.&nbsp;</span>
+        <a class="gwd-a-1o03"><span class="gwd-span-1ujj">Veronica Villanueva &nbsp; &nbsp; &nbsp; &nbsp;Carly Burken</span><br class="">
+          
+          </a>
+        <p class="gwd-p-yvre">Alumni</p>
+        <p class="gwd-p-1u68"><span class="gwd-span-ltts">Ph.D.</span><br>
+          Vishal Sharma (Wockhardt Ltd.)<br>
+          Hao Shen (Dow Agroscience)<br>
+          Magdalena Szymusiak (Konvoy Pharmaceutical Tech)<br>
+          Alexander Donovan (USG)<br>
+          <br>
+          
+          <span class="gwd-span-1wyh">M.S.</span><br>
+          Catalina Mogollon (Randstad Life Sciences)<br>
+          Yuan Zhang (Sinopec)<br>
+          Ross Ransom (AbbVie)<br>
+          Pei-Tzu Lin&nbsp;</p>
+        <p class="gwd-p-q5jx"><span class="gwd-span-10b3">B.S.</span><br>
+          Paulina Ciupinski<br>
+          Amatul Salam<br>
+          Matthew Kubik<br>
+          Ryan Rock<br>
+          Kike Buari<br>
+          Matthew Levy<br>
+          Thinh Tang<br>
+          Charu Saini<br>
+          Marzena Zarycki<br>
+          Paulina Mlynarska<br>
+          Sule Alabi<br>
+          Daniyal Qamar<br>
+          Ajayi Oluwagoke T.<br>
+          Tania Wilson<br>
+          Sai Bhalerao<br>
+          Alex Ourth<br>
+          Ebin Joseph</p>
+        <p class="gwd-p-1dni">Post-doctoral Associate&nbsp;</p>
+        <img is="gwd-image" source="assets/Magda_photo_2.jpg" id="gwd-image_19" class="gwd-img-1u7n">
+        <p class="gwd-p-dow0"><strong class="">Magdalena Szymusiak</strong><br>
+          mrafac3@uic.edu<br>
+          <br>
+          Senior Researcher at Liu Lab &nbsp;<br>
+          Associate Director of Nanomedicine Discovery at Konvoy Pharmaceutical Technology (subsidiary of KPC Pharmaceuticals)<br>
+          <br>
+          2010: B.S., Chemical Engineering, University of Illinois at Chicago, Chicago, IL.&nbsp;<br>
+          2016: Ph.D., Chemical Engineering, University of Illinois at Chicago, Chicago, IL.<br>
+          <br>
+          
+        </p>
+        <img is="gwd-image" source="assets/Caleb Steel.jpeg" id="gwd-image_21" class="gwd-img-11jg">
+        <p class="gwd-p-hexc"><strong class="">Caleb Steel</strong><br>
+          csteel6@uic.edu<br>
+          2015: <strong class="">B.A.</strong>, Chemistry, Trinity Christian College&nbsp;</p>
+        <img is="gwd-image" source="assets/Maryam Zaroudi.jpg" id="gwd-image_22" class="gwd-img-13ae">
+      </div>
+    </div>
+    <div id="page1_2" is="gwd-page" class="gwd-page-wrapper gwd-lightbox gwd-div-1mu9" data-gwd-width="1200px" data-gwd-height="4000px" data-gwd-name="page1_publications" centered="">
+      <div class="gwd-page-content gwd-div-1s6f">
+        <div class="gwd-div-zji9"><strong class="">Recent Publications:<br><br class="">
+</strong>
+          25. Magdalena Szymusiak, Xiaoyu Hu, Paola A. Leon Plata, Paulina Ciupinski, Zaijie Jim Wang, Ying Liu. Bioavailability of curcumin and curcumin glucuronide in the central nervous system of mice after oral delivery of nano-curcumin. International Journal
+          of Pharmaceutics. 511(1), 415-423, 2016.<br>
+          <br>
+          24. Alexander J. Donovan, Joseph Kalkowski, Magdalena Szymusiak, Canhui Wang, Stephanie A. Smith, Robert F. Klie, James H. Morrissey, and Ying Liu. Artificial Dense Granules: A Procoagulant Liposomal Formulation Modeled after Platelet Polyphosphate
+          Storage Pools. Biomacromolecules. 17(8), 2572-2581, 2016.<br>
+          <br>
+          23. Xiaoyu Hu, Fang Huang, Magdalena Szymusiak, Ying Liu, abd Zaijie Wang, Curcumin Reverses Opioid-Induced Hyperalgesia via Spinal Inhibition of CaMKIIa, PLOS ONE, 11.1, e0146393, 2016.<br>
+          <br>
+          22. Ju Hun Yeon, Nima Mazinani, Travis S. Schlappi, Karen Y.T. Chan, James R. Baylis, Stephanie A. Smith, Alexander J. Donovan, Damien Kudela, Galen D. Stucky, Ying Liu, James H. Morrissey, Rustem F. Ismagilov, and Christian J. Kastrup, Localization
+          of short-chain polyphosphate enhances its ability to clot flowing blood plasma, Submitted to J. Thromb. Haemost.<br>
+          <br>
+          21. Magdalena Szymusiak*, Alexander J. Donovan*, Stephanie A. Smith, Ross Ransom, Hao Shen, Joseph Kalkowski, James H. Morrissey, and Ying Liu, Colloidal confinement of polyphosphate on gold nanoparticles robustly activates the contact pathway
+          of blood coagulation, Bioconjugate Chem. 27 (1), 102–109, 2016. (*: These authors contributed equally to this work).<br>
+          <br>
+          20. Xiaoyu Hu, Fang Huang, Magdalena Szymusiak, Ying Liu and Zaijie Jim Wang, Curcumin attenuates opioid tolerance and dependence by inhibiting CaMKIIα activity, Journal of Pharmacology and Experimental Therapeutics, 352 (3), 420-428, 2015.<br>
+          <br>
+          19. Alexander J. Donovan, Joseph Kalkowski, Stephanie A. Smith, James H. Morrissey and Ying Liu, Size-controlled synthesis of granular polyphosphate nanoparticles at physiologic salt concentrations for blood clotting, Biomacromolecules, 15 (11),
+          3976-3984, 2014.<br>
+          <br>
+          18. Suzanne D'Addio, Venkata Reddy, Ying Liu, Leo Einck, and Robert K. Prud'homme, Antitubercular nanoparticle combination products: formulation strategies and in vitro efficacy for rifampicin and SQ641. Mol. Pharmaceutics, 2015, 12 (5), 1554–1563.<br>
+          <br>
+          17. Vishal Sharma, Melanie Kollmer, Magdalena Szymusiak, Ludwig C. Nitsche, Richard A. Gemeinhart, and Ying Liu, Toroidal-spiral particles for co-delivery of anti-VEGFR-2 antibody and irinotecan-- a potential impant to hinder recurrence of glioblastoma
+          multiforme. Biomacromolecules, 15 (3), 756-762, 2014.<br>
+          <br>
+          16. Hao Shen, Xiaoyu Hu, Magdalena Szymusiak, Zaijie Jim Wang, and Ying Liu, Orally Administrated Nano-curcumin to Attenuate Morphine Tolerance and Dependence: Comparison between Negatively Charged PLGA and Partially and Fully PEGylated Nanoparticles.
+          Molecular Pharmaceutics, 10 (12), 4546-4551, 2013.<br>
+          <br>
+          15. Aryamitra A. Banerjee*, Hao Shen*, Mathew Hautman, Jaseem Anwer, Seungpyo Hong, Izet M. Kapetanovic, Ying Liu, and Alexander V Lyubimov, Polymeric nanoparticles enhance oral bioavailability of the hydrophobic chemopreventive agent (SR13668)
+          in beagle dogs, Current Pharmaceutical Biotechnology, 14, 464-469, 2013. (*Equivalent first authors).<br>
+          <br>
+          14. Suhair Sunoqrot, Ying Liu, Dong-Hwan Kim and Seungpyo Hong, In vitro evaluation of dendrimer-polymer hybrid nanoparticles on their controlled cellular targeting kinetics, Molecular Pharmaceutics, 10, 2157-2166, 2013.<br>
+          <br>
+          13. Hao Shen, Aryamitra A. Banerjee, Paulina Mlynarska, Mathew Hautman, Seungpyo Hong, Izet M. Kapetanovic, Alexander V. Lyubimov, and Ying Liu, Enhanced oral bioavailability of a cancer preventive agent (SR13668) by employing polymeric nanoparticles
+          with high drug loading, Journal of Pharmaceutical Sciences, 101 (10) 3877-3885, 2012.&nbsp;<br>
+          <br>
+          12. Magdalena Szymusiak, Vishal Sharma, Ludwig C. Nitsche, and Ying Liu, Interaction of sedimenting drops in a miscible solution – formation of heterogeneous toroidal-spiral particles, Soft Matter, 8 (29), 7556 - 7559, 2012.&nbsp;<br>
+          <br>
+          11. Suhair Sunoqrot, Jin Woo Bae, Ryan M. Pearson, Kevin Shyu, Ying Liu, Donghwan Kim, and Seungpyo Hong, Temporal Control over Cellular Targeting through Hybridization of Folate-targeted Dendrimers and PEG-PLA Nanoparticles. Biomacromolecules,
+          13 (4), 1223–1230, 2012.&nbsp;<br>
+          <br>
+          10. Vishal Sharma, Magdalena Szymusiak, Hao Shen, Ludwig C. Nitsche, and Ying Liu, Formation of Polymeric Toroidal-Spiral Particles, Langmuir, 28 (1), 729–735, 2012.&nbsp;<br>
+          <br>
+          9. Hao Shen, Seungpyo Hong, Robert K. Prud’homme, and Ying Liu, Self-Assembling Process of Flash NanoPrecipitation in a Multi-Inlet Vortex Mixer (MIVM) to Produce Drug-Loaded Polymeric Nanoparticles, Journal of Nanoparticle Research, 13 (9),
+          4109-4120, 2011.&nbsp;<br>
+          <br>
+          8. Suhair Sunoqrot, Jin Woo Bae, Su-Eon Jin, Ryan M. Pearson, Ying Liu, and Seungpyo Hong, Kinetically Controlled Cellular Interactions of Polymer−Polymer and Polymer−Liposome Nanohybrid Systems, Bioconjugate Chemistry, 22 (3), 466–474, 2011.&nbsp;<br>
+          <br>
+          7. Boris. Russ, Ying Liu, and Robert K. Prud’homme, Optimized Descriptive Model for Micromixing in a Vortex Mixer, Chemical Engineering Communications, 197 (8), 1068-1075, 2010.&nbsp;<br>
+          <br>
+          6. Ying Liu and R. Ismagilov, Dynamics of coalescence of plugs with a hydrophilic wetting layer induced by flow in a microfluidic chemistrode, Langmuir,25 (5), 2854-2859, 2009.&nbsp;<br>
+          <br>
+          5. D. Chen*, W. Du*, Ying Liu*, W. Liu*, and R. Ismagilov, The Chemistrode: a Droplet-based Microfluidic Device for Stimulation and Recording with High Temporal, Spatial, and Chemical Resolution, Proceedings of the National Academy of Sciences
+          (PNAS), 105 (44), 16843-16848, 2008.&nbsp;<br>
+          <br>
+          4. F. Shen, C. Kastrup, Ying Liu, and R. Ismagilov, Threshold Response of Initiation of Blood Coagulation by Tissue Factor in Patterned Microfluidic Capillaries is Controlled by Shear Rate, Arteriosclerosis Thrombosis and Vascular Biology, 28,
+          2035-2041, 2008.&nbsp;<br>
+          <br>
+          3. Ying Liu, C. Chen, R. Prudhomme, and R. Fox, Mixing in a Multi-Inlet Vortex Mixer (MIVM) for Flash Nano-Precipitation, Chemical Engineering Science, 63 (11), 2829-2842, 2008.<br>
+          <br>
+          2. Ying Liu, Z. Tong, and R. Prudhomme, Stabilized Polymeric Nanoparticles for Controlled and Efficient Release of Bifenthrin, Pest Management Science, 64 (8), 808-812, 2008.&nbsp;<br>
+          <br>
+          1. Ying Liu, K. Kathan, W. Saad, and R. Prud’homme, Ostwald Ripening of beta-carotene Nanoparticles, Physical Review Letters, 98 (3): Art. No. 036102, 2007.&nbsp;<br>
+          <br>
+          
+          <strong class="">
+ 
+Patents:
+</strong><br>
+          <br>
+          3. Robert K. Prud’homme, Marian Gindy, Baris Ungun, Stephanie Budijono, and Ying Liu, Nanoparticles for Photodynamic therapy, WO/2009/061406.<br>
+          <br>
+          2. Ludwig C. Nitsche and Ying Liu, Self-assembled Toroidal-spiral Particles and manufacture and Uses Thereof, WO/2011/062936.<br>
+          <br>
+          1. Seungpyo Hong and Ying Liu, Nano-hybrid Delivery System for Sequential Utilization of Passive and active Targeting. WO/2011/133617.<br>
+          <br>
+          
+          <a href="https://scholar.google.com/citations?user=4srsEyYAAAAJ&amp;hl=en" target="_blank" class="">check out google scholar</a><br>
+          
+        </div>
+        <a class="gwd-a-m5mc gwd-a-1wyw"><br>
+          
+        </a>
+        <h1 class="gwd-a-5zd6 gwd-h1-1ujj"><br class="gwd-br-fw5e"><span class="gwd-span-1lcp gwd-span-1ah6">Microfluidics and Nanotechnology</span></h1><a class="gwd-a-reua gwd-a-1cyn">home</a><a class="gwd-a-reua gwd-a-1i0f gwd-a-atj0 gwd-a-1gjv" id="go_page_people_4">people</a><a class="gwd-a-reua gwd-a-1i0f gwd-a-ih8o gwd-a-a7ix" id="go_page_research_4">research</a><a class="gwd-a-reua gwd-a-1i0f gwd-a-1brj gwd-a-1e68"
+        id="go_page_publication_4">publication</a>
+        <a class="gwd-a-reua gwd-a-1i0f gwd-a-1eur gwd-a-b8hu" id="go_page_multimedia_4">multimedia</a><a class="gwd-a-reua gwd-a-1i0f gwd-a-1w2l gwd-a-16gx">members only</a>
+        <gwd-taparea id="gwd-taparea_19" class="gwd-taparea-rtf8 gwd-taparea-r6c8"></gwd-taparea>
+        <gwd-taparea id="gwd-taparea_20" class="gwd-taparea-rtf8 gwd-taparea-g568 gwd-taparea-er2l"></gwd-taparea>
+        <gwd-taparea id="gwd-taparea_21" class="gwd-taparea-rtf8 gwd-taparea-g568 gwd-taparea-t2ov gwd-taparea-1y0s"></gwd-taparea>
+        <gwd-taparea id="gwd-taparea_22" class="gwd-taparea-rtf8 gwd-taparea-g568 gwd-taparea-t2ov gwd-taparea-1esg gwd-taparea-sh8o"></gwd-taparea>
+        <gwd-taparea id="gwd-taparea_23" class="gwd-taparea-rtf8 gwd-taparea-g568 gwd-taparea-t2ov gwd-taparea-1esg gwd-taparea-awae gwd-taparea-1re4"></gwd-taparea>
+        <gwd-taparea id="gwd-taparea_24" class="gwd-taparea-rtf8 gwd-taparea-g568 gwd-taparea-t2ov gwd-taparea-1esg gwd-taparea-awae gwd-taparea-2b5t"></gwd-taparea>
+        <img is="gwd-image" source="assets/headline.jpg" id="gwd-image_17" class="gwd-img-1llb gwd-img-omov">
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" id="gwd-init-code">
+    (function() {
+      document.body.style.opacity = "0";
+      var pageDeck = document.getElementById('pagedeck');
+      /**
+       * Handles the DOMContentLoaded event. The DOMContentLoaded event is
+       * fired when the document has been completely loaded and parsed.
+       */
+
+      function handleDomContentLoaded(event) {}
+
+      /**
+       * Handles the WebComponentsReady event. This event is fired when all
+       * custom elements have been registered and upgraded.
+       */
+      function handleWebComponentsReady(event) {
+        document.body.style.opacity = "";
+        setTimeout(function() {
+          pageDeck.goToPage(pageDeck.getDefaultPage().id);
+        }, 0);
+      }
+
+      window.addEventListener('DOMContentLoaded',
+        handleDomContentLoaded, false);
+      window.addEventListener('WebComponentsReady',
+        handleWebComponentsReady, false);
+    })();
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>LPPD</title>
+    <meta name="description" content="website description">
+    <meta name="keywords" content="website keywords, website keywords">
+    <link rel="stylesheet" type="text/css" href="./V2Web_Files/style.css">
+    <link rel="stylesheet" type="text/css" href="./V2Web_Files/style1.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-75165719-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+    <style>
+      .carousel-inner > .item > img,
+      .carousel-inner > .item > a > img {
+      width: auto;
+      margin: auto;
+      max-height: 250px;
+      }
+      .carousel-indicators .active {
+      background-color: #0f81bd;
+      }
+      .container {
+      width: 876px;
+      padding: 0px;
+      margin: 0px;
+      margin-left: 20px;
+      }
+      .casecontainer {
+      width: 876px;
+      padding: 0px;
+      margin: 0px 0px 20px 20px;
+      min-height: 200px;
+      background-color: rgb(232, 248, 255);
+      border: 1px solid rgb(163, 206, 255);
+      }
+      .casecontainer img {
+      max-height: 300px;
+      max-width: 180px;
+      margin-left: 10px;
+      margin-top: 24px;
+      margin-bottom: 10px;
+      float: left;
+      }
+      .casecontainer img:after {
+      clear: both;
+      display: table;
+      content: '';
+      }
+      .casecontainer h3 {
+      margin-left: 205px;
+      padding-top: 5px;
+      padding-right: 5px;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+      margin-top: 15px;
+      }
+      .casecontainer p {
+      margin-left: 205px;
+      margin-top: 2px;
+      padding-right: 10px;
+      }
+      .centertext {
+      text-align: center;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+      }
+      .carousel-control.left {
+      background-image: linear-gradient(to right,rgba(255,255,255,.95) 0,rgba(255,255,255,.0001) 100%);
+      }
+      .carousel-control.right {
+      background-image: linear-gradient(to right,rgba(255,255,255,.0001) 0,rgba(255,255,255,.95) 100%);
+      }
+      .barimage {
+      height: 3px;
+      width: 876px;
+      margin: 15px 0px 15px 20px;
+      }
+      .dividerimage {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+      }
+      .uiclink {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      height: 112px;
+      width: 112px;
+      }
+      .bioelink {
+      position: absolute;
+      top: 0px;
+      left: 112px;
+      height: 112px;
+      width: 249px;
+      }
+      .logo img{
+      width: 900px;
+      height: 122px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      margin-bottom: 3px;
+      text-align: center;
+      }
+      @media (max-width: 1650px) {
+      .bioelink{
+      display: none;
+      }
+      .uiclink{
+      display: none;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <a class="logo" href="./index.html"><img src="./V2Web_Files/logo.png"></a>
+      <nav>
+        <div id="menubar">
+          <nav id="primary_nav_wrap">
+            <ul>
+              <li class="current-menu-item"><a href="./index.html">   Home   </a>
+              </li>
+              <li><a href="./mission.html">Mission</a></li>
+              <li>
+                <a href="./members.html">People ▼</a>
+                <ul class="sub-menu">
+                  <li><a href="./members.html">LPPD Members</a></li>
+                  <li><a href="./collaborators.html">Collaborators</a></li>
+                  <li><a href="./former.html">Former Members</a></li>
+                  <li><a href="./resreu.html">Research and REU Students</a></li>
+                </ul>
+              </li>
+              <li><a href="./publications.html">Publications</a></li>
+              <li>
+                <a href="./reports.html">Reports ▼</a>
+                <ul class="sub-menu">
+                  <li><a href="./reports.html">Technical Reports</a></li>
+                  <li><a href="./bioe310rpt.html">Course Reports</a></li>
+                  <li><a href="./reureports.html">Student and Teacher Reports</a></li>
+                  <li><a href="./posters.html">Technical Posters</a></li><li><a href="./artwork.html">Artwork</a></li>
+                  <li><a href="./udgreports.html">Undergraduate Reports</a></li>
+                  <li><a href="./forms.html">Useful Resources</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="http://lppd.bioe.uic.edu/REU/index.html" target="_blank">Opportunities ▼</a>
+                <ul class="sub-menu">
+                  <li><a href="http://lppd.bioe.uic.edu/REU/index.html" target="_blank">REU - Undergraduate Research</a></li>
+                  <li><a href="http://lppd.bioe.uic.edu/RET.html" target="_blank">RET</a></li>
+                  <li><a href="./employment.html">Employment</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="./bioe310.html">Education ▼</a>
+                <ul class="sub-menu">
+                  <li><a href="./bioe310.html">Courses</a></li>
+                  <li><a href="./awards.html">Student Awards</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="http://lppd.bioe.uic.edu/CSA.html" target="_blank">Affiliates ▼</a>
+                <ul class="sub-menu">
+                  <li><a href="http://www.uic.edu/" target="_blank">UIC</a></li>
+                  <li><a href="http://www.bioe.uic.edu/" target="_blank">UIC Bioengineering</a></li>
+                  <li><a href="http://lppd.bioe.uic.edu/CSA.html" target="_blank">Chicago Science Art - CSA</a></li>
+                  <li><a href="http://www.systemscienceinc.com/" target="_blank">System Sciences</a></li>
+                </ul>
+              </li>
+              <li><a href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <br><br>
+        </div>
+      </nav>
+      <div id="site_content">
+        <div class="container">
+          <br>
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+              <li data-target="#myCarousel" data-slide-to="4"></li>
+              <li data-target="#myCarousel" data-slide-to="5"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <a href="#flowquantification"><img src="./V2Web_Files/V1.png" alt=""></a>
+              </div>
+              <div class="item">
+                <a href="#parametricmesh"><img src="./V2Web_Files/V222.png" alt=""></a>
+              </div>
+              <div class="item">
+                <a href="#simulationsofneuronal"><img src="./V2Web_Files/V3.png" alt=""></a>
+              </div>
+              <div class="item">
+                <a href="#convectionenhanced"><img src="./V2Web_Files/V4.png" alt=""></a>
+              </div>
+              <div class="item">
+                <a href="#cerebrospinalfluid"><img src="./V2Web_Files/V5.png" alt=""></a>
+              </div>
+              <div class="item">
+                <a href="#conjugationoftherapeutic"><img src="./V2Web_Files/V6.png" alt=""></a>
+              </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="uiclink">
+          <a href="http://www.uic.edu/"><img src="./V2Web_Files/UICHome.png" alt="image1"></a>
+        </div>
+        <div class="bioelink">
+          <a href="http://www.bioe.uic.edu/"><img src="./V2Web_Files/UICBIOE.png" alt="image1"></a>
+        </div>
+        <img class="barimage" src="./V2Web_Files/Bar.png"/>
+        <img class="dividerimage" src="./V2Web_Files/D5.png"/>
+        <a name="rationaldesign"></a>
+        <div class="casecontainer">
+		  <img width="180" src="./V2Web_Files/h1.png" alt="image1">
+		  <h3><a href="http://www.sciencedirect.com/science/article/pii/S0021929015000974"><b>Design of Intrathecal Drug Delivery Systems</b></a></h3>
+          <p><b>Kevin Tangen and Andreas Linninger</b></p>
+          <p>Intrathecal (IT) drug delivery is an effective method for delivering therapeutics which cannot cross the blood brain barrier to the central nervous system (CNS) in high doses without causing systemic side effects. Bench-top and animal experiments are generating data to quantify the key factors for the spread and spatial extent of drug distribution. These factors include (i) injection volume and rate, (ii) CSF pulsatility and stroke volume, and (iii) drug binding and uptake kinetics. Rigorous CFD simulations based on these experiments enable the prediction of drug dispersion and tissue uptake in the CNS. Our model offers an in-silico platform for testing and optimization of IT infusion procedures without the need for trial-and-error animal experimentation.</p>
+		  <br><br>
+        </div>
+		<a name="painmanagement"></a>
+        <div class="casecontainer">
+		  <img src="./V2Web_Files/hIT.png" alt="image1">
+		  <h3><a href="http://journals.lww.com/anesthesia-analgesia/Abstract/2017/05000/Computational_and_In_Vitro_Experimental.48.aspx"><b>Pain Management, Gene Vector Delivery, and Tumor Treatment: computational and experimental design</b></a></h3>
+          <p><b>Kevin Tangen and Andreas Linninger</b></p>
+          <p>To systematically study the spread of species within the CSF spaces a bench-top surrogate was constructed based on anatomical MRI data of a human subject. A precise 3D-printed replica of the entire spinal CSF-filled spaces was fabricated using high resolution medical images of a healthy human volunteer. Additive manufacturing techniques are used to print prototype segments of the spinal CNS. The model is constructed of transparent flexible polymer for the outer dura, and rigid material for the spinal cord, nerve roots, and brain parenchyma. CSF motion is driven by a pulsatile pump which forces fluid into flexible vessels within the cranial space to accurately capture the realistic CSF motion dynamics. Parameters can be varied to study the relative impact on species spread, such as pulse rate and stroke volume. Intrathecal infusion can be administered at any location along the neuroaxis to test clinically implemented treatments and novel infusion strategies.</p>
+        </div>
+        <a name="conjugationoftherapeutic"></a>
+        <div class="casecontainer">
+          <img src="./V2Web_Files/h4.png" alt="image1">
+          <h3><a href="http://www.ingentaconnect.com/content/asp/jbn/2015/00000011/00000002/art00006?token=005316cbc6bd75405847447b495b2f7b4063763b4766664833757e6f4f2858592f3f3b5785bef3b48ba"><b>Conjugation of Therapeutic Drugs on Superparamagnetic Nanoparticle Platform</b></a></h3>
+          <p><b>Sebastian Pernal, Indu Venugopal, Wali Badar, Nirav Soni and Andreas Linninger</b></p>
+          <p>Magnetic drug targeting is an intrathecal drug delivery technique that uses strong external magnetic fields to localize superparamagnetic nanoparticles at desired locations in the spine or brain. Chemotherapeutic agents are conjugated to the nanoparticle platform so that the nanoparticle-drug complex can be steered to desired target sites by suitably placed magnets. Magnetic targeting maximizes cytotoxicity close to tumor site without systemic drug spread to minimize side effects. Current applications include successful conjugation of the chemotherapeutic agent doxorubicin as well as the anti-inflammatory steroid, dexamethasone. We have also incorporated quantum dots in the nanoparticle platform for in vivo visualization of the drug vehicle conjugates.</p>
+        </div>
+        <a name="convectionenhanced"></a>
+        <div class="casecontainer">
+          <img src="./V2Web_Files/hCED.png" alt="image1">
+          <h3><a href="http://www.sciencedirect.com/science/article/pii/S1350453317300875"><b>Backflow-free catheters for efficient and safe convection-enhanced delivery of therapeutics</b></a></h3>
+          <p><b>Eric Lueshen, Kevin Tangen, Ankit I. Mehta and Andreas Linninger</b></p>
+          <p>Convection-enhanced delivery (CED) is an invasive technique for administering therapeutic drugs directly into the brain tissue to bypass the blood-brain barrier for the treatment of neurodegenerative disorders and brain cancers. Characterization of brain tissue anisotropy with diffusion tensor imaging improves prediction of drug spread in vivo. Optical methods were developed to investigate fluid flow phenomena in soft porous tissues. Our lab designs novel protocols and backflow-free catheters based on in vivo experimental data and computer simulations. Using our novel catheter designs, physicians will be able to target specific regions in high dosages without backflow.</p>
+		  <br><br>
+        </div>
+		<a name="cerebrospinalfluid"></a>
+        <div class="casecontainer">
+          <img src="./V2Web_Files/hCSF.png" alt="image2">
+          <h3><a href="http://annualreviews.org/doi/abs/10.1146/annurev-fluid-122414-034321"><b>Cerebrospinal Fluid Flow in the Central Nervous System</b></a></h3>
+          <p><b>Kevin Tangen and Andreas Linninger</b></p>
+          <p>The pulsatile expansion of the cerebrovascular bed induces cerebrospinal fluid (CSF) flow oscillations in the brain ventricles, as well as the cranial and spinal subarachnoidal spaces. The CSF flow patterns are significantly affected by spinal microanatomical aspects which includes nerve roots and trabeculae. In vivo MR measurements, in combination with detailed computer simulations of CSF flow in the entire central nervous system, are used to elucidate flow profiles in normal subjects and of patients with hydrocephalus. Pulsatile CSF flow is a key factor for drugs dispersion in the CSF.</p>
+		  <br><br><br><br><br>
+        </div>
+        <a name="intrathecalmagnetic"></a>
+        <div class="casecontainer">
+          <img src="./V2Web_Files/h5.png" alt="image1">
+          <h3><a href="http://www.futuremedicine.com/doi/abs/10.2217/nnm.13.69?url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org&rfr_dat=cr_pub%3Dpubmed&"><b>Intrathecal Magnetic Drug Targeting</b></a></h3>
+          <p><b>Indu Venugopal, Sebastian Pernal and Andreas Linninger</b></p>
+          <p>IT drug delivery is used to deliver gene therapies, enzymes or therapeutic agents across the blood brain barrier directly to the cerebrospinal fluid. Using external magnetic fields to steer our novel superparamagnetic nanoparticle delivery platform, we have  been successful in localizing more than 80% of the entire administered drug to desired target locations in the human spinal canal.  Our lab uses in vitro models of the spinal canal and brain as well as small animal models to experimentally demonstrate the efficacy of this technique. Magnetic drug targeting is a promising improvement over conventional IT drug delivery.</p>
+        </div>
+        <img class="dividerimage" src="./V2Web_Files/D4.png"/>
+        <a name="hemodynamicsandoxygenmouse"></a>
+        <div class="casecontainer">
+          <img src="./V2Web_Files/hJCBFM.png" alt="image1">
+          <h3><a href="http://journals.sagepub.com/doi/abs/10.1177/0271678X16671146?journalCode=jcba"><b>Hemodynamics and Oxygen Exchange in the Mouse Cerebral Microcirculation</b></a></h3>
+          <p><b>Ian Gould, Grant Hartung, and Andreas Linninger</b></p>
+          <p>A detailed map of the mouse cerebral cortex with all individual neurons and glial cells as well as the embedded microcirculatory blood flow network was constructed In collaboration with Dr. Kleinfeld at UCSD. Our lab created a morphologically accurate, physiologically consistent, multi-scale computer model of the entire cerebral microcirculation to predict blood flow, hematocrit distribution, red blood cell saturation, neuronal and glial oxygen tension including mitochondrial oxygen turnover. The cellular simulations elucidates the functional role of the angioarchitecture in supplying oxygen to brain cells after neuronal firing. Computational models at the cellular level are expected to improve our understanding of changes in hemodynamics and oxygen extraction occurring in cerebrovascular diseases such as micro infarcts, vascular dementia, cerebral vasospasm, epilepsy and Alzheimer's.</p>
+        </div>
+		<a name="microcirculationhuman"></a>
+        <div class="casecontainer">
+          <img src="./V2Web_Files/h14.png" alt="image1">
+          <h3><a href="http://onlinelibrary.wiley.com/doi/10.1111/micc.12156/abstract"><b>Computational Study of Changes to the Human Microcirculation in the Diseased and Aging Brain</b></a></h3>
+          <p><b>Ian Gould and Andreas Linninger</b></p>
+          <p>Our lab developed a novel biphasic blood flow model to predict blood flow and resulting oxygenation in the human secondary cortex. We synthesized on the computer virtual representations of the human cortex including all capillaries, as well as individual brain cells. Computer predictions of oxygen exchange and solute transfer across the blood brain barrier help elucidate brain function of the neurovascular unit and explain brain diseases as well as the aging brain.</p>
+        </div>
+		<a name="flowquantification"></a>
+        <div class="casecontainer">
+          <img src="./V2Web_Files/h11.png" alt="image1">
+          <h3><a href="http://www.annualreviews.org/doi/abs/10.1146/annurev-fluid-122414-034321"><b>Whole Brain Flow Quantification</b></a></h3>
+          <p><b>Chih-Yang Hsu and Andreas Linninger</b></p>
+          <p>Digital subtraction angiography (DSA) can currently only be used for qualitative assessment of blood distribution patterns. We are developing new imaging software to infer volumetric blood flow rates from dynamic DSA signals. The novel method enables the creation of patient-specific maps of cerebral blood flow in every blood vessel visible by angiography. Volumetric blood flow estimation is feasible from large arteries in the Circle of Willis to pial arteries and cortical veins.</p>
+        </div>
+        <img class="dividerimage" src="./V2Web_Files/D1.png"/>
+		<!--
+        <a name="interactivevirtual"></a>
+        <div class="casecontainer">
+          <img src="./V2Web_Files/h0.png" alt="image0">
+          <h3><b>Interactive Virtual Reality Visualization for Big Brain Data</b></h3>
+          <p><b>Guoren Xu, Bangren Xu, Tyler Camp, Diogo Rocha, Bill Guschwan, and Andreas Linninger</b></p>
+          <p>An optimized visualization tool for volume rendering and patient-specific data. Current medical image manipulation software packages and APIs use outdated and non-immersive methods for visualization of big brain data. Using Unity3D, a game engine dedicated to graphics, we receive the benefits of improved performance as well as direct interfaces with immersive peripherals such as Oculus Rift and Leap Motion. Unity3D also permits manipulation of the rendering pipeline, which allowed us to make innovations in volume rendering using a "glass method" and real time changing of a texture for on-the-fly changes to the volumetric viewing experience. Session data is saved, allowing users to continue from a past session.</p>
+        </div>
+		-->
+        <a name="wholebrain"></a>
+        <div class="casecontainer"> 
+          <img src="./V2Web_Files/h7.png" alt="image1">
+          <h3><a href="http://www.mdpi.com/2227-7080/3/2/126/htm"><b>Whole Brain Computational Mesh Generation</b></a></h3>
+          <p><b>Chih-Yang Hsu, Ben Schneller and Andreas Linninger</b></p>
+          <p>Subject-specific anatomical data is acquired by medical imaging modalities such as magnetic resonance imaging (MRI), computed tomography (CT) or digital subtraction angiography (DSA) to delineate the main geometric features of individual patients' brains. We develop an imaging pipeline based on automatic image reconstruction algorithms for creating computational meshes for the human brain that extract detailed anatomical structures such as the arterial and venous trees, the skull and scalp, as well as the cortical surface. Anatomically detailed models enable subject-specific computational fluid dynamic simulations of the cerebral blood flow or highly realistic visualizations of the human brain.</p>
+        </div>
+        <a name="parametricmesh"></a>
+        <div class="casecontainer">
+          <img src="./V2Web_Files/parametric1.png" alt="image1">
+          <h3><a href="http://www.sciencedirect.com/science/article/pii/S0010482517303542"><b>Parametric Mesh Generation for Cerebral Vasculature</b></a></h3>
+          <p><b>Mahsa Ghaffari and Andreas Linninger</b></p>
+          <p>Computational meshes of the cerebral angioarchitecture are a prerequisite for the study of blood flow patterns in the entire brain. Because existing computational meshing techniques require massive numbers of elements, new algorithms are being developed for smooth vessel network reconstruction to enable fast and more precise computational fluid dynamic simulations. A novel fully-automatic algorithm for structured parametric meshing is created to reconstruct the anatomy of blood flow networks from medical images without user supervision. Subject-specific representations of vascular trees are necessary to perform organ-wide hemodynamics for personalized surgical planning of vascular disease interventions.</p>
+        </div>
+        <a name="algorithmsforreconstruction"></a>
+        <div class="casecontainer">
+          <img src="./V2Web_Files/filter_mesh.png" alt="image1">
+          <h3><a href="http://onlinelibrary.wiley.com/doi/10.1002/mrm.26087/abstract"><b>Algorithms for Reconstruction of Cerebral Angioarchitecture from Medical Images</b></a></h3>
+          <p><b>Ben Schneller, Chih-Yang Hsu, Mahsa Ghaffari and Andreas Linninger</b></p>
+          <p>We develop novel image filter algorithms to enhance the contrast from tortuous blood vessels acquired by magnetic resonance angiography (MRA) and venography (MRV), while suppressing the signal from the cortex and imaging noise.  Filtered images facilitate the automatic segmentation of subject-specific arterial or venous tree. The reconstructed networks can be used for scientific visualization of brain data, training of medical students,automatic mesh generation for CFD simulations as well as blueprints for realistic blood flow networks fabricated with 3d printing technology.</p>
+        </div>
+        <img class="dividerimage" src="./V2Web_Files/D2.png"/>
+        <a name="simulationsofneuronal"></a>
+        <div class="casecontainer">
+          <img src="./V2Web_Files/h6.png" alt="image1">
+          <h3><a href="http://www.mdpi.com/2227-9717/2/1/218"><b>Simulations of Neuronal Subcellular Environment</b></a></h3>
+          <p><b>Grant Hartung and Andreas Linninger</b></p>
+          <p>Computational neuroscience has historically relied on numerical models assuming that electrophysiology and biochemistry are independent of one another. In a neuron, however, they are fully coupled. We build distributed models that couple the contribution of accumulated electrical charge, receptor agonist binding kinetics, and molecular mobility to accurately simulate synaptic integration at the subcellular level.</p></br>
+        </div>
+        <a name="aquaporin4water"></a>
+        <div class="casecontainer">
+          <img src="./V2Web_Files/h2.png" alt="image1">
+          <h3><a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4228294/"><b>Aquaporin 4 Water Transport in the CNS</b></a></h3>
+          <p><b>Jacek Lechowicz and Andreas Linninger</b></p>
+          <p>The dysregulation of water transport within the central nervous system (CNS) is believed to be responsible for the accumulation of waste products leading to neurodegenerative disorders such as Alzheimer's, Parkinson's, and Huntington' disease. The high metabolism of the brain and the sensitivity of neurons to their environment requires an efficient means by which soluble waste can be cleared. A macroscopic water pathway, that is theorized to be responsible for this clearance of solutes, has been observed but our knowledge of the underlying cellular and molecular process is lacking. Aquaporin 4 (AQP4), the major water transport channel in the brain and expressed in astrocytes, is known to play a major role as its deletion results in a 70% reduction of radiolabeled amyloid beta clearance from the mouse brain and has been observed to have lower expression levels in the brains of Alzheimer's patients.</p>
+        </div>
+        <img class="dividerimage" src="./V2Web_Files/D3.png"/>
+        <a name="smartshunts"></a>
+        <div class="casecontainer">
+          <img src="./V2Web_Files/h8.png" alt="image1">
+          <h3><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6848756"><b>Smart Shunts for Hydrocephalus</b></a></h3>
+          <p><b>Kevin Tangen and Andreas Linninger</b></p>
+          <p>Current shunts for the treatment of hydrocephalus have a failure rate above 50% for pediatric patients with associated heath care cost of $1.4B each year in the U.S. To reduce the failure rate of existing shunts, our lab designs new smart shunts with integrated micro-sensors for in-vivo measurement of ventricular volume (VV), intracranial pressure (ICP) and cerebral compliance (CC). Prototypes for animal and human use are designed, fabricated and tested in our lab. Sensor performance is optimized with in-vitro and animal experimentation as well as computer simulations.</p>
+        </div>
+      </div>
+    </div>
+    <div align="center">
+      <footer>
+        Personal and Group Homepage of Prof. Andreas A. Linninger<br>
+        Copyright © 2009-2015 LPPD, University of Illinois at Chicago, Department of Bioengineering (M/C 063)
+      </footer>
+      <script type="text/javascript" src="./V2Web_Files/jquery.js"></script>
+      <script type="text/javascript" src="./V2Web_Files/image_slide.js"></script>
+    </div>
+  </body>
+</html>

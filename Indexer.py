@@ -13,7 +13,7 @@ class PreProcessor:
     def __init__(self):
         self.pagesCount = 6000
 
-        with open("./.CrawledData/crawledData_"+str(self.pagesCount),"rb") as data_file:
+        with open("./CrawledData/crawledData_"+str(self.pagesCount),"rb") as data_file:
             self.webLinks = pickle.load(data_file)
             self.reverseWebLinks = pickle.load(data_file)
 
@@ -65,7 +65,7 @@ class PreProcessor:
     def start(self):
 
         for index,value in self.webLinks.items():
-            with open("./.CrawledData/"+str(index),"r") as file:
+            with open("./CrawledData/"+str(index),"r") as file:
                 self.inv_index[index] = {}
                 self.inv_index_title[index] = {}
 
@@ -138,7 +138,7 @@ class PreProcessor:
                     except:
                         continue
 
-        with open("./.CrawledData/index_"+str(self.pagesCount),"wb") as outfile:
+        with open("./CrawledData/index_"+str(self.pagesCount),"wb") as outfile:
             pickle.dump(self.nodes_inlink, outfile)
             pickle.dump(self.nodes_outlink,outfile)
             pickle.dump(self.inv_index,outfile)
@@ -167,7 +167,7 @@ class PreProcessor:
             for k1,v1 in v.items():
                 self.TF_IDF[k][k1] = v1*self.IDF[k1]
 
-        with open("./.CrawledData/index2_"+str(self.pagesCount),"wb") as outfile:
+        with open("./CrawledData/index2_"+str(self.pagesCount),"wb") as outfile:
             pickle.dump(self.stream_length_title, outfile)
             pickle.dump(self.stream_length, outfile)
             pickle.dump(self.IDF_title, outfile)

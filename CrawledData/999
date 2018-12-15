@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>UIC Civil and Materials Engineering</title>
+	<atom:link href="http://cme.uic.edu/feed/" rel="self" type="application/rss+xml" />
+	<link>http://cme.uic.edu</link>
+	<description></description>
+	<lastBuildDate>Fri, 07 Dec 2018 18:44:17 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.0</generator>
+	<item>
+		<title>College of Engineering’s First Female Graduate</title>
+		<link>http://cme.uic.edu/2018/12/07/college-of-engineerings-first-female-graduate/</link>
+		<pubDate>Fri, 07 Dec 2018 18:43:55 +0000</pubDate>
+		<dc:creator><![CDATA[davidst]]></dc:creator>
+				<category><![CDATA[2018]]></category>
+		<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">http://cme.uic.edu/?p=2140</guid>
+		<description><![CDATA[Today, about 25 percent of workers in STEM careers — those involving science, technology, engineering and math — are women.]]></description>
+				<content:encoded><![CDATA[
+<p>Today, about 25 percent of workers in STEM careers — those involving science, technology, engineering and math — are women. But back in 1968, when Nancy Holmes was the first woman to earn a degree in engineering from the UIC College of Engineering, the percentage of women in science or engineering careers was diminishingly small.</p>
+
+
+
+<p>For Holmes, who grew up in Oak Park, the probability that she would go into the sciences was high from the start — several uncles and her grandfather were civil engineers, her brother is an architectural engineer, her father was an engineer at Zenith Radio and two aunts had advanced math degrees. Her mother had a job in hospital nutrition and was well-versed in chemistry. So, when her high school dean asked what she wanted to major in for college, she said engineering without hesitation.</p>
+
+
+
+<p>Read more at <a href="https://today.uic.edu/college-of-engineerings-first-female-graduate">UIC Today.</a></p>
+<p></p>]]></content:encoded>
+			</item>
+		<item>
+		<title>PhD Student Helps Team Win Second Place at &#8216;Intelligent Water Systems Challenge’</title>
+		<link>http://cme.uic.edu/2018/11/28/phd-student-helps-team-win-second-place-at-intelligent-water-systems-challenge/</link>
+		<pubDate>Wed, 28 Nov 2018 18:28:14 +0000</pubDate>
+		<dc:creator><![CDATA[davidst]]></dc:creator>
+				<category><![CDATA[2018]]></category>
+		<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">http://cme.uic.edu/?p=2135</guid>
+		<description><![CDATA[John Mulrow, a PhD candidate in the Department of Civil and Materials Engineering (CME), partnered with a team of scientists]]></description>
+				<content:encoded><![CDATA[<p>John Mulrow, a PhD candidate in the Department of Civil and Materials Engineering (CME), partnered with a team of scientists from the Metropolitan Water Reclamation District of Greater Chicago (MWRDGC), a professor from the University of Illinois at Urbana-Champaign, and professionals from Ensaras, Inc., to win second place at the inaugural “LIFT Intelligent Water Systems Challenge.”</p>
+<p>The national competition, hosted by the Leaders Innovation Forum for Technology (LIFT), a joint effort of the Water Environment Federation and the Water Research Foundation, challenged participants to develop new tools to improve local water and environmental quality through data analytics and artificial intelligence. It featured 19 teams of students, professionals and technology experts who used innovation and data to help solve difficult real-world issues facing water and wastewater utilities. Winners were announced following finalists’ presentations that were delivered at the Water Environment Federation’s Technical Exhibition and Conference in New Orleans. The team captured second place for its project “Developing Intelligent Advanced Warning Systems for Odors at Thornton-Composite-Reservoir.”</p>
+<p>The team developed solutions to odor issues, and created a predictive model to provide MWRDGC’s staff with advanced warning before odors emerge at the reservoir, which will allow corrective actions could be taken in advance.</p>
+<p>“My friend Dominic Brose, a soil scientist at the MWRDGC, asked me about joining a team focused on predicting odor events at their large reservoir on the south side. Dominic was familiar with CSUN&#8217;s work applying machine learning to civil engineering problems,” said Mulrow, who is working under the direction of CME Associate Professor Sybil Derrible in the <a href="http://csun.uic.edu/">Complex and Sustainable Urban Networks (CSUN) Lab</a>. “I was lucky to recruit the assistance of Darshan Jain, Master’s Degree candidate in Civil Engineering, to help with data preparation and Quality Assurance/Quality Control (QAQC).”</p>
+<p>The data prep and QAQC processes turned out to be a major portion of the work as the team spent approximately four months reviewing hundreds of thousands of data points from at least 10 different data streams – weather, reservoir operations monitoring, and sensor data. They had to get each data type into a database format that was usable in machine learning testing. Additionally, they mined the data for time series and spatial trends in order to formulate hypotheses for data that would provide the strongest predictive power. </p>
+<p>“Once the data was compiled, we worked with Dr. Lav Varshney [of UIUC] and Ms. Nina Kshetry [of Ensaras] as they tested random forest algorithms on various subsets of data in search of an algorithm that would successfully predict odor events while avoiding false positive predictions,” said Mulrow. “Using this approach we were able to identify the data types and monitoring locations with the most predictive power, which will help MWRD improve their odor monitoring program going forward.”</p>
+<p>While the contest has ended, the teams’ research will continue to be used to remedy the real-world solution they were tasked with addressing.</p>
+<p>“We will be conducting follow-up this fall to train MWRD staff in implementation of the prediction algorithm using real-time data streams,” said Mulrow. “The algorithm that was developed can also be used to evaluate the efficacy of odor mitigation solutions at additional locations.”</p>
+<p>Learn more about the research at CSUN at <a href="http://www.csun.uic.edu/">csun.uic.edu</a>. Learn more about CME&#8217;s Masters and PhD degrees at <a href="http://cme.uic.edu/graduate-studies/">Graduate Studies</a>.</p>
+<p><a href="http://cme.uic.edu/k-teacher/david-staudacher/"><em>By David Staudacher, UIC </em></a></p></p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Professor Vitousek Quoted in Wired Magazine Story</title>
+		<link>http://cme.uic.edu/2018/11/20/2128/</link>
+		<pubDate>Tue, 20 Nov 2018 18:08:33 +0000</pubDate>
+		<dc:creator><![CDATA[davidst]]></dc:creator>
+				<category><![CDATA[2018]]></category>
+		<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">http://cme.uic.edu/?p=2128</guid>
+		<description><![CDATA[CME Assistant Professor Sean Vitousek was quoted recently in a Wired story about sea-level rise in Los Angeles. Engineers are]]></description>
+				<content:encoded><![CDATA[<p>CME Assistant Professor Sean Vitousek was quoted recently in a <a href="https://www.wired.com/story/los-angeles-sea-level-rise/">Wired</a> story about sea-level rise in Los Angeles.</p>
+<p>Engineers are also getting better at figuring out exactly where to focus their efforts as sea levels rise. Researchers, for instance, build models of how waves will look in a particular area. “From comparing the model to how it performed over the historical data, we can sort of get a sense of is this model performing in a realistic manner,” says Sean Vitousek, an engineer at the University of Illinois at Chicago. “And then we can use various projections in terms of sea level rise and wave heights going forward to sort of extrapolate where the shoreline might be over a long period of time.”</p>
+<p>Read the full story at <a href="https://www.wired.com/story/los-angeles-sea-level-rise/">Los Angeles Must Pay Billions to Adapt—or Slip Into the Sea</a>. </p>
+<p>Learn more about Vitousek&#8217;s research at <a href="http://www.e-ala-kai-research.com/" target="_blank" rel="noopener">Environmental Fluid Mechanics</a> laboratory. </p></p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Student&#8217;s Passion for Engineering Leads to Scholarship</title>
+		<link>http://cme.uic.edu/2018/11/14/students-passion-for-engineering-leads-to-scholarship/</link>
+		<pubDate>Wed, 14 Nov 2018 16:33:53 +0000</pubDate>
+		<dc:creator><![CDATA[davidst]]></dc:creator>
+				<category><![CDATA[2018]]></category>
+		<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">http://cme.uic.edu/?p=2117</guid>
+		<description><![CDATA[PhD candidate Jyoti K. Chetri has a strong work ethic and an even stronger desire to make the world a]]></description>
+				<content:encoded><![CDATA[<p>PhD candidate Jyoti K. Chetri has a strong work ethic and an even stronger desire to make the world a better place. It is this drive that helped the Department of Civil and Materials Engineering student win a Chicago Consular Corps (CCC) Scholarship for the academic year 2018-2019 from UIC’s Office of International Affairs (OIA).</p>
+<p>She is one of only a several successful applicants university-wide who were “favorably reviewed” and awarded the $1,000 scholarship. Eligibility for the scholarship is limited to students who have a minimum cumulative UIC GPA of 3.5 (on a 4-point scale).</p>
+<p>Chetri, of Nepal, is working under the direction of CME Professor Krishna R. Reddy in the Sustainable Engineering Research Lab and the Geotechnical and Geoenvironmental Engineering Lab where they are working on <a href="http://cme.uic.edu/2017/11/10/professor-reddy-is-researching-zero-emissions-from-landfills/">developing an innovative steel slag-biochar-soil cover for municipal solid waste landfills to mitigate fugitive landfill emissions</a>. Landfills are the major sources of anthropogenic greenhouse gases, and developing steel slag, biochar amended soil cover will prove a turning point in the field of landfills and steel industry. It will not only hold in emissions from landfills but also solve one of the biggest problems of steel industry which is stockpiling of waste slag.</p>
+<p>“She has demonstrated exceptional research capabilities since the beginning of her research,” said Reddy. “She has shown admirable problem-solving skills. She is very hard-working and sincere towards her work, has in-depth knowledge on the subject matters and possess the ability to conduct research independently, and has excellent analytical skills. She is highly motivated and inclined towards learning new things, and takes the initiative to conduct in-depth literature reviews. In her short span of research at UIC, she has been able to write nearly 10 technical papers, which includes journal and conference papers. She takes criticisms positively and takes them as an opportunity to improve. She strives to flourish as an accomplished researcher.”</p>
+<p>Apart from her outstanding work in the classroom and the laboratory, she has a drive to help others. This is something that started a young age and motivates her as a student.</p>
+<p>“Growing up in the hinterlands of Nepal, all I saw was poor infrastructure, poor health facilities and many people dying at an early age,” said Chetri. “At a very young age where understanding engineering was beyond my capacity, I understood one simple fact that the main reason for many people dying at an early age was lack of health facilities and infrastructures. There were no proper roads and transportation facilities to carry sick people to the far away hospitals on time. I developed immense curiosity at an early age to find out more about the causes and solutions to such events. Gradually, I realized that engineering was the solution I was looking for to help the people of my village.”</p>
+<p>The Chicago Consular Corps (CCC) is comprised of all career and honorary consular officials appointed by their respective governments to serve in metropolitan Chicago, and who are duly recognized by the United States Department of State. Since its founding, the CCC has united representatives from countries around the world with more than 80 countries represented.</p>
+<p>According to the CCC, “awardees are students doing undergraduate, graduate and doctoral work. This is an important issue that is a core value to the CCC and to send the message to the foreign students, that we appreciate, admire and support their efforts and the sacrifice that it represents to them and their families to strive for a better education.”</p>
+<p>Learn more about professor’s Reddy’s and Chetri’s research at SERL &amp; GAGEL. Find more information about CME’s graduate studies at <a href="http://cme.uic.edu/graduate-studies">http://cme.uic.edu/graduate-studies</a>.</p>
+<p><em>By <a style="font-style: inherit" href="http://cme.uic.edu/k-teacher/david-staudacher/">David Staudacher, UIC</a></em></p></p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Two New Donors Bring More Scholarship Opportunities to Students</title>
+		<link>http://cme.uic.edu/2018/11/06/two-new-donors-bring-more-scholarship-opportunities-to-students/</link>
+		<pubDate>Tue, 06 Nov 2018 22:36:49 +0000</pubDate>
+		<dc:creator><![CDATA[davidst]]></dc:creator>
+				<category><![CDATA[2018]]></category>
+		<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">http://cme.uic.edu/?p=2109</guid>
+		<description><![CDATA[Scholarship donors and their recipients came together on Nov. 1, 2018, for the Department of Civil and Materials Engineering’s annual]]></description>
+				<content:encoded><![CDATA[<p>Scholarship donors and their recipients came together on Nov. 1, 2018, for the Department of Civil and Materials Engineering’s annual Civil Engineering Professional Advisory Council (CEPAC) Scholarship Reception and Awards Dinner.</p>
+<p>The event recognizes the generosity of scholarship donors and partners who give annually to students to help them pursue their academic and professional dreams. CME awarded dozens of scholarships to students and supports UIC in its mission to provide access to excellence and success for our students. Board members, many of whom are UIC alumnus, added personal stories to the ceremony as they detailed the scholarship requirements and the interests and accomplishments of the donors.</p>
+<p>Additionally, two new scholarships were awarded from CEPAC members. The “Infrastructure Engineering Scholarship” was established by CEPAC member Michael Sutton and awarded to students in civil engineering who are members of the National Society of Black Engineers.</p>
+<p>The “L.J. Halbert Scholarship” was established by UIC College of Engineering alumna and CEPAC member Debra Evans to honor her late father. This scholarship is awarded to students in materials or civil engineering who are members of National Society of Black Engineers, with a preference for members of the Society of Women Engineers.</p>
+<p>“I donated to the Civil Engineering Department because there is a great need for scholarships for students in the Chicagoland area,” said Evans. “My father was a contractor in the city, and he was very much involved in education. And it’s appropriate to put a scholarship in his name. We grew up on the West Side of Chicago. We were educated on the West Side of Chicago. I think my father would get a great kick out of the fact that we endowed the scholarship in his name on his side of town.”</p>
+<p>All of the scholarships were appreciated as students accepted them with wide smiles and a sense gratitude.</p>
+<p>“I want to give a heartfelt thanks to the CEPAC members and all of the scholarship donors and those who give some of their hard-earned money and talents to us,” said scholarship recipient Luke Zanoni. “A lot of us are paying for part or all of our way through school. Last semester, I remember looking at my finances and ‘I don’t know if I’m going to be able to graduate.’ But I know I have to finish this degree.… A heartfelt thanks from all of us, to all of you who have given money for these scholarships. They are not lost on us, and hopefully we can give back to some of your companies and the community at large.”</p>
+<p>Apart from receiving scholarships, the gathering provided students with a chance to meet the donor or a corporate representative of their scholarship. It also provided them with the opportunity to network.</p>
+<p>More pictures of the scholarship winners can be viewed at <strong><a style="font-style: inherit" href="https://www.flickr.com/photos/uic_engineering/albums/72157700046326952">CEPAC Scholarships</a></strong>.</p>
+<p><strong>By</strong> <a href="https://www.ece.uic.edu/k-teacher/david-staudacher/"><strong>David Staudacher</strong></a>, <strong>UIC</p>
+<p></strong></p>
+<p><strong>Scholarship Donors and Recipients</strong></p>
+<p><strong>ACCESS ILLINOIS JOHN BURNETT SCHOLARSHIP</strong> <br />
+Muntather H. Merei, Hussein A. Mohd</p>
+<p><strong>ALFRED BENESCH SCHOLARSHIP</strong> <em><br />
+</em>Luke E. Zanoni</p>
+<p><strong>DAVID E. BOYCE GRADUATE SCHOLARSHIP</strong> <br />
+<em>Dongwoo Lee, Ali Shamshiripour</em></p>
+<p><strong>PROFESSOR ROBERT H. BRYANT SCHOLARSHIP</strong> <br />
+<em>Luke E. Zanoni</em></p>
+<p><strong>CHRISTOPHER B. AND SUSAN S. BURKE GRADUATE STUDENT AWARD <br />
+</strong><em>Mahsa Izadmehr, Girish Kumar, Fatemeh Nazari</em></p>
+<p><strong>ROSEMARY BURKE SCHOLARSHIP <br />
+</strong><em>Meia J. Coutre, Crystal Ramos</em></p>
+<p><strong>CEPAC SCHOLARSHIP <br />
+</strong><em>Tanja Rakovic</em></p>
+<p><strong>CLARK DIETZ SCHOLARSHIP <br />
+</strong><em>Oscar Rodriguez</em></p>
+<p><strong>PROFESSOR EDWARD H. COE SCHOLARSHIP<br />
+</strong>Mirit Girgis</p>
+<p><strong>DEAN’S MERIT SCHOLARSHIP </strong><br />
+Kristine M. Hernandez, Stephanie Padilla</p>
+<p><strong>L.J. HALBERT SCHOLARSHIP <br />
+</strong><em>Herbert M. Nuwagaba</em></p>
+<p><strong>COLONEL WILLIAM J. HAWES SCHOLARSHIP <br />
+</strong><em>CDT Shannon Coppula</em></p>
+<p><strong>NANCY ANDERSON HOLMES SCHOLARSHIP <br />
+</strong><em>Oscar Rodriguez</em></p>
+<p><strong>ILLINOIS ASPHALT PAVEMENT ASSOCIATION SCHOLARSHIP <br />
+</strong>Mohamadhossein Noruzoliaee</p>
+<p><strong>ILLINOIS ROAD &amp; TRANSPORTATION BUILDERS ASSOCIATION (IRTBA) SCHOLARSHIP <br />
+</strong>Luke E. Zanoni</p>
+<p><strong>INFRASTRUCTURE ENGINEERING SCHOLARSHIP <br />
+</strong>Herbert M. Nuwagaba</p>
+<p><strong>KASI FOUNDATION SCHOLARSHIP <br />
+</strong>Herbert M. Nuwagaba</p>
+<p><strong>SWE KNOWLES ELECTRONICS SCHOLARSHIP <br />
+</strong>Kristine M. Hernandez, Crystal Ramos, Lauryn C. Stewart</p>
+<p><strong>PROFESSOR DUSAN KRAJCINOVIC SCHOLARSHIP <br />
+S</strong>hifra M. Feldman</p>
+<p><strong>OLIVE CHACEY KUEHN AND ALFRED L. KUEHN SCHOLARSHIP <br />
+</strong>Marvin C. Ambrocio, Xavier Figueroa, Jesus Quintero, Abdul Aziz M. Shaban, Luke E. Zanoni</p>
+<p><strong>WILFRED F. AND RUTH DAVISON LANGELIER <br />
+</strong>Amanda M. Carlson, Christopher W. Heipp, Qudus A. Lawal, Karim W. Mostafa</p>
+<p><strong>KENNETH E. NELSON SCHOLARSHIP <br />
+</strong>Tanja Rakovic</p>
+<p><strong>SAMARTANO &amp; COMPANY/HENRY MAREK SCHOLARSHIP </strong><br />
+Oscar Rodriguez</p>
+<p><strong>SARGENT AND LUNDY SCHOLARSHIP <br />
+</strong>Mark A. Dore, Erick Estrada, Thomas C. Hysick, Juan Jaimes, Maggie E. Kochman, Szymon Popowski, Tanja Rakovic, Oscar Rodriguez, Alvaro Sahagun, Abdul Aziz M. Shaban, Sebastian Szulakiewicz, Luke E. Zanoni</p>
+<p><strong>THOMAS AND ROMANA TING SCHOLARSHIP <br />
+</strong>Abdul Aziz M. Shaban</p>
+<p><strong>TURNER CONSTRUCTION SCHOLARSHIP <br />
+</strong>Shifra M. Feldman, Donald R. Franch, Tanja Rakovic, Oscar Rodriguez, Abdul Aziz M. Shaban</p>
+<p><strong>T.Y. </strong><strong>LIN ENGINEERING MERIT SCHOLARSHIP <br />
+</strong>Donald R. Franch</p>
+<p><strong>ROSE L. VEDRAL SCHOLARSHIP <br />
+</strong>Mirit Girgis</p>
+<p>&nbsp;</p></p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>U.S. Army Research Laboratory Taps CME Student for Fellowship</title>
+		<link>http://cme.uic.edu/2018/10/17/phd-student-awarded-u-s-army-research-laboratory-fellowship/</link>
+		<pubDate>Wed, 17 Oct 2018 20:15:08 +0000</pubDate>
+		<dc:creator><![CDATA[davidst]]></dc:creator>
+				<category><![CDATA[2018]]></category>
+		<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">http://cme.uic.edu/?p=2097</guid>
+		<description><![CDATA[John Klein, a PhD student studying Materials Engineering within the Civil and Materials Engineering Department at UIC, has been selected]]></description>
+				<content:encoded><![CDATA[<p>John Klein, a PhD student studying Materials Engineering within the Civil and Materials Engineering Department at UIC, has been selected for a fellowship award in the U.S. Army Research Laboratory (USARL) Research Associateship Program.</p>
+<p>Earlier this year, two researchers from The Composites and Hybrid Materials Branch of the USARL visited UIC, and met with CME Associate Professor Eduard Karpov to discuss opportunities for collaboration. The researchers expressed specific interest in some of the research coming out of his lab. They also were looking for U.S. citizen PhD students in the field of materials engineering, and Klein – who grew up in Wilmette, IL – fit the candidate profile. After receiving positive feedback regarding his credentials, he applied to the fellowship, interviewed via teleconference, received an offer, and started the fellowship in September.</p>
+<p>“He is an excellent communicator and a clear writer who demonstrates a strong aptitude toward computer-based modeling. His background in mechanics and materials science along with his computer skills make him a great fit for a large variety of research projects,” said Karpov. “John is one of the most remarkable students I have ever advised. He is a talented researcher with huge potential to discover. He has demonstrated a great attention to detail, a focused and goal-oriented mindset, and he possesses an excellent ability to adapt to new environments and create new ideas.”</p>
+<p>As a fellow, Klein receives a monthly stipend of a more than $5,000 that will last 12 months. In addition to the generous monthly stipend, the award includes funding to allow him to travel to the USARL facility in Maryland and to a conference. Apart from learning from others, the traveling provides opportunities to network with researchers and meet personnel who can serve as resources in his efforts moving forward. The award is renewable for a second and third year.</p>
+<p>He continues to work under the direction of Karpov in the professor’s Advanced Materials Laboratory at UIC.</p>
+<p>“The specific research I am working on is within the scope of mechanical metamaterials,” said Klein. “A metamaterial has physical properties that are not seen in traditional materials. The behavior is outside of the realm of normal materials. These unusual properties could be related to how the material interacts with light, sound or forces.”</p>
+<p>“Applications of metamaterials seem like science fiction. For instance, optical metamaterials are able to cloak objects from light – think Harry Potter invisibility cloak. In acoustics, the same principle applies; you can hide objects from sound if you cloak it with an acoustic metamaterial. The sound or light passes through the object as if it is not even there,” he added.</p>
+<p>Additionally, one of the UIC researchers’ main objectives is to understand how they can control the way a surface load propagates through the interior when it is pushed.</p>
+<p>To address this question, they are developing a new class of mechanical metamaterials that manipulate the internal energy distribution and stress profile in response to surface loads.</p>
+<p>“In our materials, we demonstrate it is possible to deflect along a path and sometimes block at the surface certain types of loading patterns,” said Klein. “From a military standpoint, applications may include advanced armor systems, which would prevent certain loads from penetrating or structural systems, which when subject to certain load patterns are able to deflect them along a predefined path. The underlying objective of the Weapons &amp; Materials Directorate within the USARL is to enhance the war power capabilities of the soldier, whether that be advanced protection or weapons systems. I like to think I am contributing to the former rather than the latter.”</p>
+<p><a href="http://cme.uic.edu/k-teacher/david-staudacher/"><em>By David Staudacher, UIC</em></a></p></p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Three New Faculty Members Join CME</title>
+		<link>http://cme.uic.edu/2018/10/01/three-new-faculty-members-join-cme/</link>
+		<pubDate>Mon, 01 Oct 2018 20:51:04 +0000</pubDate>
+		<dc:creator><![CDATA[davidst]]></dc:creator>
+				<category><![CDATA[2018]]></category>
+		<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">http://cme.uic.edu/?p=2101</guid>
+		<description><![CDATA[Three new faculty members are joining the department in Materials Engineering. Dr. Sara Kadkhodaei is joining CME as an assistant]]></description>
+				<content:encoded><![CDATA[<p>Three new faculty members are joining the department in Materials Engineering.</p>
+<p><strong>Dr. <a href="http://cme.uic.edu/k-teacher/sara-kadkhodaei-phd/">Sara Kadkhodaei</a></strong> is joining CME as an assistant professor of materials engineering. Her research interests include:</p>
+<ul>
+<li>Developing quantitative tools in computational materials science</li>
+<li>Ab-initio thermodynamics and kinetics</li>
+<li>Developing fundamental understanding of new bulk and nano materials</li>
+<li>Diusion process in novel energy materials</li>
+<li>Structure-property prediction with application to energy materials</li>
+<li>Rational materials design</li>
+</ul>
+<p><strong>Dr. </strong><a href="http://cme.uic.edu/k-teacher/matthew-daly-phd/"><strong>Matthew Daly</strong></a> is joining the department as an assistant professor of materials engineering. His research interests include:</p>
+<ul>
+<li>Deformation behavior of advanced materials</li>
+<li>Mechanics of nanostructured and 2D materials</li>
+<li>In situ characterization techniques</li>
+<li>Atomistic modeling of deformation processes</li>
+<li>Physical metallurgy</li>
+</ul>
+<p><strong>Dr. Sean Vitousek</strong> came to CME and made headlines instantly with his research on the potential decimation of Southern California’s beaches.<br />
+Now, he is being promoted from research assistant professor to a tenure track Assistant Professor in water engineering. <br />
+Learn more about Vitousek at <a href="http://www.e-ala-kai-research.com/">Environmental Fluid Mechanics laboratory</a>.</p></p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>PhD Student Awarded Prestigious EREF Scholarship</title>
+		<link>http://cme.uic.edu/2018/09/26/phd-student-awarded-prestigious-eref-scholarship/</link>
+		<pubDate>Wed, 26 Sep 2018 15:37:42 +0000</pubDate>
+		<dc:creator><![CDATA[davidst]]></dc:creator>
+				<category><![CDATA[2018]]></category>
+		<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">http://cme.uic.edu/?p=2066</guid>
+		<description><![CDATA[Only a handful of students are awarded scholarships by the Environmental Research and Education Foundation (EREF). This year, UIC’s Girish]]></description>
+				<content:encoded><![CDATA[<p>Only a handful of students are awarded scholarships by the Environmental Research and Education Foundation (EREF). This year, UIC’s Girish Kumar, a PhD student in the Department of Civil and Materials Engineering was named a recipient.</p>
+<p>This highly competitive and prestigious scholarship recognizes several doctoral students each year working at the forefront of the waste management and engineering field. The winners are selected from an international pool of applicants. Kumar was one of only eight students nationwide selected by the EREF to receive the scholarship in the amount of $14,400 for his research.</p>
+<p>“My research is focused on understanding the fundamental processes that occur within the waste when it is dumped in a landfill and mathematically interpret those processes to be able to predict the behavior of the entire landfill system. This will ultimately help in designing stable, effective and more importantly sustainable landfills” said Kumar.</p>
+<p>His research offers an alternative to the conventional landfills in the form of bioreactor landfills. In these landfills, the collected chemical liquid derived from waste degradation and other permitted liquids are recirculated into the landfills via recirculation systems to enhance the moisture conditions and accelerate waste degradation. The benefits including enhanced biogas production and early waste stabilization among others.</p>
+<p>Kumar is working with his academic advisor Professor Krishna R. Reddy, the director of the <a href="http://serl.lab.uic.edu/">Sustainable Engineering Research Laboratory</a> and the <a href="http://gagel.lab.uic.edu/">Geotechnical &amp; Geoenvironmental Engineering Laboratory</a>, on a NSF-funded project to develop a practical and reliable coupled thermo-hydro-bio-mechanical model that can enable safe design and operation of stable, effective and sustainable engineered landfills.</p>
+<p>“His understanding on the fundamental tenets of geotechnical engineering and geomechanics is commendable and he demonstrates excellent capacity on analytical work” said Reddy. “I have observed that he possesses great motivation and drive to live up to the standards expected of a doctoral student. He works as a graduate research assistant in our lab and makes it a point to be involved in other research projects as well.”</p>
+<p>Additionally, Girish assists his lab colleagues working on another NSF-funded project that involves mitigating landfill gas emissions using steel slag amended biocover systems. The project proposes an innovative, low-cost and practical biogeochemical cover system that utilizes biochar to oxidize landfill methane emissions into carbon dioxide and subsequently sequester carbon dioxide via mineral carbonation using steel slag, thus rendering zero emissions through landfill covers.</p>
+<p>As the President of the Sustainable Remediation Forum student chapter at UIC, Girish is constantly engaged beyond the walls of the laboratory by organizing expert lectures and seminars from academicians and industry professionals to keep himself aware of the technical know-how of different fields.</p>
+<p>More information about EREF scholarships can be found at <a href="https://erefdn.org/scholarship-program/">https://erefdn.org/scholarship-program/</a>. More information about the research can be found at the <a href="http://serl.lab.uic.edu/">Sustainable Engineering Research Laboratory</a> and the <a href="http://gagel.lab.uic.edu/">Geotechnical &amp; Geoenvironmental Engineering Laboratory</a>.</p>
+<p><a href="http://cme.uic.edu/k-teacher/david-staudacher/"><em>By David Staudacher, UIC</em></a></p></p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>CME Student Helps Team Win at &#8216;Student Days Competition&#8217;</title>
+		<link>http://cme.uic.edu/2018/09/04/cme-student-helps-team-win-at-student-days-competition/</link>
+		<pubDate>Tue, 04 Sep 2018 18:51:41 +0000</pubDate>
+		<dc:creator><![CDATA[davidst]]></dc:creator>
+				<category><![CDATA[2018]]></category>
+		<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">http://cme.uic.edu/?p=2039</guid>
+		<description><![CDATA[2018 Student Days Winning Team&#8217;s Presentation from Construction Institute of ASCE on Vimeo. Huzefa Dewaswala, a master’s student in Department]]></description>
+				<content:encoded><![CDATA[<p><a href="https://vimeo.com/286072378">2018 Student Days Winning Team&#8217;s Presentation</a> from <a href="https://vimeo.com/constructioninstitute">Construction Institute of ASCE</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<p>Huzefa Dewaswala, a master’s student in Department of Civil and Materials Engineering’s (CME) Construction Engineering program, was a key member on the winning team during the recent <em>Student Days </em><em>Conference, </em>which was part of the 2018 National ASCE Construction Institute&#8217;s Heavy Civil Competitions in San Diego.  </p>
+<p>The Construction Institute brought only 35 students to the conference and team competition. Five teams created written and oral proposals to build the Voigt Street Pedestrian Bridge, a component of the Mid-Coast Corridor Transit Project in San Diego.</p>
+<p>Dewaswala’s team, Pontem Inc., was awarded the winning bid, and consisted of teammates from Stony Brook University, Princeton University, University of South Florida, New York University, University of Kentucky, and Purdue University. He joined the team after Nelsy Badia, of Stony Brook University, connected with him on LinkedIn.</p>
+<p>“I liked her ideas of diversity in the team and leading the team of people with different backgrounds, so I decided to be a part of her team,” said Dewaswala.</p>
+<p>Apart from the diversity, Dewaswala was enticed by the two key roles he was responsible for overseeing.  </p>
+<p> “I was assigned as a Project Control Engineer and the Director of Environmental Assessment,” he said. “I set the guidelines for quality control of the Voigt Street Pedestrian Bridge Replacement project, and prepared a risk management plan and a safety agreement for the subs. I also assisted in incorporating all the addendums in the proposal and the final bid.”</p>
+<p>While Dewaswala and his teammates faced strong competition, they worked hard and put together a proposal that set them apart from the others.</p>
+<p>“It&#8217;s all late nights and hard work, which paid off making our team’s proposal stand out from others,” he said. “The competition was not based on the lowest bid. It was about the best value bid, which addressed all the specifications by Caltrans and special provisions set by EPA and University of California, San Diego. We included all the details meticulously in the proposal, gave them the most complete final product, and the judges really liked our presentation.”</p>
+<p>Dewaswala said he was grateful to be part of the competition and the entire conference as it provided real-world experience.</p>
+<p>“It was one of a kind experience as I got to connect with amazing professionals from industry and learned so much from them,” he said. “The best part was working with great people and it felt that we all were best friends and knew each other for so long. There was pressure and stress when we were working on the project because of the deadlines, but it felt so good once we were done submitting our bids and the proposal. It was a great event to experience real-world scenario with limited time and resources and to compete with the others just believing in your team. I highly recommend this event.”</p>
+<p>His success at the conference stems from his work at UIC where he has excelled as a student and worked on projects that prepared him for the competition.  </p>
+<p>“Huzefa has taken four Construction Engineering and Management courses with me in the past academic year, namely: Construction Engineering and Management; Construction Equipment and Design; Construction Regulations and Organizational Management; Construction Management Project Controls. In each of these courses, Huzefa and his teammates have completed many real-world course projects and delivered professional group presentations that are specifically tailored for them with the aim of preparing our MS graduates for successful careers in Construction Engineering and Management,” said CME Clinical Assistant Professor Hossein Ataei. “Huzefa is one of our excellent students and I have great confidence in his professional and career success.”</p>
+<p>CME’s Construction Engineering and Management program focuses on best practices in Integrated Construction Project Management  with regards to the optimization methodologies for the construction projects given the multitude of constraints including the project budget, schedule, risk, quality requirements, human resources, communication channels, procurement practices and the stakeholder management.</p>
+<p>Learn more about the department’s Construction Engineering and Management program at <a href="http://cme.uic.edu/prospective-students/#1507652286339-b3822356-6a92">CME Research Areas</a>.</p>
+<p><a href="http://cme.uic.edu/k-teacher/david-staudacher/"><em>By David Staudacher, UIC</em></a></p>
+<p>&nbsp;</p></p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Professor Ansari Featured on Chicago Tonight</title>
+		<link>http://cme.uic.edu/2018/08/16/professor-ansari-featured-on-chicago-tonight/</link>
+		<pubDate>Thu, 16 Aug 2018 15:38:02 +0000</pubDate>
+		<dc:creator><![CDATA[davidst]]></dc:creator>
+				<category><![CDATA[2018]]></category>
+		<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">http://cme.uic.edu/?p=2018</guid>
+		<description><![CDATA[Professor Farhad Ansari, of Civil and Material Engineering, appeared on WTTW&#8217;s Chicago Tonight last night to discuss bridge safety and]]></description>
+				<content:encoded><![CDATA[<p>Professor Farhad Ansari, of Civil and Material Engineering, appeared on WTTW&#8217;s Chicago Tonight last night to discuss bridge safety and Illinois’ aging infrastructure after a tragic bridge collapse in Genoa, Italy earlier in the week. Watch the segment below: </p>
+<p><iframe width="512" height="332" src="https://player.pbs.org/viralplayer/3015376082/" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" seamless allowfullscreen></iframe></p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Minified using disk
+Database Caching 45/66 queries in 0.095 seconds using disk
+
+Served from: cme.uic.edu @ 2018-12-12 12:15:25 by W3 Total Cache
+-->

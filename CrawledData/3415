@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <!-- Latest compiled and minified CSS -->
+ <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+
+ <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/select2/3.5.1/select2.min.css">
+ <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/select2/3.5.1/select2-bootstrap.min.css">
+
+
+
+ <link rel="stylesheet" href="http://uic.edu/apps/iam/static/css/main.css">
+
+
+ <link rel="stylesheet" href="http://uic.edu/apps/iam/static/css/liaison.css">
+
+
+ <!-- standard base location for all relative urls -->
+ <!-- disabled because of conflict with liaison templates
+ <base href="http://uic.edu/apps/iam/"/>
+ -->
+
+ <title>Liaison Manager</title>
+
+ <script type="text/javascript">
+  /*
+   * Simple function to keep session open.
+   * Implemented to not require dojo or jquery
+   */ 
+  var keepalive_getreq = new XMLHttpRequest();
+  var keepalive_refresh_interval = 5 * 60 * 1000; // Every 5 minutes, pull a page from the server.
+  var keepalive = function() {
+      keepalive_getreq.open( "GET", "http://uic.edu/apps/iam/keepalive", true );
+      keepalive_getreq.send( null );
+  }
+  keepalive_getreq.onreadystatechange = function() {
+      if ( keepalive_getreq.readyState==4 && keepalive_getreq.status==200 )
+          setTimeout( keepalive, keepalive_refresh_interval );
+  };
+  setTimeout( keepalive, keepalive_refresh_interval );
+ </script>
+
+</head>
+<body>
+
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://www.uic.edu/apps/iam/liaison">Liaison Manager </a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <a class="navbar-brand navbar" href="http://uic.edu/apps/iam/liaison/liaison_manager">About Liaison Manager</a>
+
+	      
+		<a class="btn btn-success navbar-btn navbar-right" role="button" href="http://uic.edu/apps/iam/login?return_url=http%3A%2F%2Fuic.edu%2Fapps%2Fiam%2Fliaison%2Fpbcontact">Log In</a>
+            
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+
+
+<div class="container">
+
+    <div class="jumbotron">
+  <h1>
+    <span class="glyphicon glyphicon-list"></span>
+     Phonebook Contact 
+  </h1>
+  <p>
+      <strong>Phonebook Contact</strong> (<em>PbContact</em>) liaisons are responsible for maintaining 
+	directory information for employees and their unit listing in the <a href="http://www.uic.edu/apps/find-people/search">UIC Directory</a>. PbContacts are also responsible for creating netids for new employees and adding/removing employees from their unit. They also have access to various tools which allow them to accomplish the various directory related tasks. PbContacts are automatically added to the pbcontact listserv list which is used to send them announcements and other important information.<br><br>
+	PbContacts have access to the <a href="https://www.uic.edu/wiki/view/ACCC/PbContacts/WebHome">PbContact TWiki Page</a> where they 
+can find announcements, an FAQ and other resources. To update employee directory information PbContacts
+should use <a href="https://pbupdate.uic.edu">PbUpdate</a> and <a href="https://deptupdate.uic.edu">DeptUpdate</a> to update unit directory information. External/Temporary affiliates who need netids should be processed and/or renewed through the <a href="https://www.uic.edu/htbin/cgiwrap-auth/bin/external/netid.cgi">External Affiliates Page</a>.
+Each unit should have at least two PbContacts assigned and least one primary PbContact assigned.
+
+    Please contact <a href="mailto:directoryservices@uic.edu">directoryservices@uic.edu</a> for support related to the <a href="http://www.uic.edu/apps/find-people/search">UIC Directory</a>.
+  </p>
+</div>
+
+<h2>Liaison roles</h2>
+
+<div class="row">
+  <div class="col-md-3">
+    <h3>
+      <span class="glyphicon glyphicon-check"></span>
+      Delegate Authority
+    </h3>
+    <p>
+      <strong>Delegate authority</strong> liaisons can assign all 
+      liaison roles, including adding and removing other delegate 
+      authority liaisons. <a href="http://uic.edu/apps/iam/liaison/delegate_authority">See more...</a> 
+    </p>
+  </div>
+
+  <div class="col-md-3">
+    <h3>
+      <span class="glyphicon glyphicon-list"></span>
+      Phonebook Contact
+    </h3>
+    <p>
+      <strong>Phonebook Contact</strong> liaisons maintain directory 
+      information for employees and the department in the 
+      <a href="http://www.uic.edu/apps/find-people">UIC Online Directory</a> in addition
+      to directory data in Exchange/AD. <a href="http://uic.edu/apps/iam/liaison/pbcontact">See more...</a>
+    </p>
+  </div>
+
+  <div class="col-md-3">
+    <h3>
+      <span class="glyphicon glyphicon-cog"></span>
+      REACH Contact
+    </h3>
+    <p>
+      <strong>REACH </strong> stands for 
+      "Resident Experts Are Convenient Help". 
+      REACH members are the designated
+      technical contacts for each unit. <a href="http://uic.edu/apps/iam/liaison/reach">See more...</a> 
+    </p>
+  </div>
+
+  <div class="col-md-3">
+    <h3>
+      <span class="glyphicon glyphicon-link"></span>
+      Network Security
+    </h3>
+    <p>
+      <strong>Network Security</strong> liaisons are notified by
+      ACCC Security group about vulnerable and compromised computers 
+      on departmental networks. <a href="http://uic.edu/apps/iam/liaison/netsec">See more...</a>
+    </p>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-3">
+    <h3>
+      <span class="glyphicon glyphicon-globe"></span>
+      Webmaster 
+    </h3>
+    <p>
+      <strong>Webmaster</strong> liaisons are web designers, 
+      communicators, and developers responsible for campus unit
+      websites and web applications. <a href="http://uic.edu/apps/iam/liaison/webmaster">See more...</a> 
+     
+    </p>
+  </div>
+
+  <div class="col-md-3">
+    <h3>
+      <span class="glyphicon glyphicon-leaf"></span>
+      EcoRep
+    </h3>
+    <p>
+      <strong>EcoRep</strong> liaisons 
+      work within their campus unit
+      to disseminate information on how to support sustainability 
+      initiatives on campus. <a href="http://uic.edu/apps/iam/liaison/ecorep">See more...</a> 
+    </p>
+  </div>
+
+  <div class="col-md-3">
+    <h3>
+      <span class="glyphicon glyphicon-lock"></span>
+      Information Security 
+    </h3>
+    <p>
+      <strong>Unit Information Security Officer</strong> (UISO) 
+    work with ACCC Security Office and the ITGC InfraSec Security Program committee 
+    on implementing the UIC IT Security Program on campus. <a href="http://uic.edu/apps/iam/liaisono/uiso">See more...</a> 
+
+    </p>
+  </div>
+
+  <div class="col-md-3">
+    <h3>
+      <span class="glyphicon glyphicon-user"></span>
+      System Administrator
+    </h3>
+    <p>
+      <strong>System Administrator</strong> liaisons are the point of conact for various departmental services such as Virtual machines, Active Directory, and storage. 
+    <a href="http://uic.edu/apps/iam/liaison/sysadmin">See more...</a> 
+
+    </p>
+  </div>
+
+</div>
+
+
+
+</div>
+
+
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="http://uic.edu/apps/iam/static/images/accc-logo-blue.png" alt="Logo - Academic Computing and Communications Center">
+      </div>
+      <div class="col-md-6">
+        <p class="lead">
+
+          Questions? Contact <a href="mailto:directoryservices@uic.edu">directoryservices@uic.edu</a>.
+
+          <br />
+          <span class="text-muted" style="font-size: 75%;">
+            &copy; Copyright 2018 The Board of Trustees of the University of Illinois
+          </span>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+<script src="//cdn.jsdelivr.net/select2/3.5.1/select2.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+
+ <script src="http://uic.edu/apps/iam/static/js/liaison.js"></script>
+
+
+</body>
+</html>

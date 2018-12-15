@@ -1,0 +1,371 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { (function(){function e(a){this.t={};this.tick=function(a,c,b){this.t[a]=[void 0!=b?b:(new Date).getTime(),c];if(void 0==b)try{window.console.timeStamp("CSI/"+a)}catch(h){}};this.tick("start",null,a)}var a;if(window.performance)var d=(a=window.performance.timing)&&a.responseStart;var f=0<d?new e(d):new e;window.jstiming={Timer:e,load:f};if(a){var c=a.navigationStart;0<c&&d>=c&&(window.jstiming.srt=d-c)}if(a){var b=window.jstiming.load;0<c&&d>=c&&(b.tick("_wtsrt",void 0,c),b.tick("wtsrt_","_wtsrt",
+d),b.tick("tbsd_","wtsrt_"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),b&&0<c&&(b.tick("_tbnd",void 0,window.chrome.csi().startE),b.tick("tbnd_","_tbnd",c))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,b&&0<c&&(b.tick("_tbnd",void 0,window.external.startE),b.tick("tbnd_","_tbnd",c))),a&&(window.jstiming.pt=a)}catch(g){}})(); })()
+</script>
+<link rel="shortcut icon" href="/a/uic.edu/pts/_/rsrc/1352615995374/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="https://ssl.gstatic.com/sites/p/a35f98/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { function d(a){return document.getElementById(a)}window.byId=d;function g(a){return a.replace(/^\s+|\s+$/g,"")}window.trim=g;var h=[],k=0;window.JOT_addListener=function(a,b,c){var f=new String(k++);a={eventName:a,handler:b,compId:c,key:f};h.push(a);return f};window.JOT_removeListenerByKey=function(a){for(var b=0;b<h.length;b++)if(h[b].key==a){h.splice(b,1);break}};window.JOT_removeAllListenersForName=function(a){for(var b=0;b<h.length;b++)h[b].eventName==a&&h.splice(b,1)};
+window.JOT_postEvent=function(a,b,c){var f={eventName:a,eventSrc:b||{},payload:c||{}};if(window.JOT_fullyLoaded)for(b=h.length,c=0;c<b&&c<h.length;c++){var e=h[c];e&&e.eventName==a&&(f.listenerCompId=e.compId||"",(e="function"==typeof e.handler?e.handler:window[e.handler])&&e(f))}else window.JOT_delayedEvents.push({eventName:a,eventSrc:b,payload:c})};window.JOT_delayedEvents=[];window.JOT_fullyLoaded=!1;
+window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1440<=a||0>a)return null;var c=0;60<=a&&(a/=60,c=2);2<=a&&c++;return b?window.JOT_siteRelTimeStrs[c].replace("__duration__",Math.floor(a)):window.JOT_userRelTimeStrs[c].replace("__duration__",Math.floor(a))}; })()
+</script>
+<script>
+
+  
+
+  var breadcrumbs = [{"path":"/a/uic.edu/pts/home","deleted":false,"title":"Pi Tau Sigma UIC Alpha Sigma","dir":"ltr"}];
+  var JOT_clearDotPath = 'https://ssl.gstatic.com/sites/p/a35f98/system/app/images/cleardot.gif';
+
+  
+  var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+  
+  
+
+  
+
+  var webspace = {"gvizGstaticVersion":"current","enableAnalytics":false,"pageSharingId":"jotspot_page","codeembeds":{"outerIframeSrc":"https://www.gstatic.com/jotspot/embeds/code/0f08d42392f2000e7e3f3daf5b427a43/outer_iframe.html","innerIframeSrc":"https://78142545-jotspot-embeds.googleusercontent.com/code/8d87fa64604b2a11fae2ed06104c58d3/inner_iframe.html"},"enableUniversalAnalytics":false,"sharingPolicy":"OPENED_WITH_INDICATOR","siteTitle":"Pi Tau Sigma UIC Alpha Sigma","jot2atari":{"eligibility":"ineligible"},"onepickUrl":"https://docs.google.com/picker","adsensePublisherId":null,"features":{"oAuthForChartsApi":true,"moreMobileStyleImprovements":null,"googleChartsOverGstatic":false,"picasaAlbumInsert":false,"pageDrafts":false,"enableJot2Atari":true,"plusBadge":false,"pdfEmbedSupport":false},"isPublic":true,"newSitesBaseUrl":"https://sites.google.com","isConsumer":false,"serverFlags":{"jot2AtariLearnMoreUrl":"https://support.google.com/sites/answer/7035197"},"domainAnalyticsAccountId":"","plusPageId":"","signInUrl":"https://accounts.google.com/AccountChooser?continue\u003dhttps://sites.google.com/a/uic.edu/pts/home\u0026service\u003djotspot","analyticsAccountId":"","scottyUrl":"/_/upload","homePath":"/","siteNoticeUrlEnabled":null,"plusPageUrl":"","adsensePromoClickedOrSiteIneligible":true,"csiReportUri":"https://gg.google.com/csi","sharingId":"jotspot","termsUrl":"//www.google.com/intl/en/policies/terms/","gvizVersion":1,"editorResources":{"sitelayout":["https://ssl.gstatic.com/sites/p/a35f98/system/app/css/sitelayouteditor.css"],"text":["https://ssl.gstatic.com/sites/p/a35f98/system/js/codemirror.js","https://ssl.gstatic.com/sites/p/a35f98/system/app/css/codemirror_css.css","https://ssl.gstatic.com/sites/p/a35f98/system/js/trog_edit__en.js","https://ssl.gstatic.com/sites/p/a35f98/system/app/css/trogedit.css","/a/uic.edu/pts/_/rsrc/1543480740000/system/app/css/editor.css","https://ssl.gstatic.com/sites/p/a35f98/system/app/css/codeeditor.css","/a/uic.edu/pts/_/rsrc/1543480740000/system/app/css/camelot/editor-jfk.css"]},"sharingUrlPrefix":"/_/sharing","isAdsenseEnabled":true,"domain":"uic.edu","baseUri":"/a/uic.edu/pts","name":"pts","siteTemplateId":false,"siteNoticeRevision":null,"siteNoticeUrlAddress":null,"siteNoticeMessage":null,"page":{"isRtlLocale":false,"canDeleteWebspace":null,"isPageDraft":null,"parentPath":null,"parentWuid":null,"siteLocale":"en","timeZone":"America/Los_Angeles","type":"text","title":"Pi Tau Sigma UIC Alpha Sigma","locale":"en","wuid":"wuid:gx:6149b64ade28116","revision":80,"path":"/home","isSiteRtlLocale":false,"pageInheritsPermissions":null,"name":"home","canChangePath":false,"state":"","properties":{},"bidiEnabled":false,"currentTemplate":{"path":"/config/pagetemplates/pi-tau-sigma-uic-alpha-sigma","title":"Pi Tau Sigma UIC Alpha Sigma"}},"canPublishScriptToAnyone":true,"user":{"keyboardShortcuts":true,"sessionIndex":"","onePickToken":"","guest_":true,"displayNameOrEmail":"guest","userName":"guest","uid":"","renderMobile":false,"domain":"","namespace":"","hasWriteAccess":false,"namespaceUser":false,"primaryEmail":"guest","hasAdminAccess":false},"gadgets":{"baseUri":"/a/uic.edu/pts/system/app/pages/gadgets"}};
+  webspace.page.breadcrumbs = breadcrumbs;
+
+  
+  var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="title" content="Pi Tau Sigma UIC Alpha Sigma" />
+<meta itemprop="name" content="Pi Tau Sigma UIC Alpha Sigma" />
+<meta property="og:title" content="Pi Tau Sigma UIC Alpha Sigma" />
+<meta name="description" content="International Mechanical Engineering Honors Society Pi Tau Sigma UIC Alpha Sigma" />
+<meta itemprop="description" content="International Mechanical Engineering Honors Society Pi Tau Sigma UIC Alpha Sigma" />
+<meta id="meta-tag-description" property="og:description" content="International Mechanical Engineering Honors Society Pi Tau Sigma UIC Alpha Sigma" />
+<style type="text/css">
+</style>
+<link rel="stylesheet" type="text/css" href="https://ssl.gstatic.com/sites/p/a35f98/system/app/themes/slate/standard-css-slate-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/a/uic.edu/pts/_/rsrc/1543480740000/system/app/css/overlay.css?cb=slate150goog-ws-nav-noside-noheadnone30themedefaultstandard" />
+<link rel="stylesheet" type="text/css" href="/a/uic.edu/pts/_/rsrc/1543480740000/system/app/css/camelot/allthemes-view.css" />
+<!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/a/uic.edu/pts/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+<title>Pi Tau Sigma UIC Alpha Sigma</title>
+<meta itemprop="image" content="https://sites.google.com/a/uic.edu/pts/_/rsrc/1352613069220/home/banner4.png?width=825" />
+<meta property="og:image" content="https://sites.google.com/a/uic.edu/pts/_/rsrc/1352613069220/home/banner4.png?width=825" />
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en            ">
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything" class="">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0" style="">
+<tr class="sites-header-primary-row" id="sites-chrome-userheader">
+</tr>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container" role="navigation">
+<div class="sites-header-nav"><ul class="sites-header-nav-container-boxes"><li class="current"><a class="sites-navigation-link current" href="/a/uic.edu/pts/home">Pi Tau Sigma UIC Alpha Sigma</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="/a/uic.edu/pts/home/about">About</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="/a/uic.edu/pts/home/members">Members</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="/a/uic.edu/pts/home/alumni">Alumni</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="/a/uic.edu/pts/home/pts-points">PTS Points</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="/a/uic.edu/pts/home/events">Events</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="/a/uic.edu/pts/home/newsletter">Newsletter</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="/a/uic.edu/pts/home/gallery">Gallery</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="/a/uic.edu/pts/home/convention-gallery">Convention Gallery</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="/a/uic.edu/pts/home/resources">Resources</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="/a/uic.edu/pts/home/join">Join</a></li></ul><div style="clear: both;"></div></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
+<tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left" style="display: none; width: 150px">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_2bd" class="sites-embed" role="navigation"><div class="sites-embed-content sites-sidebar-nav"><ul role="navigation" jotId="navList" class="has-expander"><li class="topLevel nav-first parent " wuid="gx:6149b64ade28116"><div class="current-bg" jotId="wuid:gx:6149b64ade28116" dir="ltr" style="padding-left: 0px;"><div class="expander"></div>Pi Tau Sigma UIC Alpha Sigma</div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/a/uic.edu/pts/home/about" jotId="wuid:gx:70ea2fae24e3e43e" class="sites-navigation-link">About</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/a/uic.edu/pts/home/alumni" jotId="wuid:gx:5b7f040ffa1dad6d" class="sites-navigation-link">Alumni</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/a/uic.edu/pts/home/announcements" jotId="wuid:gx:12e329102dafa662" class="sites-navigation-link">announcements</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/a/uic.edu/pts/home/convention-gallery" jotId="wuid:gx:10dff918f7f5492f" class="sites-navigation-link">Convention Gallery</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/a/uic.edu/pts/home/events" jotId="wuid:gx:24fd640c8ede3f06" class="sites-navigation-link">Events</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/a/uic.edu/pts/home/gallery" jotId="wuid:gx:191a82da6a1df585" class="sites-navigation-link">Gallery</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/a/uic.edu/pts/home/join" jotId="wuid:gx:6f4285a3e236d42c" class="sites-navigation-link">Join</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/a/uic.edu/pts/home/members" jotId="wuid:gx:3815c5912e61940e" class="sites-navigation-link">Members</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/a/uic.edu/pts/home/newsletter" jotId="wuid:gx:48b8935080849a09" class="sites-navigation-link">Newsletter</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/a/uic.edu/pts/home/pts-points" jotId="wuid:gx:34ec7d6819f59f40" class="sites-navigation-link">PTS Points</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/a/uic.edu/pts/home/research-opportunities" jotId="wuid:gx:618d31d41e467988" class="sites-navigation-link">Research Opportunities</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/a/uic.edu/pts/home/resources" jotId="wuid:gx:6f9577f8b6266431" class="sites-navigation-link">Resources</a></div></li></ul></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="/a/uic.edu/pts/change-the-banner" jotId="wuid:gx:3f596839070df2e8" class="sites-navigation-link topLevel">Change the Banner</a></div></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="/a/uic.edu/pts/system/app/pages/sitemap/hierarchy" jotId="wuid:gx:566f888d03de9ba" class="sites-navigation-link topLevel">Sitemap</a></div></li></ul></div></div>
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas" role="main">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="display: none;">
+</div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="display: none;" align="left">
+<span id="sites-page-title" dir="ltr" tabindex="-1" style="outline: none">Pi Tau Sigma UIC Alpha Sigma</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-layout-name-two-column-hf sites-layout-vbox"><div class="sites-layout-tile sites-tile-name-header"><div dir="ltr"><div style="text-align:left;display:block">
+<div style="text-align:left;display:block"><img border="0" src="https://sites.google.com/a/uic.edu/pts/_/rsrc/1352613069220/home/banner4.png?width=825" width="825" /></div>
+<br />
+</div></div></div><table cellspacing="0" class="sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div style="text-align:left;margin-right:auto;margin-left:auto;display:block">
+<div dir="ltr" style="text-align:center"><span style="line-height:20px;font-size:x-large"><font color="#cccccc">Welcome to Pi Tau Sigma UIC Alpha Sigma</font></span></div>
+<div><font color="#cccccc">
+<div style="line-height:20px"><font size="3">
+<hr style="height:1px;background-color:rgb(204,204,204)" />
+</font></div>
+<br />
+<span style="line-height:20px"><br />
+</span></font></div>
+</div>
+<div style="text-align:center;margin-right:auto;margin-left:auto;display:block">
+<div>
+<div style="display:block; margin:5px auto 5px 0; text-align:left; clear:both; display:block;">
+<div class="sites-embed " style="sites-embed-full-width">
+<h4 class="sites-embed-title">Recent Announcements</h4>
+<div class="sites-embed-content">
+<ul class="sites-announcement-snippet">
+<li class="line-divider sites-embed-background sites-clear" dir="ltr">
+<a href="/a/uic.edu/pts/home/announcements/ptsbarcrawl2018" dir="ltr" class="sites-announcement-embed-post-title">
+                    PTS Bar Crawl 2018!</a>
+<table cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><font face="Arial, Helvetica, sans-serif" size="2"><span style="background-color:rgb(0,0,0)"><div style="display:block;text-align:left"><a href="https://sites.google.com/a/uic.edu/pts/home/announcements/ptsbarcrawl2018/unnamed.png?attredirects=0" imageanchor="1" rel="nofollow"><img border="0" height="400" src="https://sites.google.com/a/uic.edu/pts/_/rsrc/1540818094902/home/announcements/ptsbarcrawl2018/unnamed.png?height=400&amp;width=285" width="285" /></a></div>Hello fellow PTS members! The time for our society bar crawl is here! </span></font><div><font color="#000000" style="background-color:rgb(255,255,255)"><br /></font></div><div><font face="Arial, Helvetica, sans-serif" size="2"><span style="background-color:rgb(0,0,0)">The bar crawl will be held this Friday (11/2/18) starting at 6PM. This year we will be visiting </span></font></div><div><ol><li><font face="Arial, Helvetica, sans-serif" size="2"><span>Little Joes (6-7:30)</span></font></li><li><font face="Arial, Helvetica, sans-serif" size="2"><span>The Bar 10 Doors (7:30-9)</span></font></li><li><font face="Arial, Helvetica, sans-serif" size="2"><span>Hawkeyes: (9-10:30)</span></font></li><li><font face="Arial, Helvetica, sans-serif" size="2"><span>Drum &amp; Monkey (10:30 - U Drop)</span></font></li></ol><div><font face="Arial, Helvetica, sans-serif" size="2"><span><br /></span></font></div></div><div><font face="Arial, Helvetica, sans-serif" size="2"><span>For a comprehensive list of the deals provided at each bar, please see the flyer attached.</span></font></div><div><font face="Arial, Helvetica, sans-serif" size="2"><span><br /></span></font></div><div><font face="Arial, Helvetica, sans-serif" size="2"><span>Important to note:</span></font></div><div><font face="Arial, Helvetica, sans-serif" size="2"><span><br /></span></font></div><div><font face="Arial, Helvetica, sans-serif" size="2"><span>This year's bar crawl will be different than previous ones. You will need to purchase a wristband for entry and to get the discounts.  Since we are doing a "Throwback" bar crawl, a vintage bar crawl shirt will be included with the wristband at the time of purchase. </span></font><span style="font-family:Arial,Helvetica,sans-serif;font-size:small;background-color:transparent">The wristbands are $10 for PTS members and $12 for non PTS members. </span></div><div><span style="font-family:Arial,Helvetica,sans-serif;font-size:small;background-color:transparent"><br /></span></div><div><font face="Arial, Helvetica, sans-serif" size="2"><span>Again, <span style="background-color:rgb(255,0,0)">IN ORDER TO RECEIVE THE DRINK SPECIALS, YOU MUST WEAR THE WRISTBAND AND A PTS BAR CRAWL TSHIRT!!!!!!!!!!</span></span></font></div><div><br /></div><div>We are all looking forward to seeing you there!</div></div></td></tr></tbody></table>
+<span class="sites-text-secondary">
+<script type="text/javascript">
+      //<![CDATA[
+        function JOT_insertRelDate(timestamp, absTimeStr, isSiteLocale, dir) {
+          var relTimeStr = JOT_formatRelativeToNow(timestamp, isSiteLocale);
+          if (relTimeStr) {
+            if (isSiteLocale) {
+              document.write('<span timestamp="' + timestamp + '" issitelocale="' + isSiteLocale +
+                '" title="' + absTimeStr + '" dir="' + dir + '">' + relTimeStr + '<' + '/span>');
+            } else {
+              document.write('<span timestamp="' + timestamp + '" title="' + absTimeStr +
+              '" dir="' + dir + '">' + relTimeStr + '<' + '/span>');
+            }
+          } else {
+            document.write(absTimeStr);
+          }
+        }
+      //]]>
+</script>
+      
+    
+  
+  Posted <span dir="ltr">Oct 29, 2018, 6:01 AM</span> by Joshua Hoffman
+
+                    </span>
+</li>
+<li class="line-divider sites-embed-background sites-clear" dir="ltr">
+<a href="/a/uic.edu/pts/home/announcements/firstgeneralbodymeeting-fall2018" dir="ltr" class="sites-announcement-embed-post-title">
+                    First General Body Meeting - Fall 2018</a>
+<table cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div style="font-size:12px">Hello everyone!</div><div style="font-size:12px"><br /></div><span style="font-size:12px">Our First General Body Meeting of the semester will be on Friday, September 13, 2018 at 12pm on the third floor of ERF. </span><div style="font-size:12px"><br />We will be discussing the upcoming events planned for the society such as the bar crawl, homework nights, LinkedIn headshots, and more!</div><div style="font-size:12px"><br />Pizza and drinks will be provided for everyone at the meeting so come meet your fellow Pi Tau Sigma members!!<br /></div><div style="font-size:12px"><br /></div><div style="font-size:12px">Also, this will be a great way to start off the semester with PTS points so you remain an active member. </div><div style="font-size:12px"><br /></div><div style="font-size:12px">Hope to see you all there!!!</div></div></td></tr></tbody></table>
+<span class="sites-text-secondary">
+                      
+  
+  
+  
+  
+  Posted <span dir="ltr">Sep 13, 2018, 4:02 PM</span> by Joshua Hoffman
+
+                    </span>
+</li>
+<li class="line-divider sites-embed-background sites-clear" dir="ltr">
+<a href="/a/uic.edu/pts/home/announcements/ptsbentandplaquepolishing" dir="ltr" class="sites-announcement-embed-post-title">
+                    PTS Bent and Plaque Polishing</a>
+<table cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div style="text-align:left"><span style="background-color:transparent"><font face="georgia, serif" size="3">PTS members,</font></span></div><div style="text-align:center"><font face="georgia, serif" size="3"><br /></font></div><div style="text-align:center"><font face="georgia, serif" size="3"><br /></font></div><div style="text-align:center"><span style="background-color:transparent"><font face="georgia, serif" size="3">You are all invited to this semester's Bent and Plaque Polishing Event. It will be held on Thursday, March 22, from 5PM-7PM in the ME250 room (SELE 3294).</font></span></div><div style="text-align:center"><font face="georgia, serif" size="3"><br /></font></div><div style="text-align:center"><span style="background-color:transparent"><font face="georgia, serif" size="3">This is a traditional PTS event held every semester where you will bring your PTS brass bent and polish it with your fellow members. We highly encourage you to come and meet our recently initiated members.</font></span></div><div style="text-align:center"><font face="georgia, serif" size="3"><br /></font></div><div style="text-align:center"><span style="background-color:transparent"><font face="georgia, serif" size="3">*If you do not have your own brass bent, please come and pick it up at this event! Every initiated member is entitled to receive one for free.</font></span></div><div style="text-align:center"><font face="georgia, serif" size="3"><br /></font></div><div style="text-align:center"><span style="background-color:transparent"><font face="georgia, serif" size="3">The event will be worth 3 PTS points and will run until 7PM. We will provide food and drinks! If you would like to receive more points, let us know if you are willing to bring more food and drinks to share with your fellow UIC Alpha Sigma chapter members.</font></span></div><div style="text-align:center"><font face="georgia, serif" size="3"><br /></font></div><div style="text-align:center"><font face="georgia, serif" size="3"><br /></font></div><div style="text-align:center"><span style="background-color:transparent"><font face="georgia, serif" size="3">Hope to see you there!</font></span></div></div></td></tr></tbody></table>
+<span class="sites-text-secondary">
+                      
+  
+  
+  
+  
+  Posted <span dir="ltr">Mar 21, 2018, 6:41 PM</span> by Jennifer Rubio-Florian
+
+                    </span>
+</li>
+<li class="line-divider sites-embed-background sites-clear" dir="ltr">
+<a href="/a/uic.edu/pts/home/announcements/pizzaandhomeworknight" dir="ltr" class="sites-announcement-embed-post-title">
+                    Pizza and Homework Night</a>
+<table cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div style="text-align:left"><span style="font-family:georgia,serif;background-color:transparent"><font size="4">Hello Everyone, </font></span></div><font size="4"><font face="georgia, serif"><div style="text-align:center"><br /></div><div style="text-align:center"><br /></div><div style="text-align:center"><span style="background-color:transparent">PTS will be hosting a "Pizza and Homework" night on </span><span style="background-color:transparent">Tuesday, February 20th, 2018</span><span style="background-color:transparent">. This is open to all members of PTS and their friends. The time to study is from 5-8pm and members will be given a point for every hour they stay. This will take place in ERF 1047.</span></div></font><font face="georgia, serif"><div style="text-align:center"><br /></div><div style="text-align:center"><br /></div><div style="text-align:center"><span style="background-color:transparent">As a reminder, we will be hosting a food drive of dry and can goods the same day (2/20/18). One point will be given for every item brought in with a limit of 5 items. This can be a way to make up points for last semester or a way to earn the ones for this semester. </span></div><div style="text-align:center"><br /></div><div style="text-align:center"><br /></div><div style="text-align:center"><span style="background-color:transparent">We hope to see you all there! Stop by ERF 1047 from 5pm to 8pm.</span></div><div style="text-align:center"><span style="background-color:transparent">Or drop off the dry/can goods to earn your points.</span></div></font></font></div></td></tr></tbody></table>
+<span class="sites-text-secondary">
+                      
+  
+  
+  
+  
+  Posted <span dir="ltr">Feb 19, 2018, 9:57 AM</span> by Jennifer Rubio-Florian
+
+                    </span>
+</li>
+<li class="line-divider sites-embed-background sites-clear" dir="ltr">
+<a href="/a/uic.edu/pts/home/announcements/spring20181stgeneralbodymeetingrecap" dir="ltr" class="sites-announcement-embed-post-title">
+                    Spring 2018 1st General Body Meeting Recap</a>
+<table cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div style="text-align:center"><font size="4"><span style="background-color:transparent">We have some new and exciting events this s</span><span style="background-color:transparent">emester! This means great ways to earn your points. </span></font></div><div><div style="text-align:center"><font size="4"><br /></font></div><div style="text-align:center"><font size="4"><br /></font></div><div><div style="text-align:center"><span style="background-color:transparent"><font size="4">Below is the link to our meeting presentation where you can find out more about these events.</font></span></div><div><div style="text-align:center"><br /></div><div style="text-align:center"><a href="goog_1289609023" style="background-color:rgb(255,255,255)"><font color="#ff0000"><br /></font></a></div><div style="text-align:center"><a href="https://sites.google.com/a/uic.edu/pts/home/resources/meeting-powerpoints/spring-2018-first-gbm-2-6-18" rel="nofollow"><font color="#ff0000" size="3" style="background-color:rgb(0,0,0)">Here is the link to our 1st GBM presentation for Spring 2018</font></a></div></div></div></div></div></td></tr></tbody></table>
+<span class="sites-text-secondary">
+                      
+  
+  
+  
+  
+  Posted <span dir="ltr">Feb 6, 2018, 8:42 PM</span> by Jennifer Rubio-Florian
+
+                    </span>
+</li>
+</ul>
+<div class="sites-embed-showing-results">
+                
+                    Showing posts <strong>1 - 5</strong> of <strong>53</strong>.
+                    <a href="/a/uic.edu/pts/home/announcements" dir="ltr">View more »</a>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+        //<![CDATA[
+          JOT_recentAnnouncementPreloadImages = function() {
+            var loader = new gsites.util.ImagePreloader();
+            loader.init('sites-canvas-main-content', 'sites-recentannouncements-thumbnails');
+          };
+          JOT_addListener('pageLoaded', JOT_recentAnnouncementPreloadImages);
+          JOT_addListener('completeEditRender', JOT_recentAnnouncementPreloadImages);
+        //]]>
+</script>
+</div>
+</div></div></td><td class="sites-layout-tile sites-tile-name-content-2"><div dir="ltr"><div dir="ltr"><span style="color:rgb(238,238,238);line-height:15px"><br /><br /><br /><br /></span></div><div dir="ltr"><span style="color:rgb(238,238,238);line-height:15px"><div><div><div class="sites-embed-align-left-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:600px;"><h4 class="sites-embed-title">UIC Alpha Sigma Calendar</h4><div class="sites-embed-content sites-embed-type-calendar"><iframe id="390668058" src="https://www.google.com/calendar/embed?src=uic.edu_ll7etnr3s629693sqh64knes1s@group.calendar.google.com&amp;color=%23D96666&amp;src=uicalphasigma@gmail.com&amp;color=%23668CD9&amp;mode=MONTH&amp;ctz=America/Chicago&amp;showTitle=1&amp;showNav=1&amp;showDate=1&amp;showTabs=0&amp;showCalendars=0&amp;hl=en" title="UIC Alpha Sigma Calendar" width="600" height="575" frameborder="0" scrolling="no"></iframe></div></div></div></div></div></span></div></div></td></tr></tbody></table><div class="sites-layout-tile sites-tile-name-footer sites-layout-empty-tile"><div dir="ltr"><br /></div></div></div>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-subpages" class="sites-canvas-bottom-panel-wrapper" style="">
+<div class="sites-subpages">
+            Subpages <span id="subpages-total-number">(12):</span>
+<span>
+<a href="/a/uic.edu/pts/home/about" dir="ltr">About</a>
+</span>
+<span>
+<a href="/a/uic.edu/pts/home/alumni" dir="ltr">Alumni</a>
+</span>
+<span>
+<a href="/a/uic.edu/pts/home/announcements" dir="ltr">announcements</a>
+</span>
+<span>
+<a href="/a/uic.edu/pts/home/convention-gallery" dir="ltr">Convention Gallery</a>
+</span>
+<span>
+<a href="/a/uic.edu/pts/home/events" dir="ltr">Events</a>
+</span>
+<span>
+<a href="/a/uic.edu/pts/home/gallery" dir="ltr">Gallery</a>
+</span>
+<span>
+<a href="/a/uic.edu/pts/home/join" dir="ltr">Join</a>
+</span>
+<span>
+<a href="/a/uic.edu/pts/home/members" dir="ltr">Members</a>
+</span>
+<span>
+<a href="/a/uic.edu/pts/home/newsletter" dir="ltr">Newsletter</a>
+</span>
+<span>
+<a href="/a/uic.edu/pts/home/pts-points" dir="ltr">PTS Points</a>
+</span>
+<span>
+<a href="/a/uic.edu/pts/home/research-opportunities" dir="ltr">Research Opportunities</a>
+</span>
+<span>
+<a href="/a/uic.edu/pts/home/resources" dir="ltr">Resources</a>
+</span>
+</div>
+</div>
+<div id="sites-attachments-container">
+</div>
+</div>
+</div> 
+</td> 
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-adminfooter-container">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter" role="navigation"><p><a class="sites-system-link" href="https://accounts.google.com/ServiceLogin?continue=https://sites.google.com/a/uic.edu/pts/home&amp;service=jotspot">Sign in</a><span aria-hidden="true">|</span><a class="sites-system-link" href="/a/uic.edu/pts/system/app/pages/recentChanges">Recent Site Activity</a><span aria-hidden="true">|</span><a class="sites-system-link" href="https://sites.google.com/a/uic.edu/pts/system/app/pages/reportAbuse" target="_blank">Report Abuse</a><span aria-hidden="true">|</span><a class="sites-system-link" href="javascript:;" onclick="window.open(webspace.printUrl)">Print Page</a><span aria-hidden="true">|</span><span class="sites-system-link">Powered By</span> <b class="powered-by"><a href="http://sites.google.com/site">Google Sites</a></b></p></div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-onebar-footer">
+</div>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="https://ssl.gstatic.com/sites/p/a35f98/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("2bd", "Navigation", true);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_2bd');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+  setTimeout(function() {
+    var fingerprint = gsites.date.TimeZone.getFingerprint([1109635200000, 1128902400000, 1130657000000, 1143333000000, 1143806400000, 1145000000000, 1146380000000, 1152489600000, 1159800000000, 1159500000000, 1162095000000, 1162075000000, 1162105500000]);
+    gsites.Xhr.send('https://sites.google.com/a/uic.edu/pts/_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
+  }, 500);
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type + ",user_page";
+                      window.jstiming.report(loadTimer, {}, 'https://gg.google.com/csi');
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false,
+            false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+        webspace, "en");
+    maestroRunner.initListeners();
+    maestroRunner.installEditRender();
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+  //]]>
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    JOT_postEvent('decorateGvizCharts');
+  </script>
+<script type="text/javascript">
+          JOT_setupPostRenderingManager();
+        </script>
+<script type="text/javascript">
+          JOT_postEvent('renderPlus', null, 'sites-chrome-main');
+        </script>
+<script type="text/javascript">
+          sites.codeembed.init();
+        </script>
+<div id="server-timer-div" style="display:none"> </div>
+<script type="text/javascript">
+          window.jstiming.load.tick('render');
+          JOT_postEvent('usercontentrendered', this);
+        </script>
+</body>
+</html>

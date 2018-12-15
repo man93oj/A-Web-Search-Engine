@@ -1,0 +1,1170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery.js"></script>
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-migrate.js"></script>
+<link rel="stylesheet" href="/pub/TWiki/JQueryPlugin/jquery-all.css" type="text/css" media="all" />
+<script type="text/javascript" src="/pub/TWiki/JQueryPlugin/jquery-all.js"></script>
+  <title>News - WebHome</title>
+
+<link rel="icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<link rel="alternate" href="https://www.cs.uic.edu/bin/edit/News/WebHome?_T=2018-12-12" type="application/x-wiki" title="edit WebHome" />
+<link rel="shortcut icon" href="https://www1.cs.uic.edu/images/favicon.ico" type="image/x-icon" />
+<meta name="SCRIPTURLPATH" content="/bin" />
+<meta name="SCRIPTSUFFIX" content="" />
+<meta name="TEXT_JUMP" content="Jump" />
+<meta name="TEXT_SEARCH" content="Search" />
+<meta name="TEXT_NUM_TOPICS" content="Number of topics:" />
+<meta name="TEXT_MODIFY_SEARCH" content="Modify search" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/bin/view/News/WebRss" />
+<base href="https://www.cs.uic.edu/bin/view/News/WebHome"></base>
+<!--BEHAVIOURCONTRIB--><script type="text/javascript" src="/pub/TWiki/BehaviourContrib/behaviour.compressed.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikilib.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiWindow.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiEvent.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiHTML.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiCSS.js"></script>
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiForm.js"></script>
+<script type="text/javascript" src="/pub/TWiki/PatternSkin/pattern.js"></script>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/TWikiTemplates/base.css');
+</style>
+<style type="text/css" media="all">
+#patternTopBar,
+#patternClearHeaderCenter,
+#patternClearHeaderLeft,
+#patternClearHeaderRight,
+#patternTopBarContentsOuter,
+#patternTopBarContents {
+	height:100px;  /* top bar height; make room for header columns */
+	overflow:visible;
+}
+#patternOuter {
+	margin-left:14em;
+}
+#patternLeftBar {
+	width:14em;
+	margin-left:-14em;
+}
+</style>
+<style type="text/css" media="all">
+@import url('/pub/TWiki/PatternSkin/layout.css');
+@import url('/pub/TWiki/PatternSkin/style.css');
+@import url('/pub/TWiki/PatternSkin/colors.css');
+</style>
+<style type="text/css" media="all">
+	/* Styles that are set using variables */
+	.patternBookView .twikiTopRow,
+	.patternWebIndicator a img,
+	.patternWebIndicator a:hover img {
+		background-color:#d0d0d0;
+	}
+	#patternTopBarContents { background-image:url(none); background-repeat:no-repeat;}
+	
+	.patternBookView {
+		border-color:#d0d0d0;
+	}
+	.patternPreviewPage #patternMain {
+		/* uncomment to set the preview image */
+		/*background-image:url("/pub/TWiki/PreviewBackground/preview2bg.gif");*/
+	}
+	
+</style><style type="text/css" media="all">
+
+@import url('/pub/ComputerSupport/WebPreferences/newweb.css');
+
+</style>
+<style type="text/css" media="all">
+	@import url("/pub/TWiki/PatternSkin/print.css");
+</style>
+<!--[if IE]><style type="text/css" media="screen">
+pre {
+	overflow-x:auto;
+	padding-bottom:expression(this.scrollWidth > this.offsetWidth ? 16 : 0);
+}
+</style>
+<![endif]-->
+<!--[if lte IE 6]> 
+<style type="text/css">
+#patternLeftBar {
+	position:relative; /* IE 5.5 needs this or the contents won't show outside the parent container on print. IE 6.0 needs it only during printable copy! */
+}
+</style><![endif]-->
+<script type="text/javascript" src="/pub/TWiki/TWikiJavascripts/twikiStyles.js"></script>
+
+<!-- Google Analytics Snippet -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17081517-1']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+	 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + 
+'.google-analytics.com/ga.js';
+	 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- /Google Analytics Snippet -->
+<!--GENERATED_HEADERS--><!-- HEADLINESPLUGIN --> <link rel="stylesheet" href="https://www.cs.uic.edu/pub/TWiki/HeadlinesPlugin/style.css" type="text/css" media="all" /></head>
+<body class="patternViewPage">
+<a name="PageTop"></a>
+<div id="patternScreen">
+<div id="patternPageShadow">
+<div id="patternPage">
+<div id="patternWrapper"><div id="patternOuter">
+<div id="patternFloatWrap">
+<div id="patternMain"><div id="patternClearHeaderCenter"></div>
+<div id="patternMainContents"><div class="twikiContentHeader"></div><div class="patternContent"><div class="patternTopic"> <sticky>
+<!-- <ul>
+<li> Set MYHEADER = <span style="color: #630000; font-size:15px; font-weight:bold;">
+</li> <li> Set ENDMYHEADER = </span> 
+</li></ul> 
+-->
+<p />
+<div class="headlinesRss"><h2><a name="Recent_News"></a> Recent News </h2> <ul>
+<li> <a href=https://www.cs.uic.edu/wp-content/uploads/2018/04/Marai-Dagstuhl-final1.pdf>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/wp-content/uploads/2018/04/WebConference-2018.pdf><b>April 10, 2018</b> - Profs. Yu and Cruz's research papers selected for The Web Conference</a>
+</li> <li> <a href=https://youtu.be/TLw_I1ghvLM><b>April 4, 2018</b> - "I am AI" docuseries from NVIDIA features Wildbook animal tracking technology</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=780><b>March 19, 2018</b> - CS Profs. visit CPS Student Science Fair at Museum of Science &amp; Industry</a>
+</li> <li> <a href=https://www.sciencedaily.com/releases/2018/03/180308085529.htm>Untitled</a>
+</li> <li> <a href=https://youtu.be/G2xit1jTrBI><b>March 2, 2018</b> - Graduate student George Dill presents at University Insights event on future of auto industry</a>
+</li></ul> 
+</div>
+<p />
+<p />
+<p />
+<p />
+<div class="headlinesRss"><h2><a name="2017"></a> 2017 </h2> <ul>
+<li> <a href=https://www.cs.uic.edu/wp-content/uploads/2017/12/EVL-riverwalk.pdf>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=772><b>November 29, 2017</b> - Prof. Berger-Wolf's Wildbook team helps lead a community effort in identifying  whale sharks</a>
+</li> <li> <a href=https://today.uic.edu/excellence-in-teaching-dale-reed><b>November 28, 2017</b> - Prof. Reed honored for "Excellence in Teaching" at UIC Faculty Awards</a>
+</li> <li> <a href=https://boingboing.net/2017/11/14/dropping-dox.html><b>November 16, 2017</b> - A quantitative analysis of doxing: who gets doxed, and how can we detect doxing automatically?</a>
+</li> <li> <a href=https://www.cs.uic.edu/wp-content/uploads/2017/11/evl-visit.pdf><b>November 9, 2017</b> - U. of IL System 2017 PELP Program Visits the Electronic Visualization Laboratory</a>
+</li> <li> <a href=https://today.uic.edu/nsf-funded-report-focuses-on-classroom-technology><b>November 7, 2017</b> - Cyberlearning: Prof. Moher's NSF funded report focuses on classroom technology</a>
+</li> <li> <a href=https://www.cs.uic.edu/wp-content/uploads/2017/11/robots-push-back.pdf><b>November 6, 2017</b> - Prof. Di Eugenio teams up with ECE Dept. to teach robots how to push back</a>
+</li> <li> <a href=https://www.cs.uic.edu/wp-content/uploads/2017/11/self-care-heart-failure-final.pdf><b>November 3, 2017</b> - Prof. Di Eugenio collaborating with West campus to help patients with heart failure practice self-care</a>
+</li> <li> <a href=https://www.cs.uic.edu/k-event/amitabh-varshney/><b>November 2, 2017</b> - Distinguished Lecturer - Amitabh Varshney: "Improving Medicine, Saving Lives: Developing Visual Computing Technologies for Health Care"</a>
+</li> <li> <a href=http://www.adlerplanetarium.org/events/reel-science-2001-space-odyssey/><b>November 2, 2017</b> - Professor Sloan joins Astronomer Panel after tonight's screening of "2001: A Space Odyssey" at 6PM today at the Adler Planetarium</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=763><b>October 31, 2017</b> - CS Dept. presents at ACM CCS 2017 in Dallas: A Cost-Benefit Approach to Improving Browser Security</a>
+</li> <li> <a href=https://www.cs.uic.edu/wp-content/uploads/2017/11/vast-challenge2.pdf><b>October 30, 2017</b> - EVL students honored at Visual Analytics Science and Technology (VAST) Challenge</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=761><b>October 24, 2017</b> - Prof. Berger-Wolf has been chosen as the General Conference co-Chair for Society for Industrial and Applied Mathematics (SIAM) Conference on Data Mining (SDM) for 2018 and 2019. </a>
+</li> <li> <a href=https://www.cs.uic.edu/k-event/sorin-istrail/><b>October 12, 2017</b> - Distinguished Lecturer - Sorin Istrail: "Eric Davidson's "Regulatory Genome" for Computer Science"</a>
+</li> <li> <a href=https://www.cs.uic.edu/k-event/michael-reiter/><b>September 14, 2017</b> - Distinguished Lecturer - Micheal Reiter: "Side channels in multi-tenant environments"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=757><b>August 31, 2017</b> - Congratulations to UIC CS Associate Professor Liz Marai on her second NIH R01 grant of 2017</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=756><b>August 24, 2017</b> - Congratulations to Dale Reed on new NSF grant to bring CS to all Chicago Public High School students</a>
+</li> <li> <a href=https://news.uic.edu/data-scientist-wins-award-to-develop-malaria-monitoring-platform><b>June 22, 2017</b> - Congratulations to Isabel Cruz on an award from the Bill and Melinda Gates of $100,000 to use computer science/data science/big data to fight malaria</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=754><b>June 20, 2017</b> - Congratulations to CS Associate Prof. Jakob Eriksson on new $473K NSF grant</a>
+</li> <li> <a href=http://www.news-gazette.com/news/local/2017-05-19/ui-chicago-computer-science-prof-urbana-wins-500000-award.html><b>May 19, 2017</b> - Computer Science assistant professor, Brian Ziebart,  has received a $500,000 National Science Foundation CAREER award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=751><b>April 6, 2017</b> - Seminar - Casey Fiesler: "Regulation Beyond Code: How Rules Mediate Our Interactions with Technology and with Each Other"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=752><b>April 6, 2017</b> - Booma Sowkarthiga Balasubramani, a Ph.D student in Computer Science, has been awarded Computing Research Association - Education Committee Graduate Student Fellowship</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=747><b>March 27, 2017</b> - Seminar - Yongfeng Zhang: "Personalized Data-Driven Systems"</a>
+</li> <li> <a href=http://www.chicagobusiness.com/article/20170324/ISSUE01/170329891/uic-expanding-space-for-booming-computer-science-department><b>March 27, 2017</b> - How UIC is making room for a computer science boom</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=748><b>March 15, 2017</b> - Seminar - Rajesh Chitnis: "A Fine-Grained Approach for Designing (Time and Space) Efficient Algorithms"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=749><b>March 13, 2017</b> - Seminar - Cheng Li: "User-in-the-loop learning systems for high-recall retrieval"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=746><b>March 7, 2017</b> - Congratulations to Dean Nelson, John Dillenburg, and UIC AI Lab on new $5.85 million research contract</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=743><b>March 6, 2017</b> - Seminar - Sybil Derrible: "The Role of Computer Science in Redesigning Civil Infrastructure Systems"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=745><b>March 3, 2017</b> - Congratulations to UIC Computer Science Associate Professor Liz Marai on new NIH R01 award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=742><b>February 28, 2017</b> - Seminar - Ioannis Konstas: "Building Adaptable and Scalable Natural Language Generation Systems"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=744><b>February 28, 2017</b> - Congratulations to UIC Computer Science Assistant Professor Brian Ziebart on receiving a National Science Foundation CAREER award, the NSF's top award for young researchers</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=741><b>February 17, 2017</b> - Seminar - Junyi Li: "Assessing Text Intelligibility with Discourse Structure"</a>
+</li> <li> <a href=https://www.cs.uic.edu/k-event/thomas-dietterich/><b>February 16, 2017</b> - Distinguished Lecturer - Thomas Dietterich: "Anomaly Detection: Principles, Benchmarking, Explanations, and Theory"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=738><b>February 10, 2017</b> - Seminar - Tom Williams: "Genuine Helpers: Enabling natural language capabilities for assistive robots"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=739><b>February 8, 2017</b> - Seminar - Nanyun Peng: "Representation Learning with Joint Models for Information Extraction"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=737><b>February 6, 2017</b> - Seminar - Carsten Eickhoff: "Clinical Text Understanding and Decision Support"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=735><b>February 2, 2017</b> - Seminar - Xiaorui Sun: "Algorithmic Design for Massive Data"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=734><b>January 31, 2017</b> - Seminar - Jiepu Jiang: "Low-cost Training and Evaluation of Search Engines"</a>
+</li> <li> <a href=https://www.cs.uic.edu/k-event/sheelagh-carpendale/><b>January 19, 2017</b> - Distinguished Lecture - Sheelagh Carpendale: "Interacting with Information through Visualization"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=732><b>January 9, 2017</b> - Rachel Harsley is honored by NSBE with a Golden Torch award &amp; wins an ACM-W fellowship</a>
+</li></ul> 
+</div>
+<p />
+<p />
+<p />
+<p />
+<div class="headlinesRss"><h2><a name="2016"></a> 2016 </h2> <ul>
+<li> <a href=http://www.chicagotribune.com/bluesky/originals/ct-inside-job-m1-finance-bsi-20161205-story.html><b>December 9, 2016</b> - Computer Science alumna, Allie Curry, now works as the Lead Android Engineer for M1 Finance</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=730><b>December 8, 2016</b> - Seyed Iman Mirrezaei receives the Firdawsi Science Fellowship Award for 2016-17</a>
+</li> <li> <a href=https://www.cs.uic.edu/k-event/dls-michael-franklin/><b>November 10, 2016</b> - Distinguished Lecturer Series - Michael Franklin: "A Retrospective on the AMPLab and the Berkeley Data Analytics Stack"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=729><b>November 10, 2016</b> - UIC/EVL Receives Honorable Mention in IEEE VIS 2016's VGTC VPG Data Visualization Contest</a>
+</li> <li> <a href=https://www.cs.uic.edu/k-event/seminar-hady-lauw/><b>October 28, 2016</b> - Seminar - Dr. Hady Lauw: "Mining Revenue-Maximizing Bundling Configuration"</a>
+</li> <li> <a href=https://www.cs.uic.edu/k-event/dls-maria-klawe/><b>October 27, 2016</b> - Distinguished Lecturer Series - Dr. Maria Klawe: "Getting more women into tech careers and why it matters"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=727><b>October 25, 2016</b> - Steve Checkoway and Co-authors Win Best Paper Award at CCS '16</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=724><b>October 3, 2016</b> - Congratulations to Computer Science Assistant Professor Steve Checkoway on new $240K NSF grant--security of cyber-physical systems</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=721><b>September 29, 2016</b> - Seminar - Kuansan Wang: "Can we assess scholarly impacts by mining the web?"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=723><b>September 20, 2016</b> - Computer Science Professor Tanya Berger-Wolf and Kenya's Great Grevy (zebra) rally: Results announced</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=722><b>September 15, 2016</b> - Congratulations to Computer Science Assistant Professor Balajee Vamanan on new $279K NSF BIGDATA grant</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=720><b>August 31, 2016</b> - Congratulations to UIC Computer Science Professor Isabel Cruz on new $500K NSF grant</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=719><b>August 24, 2016</b> - UIC CS Professors and collaborators receive two new federal grants</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=717><b>August 23, 2016</b> - Congratulations to CS Profs. Zuck, Sistla, and Venkatakrishnan on new $854K NSF grant</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=718><b>August 23, 2016</b> - Congratulations to UIC CS Prof. Isabel Cruz and collaborators on new $420K NSF grant</a>
+</li> <li> <a href=http://news.softpedia.com/news/computer-science-professor-gives-failing-grade-to-newly-leaked-nsa-hacking-tool-507482.shtml><b>August 19, 2016</b> - Computer Science assistant professor Steve Checkoway was recently interviewed about the new NSA leaks</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=715><b>August 17, 2016</b> - Congratulations to Computer Science Associate Professor Jon Solworth on new NSF grant on anonymous browsing and Tor</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=713><b>August 16, 2016</b> - Congratulations to CS faculty member Jakob Eriksson on new $500K NSF grant</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=714><b>August 16, 2016</b> - Congratulations to UIC Computer Science Assistant Professor Mark Grechanik on two new NSF grants</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=712><b>August 4, 2016</b> - Research on security and compiler optimization wins best paper award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=711><b>July 18, 2016</b> - Two NSF grants to support creation of innovative interdisciplinary computer science introductory courses</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=710><b>July 11, 2016</b> - Congratulations to CS Assistant Professor Mark Grechanik on new $350K NSF grant</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=709><b>May 24, 2016</b> - Congratulations to the Computer Science faculty recipients of the 2016 COE Seed Funding Awards</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=708><b>May 4, 2016</b> - UIC CS Research Professor Dan Bernstein's Curve25519 Cryptosystem rolls out to 1 Billion WhatsApp Users</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=707><b>May 3, 2016</b> - UIC CS Welcomes the Girls Who Code Summer Immersion Program</a>
+</li> <li> <a href=http://chicagoinno.streetwise.co/2016/04/18/clean-slate-messenger-wins-uic-startup-competition-2016/><b>April 18, 2016</b> - Congratulations to CS PhD student Rachel Harsley on winning the grand prize of the UIC Startup Challenge</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=706><b>April 14, 2016</b> - UIC CS/EVL PhD student Arthur Nishimoto receives 2016 UIC Chancellor's Student Service Award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=704><b>April 1, 2016</b> - Three UIC Computer Science faculty named to Governor's Advisory Committee</a>
+</li> <li> <a href=https://news.uic.edu/uic-grad-student-makes-mark-in-hackathons><b>March 16, 2016</b> - Computer science grad student, Sumanth Reddy Pandugula, receives awards at the PennApps XIII and 2015 Facebook Global Hackathon competitions</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=702><b>March 15, 2016</b> - Computer Science MS students win USAA award at SpartaHack</a>
+</li> <li> <a href=http://news.uic.edu/helping-future-computer-scientists-learn-a-new-language><b>March 2, 2016</b> - Professor Venkat Venkatakrishnan wins UIC Award for Excellence in Teaching</a>
+</li> <li> <a href=http://chicagotonight.wttw.com/2016/02/24/apple-vs-fbi-should-privacy-rights-outrank-federal-investigation><b>February 25, 2016</b> - Computer Science department head, Professor Robert Sloan, discusses Apple vs FBI on WTTW's Chicago Tonight </a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=699><b>February 15, 2016</b> - PhD student Rachel Harsley honored by the Chicago Urban League as a Leading Woman in Tech</a>
+</li> <li> <a href=http://chicagoinno.streetwise.co/2016/02/04/messaging-apps-uic-students-clean-slate-has-no-message-history/><b>February 8, 2016</b> - Computer Science PhD student, Rachel Harsley, featured in ChicagoInno</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=698><b>February 8, 2016</b> - UIC/EVL Victor Mateevitsi Pitches SpiderSense on Discovery Science's "All-American Makers" TV Show</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=696><b>January 21, 2016</b> - Distinguished Lecture Series - Claudio Silva: "Visualization and Analysis of Urban Data"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=695><b>January 18, 2016</b> - UIC Engineering professors publish a new textbook in computational biology</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=694><b>January 15, 2016</b> - Congratulations to UIC Computer Science Prof. Venkat Venkatakrishnan on two new federal security/privacy grants totaling $1.55 million</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=693><b>January 8, 2016</b> - Wired Magazine reports on Stephen Checkoway's Research into Juniper Backdoor</a>
+</li></ul> 
+</div>
+<p />
+<p />
+<p />
+<p />
+<div class="headlinesRss"><h2><a name="2015"></a> 2015 </h2> <ul>
+<li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=692><b>December 18, 2015</b> - Hacking for wildlife: students use technology to save the animals</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=691><b>December 9, 2015</b> - Congratulations to CS Professor Bing Liu on being named a Fellow of the ACM "For contributions to knowledge discovery and data mining, opinion mining, and sentiment analysis"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=690><b>December 7, 2015</b> - Congratulations to Denise Kelly and Mary Wais on receiving the 2015 College of Engineering Staff Excellence Award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=689><b>December 4, 2015</b> - The NLP laboratory, directed by Prof. Barbara Di Eugenio,  recently received the best paper award at the IADIS International Conference on Educational Technologies (ICEduTech) 2015</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=676><b>December 3, 2015</b> - Distinguished Lecture Series - Dr. Lori A Clarke: "Using Process Modeling and Analysis Techniques to Reduce Errors in Healthcare"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=688><b>December 2, 2015</b> - PhD student Jillian Aurisano is the 2015 UIC Chancellor's Award Winner</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=687><b>November 17, 2015</b> - Seminar - Juan F. Sequeda: "Integrating Relational Databases with the Semantic Web"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=686><b>November 12, 2015</b> - Seminar - Leman Akoglu: "3D�s of Anomaly Mining in Complex Graphs: Definition, Detection and Description"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=685><b>November 2, 2015</b> - UIC CS Undergrad David Labak wins Civic Tech Challenge at Think Chicago</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=681><b>October 29, 2015</b> - ACM Meeting - IBM Watson</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=682><b>October 28, 2015</b> - Introducing our newest CS faculty members</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=683><b>October 28, 2015</b> - Innovative Discoveries From the University of Illinois</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=680><b>October 26, 2015</b> - UIC CS Undergraduates participate in Think Chicago</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=678><b>October 22, 2015</b> - Distinguished Lecture - Dr. Kenneth McMillan: "Why things (don't) work: What formal methods reveal about the perversity of our designs"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=677><b>October 19, 2015</b> - Seminar - Dr. Collin McMillan: "Towards Automated Source Code Summarization"</a>
+</li> <li> <a href=http://news.uic.edu/scientist-wins-data-mining-award><b>October 19, 2015</b> - Computer science Professor Bing Liu was awarded the Test of Time award from ACM SIGKDD</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=674><b>October 15, 2015</b> - Distinguished Lecture Series - Dr. Christopher Raphael: "The Informatics Philharmonic"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=684><b>October 13, 2015</b> - One Chicago grade school is transforming education with EVL technologies</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=675><b>October 6, 2015</b> - Professor Isabel Cruz gives keynote talk at NSF funded workshop on Scaling Up Urban Agriculture to Mitigate Food-Energy-Water Impacts</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=672><b>September 17, 2015</b> - Congratulations to UIC CS Clinical Assistant Professor Cynthia Taylor on new NSF Education grant</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=673><b>September 17, 2015</b> - The ADVIS Lab releases the AgreementMaker ontology matching source code in GitHub</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=670><b>September 16, 2015</b> - Congratulations to UIC Computer Science Professors Berger-Wolf and Kenyon on new $375K NSF brain grant</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=671><b>September 16, 2015</b> - Congratulations to UIC Computer Science Clinical Professor on new NSF grant for CS education in Chicago Public Schools</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=668><b>August 26, 2015</b> - Congratulations to UIC Computer Science Distinguished Professor Philip Yu on new $500,000 NSF grant</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=669><b>August 26, 2015</b> - Congratulations to UIC Computer Science faculty Brian Ziebart (PI) and Tanya Berger-Wolf (co-PI) on new $554K NSF grant</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=667><b>August 10, 2015</b> - Congratulations to Computer Science Professor Tanya Berger-Wolf on new NSF grant</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=666><b>August 7, 2015</b> - Congratulations to Computer Science Assistant Prof. Brian Ziebart and MSCS Assistant Prof. Lev Reyzin on new $500K NSF grant</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=665><b>August 6, 2015</b> - Computer Research Association Funds UIC Computer Science Undergrads to Pursue Careers in Research</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=663><b>July 31, 2015</b> - Congratulations to Maxine Brown in Computer Science on receiving an additional half million dollars of NSF support</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=664><b>July 31, 2015</b> - Congratulations to Computer Science Professor Bing Liu on 10+ year best paper</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=662><b>July 23, 2015</b> - Congratulations to PhD student Iman Mirrezaei for best paper at Know@LOD</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=661><b>July 1, 2015</b> - Congratulations to UIC CS Assistant Professor Brian Ziebart on new grant from Future of Life Institute</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=660><b>June 5, 2015</b> - Professor Isabel Cruz gives a keynote talk at the 18th AGILE International Conference on Geographic Information Science</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=659><b>May 12, 2015</b> - CS PhD students sweep UIC Graduate College awards</a>
+</li> <li> <a href=http://uicweb.net/finals?title=cs><b>April 28, 2015</b> - Spring 2015 Computer Science final exam schedule is now available</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=654><b>April 16, 2015</b> - Distinguished Lecturer - Christos Faloutsos: "Mining Large Graphs"</a>
+</li> <li> <a href=http://www.huffingtonpost.com/aaron-dubrow/7-cyberlearning-technolog_b_6988976.html><b>April 10, 2015</b> - Huffington Post blog features NSF Cyberlearning research of faculty member Tom Moher and students</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=653><b>April 9, 2015</b> - Distinguished Lecturer - Tamara Munzner: "Visualization Analysis and Design"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=656><b>April 6, 2015</b> - Seminar - Alwar Narayanan: "Connected cars and the data management issues"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=655><b>March 27, 2015</b> - UI LABS Announces CityWorks: UIC is a Founding Member</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=651><b>February 27, 2015</b> - CS associate professor Tanya Berger-Wolf on WBEZ's Worldview: Counting and naming animals</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=652><b>February 27, 2015</b> - PhD student Jillian Aurisano receives Chancellor's Student Service Award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=650><b>February 26, 2015</b> - UIC/EVL Victor Mateevitsi participates in Innovation U</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=649><b>February 18, 2015</b> - CS PhD student Ivan Brugere wins Illinois Technology Foundation's Fifty for the Future award</a>
+</li> <li> <a href=http://news.uic.edu/imaging-scientists-will-crowd-source-count-of-kenyan-wildlife><b>February 16, 2015</b> - Imaging scientists crowd-source count of Kenyan wildlife</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=641><b>January 12, 2015</b> - Course on mobile app development offered in Spring 2015 semester</a>
+</li> <li> <a href=http://news.uic.edu/traffic-jams><b>January 12, 2015</b> - UIC Computer Science Artificial Intelligence lab helps Chicago-area travelers fight traffic </a>
+</li> <li> <a href=http://news.uic.edu/?p=31765><b>January 8, 2015</b> - 'Draw me a story' project of Natural Language Processing and EVL labs featured in UIC News</a>
+</li></ul> 
+</div>
+<p />
+<p />
+<p />
+<p />
+<p />
+<div class="headlinesRss"><h2><a name="2014"></a> 2014 </h2> <ul>
+<li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=639><b>November 19, 2014</b> - Two CS PhD students win UIC graduate research awards</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=636><b>November 13, 2014</b> - Distinguished Lecturer Series - Giovanni Vigna: "The Evolution of Malware: From Invasion to Evasion"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=638><b>November 12, 2014</b> - CS Staff Members Elena Lathos and Mary Wais win UIC staff honors</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=637><b>November 10, 2014</b> - UIC Computer Science is one of the 50 most innovative U.S. Computer Science Departments</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=635><b>November 6, 2014</b> - Seminar - Howard Tullman: "You Don't Want to Be At The Airport When Your Ship Comes In"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=634><b>November 3, 2014</b> - Introducing SAGE2, the Scalable Amplified Group Environment. EVL will introduce SAGE2�, the next-generation SAGE�, at the annual IEEE/ACM SC14 International Conference for High Performance Computing, Networking, Storage and Analysis</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=631><b>October 30, 2014</b> - Distinguished Lecturer Series - David B. Shmoys: "The Return of the Traveling Salesman: Approximation Algorithm Design via Randomization and Linear Programming"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=632><b>October 28, 2014</b> - Congratulations to Dean Nelson, John Dillenburg, and UIC AI Lab on new $5.5 million research contract</a>
+</li> <li> <a href=http://www.chicagobusiness.com/article/20141021/OPINION/141029976/why-those-corporate-data-breaches-are-happening><b>October 28, 2014</b> - Robert Sloan, PhD and head of the CS department talks about the hot topic of Data Breaches in Crain's Chicago Business Op-Ed </a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=626><b>October 17, 2014</b> - Distinguished Lecturer Series - Hal Abelson: "From Computational Thinking to Computational Values"</a>
+</li> <li> <a href=http://ict.illinois.edu/2014/10/15/ictidot-lay-the-groundwork-for-future-traffic-monitoring/><b>October 17, 2014</b> - UIC and ICT/IDOT Lay the Groundwork for Future Traffic Monitoring</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=629><b>October 15, 2014</b> - Seminar - Trent Jaeger: "Process Firewall: Protecting Programs During Resource Retrieval"</a>
+</li> <li> <a href=http://news.uic.edu/spotlight-on-innovation><b>October 13, 2014</b> - The Electronic Visualization Laboratory is one of the stops for Chicago Ideas Week, Oct. 13-19</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=625><b>October 2, 2014</b> - Seminar - Aram Galstyan: "Deciphering Social Interactions from Text"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=627><b>October 1, 2014</b> - UIC receives $90,000 in funding to help bring women, minorities, into Computer Science</a>
+</li> <li> <a href=http://illinois.edu/emailer/newsletter/59663.html><b>September 29, 2014</b> - Congratulations to Philip Yu on being named a 2014 University Scholar</a>
+</li> <li> <a href=http://news.uic.edu/students-web-app-helps-classmates-stay-on-track><b>September 25, 2014</b> - UIC Computer Science student builds web app to help students get organized</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=621><b>September 19, 2014</b> - Seminar - Dr. Nathan Ratliff: "Behavior as an Optimality Principle: Exploiting kth-order Markov structure to leverage generic optimization for efficient representation transforms"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=622><b>September 17, 2014</b> - Electronic Visualization Lab of UIC Computer Science Department receives new $3 million grant from NSF</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=619><b>September 15, 2014</b> - Seminar - Dan Gusfield: "The Multi-State Perfect Phylogeny Problem: Modeling Infinite Alleles"</a>
+</li> <li> <a href=http://cif.uic.edu/massmails/Fall2014POCawards.html><b>September 15, 2014</b> - Congratulations to Mark Grechanick: UIC Chancellor's Innovation Fund Proof-Concept Award Winner</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=616><b>September 4, 2014</b> - Professor Tanya Berger-Wolf was the keynote speaker at the ACM KDD Workshop on Broadening Participation in Data Mining</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=617><b>September 4, 2014</b> - Prof. Robert Sloan talks about credit card security on WTTW Chicago Tonight</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=618><b>September 4, 2014</b> - Congratulations to Senior Research Scientist Dr. John Dillenburg, Associate Director of our AI Lab, on a new $109,000 contract from University of Wisconsin as part of the Great Lakes Multistate Corridor project.</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=615><b>September 2, 2014</b> - UIC CS Associate Professor Tanya Berger-Wolf received a new NSF grant in computational ecology</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=614><b>August 7, 2014</b> - UIC CS called out on national stage by President Maria Klawe of Harvey Mudd College for success with Hispanic students</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=613><b>August 4, 2014</b> - Congratulations to UIC Computer Science Prof. Bing Liu on new $300K NSF grant</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=612><b>July 28, 2014</b> - Congratulations to CS faculty Jon Solworth, Chris Kanich, and Dan Bernstein on new $900K NSF Computer Security grant</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=611><b>July 25, 2014</b> - Congratulations to CS Professors Di Eugenio, Johnson, and Adjunct Prof. Wilkinson on new $241,000 NSF grant</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=610><b>July 23, 2014</b> - Congratulations to CS Prof. Bing Liu on a data mining test-of-time best paper award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=609><b>July 17, 2014</b> - UIC Computer Science Assistant ProfessorJakob Eriksson has just received a new $175,000 award from NSF</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=605><b>June 25, 2014</b> - Tanya Berger-Wolf wins American Women in Science Chicago Chapter 2014 Innovator Award</a>
+</li> <li> <a href=http://googleforstudents.blogspot.com/2014/06/google-intern-insights-2014-meet-andrew.html?m=1><b>June 24, 2014</b> - Recent CS graduate, Andrew Ring, is featured in the Google Student Blog - "Google Intern Insights 2014"</a>
+</li> <li> <a href=http://labs.yahoo.com/news/faculty-research-and-engagement-program-2014-recipients-selected/><b>June 18, 2014</b> - Congratulations to Prof. Philip Yu - Yahoo 2014 Faculty Research and Engagement award recipients</a>
+</li> <li> <a href=http://www.chicagotribune.com/news/local/suburbs/grayslake_gurnee_round_lake/ct-six-flags-fingerprints-met-20140601,0,3333303.story><b>June 2, 2014</b> - Computer Science Professor and Department Head, Bob Sloan, quoted in Tribune as a privacy expert in an article regarding Six Flags�s move to fingerprint IDs for season pass holders</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=606><b>May 30, 2014</b> - Jillian Aurisano - 2014 CS Graduate Student Service Award Winner</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=603><b>April 25, 2014</b> - Computer Science PhD student Marco Maggioni has been selected as one of the recipients of the 2014 Dean's Scholar Award winners</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=601><b>April 17, 2014</b> - Distinguished Lecturer Series - Juan Gilbert: "Changing the Landscape: Voting Rights, Technology and Policy"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=602><b>April 14, 2014</b> - Seminar - Mylind Tambe: "Computational Game Theory for Security: Key Algorithmic Principles, Deployed Applications and Research Challenge"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=597><b>April 10, 2014</b> - Distinguished Lecturer Series - David Rosenplum: "Jogging While Driving, and Other Software Engineering Research Problems"</a>
+</li> <li> <a href=http://computingreviews.com/recommend/bestof/notableitems_2013.cfm><b>April 7, 2014</b> - Assistant Professor Grechanik's paper on "Portfolio: searching for relevant functions and their usages in millions of lines of code" was selected by ACM and ThinkLoud as a notable article for 2013</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=598><b>March 28, 2014</b> - Computer Science PhD student Marco Maggioni receives FMC Technologies Fellowship award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=599><b>March 28, 2014</b> - PhD student Ivan Brugere receives Google Lime Scholarship</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=595><b>March 18, 2014</b> - Seminar Announcement - Anita Sarma: "Coordination in Distributed Software Development"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=593><b>March 13, 2014</b> - Distinguished Lecturer Series - Beth Simon: �How we teach impacts students learning, performance, and persistence:  Results from three recent studies of Peer Instruction in Computer Science�</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=596><b>March 13, 2014</b> - Congratulations to Profs. Barbara Di Eugenio and Jakob Eriksson on the UIC Teaching Recognition Program Award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=594><b>March 10, 2014</b> - Security research wins best poster award at ACM CODASPY 2014 conference</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=592><b>February 28, 2014</b> - Seminar - Sevag Gharibian: "Approximation algorithms for quantum constraint satisfaction problems"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=591><b>February 14, 2014</b> - Professor Tom Moher delivers invited talk entitled �Technologies for Making Believe and Building Understandings in Elementary School Classrooms� at the National Science Foundation</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=590><b>February 12, 2014</b> - Seeing future of technology in Google Glass</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=589><b>February 4, 2014</b> - Computer Science faculty Tanya Berger-Wolf has received two grants from Microsoft Research to support her work in computational behavioral ecology</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=588><b>February 3, 2014</b> - Computer Science faculty member Chris Kanich receives NSF CAREER in computer security and privacy</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=586><b>January 31, 2014</b> - The Department of Computer Science at the University of Illinois at Chicago announces the Second Annual Competition for creating: �The Excellent Mobile App�</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=582><b>January 24, 2014</b> - Seminar - Dr. Lionel C. Briand: "Scalable and Cost-Effective Model-Based Software Verification and Testing"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=581><b>January 23, 2014</b> - Distinguished Lecturer Series - Philip A. Bernstein: "Rethinking Eventual Consistency"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=584><b>January 23, 2014</b> - Chicago Public Schools to add computer science as core subject</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=583><b>January 21, 2014</b> - OVCR Researcher of the Year: Philip Yu</a>
+</li></ul> 
+</div>
+<p />
+<p />
+<p />
+<p />
+<p />
+<div class="headlinesRss"><h2><a name="2013"></a> 2013 </h2> <ul>
+<li> <a href=http://www.cs.uic.edu/bin/view/Main/OpenPositions><b>December 27, 2013</b> - Multiple tenure-track faculty openings in the UIC Computer Science Department</a>
+</li> <li> <a href=http://uicweb.net/finals?title=cs><b>December 3, 2013</b> - Fall 2013 Computer Science final exam schedule and room assignments </a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=579><b>December 2, 2013</b> - Congratulations to Computer Science Distinguished Professor Philip Yu on ANOTHER 10-year best paper</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=577><b>November 20, 2013</b> - Three middle-school kids create a virtual future in 3-D with UIC Electronic Visualization Laboratory</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=576><b>November 19, 2013</b> - Professor Cruz and her students win Best Demonstration Award at ACM SIGSPATIAL GIS 2013</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=575><b>November 15, 2013</b> - UIC Computer Science Distinguished Professor wins Extended Database Technologies (EDBT) Test of Time Award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=574><b>November 14, 2013</b> - Distinguished Lecturer Series - L. Jean Camp: "Building Trust By Communicating Risk"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=573><b>October 29, 2013</b> - Victor Mateevitsi one of 50 recognized as Illinois technology industry�s best and brightest students</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=571><b>October 28, 2013</b> - Australia's Monash University introduces world's second CAVE2� System</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=572><b>October 28, 2013</b> - Chicago Ideas Week: Lab attendees visit Mars and Egypt with UIC's EVL</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=569><b>October 22, 2013</b> - Jason Leigh and Maxine Brown of the Electronic Visualization Laboratory, visit Monash University in Melbourne, Australia, to launch Australia's first CAVE2 hybrid reality system- a UIC invention</a>
+</li> <li> <a href=http://openhatch.org/blog/2013/five-women-bringing-open-source-to-campus-for-ada-lovelace-day-2013/><b>October 22, 2013</b> - Devina Dhawan, the president of the UIC Women in Computer Science organization, is featured in the OpenHatch blog for the 2013 Ada Lovelace Day</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=568><b>October 18, 2013</b> - Congratulations to the three UIC Computer Science graduate students among 50 for the Future</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=566><b>October 15, 2013</b> - Congratulations to UIC Computer Science Research Prof. Dan Bernstein, who recently received an NSF award letter for a 4-year grant for $258,984 entitled "TWC: Option: Medium: Collaborative: Authenticated Ciphers."</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=567><b>October 15, 2013</b> - Research Professor Dan J. Bernstein was part of a team of cryptographers that found a serious flaw in Taiwan's digital ID</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=565><b>October 4, 2013</b> - Congratulations to UIC Computer Science Professor Tom Moher and collaborators on new $1.2 million NSF grant</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=564><b>September 26, 2013</b> - The largest UIC team in history will be attending the Grace Hopper Celebration of Women in Computing this fall</a>
+</li> <li> <a href=http://www.cs.uic.edu/~mvd2013/index.html><b>September 20, 2013</b> - The Midwest Verification Day 2013 (MVD'13) workshop for the Midwest region on hardware and software verification will be held on September 20 &amp; 21 at the University of Illinois at Chicago</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=563><b>September 17, 2013</b> - UIC Computer Science's EVL receives new $5 million NSF award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=560><b>September 11, 2013</b> - Congratulations to UIC CS Prof. Isabel Cruz and her highly interdisciplinary team on receiving a $600,000 NSF grant from the Cyber-Enabled Sustainability Science and Engineering (CyberSEES) program entitled "Data Integration for Urban Metabolism"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=561><b>September 11, 2013</b> - Congratulations to Computer Science Asst. Prof. Jakob Eriksson on new $450K NSF grant entitled "Multi-Version Concurrency Control (MVCC) for Main Memory and its Implications for Deterministic Concurrency"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=559><b>September 3, 2013</b> - Congratulations to Prof. Prasad Sistla on a new 3-Year NSF grant entitled "TWC: Medium:Collaborative: Automated Formal Analysis of Security Protocols with Private Coin Tosses."</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=558><b>July 24, 2013</b> - The Department of Computer Science at the University of Illinois at Chicago announces the winners of the First Annual Competition to create: "The Excellent Mobile App"</a>
+</li> <li> <a href=http://www.kdnuggets.com/2013/07/new-sigkdd-officers-to-lead-acm-knowledge-discovery-data-mining-organization.html><b>July 9, 2013</b> - Bing Liu elected as new chair of ACM SIGKDD Knowledge Discovery and Data Mining Organization</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=555><b>July 2, 2013</b> - Congratulations to UIC Computer Science Professor A. Prasad Sistla on his new $300,000 National Science Foundation grant entitled: "Static and Dynamic Techniques for Correctness of Probabilistic Systems"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=556><b>July 2, 2013</b> - Congratulations to Isabel Cruz for receiving an award of $20,000 from the UIC Institute for Policy and Civic Engagement for her proposal entitled, "Big Data Integration to Enable Citizen Participation in Smart Cities."</a>
+</li> <li> <a href=http://krebsonsecurity.com/2013/06/how-much-is-your-gmail-worth/><b>July 1, 2013</b> - Computer Science Assistant Professor Chris Kanich's Cloudsweeper featured in Krebs on Security blog</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=553><b>June 28, 2013</b> - UIC Computer Science Assistant Prof. Brian Ziebart receives $509,000 in National Science Foundation funding as part of a project entitled, "NRI-Large: Collaborative Research: Purposeful Prediction: Co-robot Interaction via Understanding Intent and Goals"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=554><b>June 27, 2013</b> - UIC College of Engineering Dean and Computer Science Professor Peter Nelson and his team have receives a $368,000 Federal Highway Administration (FHWA) grant to expand the Gateway Traveler Information System</a>
+</li> <li> <a href=http://chicagotonight.wttw.com/2013/05/23/star-wars-connection><b>June 13, 2013</b> - WTTW story on UIC/EVL and "The Star Wars Connection"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=551><b>June 13, 2013</b> - Dr. Barbara Di Eugenio was chosen as the recipient of American Women in Science (AWIS) Chicago's 7th Annual Innovator award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=548><b>May 9, 2013</b> - Seminar Announcement - Tina Eliassi-Rad: "Measuring Tie Strength in Implicit Social Networks"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=549><b>May 2, 2013</b> - Seminar Announcement - Mustafa Bilgic: "Active Learning: the Past, the Present, and the Future"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=545><b>April 25, 2013</b> - Seminar Announcement - Shantanu Dutt: "Discretized Network Flow: A New Efficient Discrete Optimization Technique and its Application to Hard Problems"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=541><b>April 24, 2013</b> - WTTW aired story on EVL and CAVE2� System - Tuesday, April 23, 7pm, Channel 11</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=547><b>April 23, 2013</b> - Congratulations to Arjun Mukherjee on receiving the prestigious Dean's Scholar Award for the 2013-14 academic year</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=546><b>April 22, 2013</b> - Seminar Announcement - Giuseppe Carenini: "Modeling Topics and Opinions in Asynchronous Conversations"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=539><b>April 19, 2013</b> - Seminar Announcement - Alberto Maria Segre: "Computational Epidemiology Research"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=540><b>April 19, 2013</b> - Seminar announcement - Cristina Conati: "Learner Modeling for Open-Ended, Exploratory Activities"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=542><b>April 18, 2013</b> - Distinguished Lecturer Series - Dr. Dawn Song: "BitBlaze-WebBlaze-DroidBlaze: Automatic Security Analysis in Binary, Web and Android"</a>
+</li> <li> <a href=http://securityigert.uic.edu/news/esp-igert-fellow-stacy-blasiola-wins-first-place-at-uic-student-research-forum><b>April 16, 2013</b> - ESP-IGERT Fellow and PhD student, Stacy Blasiola, wins 1st place at the UIC Student Research Forum</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=538><b>April 10, 2013</b> - Free screening of Codebreaker on Wednesday, April 10</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=537><b>April 8, 2013</b> - Congratulations to Assistant Professor Mark Grechanik, who has been awarded $25,000 from the Microsoft Research Software Engineering Innovation Foundation (SEIF)</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=536><b>April 4, 2013</b> - Congratulations to Computer Science Assistant Professor Leilah Lyons, who has been announced as a recipient of the 2013 Graduate College Mentoring award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=535><b>March 25, 2013</b> - UIC/EVL mentioned in New York Times: "A 'Big Data' Freeway for Scientists"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=531><b>March 20, 2013</b> - Seminar - Marina Blanton: "General-Purpose Secure Computation and Outsourcing"</a>
+</li> <li> <a href=http://www.youtube.com/watch?v=byJzKjCta3c><b>March 20, 2013</b> - Ph.D. student James Biagioni featured on Google Tech Talks</a>
+</li> <li> <a href=http://www.forbes.com/sites/andygreenberg/2013/03/13/cryptographers-show-mathematically-crackable-flaws-in-common-web-encryption/><b>March 20, 2013</b> - CS Research Professor Dan Bernstein featured in Forbes</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=532><b>March 18, 2013</b> - ESP-IGERT Colloquia - Chris Kanich: "Dirty Jobs: The Role of Freelance Labor in Web Service Abuse"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=529><b>March 15, 2013</b> - Seminar Announcement - Tao Xie: "Cooperative Testing and Analysis:  Human-Tool, Tool-Tool, and Human-Human Cooperations to Get Work Done"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=527><b>March 14, 2013</b> - Distinguished Lecturer Series - Dr. Julia Hirschberg: "What Siri Can't Do: Creating Clarification Questions for Spoken Dialogue Systems"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=530><b>March 11, 2013</b> - ESP-IGERT Colloquia - Maliheh Monshizadeh: "Input Validation Vulnerabilities in Web Applications and Countermeasures"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=519><b>March 7, 2013</b> - Distinguished Lecturer Series - Mary Jean Harrold: "Localizing and Explaining Non-deadlock Concurrency Bugs"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=528><b>March 6, 2013</b> - Mechdyne Corporation Licenses CAVE2� Hybrid Reality Environment from the University of Illinois at Chicago</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=526><b>March 4, 2013</b> - ESP-IGERT Colloquia - Charles Hoehne: "IRB approval process and data security and privacy in research with human subjects"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=525><b>February 23, 2013</b> - Computer Science PhD candidate and EVL research assistant Victor Mateevitsi has received a lot of press in the past few days for "SpiderSense"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=522><b>February 22, 2013</b> - Seminar Announcement- Prasad Naldurg: "Baaz: A system for detecting access control misconfigurations"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=523><b>February 21, 2013</b> - Associated Press releases print and video stories about UIC/EVL CAVE2� System</a>
+</li> <li> <a href=https://news.uic.edu/scientist-venkat-venkatakrishnan-fights-cyber-crime><b>February 21, 2013</b> - Venkat Venkatakrishnan fights cyber crime</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=520><b>February 18, 2013</b> - ESP-IGERT Colloquia - Jaime Velazquez: Interviewing Workshop</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=521><b>February 18, 2013</b> - Computer Science Professor and Wexler Chair in Information Technology Philip Yu is one of the recipients of the 2013 IEEE Computer Society Technical Achievement Award</a>
+</li> <li> <a href=http://video.wttw.com/video/2334414815/>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=517><b>February 12, 2013</b> - Isabel Cruz receives Association of Computing Machinery Recognition of Service Award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=516><b>February 11, 2013</b> - ESP-IGERT Colloquia - Annette Markham: "Internet Research Ethics: Current challenges, best practices, and unresolvable dilemmas"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=514><b>February 7, 2013</b> - Distinguished Lecturer Series - Jon Peha: "A New Era in Spectrum Management"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=515><b>February 6, 2013</b> - University of Illinois at Chicago: Virtual Reality�s CAVE&trade;&nbsp;Pioneer</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=513><b>January 28, 2013</b> - Seminar Announcement - Rayid Ghani: "The Role of Data, Technology, and Analytics in the Presidential Elections"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=511><b>January 24, 2013</b> - Computer Science faculty Jason Leigh and Dale Reed recipients of the 2013 Teaching Recognition Program Award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=512><b>January 24, 2013</b> - Computer Science Professor Bing Liu receives OVCR 2012 Researchers of the Year Award</a>
+</li></ul> 
+</div>
+<p />
+<p />
+<p />
+<p />
+<p />
+<div class="headlinesRss"><h2><a name="2012"></a> 2012 </h2> <ul>
+<li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=510><b>November 30, 2012</b> - Seminar Announcement - Jean Bolot: "Adventures in cell phone data mining"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=509><b>November 29, 2012</b> - Seminar Announcement - Sevag Gharibian: "An Introduction to Quantum Computing"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=508><b>November 28, 2012</b> - CS PhD Student Marco Maggioni receives Provost award 2012 for graduate research</a>
+</li> <li> <a href=http://www.illinoistech.org/story.aspx/310527><b>November 26, 2012</b> - Congratulations to CS undergraduate, Garret Padera, for taking 3rd place in the Illinois Technology Association Fall Challenge</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=506>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=504><b>November 5, 2012</b> - Distinguished Lecturer Series - Ben Shneiderman: "Information Visualization for Knowledge Discovery"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=505><b>November 5, 2012</b> - Advanced Programming Seminar - Peter Snyder: "Modern Web Development: From Angle Brackets to Web Sockets"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=503><b>October 29, 2012</b> - ESP-IGERT Colloquium - Noah Dermer: "Programming with Security"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=502><b>October 22, 2012</b> - Advanced Programming Seminar - Daniel J. Bernstein: "Data-structure lock-in"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=501><b>October 15, 2012</b> - Advanced Programming Seminar - Peter Schwabe: "High-performance cryptography in software"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=500><b>October 10, 2012</b> - Congratulations to Computer Science Asst. Prof. Leilah Lyons on new $799,000 NSF grant</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=499><b>October 4, 2012</b> - Machine Learning Seminar</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=498><b>October 1, 2012</b> - Advanced Programming Seminar - Venkat Raghavan G: "Apache maven : A maven in build automation"</a>
+</li> <li> <a href=http://www.cs.uic.edu/bin/view/Main/Seminars><b>September 28, 2012</b> - Distinguished Lecturer Series 2012-2013</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=496><b>September 27, 2012</b> - Congratulations to CS Professors Wolfson and Cruz and Research Scientist Xu on new $1.17 million NSF grant</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=491><b>September 26, 2012</b> - Seminar Annoucement - John R. Birge: "Optimization and estimation in large-scale models"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=495><b>September 24, 2012</b> - Advanced Programming Seminar - W. Michael Petullo: "Getting ahead with Open Source"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=493><b>September 18, 2012</b> - Distinguished Lecturer Series - S. Muthu Muthukrishnan: "Internet Ad Systems Auctions, Optimizations and Exchanges"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=494><b>September 18, 2012</b> - Congratulations to UIC Computer Science Dept. Post-Doc Tim Hinrichs and Associate Professor Lenore Zuck on a new $653,000 grant from the National Science Foundation</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=492><b>September 14, 2012</b> - New lactation room for faculty, staff, and students has opened on the 5th floor of SEO</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=490><b>August 31, 2012</b> - Security Talk - Phu H. Phung: "Governing Bot-as-a-Service in Sustainability Platforms - Issues and Approaches"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=489><b>August 28, 2012</b> - Congratulations to CS Prof. Bhaskar DasGupta on two new NSF grants for $556,000</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=488><b>July 12, 2012</b> - MS student and WiCS president Jillian Aurisano receives scholarship to attend Grace Hopper Conference</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=487><b>June 20, 2012</b> - Spark Student Mentored in Video Game Development at the UIC Electronic Visualization Laboratory</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=486><b>May 28, 2012</b> - Hoops of Fire: A Smartphone App Promotes UIC�s Athletic Department and Engineering College</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=484><b>May 22, 2012</b> - Professors Jason Leigh and Robert Kenyon teach the first Human Augmentics class</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=483>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=485>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=482><b>May 14, 2012</b> - CS faculty win teaching and advising awards from the College of Engineering</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=481><b>April 24, 2012</b> - CS PhD student, James Biagioni, receives Dean's Scholar Award for 2012-2013</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=480><b>April 18, 2012</b> - CS PhD student wins 1st place in UIC student Research Forum</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=543><b>April 12, 2012</b> - Distinguished Lecturer Series - Umeshwar Dayal: "Next Generation Business Intelligence"</a>
+</li> <li> <a href=http://grad.uic.edu/cms/?pid=1001057><b>April 3, 2012</b> - CS and BioE receive 1st place in Image of Research competition</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=478><b>March 14, 2012</b> - Advanced Programming Seminar - Alan Jeffrey: "Demonstrating Agda"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=477>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=476><b>March 1, 2012</b> - Congratulations to CS Assistant Professor Jakob Eriksson on his new NSF CAREER Award</a>
+</li> <li> <a href=http://www.nytimes.com/2012/01/27/technology/for-2-a-star-a-retailer-gets-5-star-reviews.html?_r=2&amp;hp><b>February 29, 2012</b> - Computer Science Faculty Member Bing Liu on front page of NY Times</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=475><b>February 29, 2012</b> - Advanced Programming Seminar - Venkat Venkatakrishnan: "Automated Program Repair"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=474><b>February 16, 2012</b> - Distinguished Lecturer Series - Michael Eisenberg: "Technology for Learning: Moving from the Cognitive to the Anthropological Stance"</a>
+</li> <li> <a href=http://stko.geog.ucsb.edu/bigdatagiscience2012/><b>February 9, 2012</b> - Isabel Cruz gives Reginald Golledge Distinguished Lectureship at UCSB "Big Data in Geographic Information Science Panel 2012"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=473><b>February 2, 2012</b> - Distinguished Lecturer Series - Rajeev Alur: "Computer Augmented Program Engineering"</a>
+</li></ul> 
+</div>
+<p />
+<p />
+<p />
+<p />
+<p />
+<div class="headlinesRss"><h2><a name="2011"></a> 2011 </h2> <ul>
+<li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=470>Untitled</a>
+</li> <li> <a href=http://bit.ly/sPd6UZ><b>November 14, 2011</b> - NSF Features Research by Professor Isabel Cruz and PhD Student Rigel Gjomemo "Computer Scientists Advance Secure Emergency Response Systems"</a>
+</li> <li> <a href=http://www.uic.edu/htbin/cgiwrap/bin/uicnews/articledetail.cgi?id=15841><b>November 11, 2011</b> - NSF grant to Urban Planning and Policy Professor (PI), and interdisciplinary collaborators including Leilah Lyons and Andy Johnson from CS</a>
+</li> <li> <a href=http://www.uic.edu/htbin/cgiwrap/bin/uicnews/articledetail.cgi?id=15846><b>November 11, 2011</b> - CS graduate students build app for connecting students, and are working on launching a start-up company for it</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=467><b>November 11, 2011</b> - New UIC 'CYBER-COMMONS' Wall Pops With 3-D Imagery</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=463><b>November 8, 2011</b> - Distinguished Lecturer Series - Martin C. Rinard: "Compilers That (Intentionally) Change the Result Your Program Produces"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=464><b>November 8, 2011</b> - Ph.D. student James Biagioni wins "Best Presentation Award" at SenSys 2011</a>
+</li> <li> <a href=http://acmgis2011.cs.umn.edu/><b>November 4, 2011</b> - Isabel Cruz is the General Chair of the ACM SIGSPATIAL GIS 2011 Conference (November 1-4, 2011)</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=461><b>November 1, 2011</b> - Distinguished CS Educator Lecture - Dan Garcia: "Best Practices and Teaching Tips to Improve CS Education"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=460><b>October 31, 2011</b> - Advanced Programming Seminar - Tim Merrifield: "Debugging with GDB"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=459><b>October 19, 2011</b> - Talk Announcement - David Kempe: "Mechanism Design: Truthful and Frugal Auctions"</a>
+</li> <li> <a href=http://www.cs.uic.edu/Main/Nalco><b>October 17, 2011</b> - North American Computational Linguistics Olympiad</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=458><b>October 17, 2011</b> - Distinguished Lecturer Series - Helen Nissenbaum: "Ethics, Politics, and Science of Obfuscation"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=457><b>October 11, 2011</b> - Advanced Programming Seminar - Dr. Mark Grechanik: "Software Engineering in the Age of Data Privacy"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=456><b>October 4, 2011</b> - Talk Announcement - Michael Horn: "Of BATs and APEs: Designing Interactive Tabletop Exhibits for Natural History Museums"</a>
+</li> <li> <a href=http://www.businessweek.com/magazine/a-lie-detector-test-for-online-reviewers-09292011.html><b>October 3, 2011</b> - Bing Liu in the current Business Week</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=454><b>September 26, 2011</b> - Advanced Programming Seminar - Jakob Eriksson: "Mastering the Unix Command Line"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=453><b>September 20, 2011</b> - Barbara Di Eugenio gives invited talk at "Constraints in Discourse" (CID 2011)</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=451><b>September 19, 2011</b> - Congratulations to Computer Science PhD students Anushka Anand, Habiba, and Alberto Tretti for winning the "50 for the future" award.</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=452><b>September 19, 2011</b> - Advanced Programming Seminar - Jon Solworth: "Programming in the Ethos Project"</a>
+</li> <li> <a href=http://rites.uic.edu/advProg.html>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=449><b>September 14, 2011</b> - Congratulations to Prof. Moher and team on new $550,000 NSF grant</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=448><b>September 12, 2011</b> - Congratulations to Tanya Berger-Wolf for new NSF grant</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=447><b>September 6, 2011</b> - Seminar Announcement - Dr. Yuri Gurevich: "Logic, Policy, and Federation in the Cloud"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=446><b>September 1, 2011</b> - Computer Science Colloquium - Matteo Palmonari: "From Jeopardy! to Real-World Applications: Linking Open Data for Current Information Needs"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=469><b>September 1, 2011</b> - Congratulations to Leilah Lyons and Andy Johnson on new NSF grant with UPP, Bio, Education</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=445><b>August 29, 2011</b> - CS PhD student, Anushka Anand, joins Anita Borg Institute Board of Trustees</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=444><b>August 29, 2011</b> - Congratulations to Lenore Zuck on new $255K DARPA project</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=441><b>August 25, 2011</b> - Michael Lewis Receives Diversifying Higher Education Faculty in Illinois (DFI) Fellowship Support for UIC CS PhD</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=442><b>August 25, 2011</b> - Congratulations to Bing Liu on new $450K NSF award on measuring public sentiment</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=440><b>August 23, 2011</b> - Congratulations to Leilah Lyons on National Endowment for Humanities Grant</a>
+</li> <li> <a href=http://www.travelmidwest.com/lmiga/map.jsp?mapname=chicagoArea><b>August 22, 2011</b> - New 2-year $4.2 million IDOT contract to Computer Science Professor and Dean of Engineering Nelson and team. One of the products of this ongoing work is the regional real-time traffic map </a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=439><b>August 21, 2011</b> - Congratulations to Lenore Zuck PI, and Venkat Venkatakrishnan on an interesting new grant from the NSF on secure web applications</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=436><b>August 16, 2011</b> - Professor Venkat Venkatakrishnan and team awarded $3.2 million NSF IGERT for  "Electronic Security and Privacy: Technological, Human, Enterprise and Legal Considerations"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=437><b>August 15, 2011</b> - EVL's Paint Program a major success at SIGGRAPH 2011</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=435><b>July 26, 2011</b> - UIC/EVL "Fleet Commander" video goes viral</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=434><b>July 25, 2011</b> - Congratulations to Prof. Philip Yu on new $496,000 NSF grant</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=433><b>July 22, 2011</b> - Compbio Invited Talk - Catia Pesquita: "Auxesia: Semi-automated Ontology Extension"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=432><b>June 30, 2011</b> - Congratulations to CS Faculty member Dale Reed-2011 INSPIRE award winner</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=431><b>June 27, 2011</b> - Outstanding Computer Science Teaching Assistants Announced</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=430><b>June 17, 2011</b> - Prof. Di Eugenio receives a Yahoo! Faculty Research and Engagement award to mine microblogs</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=429><b>June 15, 2011</b> - Congratulations to Jason Leigh and Isabel Cruz - 2011 University Scholar Awardees</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=428><b>June 2, 2011</b> - Shashi Singh makes Computer Science a little "greener"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=427><b>May 27, 2011</b> - Google Adds Possible TCP Replacement Developed by UIC CS Research Professor Dan Bernstein To Chrome</a>
+</li> <li> <a href=http://www.chicagotribune.com/news/ct-talk-zebra-barcode-0523-20110522,0,2982305.story><b>May 23, 2011</b> - Prof. Berger-Wolf in Chicago Tribune</a>
+</li> <li> <a href=http://prezrelease.uillinois.edu/2011/05/06/online-security-and-privacy-attacks/><b>May 10, 2011</b> - President Hogan blogs about Professor Venkat's security research and new NSF research grant</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=425><b>May 10, 2011</b> - CS PhD Student Jalal Alowibdi Receives Prestigious Yahoo! Award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=423><b>May 5, 2011</b> - Congratulations to CS faculty member Tom Moher on a new NSF (CISE directorate, IIS division) grant for $1.2 million</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=417><b>April 27, 2011</b> - Distinguished Lecturer Series - Joan Feigenbaum: "The DISSENT Approach to Anonymous, Interactive Communication on the Internet"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=422><b>April 13, 2011</b> - Zebra ID project by PhD student Mayank Lahiri is getting a lot of publicity</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=420><b>April 5, 2011</b> - Distinguished Lecturer Series - Michael T. Goodrich: "Turning Privacy Leaks into Floods:  Surreptitious Discovery of Social Network Friendships and Other Sensitive Binary Attribute Vectors"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=421><b>April 5, 2011</b> - iPad awarded to top CS project at Science Fair </a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=418><b>March 14, 2011</b> - Professor Sol Shatz appointed as the UIC Interim Executive Associate Vice Chancellor for Research</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=416><b>March 3, 2011</b> - Distinguished Lecturer Series - Somesh Jha: "Retrofitting Legacy Code for Security"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=419><b>March 3, 2011</b> - The OmegaDesk: Workspace of the future</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=415><b>March 1, 2011</b> - Mayank Lahiri's work wins first place at the UIC Image of Research competition</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=414><b>February 11, 2011</b> - CTS IGERT Seminar - Dr. Amitabh Chaudhary: "Online Algorithms for the Newsvendor Problem"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=413><b>February 7, 2011</b> - IEEE Internet Computing publishes controversial column by Prof. Eriksson: "Privacy Is Dead: Long Live Surveillance Symmetry"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=412><b>January 27, 2011</b> - Distinguished Lecturer Seminar Series - Karem Sakallah: "Scalable Formal Hardware Verification Through Automatic Abstraction"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=411><b>January 18, 2011</b> - UIC/EVL's Jason Leigh on PBS</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=409><b>January 14, 2011</b> - Distinguished Lecturer Seminar Series - Mitchel Resnick: "Programming for Everyone: Rethinking Literacy and Creativity for the 21st Century"</a>
+</li></ul> 
+</div>
+<p />
+<p />
+<p />
+<p />
+<p />
+<div class="headlinesRss"><h2><a name="2010"></a> 2010 </h2> <ul>
+<li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=408><b>December 13, 2010</b> - Prof. Venkatakrishnan to give keynote talk at ICISS 2010</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=407><b>December 6, 2010</b> - BITS lab launches UIC Bus Tracker</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=405><b>December 3, 2010</b> - CTS Seminar - Dr. Alwar Narayanan: "Automatic Creation of 3D Maps"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=406><b>December 1, 2010</b> - EVL and the Illinois Emergency Management Agency turns earthquake preparedness into a video game</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=404>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=402>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=403><b>November 19, 2010</b> - A Video Gamer's Obsession Helps Create Analysis Tools for Scientists</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=398><b>November 18, 2010</b> - Distinguished Lecturer Seminar Series - Craig Boutilier: "Computational Social Choice: A Decision-theoretic Perspective"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=399><b>November 18, 2010</b> - Seminar - Gianluca Quercini: "Understanding the Spatial Reader Scope of News Sources"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=400><b>November 17, 2010</b> - Seminar - Ketan Mulmuley: "Geometric complexity theory approach towards P vs. NP"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=401><b>November 15, 2010</b> - Professor Sol Shatz has been appointed to the editorial board for the International Journal of Software Engineering and Knowledge Engineering</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=397><b>November 10, 2010</b> - Researchers paint on 20-foot electronic canvas</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=396><b>October 25, 2010</b> - Bing Liu will give a keynote talk on opinion mining (or sentiment analysis) at the International Workshop on Search and Mining User-generated Contents (SMUC 2010)</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=395><b>October 6, 2010</b> - CS Security Research uncovers massive security holes in online banking and shopping sites</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=394><b>September 27, 2010</b> - Prof Andy Johnson invited to provide input to the NSF Task Force for Cyberlearning and Workforce Development</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=392><b>September 24, 2010</b> - Maxine Brown Elected GLCPC President</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=393><b>September 24, 2010</b> - Team UIC at Grace Hopper Celebration of Women in Computing 2010</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=391><b>September 22, 2010</b> - Seminar - Jason D. Hartline: "Multi-dimensional Mechanism Design and Sequential Posted Pricing"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=390><b>September 7, 2010</b> - Prof. Tanya Berger-Wolf will give a keynote talk on dynamic social networks</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=387>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=388>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=389><b>August 31, 2010</b> - Become a mayor in 9 lines of code or less</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=386><b>July 2, 2010</b> - Computer Science Department wins university�s Departmental Teaching Award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=385>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=381>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=383><b>May 27, 2010</b> - Ph. D. student, Abul Musa, searches the Loop for errant Wi-Fi signals for a study to improve mobile devices</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=382><b>May 25, 2010</b> - UIC Announces �Video Game Design and Development� Course Winners</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=380><b>May 17, 2010</b> - Anushka Anand has received the CS Graduate Student Service Award 2010 </a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=379>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=378><b>April 26, 2010</b> - EVL receives $700K NSF grant to develop next generation virtual environment</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=377><b>April 22, 2010</b> - Mayank Lahiri receives UIC Provost's Award for Graduate Research </a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=375>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=376><b>April 13, 2010</b> - Seminar - Dr. William Gropp: "BLUE WATERS AND PETASCALE COMPUTING"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=374>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=373>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=372><b>March 21, 2010</b> - Austin Maliszewski was this year's winner of the 2010 Chicago City Science Fair UIC Computer Science Award </a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=370><b>March 19, 2010</b> - 2009-2010 Distinguished Lecturer Seminar Series - Maurice Herlihy: "Transactional Memory Today: a Status Report"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=371><b>March 19, 2010</b> - CS students receive Chancellor Student Service Award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=368><b>March 1, 2010</b> - UIC's Undergraduate Game Design Program is ranked top 50 of 700 universities in the US and Canada by Princeton Review</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=369><b>March 1, 2010</b> - TakeNote interview with CS PhD student, Habiba, to talk about her volunteer work with Vex Robotics</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=367><b>February 23, 2010</b> - Seminar - Michael Schapira: "VC v. VCG: Inapproximability of Combinatorial Auctions via Generalizations of the VC Dimension"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=365><b>February 11, 2010</b> - UIC WISE receives Google RISE Award for Women in CS</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=366><b>February 11, 2010</b> - Need portable, real-time transit info? There's an app for that</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=364><b>January 28, 2010</b> - Seminar - Allan Borodin: "The Power and Limitation of Greedy Mechanism Design for Combinatorial Auctions"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=363><b>January 27, 2010</b> - North American Computational Linguistics Olympiad</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=362><b>January 22, 2010</b> - Distinguished Lecturer Series: Martha E. Pollack - "Computing Outside the Box"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=361><b>January 11, 2010</b> - CS course goes to Kenya</a>
+</li></ul> 
+</div>
+<p />
+<p />
+<p />
+<p />
+<p />
+<div class="headlinesRss"><h2><a name="2009"></a> 2009 </h2> <ul>
+<li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=360>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=359>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=358><b>November 20, 2009</b> - 7th annual CS Scavenger Hunt</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=357><b>November 18, 2009</b> - Mike Ter Louw takes second place for Research at NYU-Polytechnic's Annual Digital Security Challenges</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=356><b>November 13, 2009</b> - EVL SAGE Highlights @ SC09</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=355><b>November 9, 2009</b> - Dr. Eriksson receives `Best Paper' award at SenSys 2009 </a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=354><b>October 28, 2009</b> - GENI Goes Global</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=352><b>October 27, 2009</b> - Prof. Clement Yu to be key note speaker at the ACM CIKM Conference in Hong Kong</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=353><b>October 27, 2009</b> - Distinguished Lecturer Series - Mihalis Yannakakis: "Computational Aspects of Equilibria"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=351>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=349><b>October 22, 2009</b> - Seminar - Jon A. Solworth:"The Current State of Software and What to do About It:A Security Researcher's Perspective"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=350><b>October 22, 2009</b> - The High-Tech Future of Body Language</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=348><b>October 19, 2009</b> - PopSci's Future Of: Immortal Avatars</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=346><b>October 15, 2009</b> - TEACHING EXCELLENCE: The Classroom of the Future</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=347><b>October 15, 2009</b> - Ultra-high-speed, made ultra-easy</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=345><b>October 14, 2009</b> - ADVIS Lab: the AgreementMaker ontology matching system ranks high among peers</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=343><b>October 6, 2009</b> - Immersive Education article highlights UIC EVL Cyber-Commons</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=344><b>October 6, 2009</b> - Advancing Robotic Surgery Using High-Performance Visualization and Networking Technologies</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=342><b>September 28, 2009</b> - Prof. Solworth now has a blog called Insecurity on computer security and other issues.</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=341>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=340><b>September 11, 2009</b> - Prestigious Fellowships Available for Undergraduate Students at UIC</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=339><b>September 9, 2009</b> - Venkat Venkatakrishnan receives CAREER award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=338><b>September 3, 2009</b> - Seminar - Jin-Yi Cai: "Computational Complexity Theory and Holographic Algorithms"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=337><b>August 28, 2009</b> - Using Robots to Serve the Elderly at Home</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=336><b>August 26, 2009</b> - A Unique UIC Program Unites Art and Science</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=334><b>August 17, 2009</b> - Microsoft features CS faculty's work on social networks of zebra</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=335><b>August 17, 2009</b> - Davide Fossati wins a Computing Innovation fellowship</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=333><b>July 16, 2009</b> - DARKSTRAND AND UIC JOIN FORCES FOR GLOBAL BUSINESS COMPETITIVENESS</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=332><b>July 14, 2009</b> - Advanced Cyber-Classroom Opens at the University of Illinois at Chicago</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=331><b>July 6, 2009</b> - UIC Joins Global PlanetLab Research Network</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=330>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=329><b>June 17, 2009</b> - UIC's Interactive RainTable Featured in New Exhibit at The Field Museum</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=328><b>June 1, 2009</b> - Seminar - Sheikh Iqbal Ahamed, Ph.D.: " Towards a Secure Middleware for Pervasive/Ubiquitous Computing"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=326><b>May 15, 2009</b> - Computer Science student Mike Ter Louw awarded AFCEA Ph.D. Fellowship</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=327><b>May 15, 2009</b> - EVL's LifeLike Project Combines Advances in Artificial Intelligence and Computer Image Rendering</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=324><b>May 1, 2009</b> - UIC's Correlator and Corelyzer Software Aids Geoscientists Aboard Scientific Ocean Drilling Expeditions</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=323><b>April 22, 2009</b> - Computer Science PhD student, Mayank Lahiri, receives UIC Dean's Scholar Award for 2009-10.</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=322><b>April 8, 2009</b> - Leah Balay-Wilson winner of the 2009 Chicago City Science Fair UIC Computer Science Award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=320><b>April 7, 2009</b> - Adjunct faculty member, Mark Grechanik, wins best paper award at the 2nd International Conference on Software Testing, Verfication, and Validation</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=321><b>April 7, 2009</b> - Davide Fossati receives the "50 for the Future" award from the Illinois Technology Foundation</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=319>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=316><b>March 9, 2009</b> - SiCortex, builders of the most energy efficient super computers, have confirmed hosting a seminar at UIC!</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=317><b>March 9, 2009</b> - 3rd Annual Flourish Conference, April 3-4th, organized by UIC's student chapter of ACM and UIC's Linux Users Group</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=315><b>March 2, 2009</b> - University of Illinois at Chicago's Maxine Brown Named a 2009 Global Visionary</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=314><b>February 26, 2009</b> - Science Chicago Visits EVL</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=313><b>February 18, 2009</b> - EVL Demonstrate Gigabit-Networked Applications at World's Largest General Science Conference</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=311><b>February 14, 2009</b> - Electronic Visualization Laboratory Demonstrates Hands-On Display Technology at AAAS 2009</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=310><b>February 10, 2009</b> - Seminar: Wesley W. Chu: "A Knowledge-based Medical Digital Library"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=309><b>February 5, 2009</b> - UIC CS assistant professor comments on cyber-attack</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=308>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=307><b>January 27, 2009</b> - Seminar: Avrim Blum: "A Computational Theory of Clustering"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=305><b>January 13, 2009</b> - Logistics and security planning for the 2009 Presidential inauguration facilitated by EVL's OptIPortal </a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=306><b>January 13, 2009</b> - Electronic Visualization Laboratory demonstrated Project LifeLike at National Science Foundation's annual Industry &amp; University Cooperative Research (I/UCRC) meeting in Arlington, Virginia</a>
+</li></ul> 
+</div>
+<p />
+<p />
+<p />
+<p />
+<p />
+<div class="headlinesRss"><h2><a name="2008"></a> 2008 </h2> <ul>
+<li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=303><b>November 25, 2008</b> - TacTile -- High-Definition, Multi-touch Interface Display Debuts at SC08</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=304><b>November 25, 2008</b> - SC08 Bandwidth Challenge Showcased Global Visualcasting -- Collaboration in Ultra-Resolution Work Environments</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=302><b>November 24, 2008</b> - Prof. Robert Sloan keynote speaker at University of Nebraska's Renaissance Computing</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=300><b>November 20, 2008</b> - Our faculty's opinion matters</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=301><b>November 20, 2008</b> - IEEE San Diego section elected Computer Science Ph.D. alumnus Xun Luo as Chair of Computer Society</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=299><b>November 11, 2008</b> - Seminar:  H. T. Kung:"Use of Ad-hoc Wireless Networks as Backplanes for High-performance Parallel and Distributed Computing"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=295><b>November 6, 2008</b> - Computer Science related positions lead list of recession-proof jobs compiled by Laurence Shatkin for his book "150 Best Recession-Proof Jobs"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=298><b>November 6, 2008</b> - Motorola Day at UIC</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=296><b>November 3, 2008</b> - UIC-CS hosts ACM regional programming contest</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=297><b>October 31, 2008</b> - Research Professor Dan J. Bernstein leads team that cracks McElice Crypto System.</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=294><b>October 20, 2008</b> - Ratko Jagodic, a Computer Science PhD student, spends summer at Sharp Laboratories at America developing new interaction technologies for large ultra-high-resolution display environments</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=293><b>October 17, 2008</b> - Work on incoming Assistant Professor on car networks in MIT News</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=292><b>October 14, 2008</b> - Prof. Robert Sloan attends his first meeting of the CSAB Board</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=291><b>September 28, 2008</b> - Fifth Midwest Database Research Symposium</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=290><b>September 25, 2008</b> - Linux Newbies Week Schedule</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=289><b>September 18, 2008</b> - Seminar:  Ed Reingold: "Lower Bounds for Cops and Robber Pursuit"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=287><b>September 16, 2008</b> - Seminar: Tim Hinrichs: "Collaborative Programming"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=288><b>September 16, 2008</b> - Computer Science MS student Khairi Reda, and BS student Ed Kahler spend their summer at the Science Museum of Minnesota to help them build the LambdaTable- the highest resolution (24 Megapixel) LCD table-oriented display in the world</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=284><b>September 11, 2008</b> - Seminar:  Pierre Boulanger: "An Advanced Collaborative Infrastructure for Real-Time Computational Steering"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=285><b>September 11, 2008</b> - Seminar:  Edward W. Felten: "Electronic Voting: Danger and Opportunity"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=286><b>September 11, 2008</b> - Computer Science PhD student Fei Dong receives scholarship to attend the Grace Hopper Celebration of Women in Computing</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=283><b>September 2, 2008</b> - Seminar:  C. Mohan:"Global Technology Outlook (GTO)"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=282><b>August 7, 2008</b> - Seminar: Dr. Yaser Sheikh: "Recovering the Structure of Dynamic Scenes from Moving Cameras"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=281><b>July 18, 2008</b> - NSF Funds UIC to Build New Virtual Reality Display</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=280><b>June 19, 2008</b> - EVL-developed GeoWall technology used to investigate 2008 floods along the Mississippi</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=279><b>May 28, 2008</b> - Davide Fossati receives the Dean's Scholar Award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=277><b>May 13, 2008</b> - High-Tech, Networked Meeting Space Links CS Students to Project Collaborators</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=278>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=276><b>May 5, 2008</b> - Dmitri Svistula takes third place in the UIC 2008 Image of Research Competition</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=275><b>April 30, 2008</b> - 2008 Computer Science bachelor's degree graduates see average nationwide 7.9&#37; increase in starting salary offers, to $56,921.  Source: CNN.</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=274><b>April 25, 2008</b> - Prof. Philip Yu won the Best Paper Award at the 2008 SIAM Conference on Data Mining.  for the paper "Proximity Tracking on Time-Evolving Bipartite Graphs" by Hanghang Tong, Spiros Papadimitriou, Philip S. Yu, and Christos Faloutsos.</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=272><b>April 22, 2008</b> - Seminar  Sonia Bergamaschi: "The MOMIS Data Integration System"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=273><b>April 22, 2008</b> - Mayank Lahiri wins 2nd place in the UIC Student Research Forum</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=271><b>March 30, 2008</b> - Tanya Berger-Wolf received CAREER award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=270><b>March 26, 2008</b> - Seminar:  Ling Liu: "Location Privacy in Location-Aware Computing"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=203><b>March 1, 2008</b> - NSF IGERT Fellowship Opportunities at the University of Illinois at Chicago</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=269><b>February 27, 2008</b> - Seminar:  Mary Lou Soffa: "Path-Sensitive Analysis for Security Flaws"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=268><b>February 24, 2008</b> - Tanya Berger-Wolf will give a keynote address at the DELIS Workshop</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=267><b>February 20, 2008</b> - Electronic Visualization Laboratory members attend the underwater testing of the ENDURANCE Autonomous Underwater Vehicle at the University of Madison, along with collaborators from the Earth and Environmental Sciences Department at UIC and Stone Aerospace</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=266><b>February 18, 2008</b> - Adobe Names Kevin Lynch CTO</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=265><b>February 12, 2008</b> - Phillip Yu one of 10 "most central" authors in computer science</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=264><b>February 11, 2008</b> - The Electronic Visualization Laboratory (EVL) at UIC, and the California Institute of Information Technology and Telecommunications (CALIT2) at UCSD deploy a 55 Megapixel tiled LCD display called the "SharpWall" at Sharp Labs in Portland, Oregon</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=263><b>February 6, 2008</b> - Seminar:  Gyorgy Turan: "Schwartz Lemma and Applications"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=262><b>January 31, 2008</b> - Adler Planetarium showcases Mercury photos from NASA</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=256>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=257>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=5><b>January 15, 2008</b> - Seminar: Sartaj Sahni: "Data structures and algorithms for packet forwarding and classification"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=258>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=259>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=260>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=261>Untitled</a>
+</li></ul> 
+</div>
+<p />
+<p />
+<p />
+<p />
+<p />
+<div class="headlinesRss"><h2><a name="2007"></a> 2007 </h2> <ul>
+<li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=22><b>December 14, 2007</b> - Prof. Sloan leads inter-university inter-disciplinary course with Prof. Richard Warner of Kent/IIT law school</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=23><b>December 14, 2007</b> - UIC Researcher Featured in Science News</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=25><b>December 14, 2007</b> - Research on Cell Phone Tracking Featured on WGN News</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=24><b>December 7, 2007</b> - UIC CoreWall Project Featured in Chicago Sun-Times</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=21><b>December 3, 2007</b> - Seminar: Jose Zagal: "Supporting Learning about Games"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=19><b>November 30, 2007</b> - Seminar: Jared Saia: "Attack-Resistant Networks"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=20><b>November 30, 2007</b> - Seminar: Leilah Lyons: "Playing Together at the Museum: Preliminary Results on Factors Affecting Participation in a Multi-User Software-Based Exhibit"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=14><b>November 29, 2007</b> - Seminar: Ben Shapiro: Design Research from the Bottom Up: New Infrastructure for School Reform</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=10>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=254><b>November 8, 2007</b> - Seminar: John Reppy: "Parallel Concurrent ML"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=255><b>November 7, 2007</b> - Seminar: Dr. Zahir Tari: "Dynamic Load Balancing for Systems Under Heavy Traffic and High Task Variation"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=253><b>November 6, 2007</b> - Software Developed by EVL Deployed to Antarctica</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=252><b>October 31, 2007</b> - UIC ACM to Host Regional Programming Contest</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=251><b>October 26, 2007</b> - UIC Ph.D. Student Lin Xiao Wins Award at Upcoming Grace Hopper Conference</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=248><b>October 8, 2007</b> - Seminar: Matthias Trier:"Exploring Patterns of dynamic Networks with event-based Visualization and Analysis"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=249><b>October 8, 2007</b> - Seminar: Bart Selman:"The Challenge and Promise of Automated Reasoning"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=250><b>October 8, 2007</b> - Seminar: Neil Daswani:"Emerging Security Vulnerabilities &amp; the Impact to Business"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=246><b>October 2, 2007</b> - Seminar: Hanan Samet: "SPATIAL DATABASES AND GEOGRAPHIC INFORMATION SYSTEMS"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=247><b>October 2, 2007</b> - Seminar: Mahesh Viswanathan: "Learning to Verify"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=244><b>September 27, 2007</b> - New CS Undergraduate Student Welcome Lunch</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=245><b>September 27, 2007</b> - Pilot Robotics Summer Camp Co-sponsored by CS and WISE</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=243><b>September 26, 2007</b> - Professor Tom Moher receives NSF funding for research on ubiquitous learning technologies</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=241><b>September 21, 2007</b> - Professor Sol Shatz named University Scholar</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=242><b>September 21, 2007</b> - New Distributed High-Performance Pixel Streaming Feature Announced at GLIF Conference in Prague</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=240><b>September 19, 2007</b> - Seminar: Teresa Przytycka: "Application of combinatorial optimization to prediction of domain-domain interactions"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=239><b>September 14, 2007</b> - test</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=238><b>September 13, 2007</b> - Seminar: Leslie Pack Kaelbling: "Learning to Think about the World"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=237><b>August 26, 2007</b> - Professor Sol Shatz receives NSF funding for research on agent-based system for trust re-evaluation in online auctions</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=236><b>August 24, 2007</b> - Seminar: Amit P. Sheth: "Relationship Web: Spinning the Semantic Web from Trailblazing to Complex Hypothesis Evaluation"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=235><b>August 20, 2007</b> - Prof. Berger-Wolf Receives NSF Funding to Develop Computational Methods to Understand the Social Life of Zebras</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=233><b>July 25, 2007</b> - NSF funds Computer Science Professor Venkatakrishnan for research on privacy</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=234><b>July 25, 2007</b> - Professor Robert Grossman receives ACM SIGKDD 2007 Service Award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=232><b>July 19, 2007</b> - Seminar: Carl Landwehr: "Disruptive Technologies for Information Assurance"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=231><b>July 18, 2007</b> - Professor Robert Sloan appointed Acting Head of CS Department</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=230><b>July 16, 2007</b> - CS Faculty and Student Show Computer Science Concepts to Elementary School Children</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=228><b>June 21, 2007</b> - Professor Barbara Di Eugenio receives funding from Motorola to develop intelligent summarizer</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=229><b>June 21, 2007</b> - Seminar: Kartik Gopalan: "MemX: Supporting Large Memory Applications in Xen Virtual Machines"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=227><b>June 12, 2007</b> - Professor Robert Sloan receives IEEE Golden Core Award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=226><b>June 11, 2007</b> - CS Department Head Pete Nelson appointed Interim Dean of Engineering</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=223><b>June 10, 2007</b> - UIC working on making virtual chats a reality</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=224><b>June 10, 2007</b> - EVL Director Discusses Advanced Visualization Techniques</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=225><b>June 10, 2007</b> - EVL takes toll signs in new direction</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=221><b>June 5, 2007</b> - UIC Designated National Center for Computer Security Instruction</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=222><b>June 5, 2007</b> - UIC's National Data Mining Center Enables Fast Data Transfer of Terabyte-sized Scientific Datasets</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=220><b>May 16, 2007</b> - Naval Research Laboratory Views First True 3D Images of Sun on I-Desk4</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=219><b>May 15, 2007</b> - Professor Dale Reed receives 2007 Harold A. Simon Award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=218><b>May 14, 2007</b> - EVL Researchers Help Videoconferencing Go High-Definition</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=216><b>May 1, 2007</b> - Seminar: Sorin Draghici: "A Systems Biology Approach to Pathway Analysis"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=214><b>April 30, 2007</b> - Seminar: Mona Singh: "Analyzing and Interrogating Protein Interaction Maps"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=217><b>April 25, 2007</b> - Seminar: Magdi A. Mohamed: "Computational Intelligence and Q-filter Structures"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=215><b>April 23, 2007</b> - Seminar: Roxana Girju: "Improving the Interpretation of Noun Phrases with Cross-linguistic Information"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=213><b>April 19, 2007</b> - Seminar: Thomas Messerges: "Security for Mobile Financial Applications"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=212><b>April 18, 2007</b> - Seminar: Lenore Zuck: "Automatic Verification of Parameterized Systems"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=205><b>April 16, 2007</b> - Seminar: Prabhakar Raghavan: "Web Search - from Information Retrieval to Microeconomic Modeling"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=211><b>April 3, 2007</b> - EVL working with UIC's EaES dept., NASA Ames, and others to map under-ice environment of West Lake Bonney in Antarctica</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=210><b>March 26, 2007</b> - UIC and UCSD Researchers Share in Two IEEE Virtual Reality Awards</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=208><b>March 21, 2007</b> - Xin Lu wins Best Student Paper Award at CICLING 2007</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=209><b>March 21, 2007</b> - ONR funds the NLP laboratory to do research on computational models of effective tutoring</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=193><b>March 20, 2007</b> - Seminar: Susan Dumais: "Information Retrieval in Context"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=207><b>March 2, 2007</b> - CS Professor Venkatakrishnan participates in Cook County election review panel</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=206><b>February 26, 2007</b> - Seminar: David Zavattero: "ITS initiatives locally and globally and the building of the Chicago TMC"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=204><b>February 19, 2007</b> - NSF funds three-year collaborative project: "Towards Life-like Computer Interfaces that Learn"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=202>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=201><b>February 8, 2007</b> - Chicago Sun-Times features UIC Spamalot project</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=199><b>February 7, 2007</b> - Seminar: Chris Quintana: "Designing for Learning...Learning about Design"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=200><b>February 1, 2007</b> - CS students organize open source software conference: Flourish - 2007</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=198><b>January 30, 2007</b> - Pete Nelson appears on First Business to discuss new Apple iPhone</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=197><b>January 29, 2007</b> - Seminar: Deborah Tatar: "Practice Into Theory: from serious work about learning in classroom environments to serious questions about the playful nature of control and coordination in computing"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=196><b>January 23, 2007</b> - Seminar: Ryan S. J. d. Baker: "Detecting and Adapting to When Students Game the System "</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=194><b>January 17, 2007</b> - Barbara Di Eugenio has been appointed area chair (senior program committee member) for ACL07.</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=195><b>January 16, 2007</b> - Seminar: Brian K. Smith: "Acts into Artifacts: Computational Tools to Support Experience Capture and Reflection"</a>
+</li></ul> 
+</div>
+<p />
+<p />
+<p />
+<p />
+<p />
+<div class="headlinesRss"><h2><a name="2006"></a> 2006 </h2> <ul>
+<li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=192><b>December 4, 2006</b> - Prof. Murata's former student, Dr. An-Chi Liu, President of Feng Cha University in Taiwan, received an Outstanding Alumni Achievement in Engineering Education Award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=182><b>November 30, 2006</b> - Seminar:  Victor Basili: "The Role of Empirical Study in High End Computing"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=190><b>November 16, 2006</b> - The National Center for Data Mining at UIC wins the HPC Bandwidth Challenge at SuperComputing '06</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=184><b>November 14, 2006</b> - Seminar: Luis von Ahn: "Human Computation"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=191><b>November 10, 2006</b> - UIC Researchers Apply Gaming Technology to Illinois Open Road Tolling Project</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=175><b>November 9, 2006</b> - Seminar: Jeannette M. Wing:"Automatic Generation and Analysis of Attack Graphs"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=187><b>November 8, 2006</b> - Brochure Promoting Majors in Computing Disciplines</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=189><b>November 4, 2006</b> - UIC Hosts ACM-International Collegiate Programming Contest</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=185><b>November 3, 2006</b> - Kyoto University Joins the Global Lambda Visualization Facility</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=183><b>October 27, 2006</b> - Panel discussion: CS students and faculty come back from Grace Hopper Conference. They share their thoughts on women in computing.</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=186><b>October 18, 2006</b> - President of Hunan University of Technology visited CS Department</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=174><b>October 12, 2006</b> - Seminar: Ravi Sandhu: "The Secure Information Sharing Problem and Solution Approaches" - Slides Available</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=176><b>October 10, 2006</b> - EVL's co-director Jason Leigh delivers keynote speech at Virtual Reality Society of Japan's Second Tele-Immersion Technology Research Group Meeting at Kyoto University, Japan</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=172><b>October 6, 2006</b> - Team of undergraduate and graduate students publish anti-spamming paper at CEAS 2006</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=173><b>October 6, 2006</b> - Prof. Robert Sloan receives the UIC Award for Excellence in Teaching</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=177><b>October 1, 2006</b> - EVL's Postdoctoral Research Associate, Xi Wang participates in BROADNETS 2006</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=178><b>October 1, 2006</b> - Corelyzer Joins ANDRILL Expedition</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=171><b>September 29, 2006</b> - Seminar: Marc Snir: "Parallel Programming Models and Languages"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=179><b>September 27, 2006</b> - EVL's Varrier Technology Advances</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=180><b>September 11, 2006</b> - 6th Annual Global LambdaGrid Workshop</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=181>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=170><b>July 5, 2006</b> - UIC Electronic Visualization Laboratory participates in TeraGrid '06</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=169><b>June 29, 2006</b> - Seminar:  Microsoft Architect Erik Meijer speaks at UIC: "VB IsNot C#"</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=168>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=167><b>May 31, 2006</b> - CS receives $3.1 NSF IGERT grant in Computational Transportation Science</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=165><b>May 27, 2006</b> - Professors Liu, Nelson and Yu receive Chicago Biomedical Consortium Grant</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=166><b>May 26, 2006</b> - Inaugural winners of Leadership Prize</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=163>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=164>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=162><b>May 7, 2006</b> - 2006 UIC Teaching Recognition Awards for Professors Ugo Buy and  Pat Troy</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=161><b>May 3, 2006</b> - Ouri Wolfson gives keynote address to the International Workshop on Managing Context Information and Semantics in Mobile Environments (MCISME)</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=153><b>April 28, 2006</b> - Seminar:  Richard Stallman: ''The Free Software Movement and the GNU/Linux Operating System''</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=160><b>April 24, 2006</b> - Professor Lillis Chairs EDP 2006</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=159><b>April 20, 2006</b> - IT Employment at its Highest</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=145><b>April 17, 2006</b> - Seminar: Samir Khuller: ''Algorithms for Data Management and Migration''</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=157>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=158><b>April 14, 2006</b> - Tom Moher named UIC Great Cities Scholar for 2006-2007</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=151><b>April 13, 2006</b> - Seminar: Kathleen M. Carley ''Dynamic Network Analysis: A Computational Approach to Counter Terrorism Analyses''</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=155><b>April 12, 2006</b> - Software engineering ranked #1 job by Money Magazine</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=156><b>April 12, 2006</b> - Scripps Institution of Oceanography builds iCluster with Apple and UIC</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=154><b>April 7, 2006</b> -  Pete Nelson Sun-Times Op-Ed on Diversity at UIC</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=150><b>April 3, 2006</b> - Seminar: David Harel ''On Comprehensive Biological Modeling: Some Ruminations on the What, the How and the Why''</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=147><b>March 16, 2006</b> - Seminar: Yechiam Yemini ''IS THERE LIFE AFTER THE INTERNET?''</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=152><b>March 16, 2006</b> - LambdaStream Application-level Transport Protocol Sustains Nearly 10Gbps Over Routed and Non-Routed Infrastructures</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=148><b>March 7, 2006</b> - Seminar: Dr. Edward Reingold ''Determining Plurality''</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=149>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=144>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=143>Untitled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=142><b>January 23, 2006</b> - Professor Jason Leigh's GeoWall project featured in Forbes</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=141>Untitled</a>
+</li></ul> 
+</div>
+<p />
+<p />
+<p />
+<p />
+<p />
+<div class="headlinesRss"><h2><a name="2005"></a> 2005 </h2> <ul>
+<li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=140><b>December 16, 2005</b> - Prof. Clement Yu commercializes massive news search engine with SBIR Phase II grant</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=134><b>December 9, 2005</b> - Seminar:  Richard Karp  ''Geometric Optics, Linear Programming and Congestion in Sensornets''</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=131><b>November 29, 2005</b> - Professor Isabel Cruz is the Program co-Chair for the First International Conference on GeoSpatial Semantics</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=138><b>November 22, 2005</b> - Seminar: Jennifer Golbeck ''Web-based Social Network Analysis for Socially Intelligent Applications''</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=139><b>November 21, 2005</b> - Seminar:  ''A Parameterized Algorithm for Protein Structure Alignment''</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=127><b>November 11, 2005</b> - Seminar:  Elaine Weyuker, AT&amp;T Fellow ''I KNOW WHERE YOU'RE HIDING''</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=136><b>November 10, 2005</b> - Professor Robert Sloan has been elected to the Board of Governors of the IEEE Computer Society.</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=132><b>November 8, 2005</b> - Prof. Jeffrey Tsai is the Conference Co-Chair of the 16th IEEE International Symposium on Software Reliability Engineering</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=133><b>November 8, 2005</b> - Seminar: Dr. Jared Saia ''Secure Algorithms and Data Structures for Massive Networks''</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=129><b>November 1, 2005</b> - Seminar: Carlo Ghezzi ''Towards open, dynamic software processes and products: achievements and challenges''</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=130><b>October 21, 2005</b> - Professor Sol Shatz is the Principal Investigator on a new grant from the U.S. Army Research Office (ARO)</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=128><b>October 20, 2005</b> - Seminar: Professor Yvonne Rogers ''Grown-Up Science: Enabling Students to Learn How to Become  Scientists Through Using Pervasive Technologies''</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=126><b>October 14, 2005</b> - ''PC as Personal Companion for Computer Studies'' by Prof.&nbsp;Barbara&nbsp;Di&nbsp;Eugenio</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=125><b>October 13, 2005</b> - Professor Isabel Cruz is the Principal Investigator on a new NSF Information Integration grant</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=124><b>September 30, 2005</b> - The First CS Women Lunch</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=123><b>September 19, 2005</b> - UIC Teaching Awards for Professors Buy, Cruz, Reed and Sloan </a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=121><b>September 7, 2005</b> - EVL's GeoWall-2 Tiled Display at the Science Museum of Minnesota</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=119><b>September 2, 2005</b> - Professor Clement Yu serving as General Chair of the 2006 ACM SIGMOD </a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=117><b>August 23, 2005</b> - Professor Bing Liu Receives 2005 IBM Faculty Award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=118><b>August 23, 2005</b> - Prof. Barbara Di Eugenio Has Been Awarded a New Grant by the National Science Foundation</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=116><b>August 22, 2005</b> - EVL Lights Up the 105 Megapixel LambdaVision</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=109><b>August 20, 2005</b> - UIC Computer Science students take internships at numerous corporations including Boeing, Google, Microsoft, Morningstar, Motorola, Tellabs and Verizon.</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=115><b>July 29, 2005</b> - July 25-28, August 1-4: Building the Engineering Pipeline Intensive teacher training offered in partnership with Microsoft to area high school teachers, providing course credit, curriculum and software.</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=114><b>July 26, 2005</b> - Bhaskar DasGupta was invited to give a one-day tutorial on systems biology in the 5th International Summer School on Biocomplexity from System to Gene in Dartmouth College.</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=113><b>July 14, 2005</b> - Seminar: Prof. Der-Horng Lee ''Deployment and Innovation of Intelligent Transportation Systems in Singapore''</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=112><b>June 12, 2005</b> - Prof. Jeffrey Tsai will give a distinguished lecture at the 8th World Congress on Integrated Design and Process Technology</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=111><b>June 1, 2005</b> - Prof. Ugo Buy receives the UIC Award for Excellence in Teaching</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=105><b>April 29, 2005</b> - Seminar: Lin Cai, Ph.D. ''Transport layer protocol design for multimedia wireless Internet''</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=108><b>April 19, 2005</b> - Prof. T. Murata was invited to the Romanian Academy of Science</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=122><b>April 19, 2005</b> - Catching the Drift: Probabilistic Content Models, and Their Application for Text Generation and Summarization</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=106><b>April 18, 2005</b> - Seminar: Raj Jain ''Computer Networking: Recent Developments, Trends, and Issues''</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=107><b>April 15, 2005</b> - Stump the Professors</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=102><b>April 13, 2005</b> - Seminar: Andrew C. Yao, A.M. Turing Award Recipient, ''Quantum Complexity: How Fast Can Quantum Computers Sort?''</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=103><b>April 12, 2005</b> - Seminar: Riccardo Pucella ''A Knowledge-Based Foundation for Security''</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=104><b>April 5, 2005</b> - Seminar:Lance Fortnow ''The Complexity of Information Markets''</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=99><b>March 14, 2005</b> - Prof. Jeff Tsai will give a Keynote talk at IEEE International Conference on Advanced Information Networking and Application</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=95><b>March 8, 2005</b> - Seminar: Aravind K. Joshi ''Discourse connectives and their argument structure: Some aspects of transition from sentence structure to discourse structure''</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=97><b>March 1, 2005</b> - Seminar: Ray DeCarlo ''Software Release Control using Defect Based Quality Estimation''</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=98><b>February 28, 2005</b> - Seminar: John Langford ''Fast Exact High Dimensional Nearest Neighbors in Arbitrary Dimensions with a Cover Tree''</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=96><b>February 16, 2005</b> - Seminar: Cris Ding ''Link Analysis and Topic Discovery via Spectral Clustering''</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=92><b>February 3, 2005</b> - Seminar: Moshe Vardi  ''And Logic Begat Computer Science: When Giants Roamed the Earth''</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=110><b>February 1, 2005</b> - Prof. Ugo Buy receives WOW award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=94><b>January 30, 2005</b> - Friendly Fridays</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=93><b>January 26, 2005</b> - Seminar: Paul Dan Cristea </a>
+</li></ul> 
+</div>
+<p />
+<p />
+<p />
+<p />
+<p />
+<div class="headlinesRss"><h2><a name="2004"></a> 2004 </h2> <ul>
+<li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=91><b>December 15, 2004</b> - Holiday Luncheon 2004 Photos</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=90><b>November 23, 2004</b> - Seminar: Frans Kaashoek  ''PEER-TO-PEER COMPUTING RESEARCH: A FAD?''</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=86><b>November 18, 2004</b> - CS Scavenger Hunt</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=89><b>November 18, 2004</b> - Prof. Wolfson Receives US Patent for ''Method and system for tracking moving objects''</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=87><b>November 8, 2004</b> - Former CS PhD student awarded UIC Outstanding Thesis </a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=88><b>October 29, 2004</b> - Grad School Secrets Revealed on October 29th</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=84><b>October 21, 2004</b> - Seminar: Leslie Lamport ''Thinking for Programmers''</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=83><b>October 13, 2004</b> - Seminar: Tiziana Catarci ''Searching for good quality data? Trust us''</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=82><b>October 12, 2004</b> - Seminar: Janet L. Kolodner  </a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=81><b>October 7, 2004</b> - CS department hosted a Tech Talk with Google</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=80><b>October 5, 2004</b> - The CS department is excited to invite you to an upcoming tech talk hosted by Google!</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=85><b>August 16, 2004</b> - Professor Lenore Zuck joins the Department of Computer Science</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=78><b>July 10, 2004</b> - CS Department Hires Two New Faculty</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=69><b>June 9, 2004</b> - Bob Sloan and Pat Troy - Receive National Science Foundation funding</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=68><b>May 21, 2004</b> - Dale Reed - 2004 Silver Circle Award Winner</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=70><b>May 3, 2004</b> - Seminar in Bioinformatics: Prof. Tao Jiang</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=71><b>April 30, 2004</b> - Distinguished Lecturer Seminar, Speaker Robert Schapire</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=67><b>April 27, 2004</b> - Isabel Cruz appointed as a member of the Mapping Science Committee</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=66><b>April 15, 2004</b> - Scholarships - Dean Kennedy Awards</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=72><b>April 9, 2004</b> - Seminar, Speaker Professor Marianne Winslett</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=65><b>April 1, 2004</b> - Bhaskar DasGupta receives National Science Foundation Career Award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=73><b>March 31, 2004</b> - Distinguished Lecturer Seminar, Speaker Stuart Russell</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=61><b>March 23, 2004</b> -  Professor Ouri Wolfson delivers plenary speech at the 2004 IEEE International  Conference on Networking, Sensing and Control in Taipei, Taiwan</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=74><b>March 16, 2004</b> - Seminar, Speaker Tanya Berger-Wolf </a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=75><b>March 11, 2004</b> - Seminar, Speaker Tiffani L. Williams</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=76><b>March 9, 2004</b> - Seminar, Speaker Mark Guzdial</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=60><b>March 3, 2004</b> - Web-based Computer Support for UIC Students, Staff, and Faculty</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=55><b>February 5, 2004</b> - CS Professor Jason Leigh in UIC News</a>
+</li></ul> 
+</div>
+<p />
+<p />
+<p />
+<p />
+<p />
+<div class="headlinesRss"><h2><a name="2003"></a> 2003 </h2> <ul>
+<li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=56><b>December 20, 2003</b> - Holiday Party</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=77><b>December 2, 2003</b> - Distinguished Lecturer Seminar, Speaker Prof. Tandy Warnow</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=54><b>November 20, 2003</b> - Faculty Position Available</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=53><b>October 31, 2003</b> - Di Eugenio receives ONR funding for research on Natural Language interfaces to intelligent tutoring systems</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=51><b>October 24, 2003</b> - 2nd Annual CS Scavenger Hunt</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=50><b>October 14, 2003</b> - UIC the lead institution on a $2M NSF Information Technology Grant</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=49><b>September 28, 2003</b> - Faculty Members Promoted to Associate Professor Status</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=48><b>September 16, 2003</b> - $2 Million NIST Advanced Technology Program Grant</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=47><b>September 11, 2003</b> - CS PhD Student Receives IBM Fellowship</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=46><b>September 1, 2003</b> - Women Undergraduates Conduct Research in Computer Science</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=62><b>June 25, 2003</b> - Scholarships - Irene N. Jones Estate Scholarship Fund Awards</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=63><b>June 25, 2003</b> - Scholarships - Olive Chacey Kuehn and Alfred F. Kuehn Scholarships</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=64><b>June 25, 2003</b> - Scholarships - Anne Sluzas Martin Engineering Scholarship</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=44><b>June 24, 2003</b> - Scholarship - Deans and Donors Award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=43><b>June 19, 2003</b> - Scholarship/Fellowship Awarded to Zhaoxia Hu</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=41><b>May 23, 2003</b> - Congratulations to Outstanding Teaching Assistant Award Winners</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=42><b>May 15, 2003</b> - CS Department Webmaster Hired</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=40><b>May 9, 2003</b> - Congratulations to May 2003 CS Ph.D. graduates Chi Zhou and Haiping Xu</a>
+</li></ul> 
+</div>
+<p />
+<p />
+<p />
+<p />
+<p />
+<a name=#2002><a/>
+<div class="headlinesRss"><h2><a name="2002"></a> 2002 </h2> <ul>
+<li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=39><b>November 19, 2002</b> - Computer Science Graduate Students Place Second in CADAthlon</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=35><b>November 13, 2002</b> - New Graduate Course for Spring 2003 in OS Kernels and Computer Systems Security</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=32><b>November 13, 2002</b> - On-line CS Web editor introduced</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=26><b>October 17, 2002</b> - New Computer Science web site unveiled</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=17><b>July 9, 2002</b> - Di Eugenio receives NSF CAREER Award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=18><b>July 9, 2002</b> - Murata named UIC Distinguished Professor</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=16><b>May 6, 2002</b> - Sistla receives  recognition from ISI-Thomson Scientific</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=15><b>May 1, 2002</b> - Balasa receives NSF CAREER Award start date: 6/01/02; 5 years long</a>
+</li></ul> 
+</div>
+<p />
+<p />
+<p />
+<p />
+<p />
+<div class="headlinesRss"><h2><a name="2001"></a> 2001 </h2> <ul>
+<li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=13><b>November 26, 2001</b> - Wolfson tracking software in the news</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=12><b>November 12, 2001</b> - Murata receives first Petri award</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=11><b>November 7, 2001</b> - Shatz named program committee co-chair for ICDCS 2003</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=7><b>November 2, 2001</b> - Brown receives UIC Award of Merit 2001</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=8><b>November 2, 2001</b> - Service Recognition 2001</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=9><b>November 2, 2001</b> - NSF Funds Quanta Research at EVL</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=6><b>November 1, 2001</b> - Who's Who in America 2002</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=4><b>October 20, 2001</b> - Outstanding CS alumnus recognized</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=3><b>August 8, 2001</b> - NSF funds AGAVE research at EVL</a>
+</li> <li> <a href=https://www.cs.uic.edu/News/NewsItem?audience=public&amp;ind=1><b>July 1, 2001</b> - UIC Computer Science: it's official!</a>
+</li></ul> 
+</div>
+<p />
+<p />
+</sticky>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> </div><!-- /patternTopic-->
+<div class="twikiContentFooter"></div></div><!-- /patternContent-->
+<a name="topic-actions"></a><div class="patternTopicActions"><div class="patternTopicAction"><span class="patternActionButtons"></span></div><!--/patternTopicAction--></div><!--/patternTopicActions-->
+</div><!-- /patternMainContents-->
+</div><!-- /patternMain--><div id="patternLeftBar"><div id="patternClearHeaderLeft"></div>
+<div id="patternLeftBarContents">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> <ul>
+<li> <a href="https://www.cs.uic.edu/News/WebHome?name=current" target="_top">Current</a>
+</li> <li> <a href="https://www.cs.uic.edu/News/WebHome?name=arch2017" target="_top">2017 Archive</a>
+</li> <li> <a href="https://www.cs.uic.edu/News/WebHome?name=arch2016" target="_top">2016 Archive</a>
+</li> <li> <a href="https://www.cs.uic.edu/News/WebHome?name=arch2015" target="_top">2015 Archive</a>
+</li> <li> <a href="https://www.cs.uic.edu/News/WebHome?name=arch2014" target="_top">2014 Archive</a>
+</li> <li> <a href="https://www.cs.uic.edu/News/WebHome?name=arch2013" target="_top">2013 Archive</a>
+</li> <li> <a href="https://www.cs.uic.edu/News/WebHome?name=arch2012" target="_top">2012 Archive</a>
+</li> <li> <a href="https://www.cs.uic.edu/News/WebHome?name=arch2011" target="_top">2011 Archive</a>
+</li> <li> <a href="https://www.cs.uic.edu/News/WebHome?name=arch2010" target="_top">2010 Archive</a>
+</li> <li> <a href="https://www.cs.uic.edu/News/WebHome?name=arch2009" target="_top">2009 Archive</a>
+</li> <li> <a href="https://www.cs.uic.edu/News/WebHome?name=arch2008" target="_top">2008 Archive</a>
+</li> <li> <a href="https://www.cs.uic.edu/News/WebHome?name=arch2007" target="_top">2007 Archive</a>
+</li> <li> <a href="https://www.cs.uic.edu/News/WebHome?name=arch2006" target="_top">2006 Archive</a>
+</li> <li> <a href="https://www.cs.uic.edu/News/WebHome?name=arch2005" target="_top">2005 Archive</a>
+</li> <li> <a href="https://www.cs.uic.edu/News/WebHome?name=arch2004" target="_top">2004 Archive</a>
+</li> <li> <a href="https://www.cs.uic.edu/News/WebHome?name=arch2003" target="_top">2003 Archive</a>
+</li> <li> <a href="https://www.cs.uic.edu/News/WebHome?name=arch2002" target="_top">2002 Archive</a>
+</li> <li> <a href="https://www.cs.uic.edu/News/WebHome?name=arch2001" target="_top">2001 Archive</a>
+</li></ul> 
+</div><!-- /patternLeftBarContents--></div><!-- /patternLeftBar-->
+</div><!-- /patternFloatWrap-->
+<div class="clear">&nbsp;</div>
+</div><!-- /patternOuter--></div><!-- /patternWrapper--><div id="patternTopBar"><div 
+id="patternTopBarContents"><sticky>
+<div id="superTopBar" style="width=100%; color: #ffffff;  padding-top: 5px; padding-left: 5px; padding-bottom:5px; background-color: #ff0000; position: relative">&nbsp;&nbsp;University of Illinois at Chicago | College of Engineering</div>
+<p />
+<div id="logobg" style="position:absolute;background-color: #252525; width:206px;height:100px;left:0px;top:20px;z-index:-1">&nbsp;</div>
+<p />
+<p />
+<div id="twikiLogo" class="twikiImage">
+<map id="logomap" name="logomap">
+	<area shape="rect" alt="" title="" coords="144,20,317,74" href="https://www.cs.uic.edu" target=""/>
+	<area shape="rect" alt="College of Engineering" title="" coords="125,76,300,91" href="http://www.engineering.uic.edu/" target=""/>
+	<area shape="rect" alt="University of Illinois at Chicago" title="" coords="10,20,120,71" href="http://www.uic.edu" target=""/>
+</map>
+<img height=250 src="/pub/News/COL.ENG.CSCI.LOCKA.LG.RED.PNG" alt="Home - this site is powered by TWiki(R)" border="0" style="border:none;" usemap="#logomap"/>
+</div>
+<p />
+<p />
+<p />
+<div id="menuContainer" style="overflow:visible; position:absolute; z-index:2; width:640px; left:250px; top:56px;">
+<div id="navMenu">
+<ul>
+<li> <a href="#">ADMISSIONS</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/undergraduate-admissions">Undergraduate Admissions</a></li>
+	<li><a href="https://www.cs.uic.edu/graduate-admissions">Graduate Admissions</a></li>
+	<li><a href="https://www.cs.uic.edu/visit-us-at-an-open-house">Undergraduate Open House</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">ACADEMICS</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/undergraduate-programs">Undergraduate Programs</a></li>
+	<li><a href="https://www.cs.uic.edu/graduate-programs">Graduate Programs</a></li>
+	<li><a href="https://www.cs.uic.edu/cs-minor">CS Minor</a></li>
+	<li><a href="https://www.cs.uic.edu/courses">Courses</a></li>
+	<li><a href="https://www.cs.uic.edu/student-affairs">Student Affairs</a></li>
+	<li><a href="https://www.cs.uic.edu/scholarships">Scholarships</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">RESEARCH</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/research-labs">Research Labs</a></li>
+	<li><a href="https://www.cs.uic.edu/by-faculty">By Faculty</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">PEOPLE</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/faculty">Faculty</a></li>
+	<li><a href="https://www.cs.uic.edu/adjuncts">Adjuncts</a></li>
+	<li><a href="https://www.cs.uic.edu/staff">Staff</a></li>
+	<li><a href="https://www.cs.uic.edu/committees">Committees</a></li>
+	</ul>
+</li>
+</ul>
+<ul>
+<li> <a href="#">ABOUT US</a>
+	<ul>
+	<li><a href="https://www.cs.uic.edu/our-department/">Our Department</a></li>
+	<li><a href="https://www.cs.uic.edu/News/WebHome?name=arch2016">News</a></li>
+	<li><a href="https://www.cs.uic.edu/abet-accreditation-2/">ABET Accreditation</a></li>
+	<li><a href="https://www.cs.uic.edu/employment/">Employment</a></li>
+	<li><a href="http://engineering.uic.edu/donate/">Give to the Department</a></li>
+	<li><a href="https://www.cs.uic.edu/contact-us/">Contact Us</a></li>
+	</ul>
+</li>
+</ul>
+<br class="clearFloat"/>
+</div>
+</div>
+<sticky></div></div><!-- 
+/patternTopBar--><div id="patternBottomBar"><div id="patternBottomBarContents"><div id="patternWebBottomBar"><table width="100%"><tr>
+<td>Copyright 2016 The Board of Trustees<br/> of the University of Illinois.<a href="webmaster@cs.uic.edu">webmaster@cs.uic.edu</a></td>
+<td><a href="https://wisest.uic.edu" target=_blank>WISEST<br />Helping Women Faculty Advance<br />Funded by NSF</a> </td><td>  <a href="http://engineering.uic.edu/bin/view/COE/CollegeGift" target="_top"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/gift.jpg" /></a> <a href="http://www1.cs.uic.edu/www/donate.php?audience=public" target="_top"> </a> </td><td> <a target="_blank" href="http://www.cs.uic.edu/CSOpenHouse"><img alt="" src="https://www.cs.uic.edu/pub/Main/WebHome/openHouseButton.gif" border="0" /></a> </td></tr></table></div><!--/patternWebBottomBar--></div><!-- /patternBottomBarContents--></div><!-- /patternBottomBar-->
+</div><!-- /patternPage-->
+</div><!-- /patternPageShadow-->
+</div><!-- /patternScreen-->
+</body></html>
+<p />

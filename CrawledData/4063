@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<html>
+<head>
+<title>
+Ludwig C. Nitsche
+</title>
+</head>
+<body>
+<div id="container">
+<!--
+<div class="header"><img src="images/chelogo.png" height=200px></div>
+-->
+
+
+
+
+<div class="hbor6">
+<div class="hcon">
+<div class="hnav">
+        <a class="nav" href="index.html">       <div class="hnava">Home</div></a>
+        <a class="nav" href="research.htm">     <div class="hnavb">Research</div></a>
+        <a class="nav" href="publications.htm"> <div class="hnavb">Publications</div></a>
+        <a class="nav" href="teaching.htm">     <div class="hnavb">Teaching</div></a>
+        <div class="clear"></div>
+</div>
+<div class="hbox">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="box">
+<!--########## START CONTENT ##########-->
+
+
+<div class="text3a">
+<img src="images/lcn01.jpg" height="130px">
+</div>
+
+<div class="text3b">
+<div class="big6">Ludwig C. Nitsche</div>
+<br/>
+Associate Professor of Chemical Engineering
+<br/>
+Associate Dean for Undergraduate Affairs,
+College of Engineering
+<br/><br/>
+Chemical Engineering Building (CEB), Room 215
+<br/>
+Email: lcn@uic.edu
+<br/>
+Phone: (312) 996-3469
+<br/>
+Fax: (312) 996-0808
+</div>
+<div class="text3c">
+<img src="images/chelogo.png" height="130px">
+</div>
+<div class="clear"></div>
+
+<div class="tspace"></div>
+<hr/>
+<div class="tspace"></div>
+
+
+
+<div class="text2a">
+<!--##################
+    BEGIN CONTENT LEFT    
+    ##################-->
+
+<div class="title6a"> Education </div>
+
+<table>
+<tr><td>NSF-NATO Postdoctoral Fellowship</td><td> University of Cambridge, UK           </td><td> Department of Applied Mathematics and Theoretical Physics (DAMTP) </td><td> 1989-1990 </td></tr>
+<tr><td> Ph.D.                          </td><td> Massachusetts Institute of Technology </td><td> Chemical Engineering </td><td> 1989 </td></tr>
+<tr><td> B.S. (With High Distinction)   </td><td> University of Minnesota               </td><td> Chemical Engineering </td><td> 1984 </td></tr>
+<tr><td> B.S. (With High Distinction)   </td><td> University of Minnesota               </td><td> Mathematics          </td><td> 1984 </td></tr>
+</table>
+
+<div class="title6b"> Honors and Awards </div>
+
+<table>
+<tr><td> UIC Award for Excellence in Teaching                                        </td><td> 2014 </td>
+<tr><td> UIC College of Engineering Harold A. Simon Award for Excellence in Teaching </td><td> 2012 </td>
+<tr><td> UIC College of Engineering Faculty Teaching Award                           </td><td> 2008 </td>
+<tr><td> UIC CETL Teaching Recognition Program Award                                 </td><td> 2007 </td>
+<tr><td> UIC College of Engineering Faculty Teaching Award                           </td><td> 2006 </td>
+<tr><td> USIA Fulbright Senior Scholar Program, Award #9498 (Austria, Research)      </td><td> 1999 </td>
+<tr><td> NSF Young Investigator Award                                                </td><td> 1994 </td>
+<tr><td> NSF-NATO Postdoctoral Fellowship                                            </td><td> 1989 </td>
+</table>
+
+<div class="title6b"> Service and Administration </div>
+<table>
+<tr><td> Associate Dean for Undergraduate Affairs <br/> College of Engineerng       </td><td> 2014-present </td></tr>
+<tr><td> Interim Head <br/> Department of Chemical Engineering                      </td><td> 2014-2015    </td></tr>
+<tr><td> Director of Undergraduate Studies <br/> Department of Chemical Engineering </td><td> 2005-2014    </td></tr>
+</table>
+
+
+
+
+<!--################
+    END CONTENT LEFT    
+    ################-->
+</div><div class="text2b">
+<!--###################
+    BEGIN CONTENT RIGHT    
+    ###################-->
+
+<div class="title6a"> News </div>
+
+<!--
+<div class="textbox8">
+2015-11-04
+<div class="title8a"> 
+Available postdoctoral position 
+</div>
+<form action="docs/UIC_Chemical_Engineering_Postdoctoral_Flyer.pdf" method="get">
+<input type="submit" value="  Download Announcement  ">
+</form>
+</div>
+-->
+
+<div class="textbox6">
+2014-10-07
+<div class="title6a">
+US patent awarded to Professors Ludwig C. Nitsche and Ying Liu
+</div>
+
+<form action="docs/US_Patent_Full_Text.pdf" method="get">
+<input type="submit" value="  Download Full Text of Patent  ">
+</form> 
+
+<form action="docs/US_Patent_Application_Publication.pdf" method="get">
+<input type="submit" value="  Download Patent Application Publication  ">
+</form>
+
+<div class="tspace"></div>
+
+The patent, entitled "Self-assembled toroidal-spiral particles and manufacture and uses thereof,"
+describes a fluid-dynamical method for forming polymeric drug-delivery particles.
+The process uses sedimentation of miscible drops 
+and involves entrainment and encapsulation of one or more therapeutic agents
+within internal channels that form spontaneously due to hydrodynamic forces. 
+Benign conditions protect delicate macromoelcules
+such as peptides and antibodies and preserve their bioavailability. 
+Multiple drugs can be encapsulated and then released on independently tunable schedules
+to optimize therapeutic effectiveness.
+Potential biomedical applications include post-resection
+chemotherapy for primary brain tumors. 
+Details can be found in publications 
+<a href="docs/refereed_paper_24.pdf">24</a>,
+<a href="docs/refereed_paper_25.pdf">25</a> and
+<a href="docs/refereed_paper_27.pdf">27</a>
+on the 
+<a href="publications.htm">publications page</a>.
+
+
+</div>
+
+<!--#################
+    END CONTENT RIGHT    
+    #################-->
+</div><div class="clear"></div>
+<!--########## END CONTENT ##########-->
+</div>
+
+
+
+
+
+
+
+
+
+
+</div><div class="clear"></div></div></div>
+
+
+
+
+
+
+
+
+
+
+<div class="footer">&copy; L. C. Nitsche</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<!-- start embeds/html_head.html -->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en" >
+	<![endif]-->
+	<!--[if gt IE 8]>
+	<!-->
+	<html class="no-js biofuels-bioenergy" lang="en" >
+		<!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Publications | ERC - Energy Resources Center</title>
+<meta name='keywords' content='' />
+<meta name='description' content='The Energy Resources Center is an interdisciplinary public service, research, and special projects organization dedicated to improving energy efficiency and the environment. Based out of the College of Engineering at the University of Illinois at Chicago (UIC)' />
+<link rel='canonical' href='http://www.erc.uic.edu/biofuels-bioenergy/publications' />
+	<link rel="stylesheet" href="/assets/css/foundation.css">
+	<link rel="stylesheet" href="/assets/css/master-alt.css">
+	<link rel="stylesheet" href="/assets/css/extra.css">
+	<link rel="stylesheet" href="/assets/css/fontello-c723b51d/css/erc.css">
+	<script src="/assets/js/vendor/custom.modernizr.js"></script>
+	<script type="text/javascript" src="http://use.typekit.net/giw3wie.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<script type='text/javascript'>
+		(function (d, t) {
+		var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
+		bh.type = 'text/javascript';
+		bh.src = '//www.bugherd.com/sidebarv2.js?apikey=qtthtib81fx1moblnee6ig';
+		s.parentNode.insertBefore(bh, s);
+		})(document, 'script');
+	</script> 
+</head>
+<!-- end embeds/html_head.html -->
+<body>
+<!-- start embeds/standard_header.html -->
+<header>
+	<nav class="secondary">
+		<div class="row">
+			<div class="small-12 columns">
+				<p class="left">
+					<a href="/">Energy Resources Center | Home</a>
+				</p>
+				<ul class="inline-list right">
+					<li class="first"><a href="http://www.erc.uic.edu/about/">About ERC</a></li>
+<li class="last"><a href="http://www.erc.uic.edu/news-events/">News &amp; Events</a></li>
+
+					<li id="search-box">
+					<form action="/search" id="cse-search-box" style="margin:0;">
+					<input type="hidden" name="cx" value="007740129278243137138:jcd6-i_sqzu" /> 
+		    			<input type="hidden" name="cof" value="FORID:10" /> 
+		    			<input type="hidden" name="ie" value="UTF-8" /> 
+					<input type="hidden" name="ie" value="UTF-8" /> 
+		  			<input type="text" id="search-box" placeholder="Search the Site" name="q" /> 
+					<input style="cursor:pointer;" id="search-button" type="image" alt="Search" value="Search" src="/assets/img/elements/SearchIcon.png" name="sa" />
+					</form>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="row expertise">
+		<div class="large-3 columns logo">
+			<a href="/">
+				<img src="/assets/img/elements/erclogo_full.png" alt="Logo" style="height:90px;" />
+			</a>
+<a href="http://engineering.uic.edu">
+				<img src="/assets/img/elements/eng_logo_wt.png" alt="Collage of Engineering Logo" style="height:61px;" />
+			</a>
+		</div>
+		<div class="large-9 columns">
+			<ul class="small-block-grid-2 large-block-grid-4 expertise">
+				<li >
+					<a href="/energy-efficiency/">
+						<img src="/assets/img/icons/eneff.png" />						Energy<br />Efficiency
+					</a>
+					<ul class="submenu" style="display:none;">
+						<li><a href="/energy-efficiency/">Overview</a></li>
+						<li class="first"><a href="http://www.erc.uic.edu/energy-efficiency/k-12-schools/">K-12 Schools</a></li>
+<li><a href="http://www.erc.uic.edu/energy-efficiency/income-qualified/">Income-Qualified</a></li>
+<li><a href="http://www.erc.uic.edu/energy-efficiency/public-housing/">Public Housing</a></li>
+<li><a href="http://www.erc.uic.edu/energy-efficiency/wastewater/">Wastewater</a></li>
+<li><a href="http://www.erc.uic.edu/energy-efficiency/combined-heat-power/">Combined Heat &amp; Power</a></li>
+<li><a href="http://www.erc.uic.edu/energy-efficiency/potential-studies/">Potential Studies</a></li>
+<li><a href="http://www.erc.uic.edu/energy-efficiency/emerging-technology-pilot-programs/">Emerging Technology Pilot Programs</a></li>
+<li class="last"><a href="http://www.erc.uic.edu/energy-efficiency/industrial-assessment-center/">Industrial Assessment Center</a></li>
+
+					</ul>
+				</li>
+				<li >
+					<a href="/distributed-generation/">
+						<img src="/assets/img/icons/distributedgen.png" />						Distributed Generation
+					</a>
+					<ul class="submenu" style="display:none;">
+						<li><a href="/distributed-generation/">Overview</a></li>
+						<li class="first"><a href="http://www.erc.uic.edu/distributed-generation/distributed-generation-services/">CHP Services</a></li>
+<li><a href="http://www.erc.uic.edu/distributed-generation/u.s.-doe-midwest-clean-energy-application-center/">US DOE CHP TAP</a></li>
+<li class="last"><a href="http://www.erc.uic.edu/distributed-generation/case-study/">Case Studies</a></li>
+
+					</ul>
+				</li>
+				<li  class="active" >
+					<a href="/biofuels-bioenergy/">
+						<img src="/assets/img/icons/biofuels_gn.png" />						Bioenergy &amp; Sustainable Landscapes
+					</a>
+					<ul class="submenu" style="display:none;">
+						<li><a href="/biofuels-bioenergy/">Overview</a></li>
+						<li class="first"><a href="http://www.erc.uic.edu/biofuels-bioenergy/about-us/">About Us</a></li>
+<li><a href="http://www.erc.uic.edu/biofuels-bioenergy/research/">News &amp; Updates</a></li>
+<li class="here"><a href="http://www.erc.uic.edu/biofuels-bioenergy/publications/">Publications</a></li>
+<li><a href="http://www.erc.uic.edu/biofuels-bioenergy/case-study/">Bioenergy Research</a></li>
+<li><a href="http://www.erc.uic.edu/biofuels-bioenergy/pollinator-habitat/">Habitat Conservation</a></li>
+<li class="last"><a href="http://www.erc.uic.edu/biofuels-bioenergy/mn-nd-sd-20cty/">Prairie Pothole GIS Data</a></li>
+
+					</ul>
+				</li>
+				<li >
+					<a href="/utility-billing-data-management/">
+						<img src="/assets/img/icons/utilbill.png" />						Utility Billing Data Management
+					</a>
+					<ul class="submenu" style="display:none;">
+						<li><a href="/utility-billing-data-management/">Overview</a></li>
+						
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</header>
+<!-- end embeds/standard_header.html -->
+
+
+
+
+
+
+
+<div class="large-header" style="background:#C4E2EA url('http://www.erc.uic.edu/assets/img/header_images/FioFuelsandEnergy-Free.png') no-repeat center;">
+	<div class="row">
+		<div class="small-12 columns">
+			<div class="row">
+				<div class="large-9 push-3 columns content">
+					<div class="title">
+					<h3>Publications</h3>
+					</div>
+					<div class="main-content">
+					<div class="row">
+					<div class="large-8 small-12 columns">
+					<h1></h1>
+						<p>ZHANGCAI QIN , CHRISTINA E. CANTER ,JENNIFERB. DUNN , STEFFEN MUELLER , HOYOUNG KWON ,JEONGWOO HAN ,MICHELLEM. WANDER and MICHAEL WANG<a href="http://www.erc.uic.edu/assets/img/documents/Qin_et_al-2018-GCB_Bioenergy.pdf"> &rdquo;Land Management Change Greatly Impacts Biofuels&rsquo; Greenhouse Gas Emissions&rdquo;</a> ; GCB Bioenergy 2018.</p>
+
+<p>Qin, Z., Canter, C. E., Dunn, J. B., Mueller, S., Kwon, H., Han, J., Wander, M. M. and Wang, M. (2018), Land management change greatly impacts biofuels&rsquo; greenhouse gas emissions. GCB Bioenergy. doi:10.1111/gcbb.12500</p>
+
+<p><a href="http://onlinelibrary.wiley.com/doi/10.1111/gcbb.12500/full">http://onlinelibrary.wiley.com/doi/10.1111/gcbb.12500/full</a></p>
+
+<p>J. Dunn, Z. Qin, S. Mueller, H-Y. Kwon, M. Wander, M. Wang ; Carbon Calculator for Land Use Change from Biofuels Production (CCLUB) Manual; October 07, 2016;</p>
+
+<p><a href="https://greet.es.anl.gov/publication-cclub-manual">https://greet.es.anl.gov/publication-cclub-manual</a></p>
+
+<p>Qin, Z., Dunn, J. B., Kwon, H., Mueller, S., &amp; Wander, M. M. (2016a). Soil carbon sequestration and land use change associated with biofuel production: empirical evidence. GCB Bioenergy, 8(1), 66-80.</p>
+
+<p>Qin, Z., Dunn, J. B., Kwon, H., Mueller, S., &amp; Wander, M. M. (2016b). Influence of spatially&#8208;dependent, modeled soil carbon emission factors on life&#8208;cycle greenhouse gas emissions of corn and cellulosic ethanol. GCB Bioenergy. doi:10.1111/gcbb.12333</p>
+
+<p>Z. Qin, C. Canter, J.B. Dunn, S. Mueller, H. Kwon, J. Han, M. Wander, M. Wang; Incorporating Agricultural Management Practices into the Assessment of Soil Carbon Change and Life-Cycle Greenhouse Gas Emissions of Corn Stover Ethanol Production; September 30, 2015;<br />
+<a href="https://greet.es.anl.gov/publication-cclub-land-management">https://greet.es.anl.gov/publication-cclub-land-management</a></p>
+
+<p>Zhangcai Quin, Jennifer B. Dunn, Hoyoung Kown, Steffen Mueller and Michelle Wander. <a href="http://www.erc.uic.edu/assets/pdf/Qin_2014-gcbb-anl.pdf" style="line-height: 1.6em;">Soil carbon sequestration and land use change associated with biofuel production: empirical evidence; GCB Bioenergy (2015)</a>, doi: 10.1111/gcbb.12237</p>
+
+<p>Elliott, J., Sharma, B., Best N., Glotter., M., Dunn, J., Foster, I., Miguez, F., Mueller, S., Wang, M., A Spatial Modeling Framework to Evaluate Domestic Biofuel-Induced Potential Land Use Changes and Emissions, Environ. Sci. Technol., 2014, 48 (4), pp 2488&ndash;2496 DOI: 10.1021/es404546r</p>
+
+<p>J. B. Dunn, S. Mueller, H. KwonLand-use change and greenhouse gas emissions from corn and cellulosic, M. Wander, M. Wang. Carbon Calculator for Land Use Change from Biofuels Production (CCLUB) Manual, May 2014.</p>
+
+<p>Ho-Young Kwon, Steffen Mueller, Jennifer B. Dunn, Michelle M. Wander; Modeling state-level soil carbon emission factors under various scenarios for direct land use change associated with United States biofuel feedstock production; Biomass and Bioenergy (2013), http://dx.doi.org/10.1016/j.biombioe.2013.02.021</p>
+
+<p>Jennifer B Dunn, Steffen Mueller, Ho-young Kwon and Michael Q Wang; <a href="http://www.erc.uic.edu/assets/pdf/dunn_mueller_kwon_wang_article.pdf">Land-use change and greenhouse gas emissions from corn and cellulosic ethanol; Biotechnology for Biofuels 2013</a>, 6:51 doi:10.1186/1754-6834-6-51; Published: 10 April 2013</p>
+
+<p>Barry K. Goodwin, Michele Marra, Nicholas Piggott and Steffen Mueller; Is Yield Endogenous to Price? An Empirical Evaluation of Inter and IntraSeasonal Corn Yield Response; June 3, 2012. Available&nbsp;at: <a href="http://www.erc.uic.edu/assets/img/documents/2012_Corn_Ethanol.pdf">http://www.erc.uic.edu/assets/img/documents/2012_Corn_Ethanol.pdf</a></p>
+
+<p>Dunn, Jennifer and Steffen Mueller, Michael Wang, Jeongwoo Han.<a href="http://www.erc.uic.edu/assets/pdf/dunn_mueller_enzyme_paper.pdf" style="line-height: 1.6em;"> &ldquo;Energy consumption and greenhouse gas emissions from enzyme and yeast manufacture for corn and cellulosic ethanol production&rdquo;</a>; Biotechnol Lett DOI 10.1007/s10529-012-1057-6, October 2012.</p>
+
+<p>Kloverpris, Jesper Hedal and Steffen Mueller<a href="http://www.erc.uic.edu/assets/pdf/Kloverpris_Mueller_Baseline_LUC_Accounting.pdf">. &ldquo;Baseline time accounting: Considering global land use dynamics when estimating the climate impact of indirect land use change caused by biofuels&rdquo;</a>; Int J Life Cycle Assess; DOI 10.1007/s11367-012-0488-6; September, 2012</p>
+
+<p>Mueller, S., Ken Copenhaver, and Dan Begert <a href="http://www.erc.uic.edu/assets/pdf/Available_Lands_Mueller_Copenhaver_Begert.pdf">&ldquo;An Assessment of Available Lands for Biofuels Production in the United States Using USDA Cropland Data Layers&rdquo;</a>, Journal of Agricultural Extension and Rural Development Vol. 4(18), pp. 465-470, October 2012</p>
+
+<p>Mueller, S. <a href="http://www.erc.uic.edu/assets/pdf/Biotech_Letters_2008_Corn_Ethanol_Survey.pdf">&ldquo;2008 National dry mill corn ethanol survey&rdquo;</a>; Biotechnol Lett DOI 10.1007/s10529-010-0296-7, May 15, 2010.</p>
+
+<p>Mueller, Steffen and Copenhaver, Kenneth <a href="http://www.erc.uic.edu/assets/pdf/mueller_swords_ploughshare_contrib.pdf">&ldquo;Use of Remote Sensing to Measure Land Use Change from Biofuel Production</a>, published in &ldquo;The bulletin of the Program in Arms Control, Disarmament, and International Security&rdquo;; University of Illinois at Urbana&ndash;Champaign, Volume XVII / No. 2 / Summer 2009.Mueller, S. and K. Copenhaver (2009). &ldquo;Use of Remote Sensing to Measure Land Use Change from Biofuels Production.&rdquo;&nbsp;</p>
+
+<p>Mueller, Steffen and Michelle Wander, Ken Copenhaver (2008). &ldquo;Global Warming and Land Use Impact of Corn Ethanol Produced at the Illinois River Energy Center&rdquo;; Report prepared for the Illinois Corn Growers Association.</p>
+
+<p>Mueller, S. (2008) and Richard Plevin (2008). &ldquo;Global Warming Intensity of Ethanol - Determining Climate Benefits&rdquo;; BioCycle Magazine, January 2008.</p>
+
+<p>Plevin, Richard and Steffen Mueller. &rdquo;The Effect of CO2 Regulations on the Cost of Corn Ethanol Production&rdquo;; Environmental Research Letters 3 (2008) 024003, with Richard Plevin, University of California, Berkeley.<br />
+Mueller S. and Richard Plevin (2007).</p>
+
+<p>&ldquo;Producing Ethanol for Low-Carbon Fuel Markets&rdquo;; Ethanol Producer Magazine, May 2007.</p>
+
+<p>Mueller, S. (2007). &ldquo;The use of Wood Biomass for Distributed Energy Generation in Iowa; A Modeling Approach based on the Energy Demands of Ethanol Energy Systems&rdquo;; Report prepared for the Iowa Department of Natural Resources.</p>
+						
+					</div>
+					<div class="large-4 columns">
+					
+<div class="panel">
+	<h4>Program Contact</h4>
+		<p><strong><a href="/about/staff/#steffen-mueller-phd">Steffen Mueller, PhD.</a></strong><br />
+				<span class="icon-email"><span data-eeEncEmail_bqGCWhMTIy='1'>.(JavaScript must be enabled to view this email address)</span><script type="text/javascript">/*<![CDATA[*/var out = '',el = document.getElementsByTagName('span'),l = ['>','a','/','<',' 117',' 100',' 101',' 46',' 99',' 105',' 117',' 64',' 115',' 114',' 101',' 108',' 108',' 101',' 117',' 109','>','\"',' 117',' 100',' 101',' 46',' 99',' 105',' 117',' 64',' 115',' 114',' 101',' 108',' 108',' 101',' 117',' 109',':','o','t','l','i','a','m','\"','=','f','e','r','h','a ','<'],i = l.length,j = el.length;while (--i >= 0)out += unescape(l[i].replace(/^\s\s*/, '&#'));while (--j >= 0)if (el[j].getAttribute('data-eeEncEmail_bqGCWhMTIy'))el[j].innerHTML = out;/*]]>*/</script></span><br />
+						<span class="icon-phone">312-355-3982</span><br />
+						
+	</p>
+</div>	
+
+
+
+
+
+<div class="panel">
+	<h5>Program Contact (Sustainable Landscapes)</h5>
+	<p><strong><a href="http://www.erc.uic.edu/about/staff/#iris-caldwell-pe">Iris Caldwell, P.E.</a></strong><br />
+<span class="icon-email"><a href="javascript:void(location.href='mailto:'+String.fromCharCode(105,114,105,115,99,97,108,100,64,117,105,99,46,101,100,117))" style="line-height: 1.6em;">iriscald@uic.edu</a><br />
+<span class="icon-phone"><span style="line-height: 1.6em;">312-355-1483</span></span></span></p>
+	
+</div>
+
+
+					</div>
+					</div>
+					</div>
+				</div>
+				<div class="large-3 pull-9 columns">
+					<div class="expertise-nav">
+						<div class="inner-wrapper">
+							<div class="icon-large">
+								<img src="/assets/img/icons/biofuels-bioenergy_lg.png" alt="biofuels-bioenergy" />
+							</div>
+							<h5>Bioenergy & Sustainable Landscapes</h5>
+							<ul class="side-nav">
+								
+								<li class="first overview"><a href="http://www.erc.uic.edu/biofuels-bioenergy/">Overview</a></li>
+<li><a href="http://www.erc.uic.edu/biofuels-bioenergy/about-us/">About Us</a></li>
+<li><a href="http://www.erc.uic.edu/biofuels-bioenergy/research/">News &amp; Updates</a></li>
+<li class="active"><a href="http://www.erc.uic.edu/biofuels-bioenergy/publications/">Publications</a></li>
+<li><a href="http://www.erc.uic.edu/biofuels-bioenergy/case-study/">Bioenergy Research</a></li>
+<li><a href="http://www.erc.uic.edu/biofuels-bioenergy/pollinator-habitat/">Habitat Conservation</a></li>
+<li class="last"><a href="http://www.erc.uic.edu/biofuels-bioenergy/mn-nd-sd-20cty/">Prairie Pothole GIS Data</a></li>
+
+							</ul>
+						</div>
+					</div>
+					<!--
+<div class="panel">
+	<h4>Program Contact</h4>
+		<p><strong><a href="/about/staff/#steffen-mueller-phd">Steffen Mueller, PhD.</a></strong><br />
+				<span class="icon-email"><span data-eeEncEmail_FssRXYcvqe='1'>.(JavaScript must be enabled to view this email address)</span><script type="text/javascript">/*<![CDATA[*/var out = '',el = document.getElementsByTagName('span'),l = ['>','a','/','<',' 117',' 100',' 101',' 46',' 99',' 105',' 117',' 64',' 115',' 114',' 101',' 108',' 108',' 101',' 117',' 109','>','\"',' 117',' 100',' 101',' 46',' 99',' 105',' 117',' 64',' 115',' 114',' 101',' 108',' 108',' 101',' 117',' 109',':','o','t','l','i','a','m','\"','=','f','e','r','h','a ','<'],i = l.length,j = el.length;while (--i >= 0)out += unescape(l[i].replace(/^\s\s*/, '&#'));while (--j >= 0)if (el[j].getAttribute('data-eeEncEmail_FssRXYcvqe'))el[j].innerHTML = out;/*]]>*/</script></span><br />
+						<span class="icon-phone">312-355-3982</span><br />
+						
+	</p>
+</div>	
+
+
+
+-->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="row">
+
+</div>
+
+<!-- /BELOW THE FOLD -->
+<!-- start embeds/standard_footer.html -->
+		<footer class="panel">
+			<div class="row">
+				<div class="large-3 columns">
+					<h4>Expertise</h4>
+					<ul id="nav-sub" class="side-nav">
+<li class="first"><a href="http://www.erc.uic.edu/energy-efficiency/">Energy Efficiency</a></li>
+<li><a href="http://www.erc.uic.edu/distributed-generation/">Distributed Generation</a></li>
+<li class="parent-here"><a href="http://www.erc.uic.edu/biofuels-bioenergy/">Bioenergy &amp; Sustainable Landscapes</a></li>
+<li class="last"><a href="http://www.erc.uic.edu/utility-billing-data-management/">Utility BIlling Data Management</a></li>
+</ul>
+				</div>
+
+				<div class="large-3 columns">
+				
+					<h4>I want to&#8230;</h4>
+					<ul class="side-nav">
+						
+						<li><a href="http://www.erc.uic.edu/about/contact/">Contact the ERC</a></li>
+						
+						<li><a href="http://www.erc.uic.edu/energy-efficiency/become-a-trade-ally/">Become a Trade Ally</a></li>
+						
+						<li><a href="http://www.erc.uic.edu/energy-efficiency/trade-allies/find-contractors/">Find a Contractor</a></li>
+						
+					</ul>
+				
+				</div>
+				
+				<div class="large-4 columns">
+					<h4>Contact Us</h4>
+					<div class="address">
+						<p>
+							<span class="icon-address">
+								Energy Resources Center (MC 156)<br />
+University of Illinois at Chicago<br />
+1309 South Halsted St, suite 205<br />
+Chicago, IL 60607
+							</span>
+						</p>
+						<a href="https://www.google.com/maps/preview#!data=!1m4!1m3!1d37693!2d-87.6506177!3d41.8747194!4m38!3m16!1m0!1m5!1sUniversity+of+Illinois%2C+1309+S+Halsted+St%2C+Chicago%2C+IL+60607!2s0x880e2ce01f97c2bb%3A0x3d2f7c19ffecb035!3m2!3d41.865109!4d-87.646733!3m8!1m3!1d37693!2d-87.6506177!3d41.8747194!3m2!1i1223!2i1218!4f13.1!5m18!2m17!1m15!1s0x0%3A0x3d2f7c19ffecb035!2sUniversity+of+Illinois!3m8!1m3!1d37693!2d-87.6506177!3d41.8747194!3m2!1i1223!2i1218!4f13.1!4m2!3d41.8651106!4d-87.6467317!5e4!6s1309+South+Halst" class="small button radius" target="_blank">Get Directions</a>
+					</div>
+				</div>
+
+				<div class="large-2 columns">
+					<h4>&nbsp;</h4>
+					<p>
+						<span class="icon-phone">(312) 996-4490</span>
+						<br />
+						<span class="icon-fax">(312) 996-5620</span>
+					</p>
+				</div>
+				
+			</div>
+		</footer>
+
+		<footer>
+			<div class="row post-foot">
+				<div class="large-1 column">
+					<a href="http://uic.edu">
+						<img src="/assets/img/elements/UIC-home.png" alt="UIC Home" />
+					</a>
+				</div>
+				<div class="large-8 columns">
+					<div class="row content">
+						<div class="small-12 columns">
+							<p>
+								<a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm" target="_blank">Privacy Statement</a>
+								&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+								<a href="http://accessweb.uic.edu/wordpress/why/" target="_blank">Accessibility</a>
+								&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+								<a href="/">ERC Home</a>
+								&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+								<a href="http://uic.edu">UIC Home</a>
+							</p>
+						</div>
+						<div class="small-12 columns">
+							<p>
+								Copyright &copy;2018 The Board of Trustees of the University of Illinois
+							</p>
+						</div>
+					</div>
+
+				</div>
+				<div class="large-3 columns social-icons"></div>
+			</div>
+		</footer>
+<!-- end embeds/standard_footer.html -->
+<!-- start embeds/standard_javascript.html -->
+<script>
+	document.write('<script src=' +
+	('__proto__' in {} ? '/assets/js/vendor/zepto' : '/assets/js/vendor/jquery') +
+	'.js><\/script>')
+</script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+<script src="/assets/js/foundation.min.js"></script>
+<script src="/assets/js/plugins/jquery.horiz_accordion.js"></script>
+<script src="/assets/js/global.js"></script>
+<script>$(document).foundation();</script>
+<!-- end embeds/standard_javascript.html -->
+</body>
+</html>

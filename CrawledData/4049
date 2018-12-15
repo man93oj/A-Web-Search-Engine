@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<!-- #BeginEditable "doctitle" -->
+<title></title>
+<!-- #EndEditable -->
+<link href="styles/style3.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.auto-style1 {
+	text-align: center;
+}
+.auto-style2 {
+	background-color: #FFFFFF;
+}
+.auto-style3 {
+	margin-bottom: 0px;
+}
+.auto-style5 {
+	font-size: large;
+	color: #996644;
+	text-decoration: underline;
+	text-align: center;
+}
+.auto-style8 {
+	line-height: 115%;
+	font-size: 5.22381e-039;
+	text-align: left;
+}
+.auto-style9 {
+	border-width: 0px;
+}
+</style>
+</head>
+
+<body><!-- Begin Container -->
+<div id="container" pbzloc="3" style="height: 972px"><!-- Begin Masthead -->
+<div id="masthead" pbzloc="0">
+<table class="auto-style3" style="width: 100%">
+	<tbody>
+		<tr>
+			<td class="auto-style2" style="width: 173px"><strong><a href="http://bioe.uic.edu"><img alt="BIOE Website" class="auto-style9" height="200" pbzloc="3" src="images/COL.ENG.BIOE.LOCKA.LG.RED.PNG" style="float: right" width="168" /></a></strong></td>
+			<td><img alt="MSML" height="227" src="images/MEML.png" width="758" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+<!-- End Masthead --><!-- Begin Navigation -->
+
+<div id="navigation" pbzloc="0">
+<ul pbzloc="1" style="height: 620px">
+	<li pbzloc="6"><a href="index.html" pbzloc="5">HOME</a></li>
+	<li pbzloc="11"><a href="people/people.html" pbzloc="10">PEOPLE</a></li>
+	<li pbzloc="16"><a href="publications/publications.html" pbzloc="15">RESEARCH</a></li>
+	<li pbzloc="21"><a href="publications/publications.html" pbzloc="20">PUBLICATIONS</a></li>
+	<li pbzloc="26"><a href="gallery/gallery.html" pbzloc="25">GALLERY</a></li>
+	<li pbzloc="29"><a href="contact/contact.html" pbzloc="30">CONTACT</a></li>
+</ul>
+</div>
+<!-- End Navigation --><!-- Begin Content -->
+
+<div id="content" style="height: 600px"><!-- #BeginEditable "content" -->
+<p class="auto-style5">ABOUT</p>
+
+<p class="auto-style8" style="mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">Traditionally, medical doctors use their senses in order to detect pathologies. As an example, auscultation findings provide information about cardiopulmonary function and visual perception helps physicians to check the integrity of eardrum, throat and skin. The sense of touch is applied to detect pathologies by means of their mechanical properties, which vary within the biological tissue over several orders of magnitude from soft as butter (fat) to hard as stone (bone). Manual palpation can help to assess the accumulation of fibrosis within the liver and even still today a large number of tumors are first detected by touch before any modern imaging technology comes into play. The high sensitivity of manual palpation is rooted in the well-established correlation of tissue mechanical behavior and pathological changes and was motivation for the development of an elasticity-based imaging technique known as magnetic resonance elastography (MRE). MRE is capable of determining quantitative maps of tissue mechanical behavior deep below the body surface and in body regions that are shielded by bone. In MRE, external vibrations of the low audio range are introduced into the tissue of interest and snapshots of tissue displacements are visualized using motion-sensitive MRI. Reconstruction algorithms are then applied to calculate mechanical property maps from the measured displacement field. Indeed MRE has revealed that neurodegenerative diseases involve a reduction of the mechanical connectivity within the brain, an organ not accessible to manual palpation because of the surrounding skull.</p>
+
+<p class="auto-style8" style="mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">The 
+Motion-Encoding MRI lab (PI Klatt) within the Dept. of Bioengineering at the University of Illinois at Chicago focusses on the refinement and application of MRE for the early diagnosis of pathological changes in neurodegenerative brain and other diseases. This includes the engineering of advanced, non-conventional motion encoding concepts for a faster and more accurate acquisition of 3D displacement data. The Klatt lab has implemented rapid 3D MRE acquisition techniques for in vivo murine brain, muscle and ex vivo tissue samples, such as cancerous prostate samples. There is an ongoing project, in which we assess the early diagnostic potential of MRE in an Alzheimer mouse model.<o:p></o:p></p>
+
+<p class="MsoNormal">We have also recently developed a protocol for concurrent MRE and diffusion tensor imaging (DTI), which we name DTI-MRE. DTI-MRE is sensitive to both, stiffness assessed from vibratory voxel motion and diffusive motion of water molecules. Thus DTI-MRE can be understood as a multi-parametric MRI approach, in which the determined parameters, tissue stiffness and diffusion coefficients, provide complementary information, while the respective property maps are immediately co-registered. Alternatively in DTI-MRE, the information about the preferred diffusion direction, which coincides with the direction of muscle fibers or brain white matter fibers, maybe used as input parameters for anisotropic reconstruction algorithms applied to the mechanical displacement field. DTI-MRE acquisition protocols are available for in vivo murine applications.<o:p></o:p></p>
+
+<p class="MsoNormal">Finally, MRI-compatible mechanical testing devices and pressure chambers are available in the Klatt lab. Therefore, concurrent MRE and tensile testing can be performed, which is useful for MRE calibration and validation. Also the influence of pressure on the MRE-derived mechanical properties of porous tissue mimicking phantoms can be measured, which is useful to assess the diagnostic potential of MRE for diseases involving pressure imbalances, such as hydrocephalus or portal hypertension.<o:p></o:p></p>
+
+<p class="MsoNormal"><o:p></o:p></p>
+
+<p class="MsoNormal"><o:p></o:p></p>
+<!-- #EndEditable "content" --></div>
+<!-- End Content --><!-- Begin Footer -->
+
+<div id="footer">
+<p class="auto-style1"><img alt="UIC" height="46" src="images/UIC%20mini.png" width="46" /></p>
+
+<p class="auto-style1">&copy; 2017 Shreyan Majumdar - Webmaster</p>
+</div>
+<!-- End Footer --></div>
+<!-- End Container --></body>
+</html>

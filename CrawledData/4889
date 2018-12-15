@@ -1,0 +1,466 @@
+<!doctype html>
+<html xml:lang="en" lang="en" dir="ltr">
+
+<head>
+<title>Department of Chemical Engineering &lt; University of Illinois at Chicago</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="search" type="application/opensearchdescription+xml"
+			href="/search/opensearch.xml" title="Catalog" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<link href="/favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" type="text/css" href="/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/fonts/font-awesome/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="/css/screen.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/css/handheld.css" media="only screen and (max-width: 767px)" />
+<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/lfjs.js"></script>
+<script type="text/javascript" src="/js/lfjs_any.js"></script>
+<link rel="stylesheet" type="text/css" href="/js/lfjs.css" />
+<script type="text/javascript" src="/js/courseleaf.js"></script>
+<script type="text/javascript" src="/js/custom.js"></script>
+
+</head>
+
+
+
+<body>
+
+
+
+
+<!--htdig_noindex-->
+<div class="accessible noscript">
+    <div class="accessible-menu" role="navigation" aria-label="Accessible Navigation">
+		<ul>
+			<li><a href="#content" rel="section">Skip to Content</a></li>
+			<li><a href="/azindex/">AZ Index</a></li>
+			<li><a href="/">Catalog Home</a></li>
+			<li><a href="http://www.uic.edu">Institution Home</a></li>
+		</ul>
+	</div>
+</div>
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="header" role="header">
+    <div class="wrap clearfix">
+        <li><a href="/"><h1>Academic Catalog</h1></a></li>
+        <div id="head-right">
+            <div id="search" role="search">
+			<form id="cl-search" action="/search/" class="clearfix">
+				<label for="name">Search Catalog</label>
+				<input type="text" name="search" size="25" placeholder="Search catalog..." class="searchbox" id="name" title="Search Catalog" />
+				<input type="submit" value="Search" class="submit" />
+<input type="hidden" name="fscaturl" value="/ucat" /><input type="hidden" name="gscaturl" value="/ucat" />			</form>
+            </div><!-- end #search -->
+        </div><!--end #head-right -->
+    </div><!--end .wrap -->
+</div><!-- end #header -->
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="navigation" class="clearfix" role="navigation" aria-label="Main Navigation">
+    <div class="wrap">
+        <ul>
+            <li><a href="/ucat/">Undergraduate Catalog</a></li>
+            <li><a href="/gcat">Graduate Catalog</a></li>
+            <li><a href="#" onclick="showPrintDialog(); return false;">Print / Download Options</a></li>
+            <li><a href="http://www.uic.edu">UIC Home</a></li>                        
+        </ul>  
+    </div><!--end .wrap -->
+</div><!--end #navigation -->
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<div id="banner" role="banner">
+    <div class="wrap">
+        <div class="logo"><a href="http://www.uic.edu">The University of Illinois at Chicago</a></div>
+    </div><!--end .wrap -->
+</div><!--end #navigation -->
+<!--/htdig_noindex-->
+
+<div id="wrapper">
+
+    <div id="container" class="clearfix">
+        <div id="nav-col" role="complementary">
+            <div id="cl-menu-control" class="togglenav clearfix">
+                <a class="cl-menu-text" href="#">Catalog Navigation</a>
+                <a class="cl-menu-btn" href="#">Catalog Navigation</a>
+            </div><!--end #cl-menu-control-->
+            
+            <!-- Begin Regular Nav -->
+            <div id="cl-menu" role="navigation" aria-label="Secondary Navigation">
+<ul class="nav levelzero" id="/">
+	<li class="active isparent"><a href="/ucat/">Undergraduate Catalog</a>
+	<ul class="nav levelone" id="/ucat/">
+		<li><a href="/ucat/academic-calendar/">Academic Calendar</a></li>
+		<li class="isparent"><a href="/ucat/the-university/">The University</a></li>
+		<li class="isparent"><a href="/ucat/admissions-registration-finances/">Admissions, Registration &amp;&#8203; Finances</a></li>
+		<li class="isparent"><a href="/ucat/degree-programs/">Degree Programs and Requirements</a></li>
+		<li class="active isparent"><a href="/ucat/colleges-depts/">Colleges &amp;&#8203; Departments</a>
+		<ul class="nav leveltwo" id="/ucat/colleges-depts/">
+			<li class="isparent"><a href="/ucat/colleges-depts/applied-health-sciences/">College of Applied Health Sciences</a></li>
+			<li class="isparent"><a href="/ucat/colleges-depts/architecture-design-arts/">College of Architecture, Design, and the Arts</a></li>
+			<li class="isparent"><a href="/ucat/colleges-depts/business-administration/">College of Business Administration</a></li>
+			<li class="isparent"><a href="/ucat/colleges-depts/education/">College of Education</a></li>
+			<li class="active isparent"><a href="/ucat/colleges-depts/engineering/">College of Engineering</a>
+			<ul class="nav levelthree" id="/ucat/colleges-depts/engineering/">
+				<li class="isparent"><a href="/ucat/colleges-depts/engineering/bioe/">Bioengineering</a></li>
+				<li class="active isparent self"><a href="#" onclick="return false;">Chemical Engineering</a>
+				<ul class="nav levelfour" id="/ucat/colleges-depts/engineering/che/">
+					<li><a href="/ucat/colleges-depts/engineering/che/bs-che/">BS in Chemical Engineering</a></li>
+					<li><a href="/ucat/colleges-depts/engineering/che/minor-che/">Minor in Chemical Engineering</a></li>
+				</ul>
+				</li>
+				<li class="isparent"><a href="/ucat/colleges-depts/engineering/cme/">Civil and Materials Engineering</a></li>
+				<li class="isparent"><a href="/ucat/colleges-depts/engineering/cs/">Computer Science</a></li>
+				<li class="isparent"><a href="/ucat/colleges-depts/engineering/ece/">Electrical and Computer Engineering</a></li>
+				<li class="isparent"><a href="/ucat/colleges-depts/engineering/mie/">Mechanical and Industrial Engineering</a></li>
+				<li class="isparent"><a href="/ucat/colleges-depts/engineering/addl-interdisciplinary-opps/">Additional Interdisciplinary Opportunities</a></li>
+			</ul>
+			</li>
+			<li><a href="/ucat/colleges-depts/honors-college/">Honors College</a></li>
+			<li class="isparent"><a href="/ucat/colleges-depts/liberal-arts-sciences/">College of Liberal Arts and Sciences</a></li>
+			<li class="isparent"><a href="/ucat/colleges-depts/nursing/">College of Nursing</a></li>
+			<li class="isparent"><a href="/ucat/colleges-depts/pharmacy/">College of Pharmacy</a></li>
+			<li class="isparent"><a href="/ucat/colleges-depts/public-health/">School of Public Health</a></li>
+			<li class="isparent"><a href="/ucat/colleges-depts/urban-planning-public-affairs/">College of Urban Planning and Public Affairs</a></li>
+			<li><a href="/ucat/colleges-depts/council-teacher-education/">Council on Teacher Education</a></li>
+		</ul>
+		</li>
+		<li class="isparent"><a href="/ucat/course-descriptions/">Undergraduate Course Descriptions</a></li>
+		<li><a href="/ucat/archive-links/">Archive &amp;&#8203; Links</a></li>
+	</ul>
+	</li>
+	<li class="isparent"><a href="/gcat/">Graduate Catalog</a></li>
+	<li class="isparent"><a href="/all-course-descriptions/">All Course Descriptions</a></li>
+</ul>
+			   </div><!--end #cl-menu-->
+            <!-- End Nav -->
+        </div><!-- end #nav-col -->		    
+    		    
+        <div id="content-col">
+            <div id="content" role="main">
+
+<div id="breadcrumb" class="clearfix" role="navigation" aria-label="Breadcrumb Navigation">
+<ul><li><a href="/">Home</a><span class="crumbsep">/</span></li><li><a href="/ucat/">Undergraduate&nbsp;Catalog</a><span class="crumbsep">/</span></li><li><a href="/ucat/colleges-depts/">Colleges&nbsp;&amp;&nbsp;Departments</a><span class="crumbsep">/</span></li><li><a href="/ucat/colleges-depts/engineering/">College&nbsp;of&nbsp;Engineering</a><span class="crumbsep">/</span></li><li><span class="active">Chemical Engineering</span></li></ul>
+</div><!-- end #breadcrumb -->
+
+			<h1 class="page-title">Department of Chemical Engineering</h1>
+
+
+<script type="text/javascript">
+//<![CDATA[
+	var defshow = "text";
+	var bodycontainer = "#body";
+	var validhashes = ",text,undergraduateprogramstext,";
+
+if(window.location.hash.length) {
+	var hash = cleanHash(window.location.hash);
+	if(validhashes.indexOf("," + hash + ",") != -1)
+		defshow = hash;	
+}
+var ss = document.styleSheets;
+var workss = null;
+for(var i=0; i < ss.length; i++) {
+	var currmedia = "";
+	if (typeof ss[i].media == "string") 
+		currmedia = ss[i].media
+	else if (typeof ss[i].media == "object" && ss[i].media.mediaText) 
+		currmedia = ss[i].media.mediaText;
+	
+	if((currmedia == "screen" || currmedia == "all") && (ss[i].href.indexOf("/") == 0 || ss[i].href.indexOf(document.location.host) >= 0)) {
+		workss = ss[i];
+		break;	
+	}
+}
+if(workss && workss.insertRule) {
+	workss.insertRule(".tab_content { display: none; }", workss.cssRules.length)
+	workss.insertRule(".sectionheader { display: none; }", workss.cssRules.length)
+	workss.insertRule("#" + defshow + "container { display: block; }", workss.cssRules.length)
+} else if(workss && workss.addRule) {
+	workss.addRule(".tab_content", "display: none");
+	workss.addRule(".sectionheader", "display: none");
+	workss.addRule("#" + defshow + "container", "display: block");
+}
+else {
+	if (window.console)
+		window.console.log('screen.css <link> needs attribute media="screen"');
+}
+//]]>
+</script>
+	<div id="tabs">
+		<ul class="clearfix" role="tablist">
+			<li id="texttab" role="presentation">
+<a href="#textcontainer" role="tab" aria-controls="textcontainer" onclick="return showSection('text');">Overview</a></li>
+			<li id="undergraduateprogramstexttab" role="presentation">
+<a href="#undergraduateprogramstextcontainer" role="tab" aria-controls="undergraduateprogramstextcontainer" onclick="return showSection('undergraduateprogramstext');" >Programs and Requirements</a></li>
+			<li id="courseinventorytab" role="presentation"><a href="#courseinventory" role="tab" aria-controls="courseinventorycontainer" onclick="return showSection('courseinventory');">Courses</a></li>
+		</ul>
+	</div>
+
+<div id="textcontainer" class="tab_content" role="tabpanel">
+
+<div class="sidebar">
+	<div id="sidebar-contact">
+
+<p class="campus_location"><span class="label"><strong>Contact Information: </strong></span>
+<br /><span class="campus_location">Campus Location: 216 Chemical Engineering Building (CEB)
+<br /><span class="phone">(312) 996-3424</span>
+<br /><span class="email"><a href="mailto:kmilla@uic.edu">kmilla@uic.edu</a></span>
+<br /><span class="website"><a href="http://www.che.uic.edu">www.che.uic.edu</a></span>
+</p>
+<p class="administration"><span class="label"><strong>Administration: </strong></span><br />Head, Dr. Vikas Berry, <a href="mailto:vikasb@uic.edu">vikasb@uic.edu</a><br />Director of Undergraduate Studies, Dr. Alan D. Zdunek, <a href="mailto:zdunek@uic.edu">zdunek@uic.edu</a><br />Student Services: Graduate/Undergraduate Program Coordinator, Karen Milla, <a href="mailto:kmilla@uic.edu">kmilla@uic.edu</a><br />Academic Advisors: Professors Berry, Chaplin, Cheng, Kim, Liu, Mehraeen, Nitsche, Sharma, Singh, Wedgewood, and Zdunek<br /></p>
+	</div>
+</div>
+
+<p>In the Chemical Engineering curriculum, students learn to apply chemistry, physics, and mathematics to the industrial-scale production of chemicals, including petroleum products, polymers, pharmaceuticals, electronic devices, and foods. This program also explores chemical engineering applications in environmental protection, waste treatment, the creation of alternative energy sources, and other frontiers, such as biotechnology, molecular engineering, microelectronic materials and nanotechnology.</p>
+<p>The BS in Chemical Engineering program offers expertise in a wide variety of areas, including thermodynamics, separation processes, transport phenomena, reactor design, combustion, and process control. Students may use elective courses to specialize in these and other areas. The program’s goal is to prepare students for careers in industry or government, and for further study at the graduate level. As the only chemical engineering department at a public university in the Chicago metropolitan area, this program provides unique opportunities for students to interact with world-class industries through research projects and internship programs.</p></div><!--end #textcontainer -->
+
+			<div id="undergraduateprogramstextcontainer" class="tab_content" role="tabpanel">
+				<a name="undergraduateprogramstext"></a><h2>Degree Programs</h2>
+<ul>
+	<li><a href="/ucat/colleges-depts/engineering/che/bs-che/">BS in Chemical Engineering</a></li>
+</ul>
+<h2>Minor</h2>
+<ul>
+	<li><a href="/ucat/colleges-depts/engineering/che/minor-che/">Minor in Chemical Engineering</a></li>
+</ul>
+			</div>
+<div id="courseinventorycontainer" class="tab_content" role="tabpanel">
+<a name="courseinventory"> </a>
+<div class="courses">
+<a name="checourses"></a>
+<h2>Courses</h2>
+
+<div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;101.  Introduction to Chemical Engineering Concepts.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Overview of engineering and chemical principles used in chemical engineering technology. Thermodynamics, transport phenomena, and reaction engineering applied to process and product design.  Course Information:  Prerequisite(s):  Credit or concurrent registration in CHEM 112 and credit or concurrent registration in <a href="/search/?P=MATH%20180" title="MATH&#160;180" class="bubblelink code" onclick="return showCourse(this, 'MATH 180');">MATH&#160;180</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;201.  Introduction To Thermodynamics.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Work and energy; conversion of energy; theory of gases and other states of matter; applications to energy conversion devices. Second Law of thermodynamics, entropy, and equilibrium, with applications. Course Information: Prerequisite(s): <a href="/search/?P=MATH%20181" title="MATH&#160;181" class="bubblelink code" onclick="return showCourse(this, 'MATH 181');">MATH&#160;181</a> and <a href="/search/?P=PHYS%20141" title="PHYS&#160;141" class="bubblelink code" onclick="return showCourse(this, 'PHYS 141');">PHYS&#160;141</a>. Class Schedule Information:  To be properly registered, students must enroll in one Discussion/Recitation and one Lecture.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;205.  Computational Methods in Chemical Engineering.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Computational methods and software relevant to unit operations. Excel spreadsheets (curve fitting, heat conduction), Matlab, Aspen Plus (process simulation), algorithms and object oriented concepts in chemical engineering. Course Information: Prerequisite(s): Credit or concurrent registration in <a href="/search/?P=CHE%20201" title="CHE&#160;201" class="bubblelink code" onclick="return showCourse(this, 'CHE 201');">CHE&#160;201</a>; and credit or concurrent registration in <a href="/search/?P=MATH%20210" title="MATH&#160;210" class="bubblelink code" onclick="return showCourse(this, 'MATH 210');">MATH&#160;210</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;210.  Material and Energy Balances.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Material and energy balances applied to chemical systems. Introduction to chemical and physical properties. Introduction to the use of computers for chemical process calculations. Course Information: Prerequisite(s): Credit or concurrent registration in <a href="/search/?P=CHE%20201" title="CHE&#160;201" class="bubblelink code" onclick="return showCourse(this, 'CHE 201');">CHE&#160;201</a>; and credit or concurrent registration in <a href="/search/?P=CHE%20205" title="CHE&#160;205" class="bubblelink code" onclick="return showCourse(this, 'CHE 205');">CHE&#160;205</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;301.  Chemical Engineering Thermodynamics.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Review of classical engineering thermodynamics. Multicomponent systems &amp; multicomponent phase equilibria. Equilibrium in chemically reacting systems, heterogeneous equilibrium, Gibbs phase rule, and electrochemical processes. Course Information: Prerequisite(s): <a href="/search/?P=CHE%20201" title="CHE&#160;201" class="bubblelink code" onclick="return showCourse(this, 'CHE 201');">CHE&#160;201</a> and <a href="/search/?P=CHE%20205" title="CHE&#160;205" class="bubblelink code" onclick="return showCourse(this, 'CHE 205');">CHE&#160;205</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;311.  Transport Phenomena I.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Momentum transport phenomena in chemical engineering. Fluid statics. Fluid mechanics; laminar and turbulent flow; boundary layers; flow over immersed bodies. Course Information: Prerequisite(s): Credit or concurrent registration in <a href="/search/?P=CHE%20210" title="CHE&#160;210" class="bubblelink code" onclick="return showCourse(this, 'CHE 210');">CHE&#160;210</a>; and <a href="/search/?P=MATH%20220" title="MATH&#160;220" class="bubblelink code" onclick="return showCourse(this, 'MATH 220');">MATH&#160;220</a>; and <a href="/search/?P=CHE%20205" title="CHE&#160;205" class="bubblelink code" onclick="return showCourse(this, 'CHE 205');">CHE&#160;205</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;312.  Transport Phenomena II.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Heat and mass transport phenomena. Heat conduction, convection and radiation. Heat exchanger design. Diffusion. Mass transfer coefficients. Course Information: Prerequisite(s): <a href="/search/?P=CHE%20311" title="CHE&#160;311" class="bubblelink code" onclick="return showCourse(this, 'CHE 311');">CHE&#160;311</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;313.  Transport Phenomena III.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Mass transfer and phase equilibria. Multistage separations; applications in distillation; extraction; absorption and drying. Course Information: Prerequisite(s): <a href="/search/?P=CHE%20301" title="CHE&#160;301" class="bubblelink code" onclick="return showCourse(this, 'CHE 301');">CHE&#160;301</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;321.  Chemical Reaction Engineering.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Kinetics of homogeneous single reactions. Ideal reactors: batch, stirred tank and plug flow systems. Conversion and yield in multiple reactions. Design and optimization of reactors. Non-isothermal reactors. Course Information: Prerequisite(s): <a href="/search/?P=CHE%20210" title="CHE&#160;210" class="bubblelink code" onclick="return showCourse(this, 'CHE 210');">CHE&#160;210</a>; and <a href="/search/?P=MATH%20220" title="MATH&#160;220" class="bubblelink code" onclick="return showCourse(this, 'MATH 220');">MATH&#160;220</a>; and <a href="/search/?P=CHE%20301" title="CHE&#160;301" class="bubblelink code" onclick="return showCourse(this, 'CHE 301');">CHE&#160;301</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;341.  Chemical Process Control.  3 hours.</strong></p>
+<p class="courseblockdesc">
+Analysis and design of chemical processes and control systems. Feedback and feedforward controllers. Stability, tuning, and simulation of P-I-D controllers. Introduction to the control of chemical plants and digital process control. Course Information: Prerequisite(s): <a href="/search/?P=MATH%20220" title="MATH&#160;220" class="bubblelink code" onclick="return showCourse(this, 'MATH 220');">MATH&#160;220</a> and <a href="/search/?P=CHE%20312" title="CHE&#160;312" class="bubblelink code" onclick="return showCourse(this, 'CHE 312');">CHE&#160;312</a> and <a href="/search/?P=CHE%20313" title="CHE&#160;313" class="bubblelink code" onclick="return showCourse(this, 'CHE 313');">CHE&#160;313</a> and <a href="/search/?P=CHE%20321" title="CHE&#160;321" class="bubblelink code" onclick="return showCourse(this, 'CHE 321');">CHE&#160;321</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;381.  Chemical Engineering Laboratory I.  2 hours.</strong></p>
+<p class="courseblockdesc">
+Heat and momentum transfer operations associated with chemical processes. These include heat exchangers, fluid properties, and fluid flow. Technical report writing, computer calculations. Course Information: Prerequisite(s): <a href="/search/?P=CHE%20312" title="CHE&#160;312" class="bubblelink code" onclick="return showCourse(this, 'CHE 312');">CHE&#160;312</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;382.  Chemical Engineering Laboratory II.  2 hours.</strong></p>
+<p class="courseblockdesc">
+Heat momentum and mass transfer operations associated with chemical processes; these include distillation columns, reactors, humidifiers, and evaporators. Course Information: Prerequisite(s): <a href="/search/?P=CHE%20381" title="CHE&#160;381" class="bubblelink code" onclick="return showCourse(this, 'CHE 381');">CHE&#160;381</a> and concurrent registration in <a href="/search/?P=CHE%20313" title="CHE&#160;313" class="bubblelink code" onclick="return showCourse(this, 'CHE 313');">CHE&#160;313</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;392.  Undergraduate Research.  1-3 hours.</strong></p>
+<p class="courseblockdesc">
+Undergraduate research project in any area of Chemical Engineering. Projects may be theoretical, experimental, or literature surveys. Course Information: May be repeated. Students may register in more than one section per term. Prerequisite(s): Consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;396.  Senior Design I.  4 hours.</strong></p>
+<p class="courseblockdesc">
+Introduction to modern, process design and development, engineering economics, and report writing. Design and cost of equipment relating to materials handling to heat transfer, mass transfer, and reactors. Course Information: Prerequisite(s): <a href="/search/?P=CHE%20312" title="CHE&#160;312" class="bubblelink code" onclick="return showCourse(this, 'CHE 312');">CHE&#160;312</a> and <a href="/search/?P=CHE%20313" title="CHE&#160;313" class="bubblelink code" onclick="return showCourse(this, 'CHE 313');">CHE&#160;313</a> and <a href="/search/?P=CHE%20321" title="CHE&#160;321" class="bubblelink code" onclick="return showCourse(this, 'CHE 321');">CHE&#160;321</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;397.  Senior Design II.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Application of principles and design methodology of chemical engineering to the design of large-scale chemical processes and plants. A major design project is assigned for solution and presentation by students working in small groups. Course Information: Extensive computer use required. Continuing students will take the course for 3 hours and students entering in Fall 2016 will take the course for 4 hours. Prerequisite(s): <a href="/search/?P=CHE%20396" title="CHE&#160;396" class="bubblelink code" onclick="return showCourse(this, 'CHE 396');">CHE&#160;396</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;410.  Transport Phenomena.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Continuum theory of momentum, energy, and mass transfer. Viscous behavior of fluids. Laminar and turbulent flow. Thermal conduction and convection, diffusion and coupled operations. Course Information: Same as <a href="/search/?P=MENG%20410" title="MENG&#160;410" class="bubblelink code" onclick="return showCourse(this, 'MENG 410');">MENG&#160;410</a>. 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CHE%20312" title="CHE&#160;312" class="bubblelink code" onclick="return showCourse(this, 'CHE 312');">CHE&#160;312</a> or consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;413.  Introduction to Flow in Porous Media.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Theoretical modeling of single-phase and multiphase flow in porous media. Darcy's law and relative permeabilities. Oil production and hydrology. Capillary phenomena. Dispersion and miscible displacement. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CHE%20312" title="CHE&#160;312" class="bubblelink code" onclick="return showCourse(this, 'CHE 312');">CHE&#160;312</a> or consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;421.  Combustion Engineering.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Combustion chemistry and thermochemistry. Kinetics and mechanism of combustion; ignition and pollutant formation. Detonation and deflagration; premixed and diffusion flames. Surface reaction and droplet combustion. Applications. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CHE%20301" title="CHE&#160;301" class="bubblelink code" onclick="return showCourse(this, 'CHE 301');">CHE&#160;301</a> and <a href="/search/?P=CHE%20321" title="CHE&#160;321" class="bubblelink code" onclick="return showCourse(this, 'CHE 321');">CHE&#160;321</a>.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;422.  Biochemical Engineering.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Enzyme-catalyzed and microbially-mediated processes. Free and immobilized enzymes. Batch and continuous cell cultures. Transport phenomena in microbial systems and fermentation processes. Design of biological reactors. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): Consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;423.  Catalytic Reaction Engineering.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Catalytic reactions which occur under conditions for which heat and mass transfer cannot be neglected are considered. Includes porosimetry, surface area measurements and catalyst deactivation. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CHE%20321" title="CHE&#160;321" class="bubblelink code" onclick="return showCourse(this, 'CHE 321');">CHE&#160;321</a> or consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;425.  Nanotechnology for Pharmaceutical Applications.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Emerging role of nanostructures in drug development and delivery. Principles of nanostructure formation, characterization, surface functionalization, in vitro and in vivo transport, and visualization. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CHE%20301" title="CHE&#160;301" class="bubblelink code" onclick="return showCourse(this, 'CHE 301');">CHE&#160;301</a> and <a href="/search/?P=CHE%20311" title="CHE&#160;311" class="bubblelink code" onclick="return showCourse(this, 'CHE 311');">CHE&#160;311</a> and <a href="/search/?P=CHE%20312" title="CHE&#160;312" class="bubblelink code" onclick="return showCourse(this, 'CHE 312');">CHE&#160;312</a>; or consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;431.  Numerical Methods in Chemical Engineering.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Introduction to the application of numerical methods to the solution of complex and often non-linear mathematical problems in chemical engineering. Includes methods for the solution of problems arising in phase and chemical reaction equilibria, chemical kinetics, and transport. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): Graduate or advanced undergradate standing.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;433.  Process Simulation With Aspen Plus.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Application of Aspen Plus to design, modeling and simulation of process flow sheets. Property models, unit operations, heat integration and pinch analysis, electrolytes, nonconventional solids (e.g., coal), computational aspects. Course Information: <a href="/search/?P=CHE%20312" title="CHE&#160;312" class="bubblelink code" onclick="return showCourse(this, 'CHE 312');">CHE&#160;312</a> and <a href="/search/?P=CHE%20313" title="CHE&#160;313" class="bubblelink code" onclick="return showCourse(this, 'CHE 313');">CHE&#160;313</a> and <a href="/search/?P=CHE%20321" title="CHE&#160;321" class="bubblelink code" onclick="return showCourse(this, 'CHE 321');">CHE&#160;321</a>; or consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;438.  Computational Molecular Modeling.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Provide students with a fundamental understanding of the methods, capabilities and limitations of molecular simulations. Course Information: Same as <a href="/search/?P=MENG%20412" title="MENG&#160;412" class="bubblelink code" onclick="return showCourse(this, 'MENG 412');">MENG&#160;412</a>. 3 undergraduate hours. 4 graduate hours. Extensive computer use required. Prerequisite(s): <a href="/search/?P=CHE%20301" title="CHE&#160;301" class="bubblelink code" onclick="return showCourse(this, 'CHE 301');">CHE&#160;301</a>. Recommended background:  Engineering/Science.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;440.  Non-Newtonian Fluids.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Fluid mechanics and transport processes involving non-Newtonian fluids. Purely viscous and viscoelastic behavior. Viscometric functions and rheometry. Heat and mass transfer in non-Newtonian fluids. Course Information: Same as <a href="/search/?P=MENG%20411" title="MENG&#160;411" class="bubblelink code" onclick="return showCourse(this, 'MENG 411');">MENG&#160;411</a>. 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=CHE%20410" title="CHE&#160;410" class="bubblelink code" onclick="return showCourse(this, 'CHE 410');">CHE&#160;410</a> or <a href="/search/?P=MENG%20410" title="MENG&#160;410" class="bubblelink code" onclick="return showCourse(this, 'MENG 410');">MENG&#160;410</a> or consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;441.  Computer Applications in Chemical Engineering.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Nonnumerical applications of computers: artificial intelligence and expert systems for chemical engineering design and online diagnosis; data acquisition and control for digital process control; process design calculations. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): Senior standing in chemical engineering.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;445.  Mathematical Methods In Chemical Engineering.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Advanced mathematical techniques in chemical engineering. Includes infinite series in thermodynamic perturbation theory; Laplace transforms in process control; chemical diffusion transport theories and differential equations. Course Information: 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=MATH%20220" title="MATH&#160;220" class="bubblelink code" onclick="return showCourse(this, 'MATH 220');">MATH&#160;220</a> or the equivalent.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;450.  Air Pollution Engineering.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Environmental aspects of combustion processes, pollutant formation. Control of pollutants and particulates. Air quality control. Fundamentals of combustion. Course Information: Same as <a href="/search/?P=ME%20450" title="ME&#160;450" class="bubblelink code" onclick="return showCourse(this, 'ME 450');">ME&#160;450</a>. 3 undergraduate hours. 4 graduate hours. Prerequisite(s): <a href="/search/?P=ME%20321" title="ME&#160;321" class="bubblelink code" onclick="return showCourse(this, 'ME 321');">ME&#160;321</a> or consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;451.  Renewable Energy Technologies.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Fundamentals of renewable energy technologies; solar, wind, biomass. Introduction to energy storage technologies; batteries and fuel cells, and analysis of the hydrogen economy. Course Information: 3 undergraduate. 4 graduate hours.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;456.  Fundamentals and Design of Microelectronics Processes.  3 or 4 hours.</strong></p>
+<p class="courseblockdesc">
+Design and practical aspects of the most advanced state of micro- and nano-electronics processing with emphasis on thin film deposition, substrate passivation, lithography and etching with thermodynamics, kinetics, reactor design, and optimization. Course Information: Same as <a href="/search/?P=MENG%20413" title="MENG&#160;413" class="bubblelink code" onclick="return showCourse(this, 'MENG 413');">MENG&#160;413</a>. 3 undergraduate hours. 4 graduate hours. Extensive computer use required.  Prerequisite(s):  Graduate standing or consent of the instructor. Recommended background:  Engineering/Science.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;494.  Selected Topics in Chemical Engineering.  1-4 hours.</strong></p>
+<p class="courseblockdesc">
+Systematic study of selected topics in chemical engineering theory and practice. Course Information: May be repeated. Students may register in more than one section per term. Prerequisite(s): Consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;496.  Undergraduate Senior Design Thesis I.  0-8 hours.</strong></p>
+<p class="courseblockdesc">
+Introduction to modern process design and development, engineering economics of chemical processes and equipment,  process simulation, report writing and presentations, literature survey and undergraduate thesis. Course Information: Extensive computer use required. Prerequisite(s):
+Consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;497.  Undergraduate Senior Design Thesis II.  0-8 hours.</strong></p>
+<p class="courseblockdesc">
+Applications of modern process design principles and design methodology to large-scale chemical processes and plants; team design project with industrial mentor, process simulation, reports, presentations, literature survey and undergraduate thesis. Course Information: Extensive computer use required. Prerequisite(s): Consent of the instructor.<br />
+</p>
+</div><div class="courseblock">
+<p class="courseblocktitle"><strong>CHE&#160;499.  Professional Development Seminar.  0 hours.</strong></p>
+<p class="courseblockdesc">
+Students are provided general information about their roles as UIC Chemical Engineering alumni in society and the role of the University in their future careers. Students provide evaluations of their educational experience in the Chemical Engineering Department. Course Information: Satisfactory/Unsatisfactory grading only. Prerequisite(s): Open only to seniors; and approval of the department. Must be taken in the student's last semester of study.<br />
+</p>
+</div>
+</div>
+</div>
+
+            </div> <!-- end #content -->
+        </div><!--end #content-col -->
+    </div><!-- end #container -->
+</div><!-- end #wrapper --> 
+
+<div id="footer" class="clearfix" role="contentinfo">
+    <div class="wrap">
+        <div id="foot-logo">
+            <a href="/">University of Illinois at Chicago</a>
+        </div><!-- end #foot-logo -->
+        
+        <p><a href="http://admissions.uic.edu/apply-now">Apply Online</a> | <a href="http://admissions.uic.edu/contact-admissions">Contact Admissions</a> | <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Statement</a><br />
+        Having problems accessing this site? <a href="mailto:ccmelby@uic.edu">Contact the Webmaster</a>.<br />
+        &copy; 2017-2018 The Board of Trustees of the University of Illinois</p>
+    </div>
+</div><!-- end #footer -->
+
+<a href="#header" id="totop">Back to Top</a>
+
+<div id="print-dialog" class="screen noscript">
+	<div class="print-header">
+		Print Options
+	</div>
+	<div class="print-body">
+		<div class="print-option">
+			<div class="option-head">
+				<a href="#" onclick="hidePrintDialog();window.print();return false;">Send Page to Printer</a>
+			</div>
+			<p>
+				<em>Print this page.</em>
+			</p>
+		</div>
+
+
+<div class="print-option"><div class="option-head"><a href="che.pdf" target="_blank">Download PDF of this page</a></div><p><em>The PDF will include all information unique to this page.</em></p></div>
+<div class="print-option">
+			<div class="option-head">
+				<a href="/pdf/2017-2019_undergraduate.pdf">Download PDF of the entire Undergraduate Catalog</a>
+			</div>
+			<p>
+				<em>All pages in the campus catalog.</em>
+			</p>
+		</div>
+
+	</div>
+	
+	<div class="buttons clearfix">
+		<div class="cancel">
+			<a href="#" onclick="hidePrintDialog(); return false;">Cancel</a>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

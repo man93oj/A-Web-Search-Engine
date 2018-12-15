@@ -1,0 +1,276 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { (function(){function e(a){this.t={};this.tick=function(a,c,b){this.t[a]=[void 0!=b?b:(new Date).getTime(),c];if(void 0==b)try{window.console.timeStamp("CSI/"+a)}catch(h){}};this.tick("start",null,a)}var a;if(window.performance)var d=(a=window.performance.timing)&&a.responseStart;var f=0<d?new e(d):new e;window.jstiming={Timer:e,load:f};if(a){var c=a.navigationStart;0<c&&d>=c&&(window.jstiming.srt=d-c)}if(a){var b=window.jstiming.load;0<c&&d>=c&&(b.tick("_wtsrt",void 0,c),b.tick("wtsrt_","_wtsrt",
+d),b.tick("tbsd_","wtsrt_"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),b&&0<c&&(b.tick("_tbnd",void 0,window.chrome.csi().startE),b.tick("tbnd_","_tbnd",c))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,b&&0<c&&(b.tick("_tbnd",void 0,window.external.startE),b.tick("tbnd_","_tbnd",c))),a&&(window.jstiming.pt=a)}catch(g){}})(); })()
+</script>
+<link rel="shortcut icon" href="/_/rsrc/1396132853395/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="http://www.gstatic.com/sites/p/a35f98/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { function d(a){return document.getElementById(a)}window.byId=d;function g(a){return a.replace(/^\s+|\s+$/g,"")}window.trim=g;var h=[],k=0;window.JOT_addListener=function(a,b,c){var f=new String(k++);a={eventName:a,handler:b,compId:c,key:f};h.push(a);return f};window.JOT_removeListenerByKey=function(a){for(var b=0;b<h.length;b++)if(h[b].key==a){h.splice(b,1);break}};window.JOT_removeAllListenersForName=function(a){for(var b=0;b<h.length;b++)h[b].eventName==a&&h.splice(b,1)};
+window.JOT_postEvent=function(a,b,c){var f={eventName:a,eventSrc:b||{},payload:c||{}};if(window.JOT_fullyLoaded)for(b=h.length,c=0;c<b&&c<h.length;c++){var e=h[c];e&&e.eventName==a&&(f.listenerCompId=e.compId||"",(e="function"==typeof e.handler?e.handler:window[e.handler])&&e(f))}else window.JOT_delayedEvents.push({eventName:a,eventSrc:b,payload:c})};window.JOT_delayedEvents=[];window.JOT_fullyLoaded=!1;
+window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1440<=a||0>a)return null;var c=0;60<=a&&(a/=60,c=2);2<=a&&c++;return b?window.JOT_siteRelTimeStrs[c].replace("__duration__",Math.floor(a)):window.JOT_userRelTimeStrs[c].replace("__duration__",Math.floor(a))}; })()
+</script>
+<script>
+
+  
+
+  var breadcrumbs = [{"path":"/home","deleted":false,"title":"Home","dir":"ltr"}];
+  var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/a35f98/system/app/images/cleardot.gif';
+
+  
+  var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+  
+  
+
+  
+
+  var webspace = {"gvizGstaticVersion":"current","enableAnalytics":true,"pageSharingId":"jotspot_page","codeembeds":{"outerIframeSrc":"https://www.gstatic.com/jotspot/embeds/code/0f08d42392f2000e7e3f3daf5b427a43/outer_iframe.html","innerIframeSrc":"https://1521606548-jotspot-embeds.googleusercontent.com/code/8d87fa64604b2a11fae2ed06104c58d3/inner_iframe.html"},"enableUniversalAnalytics":false,"sharingPolicy":"OPENED_WITH_INDICATOR","siteTitle":"Saggere Lab","jot2atari":{"eligibility":"ineligible"},"onepickUrl":"https://docs.google.com/picker","adsensePublisherId":null,"features":{"oAuthForChartsApi":true,"moreMobileStyleImprovements":null,"googleChartsOverGstatic":false,"picasaAlbumInsert":false,"pageDrafts":false,"enableJot2Atari":true,"plusBadge":false,"pdfEmbedSupport":false},"isPublic":true,"newSitesBaseUrl":"https://sites.google.com","isConsumer":false,"serverFlags":{"jot2AtariLearnMoreUrl":"https://support.google.com/sites/answer/7035197"},"domainAnalyticsAccountId":"","plusPageId":"","signInUrl":"https://accounts.google.com/AccountChooser?continue\u003dhttp://sites.google.com/a/uic.edu/saggere/home\u0026service\u003djotspot","analyticsAccountId":"UA-29526794-1","scottyUrl":"/_/upload","homePath":"/","siteNoticeUrlEnabled":null,"plusPageUrl":"","adsensePromoClickedOrSiteIneligible":true,"csiReportUri":"http://csi.gstatic.com/csi","sharingId":"jotspot","termsUrl":"//www.google.com/intl/en/policies/terms/","gvizVersion":1,"editorResources":{"sitelayout":["http://www.gstatic.com/sites/p/a35f98/system/app/css/sitelayouteditor.css"],"text":["http://www.gstatic.com/sites/p/a35f98/system/js/codemirror.js","http://www.gstatic.com/sites/p/a35f98/system/app/css/codemirror_css.css","http://www.gstatic.com/sites/p/a35f98/system/js/trog_edit__en.js","http://www.gstatic.com/sites/p/a35f98/system/app/css/trogedit.css","/_/rsrc/1543480740000/system/app/css/editor.css","http://www.gstatic.com/sites/p/a35f98/system/app/css/codeeditor.css","/_/rsrc/1543480740000/system/app/css/camelot/editor-jfk.css"]},"sharingUrlPrefix":"/_/sharing","isAdsenseEnabled":true,"domain":"uic.edu","baseUri":"","name":"saggere","siteTemplateId":false,"siteNoticeRevision":null,"siteNoticeUrlAddress":null,"siteNoticeMessage":null,"page":{"isRtlLocale":false,"canDeleteWebspace":null,"isPageDraft":null,"parentPath":null,"parentWuid":null,"siteLocale":"en","timeZone":"America/Los_Angeles","type":"text","title":"Home","locale":"en","wuid":"wuid:gx:7c61f1dbab10a4c","revision":757,"path":"/home","isSiteRtlLocale":false,"pageInheritsPermissions":null,"name":"home","canChangePath":false,"state":"","properties":{},"bidiEnabled":false,"currentTemplate":{"path":"/system/app/pagetemplates/text","title":"Web Page"}},"canPublishScriptToAnyone":true,"user":{"keyboardShortcuts":true,"sessionIndex":"","onePickToken":"","guest_":true,"displayNameOrEmail":"guest","userName":"guest","uid":"","renderMobile":false,"domain":"","namespace":"","hasWriteAccess":false,"namespaceUser":false,"primaryEmail":"guest","hasAdminAccess":false},"gadgets":{"baseUri":"/system/app/pages/gadgets"}};
+  webspace.page.breadcrumbs = breadcrumbs;
+
+  
+  var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="google-site-verification" content="Br9LGjhFBjRngJmkguxUFymbVsqHQbCr3fopKfSfBxg" />
+<meta name="title" content="Saggere Lab" />
+<meta itemprop="name" content="Saggere Lab" />
+<meta property="og:title" content="Saggere Lab" />
+<style type="text/css">
+</style>
+<link rel="stylesheet" type="text/css" href="http://www.gstatic.com/sites/p/a35f98/system/app/themes/simple/standard-css-simple-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1543480740000/system/app/css/overlay.css?cb=simple1091a1000px91119goog-ws-nav-nosidecontent30themedefaultstandard" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1543480740000/system/app/css/camelot/allthemes-view.css" />
+<!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+<title>Saggere Lab</title>
+<meta itemprop="image" content="http://saggere.uic.edu/_/rsrc/1408832725335/home/Saggere-small.png?height=30%25&amp;width=30%25" />
+<meta property="og:image" content="http://saggere.uic.edu/_/rsrc/1408832725335/home/Saggere-small.png?height=30%25&amp;width=30%25" />
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en            ">
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything" class="">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0" style="">
+<tr class="sites-header-primary-row" id="sites-chrome-userheader">
+<td id="sites-header-title" class="" role="banner" style="height: 91px"><div class="sites-header-cell-buffer-wrapper"><a href="http://saggere.uic.edu/" id="sites-chrome-userheader-logo"><img id="logo-img-id" src="/_/rsrc/1410156315702/config/customLogo.gif?revision=59" alt="Saggere Lab" class="sites-logo  " /></a><h2></h2></div></td><td class="sites-layout-searchbox  "></td>
+</tr>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container" role="navigation">
+<div class="sites-header-nav"><ul class="sites-header-nav-container-links"><li class="current"><a class="sites-navigation-link current" href="/home">Home</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="/people">People</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="/research">Research</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="/publications">Publications</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="/resources">Resources</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="/media">Media</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="/awards">Awards</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="/news">News</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="/openings">Positions</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="/contact">Contact</a></li></ul><div style="clear: both;"></div></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
+<tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left" style="display: none; width: 119px">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_34749439927592307" class="sites-embed" role="navigation"><div class="sites-embed-content sites-sidebar-nav"><ul role="navigation" jotId="navList" class="has-expander"><li class="topLevel nav-first "><div dir="ltr" style="padding-left: 19px;"><a href="/research" jotId="wuid:gx:2d53a34f10c46b8b" class="sites-navigation-link topLevel">Research</a></div></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="/resources" jotId="wuid:gx:5c4748e4be4d3349" class="sites-navigation-link topLevel">Resources</a></div></li><li class="topLevel parent " wuid="gx:2a70effdcc9b3c77"><div dir="ltr" style="padding-left: 0px;"><div class="expander"></div><a href="/publications" jotId="wuid:gx:2a70effdcc9b3c77" class="sites-navigation-link topLevel">Publications</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/publications/journal" jotId="wuid:gx:539b0cb2e26f1db9" class="sites-navigation-link">Journal</a></div></li></ul></li></ul></div></div>
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas" role="main">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="display: none;">
+</div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="display: none;" align="left">
+<span id="sites-page-title" dir="ltr" tabindex="-1" style="outline: none">Home</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-layout-name-three-column-hf sites-layout-vbox"><div class="sites-layout-tile sites-tile-name-header"><div dir="ltr"><div class="sites-embed-align-center-wrapping-off"><div class="sites-embed-border-off sites-embed sites-embed-full-width" style="width:100%;"><div class="sites-embed-content sites-embed-type-ggs-gadget"><iframe title="Vignettes of our research" width="100%" height="280" scrolling="no" frameborder="0" id="732984055" name="732984055" allowtransparency="true" class="igm" src="//emnikv6fkkb6l1pdpikqd0dhjl15ss1c-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://sites.google.com/site/scriptsexamples/Presentation-to-slideshow.xml&amp;container=enterprise&amp;view=default&amp;lang=en&amp;country=ALL&amp;sanitize=0&amp;v=789a720ea2592185&amp;libs=core:setprefs&amp;mid=118&amp;parent=http://saggere.uic.edu/#up_backgroundColor=white&amp;up_url=https://docs.google.com/presentation/d/1_0l-wL5t6uQ7OFb8F8cb2cicu8R3ZvjQdsBx6V_AL60/pub?start%3Dtrue%26loop%3Dtrue%26delayms%3D5000&amp;up_autoStart=true&amp;st=e%3DAIHE3cBXETYbc3UBbrxB%252FE0QUXeZcY%252FGfGINHT05cTHe8EVD1AXCUW%252BY2J0E9vdLJpKObK4bcIpAb6Y%252FGOXBLQOty%252B4O214svhfq0ErkyNeWVkzsInXfwC1cvNEq7TPIVc0SpGrYAJd0%26c%3Denterprise&amp;rpctoken=6088033696979269843"></iframe></div></div></div>
+<div style="background-color:#ffffff;height:10px;width:100%;float:left"></div>
+<div style="background-color:#c8c8c8;height:1px;width:100%;float:left"></div>
+<div style="background-color:#ffffff;height:0px;width:100%;float:left"></div></div></div><table cellspacing="0" class="sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div style="background-color:#ffffff;height:100%;width:100%;float:left;border-right:1px solid;border-color:#c8c8c8">
+<h3><a name="TOC-Welcome"></a><span style="font-weight:bold;color:#2c5581;margin-left:0em;margin-right:0em"><font face="Century Gothic">Welcome</font></span></h3>
+<p style="margin-left:0em;margin-right:1em">
+<img alt="https://sites.google.com/a/uic.edu/saggere/home/Saggere-small.png" border="0" height="30%" src="http://saggere.uic.edu/_/rsrc/1408832725335/home/Saggere-small.png?height=30%25&amp;width=30%25" style="float:left;margin:0px 15px 5px 0px" width="30%" />
+<font face="Arial">
+Our research is focused on synthesis and applications of the MEMS/NEMS technology. We seek to create novel micro- and nano-scale devices with advanced functionalities through biomimetics and bioinspired design paradigms. We also exploit micro/nano technology to study fundamental mechanisms in physical and biological systems at small scales. The ultimate goal of our research is to enable new advanced applications of MEMS/NEMS in biomedical, nanomanufacturing and other areas.</font></p>
+<table border="0" cellspacing="0" style="border-collapse:collapse;border-width:0px;vertical-align:middle">
+<tbody>
+<tr>
+<td style="width:40px;height:86px"><img border="0" src="http://saggere.uic.edu/_/rsrc/1411329073262/home/contact-address.png" style="float:left;margin:2px 0px 0px 0px" />
+</td>
+<td style="width:260px;height:86px;vertical-align:middle">
+Prof. Laxman Saggere<br />
+<a href="http://www.mie.uic.edu/" target="_blank">Mechanical and Industrial Engineering</a><br />
+<a href="http://www.uic.edu/" target="_blank">University of Illinois at Chicago</a><br />
+2039 ERF, 842 W Taylor St.<br />
+Chicago, IL 60607 USA</td>
+</tr>
+<tr>
+<td style="width:40px;height:24px;vertical-align:middle"><img border="0" src="http://saggere.uic.edu/_/rsrc/1411318377104/home/contact-phone.png" style="float:left;margin:0px 0px 0px 0px" />
+</td>
+<td style="width:260px;height:24px;vertical-align:middle">+1 (312) 413-1031</td>
+</tr>
+<tr>
+<td style="width:40px;height:24px;vertical-align:middle"><img border="0" src="http://saggere.uic.edu/_/rsrc/1411318398779/home/contact-email.png" />
+</td>
+<td style="width:260px;height:24px;vertical-align:middle"><a href="mailto:saggere@uic.edu?Subject=">EMail Laxman Saggere</a></td>
+</tr>
+</tbody>
+</table>
+</div></div></td><td class="sites-layout-tile sites-tile-name-content-2"><div dir="ltr"><div style="background-color:#ffffff;height:100% x;width:100%;float:left;border-right:1px solid;border-color:#c8c8c8;margin-left:9px">
+<h3><a name="TOC-Research"></a><span style="font-weight:bold;color:#2c5581;margin-left:0em;margin-right:1em"><font face="Century Gothic">Research</font></span></h3>
+<p style="margin-left:0em;margin-top:1em;margin-right:10px">The multidisciplinary research in the lab may be grouped under the following three thrust areas:</p>
+<div style="vertical-align:middle">
+<p style="margin-left:0em;margin-right:1em">
+<img alt="bullet point" border="0" height="9px" src="http://saggere.uic.edu/_/rsrc/1320561786229/home/arrow.png?height=9px&amp;width=10px" style="vertical-align:bottom;float:left;margin:10px 5px 0px 0px" width="10px" />
+<font size="3" style="font-weight:normal;color:#404040;line-height:2.0">BioMEMS and Neural Interfaces</font><br />
+<img alt="https://sites.google.com/a/uic.edu/saggere/home/RGC-stimulation.png" border="0" height="60px" src="http://saggere.uic.edu/_/rsrc/1410021127862/home/RGC-stimulation.png?height=60px&amp;width=60px" style="vertical-align:bottom;float:left;margin:2px 15px 2px 0px" width="60px" />Biomimetic chemical stimulation of neurons and development of neurotransmitter-based implants for neurodegenerative diseases. BMIs.</p>
+<p style="margin-left:0em;margin-right:1em">
+<img alt="bullet point" border="0" height="9px" src="http://saggere.uic.edu/_/rsrc/1320561786229/home/arrow.png?height=9px&amp;width=10px" style="vertical-align:bottom;float:left;margin:10px 5px 0px 0px" width="10px" />
+<font size="3" style="font-weight:normal;color:#404040;line-height:2.0">Piezoelectric Sensors and Actuators</font><br />
+<img alt="https://sites.google.com/a/uic.edu/saggere/home/Actuator.png" border="0" height="60px" src="http://saggere.uic.edu/_/rsrc/1409459931240/home/Actuator.png?height=60px&amp;width=60px" style="vertical-align:bottom;float:left;margin:2px 15px 0px 2px" width="60px" />Design and development of novel transducers. opto-MEMS, thin-film piezoelectric actuators. Bioinspired tactile and flow sensors.</p>
+<p style="margin-left:0em;margin-right:1em">
+<img alt="bullet point" border="0" height="9px" src="http://saggere.uic.edu/_/rsrc/1320561786229/home/arrow.png?height=9px&amp;width=10px" style="vertical-align:bottom;float:left;margin:10px 5px 0px 0px" width="10px" />
+<font size="3" style="font-weight:normal;color:#404040;line-height:2.0">Compliant Mechanisms and Robotics</font><br />
+<img alt="https://sites.google.com/a/uic.edu/saggere/home/MClasp.png" border="0" height="60px" src="http://saggere.uic.edu/_/rsrc/1409458238436/home/MClasp.png?height=60px&amp;width=60px" style="vertical-align:bottom;float:left;margin:2px 15px 0px 2px" width="60px" />Synthesis and development of compliant micro-mechanisms and micro-manipulators for coordinated manipulation and microassembly.
+</p>
+</div>
+</div></div></td><td class="sites-layout-tile sites-tile-name-content-3"><div dir="ltr"><div style="background-color:#ffffff;height:100%;width:100%;float:left;margin-left:18px">
+<h3><a name="TOC-News-and-Events"></a><span style="font-weight:bold;color:#2c5581;margin-left:0em;margin-right:0em"><font face="Century Gothic">News and Events</font></span></h3>
+<p style="margin-left:0em;margin-right:2em">
+<font face="Century Gothic" style="font-weight:bold;color:#404040;line-height:1.3">Corey presents at EMBC2014</font><br />
+<img alt="https://sites.google.com/a/uic.edu/saggere/home/embc2014.png" border="0" height="60px" src="http://saggere.uic.edu/_/rsrc/1409591259868/home/embc2014.png?height=60px&amp;width=60px" style="vertical-align:bottom;float:left;margin:2px 15px 0px 0px" width="60px" />August 28, 2014<br />
+Corey presented a poster/paper at the IEEE EMBC 2014 conference in Chicago.</p>
+<p style="margin-left:0em;margin-right:2em">
+<font face="Century Gothic" style="font-weight:bold;color:#404040;line-height:1.3">The lab moves to a new location </font><br />
+<img alt="https://sites.google.com/a/uic.edu/saggere/home/lab_move.png" border="0" height="60px" src="http://saggere.uic.edu/_/rsrc/1410073063137/home/lab_move.png?height=60px&amp;width=60px" style="vertical-align:bottom;float:left;margin:2px 15px 0px 0px" width="60px" />July 15, 2014<br />
+We finally completed the lab move to a new room after several months of updating the new lab space.</p>
+<p style="margin-left:0em;margin-right:2em">
+<font face="Century Gothic" style="font-weight:bold;color:#404040;line-height:1.3">Ashwin joins the Lab</font><br />
+<img alt="https://sites.google.com/a/uic.edu/saggere/home/Ashwin.png" border="0" height="60px" src="http://saggere.uic.edu/_/rsrc/1410068948404/home/Ashwin.png?height=60px&amp;width=60px" style="vertical-align:bottom;float:left;margin:2px 15px 0px 0px" width="60px" />February 15, 2014<br />
+Ashwin Raghunathan joined the lab to pursue a PhD degree. Welcome Ashwin!</p>
+<p style="margin-left:0em;margin-right:2em">
+<font face="Century Gothic" style="font-weight:bold;color:#404040;line-height:1.3">Gözde wins the Litvin Award</font><br />
+<img alt="https://sites.google.com/a/uic.edu/saggere/home/Gozde.png" border="0" height="60px" src="http://saggere.uic.edu/_/rsrc/1409552246381/home/Gozde.png?height=60px&amp;width=60px" style="vertical-align:bottom;float:left;margin:2px 15px 0px 0px" width="60px" />August 16, 2013<br />
+Gözde Tanil receives the Litvin Honor Award. She joins the lab. Welcome and congrats Gozde!</p>
+</div></div></td></tr></tbody></table><div class="sites-layout-tile sites-tile-name-footer"><div dir="ltr"><div style="background-color:#fffff;height:0px;width:100%;float:left"></div>
+<div style="background-color:#ff0000;height:0px;width:100%;float:left"></div></div></div></div>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div id="sites-attachments-container">
+</div>
+</div>
+</div> 
+</td> 
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-subfooter"><div class="sites-subfooter-content"><div dir="ltr"><p style="text-align:center"><font color="#404040" face="Calibri" size="2" style="text-decoration:none">
+<a href="http://www.mie.uic.edu/" style="text-decoration:none;color:#404040" target="_blank">Department of Mechanical and Industrial Engineering</a>     ♦     <a href="http://www.engr.uic.edu/" style="text-decoration:none;color:#404040" target="_blank">College of Engineering</a>    ♦     <a href="http://www.uic.edu/" style="text-decoration:none;color:#404040" target="_blank">University of Illinois at Chicago</a></font><font color="#404040" face="Calibri" size="2" style="text-decoration:none">    ♦    <a href="https://www.vpaa.uillinois.edu/resources/web_privacy" target="_blank">Privacy Policy</a></font></p>
+<p style="text-align:center"><font color="#404040" face="Calibri" size="2">© Copyright 2014  Laxman Saggere.</font></p></div></div></div>
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-adminfooter-container">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter" role="navigation"><p><a class="sites-system-link" href="http://sites.google.com/a/uic.edu/saggere/system/app/pages/reportAbuse" target="_blank">Report Abuse</a><span aria-hidden="true">|</span><span class="sites-system-link">Powered By</span> <b class="powered-by"><a href="http://sites.google.com/site">Google Sites</a></b></p></div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-onebar-footer">
+</div>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="http://www.gstatic.com/sites/p/a35f98/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("34749439927592307", "Navigation", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_34749439927592307');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+  setTimeout(function() {
+    var fingerprint = gsites.date.TimeZone.getFingerprint([1109635200000, 1128902400000, 1130657000000, 1143333000000, 1143806400000, 1145000000000, 1146380000000, 1152489600000, 1159800000000, 1159500000000, 1162095000000, 1162075000000, 1162105500000]);
+    gsites.Xhr.send('http://saggere.uic.edu/_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
+  }, 500);
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type + ",user_page";
+                      window.jstiming.report(loadTimer, {}, 'http://csi.gstatic.com/csi');
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false,
+            false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+        webspace, "en");
+    maestroRunner.initListeners();
+    maestroRunner.installEditRender();
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+  //]]>
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    JOT_postEvent('decorateGvizCharts');
+  </script>
+<script type="text/javascript">
+          JOT_setupPostRenderingManager();
+        </script>
+<script type="text/javascript">
+          JOT_postEvent('renderPlus', null, 'sites-chrome-main');
+        </script>
+<script type="text/javascript">
+          sites.codeembed.init();
+        </script>
+<div id="server-timer-div" style="display:none"> </div>
+<script type="text/javascript">
+          window.jstiming.load.tick('render');
+          JOT_postEvent('usercontentrendered', this);
+        </script>
+</body>
+</html>

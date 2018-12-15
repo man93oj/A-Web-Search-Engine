@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+		<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>Sustainable Manufacturing Systems Research Laboratory </title>
+          <script>
+            (function(d){
+              var js, id = 'powr-js', ref = d.getElementsByTagName('script')[0];
+              if (d.getElementById(id)) {return;}
+              js = d.createElement('script'); js.id = id; js.async = true;
+              js.src = '//www.powr.io/powr.js';
+              js.setAttribute('powr-token','CdlpQZniBK1504820351');
+              js.setAttribute('external-type','wordpress');
+              ref.parentNode.insertBefore(js, ref);
+            }(document));
+          </script>
+          <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Feed" href="https://smsrl.uic.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Comments Feed" href="https://smsrl.uic.edu/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/smsrl.uic.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.3"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wphimgs_slidercss-css'  href='https://smsrl.uic.edu/wp-content/plugins/sp-header-image-slider/css/jquery.bxslider.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='twentysixteen-fonts-css'  href='https://fonts.googleapis.com/css?family=Merriweather%3A400%2C700%2C900%2C400italic%2C700italic%2C900italic%7CMontserrat%3A400%2C700%7CInconsolata%3A400&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='https://smsrl.uic.edu/wp-content/themes/twentysixteen/genericons/genericons.css?ver=3.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='twentysixteen-style-css'  href='https://smsrl.uic.edu/wp-content/themes/twentysixteen/style.css?ver=4.9.3' type='text/css' media='all' />
+<!--[if lt IE 10]>
+<link rel='stylesheet' id='twentysixteen-ie-css'  href='https://smsrl.uic.edu/wp-content/themes/twentysixteen/css/ie.css?ver=20160816' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentysixteen-ie8-css'  href='https://smsrl.uic.edu/wp-content/themes/twentysixteen/css/ie8.css?ver=20160816' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='twentysixteen-ie7-css'  href='https://smsrl.uic.edu/wp-content/themes/twentysixteen/css/ie7.css?ver=20160816' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='sccss_style-css'  href='https://smsrl.uic.edu/?sccss=1&#038;ver=4.9.3' type='text/css' media='all' />
+<script type='text/javascript' src='https://smsrl.uic.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://smsrl.uic.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://smsrl.uic.edu/wp-content/plugins/sp-header-image-slider/js/jquery.bxslider.min.js?ver=1.0.0'></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://smsrl.uic.edu/wp-content/themes/twentysixteen/js/html5.js?ver=3.7.3'></script>
+<![endif]-->
+<link rel='https://api.w.org/' href='https://smsrl.uic.edu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://smsrl.uic.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://smsrl.uic.edu/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.3" />
+<link rel="canonical" href="https://smsrl.uic.edu/" />
+<link rel='shortlink' href='https://smsrl.uic.edu/' />
+<link rel="alternate" type="application/json+oembed" href="https://smsrl.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsmsrl.uic.edu%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://smsrl.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsmsrl.uic.edu%2F&#038;format=xml" />
+<link rel="icon" href="https://smsrl.uic.edu/wp-content/uploads/2016/08/cropped-logo-1-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://smsrl.uic.edu/wp-content/uploads/2016/08/cropped-logo-1-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://smsrl.uic.edu/wp-content/uploads/2016/08/cropped-logo-1-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://smsrl.uic.edu/wp-content/uploads/2016/08/cropped-logo-1-270x270.jpg" />
+</head>
+<body class="home page-template-default page page-id-32 wp-custom-logo group-blog">
+<div id="page" class="site">
+	<div class="site-inner">
+		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+		<header id="masthead" class="site-header" role="banner">
+			<div class="site-header-main">
+				<div class="site-branding">
+					<a href="https://smsrl.uic.edu/" class="custom-logo-link" rel="home" itemprop="url"><img width="240" height="189" src="https://smsrl.uic.edu/wp-content/uploads/2016/08/cropped-logo.jpg" class="custom-logo" alt="" itemprop="logo" /></a>
+											<p class="site-title"><a href="https://smsrl.uic.edu/" rel="home"></a></p>
+											<p class="site-description">Sustainable Manufacturing Systems Research Laboratory </p>
+									</div><!-- .site-branding -->
+
+									<button id="menu-toggle" class="menu-toggle">Menu</button>
+
+					<div id="site-header-menu" class="site-header-menu">
+													<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Primary Menu">
+								<div class="menu-custommenu-container"><ul id="menu-custommenu" class="primary-menu"><li id="menu-item-6" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-6"><a href="http://smsrl.uic.edu">Home</a></li>
+<li id="menu-item-7" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7"><a href="https://smsrl.uic.edu/category/news/">News &#038; Events</a></li>
+<li id="menu-item-319" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-319"><a href="https://smsrl.uic.edu/research/">Research</a></li>
+<li id="menu-item-324" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-324"><a href="https://smsrl.uic.edu/publications/">Publications</a></li>
+<li id="menu-item-322" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-322"><a href="https://smsrl.uic.edu/people/">People</a>
+<ul class="sub-menu">
+	<li id="menu-item-500" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-500"><a href="https://smsrl.uic.edu/people/">Current members</a></li>
+	<li id="menu-item-499" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-499"><a href="https://smsrl.uic.edu/alumni/">Alumni</a></li>
+</ul>
+</li>
+<li id="menu-item-321" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-321"><a href="https://smsrl.uic.edu/teaching/">Teaching</a></li>
+<li id="menu-item-323" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323"><a href="https://smsrl.uic.edu/openings/">Openings</a></li>
+<li id="menu-item-320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-32 current_page_item menu-item-320"><a href="https://smsrl.uic.edu/">About</a></li>
+</ul></div>							</nav><!-- .main-navigation -->
+						
+											</div><!-- .site-header-menu -->
+							</div><!-- .site-header-main -->
+
+											<div class="headerslider"> 	
+	<ul class="wphimgs-slides">	
+			
+			<li> <img src="https://smsrl.uic.edu/wp-content/uploads/2017/09/111-1.jpg" title=""  alt="" >	 </li>	
+				<li> <img src="https://smsrl.uic.edu/wp-content/uploads/2016/08/cropped-cropped-lab1.jpg" title=""  alt="" >	 </li>	
+				<li> <img src="https://smsrl.uic.edu/wp-content/uploads/2016/08/cropped-volt1-1.jpg" title=""  alt="" >	 </li>	
+				<li> <img src="https://smsrl.uic.edu/wp-content/uploads/2016/08/cropped-cropped-Group-Copy.jpg" title=""  alt="" >	 </li>	
+				<li> <img src="https://smsrl.uic.edu/wp-content/uploads/2016/08/cropped-cropped-uic1.jpg" title=""  alt="" >	 </li>	
+				<li> <img src="https://smsrl.uic.edu/wp-content/uploads/2016/08/cropped-cropped-Testbed1-Copy.jpg" title=""  alt="" >	 </li>	
+				<li> <img src="https://smsrl.uic.edu/wp-content/uploads/2016/08/cropped-cropped-KidsVisiting1-Copy.jpg" title=""  alt="" >	 </li>	
+					
+		</ul>		
+
+	<script type="text/javascript">
+	 jQuery(function(){
+			jQuery('.wphimgs-slides').bxSlider({
+			  mode 			: 'horizontal', /*'horizontal', 'vertical', 'fade'*/
+			  captions 		: 1,
+			  auto 			: 1,
+			  pause 		: 3000,
+			  speed 		: 2000,			  
+			  slideMargin	: 10,
+			  autoControls	: 1,
+			  infiniteLoop	: 1,
+			  startSlide	: 0,
+			  randomStart	: 0			 /*adaptiveHeight: true*/
+		});
+	});
+	</script>
+
+</div>
+				<div class="header-image">
+					<a href="https://smsrl.uic.edu/" rel="home">
+						<img src="https://smsrl.uic.edu/wp-content/uploads/2016/08/cropped-default.jpg" srcset="https://smsrl.uic.edu/wp-content/uploads/2016/08/cropped-default-300x2.jpg 300w, https://smsrl.uic.edu/wp-content/uploads/2016/08/cropped-default-768x4.jpg 768w, https://smsrl.uic.edu/wp-content/uploads/2016/08/cropped-default-1024x6.jpg 1024w, https://smsrl.uic.edu/wp-content/uploads/2016/08/cropped-default.jpg 1200w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 81vw, (max-width: 1362px) 88vw, 1200px" width="1200" height="7" alt="">
+					</a>
+				</div><!-- .header-image -->
+					</header><!-- .site-header -->
+
+		<div id="content" class="site-content">
+
+<div id="primary" class="content-area">
+	<main id="main" class="site-main" role="main">
+		
+<article id="post-32" class="post-32 page type-page status-publish hentry">
+	<header class="entry-header">
+		<h1 class="entry-title">About</h1>	</header><!-- .entry-header -->
+
+	
+	<div class="entry-content">
+		<p><span style="font-size: 16px;">The Sustainable Manufacturing Systems Research Laboratory (SMSRL) was established in January 2011 in the Department of Mechanical and Industrial Engineering, University of Illinois at Chicago (UIC). The lab works on various aspects of sustainable manufacturing systems research including but not limited to joint production and energy system modeling and control, real-time energy management of manufacturing systems, electricity demand response of manufacturing systems,  electric vehicle battery manufacturing and reliability assessment, system-level cost evaluation for cellulosic biofuel manufacturing, and intelligent maintenance of manufacturing systems. The collaboration with University of Illinois Hospitals on healthcare system cost reduction and patient treatment improvement is another research direction. </span></p>
+<p><span style="font-size: 16px;">The founding director of the laboratory is Dr. Lin Li. Dr. Lin Li received the B.E. degree in mechanical engineering from Shanghai Jiao Tong University in 2001, and the M.S.E. degree in mechanical engineering, M.S.E. degree in industrial and operations engineering, Ph.D. degree in mechanical engineering all from the University of Michigan-Ann Arbor in 2003, 2005 and 2007, respectively. Currently, he is an Associated Professor in the Department of Mechanical and Industrial Engineering in UIC. He is also the director of U.S. Department of Energy (DOE) Industrial Assessment Center at UIC. </span></p>
+<p><span style="font-size: 16px;">Current sponsored research thrust is focused on four directions <span lang="EN-US" style="color: black; mso-fareast-font-family: 宋体; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA;">(1) energy efficiency management of manufacturing systems, (2) electricity demand response for manufacturing systems, (3) electric vehicle battery re-manufacturing and life cycle assessment, and (4) cost analysis of cellulosic biofuel manufacturing processes.</span> The project sponsors include NSF, General Motors, Eaton Corporation, General Electric, etc.</span></p>
+<p>&nbsp;</p>
+<p><span style="color: #999999; font-size: 10pt;">2018 Sustainable Manufacturing Systems Research Laboratory | <a style="color: #999999;" href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Statement</a></span></p>
+	</div><!-- .entry-content -->
+
+	
+</article><!-- #post-## -->
+
+	</main><!-- .site-main -->
+
+	<aside id="content-bottom-widgets" class="content-bottom-widgets" role="complementary">
+			<div class="widget-area">
+			<section id="text-7" class="widget widget_text"><h2 class="widget-title">Contact Us</h2>			<div class="textwidget"><p><img src="http://smsrl.uic.edu/wp-content/uploads/2016/08/65-512-e1472564771711.png" alt="home" /> Sustainable Manufacturing Systems Research Lab</p>
+<p><img src="http://smsrl.uic.edu/wp-content/uploads/2016/08/icon-ios7-location-128-e1472564804902.png" alt="location" /> University of Illinois at Chicago, Chicago, IL, 60607</p>
+<p><img src="http://smsrl.uic.edu/wp-content/uploads/2016/08/old_phone-128-e1472564917753.png" alt="location" /> (312) 996-8793</p>
+</div>
+		</section>		</div><!-- .widget-area -->
+	
+			<div class="widget-area">
+			<section id="text-9" class="widget widget_text">			<div class="textwidget"><p><img src="http://smsrl.uic.edu/wp-content/uploads/2016/08/ea616fbb-eb5e-45b2-b30b-5a49aa6c7b0e.png" alt="home" /></p>
+<p>&nbsp;</p>
+</div>
+		</section>		</div><!-- .widget-area -->
+	</aside><!-- .content-bottom-widgets -->
+
+</div><!-- .content-area -->
+
+
+	<aside id="secondary" class="sidebar widget-area" role="complementary">
+		<section id="search-4" class="widget widget_search">
+<form role="search" method="get" class="search-form" action="https://smsrl.uic.edu/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+	</label>
+	<button type="submit" class="search-submit"><span class="screen-reader-text">Search</span></button>
+</form>
+</section><section id="widget_sp_image-5" class="widget widget_sp_image"><h2 class="widget-title">Professor Lin Li Wins Two Teaching Excellence Awards, Promoted to Associate Professor</h2><a href="http://mie.uic.edu/2016/05/31/professor-lin-li-wins-two-teaching-excellence-awards-promoted-to-associate-professor/" id="" target="_self" class="widget_sp_image-image-link" title="Professor Lin Li Wins Two Teaching Excellence Awards, Promoted to Associate Professor" rel=""><img width="255" height="344" alt="Professor Lin Li Wins Two Teaching Excellence Awards, Promoted to Associate Professor" class="attachment-full" style="max-width: 100%;" src="https://smsrl.uic.edu/wp-content/uploads/2016/08/Lin_Li_2016-e1472565674836.jpg" /></a></section>		<section id="recent-posts-4" class="widget widget_recent_entries">		<h2 class="widget-title">Recent Posts</h2>		<ul>
+											<li>
+					<a href="https://smsrl.uic.edu/2018/09/05/dr-lin-li-received-2018-college-of-engineering-teaching-award/">Dr. Lin Li received 2018 College of Engineering Teaching Award</a>
+									</li>
+											<li>
+					<a href="https://smsrl.uic.edu/2018/09/05/fadwa-dababneh-has-successfully-defended-his-phd-and-will-join-georgia-southern-university-as-an-assistant-professor/">Fadwa Dababneh has successfully defended her PhD and will join Georgia Southern University as an Assistant Professor</a>
+									</li>
+											<li>
+					<a href="https://smsrl.uic.edu/2017/12/15/phd-student-azadeh-haghighi-received-the-2017-uic-provosts-award-for-graduate-research/">PhD student Azadeh Haghighi received the 2017 UIC Provost’s Award for Graduate Research</a>
+									</li>
+											<li>
+					<a href="https://smsrl.uic.edu/2016/11/11/dr-lin-li-received-a-new-grant-from-department-of-energy-doe-for-period-912016-8312021/">DOE new grant received by Dr. Lin Li</a>
+									</li>
+											<li>
+					<a href="https://smsrl.uic.edu/2016/06/10/nsf-new-grant-received-by-dr-lin-li-2/">NSF new grant received by Dr. Lin Li</a>
+									</li>
+					</ul>
+		</section><section id="custom_html-3" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=cjKk3eI7Zixh9GbNCfxWllTXCZuc70TPNCVk6UEI478&cl=ffffff&w=a"></script>
+</div></section>        <div class='widget powr-hit-counter' label='wordpress_1507919567'></div>
+        	</aside><!-- .sidebar .widget-area -->
+
+
+
+
+
+
+		</div><!-- .site-content -->
+
+		<footer id="colophon" class="site-footer" role="contentinfo">
+							<nav class="main-navigation" role="navigation" aria-label="Footer Primary Menu">
+					<div class="menu-custommenu-container"><ul id="menu-custommenu-1" class="primary-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-6"><a href="http://smsrl.uic.edu">Home</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7"><a href="https://smsrl.uic.edu/category/news/">News &#038; Events</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-319"><a href="https://smsrl.uic.edu/research/">Research</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-324"><a href="https://smsrl.uic.edu/publications/">Publications</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-322"><a href="https://smsrl.uic.edu/people/">People</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-500"><a href="https://smsrl.uic.edu/people/">Current members</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-499"><a href="https://smsrl.uic.edu/alumni/">Alumni</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-321"><a href="https://smsrl.uic.edu/teaching/">Teaching</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323"><a href="https://smsrl.uic.edu/openings/">Openings</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-32 current_page_item menu-item-320"><a href="https://smsrl.uic.edu/">About</a></li>
+</ul></div>				</nav><!-- .main-navigation -->
+			
+			
+			<div class="site-info">
+								
+		</footer><!-- .site-footer -->
+	</div><!-- .site-inner -->
+</div><!-- .site -->
+
+
+<script type='text/javascript' src='https://smsrl.uic.edu/wp-content/themes/twentysixteen/js/skip-link-focus-fix.js?ver=20160816'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var screenReaderText = {"expand":"expand child menu","collapse":"collapse child menu"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://smsrl.uic.edu/wp-content/themes/twentysixteen/js/functions.js?ver=20160816'></script>
+<script type='text/javascript' src='https://smsrl.uic.edu/wp-includes/js/wp-embed.min.js?ver=4.9.3'></script>
+</body>
+</html>

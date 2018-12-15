@@ -30,10 +30,10 @@ if (__name__ == "__main__"):
 
     query = temp_q.rstrip(" ")
 
-    with open("./.CrawledData/crawledLinks_"+str(pagesCount),"rb") as data_file:
+    with open("./CrawledData/crawledLinks_"+str(pagesCount),"rb") as data_file:
         webLinks = pickle.load(data_file)
 
-    with open("./.CrawledData/index2_"+str(pagesCount),"rb") as outfile:
+    with open("./CrawledData/index2_"+str(pagesCount),"rb") as outfile:
         stream_length_title = pickle.load(outfile)
         stream_length = pickle.load(outfile)
         IDF_title = pickle.load(outfile)
@@ -48,7 +48,7 @@ if (__name__ == "__main__"):
         inlink_count = pickle.load(outfile)
         url_split = pickle.load(outfile)
 
-    with open("./.CrawledData/pagerank_"+str(pagesCount),"rb") as outfile:
+    with open("./CrawledData/pagerank_"+str(pagesCount),"rb") as outfile:
         page_rank = pickle.load(outfile)
 
     IDF_q = 0

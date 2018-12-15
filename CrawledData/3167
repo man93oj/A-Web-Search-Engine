@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en-US"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en-US"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en-US"> <![endif]-->
+<head>
+<meta http-equiv="content-type" content="text/html" charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Oasis Location Map | Office of Campus Learning Environments</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="https://ocle.uic.edu/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="https://ocle.uic.edu/wp-content/themes/uic-network-2013/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="shortcut icon" href="http://uic.edu/favicon.ico" /><link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Office of Campus Learning Environments &raquo; Feed" href="https://ocle.uic.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Office of Campus Learning Environments &raquo; Comments Feed" href="https://ocle.uic.edu/comments/feed/" />
+<link rel='stylesheet' id='events-manager-css'  href='https://ocle.uic.edu/wp-content/plugins/events-manager/includes/css/events_manager.css?ver=5.63' type='text/css' media='all' />
+<link rel='stylesheet' id='page-list-style-css'  href='https://ocle.uic.edu/wp-content/plugins/page-list/css/page-list.css?ver=5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='simple-staff-list-css'  href='https://ocle.uic.edu/wp-content/plugins/simple-staff-list/public/css/simple-staff-list-public.css?ver=1.17' type='text/css' media='all' />
+<link rel='stylesheet' id='staff-list-custom-css-css'  href='https://ocle.uic.edu/wp-content/themes/uic-network-2013/simple-staff-list-custom.css?ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='swl-style-css'  href='https://ocle.uic.edu/wp-content/plugins/social-web-links/social-web-links.css?ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://ocle.uic.edu/wp-content/plugins/tablepress/css/default.min.css?ver=1.7' type='text/css' media='all' />
+<link rel='stylesheet' id='leafletmapsmarker-css'  href='https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/leaflet-dist/leaflet.min.css?ver=2.6.2' type='text/css' media='all' />
+<style id='leafletmapsmarker-inline-css' type='text/css'>
+.leaflet-popup-content img { max-width:234px !important; height:auto; width:auto !important; } .marker-cluster-small { background-color: rgba(181, 226, 140, 0.6); } .marker-cluster-small div { background-color: rgba(110, 204, 57, 0.6); color: #000000; } .marker-cluster-medium { background-color: rgba(241, 211, 87, 0.6); } .marker-cluster-medium div { background-color: rgba(240, 194, 12, 0.6);  color: #000000; } .marker-cluster-large { background-color: rgba(253, 156, 115, 0.6); } .marker-cluster-large div { background-color: rgba(241, 128, 23, 0.6);  color: #000000; }
+</style>
+<link rel='stylesheet' id='uicnetwork-css'  href='https://ocle.uic.edu/wp-content/themes/uic-network-2013/css/uicnetwork.css?ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyPhoto-css'  href='https://ocle.uic.edu/wp-content/themes/uic-network-2013/css/prettyPhoto.css?ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dynamic-styles-css'  href='https://ocle.uic.edu/index.php?dynamiccss=1&#038;id=3759&#038;ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='https://ocle.uic.edu/wp-content/themes/uic-network-2013/style.css?ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='PT Sans-css'  href='https://fonts.googleapis.com/css?family=PT+Sans:400italic,700italic,400,700' type='text/css' media='all' />
+<link rel='stylesheet' id='Oswald-css'  href='https://fonts.googleapis.com/css?family=Oswald:400italic,700italic,400,700' type='text/css' media='all' />
+<script type='text/javascript' src='https://ocle.uic.edu/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://ocle.uic.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://ocle.uic.edu/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://ocle.uic.edu/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://ocle.uic.edu/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://ocle.uic.edu/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://ocle.uic.edu/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://ocle.uic.edu/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type='text/javascript' src='https://ocle.uic.edu/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://ocle.uic.edu/wp-includes/js/wp-a11y.min.js?ver=4.7.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate.","itemSelected":"Item selected."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://ocle.uic.edu/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://ocle.uic.edu/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://ocle.uic.edu/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://ocle.uic.edu/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://ocle.uic.edu/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var EM = {"ajaxurl":"https:\/\/ocle.uic.edu\/wp-admin\/admin-ajax.php","locationajaxurl":"https:\/\/ocle.uic.edu\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"1","locale":"en","dateFormat":"mm\/dd\/yy","ui_css":"https:\/\/ocle.uic.edu\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.min.css","show24hours":"0","is_ssl":"1","bookingInProgress":"Please wait while the booking is being submitted.","tickets_save":"Save Ticket","bookingajaxurl":"https:\/\/ocle.uic.edu\/wp-admin\/admin-ajax.php","bookings_export_save":"Export Bookings","bookings_settings_save":"Save Settings","booking_delete":"Are you sure you want to delete?","bb_full":"Sold Out","bb_book":"Book Now","bb_booking":"Booking...","bb_booked":"Booking Submitted","bb_error":"Booking Error. Try again?","bb_cancel":"Cancel","bb_canceling":"Canceling...","bb_cancelled":"Cancelled","bb_cancel_error":"Cancellation Error. Try again?","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading...","event_reschedule_warning":"Are you sure you want to reschedule this recurring event? If you do this, you will lose all booking information and the old recurring events will be deleted.","event_detach_warning":"Are you sure you want to detach this event? By doing so, this event will be independent of the recurring set of events.","delete_recurrence_warning":"Are you sure you want to delete all recurrences of this event? All events will be moved to trash.","disable_bookings_warning":"Are you sure you want to disable bookings? If you do this and save, you will lose all previous bookings. If you wish to prevent further bookings, reduce the number of spaces available to the amount of bookings you currently have","booking_warning_cancel":"Are you sure you want to cancel your booking?","cache":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://ocle.uic.edu/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=5.63'></script>
+<script type='text/javascript' src='https://ocle.uic.edu/wp-content/plugins/events-manager-pro/includes/js/events-manager-pro.js?ver=4.7.2'></script>
+<script type='text/javascript' src='https://ocle.uic.edu/wp-content/plugins/simple-staff-list/public/js/simple-staff-list-public.js?ver=1.17'></script>
+<script type='text/javascript' src='https://ocle.uic.edu/wp-content/themes/uic-network-2013/js/uicnetwork.js?ver=4.7.2'></script>
+<script type='text/javascript' src='https://ocle.uic.edu/wp-content/themes/uic-network-2013/js/superfish.js?ver=4.7.2'></script>
+<script type='text/javascript' src='https://ocle.uic.edu/wp-content/themes/uic-network-2013/js/jquery.flexslider-min.js?ver=4.7.2'></script>
+<script type='text/javascript' src='https://ocle.uic.edu/wp-content/themes/uic-network-2013/js/jquery.prettyPhoto.js?ver=4.7.2'></script>
+<script type='text/javascript' src='https://ocle.uic.edu/wp-content/themes/uic-network-2013/js/uicnetwork_contact.js?ver=4.7.2'></script>
+<script type='text/javascript' src='https://ocle.uic.edu/wp-content/themes/uic-network-2013/js/jquery.carouFredSel-6.1.0-packed.js?ver=4.7.2'></script>
+<script type='text/javascript' src='https://ocle.uic.edu/index.php?dynamicjs=1&#038;id=3759&#038;ver=4.7.2'></script>
+<link rel='https://api.w.org/' href='https://ocle.uic.edu/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://ocle.uic.edu/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 4.7.2" />
+<link rel="canonical" href="https://ocle.uic.edu/oasis-location-map/" />
+<link rel='shortlink' href='https://ocle.uic.edu/?p=3759' />
+<link rel="alternate" type="application/json+oembed" href="https://ocle.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Focle.uic.edu%2Foasis-location-map%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://ocle.uic.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Focle.uic.edu%2Foasis-location-map%2F&#038;format=xml" />
+<link rel="alternate" type="application/rss+xml" title="Office of Campus Learning Environments GeoRSS-Feed" href="https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/leaflet-georss.php?layer=all" />
+		<style type="text/css">
+		.em-booking-form span.form-tip { text-decoration:none; border-bottom:1px dotted #aaa; padding-bottom:2px; }
+		.input-group .em-date-range input { width:100px; }
+		.input-group .em-time-range input { width:80px; }
+		 div.em-gateway-buttons { height:50px; width: 100%; }
+		 div.em-gateway-buttons .first { padding-left:0px; margin-left:0px; border-left:none; }
+		 div.em-gateway-button { float:left; padding-left:20px; margin-left:20px; border-left:1px solid #777; }
+		/* Cart CSS */
+		.em-cart-widget-content .em-cart-widget-total { border-top:1px solid #efefef; margin-top:5px; }
+		.em-cart-actions { text-align:right; margin:10px 0px;}
+		 /* Checkout Form CSS */
+		.em-cart-table { border-collapse:collapse; border-spacing:0; width:100%; }		 
+		.em-cart-table { border-collapse:0px; }
+		.em-cart-table th, table.em-cart-table td { border:1px solid #efefef; padding:10px; }
+		.em-cart-table th { background-color:#eee; text-align:center; }
+		.em-cart-table td { background-color:#fff; }
+		.em-cart-table th.em-cart-title-event { text-align:left; }
+		.em-cart-table tbody.em-cart-totals th { text-align:right; padding-right:20px; }
+		.em-cart-table .em-cart-table-details-hide { display:none; visibility:none; }
+		.em-cart-table .em-cart-table-event-details { display:none; visibility:none; }
+		.em-cart-table .em-cart-table-event-title { font-weight:bold; }
+		.em-cart-table .em-cart-table-spaces { text-align:center; }
+		.em-cart-table .em-cart-table-price, tbody.em-cart-totals td { text-align:right; }
+		.em-cart-table-event-details .em-cart-table-ticket { font-weight:bold; }
+		.em-cart-info .em-cart-info-title { text-decoration:underline; }
+		.em-cart-info .em-cart-info-booking-title { font-weight:bold; }
+		.em-cart-info .em-cart-info-values label { font-style:italic; display: inline-block; width:150px; }		 
+		/*! qTip2 v2.0.0 | http://craigsworks.com/projects/qtip2/ | Licensed MIT, GPL */#qtip-rcontainer{position:absolute;left:-28000px;top:-28000px;display:block;visibility:hidden}#qtip-rcontainer .ui-tooltip{display:block!important;visibility:hidden!important;position:static!important;float:left!important}.ui-tooltip,.qtip{position:absolute;left:-28000px;top:-28000px;display:none;max-width:280px;min-width:50px;font-size:10.5px;line-height:12px}.ui-tooltip-content{position:relative;padding:5px 9px;overflow:hidden;text-align:left;word-wrap:break-word}.ui-tooltip-titlebar{position:relative;min-height:14px;padding:5px 35px 5px 10px;overflow:hidden;border-width:0 0 1px;font-weight:700}.ui-tooltip-titlebar+.ui-tooltip-content{border-top-width:0!important}.ui-tooltip-titlebar .ui-state-default{position:absolute;right:4px;top:50%;margin-top:-9px;cursor:pointer;outline:medium none;border-width:1px;border-style:solid}* html .ui-tooltip-titlebar .ui-state-default{top:16px}.ui-tooltip-titlebar .ui-icon,.ui-tooltip-icon .ui-icon{display:block;text-indent:-1000em;direction:ltr}.ui-tooltip-icon,.ui-tooltip-icon .ui-icon{-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;text-decoration:none}.ui-tooltip-icon .ui-icon{width:18px;height:14px;text-align:center;text-indent:0;font:normal bold 10px/13px Tahoma,sans-serif;color:inherit;background:transparent none no-repeat -100em -100em}.ui-tooltip-focus{}.ui-tooltip-hover{}.ui-tooltip-default{border-width:1px;border-style:solid;border-color:#F1D031;background-color:#FFFFA3;color:#555}.ui-tooltip-default .ui-tooltip-titlebar{background-color:#FFEF93}.ui-tooltip-default .ui-tooltip-icon{border-color:#CCC;background:#F1F1F1;color:#777}.ui-tooltip-default .ui-tooltip-titlebar .ui-state-hover{border-color:#AAA;color:#111}/*! Light tooltip style */.ui-tooltip-light{background-color:#fff;border-color:#E2E2E2;color:#454545}.ui-tooltip-light .ui-tooltip-titlebar{background-color:#f1f1f1}/*! Dark tooltip style */.ui-tooltip-dark{background-color:#505050;border-color:#303030;color:#f3f3f3}.ui-tooltip-dark .ui-tooltip-titlebar{background-color:#404040}.ui-tooltip-dark .ui-tooltip-icon{border-color:#444}.ui-tooltip-dark .ui-tooltip-titlebar .ui-state-hover{border-color:#303030}/*! Cream tooltip style */.ui-tooltip-cream{background-color:#FBF7AA;border-color:#F9E98E;color:#A27D35}.ui-tooltip-cream .ui-tooltip-titlebar{background-color:#F0DE7D}.ui-tooltip-cream .ui-state-default .ui-tooltip-icon{background-position:-82px 0}/*! Red tooltip style */.ui-tooltip-red{background-color:#F78B83;border-color:#D95252;color:#912323}.ui-tooltip-red .ui-tooltip-titlebar{background-color:#F06D65}.ui-tooltip-red .ui-state-default .ui-tooltip-icon{background-position:-102px 0}.ui-tooltip-red .ui-tooltip-icon{border-color:#D95252}.ui-tooltip-red .ui-tooltip-titlebar .ui-state-hover{border-color:#D95252}/*! Green tooltip style */.ui-tooltip-green{background-color:#CAED9E;border-color:#90D93F;color:#3F6219}.ui-tooltip-green .ui-tooltip-titlebar{background-color:#B0DE78}.ui-tooltip-green .ui-state-default .ui-tooltip-icon{background-position:-42px 0}/*! Blue tooltip style */.ui-tooltip-blue{background-color:#E5F6FE;border-color:#ADD9ED;color:#5E99BD}.ui-tooltip-blue .ui-tooltip-titlebar{background-color:#D0E9F5}.ui-tooltip-blue .ui-state-default .ui-tooltip-icon{background-position:-2px 0}.ui-tooltip-shadow{-webkit-box-shadow:1px 1px 3px 1px rgba(0,0,0,.15);-moz-box-shadow:1px 1px 3px 1px rgba(0,0,0,.15);box-shadow:1px 1px 3px 1px rgba(0,0,0,.15)}.ui-tooltip-rounded,.ui-tooltip-tipsy,.ui-tooltip-bootstrap{-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px}.ui-tooltip-youtube{-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;-webkit-box-shadow:0 0 3px #333;-moz-box-shadow:0 0 3px #333;box-shadow:0 0 3px #333;color:#fff;border-width:0;background:#4A4A4A;background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0, #4A4A4A),color-stop(100%,black));background-image:-webkit-linear-gradient(top, #4A4A4A 0,black 100%);background-image:-moz-linear-gradient(top, #4A4A4A 0,black 100%);background-image:-ms-linear-gradient(top, #4A4A4A 0,black 100%);background-image:-o-linear-gradient(top, #4A4A4A 0,black 100%)}.ui-tooltip-youtube .ui-tooltip-titlebar{background-color:#4A4A4A;background-color:rgba(0,0,0,0)}.ui-tooltip-youtube .ui-tooltip-content{padding:.75em;font:12px arial,sans-serif;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#4a4a4a, EndColorStr=#000000);-ms-filter:"progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#4a4a4a, EndColorStr=#000000);"}.ui-tooltip-youtube .ui-tooltip-icon{border-color:#222}.ui-tooltip-youtube .ui-tooltip-titlebar .ui-state-hover{border-color:#303030}.ui-tooltip-jtools{background:#232323;background:rgba(0,0,0,.7);background-image:-webkit-gradient(linear,left top,left bottom,from( #717171),to( #232323));background-image:-moz-linear-gradient(top, #717171, #232323);background-image:-webkit-linear-gradient(top, #717171, #232323);background-image:-ms-linear-gradient(top, #717171, #232323);background-image:-o-linear-gradient(top, #717171, #232323);border:2px solid #ddd;border:2px solid rgba(241,241,241,1);-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;-webkit-box-shadow:0 0 12px #333;-moz-box-shadow:0 0 12px #333;box-shadow:0 0 12px #333}.ui-tooltip-jtools .ui-tooltip-titlebar{background-color:transparent;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#717171, endColorstr=#4A4A4A);-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#717171, endColorstr=#4A4A4A)"}.ui-tooltip-jtools .ui-tooltip-content{filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4A4A4A, endColorstr=#232323);-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#4A4A4A, endColorstr=#232323)"}.ui-tooltip-jtools .ui-tooltip-titlebar,.ui-tooltip-jtools .ui-tooltip-content{background:transparent;color:#fff;border:0 dashed transparent}.ui-tooltip-jtools .ui-tooltip-icon{border-color:#555}.ui-tooltip-jtools .ui-tooltip-titlebar .ui-state-hover{border-color:#333}.ui-tooltip-cluetip{-webkit-box-shadow:4px 4px 5px rgba(0,0,0,.4);-moz-box-shadow:4px 4px 5px rgba(0,0,0,.4);box-shadow:4px 4px 5px rgba(0,0,0,.4);background-color:#D9D9C2;color:#111;border:0 dashed transparent}.ui-tooltip-cluetip .ui-tooltip-titlebar{background-color:#87876A;color:#fff;border:0 dashed transparent}.ui-tooltip-cluetip .ui-tooltip-icon{border-color:#808064}.ui-tooltip-cluetip .ui-tooltip-titlebar .ui-state-hover{border-color:#696952;color:#696952}.ui-tooltip-tipsy{background:#000;background:rgba(0,0,0,.87);color:#fff;border:0 solid transparent;font-size:11px;font-family:'Lucida Grande',sans-serif;font-weight:700;line-height:16px;text-shadow:0 1px black}.ui-tooltip-tipsy .ui-tooltip-titlebar{padding:6px 35px 0 10;background-color:transparent}.ui-tooltip-tipsy .ui-tooltip-content{padding:6px 10}.ui-tooltip-tipsy .ui-tooltip-icon{border-color:#222;text-shadow:none}.ui-tooltip-tipsy .ui-tooltip-titlebar .ui-state-hover{border-color:#303030}.ui-tooltip-tipped{border:3px solid #959FA9;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;background-color:#F9F9F9;color:#454545;font-weight:400;font-family:serif}.ui-tooltip-tipped .ui-tooltip-titlebar{border-bottom-width:0;color:#fff;background:#3A79B8;background-image:-webkit-gradient(linear,left top,left bottom,from( #3A79B8),to( #2E629D));background-image:-webkit-linear-gradient(top, #3A79B8, #2E629D);background-image:-moz-linear-gradient(top, #3A79B8, #2E629D);background-image:-ms-linear-gradient(top, #3A79B8, #2E629D);background-image:-o-linear-gradient(top, #3A79B8, #2E629D);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#3A79B8, endColorstr=#2E629D);-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#3A79B8, endColorstr=#2E629D)"}.ui-tooltip-tipped .ui-tooltip-icon{border:2px solid #285589;background:#285589}.ui-tooltip-tipped .ui-tooltip-icon .ui-icon{background-color:#FBFBFB;color:#555}.ui-tooltip-bootstrap{font-size:13px;line-height:18px;color:#333;background-color:#fff;border:1px solid #ccc;border:1px solid rgba(0,0,0,.2);*border-right-width:2px;*border-bottom-width:2px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;-webkit-box-shadow:0 5px 10px rgba(0,0,0,.2);-moz-box-shadow:0 5px 10px rgba(0,0,0,.2);box-shadow:0 5px 10px rgba(0,0,0,.2);-webkit-background-clip:padding-box;-moz-background-clip:padding;background-clip:padding-box}.ui-tooltip-bootstrap .ui-tooltip-titlebar{font-size:18px;line-height:22px;border-bottom:1px solid #ccc;background-color:transparent}.ui-tooltip-bootstrap .ui-tooltip-titlebar .ui-state-default{right:9px;top:49%;border-style:none}.ui-tooltip-bootstrap .ui-tooltip-icon{background:#fff}.ui-tooltip-bootstrap .ui-tooltip-icon .ui-icon{width:auto;height:auto;float:right;font-size:20px;font-weight:700;line-height:18px;color:#000;text-shadow:0 1px 0 #fff;opacity:.2;filter:alpha(opacity=20)}.ui-tooltip-bootstrap .ui-tooltip-icon .ui-icon:hover{color:#000;text-decoration:none;cursor:pointer;opacity:.4;filter:alpha(opacity=40)}.ui-tooltip:not(.ie9haxors) div.ui-tooltip-content,.ui-tooltip:not(.ie9haxors) div.ui-tooltip-titlebar{filter:none;-ms-filter:none}.ui-tooltip .ui-tooltip-tip{margin:0 auto;overflow:hidden;z-index:10}.ui-tooltip .ui-tooltip-tip,.ui-tooltip .ui-tooltip-tip .qtip-vml{position:absolute;line-height:.1px!important;font-size:.1px!important;color:#123456;background:transparent;border:0 dashed transparent}.ui-tooltip .ui-tooltip-tip canvas{top:0;left:0}.ui-tooltip .ui-tooltip-tip .qtip-vml{behavior:url(#default#VML);display:inline-block;visibility:visible}#qtip-overlay{position:fixed;left:-10000em;top:-10000em}#qtip-overlay.blurs{cursor:pointer}#qtip-overlay div{position:absolute;left:0;top:0;width:100%;height:100%;background-color:#000;opacity:.7;filter:alpha(opacity=70);-ms-filter:"alpha(Opacity=70)"}
+		</style>
+				<style type="text/css">
+			.em-coupon-code { width:150px; }
+			#em-coupon-loading { display:inline-block; width:16px; height: 16px; margin-left:4px; background:url(https://ocle.uic.edu/wp-content/plugins/events-manager-pro/includes/images/spinner.gif)}
+			.em-coupon-message { display:inline-block; margin:5px 0px 0px 105px; text-indent:22px; }
+			.em-coupon-success { color:green; background:url(https://ocle.uic.edu/wp-content/plugins/events-manager-pro/includes/images/success.png) 0px 0px no-repeat }
+			.em-coupon-error { color:red; background:url(https://ocle.uic.edu/wp-content/plugins/events-manager-pro/includes/images/error.png) 0px 0px no-repeat }
+			.em-cart-coupons-form .em-coupon-message{ margin:5px 0px 0px 0px; }
+			#em-coupon-loading { margin-right:4px; }	
+		</style>
+		</head>
+<body class="page-template-default page page-id-3759">
+
+	<!-- Page Layout
+	================================================== -->
+	<div id="header-wrap-top"><div id="header" class="container">
+      <div id="eyebrow">
+        <a class="screen-reader-shortcut" href="#page-container" title="Skip to Content">Skip to Content</a>
+        <div class="menu-container">
+            <h2>Eyebrow Navigation</h2>
+        <div class="menu-eyebrow-container"><ul id="menu-eyebrow" class="menu sf-menu"><li id="menu-item-35" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a href="http://uic.edu/">UIC</a></li>
+<li id="menu-item-36" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36"><a href="http://www.uic.edu/uic/search/">Find People</a></li>
+<li id="menu-item-37" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37"><a href="http://www.uic.edu/htbin/ulist/az">Departments A-Z</a></li>
+<li id="menu-item-61" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-61"><a href="http://library.uic.edu/">Library</a></li>
+<li id="menu-item-62" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62"><a href="http://www.uicflames.com/">Athletics</a></li>
+</ul></div>        <select id="eyebrow-menu"><option value="">Common U I C menu</option><option value="http://uic.edu/">UIC</option><option value="http://www.uic.edu/uic/search/">Find People</option><option value="http://www.uic.edu/htbin/ulist/az">Departments A-Z</option><option value="http://library.uic.edu/">Library</option><option value="http://www.uicflames.com/">Athletics</option></select>        </div>
+      </div><!-- /#eyebrow -->
+
+			<div id="logo">
+                <div class="logo-inner">
+                    <h1>
+                        <a href="https://ocle.uic.edu">
+                                                            <img src="https://ocle.publish.uic.edu/files/2015/05/OCLE.CTT_.SM_.RED_1.png" alt="Office of Campus Learning Environments">
+                                                    </a>
+                    </h1>
+                </div>
+			</div>
+
+      <div id="nav-search">
+        <form role="search" method="get" id="searchform" class="searchform" action="https://ocle.uic.edu/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form>      </div>
+
+			                    <div id="page-header-image">
+                                                    <img width="1000" height="352" src="http://ocle.publish.uic.edu/files/2015/04/ocle_banner2.jpg" class="attachment-page-header-image-thumbnail" alt="Photo of UIC">
+                                                </div><!-- /#page-header-image -->
+                    
+		</div><!-- End header -->
+
+	<div id="navbar" class="container">
+        <a name ="main-content" id="page-content" class="screen-reader-shortcut" title="Skip to Content" tabindex = "-1">Skip to Content</a>
+		<div class="menu-container">
+            <h2>Main Navigation</h2>
+		    <div class="menu-global-navigation-container"><ul id="menu-global-navigation" class="menu sf-menu"><li id="menu-item-4141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-4141"><a href="https://ocle.uic.edu/">Home</a></li>
+<li id="menu-item-159" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-parent-item menu-item-159"><a href="https://ocle.uic.edu/classroom-renovations/">Classroom Renovations</a>
+<ul class="sub-menu">
+	<li id="menu-item-4363" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4363"><a href="https://ocle.uic.edu/learning-space-design-standards/">Learning Space Design Standards</a></li>
+	<li id="menu-item-199" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-199"><a href="https://ocle.uic.edu/upcoming-projects/">Upcoming Projects</a></li>
+	<li id="menu-item-198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-198"><a href="https://ocle.uic.edu/completed-projects-2/">Completed Projects</a></li>
+</ul>
+</li>
+<li id="menu-item-165" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-parent-item menu-item-165"><a href="https://ocle.uic.edu/project-oasis/">Project Oasis</a>
+<ul class="sub-menu">
+	<li id="menu-item-294" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-294"><a href="https://ocle.uic.edu/giving-to-project-oasis-2/">Giving to Project Oasis</a></li>
+	<li id="menu-item-3805" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3805"><a href="https://ocle.uic.edu/project-oasis/proposed-projects/">Proposed Projects</a></li>
+	<li id="menu-item-293" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-293"><a href="https://ocle.uic.edu/current-and-recent-projects/">Current Projects</a></li>
+	<li id="menu-item-292" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-292"><a href="https://ocle.uic.edu/list-of-oases-and-learning-centers/">List of Oases and Learning Centers</a></li>
+	<li id="menu-item-4114" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-3759 current_page_item menu-item-4114"><a href="https://ocle.uic.edu/oasis-location-map/">Oasis Location Map</a></li>
+	<li id="menu-item-291" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-291"><a href="https://ocle.uic.edu/project-oasis-guidlines/">Project Oasis Guidelines</a></li>
+	<li id="menu-item-290" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-290"><a href="https://ocle.uic.edu/oasis-use-policy/">Oasis Use Policy</a></li>
+	<li id="menu-item-1419" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1419"><a title="Video Contest Winners" href="https://ocle.uic.edu/your-oasis-experience-video-contest-winners/">Video Contest Winners</a></li>
+</ul>
+</li>
+<li id="menu-item-1261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1261"><a href="https://ocle.uic.edu/assessment/">Assessment</a></li>
+<li id="menu-item-2897" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2897"><a href="https://ocle.uic.edu/active-learning-environments/">Active Learning</a></li>
+<li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"><a href="https://ocle.uic.edu/news/">News</a></li>
+<li id="menu-item-3198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3198"><a href="https://ocle.uic.edu/advisory-board/">Advisory Board</a></li>
+<li id="menu-item-115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-115"><a href="https://ocle.uic.edu/contact-us/">Contact Us</a></li>
+</ul></div>		    <select id="dropdown-menu"><option value="">Main Menu</option><option value="https://ocle.uic.edu/">Home</option><option value="https://ocle.uic.edu/classroom-renovations/">Classroom Renovations</option><option value="https://ocle.uic.edu/learning-space-design-standards/">Learning Space Design Standards</option><option value="https://ocle.uic.edu/upcoming-projects/">Upcoming Projects</option><option value="https://ocle.uic.edu/completed-projects-2/">Completed Projects</option><option value="https://ocle.uic.edu/project-oasis/">Project Oasis</option><option value="https://ocle.uic.edu/giving-to-project-oasis-2/">Giving to Project Oasis</option><option value="https://ocle.uic.edu/project-oasis/proposed-projects/">Proposed Projects</option><option value="https://ocle.uic.edu/current-and-recent-projects/">Current Projects</option><option value="https://ocle.uic.edu/list-of-oases-and-learning-centers/">List of Oases and Learning Centers</option><option value="https://ocle.uic.edu/oasis-location-map/">Oasis Location Map</option><option value="https://ocle.uic.edu/project-oasis-guidlines/">Project Oasis Guidelines</option><option value="https://ocle.uic.edu/oasis-use-policy/">Oasis Use Policy</option><option value="https://ocle.uic.edu/your-oasis-experience-video-contest-winners/">Video Contest Winners</option><option value="https://ocle.uic.edu/assessment/">Assessment</option><option value="https://ocle.uic.edu/active-learning-environments/">Active Learning</option><option value="https://ocle.uic.edu/news/">News</option><option value="https://ocle.uic.edu/advisory-board/">Advisory Board</option><option value="https://ocle.uic.edu/contact-us/">Contact Us</option></select>		</div>
+
+	</div><!-- End navbar -->
+</div><!-- End Header wrap -->
+	<div id="main-wrap" class="boxed">
+
+
+
+	        <div id="main-content" class="container">
+                <div id="sidebar-container" class="left">
+    <ul id="sidebar">
+        
+    </ul>
+</div>		        <div id="page-container" class="right with-sidebar with-right-sidebar post-3759 page type-page status-publish hentry" tabindex="-1">
+			        <div class="breadcrumbs">
+    </div>			            <h1 id="page-title" class="page-title" tabindex="-1">Oasis Location Map</h1>
+			        <h3><strong>Are you looking for a place to study?</strong></h3>
+<p>Red push pins mark the “Oasis”, informal learning spaces, on the East Campus of UIC.<br />
+These study spaces are available for student use during standard building hours.</p>
+<div id="lmm_b1565c56" style="width:640px;" class="mapsmarker layermap layer-3">
+<div id="lmm_map_b1565c56" class="lmm-map" style="background:#f6f6f6;border:1px solid #ccc;height:650px; overflow:hidden;padding:0;"><p style="font-size:80%;color:#9f9e9e;margin-left:5px;" class="lmm-loading">loading map - please wait...<noscript><br/><strong>Map could not be loaded - please enable Javascript!</strong><br/><a style="text-decoration:none;" href="https://www.mapsmarker.com/js-disabled" target="_blank">&rarr; more information</a></noscript></p></div>
+<div id="lmm_geo_tags_b1565c56_11" class="lmm-geo-tags geo">Burnham Hall Level 2: <span class="latitude">41.870927</span>, <span class="longitude">-87.649280</span></div>
+<div id="lmm_geo_tags_b1565c56_16" class="lmm-geo-tags geo">Grant Hall Level 2: <span class="latitude">41.872814</span>, <span class="longitude">-87.649374</span></div>
+<div id="lmm_geo_tags_b1565c56_1" class="lmm-geo-tags geo">Behavioral Science Building East Level 1: <span class="latitude">41.873725</span>, <span class="longitude">-87.652914</span></div>
+<div id="lmm_geo_tags_b1565c56_2" class="lmm-geo-tags geo">Behavioral Science Building South Level 1: <span class="latitude">41.873544</span>, <span class="longitude">-87.652816</span></div>
+<div id="lmm_geo_tags_b1565c56_3" class="lmm-geo-tags geo">Behavioral Science Building North Level 1: <span class="latitude">41.873879</span>, <span class="longitude">-87.652874</span></div>
+<div id="lmm_geo_tags_b1565c56_4" class="lmm-geo-tags geo">Behavioral Science Building Level 1 Under Stairs South: <span class="latitude">41.873490</span>, <span class="longitude">-87.652893</span></div>
+<div id="lmm_geo_tags_b1565c56_5" class="lmm-geo-tags geo">Behavioral Science Building Level 1 Under Stairs North: <span class="latitude">41.873947</span>, <span class="longitude">-87.652954</span></div>
+<div id="lmm_geo_tags_b1565c56_6" class="lmm-geo-tags geo">Behavioral Science Building East Level 2: <span class="latitude">41.873779</span>, <span class="longitude">-87.652917</span></div>
+<div id="lmm_geo_tags_b1565c56_8" class="lmm-geo-tags geo">Behavioral Science Building Corridor Lounge Level 3: <span class="latitude">41.873752</span>, <span class="longitude">-87.653070</span></div>
+<div id="lmm_geo_tags_b1565c56_7" class="lmm-geo-tags geo">Behavioral Science Building Terrace: Outdoor Oasis Level 2: <span class="latitude">41.873757</span>, <span class="longitude">-87.652108</span></div>
+<div id="lmm_geo_tags_b1565c56_12" class="lmm-geo-tags geo">Daley Library North Level 1: <span class="latitude">41.871942</span>, <span class="longitude">-87.650481</span></div>
+<div id="lmm_geo_tags_b1565c56_13" class="lmm-geo-tags geo">Daley Library South Level 1: <span class="latitude">41.871750</span>, <span class="longitude">-87.650460</span></div>
+<div id="lmm_geo_tags_b1565c56_15" class="lmm-geo-tags geo">Grant Hall Level 1: <span class="latitude">41.872792</span>, <span class="longitude">-87.649333</span></div>
+<div id="lmm_geo_tags_b1565c56_14" class="lmm-geo-tags geo">Education, Theatre, Music &amp; Social Work Level 2: <span class="latitude">41.874981</span>, <span class="longitude">-87.653078</span></div>
+<div id="lmm_geo_tags_b1565c56_17" class="lmm-geo-tags geo">Lecture Center A Lounge: <span class="latitude">41.871984</span>, <span class="longitude">-87.649643</span></div>
+<div id="lmm_geo_tags_b1565c56_18" class="lmm-geo-tags geo">Lecture Center C Rotunda: <span class="latitude">41.872111</span>, <span class="longitude">-87.648663</span></div>
+<div id="lmm_geo_tags_b1565c56_19" class="lmm-geo-tags geo">Lecture Center D Rotunda: <span class="latitude">41.871703</span>, <span class="longitude">-87.648676</span></div>
+<div id="lmm_geo_tags_b1565c56_21" class="lmm-geo-tags geo">Lecture Center D North: <span class="latitude">41.871823</span>, <span class="longitude">-87.648672</span></div>
+<div id="lmm_geo_tags_b1565c56_22" class="lmm-geo-tags geo">Lecture Center F Rotunda: <span class="latitude">41.871674</span>, <span class="longitude">-87.649790</span></div>
+<div id="lmm_geo_tags_b1565c56_24" class="lmm-geo-tags geo">Lecture Center F North: <span class="latitude">41.871811</span>, <span class="longitude">-87.649781</span></div>
+<div id="lmm_geo_tags_b1565c56_26" class="lmm-geo-tags geo">Lecture Center F East: <span class="latitude">41.871684</span>, <span class="longitude">-87.649586</span></div>
+<div id="lmm_geo_tags_b1565c56_27" class="lmm-geo-tags geo">Lincoln Hall Lounge Level 1: <span class="latitude">41.872577</span>, <span class="longitude">-87.649215</span></div>
+<div id="lmm_geo_tags_b1565c56_28" class="lmm-geo-tags geo">Lincoln Hall Informal Learning Space Level 1: <span class="latitude">41.872530</span>, <span class="longitude">-87.649198</span></div>
+<div id="lmm_geo_tags_b1565c56_31" class="lmm-geo-tags geo">Science and Engineering West Level 1: <span class="latitude">41.868834</span>, <span class="longitude">-87.648808</span></div>
+<div id="lmm_geo_tags_b1565c56_32" class="lmm-geo-tags geo">Science and Engineering West Science Learning Center Level 2: <span class="latitude">41.868751</span>, <span class="longitude">-87.648958</span></div>
+<div id="lmm_geo_tags_b1565c56_9" class="lmm-geo-tags geo">Behavioral Science Building South Vestibule Level 3: <span class="latitude">41.873555</span>, <span class="longitude">-87.652474</span></div>
+<div id="lmm_geo_tags_b1565c56_10" class="lmm-geo-tags geo">Behavioral Science Building North Vestibule Level 3: <span class="latitude">41.873945</span>, <span class="longitude">-87.652504</span></div>
+<div id="lmm_geo_tags_b1565c56_33" class="lmm-geo-tags geo">Science and Engineering Three Alcoves Level 2: <span class="latitude">41.869048</span>, <span class="longitude">-87.647805</span></div>
+<div id="lmm_geo_tags_b1565c56_37" class="lmm-geo-tags geo">Stevenson Hall Lounge Level 1: <span class="latitude">41.872908</span>, <span class="longitude">-87.650296</span></div>
+<div id="lmm_geo_tags_b1565c56_38" class="lmm-geo-tags geo">Stevenson Hall Corridor Level 1: <span class="latitude">41.872892</span>, <span class="longitude">-87.650398</span></div>
+<div id="lmm_geo_tags_b1565c56_39" class="lmm-geo-tags geo">Taft Hall Lounge Level 1: <span class="latitude">41.871237</span>, <span class="longitude">-87.649379</span></div>
+<div id="lmm_geo_tags_b1565c56_41" class="lmm-geo-tags geo">University Hall, Rebecca Port Faculty &amp; Student Center: <span class="latitude">41.873811</span>, <span class="longitude">-87.651042</span></div>
+<div id="lmm_geo_tags_b1565c56_20" class="lmm-geo-tags geo">Lecture Center D South: <span class="latitude">41.871574</span>, <span class="longitude">-87.648662</span></div>
+<div id="lmm_geo_tags_b1565c56_23" class="lmm-geo-tags geo">Lecture Center F South: <span class="latitude">41.871530</span>, <span class="longitude">-87.649769</span></div>
+<div id="lmm_geo_tags_b1565c56_25" class="lmm-geo-tags geo">Lecture Center F West: <span class="latitude">41.871676</span>, <span class="longitude">-87.649979</span></div>
+<div id="lmm_geo_tags_b1565c56_29" class="lmm-geo-tags geo">Lincoln Hall Informal Learning Space Level 2: <span class="latitude">41.872513</span>, <span class="longitude">-87.649250</span></div>
+<div id="lmm_geo_tags_b1565c56_30" class="lmm-geo-tags geo">Lincoln Hall Informal Learning Space Level 3: <span class="latitude">41.872523</span>, <span class="longitude">-87.649313</span></div>
+<div id="lmm_geo_tags_b1565c56_34" class="lmm-geo-tags geo">Science and Engineering Three Alcoves Level 2: <span class="latitude">41.869115</span>, <span class="longitude">-87.647826</span></div>
+<div id="lmm_geo_tags_b1565c56_35" class="lmm-geo-tags geo">Science and Engineering Three Alcoves Level 2: <span class="latitude">41.869095</span>, <span class="longitude">-87.647925</span></div>
+</div>
+<p>&nbsp;</p>
+<p>If you have questions or found issues in any Oasis, please let us know &#8211; <a href="https://ocle.uic.edu/contact-us/" target="_blank">Contact Us</a></p>
+
+                    <!-- <br class="clear" /> -->
+			        
+                </div>
+	            <!-- End page container -->
+
+                <div id="sidebar-container-inside">
+    <ul id="sidebar">
+        <li id="text-3" class="widget widget_text"><h3 class="widget-title">Need to Report an Issue?</h3>			<div class="textwidget">If you need classroom support, email<a href="mailto:LTS@uic.edu"> LTS@uic.edu</a>.</div>
+		</li><li id="uicnetworksocialmediawidget-9" class="widget uicnetworksocialmediaWidget"><h3 class="widget-title">Follow Us</h3><div class="socialmedia-widget-wrap"><a href="https://www.facebook.com/UIC-Office-of-Campus-Learning-Environments-OCLE-283347458446726/" class="facebook" target="_blank"></a><a href="https://www.instagram.com/uic_ocle/" class="instagram" target="_blank"></a></div></li><li id="widget_sp_image-11" class="widget widget_sp_image"><h3 class="widget-title">Giving to Project Oasis</h3><a href="https://ocle.uic.edu/giving-to-project-oasis-2/" id="" target="_self" class="widget_sp_image-image-link" title="Giving to Project Oasis" rel=""><img width="150" height="150" alt="Giving to Project Oasis" class="attachment-thumbnail" style="max-width: 100%;" src="https://ocle.uic.edu/files/2016/05/lcc_rotunda_a-150x150.jpg" /></a><div class="widget_sp_image-description" ><p>Giving to Project Oasis</p>
+</div></li>    </ul>
+</div>            </div>
+            <!-- End main content -->
+
+			<div id="sub-footer"><div class="container">
+				<div class="sub-footer-left">&nbsp;</div>
+
+		<div class="sub-footer-right">
+	    <img class="subfooterlogo" src="https://ocle.uic.edu/wp-content/themes/uic-network-2013/img/uic-office-notred.png" alt="UIC Logo" title="UIC" width="46" height="19" />&nbsp;
+	    <p>© Copyright 2013-2018 The Board of Trustees of the University of Illinois</p>
+		</div>
+	</div></div><!-- /#sub-footer -->
+
+	
+		<div id="footer">
+		  <div class="container">
+              <h2 class="nav-title">Footer Navigation</h2>
+			  <ul>
+			  <li id="widget_sp_image-2" class="one-fourth widget widget_sp_image"><h3 class="widget-title">University of Illinois Hospital &#038; Health Sciences System</h3><a href="http://uillinoismedcenter.org/" id="" target="_self" class="widget_sp_image-image-link" title="University of Illinois Hospital &amp; Health Sciences System" rel=""><img width="156" height="140" alt="University of Illinois Hospital &amp; Health Sciences System" class="attachment-full" style="max-width: 100%;" src="https://ocle.uic.edu/files/2014/09/logo-medical-center-2.png" /></a></li><li id="widget_sp_image-3" class="one-fourth widget widget_sp_image"><h3 class="widget-title">UIC Flames</h3><a href="http://www.uicflames.com/" id="" target="_self" class="widget_sp_image-image-link" title="UIC Flames" rel=""><img width="57" height="140" alt="UIC Flames" class="attachment-full" style="max-width: 100%;" src="https://ocle.uic.edu/files/2013/12/logo-uic-flames.png" /></a></li><li id="widget_sp_image-4" class="one-fourth widget widget_sp_image"><h3 class="widget-title">University of Illinois Alumni Association</h3><a href="http://www.uiaa.org/uic/" id="" target="_self" class="widget_sp_image-image-link" title="University of Illinois Alumni Association" rel=""><img width="156" height="140" alt="University of Illinois Alumni Association" class="attachment-full" style="max-width: 100%;" src="https://ocle.uic.edu/files/2013/12/logo-univ-illinois-alumni.png" /></a></li><li id="nav_menu-5" class="one-fourth widget widget_nav_menu"><div class="menu-footer-container"><ul id="menu-footer" class="menu"><li id="menu-item-32" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32"><a href="http://www.uic.edu/uic/studentlife/studentservices/disability.shtml">Disability Resources</a></li>
+<li id="menu-item-33" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33"><a href="http://www.uic.edu/uic/studentlife/campus/emergency-information.shtml">Emergency Information</a></li>
+<li id="menu-item-34" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34"><a href="http://www.vpaa.uillinois.edu/policies/web_privacy.cfm">Privacy Policy</a></li>
+<li id="menu-item-295" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-295"><a href="mailto:dhale@uic.edu">Contact the Webmaster</a></li>
+</ul></div></li>			  </ul>
+		  </div>
+		</div>
+
+	
+
+	<!-- End Footer -->
+
+</div>
+<!-- End main wrap -->
+
+<script type='text/javascript' src='https://ocle.uic.edu/wp-includes/js/hoverIntent.min.js?ver=1.8.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mapsmarkerjspro = {"zoom_in":"Zoom in","zoom_out":"Zoom out","googlemaps_language":"","googlemaps_libraries":"","googlemaps_base_domain":"&base_domain=maps.google.com","bing_culture":"en-US","google_adsense_status":"disabled","google_styling_json":"disabled","google_deferred_loading":"enabled","google_script_loading":"frontend","minimap_show":"Show minimap","minimap_hide":"Hide minimap","minimap_status":"collapsed","fullscreen_button_title":"View fullscreen","fullscreen_button_title_exit":"Exit fullscreen","fullscreen_button_position":"topleft","maxzoom":"21","google_maps_api_status":"enabled","meters":"meters","feet":"feet","gpx_icons_status":"show"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/leaflet-dist/leaflet-core.js?ver=2.6.2'></script>
+<script type='text/javascript' src='https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/leaflet-dist/leaflet-addons.js?ver=2.6.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+/* Maps created with Maps Marker Pro - #1 premium mapping plugin for WordPress (www.mapsmarker.com) */
+var mapid_js = "3";
+var mapname_js = "layermap_3";
+var layermap_3 = {};
+var markerID_layermap_3 = {};
+layermap_3 = new L.Map("lmm_map_b1565c56", { dragging: true, touchZoom: true, scrollWheelZoom: true, doubleClickZoom: true, boxzoom: true, trackResize: true, worldCopyJump: false, closePopupOnClick: true, keyboard: true, keyboardPanOffset: 80, keyboardZoomOffset: 1, inertia: true, inertiaDeceleration: 3000, inertiaMaxSpeed: 1500, zoomControl: true, crs: L.CRS.EPSG3857, fullscreenControl: true, maxZoom: 21 });
+layermap_3.attributionControl.setPrefix("<a href=\"https://www.mapsmarker.com/go\" target=\"_blank\" title=\"Maps Marker Pro - #1 mapping plugin for WordPress\">MapsMarker.com</a> (<a href=\"http://www.leafletjs.com\" target=\"_blank\" title=\"Leaflet Maps Marker is based on the javascript library Leaflet maintained by Vladimir Agafonkin and Cloudmade\">Leaflet</a>/<a href=\"https://mapicons.mapsmarker.com\" target=\"_blank\" title=\"Leaflet Maps Marker uses icons from the Maps Icons Collection maintained by Nicolas Mollet\">icons</a>/<a href=\"http://www.visualead.com/go\" target=\"_blank\" rel=\"nofollow\" title=\"Visual QR codes for fullscreen maps are created by Visualead.com\">QR</a>)");
+var osm_mapnik = new L.TileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {maxZoom: 21, maxNativeZoom: 18, minZoom: 1, errorTileUrl: "https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/inc/img/error-tile-image.png", attribution: "Map: &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap contributors</a>&nbsp;(<a href=\"http://www.openstreetmap.org/edit?editor=id&amp;lat=41.873772&amp;lon=-87.650960&zoom=16\" target=\"_blank\" title=\"help OpenStreetMap.org to improve map details\">edit</a>)", detectRetina: true});
+var mapquest_osm = new L.TileLayer("https://{s}-s.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png", {maxZoom: 21, maxNativeZoom: 18, minZoom: 1, errorTileUrl: "https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/inc/img/error-tile-image.png", attribution: "Map: Tiles Courtesy of <a href=\"http://www.mapquest.com/\" target=\"_blank\">MapQuest</a> <img src=\"https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/inc/img/logo-mapquest.png\" style=\"display:inline;\" /> - &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap contributors</a>&nbsp;(<a href=\"http://www.openstreetmap.org/edit?editor=id&amp;lat=41.873772&amp;lon=-87.650960&zoom=16\" target=\"_blank\" title=\"help OpenStreetMap.org to improve map details\">edit</a>)", subdomains: ["otile1","otile2","otile3","otile4"], detectRetina: true});
+var mapquest_aerial = new L.TileLayer("https://{s}-s.mqcdn.com/tiles/1.0.0/sat/{z}/{x}/{y}.png", {maxZoom: 21, maxNativeZoom: 11, minZoom: 1, errorTileUrl: "https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/inc/img/error-tile-image.png", attribution: "Map: <a href=\"http://www.mapquest.com/\" target=\"_blank\">MapQuest</a> <img src=\"https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/inc/img/logo-mapquest.png\" style=\"display:inline;\" />, Portions Courtesy NASA/JPL-Caltech and U.S. Depart. of Agriculture, Farm Service Agency", subdomains: ["otile1","otile2","otile3","otile4"], detectRetina: true});
+var deferred_google_layers = {
+	roadmap: { name: "roadmap", js: ["https://maps.googleapis.com/maps/api/js?callback=L.Google.asyncInitialize"], init: function() {return new L.Google("ROADMAP", {detectRetina: true}); }},
+	satellite: { name: "satellite", js: ["https://maps.googleapis.com/maps/api/js?callback=L.Google.asyncInitialize"], init: function() {return new L.Google("SATELLITE", {detectRetina: true}); }},
+	hybrid: { name: "hybrid", js: ["https://maps.googleapis.com/maps/api/js?callback=L.Google.asyncInitialize"], init: function() {return new L.Google("HYBRID", {detectRetina: true}); }},
+	terrain: { name: "terrain", js: ["https://maps.googleapis.com/maps/api/js?callback=L.Google.asyncInitialize"], init: function() {return new L.Google("TERRAIN", {detectRetina: true}); }}
+};
+var googleLayer_roadmap = new L.DeferredLayer(deferred_google_layers.roadmap);
+var googleLayer_satellite = new L.DeferredLayer(deferred_google_layers.satellite);
+var googleLayer_hybrid = new L.DeferredLayer(deferred_google_layers.hybrid);
+var googleLayer_terrain = new L.DeferredLayer(deferred_google_layers.terrain);
+var ogdwien_basemap = new L.TileLayer("https://{s}.wien.gv.at/wmts/fmzk/pastell/google3857/{z}/{y}/{x}.jpeg", {maxZoom: 21, maxNativeZoom: 19, minZoom: 11, errorTileUrl: "https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/inc/img/error-tile-image.png", attribution: "Map: City of Vienna (<a href=\"http://data.wien.gv.at\" target=\"_blank\" style=\"\">data.wien.gv.at</a>)", subdomains: ["maps","maps1", "maps2", "maps3"], detectRetina: true});
+var ogdwien_satellite = new L.TileLayer("https://{s}.wien.gv.at/wmts/lb/farbe/google3857/{z}/{y}/{x}.jpeg", {maxZoom: 21, maxNativeZoom: 19, minZoom: 11, errorTileUrl: "https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/inc/img/error-tile-image.png", attribution: "Map: City of Vienna (<a href=\"http://data.wien.gv.at\" target=\"_blank\">data.wien.gv.at</a>)", subdomains: ["maps","maps1", "maps2", "maps3"], detectRetina: true});
+var mapbox = new L.TileLayer("https://{s}.tiles.mapbox.com/v3/mapbox.blue-marble-topo-jul/{z}/{x}/{y}.png", {minZoom: 0, maxZoom: 21, maxNativeZoom: 8, errorTileUrl: "https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/inc/img/error-tile-image.png", attribution: "MapBox/NASA, <a href=\"http://www.mapbox.com\">http://www.mapbox.com</a>", subdomains: ["a","b","c","d"], detectRetina: true});
+var mapbox2 = new L.TileLayer("https://{s}.tiles.mapbox.com/v3/mapbox.geography-class/{z}/{x}/{y}.png", {minZoom: 0, maxZoom: 21, maxNativeZoom: 8, errorTileUrl: "https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/inc/img/error-tile-image.png", attribution: "MapBox, <a href=\"http://www.mapbox.com\">http://www.mapbox.com</a>", subdomains: ["a","b","c","d"], detectRetina: true});
+var mapbox3 = new L.TileLayer("https://{s}.tiles.mapbox.com/v3/mapbox.natural-earth-1/{z}/{x}/{y}.png", {minZoom: 0, maxZoom: 21, maxNativeZoom: 6, errorTileUrl: "https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/inc/img/error-tile-image.png", attribution: "MapBox, <a href=\"http://www.mapbox.com\">http://www.mapbox.com</a>", subdomains: ["a","b","c","d"], detectRetina: true});
+var custom_basemap = new L.TileLayer("http://tile.opencyclemap.org/cycle/{z}/{x}/{y}.png", {maxZoom: 21, maxNativeZoom: 17, minZoom: 1, tms: false, errorTileUrl: "https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/inc/img/error-tile-image.png", attribution: "Map: © <a href=\"http://openstreetmap.org/\">OpenStreetMap contributors</a>, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>", continuousWorld: false, noWrap: false, detectRetina: true});
+var custom_basemap2 = new L.TileLayer("https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg", {maxZoom: 21, maxNativeZoom: 17, minZoom: 1, tms: false, errorTileUrl: "https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/inc/img/error-tile-image.png", attribution: "Map: Map tiles: <a href=\"http://stamen.com\">Stamen Design</a>, <a href=\"http://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>. Data: <a href=\"http://openstreetmap.org\">OpenStreetMap</a>, <a href=\"http://creativecommons.org/licenses/by-sa/3.0\">CC BY SA</a>", subdomains: ["a", "b", "c", "d"], continuousWorld: false, noWrap: false, detectRetina: true});
+var custom_basemap3 = new L.TileLayer("http://{s}.tile2.opencyclemap.org/transport/{z}/{x}/{y}.png", {maxZoom: 21, maxNativeZoom: 18, minZoom: 1, tms: false, errorTileUrl: "https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/inc/img/error-tile-image.png", attribution: "Map: © Gravitystorm Ltd. <a href=\"http://www.thunderforest.com\">Thunderforest</a>", subdomains: ["a", "b", "c"], continuousWorld: false, noWrap: false, detectRetina: true});
+var empty_basemap = new L.TileLayer("");
+var overlays_custom = new L.TileLayer("https://{s}.wien.gv.at/wmts/beschriftung/normal/google3857/{z}/{y}/{x}.png", {tms: false, errorTileUrl: "https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/inc/img/error-tile-image.png", attribution: "Addresses: City of Vienna (<a href=\"https://open.wien.at\">open.wien.at</a>)", opacity: 1, maxZoom: 21, maxNativeZoom: 19, minZoom: 1, subdomains: ["maps", "maps1", "maps2", "maps3"], detectRetina: true});
+var overlays_custom2 = new L.TileLayer("https://{s}.wien.gv.at/wmts/beschriftung/normal/google3857/{z}/{y}/{x}.png", {tms: false, errorTileUrl: "https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/inc/img/error-tile-image.png", attribution: "Addresses: City of Vienna (<a href=\"https://open.wien.at\">open.wien.at</a>)", opacity: 1, maxZoom: 21, maxNativeZoom: 17, minZoom: 1, subdomains: ["maps", "maps1", "maps2", "maps3"], detectRetina: true});
+var overlays_custom3 = new L.TileLayer("https://{s}.wien.gv.at/wmts/beschriftung/normal/google3857/{z}/{y}/{x}.png", {tms: false, errorTileUrl: "https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/inc/img/error-tile-image.png", attribution: "Addresses: City of Vienna (<a href=\"https://open.wien.at\">open.wien.at</a>)", opacity: 1, maxZoom: 21, maxNativeZoom: 17, minZoom: 1, subdomains: ["maps", "maps1", "maps2", "maps3"], detectRetina: true});
+var overlays_custom4 = new L.TileLayer("https://{s}.wien.gv.at/wmts/beschriftung/normal/google3857/{z}/{y}/{x}.png", {tms: false, errorTileUrl: "https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/inc/img/error-tile-image.png", attribution: "Addresses: City of Vienna (<a href=\"https://open.wien.at\">open.wien.at</a>)", opacity: 1, maxZoom: 21, maxNativeZoom: 17, minZoom: 1, subdomains: ["maps", "maps1", "maps2", "maps3"], detectRetina: true});
+var layersControl_layermap_3 = new L.Control.Layers(
+{'OpenStreetMap': osm_mapnik,'Mapquest (OSM)': mapquest_osm,'Mapquest (Aerial)': mapquest_aerial,'Google Maps (Roadmap)': googleLayer_roadmap,'Google Maps (Satellite)': googleLayer_satellite,'Google Maps (Hybrid)': googleLayer_hybrid,'Google Maps (Terrain)': googleLayer_terrain,'Open Cycle Map': custom_basemap,'Stamen Watercolor': custom_basemap2,'Transport Map': custom_basemap3},
+{},
+{ collapsed: true } );
+layermap_3.setView(new L.LatLng(41.873772, -87.650960), 16);
+layermap_3.addLayer(googleLayer_roadmap).addControl(layersControl_layermap_3);
+var osm_mapnik_minimap = new L.TileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {maxZoom: 21, maxNativeZoom: 18, minZoom: 1, errorTileUrl: "https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/inc/img/error-tile-image.png", attribution: "Map: &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap contributors</a>&nbsp;(<a href=\"http://www.openstreetmap.org/edit?editor=id&amp;lat=41.873772&amp;lon=-87.650960&zoom=16\" target=\"_blank\" title=\"help OpenStreetMap.org to improve map details\">edit</a>)", detectRetina: true});
+var mapquest_osm_minimap = new L.TileLayer("https://{s}-s.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png", {maxZoom: 21, maxNativeZoom: 18, minZoom: 1, errorTileUrl: "https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/inc/img/error-tile-image.png", attribution: "Map: Tiles Courtesy of <a href=\"http://www.mapquest.com/\" target=\"_blank\">MapQuest</a> <img src=\"https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/inc/img/logo-mapquest.png\" style=\"display:inline;\" /> - &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap contributors</a>&nbsp;(<a href=\"http://www.openstreetmap.org/edit?editor=id&amp;lat=41.873772&amp;lon=-87.650960&zoom=16\" target=\"_blank\" title=\"help OpenStreetMap.org to improve map details\">edit</a>)", subdomains: ["otile1","otile2","otile3","otile4"], detectRetina: true});
+var mapquest_aerial_minimap = new L.TileLayer("https://{s}-s.mqcdn.com/tiles/1.0.0/sat/{z}/{x}/{y}.png", {maxZoom: 21, maxNativeZoom: 11, minZoom: 1, errorTileUrl: "https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/inc/img/error-tile-image.png", attribution: "Map: <a href=\"http://www.mapquest.com/\" target=\"_blank\">MapQuest</a> <img src=\"https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/inc/img/logo-mapquest.png\" style=\"display:inline;\" />, Portions Courtesy NASA/JPL-Caltech and U.S. Depart. of Agriculture, Farm Service Agency", subdomains: ["otile1","otile2","otile3","otile4"], detectRetina: true});
+var deferred_google_layers_minimap = {
+	roadmap: { name: "roadmap minimap", js: ["https://maps.googleapis.com/maps/api/js?callback=L.Google.asyncInitialize"], init: function() {return new L.Google("ROADMAP", {detectRetina: true}); }},
+	satellite: { name: "satellite minimap", js: ["https://maps.googleapis.com/maps/api/js?callback=L.Google.asyncInitialize"], init: function() {return new L.Google("SATELLITE", {detectRetina: true}); }},
+	hybrid: { name: "hybrid minimap", js: ["https://maps.googleapis.com/maps/api/js?callback=L.Google.asyncInitialize"], init: function() {return new L.Google("HYBRID", {detectRetina: true}); }},
+	terrain: { name: "terrain minimap", js: ["https://maps.googleapis.com/maps/api/js?callback=L.Google.asyncInitialize"], init: function() {return new L.Google("TERRAIN", {detectRetina: true}); }}
+};
+var googleLayer_roadmap_minimap = new L.DeferredLayer(deferred_google_layers_minimap.roadmap);
+var googleLayer_satellite_minimap = new L.DeferredLayer(deferred_google_layers_minimap.satellite);
+var googleLayer_hybrid_minimap = new L.DeferredLayer(deferred_google_layers_minimap.hybrid);
+var googleLayer_terrain_minimap = new L.DeferredLayer(deferred_google_layers_minimap.terrain);
+var miniMap_layermap_3 = new L.Control.MiniMap(googleLayer_roadmap_minimap, {position: 'bottomright', width: 150, height: 150, collapsedWidth: 19, collapsedHeight: 19, zoomLevelOffset: -5,  zoomAnimation: false, toggleDisplay: true, autoToggleDisplay: false}).addTo(layermap_3);
+var scale_layermap_3 = L.control.scale({position:'bottomleft', maxWidth: 100, metric: true, imperial: true, updateWhenIdle: false});
+scale_layermap_3.addTo(layermap_3);
+var locatecontrol_layermap_3 = L.control.locate({ position: 'topleft', drawCircle: true, follow: true, setView: true, keepCurrentZoomLevel: true, remainActive: false, circleStyle: {}, markerStyle: {}, followCircleStyle: {}, followMarkerStyle: {}, icon: 'icon-cross-hairs', circlePadding: [0,0], metric: true, showPopup: true, strings: { title: 'Show me where I am', metersUnit: 'meters', feetUnit: 'feet', popup: 'You are within {distance} {unit} from this point', outsideMapBoundsMsg: 'You seem located outside the boundaries of the map' }, locateOptions: {watch: true} }).addTo(layermap_3);
+var geojsonObj_layermap_3, mapIcon, marker_clickable, marker_title;
+var xhReq_layermap_3 = new XMLHttpRequest();
+xhReq_layermap_3.open("GET", "https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/leaflet-geojson.php?layer=3&full=no&full_icon_url=no", true);
+xhReq_layermap_3.onreadystatechange = function xhReq_b1565c56(e) { if (xhReq_layermap_3.readyState === 4) { if (xhReq_layermap_3.status === 200) {
+if (xhReq_layermap_3.responseText.indexOf('{"type"') != 0) {
+	var layermap_3_position = xhReq_layermap_3.responseText.indexOf('{"type"');
+	try { geojsonObj_layermap_3 = JSON.parse(xhReq_layermap_3.responseText.slice(layermap_3_position)); } catch (e) { console.log("Error - invalid GeoJSON object: "+e.message); }
+} else {
+	try { geojsonObj_layermap_3 = JSON.parse(xhReq_layermap_3.responseText); } catch (e) { console.log("Error - invalid GeoJSON object: "+e.message); }
+}
+layermap_3_geojson_markers = L.geoJson(geojsonObj_layermap_3, {
+		onEachFeature: function(feature, marker) {
+			markerID_layermap_3[feature.properties.markerid] = marker;
+if (feature.properties.text != "") { var css = "border-top:1px solid #f0f0e7;padding-top:5px;margin-top:5px;clear:both;"; } else { var css = ""; }
+if (feature.properties.markername != "") { var divmarkername1 = "<div class=\"popup-markername\"  style=\"border-bottom:1px solid #f0f0e7;padding-bottom:5px;margin-bottom:6px;\">"; var divmarkername2 = "</div>" } else { var divmarkername1 = ""; var divmarkername2 = ""; }
+marker.bindPopup(divmarkername1+feature.properties.markername+divmarkername2+feature.properties.text+"<div class=\"popup-directions\" style=\""+css+"\">"+feature.properties.address+" <a href=\""+feature.properties.dlink+"\" target=\"_blank\" title=\"Get directions\">(Directions)</a></div>", {
+		maxWidth: 300, 
+		minWidth: 250, 
+		maxHeight: 160, 
+		autoPan: true, 
+		closeButton: true, 
+		autoPanPadding: new L.Point(5, 5)
+});
+},
+pointToLayer: function (feature, latlng) {
+ if (feature.properties.iconUrl == undefined) {
+	mapIcon = L.icon({ 
+		iconUrl: (feature.properties.icon != '') ? 'https://ocle.uic.edu/files/leaflet-maps-marker-icons/' + feature.properties.icon : 'https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/leaflet-dist/images/marker.png',
+		iconSize: [32, 37],
+		iconAnchor: [17, 36],
+		popupAnchor: [-1, -32],
+		shadowUrl: 'https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/leaflet-dist/images/marker-shadow.png',
+		shadowSize: [41, 41],
+		shadowAnchor: [16, 43],
+		className: (feature.properties.icon == '') ? 'lmm_marker_icon_default' : 'lmm_marker_icon_'+ feature.properties.icon.slice(0,-4)
+	});
+} else {
+	mapIcon = L.icon({ 
+		iconUrl: feature.properties.iconUrl,
+		iconSize: [32, 37],
+		iconAnchor: [17, 36],
+		popupAnchor: [-1, -32],
+		shadowUrl: 'https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/leaflet-dist/images/marker-shadow.png',
+		shadowSize: [41, 41],
+		shadowAnchor: [16, 43],
+		className: (feature.properties.icon == '') ? 'lmm_marker_icon_default' : 'lmm_marker_icon_'+ feature.properties.icon.slice(0,-4)
+	});
+};
+if (feature.properties.text != "" || (feature.properties.dlink != "" && feature.properties.dlink != undefined)) { marker_clickable = true } else { marker_clickable = false };
+if (feature.properties.markername == '') { marker_title = '' } else { marker_title = feature.properties.markername };
+return L.marker(latlng, {icon: mapIcon, clickable: marker_clickable, title: marker_title, alt: marker_title, opacity: 1});
+}});
+layermap_3_geojson_markers.addTo(layermap_3);
+} else { if (window.console) { console.error(xhReq_layermap_3.statusText); } } } }; xhReq_layermap_3.onerror = function xhReq_b1565c56(e) { if (window.console) { console.error(xhReq_layermap_3.statusText); } }; xhReq_layermap_3.send(null);
+function lmm_resizeMap_layermap_3() {
+		var mapid = document.getElementById('lmm_b1565c56');
+		if( (mapid.parentNode.offsetWidth >0) && (mapid.parentNode.offsetWidth < 640) ) {
+			mapid.style.width = '100%';
+			layermap_3.invalidateSize();
+		}
+}
+lmm_resizeMap_layermap_3();
+if (typeof jQuery != 'undefined') {
+	if (typeof jQuery().modal == 'function') {
+		jQuery(document).ready(function($) {
+			layermap_3.invalidateSize();
+			jQuery('a[data-toggle="tab"],.tabbed-area a,.nav-tabs a').on('shown.bs.tab', function (e) {
+				layermap_3.invalidateSize();
+			});
+		});
+	}
+	if (typeof jQuery.ui != 'undefined') {
+		jQuery(document).ready(function($) {
+			layermap_3.invalidateSize();
+			jQuery('.ui-tabs').on('tabsactivate', function(event, ui) {
+				layermap_3.invalidateSize();
+			});
+		});
+	}
+	if (typeof jQuery.mobile != 'undefined') {
+		jQuery(document).bind('pageinit', function( event, data ){
+			layermap_3.invalidateSize();
+		});
+	}
+}function listmarkers_action_b1565c56(id) {
+	var newlocation = markerID_layermap_3[id].getLatLng();
+	layermap_3.setView(newlocation,layermap_3.getZoom());
+}
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://ocle.uic.edu/wp-content/plugins/leaflet-maps-marker-pro/inc/js/show_map.js?ver=2.6.2'></script>
+<!-- End Document
+================================================== -->
+</body>
+</html>

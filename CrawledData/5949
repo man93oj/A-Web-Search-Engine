@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="Robots" content="index,follow" />
+	<meta name="author" content="Reggie Smith" />
+	<meta name="description" content="Description" />
+	<meta name="keywords" content="key, words" />
+	<link rel="stylesheet" type="text/css" href="index2_test.css" media="screen" />
+	<title>UIC Chancellor's Innovation Fund</title>
+</head>
+<body>
+	<div id="content">
+		<p id="top">&nbsp;</p>
+		<div id="logo">
+			<h1><a href="#"><img src="http://illinois.edu/2736/logo2.png"width="149" height="66"></a></h1>
+		</div>
+      <div id="logo2">
+			<h1><a href="#"><img src="http://illinois.edu/2736/logo3.png"width="249" height="66"></a></h1>
+	  </div>
+		<ul id="menu">
+			<li class="current"><a href="#">Home</a></li>
+			<li><a href="projects.html">Projects</a></li>
+			<li><a href="contacts.html">Contacts</a></li>
+		</ul>
+		<div class="line"></div>
+		<div id="pitch">
+			<h1>The UIC Chancellor’s Innovation Fund (CIF)<br />
+			is a hybrid proof of concept and equity investment fund with an expected commitment of $2 million per year for 5 years.</h1>
+			<h2>The CIF has been established at UIC by the Office of the Chancellor in partnership with IllinoisVENTURES to support the commercialization of technology developed by faculty, staff and students at UIC.<br /><br /></h2>
+		</div>	
+		<div class="third">
+			<h3>Proof of Concept Awards Program</h3>
+			<p>The POC Awards Program will be conducted twice yearly with $500,000 per round available for projects. Grants of up to $75,000 will be awarded for selected projects. To be eligible for funding, projects must be based on a UIC invention that has been disclosed to the Office of Technology Management. We highly encourages faculty inventors to schedule a meeting with their OTM Tech Manager and IllinoisVENTURES to discuss their proposed project prior to submitting a Pre-Proposal Application. This meeting will help generate ideas for creating a competitive proposal and will also allow for a discussion on whether a project or technology may be too early-stage for POC Awards funding.</p>
+		</div>
+		<div class="third">
+			<h3>Equity Investment Fund</h3>
+			<p>IllinoisVENTURES was ranked #1 in gap funding for third-party capital and has spent a decade turning university-derived technologies into profitable businesses. To date, companies funded by IllinoisVENTURES have raised almost $600 million in third party capital, employ over 600 people, and are having a significant global and econoomic impact.By injecting an additional $1 million per year for the next 5 years into IllinoisVENTURES, the UIC Chancellor’s Innovation Fund will provide a much-needed boost to seed funding toward transformative university research and innovation.</p>
+		</div>
+		<div class="third last">
+			<h3>Whats New with CIF?</h3>
+            <div class="right">
+            <h3>January 14, 2013</h3>
+			<p>The UIC Chancellor’s Innovation Fund is very pleased to announce the winners of the Fall 2013 Proof of Concept Awards Program... <a href="projects.html">read more</a></p> 
+			
+          </div>
+		</div>
+		<div class="line"></div>
+		<div class="third left">
+			<h4>POC Awards Program: Documents</h4>
+			
+            <p><a href="http://cif.uic.edu/OTM/UICCIFPOCPreProposalApplicationForm.docx"> UIC Chancellor's Innovation Fund Proof of Concept Awards Program Pre-Proposal Application Form </a></p>
+            
+		</div>
+         <div class="third">
+        <h4>POC Awards Program:<br />Important Dates</h4>
+            
+						<p><strong>September 10th - </strong> Pre-Proposals Due<br />
+                          <strong>Week of October 20th - </strong>POC Finalists Announced<br />
+                          <strong>Nov 22nd -</strong> Full Proposals Due<br />
+                          <strong>Week of Dec 15th - </strong>POC Winners Announced<br />
+						</p>
+			 
+		
+		   
+      </div>
+	
+       <div class="third last">
+        <h4>UIC Chancellor's Innovation Fund in the News         </h4>
+        <ul>
+        <li>
+					<p>
+						<a href="http://www.gapfunding.org/university-of-illinois-chicago-announce-400k-in-grants-from-the-uic-chancellors-innovation-fund/"><em>University of Illinois-Chicago announces $400K in grants from the UIC Chancellor’s Innovation Fund</em> </a>
+				    </p>
+				</li>
+                <li>
+					<p>
+						<a href="https://news.uic.edu/awards-put-research-a-step-closer-to-commercialization"><em>Awards brings research closer to commercialization</em> </a>
+				    </p>
+				</li>
+				<li>
+					<p>
+						<a href="http://www.gapfunding.org/university-illinois-chicago-illinoisventures-launches-10m-pocseed-funds/"><em>University of Illinois At Chicago, IllinoisVentures Launches New $10M POC/Seed Funds</em> </a>
+				    </p>
+			    </li>
+				<li>
+					<p>
+						<a href="http://www.gaebler.com/News/Small-Business-Startup/University-of-Illinois-at-Chicago-(UIC)-Writes-Big-Check-for-Startup-Entrepreneurs-900000375.htm"><em>University Of Illinois At Chicago (UIC) Writes Big Check For Startup Entrepreneurs</em> </a>
+				    </p>
+			    </li>
+				<li><p><a href="http://www.chicagotribune.com/business/breaking/chi-uic-launches-10m-seed-fund-for-startups-20130426,0,1452958.story"> <em>UIC launches $10M seed fund to advance startups</em> </a></p>
+			  </li>
+		 </ul>
+      </div>
+		<div id="footer">
+			<p>&copy; Copyright 2013 UIC Chancellor's Innovation Fund
+            <a href="http://www.uic.edu/index.html/Chancellor/"><img src="http://illinois.edu/2736/footer_logos.png" width="115" height="30" style="padding-left:55px;padding-right: 25px"></a><a href="http://www.illinoisventures.com/"><img src="http://illinois.edu/2736/footer_logos1.png" width="127" height="45" style="padding-right: 25px"></a></a><a href="http://otm.uic.edu/"><img src="http://illinois.edu/2736/footer_logos2.png" width="160" height="25" style="padding-right: 25px"></a><a href="http://tigger.uic.edu/depts/ovcr/research/"><img src="http://illinois.edu/2736/footer_logos3.png" width="125" height="40" style="padding-right: 25px"></a></p>
+		</div>	
+	</div>
+</body>
+</html>

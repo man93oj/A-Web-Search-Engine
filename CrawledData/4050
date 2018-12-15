@@ -1,0 +1,16 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+<title>UIC Bioinformatics | Jie Liang Research Lab</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name='keywords' content='Jie Liang, Liang Lab, Publication, UIC, Bioinformatics, Bioengineering'>
+</head>
+<frameset rows="100,*" cols="*" frameborder="NO" border="0" framespacing="0" >
+  <frame src="upbar.html" name="topFrame" scrolling="NO" noresize>
+  <frameset cols="187,*" frameborder="NO" border="0" framespacing="0" >
+    <frame src="leftbar.html" name="leftFrame" scrolling="NO" noresize style="width:120;height:100%;">
+    <frame src="research.html" name="contentFrame">
+  </frameset>
+</frameset>
+</html>
+

@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Biomedical Optics_BIOE_UIC_home</title>
+<style type="text/css">
+<!--
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #666666;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+.oneColFixCtrHdr #container {
+	width: 780px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+.oneColFixCtrHdr #header {
+	background: #DDDDDD; 
+	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+}
+.oneColFixCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+.oneColFixCtrHdr #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	background: #FFFFFF;
+}
+.oneColFixCtrHdr #footer {
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#DDDDDD;
+}
+.oneColFixCtrHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+#apDiv1 {
+	position:absolute;
+	width:230px;
+	height:291px;
+	z-index:1;
+	left: 713px;
+	top: 394px;
+}
+#apDiv2 {
+	position:absolute;
+	width:300px;
+	height:225px;
+	z-index:2;
+	left: 278px;
+	top: 629px;
+}
+#apDiv3 {
+	position:absolute;
+	width:303px;
+	height:371px;
+	z-index:1;
+	top: 77px;
+}
+.style35 {
+	font-size: x-large;
+	font-weight: bold;
+}
+.style36 {
+	font-size: x-large
+}
+.style43 {font-size: large}
+#apDiv4 {
+	position:absolute;
+	width:335px;
+	height:226px;
+	z-index:1;
+	left: 612px;
+	top: 176px;
+}
+.style32 {font-size: medium}
+.style30 {color: #00FF00}
+.style48 {font-size: x-large;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+.style33 {font-family: "Times New Roman", Times, serif; font-size: x-large;}
+.style49 {color: #0000FF}
+.style321 {font-size: x-large;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+.style37 {font-family: Verdana, Arial, Helvetica, sans-serif}
+-->
+</style></head>
+
+<body class="oneColFixCtrHdr">
+
+<div id="container">
+  <div id="header">
+    <h1 align="center"><span class="style321"><span class="style37">Biomedical Optics and Functional Imaging Laboratory</span><br />
+      @ <strong><span class="style33">the     Department of Bioengineering, UIC</span></strong><br />
+    </span></h1>
+    <table width="745" border="0">
+      <tr>
+        <th width="68" bgcolor="#000099" scope="col"><div align="center"><a href="index.html" class="style30">Home</a></div></th>
+        <th width="78" bgcolor="#000099" scope="col"><div align="center"><a href="CV_YAO.html" class="style30">Dr. Yao</a></div></th>
+        <th width="95" bgcolor="#000099" scope="col"><div align="center"><a href="Group_YAO.html" class="style30">Members</a><a href="Group_YAO.html"></a></div></th>
+        <th width="95" bgcolor="#000099" scope="col"><div align="center"><a href="Teaching_YAO.html" class="style30">Teaching</a></div></th>
+        <th width="95" bgcolor="#000099" scope="col"><a href="Research_YAO.html" class="style30">Research</a></th>
+        <th width="117" bgcolor="#000099" scope="col"><div align="center"><a href="Publication_YAO.html" class="style30">Publications</a></div></th>
+        <th width="69" bgcolor="#000099" scope="col"><div align="center"><a href="News_YAO.html" class="style30">News</a></div></th>
+        <th width="94" bgcolor="#000099" scope="col"><div align="center"><a href="Openings_YAO.html" class="style30">Openings</a></div></th>
+      </tr>
+    </table>
+    <!-- end #header -->
+  </div>
+  <div id="mainContent">
+    <p align="left"><br />
+      Dr.  Yao's Biomedical Optics and Functional Imaging Laboratory is housed in the  Lions of Illinois Eye Research Institute (LIERI). Our research interests include optical technology for advanced study of retinal morphology and physiology, experimental biophysics of neural systems and endocrine  cells.</p>
+    <p align="left"><span class="style32"><strong>Laboratory Address:</strong><br />
+LIERI B105, B107, B109, B115 and B117<br />
+ University of Illinois at Chicago (UIC)<br />
+1905 West Taylor Street, Chicago, IL 60612<br />
+Tel: (312)996-4848 or (312)996-6040<br />
+Fax: (312)996-4644</span></p>
+    <p align="left"><img src="images/UIC_lab_members/Group_2017.jpg" width="717" height="461" alt=""/></p>
+    <p align="left">Group picture taken in 2017 Fall</p>
+    <p align="left">&nbsp;</p>
+    <p align="left"><img src="images/UIC_lab_members/Group.JPG" width="720" height="340" alt=""/></p>
+    <p>Group picture taken in 2016 Spring</p>
+    <div id="innerImage">
+      <div align="center"></div>
+    </div>
+    <div align="center">
+      <p>&nbsp;</p>
+    </div>
+    <div align="center"><a href="http://www.easycounter.com/en/"> 
+      <img src="http://www.easycounter.com/counter.php?xcy" 
+border="0" alt="Website Hit Counters"></a> 
+      <br>
+    </div>
+    <table width="745" border="0">
+      <tr>
+        <th width="68" bgcolor="#000099" scope="col"><div align="center"><a href="index.html" class="style30">Home</a></div></th>
+        <th width="78" bgcolor="#000099" scope="col"><div align="center"><a href="CV_YAO.html" class="style30">Dr. Yao</a></div></th>
+        <th width="95" bgcolor="#000099" scope="col"><div align="center"><a href="Group_YAO.html" class="style30">Members</a><a href="Group_YAO.html"></a></div></th>
+        <th width="95" bgcolor="#000099" scope="col"><div align="center"><a href="Teaching_YAO.html" class="style30">Teaching</a></div></th>
+        <th width="95" bgcolor="#000099" scope="col"><a href="Research_YAO.html" class="style30">Research</a></th>
+        <th width="117" bgcolor="#000099" scope="col"><div align="center"><a href="Publication_YAO.html" class="style30">Publications</a></div></th>
+        <th width="69" bgcolor="#000099" scope="col"><div align="center"><a href="News_YAO.html" class="style30">News</a></div></th>
+        <th width="94" bgcolor="#000099" scope="col"><div align="center"><a href="Openings_YAO.html" class="style30">Openings</a></div></th>
+      </tr>
+    </table>
+  </div>
+  <!-- end #container -->
+</div>
+</body>
+</html>

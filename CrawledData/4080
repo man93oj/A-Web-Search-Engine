@@ -1,0 +1,331 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { (function(){function e(a){this.t={};this.tick=function(a,c,b){this.t[a]=[void 0!=b?b:(new Date).getTime(),c];if(void 0==b)try{window.console.timeStamp("CSI/"+a)}catch(h){}};this.tick("start",null,a)}var a;if(window.performance)var d=(a=window.performance.timing)&&a.responseStart;var f=0<d?new e(d):new e;window.jstiming={Timer:e,load:f};if(a){var c=a.navigationStart;0<c&&d>=c&&(window.jstiming.srt=d-c)}if(a){var b=window.jstiming.load;0<c&&d>=c&&(b.tick("_wtsrt",void 0,c),b.tick("wtsrt_","_wtsrt",
+d),b.tick("tbsd_","wtsrt_"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),b&&0<c&&(b.tick("_tbnd",void 0,window.chrome.csi().startE),b.tick("tbnd_","_tbnd",c))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,b&&0<c&&(b.tick("_tbnd",void 0,window.external.startE),b.tick("tbnd_","_tbnd",c))),a&&(window.jstiming.pt=a)}catch(g){}})(); })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
+<link rel="apple-touch-icon" href="https://ssl.gstatic.com/sites/p/a35f98/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { function d(a){return document.getElementById(a)}window.byId=d;function g(a){return a.replace(/^\s+|\s+$/g,"")}window.trim=g;var h=[],k=0;window.JOT_addListener=function(a,b,c){var f=new String(k++);a={eventName:a,handler:b,compId:c,key:f};h.push(a);return f};window.JOT_removeListenerByKey=function(a){for(var b=0;b<h.length;b++)if(h[b].key==a){h.splice(b,1);break}};window.JOT_removeAllListenersForName=function(a){for(var b=0;b<h.length;b++)h[b].eventName==a&&h.splice(b,1)};
+window.JOT_postEvent=function(a,b,c){var f={eventName:a,eventSrc:b||{},payload:c||{}};if(window.JOT_fullyLoaded)for(b=h.length,c=0;c<b&&c<h.length;c++){var e=h[c];e&&e.eventName==a&&(f.listenerCompId=e.compId||"",(e="function"==typeof e.handler?e.handler:window[e.handler])&&e(f))}else window.JOT_delayedEvents.push({eventName:a,eventSrc:b,payload:c})};window.JOT_delayedEvents=[];window.JOT_fullyLoaded=!1;
+window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1440<=a||0>a)return null;var c=0;60<=a&&(a/=60,c=2);2<=a&&c++;return b?window.JOT_siteRelTimeStrs[c].replace("__duration__",Math.floor(a)):window.JOT_userRelTimeStrs[c].replace("__duration__",Math.floor(a))}; })()
+</script>
+<script>
+
+  
+
+  var breadcrumbs = [{"path":"/a/uic.edu/ismdlab/home","deleted":false,"title":"Home","dir":"ltr"}];
+  var JOT_clearDotPath = 'https://ssl.gstatic.com/sites/p/a35f98/system/app/images/cleardot.gif';
+
+  
+  var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+  
+  
+
+  
+
+  var webspace = {"gvizGstaticVersion":"current","enableAnalytics":false,"pageSharingId":"jotspot_page","codeembeds":{"outerIframeSrc":"https://www.gstatic.com/jotspot/embeds/code/0f08d42392f2000e7e3f3daf5b427a43/outer_iframe.html","innerIframeSrc":"https://213569993-jotspot-embeds.googleusercontent.com/code/8d87fa64604b2a11fae2ed06104c58d3/inner_iframe.html"},"enableUniversalAnalytics":false,"sharingPolicy":"OPENED_WITH_INDICATOR","siteTitle":"ISMDLAB","jot2atari":{"eligibility":"ineligible"},"onepickUrl":"https://docs.google.com/picker","adsensePublisherId":null,"features":{"oAuthForChartsApi":true,"moreMobileStyleImprovements":null,"googleChartsOverGstatic":false,"picasaAlbumInsert":false,"pageDrafts":false,"enableJot2Atari":true,"plusBadge":false,"pdfEmbedSupport":false},"isPublic":true,"newSitesBaseUrl":"https://sites.google.com","isConsumer":false,"serverFlags":{"jot2AtariLearnMoreUrl":"https://support.google.com/sites/answer/7035197"},"domainAnalyticsAccountId":"","plusPageId":"","signInUrl":"https://accounts.google.com/AccountChooser?continue\u003dhttps://sites.google.com/a/uic.edu/ismdlab/home\u0026service\u003djotspot","analyticsAccountId":"","scottyUrl":"/_/upload","homePath":"/","siteNoticeUrlEnabled":null,"plusPageUrl":"","adsensePromoClickedOrSiteIneligible":true,"csiReportUri":"https://gg.google.com/csi","sharingId":"jotspot","termsUrl":"//www.google.com/intl/en/policies/terms/","gvizVersion":1,"editorResources":{"sitelayout":["https://ssl.gstatic.com/sites/p/a35f98/system/app/css/sitelayouteditor.css"],"text":["https://ssl.gstatic.com/sites/p/a35f98/system/js/codemirror.js","https://ssl.gstatic.com/sites/p/a35f98/system/app/css/codemirror_css.css","https://ssl.gstatic.com/sites/p/a35f98/system/js/trog_edit__en.js","https://ssl.gstatic.com/sites/p/a35f98/system/app/css/trogedit.css","/a/uic.edu/ismdlab/_/rsrc/1543480740000/system/app/css/editor.css","https://ssl.gstatic.com/sites/p/a35f98/system/app/css/codeeditor.css","/a/uic.edu/ismdlab/_/rsrc/1543480740000/system/app/css/camelot/editor-jfk.css"]},"sharingUrlPrefix":"/_/sharing","isAdsenseEnabled":true,"domain":"uic.edu","baseUri":"/a/uic.edu/ismdlab","name":"ismdlab","siteTemplateId":false,"siteNoticeRevision":null,"siteNoticeUrlAddress":null,"siteNoticeMessage":null,"page":{"isRtlLocale":false,"canDeleteWebspace":null,"isPageDraft":null,"parentPath":null,"parentWuid":null,"siteLocale":"en","timeZone":"America/Los_Angeles","type":"text","title":"Home","locale":"en","wuid":"wuid:gx:5d428306d085f39c","revision":17,"path":"/home","isSiteRtlLocale":false,"pageInheritsPermissions":null,"name":"home","canChangePath":false,"state":"","properties":{},"bidiEnabled":false,"currentTemplate":{"path":"/system/app/pagetemplates/text","title":"Web Page"}},"canPublishScriptToAnyone":true,"user":{"keyboardShortcuts":true,"sessionIndex":"","onePickToken":"","guest_":true,"displayNameOrEmail":"guest","userName":"guest","uid":"","renderMobile":false,"domain":"","namespace":"","hasWriteAccess":false,"namespaceUser":false,"primaryEmail":"guest","hasAdminAccess":false},"gadgets":{"baseUri":"/a/uic.edu/ismdlab/system/app/pages/gadgets"}};
+  webspace.page.breadcrumbs = breadcrumbs;
+
+  
+  var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="title" content="ISMDLAB" />
+<meta itemprop="name" content="ISMDLAB" />
+<meta property="og:title" content="ISMDLAB" />
+<style type="text/css">
+</style>
+<link rel="stylesheet" type="text/css" href="https://ssl.gstatic.com/sites/p/a35f98/system/app/themes/microsport/standard-css-microsport-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/a/uic.edu/ismdlab/_/rsrc/1543480740000/system/app/css/overlay.css?cb=microsport915px207goog-ws-leftcontent30themedefaultstandard" />
+<link rel="stylesheet" type="text/css" href="/a/uic.edu/ismdlab/_/rsrc/1543480740000/system/app/css/camelot/allthemes-view.css" />
+<!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/a/uic.edu/ismdlab/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+<title>ISMDLAB</title>
+<meta itemprop="image" content="https://sites.google.com/a/uic.edu/ismdlab/_/rsrc/1417549644213/home/IMG_2912.JPG" />
+<meta property="og:image" content="https://sites.google.com/a/uic.edu/ismdlab/_/rsrc/1417549644213/home/IMG_2912.JPG" />
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en            ">
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything" class="">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="height:auto;">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0" style="height:auto;">
+<tr class="sites-header-primary-row" id="sites-chrome-userheader">
+<td id="sites-header-title" class="" role="banner"><div class="sites-header-cell-buffer-wrapper"><a href="https://sites.google.com/a/uic.edu/ismdlab/" id="sites-chrome-userheader-logo"><img id="logo-img-id" src="/a/uic.edu/ismdlab/_/rsrc/1376429693063/config/customLogo.gif?revision=1" alt="ISMDLAB" class="sites-logo  " /></a><h2></h2></div></td><td class="sites-layout-searchbox  "><div class="sites-header-cell-buffer-wrapper"><form id="sites-searchbox-form" action="/a/uic.edu/ismdlab/system/app/pages/search" role="search"><input type="hidden" id="sites-searchbox-scope" name="scope" value="search-site" /><input type="text" id="jot-ui-searchInput" name="q" size="20" value="" aria-label="Search this site" /><div id="sites-searchbox-button-set" class="goog-inline-block"><div role="button" id="sites-searchbox-search-button" class="goog-inline-block jfk-button jfk-button-standard" tabindex="0">Search this site</div></div></form></div></td>
+</tr>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container" role="navigation">
+</td>
+</tr>
+</table>
+</div>
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
+<tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left initial" style="width:207px">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_2bd" class="sites-embed" role="navigation"><h4 class="sites-embed-title">Navigation</h4><div class="sites-embed-content sites-sidebar-nav"><ul role="navigation" jotId="navList" class="has-expander"><li class="topLevel nav-first "><div class="current-bg" jotId="wuid:gx:5d428306d085f39c" dir="ltr" style="padding-left: 19px;">Home</div></li><li class="topLevel parent " wuid="gx:633e19b742b50085"><div dir="ltr" style="padding-left: 0px;"><div class="expander"></div><a href="/a/uic.edu/ismdlab/our-lab" jotId="wuid:gx:633e19b742b50085" class="sites-navigation-link topLevel">About ISM&amp;D Lab.</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/a/uic.edu/ismdlab/our-lab/welcome" jotId="wuid:gx:328de0b721a8cfd" class="sites-navigation-link">Welcome</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/a/uic.edu/ismdlab/our-lab/open-positions" jotId="wuid:gx:5e81d8d7cfcbad1d" class="sites-navigation-link">Open Positions</a></div></li></ul></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="/a/uic.edu/ismdlab/pe" jotId="wuid:gx:6c30b81b3200bc9a" class="sites-navigation-link topLevel">Personnel</a></div></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="/a/uic.edu/ismdlab/research" jotId="wuid:gx:1b4df4023a94c4c6" class="sites-navigation-link topLevel">Research</a></div></li><li class="topLevel parent " wuid="gx:5e99a079bc7ebf19"><div dir="ltr" style="padding-left: 0px;"><div class="expander"></div><a href="/a/uic.edu/ismdlab/publications" jotId="wuid:gx:5e99a079bc7ebf19" class="sites-navigation-link topLevel">Publications</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/a/uic.edu/ismdlab/publications/journal-papers" jotId="wuid:gx:7db6097b9f3b5001" class="sites-navigation-link">Journal Papers</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/a/uic.edu/ismdlab/publications/conference-papers" jotId="wuid:gx:4ee2408530311a3d" class="sites-navigation-link">Conference Papers</a></div></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/a/uic.edu/ismdlab/publications/book-chapters" jotId="wuid:gx:53aaf57deb803d3" class="sites-navigation-link">Book Chapters</a></div></li></ul></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="/a/uic.edu/ismdlab/Announcements" jotId="wuid:gx:45e746fdc10133be" class="sites-navigation-link topLevel">Recemt Announcements</a></div></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="/a/uic.edu/ismdlab/alumnus" jotId="wuid:gx:3825fcce6bc3bb91" class="sites-navigation-link topLevel">Alumnus</a></div></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="/a/uic.edu/ismdlab/links" jotId="wuid:gx:109d61a90d59514a" class="sites-navigation-link topLevel">Useful Links</a></div></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="/a/uic.edu/ismdlab/contact-us" jotId="wuid:gx:734533d0f71bdce6" class="sites-navigation-link topLevel">Contact Us</a></div></li></ul></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_08688555128990283" class="sites-embed" role="complementary"><h4 class="sites-embed-title"></h4><div class="sites-embed-content sites-embed-content-sidebar-textbox"><div dir="ltr"><div style="color:rgb(0,0,0);font-family:Arial,Verdana,sans-serif;font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;text-align:left;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px;display:block"><div style="display:block;text-align:left"><font color="#ffffff" style="background-color:rgb(153,0,0)"><b>   Links to<span> </span></b>                              </font></div><div style="display:block;text-align:left"><a href="http://www.uic.edu/uic/" rel="nofollow"><img border="0" src="https://sites.google.com/site/ismndlab/config/uic_logo.jpg" /></a></div><br /></div><div style="color:rgb(0,0,0);font-family:Arial,Verdana,sans-serif;font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;text-align:left;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px;display:block"><a href="http://www.mie.uic.edu/MIE/WebHome" rel="nofollow"><img border="0" src="https://sites.google.com/site/ismndlab/config/col_eng_mie_logo.jpg" /></a></div></div></div></div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_7557581194547499" class="sites-sidebar-plusone-wrapper"><div class="g-plusone" data-count="true" data-size="standard" data-source="google:sites"></div></div>
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas" role="main">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="display: none;">
+</div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="display: none;" align="left">
+<span id="sites-page-title" dir="ltr" tabindex="-1" style="outline: none">Home</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div style="font:13px/19px Lucida Grande,Lucida Sans Unicode,Arial,sans-serif;text-align:left;color:rgb(0,0,0);text-transform:none;text-indent:0px;letter-spacing:normal;word-spacing:0px;white-space:normal;font-size-adjust:none;font-stretch:normal;background-color:rgb(255,255,255)"><b><span style="font-size:12px;font-weight:normal"><h4 style="margin:0px;padding:3px 5px;border:currentColor;text-align:left;color:rgb(255,255,255)!important;font-family:arial!important;font-size:12px;background-repeat:no-repeat no-repeat!important;background-color:rgb(15,57,94)!important"><a name="TOC-About-ISM-D-Lab..."></a>About ISM&amp;D Lab...</h4></span></b></div><span style="font:13px/19px Lucida Grande,Lucida Sans Unicode,Arial,sans-serif;text-align:left;color:rgb(0,0,0);text-transform:none;text-indent:0px;letter-spacing:normal;word-spacing:0px;float:none;display:inline!important;white-space:normal;font-size-adjust:none;font-stretch:normal;background-color:rgb(255,255,255)"><div> </div><div><font color="#0b5394"><strong>Welcome to the Intelligent Systems and Modeling &amp; Design (ISM&amp;D) laboratory at University of Illinois at Chicago. Our team specializes in the following research areas:</strong></font></div><div><span>    </span>1. Developing state-of-the-art diagnostic and prognostic methods for machine health.<br /><span>    </span>2. Supporting computational methods including signal processing, data mining, nonlinear filtering etc.<br /><span>    </span>3. Applications of our methodologies to a wide variety of engineering problems including those that <span>    </span><span>    </span>       arise in mechanical, industrial, aerospace engineering.</div></span><div style="font:13px/19px Lucida Grande,Lucida Sans Unicode,Arial,sans-serif;text-align:left;color:rgb(0,0,0);text-transform:none;text-indent:0px;letter-spacing:normal;word-spacing:0px;white-space:normal;font-size-adjust:none;font-stretch:normal;background-color:rgb(255,255,255)"><br /><span style="font-size:12px"><h4 style="margin:0px;padding:3px 5px;border:currentColor;text-align:left;color:rgb(255,255,255)!important;font-family:arial!important;font-size:12px;background-repeat:no-repeat no-repeat!important;background-color:rgb(15,57,94)!important"><a name="TOC-Welcome"></a>Welcome </h4></span><div> </div><div>The Intelligent Systems Modeling &amp; Development Laboratory is one of the research laboratories in the Department of Mechanical and Industrial Engineering, University of Illinois at Chicago. It is located in room 4031 in the Science and Engineering building (SEL).</div><div> </div><div><div style="text-align:center;margin-right:auto;margin-left:auto"><div style="text-align:center;display:block"><div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/a/uic.edu/ismdlab/home/IMG_2912.JPG?attredirects=0" imageanchor="1"><img border="0" src="https://sites.google.com/a/uic.edu/ismdlab/_/rsrc/1417549644213/home/IMG_2912.JPG" style="width:100%" /></a></div><br /></div><br /></div><div style="text-align:center;margin-right:auto;margin-left:auto"> </div><div style="text-align:center;margin-right:auto;margin-left:auto"> </div><div style="text-align:center;margin-right:auto;margin-left:auto"><h4 style="margin:0px;padding:3px 5px;border:currentColor;text-align:left;color:rgb(255,255,255)!important;font-family:arial!important;font-size:12px;background-repeat:no-repeat no-repeat!important;background-color:rgb(15,57,94)!important"><a name="TOC-News-of-ISM-D-Lab"></a>News of ISM&amp;D Lab</h4></div></div></div><div style="font:13px/19px Lucida Grande,Lucida Sans Unicode,Arial,sans-serif;text-align:left;color:rgb(0,0,0);text-transform:none;text-indent:0px;letter-spacing:normal;word-spacing:0px;white-space:normal;font-size-adjust:none;font-stretch:normal;background-color:rgb(255,255,255)">
+<div style="display:block; margin:5px auto 5px 0; text-align:left; clear:both; display:block;">
+<div class="sites-embed sites-embed-noborder" style="sites-embed-full-width">
+<h4 class="sites-embed-title">Recent Announcements</h4>
+<div class="sites-embed-content">
+<ul class="sites-announcement-snippet">
+<li class="line-divider sites-embed-background sites-clear" dir="ltr">
+<div class="sites-announcement-snippet-thumbnail">
+<IMG src="https://sites.google.com/a/uic.edu/ismdlab/_/rsrc/1432352120244/Announcements/awardandachivements/DSC_0013.JPG" id="recentannouncements-thumb-3232458355814889" class="sites-recentannouncements-thumbnails" style="display:none" />
+</div>
+<a href="/a/uic.edu/ismdlab/Announcements/awardandachivements" dir="ltr" class="sites-announcement-embed-post-title">
+                    Award and Achivements.</a>
+<span class="wiki_summarized" dir="ltr">Ph.D. candidate Jae Yoon won the Runner-up Student Paper Award by British Institute of Non-Destructive Testing (BINDT) at the Machinery Failure Prevention Technology (MFPT) 2015 conference.<b>Jae</b> ... </span><BR />
+<span class="sites-text-secondary">
+<script type="text/javascript">
+      //<![CDATA[
+        function JOT_insertRelDate(timestamp, absTimeStr, isSiteLocale, dir) {
+          var relTimeStr = JOT_formatRelativeToNow(timestamp, isSiteLocale);
+          if (relTimeStr) {
+            if (isSiteLocale) {
+              document.write('<span timestamp="' + timestamp + '" issitelocale="' + isSiteLocale +
+                '" title="' + absTimeStr + '" dir="' + dir + '">' + relTimeStr + '<' + '/span>');
+            } else {
+              document.write('<span timestamp="' + timestamp + '" title="' + absTimeStr +
+              '" dir="' + dir + '">' + relTimeStr + '<' + '/span>');
+            }
+          } else {
+            document.write(absTimeStr);
+          }
+        }
+      //]]>
+</script>
+      
+    
+  
+  Posted <span dir="ltr">May 22, 2015, 8:36 PM</span> by Unknown user
+
+                    </span>
+</li>
+<li class="line-divider sites-embed-background sites-clear" dir="ltr">
+<a href="/a/uic.edu/ismdlab/Announcements/awardandachivement" dir="ltr" class="sites-announcement-embed-post-title">
+                    Award and Achivements.</a>
+<span class="wiki_summarized" dir="ltr"><font>Jae Yoon, PhD candidate of ISM&amp;D lab, selected to participate in the 2014 PHM society doctoral symposium.</font><span>  </span><font>"Development of New Methodology and Tools for Planetary Gearbox Fault Diagnostics and</font> ... </span><BR />
+<span class="sites-text-secondary">
+                      
+  
+  
+  
+  
+  Posted <span dir="ltr">Dec 19, 2014, 1:21 PM</span> by Unknown user
+
+                    </span>
+</li>
+<li class="line-divider sites-embed-background sites-clear" dir="ltr">
+<div class="sites-announcement-snippet-thumbnail">
+<IMG src="https://sites.google.com/a/uic.edu/ismdlab/_/rsrc/1417557401598/Announcements/untitledpost/6%20-%20Saab%20Student%20Paper%20Award.jpg" id="recentannouncements-thumb-5235346700862573" class="sites-recentannouncements-thumbnails" style="display:none" />
+</div>
+<a href="/a/uic.edu/ismdlab/Announcements/untitledpost" dir="ltr" class="sites-announcement-embed-post-title">
+                    Award and Achievements.</a>
+<span class="wiki_summarized" dir="ltr"><span>Ph.D. candidate Yongzhi Qu won the Best Student Paper Award by SAAB Defense Security at the Machinery Failure Prevention Technology (MFPT) 2014 conference.</span><i>Yongzhi Qu, Brandon Van Hecke, David</i> ... </span><BR />
+<span class="sites-text-secondary">
+                      
+  
+  
+  
+  
+  Posted <span dir="ltr">Dec 2, 2014, 2:08 PM</span> by Unknown user
+
+                    </span>
+</li>
+<li class="line-divider sites-embed-background sites-clear" dir="ltr">
+<a href="/a/uic.edu/ismdlab/Announcements/awardandachievements-2" dir="ltr" class="sites-announcement-embed-post-title">
+                    Award and Achievements</a>
+<span class="wiki_summarized" dir="ltr"><font><span>Brandon Van Hecke, PhD student of ISM&amp;D lab, </span></font><font>selected to participate in the 2013 PHM society doctoral</font><font><span> consortium.</span></font> <span> </span><span><font>
+
+"Development of Novel Methodology and Tools for Bearing Fault Diagnostics"</font></span><span> </span><strong><span><font>ABSTRACT</font></span></strong> ... </span><BR />
+<span class="sites-text-secondary">
+                      
+  
+  
+  
+  
+  Posted <span dir="ltr">Oct 1, 2013, 10:04 AM</span> by Unknown user
+
+                    </span>
+</li>
+<li class="line-divider sites-embed-background sites-clear" dir="ltr">
+<a href="/a/uic.edu/ismdlab/Announcements/jundazhusphddefense-8132013" dir="ltr" class="sites-announcement-embed-post-title">
+                    Junda Zhu's Ph.D. Defense - 8/13/2013</a>
+<span class="wiki_summarized" dir="ltr">One of the PhD candidate Junda Zhu successfully defended his dissertation.<b>Title:</b> <span>"Online Industrial Lubrication Oil Health Condition Monitoring, Diagnosis and Prognostics"</span><b><span>Abstract:</span></b><span>In this dissertation, lubrication oil degradation basic</span> ... </span><BR />
+<span class="sites-text-secondary">
+                      
+  
+  
+  
+  
+  Posted <span dir="ltr">Oct 1, 2013, 1:32 PM</span> by Unknown user
+
+                    </span>
+</li>
+</ul>
+<div class="sites-embed-showing-results">
+                
+                    Showing posts <strong>1 - 5</strong> of <strong>9</strong>.
+                    <a href="/a/uic.edu/ismdlab/Announcements" dir="ltr">View more »</a>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+        //<![CDATA[
+          JOT_recentAnnouncementPreloadImages = function() {
+            var loader = new gsites.util.ImagePreloader();
+            loader.init('sites-canvas-main-content', 'sites-recentannouncements-thumbnails');
+          };
+          JOT_addListener('pageLoaded', JOT_recentAnnouncementPreloadImages);
+          JOT_addListener('completeEditRender', JOT_recentAnnouncementPreloadImages);
+        //]]>
+</script>
+</div><div> </div></div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-subpages"> </div>
+<div id="sites-attachments-container">
+</div>
+</div>
+</div> 
+</td> 
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-subfooter"><div class="sites-subfooter-content"><div dir="ltr"><div style="text-align:center"><b>Intelligent Systems Modeling &amp; Development </b><b>(ISM&amp;D) </b><b>Laboratory </b></div><div style="text-align:center"><span style="font-family:arial,verdana,sans-serif;line-height:18.8899993896484px;background-color:rgb(255,255,255)">SEL </span><span style="line-height:18.89px;font-family:arial,verdana,sans-serif;background-color:rgb(255,255,255)">4031, University of Illinois at Chicago, Chicago, IL 60607</span> | <span style="line-height:18.89px;font-family:arial,verdana,sans-serif;background-color:rgb(255,255,255)">T. <span title="Call with Google Voice"><span title="Call with Google Voice">312-996-2387</span></span></span></div><div style="text-align:center">For problems or questions regarding this web, contact <a href="mailto:jyoon52@uic.edu">WEBMASTER</a></div><div style="text-align:center">Copyright © 2014 Intelligent Systems Modeling &amp; Development Laboratory. All rights reserved.</div></div></div></div>
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-adminfooter-container">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter" role="navigation"><p><a class="sites-system-link" href="https://accounts.google.com/ServiceLogin?continue=https://sites.google.com/a/uic.edu/ismdlab/home&amp;service=jotspot">Sign in</a><span aria-hidden="true">|</span><a class="sites-system-link" href="/a/uic.edu/ismdlab/system/app/pages/recentChanges">Recent Site Activity</a><span aria-hidden="true">|</span><a class="sites-system-link" href="https://sites.google.com/a/uic.edu/ismdlab/system/app/pages/reportAbuse" target="_blank">Report Abuse</a><span aria-hidden="true">|</span><a class="sites-system-link" href="javascript:;" onclick="window.open(webspace.printUrl)">Print Page</a><span aria-hidden="true">|</span><span class="sites-system-link">Powered By</span> <b class="powered-by"><a href="http://sites.google.com/site">Google Sites</a></b></p></div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-onebar-footer">
+</div>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="https://ssl.gstatic.com/sites/p/a35f98/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+                    sites.Searchbox.initialize(
+                        'sites-searchbox-search-button',
+                        {"object":[]}['object'],
+                        'search-site',
+                        {"label":"Configure search options...","url":"/a/uic.edu/ismdlab/system/app/pages/admin/settings"});
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("2bd", "Navigation", false);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_2bd');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+  setTimeout(function() {
+    var fingerprint = gsites.date.TimeZone.getFingerprint([1109635200000, 1128902400000, 1130657000000, 1143333000000, 1143806400000, 1145000000000, 1146380000000, 1152489600000, 1159800000000, 1159500000000, 1162095000000, 1162075000000, 1162105500000]);
+    gsites.Xhr.send('https://sites.google.com/a/uic.edu/ismdlab/_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
+  }, 500);
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type + ",user_page";
+                      window.jstiming.report(loadTimer, {}, 'https://gg.google.com/csi');
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false,
+            false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+        webspace, "en");
+    maestroRunner.initListeners();
+    maestroRunner.installEditRender();
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+  //]]>
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    JOT_postEvent('decorateGvizCharts');
+  </script>
+<script type="text/javascript">
+          JOT_setupPostRenderingManager();
+        </script>
+<script type="text/javascript">
+          JOT_postEvent('renderPlus', null, 'sites-chrome-main');
+        </script>
+<script type="text/javascript">
+          sites.codeembed.init();
+        </script>
+<div id="server-timer-div" style="display:none"> </div>
+<script type="text/javascript">
+          window.jstiming.load.tick('render');
+          JOT_postEvent('usercontentrendered', this);
+        </script>
+</body>
+</html>
